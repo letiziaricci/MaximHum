@@ -87,7 +87,7 @@
          </div>         
       </front>
       <body xml:lang="Cyrl">
-         <p>Понеже твое благородие велѣло мнѣ писаниемЪ своимъ послати к тебѣ разрѣшение нѣкых <anchor xml:id="vI3-1"/>недоумѣваемых<anchor xml:id="vI3-2"/> тебѣ взыскании, праведно судих не <anchor xml:id="vI4-1"/>преити<anchor xml:id="vI4-2"/> <anchor xml:id="vI5-1"/>прошение<anchor xml:id="vI5-2"/> твос, аще и превъсходяще е, вѣмъ силу худыя мысли моея.<cit><quote type="biblical-1">And God created great whales</quote></cit> <!-- PROVA CITAZIONE BIBLICHE -->.</p>
+         <p>Понеже твое благородие велѣло мнѣ писаниемЪ своимъ послати к тебѣ разрѣшение нѣкых <anchor xml:id="vI3-1"/>недоумѣваемых<anchor xml:id="vI3-2"/> тебѣ взыскании, праведно судих не <anchor xml:id="vI4-1"/>преити<anchor xml:id="vI4-2"/> <anchor xml:id="vI5-1"/>прошение<anchor xml:id="vI5-2"/> твос, аще и превъсходяще е, вѣмъ силу худыя мысли моея.<cit><quote xml:id="biblical-1">And God created great whales</quote></cit> <!-- PROVA CITAZIONE BIBLICHE -->.</p>
       </body>
       <back>
       <listWit xml:lang="Cyrl">            
