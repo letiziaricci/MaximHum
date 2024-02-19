@@ -89,16 +89,18 @@
       <body xml:lang="Cyrl">
          <p>Понеже твое благородие велѣло мнѣ писаниемЪ своимъ послати к тебѣ разрѣшение нѣкых <anchor xml:id="vI3-1"/>недоумѣваемых<anchor xml:id="vI3-2"/> тебѣ взыскании, праведно судих не <anchor xml:id="vI4-1"/>преити<anchor xml:id="vI4-2"/> <anchor xml:id="vI5-1"/>прошение<anchor xml:id="vI5-2"/> твос, аще и превъсходяще е, вѣмъ силу худыя мысли моея.<cit><quote xml:id="biblical-1">And God created great whales</quote></cit> <!-- PROVA CITAZIONE BIBLICHE -->.</p>
       </body>
+      
       <back>
-      <listWit xml:lang="Cyrl">            
+      <listWit xml:lang="Cyrl"> <!-- lista dei testimoni -->           
          <witness xml:id="И">
             РГБ, собр. МДА/1, No 42, глава 41, <locus>л. 359 об.-367 об.</locus>
          </witness>
          <witness xml:id="P">
             РГБ, собр. Румянцева, No 264, статья 67, <locus>л. 119 об.-121 об.</locus>
          </witness>
-      </listWit>
-      <listApp type="varianti" xml:lang="Cyrl"> <!-- note numeriche -->
+      </listWit>  
+         
+      <listApp type="varianti" xml:lang="Cyrl"> <!-- note numeriche = varianti -->
          <listApp>
             <head rend="super">I,1</head> <!-- xml:lang="it" -->
             <app from="#vI1-1" to="#vI1-2">
@@ -124,7 +126,8 @@
             </app>
          </listApp>
       </listApp>
-      <div type="commenti" xml:lang="Cyrl"> <!-- note alfabetiche -->
+         
+      <div type="commenti" xml:lang="Cyrl"> <!-- note alfabetiche = commenti al testo-->
          <note target="#c1-1 #c1-2">
             <term rend="super">а</term> <!-- lettera in apice così?-->
             <p><hi rend="italic">Вторая буква и не видна из-за повреждения листа рукописи, 7 св.</hi></p>
@@ -139,6 +142,7 @@
              </app>
           </listApp>
       </listApp> -->
+         
       <div type="citazioni"> <!-- PROVA CITAZIONI BIBLICHE -->
          <cit corresp="#biblical-1">
             <bibl>(Is 3,1)</bibl>
@@ -147,7 +151,8 @@
             <bibl>(Is 3,6)</bibl>
          </cit>
       </div>
-      <listBibl type="textEditions">
+         
+      <listBibl type="textEditions"> <!-- edizioni di riferimento con posizione del testo nell'edizione-->
          <bibl xml:id="Autore1">
             <author>Autore</author>
             <date>data</date>: <biblScope unit="page" from="1013" to="1023">1013–23</biblScope> <biblScope unit="issue">nr. 1</biblScope>; <!-- posizione del testo nell'edizione -->
@@ -157,7 +162,8 @@
             <date>data</date>: <biblScope unit="page" from="1013" to="1023">1013–23</biblScope> <biblScope unit="issue">nr. 2</biblScope>. 
          </bibl>
       </listBibl>
-      <listBibl type="editionsBibliography">
+         
+      <listBibl type="editionsBibliography"> <!-- bibliografia estesa delle edizioni -->
          <bibl corresp="#Autore1">
             <!--record bibliografici estesi -->
          </bibl>
