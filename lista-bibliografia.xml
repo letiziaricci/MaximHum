@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>   
+         
+         <listBibl type="bibliographic-list"> <!-- DA COMPLETARE -->
+           
+           <bibl xml:id="MG-2008">
+              <title>Titolo </title>, 
+              <author></author> 
+              <date>2008</date>
+              <publisher></publisher>
+              <pubPlace></pubPlace>
+              <biblScope unit="volume"></biblScope>
+              <biblScope unit="issue"></biblScope>
+           </bibl>
+           
+           <bibl xml:id="MG-2014">
+              <title>Titolo </title>, 
+              <author></author> 
+              <date>2014</date>
+              <publisher></publisher>
+              <pubPlace></pubPlace>
+              <biblScope unit="volume"></biblScope>
+              <biblScope unit="issue"></biblScope>
+           </bibl>
+           
+           <bibl xml:id="Zur-2011">
+              <title>Titolo </title>, 
+              <author>Žurova</author> 
+              <date>2011</date>
+              <publisher></publisher>
+              <pubPlace></pubPlace>
+              <biblScope unit="volume"></biblScope>
+              <biblScope unit="issue"></biblScope>
+           </bibl>
+            
+            <bibl xml:id="MG-1860">
+               <title>Titolo </title>, 
+               <author></author> 
+               <date>1860</date>
+               <publisher></publisher>
+               <pubPlace></pubPlace>
+               <biblScope unit="volume">II</biblScope>
+               <biblScope unit="issue"></biblScope>
+            </bibl>
+           
+           <bibl xml:id="Rzi-1934">
+              <title>Titolo </title>, 
+              <author>Rziga</author> 
+              <date>1934</date>
+              <publisher></publisher>
+              <pubPlace></pubPlace>
+              <biblScope unit="volume"></biblScope>
+              <biblScope unit="issue"></biblScope>
+           </bibl>
+           
+           <bibl xml:id="Bul-1984">
+              <title>Titolo </title>, 
+              <author></author> 
+              <date>1984</date>
+              <publisher></publisher>
+              <pubPlace></pubPlace>
+              <biblScope unit="volume"></biblScope>
+              <biblScope unit="issue"></biblScope>
+           </bibl>
+           
+           <bibl xml:id="Iva-1969">
+              <title>Titolo </title>, 
+              <author></author> 
+              <date>1969</date>
+              <publisher></publisher>
+              <pubPlace></pubPlace>
+              <biblScope unit="volume"></biblScope>
+              <biblScope unit="issue"></biblScope>
+           </bibl>
+           
+        </listBibl>
+        
+      </body>
+  </text>
+</TEI>
