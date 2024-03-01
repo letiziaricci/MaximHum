@@ -90,27 +90,25 @@
          </langUsage>
          
          <textClass>
-            <keywords scheme="#l-label"> 
+            <keywords scheme="#label"> 
                <term>Слово</term> 
                <term>Словеса</term> 
                <term>...</term> 
             </keywords>
-            <keywords scheme="#l-genre"> 
+            <keywords scheme="#genre"> 
                <term>Epistola</term> 
                <term>Tranello polemico</term> 
                <term>...</term> 
             </keywords>
-            <keywords scheme="#t-scope"> 
+            <keywords scheme="#scope"> 
                <term>...</term> 
                <term>...</term> 
             </keywords>
          </textClass>
          
          <textClass>
-            <keywords scheme="#attr"> <!--  testo originale / traduzione / dubium -->
-               <term>Originale</term> 
-               <term >...</term>
-               <term>...</term>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione / dubium -->
+               <term target="#dubium" source="#Iva-1969">dubium</term> 
                <!-- nel caso di traduzione si indica di fianco il locus il PG o CPG dove noto, nel caso di dubium il record bibliografico -->
             </keywords>
          </textClass>
@@ -120,20 +118,20 @@
         
          <classDecl>
             <taxonomy>
-               <category xml:id="l-label">
+               <category xml:id="label">
                   <catDesc>Literary label</catDesc> 
                </category>
-               <category xml:id="l-genre">
+               <category xml:id="genre">
                   <catDesc>Literary genre</catDesc>
                </category>
-               <category xml:id="t-scope">
+               <category xml:id="scope">
                   <catDesc>Thematic scope</catDesc>
                </category>
             </taxonomy>
          </classDecl>
          
          <classDecl>
-            <taxonomy xml:id="attr">
+            <taxonomy xml:id="attribution">
                <category>
                   <catDesc>Attribution</catDesc>
                </category>
@@ -146,14 +144,14 @@
    <text xml:lang="cu-Cyrs">
       <front>
          <div type="rubric" ana="#rubric">  <!-- titolo del testo nel  manoscritto (se presente) -->
-            <p><pb type="folio" rend="л. 51"/> Того же <anchor xml:id="v1a1"/><hi rend="super">1</hi>инока Максима Грека<hi rend="super">1</hi><anchor xml:id="v1a2"/>. Сложение въкратцѣ о бывшемъ пожарѣ тферскомъ; тако<anchor xml:id="v2a1"/><hi rend="super">2</hi><anchor xml:id="v2a2"/> же и похвала о<anchor xml:id="v3a1"/><hi rend="super">3</hi><anchor xml:id="v3a2"/> обновлении церковнаго украшения, бывшаго боголюбивым<anchor xml:id="v4a1"/><hi rend="super">4</hi><anchor xml:id="v4a2"/> епископомъ тферскым<anchor xml:id="v5a1"/><hi rend="super">5</hi><anchor xml:id="v5a2"/> Акакием<anchor xml:id="v6a1"/><hi rend="super">6</hi><anchor xml:id="v6a2"/>.</p>            
+            <p><pb type="folio" rend="л. 51"/> Того же <anchor xml:id="v1a1" n="1" rend="super"/>инока Максима Грека<anchor xml:id="v1a2" n="1" rend="super"/>. Сложение въкратцѣ о бывшемъ пожарѣ тферскомъ; тако<anchor xml:id="v2a1" n="2" rend="super"/> же и похвала о<anchor xml:id="v3a1" n="3" rend="super"/> обновлении церковнаго украшения, бывшаго боголюбивым<anchor xml:id="v4a1" n="4" rend="super"/> епископомъ тферскым<anchor xml:id="v5a1" n="5" rend="super"/> Акакием<anchor xml:id="v6a1" n="6" rend="super"/>.</p>            
          </div>         
       </front>
       <body>
          <p>«Обновления почитати древнии законъ есть, и добрѣ уставленъ», - глаголетъ преизобилныи^7^ въ богословии Григории^8^. И како не добрѣ уставленъ, идѣже ими два велия нѣкая сътворяются, ибо и промыслъ, и еже о насъ прилежание^9^ всѣх Съдѣтеля и Владыкы явлена бываютъ выну всѣмъ человѣком, <milestone unit="page" rend="//"/><pb type="folio" rend="л. 51 об."/> имиже едиными вся яже^10^ о нас и правятся, и къ нашеи ползѣ устраяются. Такожде и дѣания, и велелѣпная съоружения добрых и боголюбивыхъ архиереехъ^11^, и благовѣрных цареи, и всѣх властелеи^12^, и еже о добрых, сирѣчь елика въ славу и честь^13^ тянуть, тщание же и попечение ихъ пѣваемо бываеть^14^ и незабытно присно пребываеть от рода къ роду всегда препосылаема^15^ и на подражание добрых ихъ исправлении^16^ въставляюща^17^ послѣднеродных.</p>
          <p>Симъ убо сице ся имущимъ, праведно и мнѣ, неключимому, показася не предати забвению, но краткымъ^18^ писаниемъ явлено сътворити послѣднимъ родом съдѣяное неизслѣдованными судбами Владыкы всѣх въ преславном^19^ градѣ Тферскомъ^20^ при государьствѣ <milestone unit="page" rend="//"/><pb type="folio" rend="л. 52"/> благовѣрнаго самодръжца всея Руси, великаго князя Ивана^21^ Василиевича и Акакии, боголюбивомъ епископѣ, добрѣ и честнѣ правящемъ^22^ церковныя кръмила тферскыя епископии.</p>
          <p>Въ 45^23^ лѣто осмыя тысящи въ 22 юлиа^24^ месяца солнцу^25^ полдень минующу, судбами Божиими неизреченными огнь, не вѣмы^26^ откуду, възгорѣвся внезапу^27^ и духъ буренъ възставъ^28^ от сѣверскых странъ градскыа стѣны^29^. Саму же стѣну всю окрестъ и велику съборную церковь съ всѣми святыми образы, и священными^30^ съсуды, и пеленами, и книгами, и ины многы^31^ священыя^32^ храмы и дворы всѣ^33^ вся вкупѣ вытребилъ въ малѣ^34^ времени. Видѣние страшно и многымъ слезамъ достоино: огню, зѣлным вѣтромъ <milestone unit="page" rend="//"/><pb type="folio" rend="л. 52 об."/> гониму, вся всъкорѣ изъѣдшу, и людем многымъ^35^ погорѣвшим, невъзмогшим^36^ избѣжати гонениа пламеннаго.</p>
-         <p>О, неиспытаных судебъ^37^ Твоих, Христе Спасе! Кто доволенъ разумѣти и насъ научити толь велие Твое на нас праведное всяко за грѣхы нашя попущение^38^? Паче же кто доволенъ молбою утолити толь велие Твое на нас праведное негодование, о нем же прогнѣваемъ неисчетное Твое^39^ о^40^ нас, неблагодарных, человѣколюбие же и благость, преступлениемъ спасителных Твоихъ заповѣдеи? <cit><quote xml:id="biblical-1">«Праведенъ еси^41^, Господи, и прави суди Твои»</quote></cit>, по божественому и поклоняемому слову, яко^42^ наказаниа ради и обращения нашего ниже самѣхъ Твоихъ святых и^43^ поклоняемых щадиш^44^ храмовъ и образовъ Твоихъ, и Пре<milestone unit="page" rend="//"/><pb type="folio" rend="л. 53"/>чистыя Ти Матере, и всѣх святых Твоихъ. Но и сия вся или рукама<anchor xml:id="c1a2"/><hi rend="super">а</hi><anchor xml:id="c1a1"/><anchor xml:id="v45a1"/><hi rend="super">45</hi><anchor xml:id="v45a2"/> безбожных скифъ^46^ разаряешь^47^ или огнемъ вытребляешь до конца, образом симъ сказуя намъ, нечювьственымъ, нестерпимо^48^ Твое праведное негодование еже на нас. Да познаемъ себе самѣхъ и прегрѣшении наших и, познавше, покаимся^49^ Тебѣ^50^ достоино^51^ беззакониомъ^52^ нашим. Еи, Господи, буди намъ, познавшим прегрѣшения нашя, каятися Тебѣ от всея души, съ всякымъ смиреномудриемъ, и праведными дѣлы, и щедротами^53^ убогыхъ!</p>
+         <p>О, неиспытаных судебъ^37^ Твоих, Христе Спасе! Кто доволенъ разумѣти и насъ научити толь велие Твое на нас праведное всяко за грѣхы нашя попущение^38^? Паче же кто доволенъ молбою утолити толь велие Твое на нас праведное негодование, о нем же прогнѣваемъ неисчетное Твое^39^ о^40^ нас, неблагодарных, человѣколюбие же и благость, преступлениемъ спасителных Твоихъ заповѣдеи? <cit><quote xml:id="biblical-1">«Праведенъ еси^41^, Господи, и прави суди Твои»</quote></cit>, по божественому и поклоняемому слову, яко^42^ наказаниа ради и обращения нашего ниже самѣхъ Твоихъ святых и^43^ поклоняемых щадиш^44^ храмовъ и образовъ Твоихъ, и Пре<milestone unit="page" rend="//"/><pb type="folio" rend="л. 53"/>чистыя Ти Матере, и всѣх святых Твоихъ. Но и сия вся или рукама<anchor xml:id="c1a2" n="а" rend="super"/><anchor xml:id="v45a1" n="45" rend="super"/> безбожных скифъ^46^ разаряешь^47^ или огнемъ вытребляешь до конца, образом симъ сказуя намъ, нечювьственымъ, нестерпимо^48^ Твое праведное негодование еже на нас. Да познаемъ себе самѣхъ и прегрѣшении наших и, познавше, покаимся^49^ Тебѣ^50^ достоино^51^ беззакониомъ^52^ нашим. Еи, Господи, буди намъ, познавшим прегрѣшения нашя, каятися Тебѣ от всея души, съ всякымъ смиреномудриемъ, и праведными дѣлы, и щедротами^53^ убогыхъ!</p>
       </body>
       
       <back> 
@@ -168,32 +166,32 @@
             </listApp>
             <listApp>
                <head rend="super">2</head> 
-               <app from="#v2a1" to="#v2a2">
+               <app from="#v2a1">
                   <rdg wit="#П">како</rdg>
                </app>
             </listApp>
             <listApp>
                <head rend="super">3</head> 
-               <app from="#v3a1" to="#v3a2">
+               <app from="#v3a1">
                   <rdg><witDetail wit="#Сл"><hi rend="italic">Нет</hi></witDetail></rdg>
                </app>
             </listApp>
             <listApp>
                <head rend="super">4</head> 
-               <app from="#v4a1" to="#v4a2">
+               <app from="#v4a1">
                   <rdg wit="#И"><hi rend="italic">Испр. из</hi> боголюбиваго: <hi rend="italic">зачеркнуты буквы</hi> аго, <hi rend="italic">вписаны над строкой буквы</hi> ымъ <hi rend="italic">почерком Максима Грека, л. 248, 3 св.</hi></rdg>
                </app>
             </listApp>
             <listApp>
                <head rend="super">45</head> 
-               <app from="#v45a1" to="#v45a2">
+               <app from="#v45a1">
                   <rdg wit="#И #P #Сл #У">руками</rdg>
                </app>
             </listApp>
          </listApp>
          
          <div type="editorial-note"> <!-- note alfabetiche = commenti al testo-->
-            <note target="#c1a1 #c1a2">
+            <note corresp="#c1a1" >
                <term rend="super">а</term> <!-- lettera in apice così?-->
                <p><hi rend="italic">Вписано на правом поле со знаком вставки почерком Максима Грека</hi></p>
             </note>
@@ -210,7 +208,7 @@
          
          <div type="other-cit">
             <cit corresp="#cit-1">
-               <bibl>Citazioni non biblioche</bibl>
+               <bibl>Citazioni non bibliche</bibl>
             </cit>
          </div>
 
