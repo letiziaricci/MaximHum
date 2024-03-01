@@ -1,0 +1,16 @@
+Legenda delle convenzioni:
+
+id del tag <work> deve essere identificativo di Ivanov es: <work n="1" id="Ivanov-332">
+stesso identificativo deve essere il nome del file trascrizione es: Ivanov-332.xml
+
+
+^ ^ contengono l'apice nel testo (но краткымъ^18^); 
+
+# indica l'apice della nota in apparato (#18 краткымъ)
+
+// indica la foliazione ed è sempre seguito dall'indicazione del foglio tra parentesi quadre [];
+(se dopo la parentesi quadra non c'è lo spazio significa che il foglio finiva a metà parola, quindi la parola era tagliata di metà dal doppio slash)
+
+{} contengono la lettera greca e il numero che indicano i paragrafi nella Suda;
+
+* indica una citazione biblica.
