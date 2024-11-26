@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lista dei manoscritti</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <body> 
+        <msDesc xml:id="BNF-1994">   <!-- DA FINIRE -->
+           <msIdentifier>
+              <country>FR</country>
+              <settlement>Parigi</settlement>
+              <repository>BNF - Bibliothèque nationale de France (Biblioteca Nazionale di Francia)</repository> 
+              <collection>Парижская национальная библиотека [Bibliothèque nationale de France]</collection> 
+              <idno>Gr. 1994</idno>
+           </msIdentifier>
+           <msContents>
+              <msItem>
+                 <title>Geoponica</title>
+              </msItem>
+           </msContents>
+           <history>
+              <origin>
+                 <origDate type="copying-date">1492-1494/1495</origDate>
+                 <origPlace type="copying-palce" ref="lista-luoghi.xml#Fi">Firenze</origPlace>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="OBL-27">  
+           <msIdentifier>
+              <country>FR</country>
+              <settlement>Parigi</settlement>
+              <repository>BNF - Bibliothèque nationale de France (Biblioteca Nazionale di Francia)</repository> 
+              <collection>Парижская национальная библиотека [Bibliothèque nationale de France]</collection> 
+              <idno>1994</idno>
+           </msIdentifier>
+           <msContents>
+              <msItem>
+                 <title>Geoponica</title>
+              </msItem>
+           </msContents>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(XVI век)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="BAV-1379">  
+           <msIdentifier>
+              <country>IT</country>
+              <settlement>Roma</settlement>
+              <repository>BAV - Biblioteca Apostolica Vaticana</repository> 
+              <collection>Ватиканская апостольская библиотека (Biblioteca Apostolica Vaticana)</collection> 
+              <idno>4103</idno>
+           </msIdentifier>
+           <msContents>
+              <msItem>
+                 <title>Geoponica</title>
+              </msItem>
+           </msContents>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(середина XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+         
+        <msDesc xml:id="BAV-100">  
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Государственная Библиотека (Biblioteca Nazionale Russa)</repository>
+               <collection>Софийское собрание</collection> 
+               <idno>1498</idno>
+            </msIdentifier>
+           <msContents>
+              <msItem>
+                 <title>Geoponica</title>
+              </msItem>
+           </msContents>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(XVI век)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+        <msDesc xml:id="BAV-140">  
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РГИА - Российский Государственный Исторический Архив (Archivio Storico Russo di Stato)</repository> 
+               <collection type="fondo">ф. 834 оп. 3</collection>
+               <idno>4025</idno>
+            </msIdentifier>
+           <msContents>
+              <msItem>
+                 <title>Geoponica</title>
+              </msItem>
+           </msContents>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(конец XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+        <msDesc xml:id="BAV-83">  
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+               <collection>Собрание Кирилло-Белозерское</collection> 
+               <idno>131/1208</idno>
+            </msIdentifier>
+           <msContents>
+              <msItem>
+                 <title>Geoponica</title>
+              </msItem>
+           </msContents>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(середина / 3-я четверть XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+        <msDesc xml:id="BML-55.20"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+               <collection>Поморское [Старообрядческое] собрание</collection> 
+               <idno>F.I.425</idno>
+            </msIdentifier>
+           <msContents>
+              <msItem>
+                 <title>Geoponica</title>
+              </msItem>
+           </msContents>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(конец XVIII / начало XIX века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+        <msDesc xml:id="BML-104"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+               <collection>Собрание Синодальное</collection> 
+               <idno>791</idno>
+            </msIdentifier>
+           <msContents>
+              <msItem>
+                 <title>Geoponica</title>
+              </msItem>
+           </msContents>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(середина XVI века) [?]</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+        <msDesc xml:id="BSC-177"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+               <collection>Собрание Епархиальное</collection> 
+               <idno>405</idno>
+            </msIdentifier>
+           <msContents>
+              <msItem>
+                 <title>Geoponica</title>
+              </msItem>
+           </msContents>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(20-е гг. XVI века, после 1524)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+        <msDesc xml:id="BL-5663"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>РГБ - Российская Государственная Библиотека  (Biblioteca Statale Russa)</repository> 
+               <collection type="fondo">ф. 113</collection>
+               <collection>Собрание Волоколамское</collection>
+               <idno>488</idno>
+            </msIdentifier>
+           <msContents>
+              <msItem>
+                 <title>Geoponica</title>
+              </msItem>
+           </msContents>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(середина XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+                
+      </body>
+  </text>
+</TEI>

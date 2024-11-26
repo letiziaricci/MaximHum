@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/Vault/P5/4.7.0/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/Vault/P5/4.7.0/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lista dei luoghi</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>  
+         <listPlace>
+            
+            <listRelation type="known-events">
+               <relation name="be-envolved" active="#Par" passive="lista-eventi.xml#PAR-Univ"/>
+               <relation name="be-envolved" active="#Gal" passive="lista-eventi.xml#PAR-Univ"/>
+               <relation name="be-envolved" active="#Fra" passive="lista-eventi.xml#PAR-Univ"/> 
+            </listRelation>
+            
+            <place xml:id="Adr">
+               <placeName xml:lang="ita">Adriatico</placeName>
+               <placeName xml:lang="cu-Cyrl">Адриатическое море</placeName>
+               <country>Occidente</country>
+               <desc>mare</desc>
+            </place>
+
+            <place xml:id="Alpi">
+               <placeName xml:lang="ita">Alpi</placeName>
+               <placeName xml:lang="cu-Cyrl">Альпы</placeName>
+               <country>Occidente</country>
+               <desc>catena montuosa, confine</desc>
+               <ptr target="Ivanov-133.xml Ivanov-137.xml Ivanov-141.xml"/>
+            </place>
+            
+            <place xml:id="Bo">
+               <placeName xml:lang="ita">Bologna</placeName>
+               <placeName xml:lang="cu-Cyrl">Болонья</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-236.xml"/>
+            </place>
+            
+            <place xml:id="Cad" source="Ivanov-236.xml">
+               <placeName xml:lang="ita">Cadice</placeName>
+               <placeName xml:lang="cu-Cyrl">Кадис</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-133.xml Ivanov-137.xml Ivanov-141.xml Ivanov-260+102.xml"/>
+            </place>
+
+            <place xml:id="Col">
+               <placeName xml:lang="ita">Colonne d'Ercole</placeName>
+               <placeName xml:lang="cu-Cyrl">Геркулесовы столбы</placeName>
+               <country>Occidente</country>
+               <desc>promontori</desc>
+               <ptr target="Ivanov-260+102.xml"/>
+            </place>
+            
+            <place xml:id="Corf">
+               <placeName xml:lang="ita">Corfù (Corcira)</placeName>
+               <placeName xml:lang="cu-Cyrl">Корфу (Керкира)</placeName>
+               <country>Occidente</country>
+               <desc>isola</desc>
+               <ptr target="Ivanov.237.xml"/>
+            </place>
+            
+            <place xml:id="Cor">
+               <placeName xml:lang="ita">Corone</placeName>
+               <placeName xml:lang="cu-Cyrl">Корони</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml"/>
+            </place>
+            
+            <place xml:id="Cub">
+               <placeName xml:lang="ita">Cuba</placeName>
+               <placeName xml:lang="cu-Cyrl">Куба</placeName>
+               <country>Nuovo mondo</country>
+               <desc>isola</desc>
+               <ptr target="Ivanov-260+102.xml"/>
+            </place>
+            
+            <place xml:id="Fe" source="lista-fondi-archivi.xml#BAV-83 lista-fondi-archivi.xml#BML-55.20 lista-fondi-archivi.xml#BML-104">
+               <placeName xml:lang="ita">Ferrara</placeName>
+               <placeName xml:lang="cu-Cyrl">Феррара</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-164.xml"/>
+            </place>
+            
+            <place xml:id="Fi">
+               <placeName xml:lang="ita">Firenze</placeName>
+               <placeName xml:lang="cu-Cyrl">Флоренция</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-239.xml Ivanov-240.xml Ivanov-164.xml Ivanov-229.xml Maksim-Grek-2008-84.xml"/>
+            </place>
+            <place xml:id="Fi-basilica">
+               <placeName xml:lang="ita">Firenze, basilica di San Marco</placeName>
+               <placeName xml:lang="cu-Cyrl">Флоренция, церковь Сан-Марко</placeName>
+               <settlement ref="#Fi">Firenze</settlement>
+               <country>Occidente</country>
+               <desc>luogo di culto</desc>
+               <ptr target="Ivanov-229.xml"/>
+            </place>
+            <place xml:id="Fi-convento">
+               <placeName xml:lang="ita">Firenze, convento di San Marco </placeName>
+               <placeName xml:lang="cu-Cyrl">Флоренция, монастырь Святого Марка</placeName>
+               <settlement ref="#Fi">Firenze</settlement>
+               <country>Occidente</country>
+               <desc>convento</desc>
+               <ptr target="Ivanov-229.xml"/>
+            </place>
+            <place xml:id="Fi-cattedrale">
+               <placeName xml:lang="ita">Firenze, convento di San Marco </placeName>
+               <placeName xml:lang="cu-Cyrl">Флоренция, собор Санта-Мария-дель-Фьоре</placeName>
+               <settlement ref="#Fi">Firenze</settlement>
+               <country>Occidente</country>
+               <desc>duomo</desc>
+               <ptr target="Ivanov-229.xml"/>
+            </place>
+            
+            <place xml:id="Gal">
+               <placeName xml:lang="ita">Gallia</placeName>
+               <placeName xml:lang="cu-Cyrl">Галия</placeName>
+               <country>Occidente</country>
+               <desc>regione geografica, stato (regno)</desc>
+               <ptr target="Ivanov-229.xml Ivanov-153.xml Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml"/>
+            </place>
+            
+            <place xml:id="Fra">
+               <placeName xml:lang="ita">Francia</placeName>
+               <placeName xml:lang="cu-Cyrl">Франция</placeName>
+               <country>Occidente</country>
+               <desc>stato (regno)</desc>
+               <ptr target="Ivanov-229.xml"/>
+            </place>
+            
+            <place xml:id="Ger">
+               <placeName xml:lang="ita">Germania</placeName>
+               <placeName xml:lang="cu-Cyrl">Германия</placeName>
+               <country>Occidente</country>
+               <desc>stato (impero)</desc>
+               <ptr target="Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml"/>
+            </place>
+            
+            <place xml:id="Ind">
+               <placeName xml:lang="ita">Indie occidentali</placeName>
+               <placeName xml:lang="cu-Cyrl">Вест-Индия</placeName>
+               <country>Nuovo mondo</country>
+               <desc>isole</desc>
+               <ptr target="Ivanov-260+102.xml"/>
+            </place>
+            
+            <place xml:id="Iso">
+               <placeName xml:lang="ita">Isole Molucche</placeName>
+               <placeName xml:lang="cu-Cyrl">Молуккские острова</placeName>
+               <country>Nuovo mondo</country>
+               <desc>isole</desc>
+               <desc>isole</desc>
+               <ptr target="Ivanov-260+102.xml"/>
+            </place>
+            
+            <place xml:id="It">
+               <placeName xml:lang="ita">Italia</placeName>
+               <placeName xml:lang="cu-Cyrl">Италия</placeName>
+               <country>Occidente</country>
+               <desc>penisola, stati</desc>
+               <ptr target="Ivanov-133.xml Ivanov-137.xml Ivanov-141.xml Ivanov-164.xml Ivanov-229.xml Ivanov-230.xml Ivanov-153.xml Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml"/>
+            </place>
+            
+            <place xml:id="Lep">
+               <placeName xml:lang="ita">Lepanto</placeName>
+               <placeName xml:lang="cu-Cyrl">Навпакт</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml"/>
+            </place>
+            
+            <place xml:id="Lom">
+               <placeName xml:lang="ita">Lombardia</placeName>
+               <placeName xml:lang="cu-Cyrl">Ломбардия</placeName>
+               <country>Occidente</country>
+               <desc>stato (ducato)</desc>
+               <ptr target="Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml Ivanov-164.xml"/>
+            </place>
+            
+            <place xml:id="Mi">
+               <placeName xml:lang="ita">Milano</placeName>
+               <placeName xml:lang="cu-Cyrl">Милан</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml"/>
+            </place>
+            
+            <place xml:id="Mir">
+               <placeName xml:lang="ita">Mirandola</placeName>
+               <placeName xml:lang="cu-Cyrl">Мирандола</placeName>
+               <country>Occidente</country>
+               <desc>castello</desc>
+               <ptr target="Ivanov-235.xml Ivanov-236.xml Ivanov-237.xml Ivanov-238.xml"/>
+            </place>
+            
+            <place xml:id="Mod">
+               <placeName xml:lang="ita">Modone</placeName>
+               <placeName xml:lang="cu-Cyrl">Метони</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml"/>
+            </place>
+            
+            <place xml:id="No">
+               <placeName xml:lang="ita">Novara</placeName>
+               <placeName xml:lang="cu-Cyrl">Новара</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml"/>
+            </place>
+            
+            <place xml:id="Pd">
+               <placeName xml:lang="ita">Padova</placeName>
+               <placeName xml:lang="cu-Cyrl">Падуя</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-238.xml Ivanov-164.xml"/>
+            </place>
+
+            <place xml:id="Par">
+               <placeName xml:lang="ita">Parigi</placeName>
+               <placeName xml:lang="cu-Cyrl">Парисия</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-229.xml"/>
+            </place>
+            
+            <place xml:id="Pir">
+               <placeName xml:lang="ita">Pirenei</placeName>
+               <placeName xml:lang="cu-Cyrl">Пиренеи</placeName>
+               <country>Occidente</country>
+               <desc>catena montuosa, confine</desc>
+               <ptr target="Ivanov-133.xml Ivanov-137.xml Ivanov-141.xml"/>
+            </place>
+            
+            <place xml:id="Reg">
+               <placeName xml:lang="ita">Regni latini</placeName>
+               <placeName xml:lang="cu-Cyrl">латинские королевства</placeName>
+               <country>Occidente</country>
+               <desc>stati (regni)</desc>
+               <ptr target="Ivanov-230.xml"/>
+            </place>
+
+            <place xml:id="Rm">
+               <placeName xml:lang="ita">Roma</placeName>
+               <placeName xml:lang="cu-Cyrl">Рим</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-229.xml Ivanov-133.xml Ivanov-137.xml Ivanov-141.xml"/>
+            </place>
+            
+            <place xml:id="Spa">
+               <placeName xml:lang="ita">Spagna</placeName>
+               <placeName xml:lang="cu-Cyrl">Испания</placeName>
+               <country>Occidente</country>
+               <desc>regione geografica, stato (regno)</desc>
+               <ptr target="Ivanov-229.xml"/>
+            </place>
+            
+            <place xml:id="Ve" source="lista-fondi-archivi.xml#OBL-27 lista-fondi-archivi.xml#BSC-177">
+               <placeName xml:lang="ita">Venezia</placeName>
+               <placeName xml:lang="cu-Cyrl">Венеция</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-152.xml Ivanov-237.xml Ivanov-238.xml Ivanov-240.xml Ivanov-362.xml Ivanov-362-a.xml Ivanov-182.xml"/>
+            </place>
+            <place xml:id="Ve-contrada">
+               <placeName xml:lang="ita">Venezia, contrada Rialto in Panaria</placeName>
+               <placeName xml:lang="cu-Cyrl">Венеция, район Риальто-ин-Панариа</placeName>
+               <settlement ref="#Ve">Venezia</settlement>
+               <country>Occidente</country>
+               <desc>Contrada</desc>
+               <ptr target="Ivanov-236.xml"/>
+            </place>
+            <place xml:id="Ve-botteghe">
+               <placeName xml:lang="ita">Venezia, botteghe di panni</placeName>
+               <placeName xml:lang="cu-Cyrl">Венеция, мастерские ткани</placeName>
+               <district xml:lang="ita">contrada Rialto in Panaria</district>
+               <district xml:lang="cu-Cyrl">район Риальто-ин-Панариа</district>
+               <settlement ref="#Ve">Venezia</settlement>
+               <country>Occidente</country>
+               <desc>botteghe</desc>
+               <ptr target="Ivanov-236.xml"/>
+            </place>
+            <place xml:id="Ve-bottega">
+               <placeName xml:lang="ita">Venezia, bottega di panni al segno del bue</placeName>
+               <placeName xml:lang="cu-Cyrl">Венеция, мастерская ткани под знаком быка</placeName>
+               <district xml:lang="ita">contrada Rialto in Panaria</district>
+               <district xml:lang="cu-Cyrl">район Риальто-ин-Панариа</district>
+               <settlement ref="#Ve">Venezia</settlement>
+               <country>Occidente</country>
+               <desc>bottega</desc>
+               <ptr target="Ivanov-236.xml"/>
+            </place>
+            <place xml:id="Ve-casa">
+               <placeName xml:lang="ita">Venezia, casa di Aldo Manuzio</placeName>
+               <placeName xml:lang="cu-Cyrl">Венеция, дом Альда Мануция </placeName>
+               <district xml:lang="ita">dal 1489 al 1505: contrada Sant'Agostin, rio Terà San Secondo, angolo con la calle del Pistor di Sant'Agostin</district>
+               <district xml:lang="cu-Cyrl">от 1489 по 1505: район Сант-Агостин, рио Тера Сан Секондо, угол с улицей Пистор ди Сант-Агостин</district>
+               <settlement ref="#Ve">Venezia</settlement>
+               <country>Occidente</country>
+               <desc>dimora privata</desc>
+               <ptr target="Ivanov-237.xml"/>
+            </place>
+            <place xml:id="Ve-stamperia">
+               <placeName xml:lang="ita">Venezia, stamperia di Aldo Manuzio</placeName>
+               <placeName xml:lang="cu-Cyrl">Венеция, типография Альда Мануция</placeName>
+               <district xml:lang="ita">dal 1489 al 1505: contrada Sant'Agostin, rio Terà San Secondo, angolo con la calle del Pistor di Sant'Agostin, casa di Aldo Manunzio</district>
+               <district xml:lang="cu-Cyrl">от 1489 по 1505: район Сант-Агостин, рио Тера Сан Секондо, угол с улицей Пистор ди Сант-Агостин</district>
+               <settlement ref="#Ve">Venezia</settlement>
+               <country>Occidente</country>
+               <desc>stamperia</desc>
+               <ptr target="Ivanov-240.xml"/>
+            </place>
+            
+            <place xml:id="Vc">
+               <placeName xml:lang="ita">Vercelli</placeName>
+               <placeName xml:lang="cu-Cyrl">Верчелли</placeName>
+               <country>Occidente</country>
+               <desc>città</desc>
+               <ptr target="Ivanov-235.xml Ivanov-236.xml"/>
+            </place>
+            
+            <place xml:id="Accademie">
+               <placeName xml:lang="ita">accademie italiane</placeName>
+               <placeName xml:lang="cu-Cyrl">итальянские академии</placeName>
+               <country>Occidente</country>
+               <desc>accademie</desc>
+               <ptr target="Ivanov-133.xml Ivanov-153.xml"/>
+            </place>
+
+         </listPlace>
+      </body>
+  </text>
+</TEI>

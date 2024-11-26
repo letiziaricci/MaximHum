@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lista bibliografica</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>   
+         
+         <listBibl type="bibliographic-list">
+            
+            <bibl xml:id="Adl-1928-1938">
+               <author>A. Adler (a cura di)</author>,
+               <title rend="italic">Suidae Lexicon</title>,
+               <biblScope unit="issue">I-V</biblScope>,
+               <pubPlace>Lipsia</pubPlace>
+               <date>1928-1938</date>
+            </bibl>
+            
+            <bibl xml:id="Aza-1615">
+               <author>Azarija (ieromonach)</author>,
+               <title rend="italic">Vera edinoj, svjatoj, kafoličeskoj, apostol'skoj cerkve na vschode</title>
+               <pubPlace>Kiev</pubPlace>
+               <date>1615</date>
+            </bibl>
+            
+            <bibl xml:id="Bed-1913">
+               <author>A. Bedržickij</author>,
+               <title rend="italic">Stat'ja Maksima Greka o grammatike po rukopisi Moskov&lt;skogo&gt; Rumjanc&lt;evskogo&gt; m&lt;uzeja&gt; № 264 (Opis&lt;anie&gt; Vostok&lt;ova&gt;)</title>,
+               <title level="s">"Russkij filologičeskij vestnik"</title>,
+               <date>1913</date>,
+               <biblScope unit="issue">2</biblScope>,
+               <biblScope unit="page">pp. 482-487</biblScope>
+            </bibl>
+            
+            <bibl xml:id="Bul-1984a">
+               <author>D.M. Bulanin</author>,
+               <title rend="italic">Perevody i poslanija Maksima Greka. Neizdannye teksty</title>,
+               <pubPlace>Leningrad</pubPlace>
+               <date>1984</date>
+            </bibl>
+            
+            <bibl xml:id="Bul-1984b">
+              <author>D.M. Bulanin</author> 
+               <title rend="italic">Sočinenija Maksima Greka</title>, in:
+              <author>L.A. Dmitriev, D.S. Lichačev (a cura di)</author>,
+               <title level="m" rend="italic">Pamjatniki literatury Drevnej Rusi. Konec XV-pervaja polovina XVI veka</title>,
+              <pubPlace>Moskva</pubPlace>
+               <date>1984</date>,
+               <biblScope unit="page">pp. 456-493</biblScope>
+           </bibl>
+            
+            <bibl xml:id="Bul-2006">
+               <author>D.M. Bulanin</author> 
+               <title rend="italic">Sočinenija Maksima Greka</title>, in:
+               <author>D.S. Lichačev, L.A. Dmitriev, A.A. Alekseev, N.V. Ponyrko  (a cura di)</author>,
+               <title level="m" rend="italic">Biblioteka literatury Drevnej Rusi, IX Konec XV-pervaja polovina XVI veka</title>,
+               <pubPlace>Sankt-Peterburg</pubPlace>
+               <date>2006</date>,
+               <biblScope unit="page">pp. 306-343, 542-546</biblScope>
+            </bibl>
+            
+            <bibl xml:id="Bul-2021a">
+               <author>D.M. Bulanin</author> 
+               <title rend="italic">Pervye moskovskie opyty v žanre "knjažeskogo zercala"</title>,
+               <title level="s">"Paleorosija. Drevnjaja Rus: vo vremeni, v ličnostjach, v idejach. Naučnyj žurnal Sankt-Peterburgskoj Duchovnoj Akademii"</title>
+               <biblScope unit="issue">XV</biblScope>
+               <date>2021</date>,
+               <biblScope unit="volume">3</biblScope>
+               <biblScope unit="page">pp. 94-112</biblScope>
+            </bibl>
+            
+            <bibl xml:id="Bus-1861">
+               <author>F.I. Buslaev</author>,
+               <title rend="italic">Istoričeskie očerki russkoj narodnoj slovesnosti i iskusstva</title>,
+               <biblScope unit="issue">II</biblScope>.
+               <title level="a">Drevne-russkaja narodnaja literatura i iskusstvo</title>,
+               <pubPlace>Sankt-Peterburg</pubPlace>
+               <date>1861</date>
+            </bibl>
+            
+            <bibl xml:id="Bus-1993">
+               <author>P. Buškovič [Bushkovitch]</author>,
+               <title rend="italic">Maksim Grek - poėt "giperboreec"</title>,
+               <title level="s">"Trudy Otdela drevnerusskoj literatury"</title>,
+               <biblScope unit="issue">47</biblScope>,
+               <date>1993</date>,
+               <biblScope unit="page">pp. 215-228</biblScope>
+            </bibl>
+            
+            <bibl xml:id="Den-1943">
+               <author>É. Denissoff</author>,
+               <title rend="italic">Maxime le Grec et l'Occident: contribution à l'histoire de la pensée religieuse et philosophique de Michel Trivolis</title>,
+               <pubPlace>Louvain-Paris</pubPlace>
+               <date>1943</date>
+            </bibl>
+            
+            <bibl xml:id="Fil-1842">
+               <author>Filaret (Gumilevskij)</author>,
+               <title rend="italic">Maksim Grek</title>,
+               <title level="s">"Moskvitjanin"</title>,
+               <biblScope unit="issue">VI</biblScope>,
+               <date>1842</date>,
+               <biblScope unit="volume">11</biblScope>,
+               <biblScope unit="page">pp. 59-96</biblScope>
+            </bibl>
+            
+            <bibl xml:id="Gen-1858">
+               <author>G. Gennadi</author>,
+               <title rend="italic">O tipografskom znake al'dinskich izdanij (Iz svedenij Maksima Greka)</title>,
+               <title level="s">"Bibliografičeskie zapiski"</title>,
+               <biblScope unit="issue">I</biblScope>
+               <date>1858</date>,
+               <biblScope unit="volume">6</biblScope>.
+               <biblScope unit="page">pp. 184-185</biblScope>
+            </bibl>
+            
+            <bibl xml:id="GestaRomanorum-1555">
+               <title rend="italic">Institutiones Catholicae vulgo Gesta Romanorum</title>,
+               <pubPlace>Lugduni</pubPlace>
+               <date>1555</date>
+            </bibl>
+            
+            <bibl xml:id="Gol-1877">
+               <author>D.P. Golochvastov (archimandrit Leonid)</author>,
+               <title rend="italic">Blagoveščenskij ierej Sil'vestr i ego pisanija</title>,
+               <title level="s">"Čtenija v obščestve istorii i drevnostej rossijskich"</title>,
+               <date>1874</date>,
+               <biblScope unit="volume">1</biblScope>
+               <biblScope unit="page">pp. 30-33</biblScope>
+            </bibl>
+            
+<!-- da riga 17 -->
+            
+            <bibl xml:id="Iva-1969">
+               <author>A.I. Ivanov</author>,
+               <title rend="italic">Literaturnoe nasledie Maksima Greka. Charakteristika, atribucii, bibliografija</title>,
+               <pubPlace>Leningrad</pubPlace>
+               <date>1969</date>
+            </bibl>
+            
+            <bibl xml:id="Jag-1895">
+               <author>V. Jagić</author>,
+               <title rend="italic">Rassuždenija južnoslavjanskoj i russkoj stariny o cerkovno-slavjanskom jazyke, in: Issledovanija po russkomu jazyku</title>,
+               <biblScope unit="volume">I</biblScope>
+               <pubPlace>Sankt-Peterburg</pubPlace>
+               <date>1895</date>,
+               <biblScope unit="page">pp. 324-609</biblScope>
+            </bibl>
+            
+            <bibl xml:id="PVK-1881">
+               <author>I.A. Porfir'ev, A.V. Vadkovskij, N.F. Krasnosel'cev</author>,
+               <title rend="italic">Opisanie rukopisej Soloveckago monastyrja, nachodjaščichsja v biblioteke Kazanskoj Duchovnoj Akademii, Čast' 1</title>,
+               <pubPlace>Kazan'</pubPlace>
+               <date>1881</date>
+            </bibl>
+            
+            <bibl xml:id="Sin-1977">
+               <author>N.V. Sinicyna</author>,
+               <title rend="italic">Maksim Grek v Rossii</title>,
+               <pubPlace>Moskva</pubPlace>
+               <date>1977</date>
+            </bibl>
+            
+            <bibl xml:id="Kli-1958">
+               <author>A.I. Klibanov</author>,
+               <title rend="italic">K izučeniju biografii i literaturnogo nasledija Maksima Greka</title>,
+               <title level="s">"Vizantijskij vremennik"</title>
+               <biblScope unit="issue">XIV</biblScope>,
+               <date>1958</date>,
+               <biblScope unit="page">pp. 148-174</biblScope>
+            </bibl>
+            
+            <bibl xml:id="MG-1894">
+               <title rend="italic">Sočinenija prepodobnago Maksima Greka</title>,
+               <biblScope unit="volume">I</biblScope>
+               <pubPlace>Kazan'</pubPlace>
+               <date>1894(2)</date>
+            </bibl>
+            
+            <bibl xml:id="MG-1897">
+               <title rend="italic">Sočinenija prepodobnago Maksima Greka</title>,
+               <biblScope unit="volume">III</biblScope>
+               <pubPlace>Kazan'</pubPlace>
+               <date>1897(2)</date>
+            </bibl>
+            
+            <bibl xml:id="MG-2008">
+               <title rend="italic">Prepodobnyj Maksim Grek. Sočinenija</title>,
+               <biblScope unit="volume">I</biblScope>
+               <author>a cura di N.V. Sinicyna</author>,
+               <pubPlace>Moskva</pubPlace>
+               <date>2008</date>
+            </bibl>
+            
+            <bibl xml:id="Leg-1885">
+               <author>E. Legrand</author>,
+               <title rend="italic">Bibliographie hellénique ou description raisonnée des ouvrages publiés en grec par des Grecs aux XV-e et XVI-e siècles</title>,
+               <biblScope unit="volume">II</biblScope>,
+               <pubPlace>Paris</pubPlace>
+               <date>1885</date>
+            </bibl>
+            
+            <bibl xml:id="Rzi-1935-1936">
+               <author>V.F. Ržiga</author>,
+               <title rend="italic">Neizdannye sočinenija Maksima Greka</title>,
+               <title level="s">"Byzantinoslavica"</title>
+               <biblScope unit="issue">VI</biblScope>,
+               <date>1935-1936</date>,
+               <biblScope unit="page">pp. 85-109</biblScope>
+            </bibl>
+            
+            <bibl xml:id="MG-2025">
+               <title rend="italic">Prepodobnyj Maksim Grek. Sočinenija</title>,
+               <biblScope unit="volume">III</biblScope>,
+               <date>[2025]</date>
+               <note>Edizione in corso di stampa</note>
+            </bibl>
+            
+            <bibl xml:id="Sev-1997">
+               <author>I. Ševčenko</author>,
+               <title rend="italic">On the Greek Poetic Output of Maksim Grek</title>,
+               <title level="s">"Byzantinoslavica"</title>
+               <biblScope unit="issue">LVIII</biblScope>,
+               <date>1997</date>,
+               <biblScope unit="volume">1</biblScope>,
+               <biblScope unit="page">pp. 1-70</biblScope>
+            </bibl>
+            
+            <bibl xml:id="Zur-2011">
+               <author>L.I. Žurova</author>,
+               <title rend="italic">Avtorskij tekst Maksima Greka: rukopisnaja i literaturnaja tradicii</title>,
+               <biblScope unit="volume">II</biblScope>.
+               <title level="m" rend="italic">Sočinenija</title>,
+               <date>2011</date>
+            </bibl>
+            
+            <bibl xml:id="Rom-2015">
+               <author>F. Romoli</author>,
+               <title rend="italic">“Trattato contra gli astrologi” Džirolamo Savonaroly i “Slovo protivu tščaščichsja zvezdozreniem predricati o buduščich i o samovlastii čelovekom” Maksima Greka. Opyt sopostavitel’nogo analiza</title>,
+               <title level="s">“Wiener Slavistisches Jahrbuch. Neue Folge”</title>,
+               <biblScope unit="issue">III</biblScope>,
+               <date>2015</date>,
+               <biblScope unit="page">pp. 1-17</biblScope>
+            </bibl>
+            
+            <bibl xml:id="Rom-2019">
+               <author>F. Romoli, Pisanu viděch / pisano i vědach</author>.
+               <title rend="italic">Sulle fonti della Povest' strašna di Massimo il Greco</title>, in:
+               <author>F. Romoli, A. Alberti (a cura di)</author>,
+               <title level="a" rend="italic">Scrittura e Scritture per Massimo il Greco. A cinquecento anni dall’arrivo in Moscovia</title>
+               <title level="s">"Studi Slavistici"</title>,
+               <biblScope unit="issue">XVI</biblScope>,
+               <date>2019</date>,
+               <biblScope unit="chapter">2</biblScope>,
+               <biblScope unit="page">pp. 199-218</biblScope>
+            </bibl>
+            
+            <bibl xml:id="Rom-2021a">
+               <author>F. Romoli</author>,
+               <title rend="italic">Massimo il Greco e gli ordini religiosi dell'Occidente. Esperienza ed evidenza documentaria nella testimonianza alla Moscovia cinquecentesca</title>, 
+               <pubPlace>Firenze</pubPlace>
+               <date>2021</date>
+            </bibl>
+            
+            <bibl xml:id="Rom-2021b">
+               <author>F. Romoli</author>,
+               <title rend="italic">Massimo il Greco cita sant’Agostino: un caso di mediazione</title>, 
+               <title level="s">“Bizantinistica. Rivista di studi bizantini e slavi”</title>,
+               <biblScope unit="issue">XXII</biblScope>,
+               <date>2021</date>
+               <biblScope unit="page">pp. 177-192</biblScope>
+            </bibl>
+           
+        </listBibl>
+        
+      </body>
+  </text>
+</TEI>

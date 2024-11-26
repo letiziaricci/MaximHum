@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lista delle persone - contatti occidentali</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listPerson>
+            
+           <listRelation type="contacts-people-places">
+              <relation name="be-at" active="#AN" passive="lista-luoghi.xml#Pd"/>
+              <relation name="be-at" active="#AM" passive="lista-luoghi.xml#Ve"/>
+              <relation name="be-at" active="#AdR" passive="lista-luoghi.xml#Mi"/>
+              <relation name="be-at" active="#AP" passive="lista-luoghi.xml#Fi"/>
+              <relation name="be-at" active="#ACU" passive="lista-luoghi.xml#Bo"/>
+              <relation name="be-at" active="#AA" passive="lista-luoghi.xml#Fi"/>
+              <relation name="be-at" active="#AA" passive="lista-luoghi.xml#Ve" source="lista-bibliografia.xml#Spe-2013"/> 
+              <relation name="be-at" active="#B-II" passive="lista-luoghi.xml#Fi"/>  
+              <relation name="be-at" active="#FR" passive="lista-luoghi.xml#Ve"/> 
+              <relation name="be-at" active="#FR" passive="lista-luoghi.xml#Ve"/> 
+              <relation name="be-at" active="#GL" passive="lista-luoghi.xml#Fi" source="lista-fondi-archivi.xml#BNF-1994"/>
+              <relation name="be-at" active="#GL" passive="lista-luoghi.xml#Ve" source="lista-bibliografia.xml#Romoli-2021"/>
+              <relation name="be-at" active="#GM" passive="lista-luoghi.xml#Ve"/> 
+              <relation name="be-at" active="#GM" passive="lista-luoghi.xml#Fi" source="lista-fondi-archivi.xml#BAV-1379"/> 
+              <relation name="be-at" active="#GdT" passive="lista-luoghi.xml#Fi"/> 
+              <relation name="be-at" active="#GFP" passive="lista-luoghi.xml#Mir"/> 
+              <relation name="be-at" active="#GG" passive="lista-luoghi.xml#Ve"/> 
+              <relation name="be-at" active="#GP" passive="lista-luoghi.xml#Ve"/> 
+              <relation name="be-at" active="#GS" passive="lista-luoghi.xml#Fi"/> 
+              <relation name="be-at" active="#GS" passive="lista-luoghi.xml#Fi-cattedrale"/> 
+              <relation name="be-at" active="#GS" passive="lista-luoghi.xml#Fi-convento"/> 
+              <relation name="be-at" active="#GS" passive="lista-luoghi.xml#Fi-basilica"/> 
+              <relation name="be-at" active="#L-XII" passive="lista-luoghi.xml#Mi"/> 
+              <relation name="be-at" active="#LMS" passive="lista-luoghi.xml#Mi"/> 
+              <relation name="be-at" active="#LT" passive="lista-luoghi.xml#Vc"/> 
+              <relation name="be-at" active="#MM" passive="lista-luoghi.xml#Ve"/> 
+              <relation name="be-at" active="#MM" passive="lista-luoghi.xml#Fi" source="lista-bibliografia.xml#Spe-2013"/> 
+              <relation name="be-at" active="#M-I" passive="lista-luoghi.xml#Ger"/> 
+              <relation name="be-at" active="#NdT" passive="lista-luoghi.xml#Vc"/> 
+              <relation name="be-at" active="#NLC" passive="lista-luoghi.xml#Fe"/> 
+              <relation name="be-at" active="#NV" passive="lista-luoghi.xml#Ve"/> 
+              <relation name="be-at" active="#P" passive="lista-luoghi.xml#Pd"/> 
+              <relation name="be-at" active="#PC" passive="lista-luoghi.xml#Fi"/> 
+              <relation name="be-at" active="#SF" passive="lista-luoghi.xml#Fi"/> 
+              <relation name="be-at" active="#ZC" passive="lista-luoghi.xml#Ve"/> 
+              <relation name="be-at" active="#mercante" passive="lista-luoghi.xml#Ve"/> 
+              <relation name="be-at" active="#frati-dom" passive="lista-luoghi.xml#Fi lista-luoghi.xml#Reg"/> 
+              <relation name="be-at" active="#frati-fran" passive="lista-luoghi.xml#Reg"/> 
+           </listRelation>
+            
+            <listRelation type="known-events">
+               <relation name="be-envolved" active="#A-VI" passive="lista-eventi.xml#SAV-1491-1498"/>
+               <relation name="be-envolved" active="#B-II" passive="lista-eventi.xml#GUER-1499-1503"/>
+               <relation name="be-envolved" active="#L-XII" passive="lista-eventi.xml#MI-1499-1500"/> 
+               <relation name="be-envolved" active="#doge" passive="lista-eventi.xml#VE-sodom"/> 
+               <relation name="be-envolved" active="#navigatori" passive="lista-eventi.xml#ESPL-1492"/> 
+            </listRelation>
+               
+
+
+            <person xml:id="AN">
+               <ptr target="Ivanov-164.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Agostino Nifo</persName>
+                  <persName xml:lang="cu-Cyrl">Агостино Нифо Сесса</persName>
+               </persName>
+               <socecStatus>umanista, filosofo</socecStatus>
+            </person>
+            
+            <person xml:id="AM">
+               <ptr target="Ivanov-237.xml Ivanov-238.xml Ivanov-239.xml Ivanov-240.xml Ivanov-362.xml Ivanov-362-a.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Aldo Manuzio</persName>
+                  <persName xml:lang="cu-Cyrl">Альд Мануций</persName>      
+               </persName>
+               <socecStatus>umanista, stampatore</socecStatus>
+            </person>
+            
+            <person xml:id="A-VI">
+               <ptr target="Ivanov-229.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Alessandro VI</persName>
+                  <persName xml:lang="cu-Cyrl">Александр VI</persName>
+               </persName>
+               <socecStatus>vescovo e papa di Roma</socecStatus>
+            </person>
+            
+            <person xml:id="AdR" >
+               <ptr target="Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml Ivanov-153.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Ambrogio da Rosate</persName>
+                  <persName xml:lang="cu-Cyrl">Амвросий Розаде</persName>
+               </persName>
+               <socecStatus>medico, astrologo</socecStatus>
+            </person>
+            
+            <person xml:id="AP">
+               <ptr target="Ivanov-164.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Angelo Poliziano</persName>
+                  <persName xml:lang="cu-Cyrl">Анджело Полициано</persName>
+               </persName>
+               <socecStatus>umanista, poeta</socecStatus>
+            </person>
+            
+            <person xml:id="ACU">
+               <ptr target="Ivanov-236.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Antonio Cortesi Urceo, Codro</persName>
+                  <persName xml:lang="cu-Cyrl">Антонио Урчео Кодро</persName>
+                  <note>identificazione non nominativa; dentificazione avanzata in <ref><bibl>Denissoff 1943 <citedRange unit="page" from="92" to="94">92-94</citedRange></bibl></ref></note>
+               </persName>
+               <socecStatus>umanista</socecStatus>
+            </person>
+            
+            <person xml:id="AA">
+               <ptr target="Ivanov-238.xml"/> 
+               <persName>
+                  <persName xml:lang="ita">Aristobulo Apostolio</persName>
+                  <persName xml:lang="grc">Ἀρσένιος Ἀποστόλιος</persName>
+                  <persName xml:lang="cu-Cyrl">Аристовул Апостолис</persName>
+                  <note>identificazione non nominativa; ipotesi di dentificazione sostenuta in <ref><bibl>Denissoff 1943 <citedRange unit="page" from="403" to="403">403</citedRange></bibl></ref>, rigettata in <ref><bibl>Maksim Grek 2008 <citedRange unit="page" from="95" to="95">95</citedRange> <citedRange unit="chapter">n. 4</citedRange></bibl></ref></note>
+               </persName>
+               <socecStatus>émigré bizantino, umanista, copista</socecStatus>
+            </person>
+            
+            <person xml:id="B-II">
+               <ptr target="Ivanov-237.xml Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Bayezid II</persName>
+                  <persName xml:lang="cu-Cyrl">Баязид II</persName>
+               </persName>
+               <socecStatus>sultano</socecStatus>
+            </person>
+            
+            <person xml:id="FR">
+               <ptr target="Ivanov-238.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Francesco Roseto</persName>
+                  <persName xml:lang="cu-Cyrl">Франческо Россето</persName>
+               </persName>
+               <socecStatus>umanista, membro della Nuova accademia aldina</socecStatus>
+            </person>
+            
+            <person xml:id="GL">
+               <ptr target="Maksim-Grek 2008-84.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Giano Lascaris</persName>
+                  <persName xml:lang="grc">Ἰανὸς Λάσκαρις</persName>
+                  <persName xml:lang="cu-Cyrl">Иоанн Ласкарис</persName>
+               </persName>
+               <socecStatus>émigré bizantino, umanista, diplomatico, membro della Nuova accademia aldina</socecStatus>
+            </person>
+            
+            <person xml:id="GM">
+               <ptr target="Ivanov-237.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Giorgio Mosco</persName>
+                  <persName xml:lang="grc">Γεώργιος Μόσχος</persName>
+                  <persName xml:lang="cu-Cyrl">Георгий Мосх</persName>
+               </persName>
+               <socecStatus>émigré bizantino, umanista, copista</socecStatus>
+            </person>
+            
+            <person xml:id="GdT">
+               <ptr target="Ivanov-229.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Giovacchino della Torre</persName>
+                  <persName xml:lang="cu-Cyrl">Иоаким делла Торре</persName>
+               </persName>
+               <socecStatus>maestro generale dell’ordine dei predicatori</socecStatus>
+            </person>
+            
+            <person xml:id="GFP">
+               <ptr target="Ivanov-235.xml Ivanov-238.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Giovan Francesco Pico della Mirandola</persName>
+                  <persName xml:lang="cu-Cyrl">Джанфранческо Пико делла Мирандола</persName>
+               </persName>
+               <socecStatus>signore di Mirandola, umanista</socecStatus>
+            </person>
+            
+            <person xml:id="GG">
+               <ptr target="Ivanov-235.xml Ivanov-236.xml Ivanov-237.xml Ivanov-238.xml Ivanov-239.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Giovanni Gregoropulo</persName>
+                  <persName xml:lang="grc">Ἰωάννης Γρηγορόπουλος</persName>
+                  <persName xml:lang="cu-Cyrl">Иоанн Григоропулос</persName>
+               </persName>
+               <socecStatus>émigré bizantino, umanista, copista</socecStatus>
+            </person>
+            
+            <person xml:id="GP">
+               <ptr target="Ivanov-236.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Girolamo Pichi</persName>
+                  <persName xml:lang="cu-Cyrl">Иероним Пики</persName>
+                  <note>identificazione avanzata in <ref><bibl>Scapecchi 2008</bibl></ref></note>
+               </persName>
+               <socecStatus>commerciante di tessuti (Borgo San Sepolcro)</socecStatus>
+            </person>
+            
+            <person xml:id="GS">
+               <ptr target="Ivanov-229.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Girolamo Savonarola</persName>
+                  <persName xml:lang="cu-Cyrl">Иероним Савонарола</persName>
+               </persName>
+               <socecStatus>frate domenicano, riformatore</socecStatus>
+            </person>
+            
+            <person xml:id="L-XII">
+               <ptr target="Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Luigi XII di Valois-Orléans (Ludovico XII)</persName>
+                  <persName xml:lang="cu-Cyrl">Людовик XII</persName>
+               </persName>
+               <socecStatus>re di Francia</socecStatus>
+            </person>
+            
+            <person xml:id="LMS">
+               <ptr target="Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml Ivanov-153.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Ludovico Maria Sforza, il Moro</persName>
+                  <persName xml:lang="cu-Cyrl">Лодовико Мария Сфорца</persName>
+               </persName>
+               <socecStatus>duca di Milano</socecStatus>
+            </person>
+            
+            <person xml:id="LT" source="Ivanov-235.xml">
+               <ptr target="Ivanov-235.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Ludovico Tizzoni</persName>
+                  <persName xml:lang="cu-Cyrl">Лудовико Тиццони</persName>
+               </persName>
+               <socecStatus>signore di Desana</socecStatus>
+            </person>
+            
+            <person xml:id="M">
+               <ptr target="Ivanov-131-G-a.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Macrobio</persName>
+                  <persName xml:lang="grc">Μακρόβιος</persName>
+                  <persName xml:lang="cu-Cyrl">Макробий</persName>
+                  <note>da identificare</note>
+               </persName>
+            </person>
+            
+            <person xml:id="MM">
+               <ptr target="Ivanov-240.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Marco Musuro</persName>
+                  <persName xml:lang="grc">Μάρκος Μουσοῦρος</persName>
+                  <persName xml:lang="cu-Cyrl">Марк Мусурос</persName>
+               </persName>
+               <socecStatus>émigré bizantino, umanista</socecStatus>
+            </person>
+            
+            <person xml:id="M-I">
+               <ptr target="Ivanov-152.xml Ivanov-152-a.xml Ivanov-152-b.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Massimiliano I d'Asburgo</persName>
+                  <persName xml:lang="cu-Cyrl">Максимилиан I</persName>
+               </persName>
+               <socecStatus>imperatore</socecStatus>
+            </person>
+            
+            <person xml:id="NdT">
+               <ptr target="Ivanov-235.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Niccolò di Tarso</persName>
+                  <persName xml:lang="cu-Cyrl">Николай Тарсский</persName>
+               </persName>
+               <socecStatus>canonico di Vercelli</socecStatus>
+            </person>
+            
+            <person xml:id="NLC">
+               <ptr target="Ivanov-164.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Niccolò Lelio Cosmico</persName>
+                  <persName xml:lang="cu-Cyrl">Никколо Лелио Козмико</persName>
+               </persName>
+               <socecStatus>umanista, poeta</socecStatus>
+            </person>
+            
+            <person xml:id="NV">
+               <ptr target="Ivanov-239.xml Ivanov-240.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Nicola Vlasto</persName>
+                  <persName xml:lang="grc">Νικόλαος Βλαστός</persName>
+                  <persName xml:lang="cu-Cyrl">Николай Властос</persName>
+               </persName>
+               <socecStatus>émigré bizantino, umanista, stampatore</socecStatus>
+            </person>
+            
+            <person xml:id="P" source="Ivanov-238.xml">
+               <ptr target="Ivanov-238.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Paolo</persName>
+                  <persName xml:lang="grc">Παῦλος</persName>
+                  <persName xml:lang="cu-Cyrl">Павел</persName>
+                  <note>da identificare; identificazione con Paolo Canale in <ref><bibl>Denissoff 1943 <citedRange unit="page" from="210" to="210">210</citedRange></bibl></ref>, identificazione con un greco di stanza a Padova in contatto con Giovanni Gregoropulo in Manussakas, <ref><bibl>Patrinelis 1964 <citedRange unit="page" from="185" to="185">185</citedRange>, <citedRange unit="part">nota 2</citedRange>, <citedRange unit="page" from="192" to="193">192-193</citedRange></bibl></ref>, accolta in <ref><bibl>Maksim Grek 2008 <citedRange unit="page" from="97" to="97">97</citedRange> <citedRange unit="chapter">n. 10</citedRange></bibl></ref></note>
+               </persName>
+               <socecStatus>rilegatore</socecStatus>
+            </person>
+            
+            <person xml:id="PC">
+               <ptr target="Ivanov-239.xml Ivanov-240.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Pietro Candido (da Portico)</persName>
+                  <persName xml:lang="cu-Cyrl">Пьетро Кандидо</persName>
+               </persName>
+               <socecStatus>umanista, monaco camaldolese</socecStatus>
+            </person>
+            
+            <person xml:id="SF">
+               <ptr target="Ivanov-239.xml Ivanov-240.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Scipione Forteguerri, Carteromaco</persName>
+                  <persName xml:lang="cu-Cyrl">Сципион Картеромах</persName>
+               </persName>
+               <socecStatus>umanista, membro della Nuova accademia aldina</socecStatus>
+            </person>
+            
+            <person xml:id="S" source="Ivanov-141.xml">
+               <ptr target="Ivanov-141.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Sigismondo</persName>
+                  <persName xml:lang="cu-Cyrl">Сигизмунд</persName>
+               </persName>
+            </person>
+            
+            <person xml:id="ZC" source="Ivanov-238.xml">
+               <ptr target="Ivanov-238.xml"/>
+               <persName>
+                  <persName xml:lang="ita">Zaccaria Calliergi</persName>
+                  <persName xml:lang="grc">Ζαχαρίας Καλλιέργης</persName>
+                  <persName xml:lang="cu-Cyrl">Захария Каллиергис</persName>
+               </persName>
+               <socecStatus>émigré bizantino, umanista, stampatore</socecStatus>
+            </person>
+            
+            <person xml:id="doge" source="Ivanov-182.xml">
+               <ptr target="Ivanov-182.xml"/>
+               <persName>
+                  <persName xml:lang="ita">doge di Venezia</persName>
+                  <persName xml:lang="cu-Cyrl">дoж Венеции</persName>
+                  <note>identificazione non nominativa</note>
+               </persName>
+               <socecStatus>un doge di Venezia</socecStatus>
+            </person>
+            
+            <person xml:id="mercante" source="Ivanov-238.xml">
+               <ptr target="Ivanov-238.xml"/>
+               <persName>
+                  <persName xml:lang="ita">mercante di pelli</persName>
+                  <persName xml:lang="cu-Cyrl">кожевник</persName>
+                  <note>identificazione non nominativa</note>
+               </persName>
+               <socecStatus>un mercante di pelli</socecStatus>
+            </person>
+            
+            <person xml:id="navigatori">
+               <ptr target="Ivanov-260(+102).xml"/>
+               <persName>
+                  <persName xml:lang="ita">navigatori portoghesi e spagnoli</persName>
+                  <persName xml:lang="cu-Cyrl">португальские и испанские мореплаватели</persName>
+               </persName>
+               <socecStatus>esploratori</socecStatus>
+            </person>
+            
+            <person xml:id="frati-dom">
+               <ptr target="Ivanov-229.xml Ivanov-230.xml"/>
+               <persName>
+                  <persName xml:lang="ita">frati domenicani</persName>
+                  <persName xml:lang="cu-Cyrl">монахи-доминиканцы</persName>
+               </persName>
+               <socecStatus>religiosi</socecStatus>
+            </person>
+            
+            <person xml:id="frati-fran">
+               <ptr target="Ivanov-230.xml"/>
+               <persName>
+                  <persName xml:lang="ita">frati francescani</persName>
+                  <persName xml:lang="cu-Cyrl">францисканцы</persName>
+               </persName>
+               <socecStatus>religiosi</socecStatus>
+            </person>
+
+         </listPerson>
+         
+      </body>
+  </text>
+</TEI>

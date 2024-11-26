@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lista dei manoscritti</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <body> 
+        <msDesc xml:id="Gr-1994">  
+           <msIdentifier>
+              <country>FR</country>
+              <settlement>Parigi</settlement>
+              <repository>BNF - Bibliothèque nationale de France (Biblioteca Nazionale di Francia)</repository> 
+              <collection>Парижская национальная библиотека [Bibliothèque nationale de France]</collection> 
+              <idno>1994</idno>
+           </msIdentifier>
+        </msDesc>
+        
+        <msDesc xml:id="Fir-Did">  
+           <msIdentifier>  
+              <collection>Collezione privata Firmin-Didot</collection> 
+           </msIdentifier>
+        </msDesc>
+        
+        <msDesc xml:id="Lat-4103">  
+           <msIdentifier>
+              <country>IT</country>
+              <settlement>Roma</settlement>
+              <repository>BAV - Biblioteca Apostolica Vaticana</repository> 
+              <collection>Ватиканская апостольская библиотека (Biblioteca Apostolica Vaticana)</collection> 
+              <idno>4103</idno>
+           </msIdentifier>
+        </msDesc>
+         
+         <msDesc xml:id="Sof-1498">  
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Государственная Библиотека (Biblioteca Nazionale Russa)</repository>
+               <collection>Софийское собрание</collection> 
+               <idno>1498</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(XVI век)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="RGIA-4025">  
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РГИА - Российский Государственный Исторический Архив (Archivio Storico Russo di Stato)</repository> 
+               <collection type="fondo">ф. 834 оп. 3</collection>
+               <idno>4025</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(конец XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Kir-Bel-131-1208">  
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+               <collection>Собрание Кирилло-Белозерское</collection> 
+               <idno>131/1208</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(середина / 3-я четверть XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="F-I-425"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+               <collection>Поморское [Старообрядческое] собрание</collection> 
+               <idno>F.I.425</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(конец XVIII / начало XIX века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Sin-791"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+               <collection>Собрание Синодальное</collection> 
+               <idno>791</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(середина XVI века) [?]</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Eparch-405"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+               <collection>Собрание Епархиальное</collection> 
+               <idno>405</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(20-е гг. XVI века, после 1524)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Vol-488"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>РГБ - Российская Государственная Библиотека  (Biblioteca Statale Russa)</repository> 
+               <collection type="fondo">ф. 113</collection>
+               <collection>Собрание Волоколамское</collection>
+               <idno>488</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(середина XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Vol-522"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>РГБ - Российская Государственная Библиотека  (Biblioteca Statale Russa)</repository> 
+               <collection type="fondo">ф. 113</collection>
+               <collection>Собрание Волоколамское</collection>
+               <idno>522</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(середина XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Pogod-1141"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+               <collection>Собрание Погодина (Рогожское собрание)</collection> 
+               <idno>1141</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(конец XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Egor-207"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+               <collection type="fondo">ф. 98</collection> 
+               <collection>Собрание Егорова</collection>
+               <idno>207</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(конец XVI / начало XVII века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Uvar-310"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+               <collection>Собрание Уварова</collection> 
+               <idno>310</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(конец XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Sin-491"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+               <collection>Синодальное собрание</collection> 
+               <idno>491</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(конец XVI / начало XVII века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Troic-200"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+               <collection type="fondo">ф. 304.I</collection> 
+               <collection>Троицкое собрание</collection>
+               <idno>200</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(20-е гг. XVII века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Troic-201"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+               <collection type="fondo">ф. 304.I</collection>  
+               <collection>Троицкое собрание</collection>
+               <idno>201</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(30-е гг. XVII века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Str-62"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+               <collection type="fondo">ф. 292</collection>
+               <collection>Собрание Строева (Музейное собрание)</collection>
+               <idno>62</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(начало XVII века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="CGALI-90"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>РГАДА - Российский Государственный Архив Древних Актов (Archivio Russo di Stato degli Atti Antichi )</repository> 
+               <collection type="fondo">ф. 187 оп. 1</collection> 
+               <collection>Собрание ЦГАЛИ (Центрального Государственного Архива Литературы и Искусства)</collection>
+               <idno>90</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(около 1660)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Sol-495-514"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+               <collection>Собрание Соловецкого монастыря</collection> 
+               <idno>495/514</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(около 1660)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="F-XVII-13"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+               <idno>F.XVII.13</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(конец XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="A-I-171"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+               <collection>(Санкт-Петербургская Духовная Академия)</collection> 
+               <idno>A.I/171</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(40-е гг. XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+        
+        <msDesc xml:id="Scuk-4"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+              <collection>Собрание Щукина</collection> 
+              <idno>4</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(середина XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Sin-156"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+              <collection>Синодальное собрание</collection> 
+              <idno>156</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(конец XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Chl-4"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+              <collection>Хлудовское собрание</collection> 
+              <idno>4</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(около 1592)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Gran-20"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+              <collection type="fondo">Ф. 711</collection> 
+              <collection>Собрание Гранкова</collection> 
+              <idno>20</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(конец XVI / начало XVII века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Sin-919"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+              <collection>Синодальное собрание</collection> 
+              <idno>919</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(1-я четверть XVII века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Q-I-487"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+              <idno>Q.I.487</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(середина XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+         
+         <msDesc xml:id="Sol-752-862"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+               <collection>Соловецкое собрание</collection> 
+               <idno>752/862</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(1-я треть XVII века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Per-54"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>ИРЛИ - Институт Русской Литературы "Пушкинский дом" (Istituto di Letteratura Russa "Puškinskij dom")</repository> 
+               <collection>Собрание Перетца</collection> 
+               <idno>54</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(середина XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Sof-1195"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+               <collection>Софийское собрание</collection> 
+               <idno>1195</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(середина XVI века) (?)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Slave-123"> 
+            <msIdentifier>
+               <country>FR</country>
+               <settlement>Parigi</settlement>
+               <repository>BNF - Bibliothèque nationale de France (Biblioteca Nazionale di Francia)</repository> 
+               <collection>Парижская национальная библиотека [Bibliothèque nationale de France]</collection> 
+               <idno>123</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(конец XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Pogod-1139"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+               <collection>Собрание Погодина (Рогожское собрание)</collection> 
+               <idno>1139</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(середина XVII века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="R-75"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Saratov</settlement>
+               <repository>НБ СГУ - Научная Библиотека Саратовского Государственного Университета им. В.А. Артисевич (Biblioteca scientifica "V.A. Artisevič" dell'Università Statale di Saratov)</repository> 
+               <collection>Мальцевское собрание</collection> 
+               <idno>R/75</idno>
+            </msIdentifier>
+         </msDesc>
+        
+        <msDesc xml:id="Ob-161"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>РГАДА - Российский Государственный Архив Древних Актов (Archivio Russo di Stato degli Atti Antichi )</repository> 
+              <collection type="fondo">ф. 201</collection>
+              <collection>Собрание Оболенского</collection> 
+              <idno>161</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(конец 30-х гг. XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+         
+         <msDesc xml:id="Bols-285"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>Mosca</settlement>
+               <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+               <collection>Собрание Большакова</collection> 
+               <idno>285</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(конец 40-х / начало 50-х гг. XVI века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+         
+         <msDesc xml:id="Q-I-225"> 
+            <msIdentifier>
+               <country>RU</country>
+               <settlement>San Pietroburgo</settlement>
+               <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+               <idno>Q.I.225</idno>
+            </msIdentifier>
+            <history>
+               <origin>
+                  <origDate type="ms-date">(начало XVII века)</origDate>
+               </origin>
+            </history>
+         </msDesc>
+        
+        <msDesc xml:id="Rum-264"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+              <collection>Собрание Румянцева</collection> 
+              <idno>264</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(1551-1555)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Sol-494-513"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+              <collection>Соловецкое собрание</collection>
+              <idno>494/513</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(80-е гг. XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="F-IV-3"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Novosibirsk</settlement>
+              <repository>ГПНТБ СО РАН - Государственная Публичная Научно-Техническая Библиотека Сибирского Отделения Российской Академии Наук (Biblioteca Statale Pubblica Scientifica e Tecnologica della Sezione Siberiana dell'Accademia Russa delle Scienze)</repository> 
+              <collection>Алтайский (Сибирский) сборник</collection> 
+              <idno>F.IV.3</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(около 1590)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Kir-Bel-21-1098"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+              <collection>Собрание Кирилло-Белозерского монастыря</collection> 
+              <idno>21/1098</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">[не определено]</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Q-487"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+              <idno>Q.487</idno>
+           </msIdentifier>
+        </msDesc>
+        
+        <msDesc xml:id="Sin-183"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+              <collection>Собрание Синодальное</collection> 
+              <idno>183</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(конец 40-х / начало 50-х гг. XVI века, между 1547 и 1552-1554 гг.)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Sin-997"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+              <collection>Собрание Синодальное</collection> 
+              <idno>997</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(конец 40-х / начало 50-х гг. XVI века, до 1552)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Rog-302"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+              <collection type="fondo">ф. 247</collection>
+              <collection>Собрание Рогожской общины (Рогожское собрание)</collection> 
+              <idno>302</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(2-я половина XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Bols-16"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+              <collection type="fondo">ф. 37</collection>
+              <collection>Собрание Большакова (Рогожское собрание)</collection> 
+              <idno>16</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(конец XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Und-489"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+              <collection type="fondo">ф. 310</collection>
+              <collection>Собрание Ундольского</collection> 
+              <idno>489</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(конец XVIII века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Rog-681"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+              <collection type="fondo">ф. 247</collection>
+              <collection>Собрание Рогожской общины (Рогожское собрание)</collection> 
+              <idno>681</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(около 1603)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="F-XVII-17"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+              <idno>F.XVII.17</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(50-е гг. XVII века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Muz-9626"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+              <collection type="fondo">ф. 178</collection>
+              <collection>Собрание Музейское</collection> 
+              <idno>9626</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(конец XVIII века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Cud-236"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+              <collection>Чудовское собрание</collection> 
+              <idno>236</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(90-е гг. XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Sol-7-7"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+              <collection>Соловецкое собрание</collection> 
+              <idno>7/7</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(XVII век)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="O-F-184"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+              <collection>Общество любителей древней письменности</collection> 
+              <idno>F.184</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(конец XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="RGADA-1597"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>РГАДА - Российский Государственный Архив Древних Актова (Archivio Russo di Stato degli Atti Antichi)</repository> 
+              <collection type="fondo">ф. 181</collection>
+              <idno>1597</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(50-е гг. XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Und-488"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+              <collection type="fondo">ф. 310</collection>
+              <collection>Собрание Ундольского (Троицкое собрание)</collection> 
+              <idno>488</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(около 1699)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="V-5636-399"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Suzdal'</settlement>
+              <repository>ВМЗ - Владимиро-Суздальский музей-заповедник (Museo all'aperto di Vladimir-Suzdal')</repository> 
+              <collection>Владимиро-суздальский музей-заповединк</collection> 
+              <idno>V-5636/399</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(3-я четверть XVIII века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Muz-1948"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>Mosca</settlement>
+              <repository>ГИМ - Государственный Исторический Музей (Museo Storico di Stato)</repository> 
+              <collection>Собрание Музейское</collection> 
+              <idno>1948</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(1-я половина XVII века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="RGIA-1622"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>РГИА - Российский Государственный Исторический Архив (Archivio Storico Russo di Stato)</repository> 
+              <collection type="fondo">ф. 834, оп. 4</collection> 
+              <idno>1622</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(1-я четверть XVII века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Egor-920"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>РГБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+              <collection type="fondo">ф. 98</collection> 
+              <collection>Собрание Егорова</collection>
+              <idno>920</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(до февраля 1525)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Arch-16-17"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>БАН - Библиотека Академии Наук (Biblioteca dell'Accademia delle Scienze)</repository> 
+              <collection>Собр. Архангельское</collection>
+              <idno>16(17)</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(конец XѴI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Nov-Ier-39"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>РГБ - Российская Государственная Библиотека (Biblioteca Statale Russa)</repository> 
+              <collection>(Библиотека Воскресенского Новоиерусалимского монастыря)</collection>
+              <idno>39</idno>
+           </msIdentifier>
+        </msDesc>
+        
+        <msDesc xml:id="O-XVII-71"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+              <collection>Общество любителей древней письменности</collection> 
+              <idno>O.XVII.71</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(80-е гг. XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="Q-I-493"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>РНБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+              <idno>Q.I.493</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(2-я половниа XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <msDesc xml:id="MDA-42"> 
+           <msIdentifier>
+              <country>RU</country>
+              <settlement>San Pietroburgo</settlement>
+              <repository>РГБ - Российская Национальная Библиотека (Biblioteca Nazionale Russa)</repository> 
+              <collection type="fondo">ф. 173</collection> 
+              <collection>(Московская Духовная Академия; Иоасафовский сборник)</collection>
+              <idno>42</idno>
+           </msIdentifier>
+           <history>
+              <origin>
+                 <origDate type="ms-date">(конец 40-х / начало 50-х гг. XVI века)</origDate>
+              </origin>
+           </history>
+        </msDesc>
+        
+        <!-- riga 65 -->
+        
+      </body>
+  </text>
+</TEI>

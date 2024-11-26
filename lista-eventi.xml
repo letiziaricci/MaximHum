@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/Vault/P5/4.7.0/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/Vault/P5/4.7.0/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lista dei luoghi</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>  
+         <listEvent>
+            
+            <event xml:id="SAV-1491-1498" from="1491" to="1498" where="lista-luoghi.xml#Spa">
+               <label>Priorato di Girolamo Savonarola</label>
+               <desc>Priorato di Girolamo Savonarola (1491-1498)</desc>
+            </event>
+            
+            <event xml:id="ESPL-1492" from="1492" to="1492" where="lista-luoghi.xml#Cad lista-luoghi.xml#Col lista-luoghi.xml#Cor lista-luoghi.xml#Ind lista-luoghi.xml#Iso">
+               <desc>Esplorazioni geografiche</desc>
+            </event>
+            
+            <event xml:id="GUER-1499-1503" from="1499" to="1503" where="list-luoghi.xml#Lep list-luoghi.xml#Mod list-luoghi.xml#Cor list-luoghi.xml#Corf list-luoghi.xml#Adr">
+               <label>Seconda guerra veneto-turca</label>
+               <desc>Seconda guerra veneto-turca (1499-1503), conquista turca di Lepanto (1499), Modone e Corone (1500)</desc>
+            </event>
+            
+            <event xml:id="MI-1499-1500" from="1499" to="1500" where="list-luoghi.xml#Nov list-luoghi.xml#Ger">
+               <label>Guerre d'Italia</label>
+               <desc>Guerre d'Italia, conquista francese del ducato di Milano (1499-1500)</desc>
+            </event>
+            
+            <event xml:id="VE-sodom" where="list-luoghi.xml#">
+               <desc>Venezia, condanna a morte di un sodomita figlio del doge</desc>
+            </event>
+            
+            <event xml:id="PAR-Univ" where="list-luoghi.xml#Par list-luoghi.xml#Fra list-luoghi.xml#Gal">
+               <desc>Università di Parigi</desc>
+            </event>
+
+            
+         </listEvent>
+      </body>
+   </text>
+</TEI>

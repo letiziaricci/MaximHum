@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <entry type="glossary-entry" sortKey="самовласт" xml:id="entry1">
+            <form type="lemma">
+               <orth>самовластие</orth>
+            </form>
+            
+            <xr type="related">       
+               <lbl>Related lemmas</lbl>
+               <ref target="#entry2" type="entry">самовластво</ref>
+               <ref target="#entry3" type="entry">самовластно</ref>
+               <ref target="#entry4" type="entry">самовластьныи</ref>
+            </xr>
+
+            <sense ana="semantic-domain">
+               <usg type="domain"/>
+               <gloss>Credenze e superstizioni</gloss>
+               <gloss>Dibattito filosofico/Destino e/o Provvidenza</gloss>
+               <gloss>Dibattito filosofico/Volontà di Dio_dell’uomo_libero arbitrio</gloss>
+               <gloss>Polemica antiastrologica</gloss>
+               <cit type="example">
+                  <quote></quote>
+                  <ref></ref>
+               </cit>
+            </sense>
+            
+            <listRef type="works-references">
+               <ref target="Ivanov-152.xml#Ivanov-152">Ivanov 152</ref>
+               <ref target="Ivanov-152-a.xml#Ivanov-152-a">Ivanov 152-a</ref>
+               <ref target="Ivanov-153.xml#Ivanov-153">Ivanov 153</ref>
+               <ref target="Ivanov-165.xml#Ivanov-165">Ivanov 165</ref>
+            </listRef>
+            
+            <cit type="biblical">
+               <quote></quote>
+               <ref></ref>
+            </cit>
+         </entry>
+         
+         
+         
+         <entry type="glossary-entry" sortKey="самовласт" xml:id="entry2">
+            <form type="lemma">
+               <orth>самовластво</orth>
+            </form>
+            
+            <form type="related-lemmas">
+               <form type="variant">
+                  <orth>самовластие</orth>
+               </form>
+               <form type="variant">
+                  <orth> самовластно</orth>
+               </form>
+               <form type="variant">
+                  <orth>самовластьныи</orth>
+               </form>
+            </form>
+            
+            <sense ana="semantic-domain">
+               <usg type="domain">Credenze e superstizioni</usg>
+               <usg type="domain">Dibattito filosofico/Destino e/o Provvidenza</usg>
+               <usg type="domain">Dibattito filosofico/Volontà di Dio_dell’uomo_libero arbitrio</usg>
+               <usg type="domain">Polemica antiastrologica</usg>
+            </sense>
+            
+            <listRef type="work-references">
+               <ref target="Ivanov-152.xml#Ivanov-152">Ivanov 152</ref>
+            </listRef>
+
+            <cit type="biblical">
+               <quote></quote>
+               <bibl></bibl>
+            </cit>
+         </entry>
+         
+      </body>
+  </text>
+</TEI>
