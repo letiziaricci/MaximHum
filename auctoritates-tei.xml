@@ -219,7 +219,7 @@
 				<cit type="direct"> <!-- citazione -->
 					<quote>Им же и Пилусиискыи и божественыи Исидоpъ послѣдуя глаголеть: «Отъемлющии или что пpиложити смѣющи к богодухновеннымъ словесем, единым от двоих недугують: или бо не вѣpоваша Духомъ Святымъ pеченых бывших Святых Писании, или суть невѣpни, или себе непщують мудpииших Святаго Духа, и что иное, токмо бѣсуются»</quote>
 					<ref>(Maksim Grek 2008: 202-203)</ref>
-				</cit>
+				</cit
 				
 				
 				<cit type="source"> <!-- Citazione / Riferimento alla fonte -->
@@ -242,7 +242,7 @@
 			
 			<!-- riga 167 -->
 			<item xml:id="auct6"> <!-- elemento di descrizione auctoritas e indicazione se ci si riferisce all'intero testo -->
-				<idno type="ivanov">Ivanov 121</idno> <!-- Id Ivanov --> 
+				<idno type="ivanov">Ivanov 141</idno> <!-- Id Ivanov --> 
 				<name type="autority" ref="#isidoro_di_pelusio"> <!-- autorità -->
 					<persName xml:lang="ita">Isidoro di Pelusio</persName>
 					<persName xml:lang="lat">Isidorus Pelusiota</persName>
