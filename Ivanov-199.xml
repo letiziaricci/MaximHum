@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послания княгине [2] [Poslanija knjagine (2)]</title>   
+            <title type="alt" xml:lang="cu-Cyrl">Благороднеи княине имярек многогрѣшныи чернец имярек много челом [Blagorodnei knjaine imjarek mnogogrěšnyi černec imjarek mnogo čelom] <ref target="lista-bibliografia.xml#Rzi-1935-1936">(Ržiga 1935-1936: 93)</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">Второе послание к той же княгине и по тому же поводу [Vtoroe poslanie k toj že knjagine i po tomu že povodu] <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 142)</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">Послание Максима Грека неизвестной княгине [Poslanie Maksima Greka neizvestnoj knjagine] <ref target="lista-bibliografia.xml#Sin-1977">(Sinicyna 1977: 261)</ref></title>
+            <title type="alt" xml:lang="cu-Cyrl">[Послание второе утешительное той же княгине (Poslanie vtoroe utešitel'noe toj že knjagine) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">199</idno>
+            </bibl>  
+            
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 123</bibl>                   
+            </listBibl>
+            
+            <bibl type="reference-edition">
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="205" to="206">205-206</biblScope>, <biblScope unit="chapter">nr. III.7</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Posl. nr. 16</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, собр. Румянцева 2644</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#169v #170v">лл. 169об.-170об. / ff. 169v-170v</locus> 
+                     <title  type="info-ms" xml:lang="cu-Cyrl">Благородие государыне нашеи княини имя рек Максим Святогорець, нищии богомолец ваш, много челом.</title> 
+                     <rubric type="epistolary-formula">Благородие государыне нашеи княини имя рек Максим Святогорець, нищии богомолец ваш, много челом.</rubric>
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Даи Бог, государыня, за все в здравии и веселии да пребываеши, помогаема и утешаема благодатию и посещением Господа и Бога нашего Исуса Христа.</incipit>   
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">И тръци крепце с благодарением и добрым изволением, да и зде длъговечна будеши, и тамо великую славу и радость вечну получиши акы благоверна и благопослушлива к словесем спасовым, ему слава в векы, аминь. А я тебе, государыня, много челом бью, по твоему прошению писал, елико спас вразумил меня.</explicit>
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms"  /> 
+            </listWit>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>   
+         <creation> <!-- datazione -->
+            <date>Intra 1537 <ref target="lista-bibliografia.xml#Bul-1984a">(Bulanin 1984a: 194)</ref></date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Писание</term> 
+               <term>[Послание]</term>
+               <term>[Утѣшение]</term>
+            </keywords>
+            <keywords scheme="#scope">
+               <term>Istruzione</term> 
+               <term>Consolazione (morte di un figlio)</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) --> 
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName xml:id="FIK">
+                  <persName>Максим Грек / Maksim Grek</persName>
+               </persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:id="pa">
+                  <persName>una principessa</persName>
+                  <roleName>государыня / княгиня</roleName>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      
+      <body>
+         <p>
+            Благородней княини имя рек многогрешный чернец имя рек много челом. 
+         </p>
+         <p>
+            Дай бог, государыня, здорова всегда да живешь и утешение да приемлешь свыше от божиа благости и неисчетныя милости, и да отиметь от души твоея всякыя скорби и печали, и да наплънит тебя веры, любви и надежи, ими же возможеши отгонити всегда от себе всяко сумнение и двоедушие. Зан же душа, котораа исплънена есть тех триех добродетелех, акы гора недвижима пребывает, и не одолеют и аще и вси отвсюду ветреныя бури възвеють всяческых скорбей, и лютых недуг, и напастей, зан же основана и утвержена есть на твръдем камени веры и любви божиа и надежи непостыдныя. А котораа душа пуста тех триех сил добродетелных есть, уподобися птици худе и страшливи, котораа не стерпит ни перо худо ветром инде помечено. // [л.298 об.]
+         </p>
+         <p>
+            Прочитай себе часто писание, что дотоле писал есмь к твоему благородию, и много утешение приимеши. Аще же и тем не утешится душа твоя, и ты приими себе иное утешение духовно — благоверну ону княину Клеопатру, котораа в велицей скръби живущи о скорей напрасней смерти единороднаго сына ея и жалующися на святаго мученика Уара, ему же она съоружила храм украшен, и он не съблюл сына ея на многа лета в живот съй маловременен и многоболезнен. И святый мученик Уар показал ей уснувши у ракы его сына ея, в славе живуща<anchor xml:id="c1" n="а" rend="super"/> у него, в велицей чести, и свет неизреченен, и глагола к ней: «О, добраа жено, что безлепа плачеш и на меня ся жалуеши<anchor xml:id="c2" n="б" rend="super"/>. Во, се твой сын пред тобою стоит, приими к себе его и утешися». И оней хотящей взяти его, он никако же хотяше отлучатися святого мученика, но дръжашеся крепко у святого. И Клеопатра мудра проснувшися и видение оно предивно разсудивши по бозе и известившися тверде, что и житие еже по смерти нашей и слава далече лутчи здешних всех красных мира сего прелестника, вся своя именна роздовала сиротам, и вдовам, и убогым, и люди своя распустила в слободу, и сама постриглася. И чюланишко сътворивши близко у гроба святого мученика, в том пребывала до преставлениа своего в всяком смирении, и молитве, и посте, и нищете, своим руко// [л.299] делием ужь добывающи себе потребнаа житейска.
+         </p>
+         <p>
+            Аще же и сиа чюдна повесть не утолить твоея скръби, слыши и ину повесть такжо предивну и възлюби ея. Благоверна, и благородна, и премудра, и всякыми преукрашена добротами дева Айкасиа, егда повелением царя Феофила събрани были много множество благородных отроковиц от различных стран, хотевшу царю женитися, и проходящу ему и смотряющу их, как пришел пред нею царь и преудивився красоте ея молвыл к ней, акы искушай разум ея, а се как красотою выше иных есть, такова же и смыслом есть, и рече к ней: «Женою злая протекошя». Но наскоро и смыслено отвещала, рекши: «О царю, и женою пакы явишяся лучшая». И царь не внят ответ ея, богу всяко благоизволившу сподобити ея царьствиа своего небеснаго. И она погрешивши царя земьскаго, не оскорбе, но с всякым благодарением и зелным желанием в том же царствующем граде съоружила монастырь, и събравши и ины девы, и сама постриглася, и вместо царя и жениха маловременна и смертнаго оневестила себе царю и жениху небесному.
+         </p>
+         <p>
+            Се тебе госпоже, княиня имя рек, два образци пречюдныи. Избери себе, который полюбишь, и скръбети безлепа престани. И мои те труды знай и нищеты мои не забывайте, зан же и сам вас не забываю в моих худых молитвах.
+         </p>
+         <p>
+            Здравьствуйте всегда.
+         </p>
+         
+      </body>
+      
+      <back>          
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Испр., в ркп. <hi rend="distinct">живоща</hi></p> 
+            </note>
+            <note target="#c2"> 
+               <label rend="super">б</label> 
+               <p>Испр., в ркп. <hi rend="distinct">жалуши</hi></p> 
+            </note>
+         </noteGrp>
+         
+      </back>
+   </text>
+</TEI>

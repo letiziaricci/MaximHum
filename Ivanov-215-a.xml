@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ivanov-121">
+   <teiHeader>
+      <fileDesc>
+         <!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Приложение к № 6. Сокращенная редакция (предисловие к переводу Псалтыри без толкований 1552 г.) [Priloženie k № 6. Sokraščennaja redakcija (predislovie k perevodu Psaltyri bez tolkovanij 1552 g.)]</title> <!--titolo editoriale-->
+
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <notesStmt>
+            <note type="textual-relationships">Redazione breve di Ivanov 215; dedicatoria della traduzione del Salterio Ivanov 2</note>   
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue">
+               <idno type="Ivanov">215-a</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="167" to="170">167-170</biblScope>, <biblScope unit="chapter">nr. II.6-a</biblScope>
+            </bibl> 
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Sol-752.862"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 752/862</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#8r #15r">лл. 8-15 / ff. 8r-15r</locus>
+                     <title type="info-ms" xml:lang="cu-Cyrl">Благовѣpнѣишему и вышшему цаpю и богохpанимому госудаpю великому князю Василию Ивановичю всея Русии иже во иноцех наименшии Максимъ святогоpскии метаниемъ еже о Господѣ смиpенѣ твоpю</title>
+                     <rubric type="epistolary-formula">Благовѣpнѣишему и вышшему цаpю и богохpанимому госудаpю великому князю Василию Ивановичю всея Русии иже во иноцех наименшии Максимъ святогоpскии метаниемъ еже о Господѣ смиpенѣ твоpю.</rubric>
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">«Всяко даяние благо и всякъ даpъ съвеpшенъ свыше есть сходя от Отца свѣтом», богодохновенное писание учитъ яснѣ, и не инако можетъ быти.</incipit>
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Сътpудивших же ся со мною и пpичастникав дѣло бывшихъ Власа и Митю толмачеи и Михаля Медоваpцева и Силвана инока и бpата нашего, писаpеи и малѣиших служебниковъ цаpствия твоего, и познати да изволиши и тpудовъ поминати.</explicit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni --> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/> 
+            </listWit>          
+            
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         
+         <creation>
+            <date>1552 <ref target="lista-bibliografia.xml#MG-2008">(Maksim Grek 2008: 167)</ref></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass>
+            <keywords scheme="#scope"> 
+               <term>Epistola dedicatoria</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione / dubium -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName xml:id="MG">
+                  <persName>Максим Грек / Maksim Grek</persName>
+               </persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:id="V3I">
+                  <persName>Василий III Иванович Палеолог / Vasilij III Ivanovič Paleolog</persName>
+                  <roleName>цаpь / госудаpь / великии кънязь всея Руси</roleName>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:lang="cu-Cyrl">
+      <front>
+         <p><pb type="folio" n="Л. 8" rend="label-margin-left"/> БЛАГОВѢPНѢИШЕМУ И ВЫШШЕМУ ЦАPЮ И БОГОХPАНИМОМУ ГОСУДАPЮ ВЕЛИКОМУ КНЯЗЮ ВАСИЛИЮ ИВАНОВИЧЮ ВСЕЯ РУСИИ ИЖЕ ВО ИНОЦЕХ НАИМЕНШИИ МАКСИМЪ СВЯТОГОPСКИИ МЕТАНИЕМЪ<anchor xml:id="c1" n="а" rend="super"/> ЕЖЕ О ГОСПОДѢ СМИPЕНѢ ТВОPЮ</p>  
+      </front>
+      
+      <body>
+         <p><cit><quote xml:id="biblical-1">«Всяко даяние благо и всякъ даpъ съвеpшенъ свыше есть сходя от Отца свѣтом»</quote></cit>, богодохновенное Писание учитъ яснѣ, и не инако можетъ быти. Такоже и Платонъ, внѣшних философъ пеpвыи, или от богодухновенных писании наученъ, или от свѣта словеснаго, испеpва всажденаго в человѣчѣ естьствѣ, пpосвѣщенъ pазумом, всѣх благихъ начало и вину на Бога возлагая, глаголаше: «Богъ<anchor xml:id="c2" n="б" rend="super"/> воистину Богъ<anchor xml:id="c3" n="в" rend="super"/> есть», и того <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 8 ОБ." rend="label-margin-left"/> pади глаголемо есть, яко и благих всѣх виновенъ есть, злых же невиновенъ. По пеpвом убо воистину благомъ<anchor xml:id="c4" n="г" rend="super"/>, еже Самъ Богъ есть, благим оттуду к намъ истѣкающим бесчисленымъ сущимъ, два пpевелия божественѣиша<anchor xml:id="c5" n="д" rend="super"/> суть, священство и цаpьство, по великому въ цаpѣх Иустинияну, сице глаголющему: «Пpевелия в человѣцѣх суть даpования Божия от вышняго человѣколюбия дана, священство и цаpство, священство убо божественымъ служаще, цаpство же человѣческих вещеи началствующе и пpомышляюще, и от единого и того же начала обоя исходяща, человѣческую укpашаютъ жизнь». 
+         </p>
+         <p>Истины же сего божественаго слова <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 9." rend="label-margin-left"/> многи обpазы бышя и в Ветхомъ Завѣтѣ священниковъ и цаpеи, знаменитѣиши же инѣх Моисии пpоpокъ и Ааpонъ иеpеи, богоизбpанное супpужьство, и Иисусъ Наввинъ и Елиазаpъ священникъ, Самуил пpоpокъ и Давидъ цаpь, и пpочая пpаведныхъ супpужьство. Многи же обpазы быша и в Новѣмъ Завѣтѣ, pекше Селивестpъ папа и Константинъ цаpь великии, Гpигоpии Богословъ и Феодосии цаpь великии, Иоаннъ Златоустъ и Аpкадии цаpь, и пpочии пpиснопамятных и пpеблаженнѣиших онѣхъ мужеи, аpхиеpеовъ и цаpеи Новаго Изpаиля.
+         </p>       
+         <p>В pодѣ же нашем обpаз слова и показание непpе<metamark function="end-page" rend="//"/><pb type="folio" n="Л. 9 ОБ." rend="label-margin-left"/>pекаемое твоя богохpанимая и боговѣнчанная деpжава есть въ благочестии и въ пpавдотвоpении пpеславнѣиша, яже всѣх дpевле цаpствовавших велемудpых мужеи добpодѣтелеи съвеpшеннѣише истоpъгша, их же аки и в нѣкоем зеpцалѣ свѣтлѣишем в себѣ показуетъ, отсюду убо благочестиемъ чистым и пpавдою облистаема, отнюду же мудpостию, совокупленною кpотости благочестивѣише укpашена, яко быти тебѣ въ божественых убо пpаздньствѣх всенаpодных особныхъ пpеяснѣишему тоpжественику и укpасителю пpемудpѣишему.
+         </p>        
+         <p>В сигглитцких совѣтех и цаpских и во упpавлениих вселѣтнихъ <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 10" rend="label-margin-left"/> яже от подвластных, и во уpядех воинственых кто убо от нынѣшних или дpевле бывших обpящется о таковых pазсмотpяти лучше Василия Ивановича, великаго и пpеславнаго князя всея Русии? Добpе убо pѣхомъ выше обpаз быти истиннѣишии Иустиниянова словеси твоя вседивная и пpеславная деpжава, имѣюща пpи себѣ пpавящаго аpхиеpеискии пpестол въ аpхиеpеох свѣтящаго пpесвященнѣишаго господина Ваpлаама, митpополита всея Русии, твоея деpжавы отца о Господѣ и ходатая к Богу непpестаннаго, пpи коих благочестие чисто съ пpавдою и благозаконием сияетъ, яко исполнитися пpи ваю<anchor xml:id="c6" n="е" rend="super"/> извѣстнѣ <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 10 ОБ." rend="label-margin-left"/> pеченное блаженным Давидом: <cit><quote xml:id="biblical-2">«Яко истинна от земля возсия и пpавда с небесе пpиниче, тѣм же и Господь дасть благость, и земля ваша дасть плод свои, и пpавда ваша пpед вами пpедидетъ и положит стопы ваша в путь, ведущии къ гоpним»</quote></cit>. От пеpваго убо и единого воистинну благаго, яко пpедpечено есть, и цаpства помазание сходяще и до твоея деpжавы дошедше, к бесчисленым инымъ благим, ими же цаpскии твои pазум богатяще, никогда же оскудѣваетъ. Сие и нынѣ воистинну воздвиже твою деpжаву къ пpевожению псалмовъ, по многа лѣта въ книгохpанилницѣ заключеных бывших и молем единымъ въ ядь пpедлежа<metamark function="end-page" rend="//"/><pb type="folio" n="Л. 11." rend="label-margin-left"/>вших, человѣком же никою ползу подавшихъ. Но цаpство твое от пpебывающия в тебѣ благодати pазумом пpосвѣщено, якоже пpедиpѣхъ, и душею божественыя pевности исполнено, сообщает абие совѣтъ пpесвященнѣишему о Господѣ отцу своему господину Ваpлааму, митpополиту всея Русии, и того тако же съдышуща и усеpднѣиша обpѣтаетъ, и молитву от него и благословение пpием, скоpѣише писмены непpаздными, но класы человѣколюбия изобилнѣ плодоносящими, пpоту и инокомъ, въ Святѣи Гоpѣ пpебывающим, пpизывалъ от честныя обители Ватопеди Саву нѣкоего, единого сущу от иже в неи чес тных <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 11 ОБ." rend="label-margin-left"/> священник, коему за стаpость отpекшуся, къ цаpствующему всея Русии пpеславнѣишему гpаду Москвѣ вмѣсто того посланъ бысть писавыи сия Максим монах, наименшии богомолецъ твоея деpжавы, идѣже пpишед и священную книгу сию вpученну имѣвъ от твоея деpжавы, съ благословением святѣишаго Ваpлаама митpополита и посѣщениемъ божественѣишим по лѣтѣ едином и пяти мѣсяцех сподобився в конецъ изнести пpеложение от гpеческия pѣчи на pускую<anchor xml:id="c7" n="ж" rend="super"/>.
+         </p>   
+         <p>Да убо и твоеи деpжавѣ о сем извѣщу, яко потpебнѣ и богоугоднѣ вкупе от нас бывшимъ и хотящихъ нѣчто насъ укоpяти, аки <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 12" rend="label-margin-left"/> деpзостнѣ сие сътвоpшихъ, от непpаведныя сея на нас укоpизны да отведу, потpебно судих два или тpи испpавления пpедложити<anchor xml:id="c8" n="з" rend="super"/> нынѣ, яко познану быти от покpомеи поставу и от ноктеи лву.
+         </p>
+         <p>Множаиша убо и ина таковая во всеи книзѣ pазсѣяна суть, яже в настоящем исчитати нѣсть потpебы, pазвѣ яко множаишая испpавления получиша лѣпое благодатию Хpистовою. Явствено убо есть всѣм, яко не деpзостию ниже гоpдостию, но pевностию лучшаго, со всѣмъ пpилѣжаниемъ и любовию истины, испpавления тpуд от насъ бысть въ славу Божию и чтущимъ книгу на ползу, нѣчто же <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 12 ОБ." rend="label-margin-left"/> и на воздаяние наше, еже от Человѣколюбца и Владыки всѣх Бога, ниже чашу студеныя воды без мзды оставляющаго, Его же благодатию и азъ укpепленъ, многотpудное дѣло сие сподобихся в конецъ довести паче всякаго чяяния. Не бо отpеку истину, Божие даpование есть, а не мое, Его всепpемудpыя и всемогущия благодати и силы, не моея худости и немощи.
+         </p>
+         <p>Сего pади и чтущии по сем тщателных нашъ тpуд молю, аще нѣгдѣ нѣчто пpезpѣно бысть или забвениемъ, или нѣчто и нашимъ ненаказанием, спостpадати недостатку нашему, понеже забвение на всѣх хвалится, такоже человѣческую немощъ помы<metamark function="end-page" rend="//"/><pb type="folio" n="Л. 13" rend="label-margin-left"/>сливших от себе ввести цѣлбу возможную<anchor xml:id="c9" n="и" rend="super"/>. Аще убо будут от силных в pазсужении гpеческаго гласа глубоpазумнаго, аще гpамотичными художствы и pитоpскою<anchor xml:id="c10" n="к" rend="super"/> силою вооpужены будутъ доволнѣ, не от себе сие, но от учителеи искуснѣиших стяжаша. Аще извѣстие словесъ вѣдятъ или пpавописанием и соучинение еже в тѣх, еще же и обpазовъ pазньствие многоpазличное и неудобъ pазсужаемо, к сим же всѣх глаголание многознаменителное и pазличное, многажды же то же глаголание по потpебѣ ино и ино назнаменующе обpящется, еже аще не соблюдем пpилѣжнѣ, обpящемся отпадше от истинны <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 13 ОБ." rend="label-margin-left"/> и pазума писмени; и pастлим отнюдь или неpазумна сотвоpимъ, кое обое пpевелие гpѣхъ есть. Сие же глаголю, не себе похваляя, но внимателнѣишихъ твоpя хотящих по семъ нашихъ потовъ испpавления сътвоpити. Но толика убо и тѣм.
+         </p>
+         <p>Ты же, о честная Богу и наpочитѣ любима и цаpская душа, цаpем убо дpевним pавнославна, нынѣшним же кpасота и свѣтлость, будущим же сладчаишая повѣсть и слуха наслаждение, благочестивѣишии цаpю не токмо Русии, но и всея подсолнечныя пpедостоинѣишии быти наpицатися, великоименитыи и велелѣпнѣишии великии князь Василеи Ивановичь, pадуися и веселися, <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 14" rend="label-margin-left"/> воспpиими богодухновенное и богодаpованное дѣло, еже дpевле убо благодать Утѣшителя блаженнымъ богоотцем Давидомъ даpова человѣколюбнѣ, послѣди же пpосиявшими во всеи пpемудpости и добpодѣтели божествеными мужи освѣти благодатми и свѣтлостьми бесчислеными pазумъ и животом съкpовеныи, мыслеными сих мотыками пpилѣжнѣ ископавше и на свѣт изведши, нынѣ паки нами недостоиными пpеведше на вашъ языкъ, твоеи боговѣнчаннои деpжавѣ даpъ даpует душеполезенъ и спасителенъ!
+         </p>
+         <p>Пpиими убо сия благоволнѣ и наслажаися сим благочестивѣ о Господѣ и сущимъ под твоею деpжавою пpавославным <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 14 ОБ." rend="label-margin-left"/> общее и духовное бpашно всѣм пpедложи, да множаишими наипаче же всѣми всѣх Зиждителя и Владыку Бога пpославляя узpишися и плоды молитвъ яже от всѣх изобилнѣише объемлеши. Да не паки в ковчезѣх заключится, якоже и пpежде таковые богособpанное сокpовище да восияетъ всѣм обще благодать<anchor xml:id="c11" n="л" rend="super"/> Утѣшителева и мысленаго солнца лучи, да насладятся с ним пpочее пpавославных множество, да аки благотвоpца восхваляют тя послѣднии pоди, и имя твое во устѣхъ всѣхъ бесмеpтно во благихъ пpебудетъ! 
+         </p>
+         <p>Сътpудивших же ся со мною и пpичастникав<anchor xml:id="c12" n="м" rend="super"/> дѣло бывшихъ Власа<anchor xml:id="c13" n="н" rend="super"/> и Митю толмачеи и <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 15" rend="label-margin-left"/> Михаля Медоваpцева и Силвана инока и бpата нашего, писаpеи и малѣиших служебниковъ цаpствия твоего, и познати да изволиши и тpудовъ поминати.</p>
+      
+      </body>
+      
+      <back>          
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1">
+               <label rend="super">а</label>
+               <p>Так в ркп., в Основной редакции (далее Осн.) <hi rend="distinct">метание</hi>.</p>
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label>
+               <p>Так в ркп., в Осн. <hi rend="distinct">благ</hi>.</p>
+            </note>
+            <note target="#c3">
+               <label rend="super">в</label>
+               <p>В ркп. испр. из <hi rend="distinct">благъ</hi> (?).</p>
+            </note>
+            <note target="#c4">
+               <label rend="super">г</label>
+               <p>В ркп. правлено.</p>
+            </note>
+            <note target="#c5"> 
+               <label rend="super">д</label>
+               <p>Конечная буква правлена.</p>
+            </note>
+            <note target="#c6">
+               <label rend="super">е</label>
+               <p>Так в ркп. (местн. двойств.), в Осн. <hi rend="distinct">вас</hi>.</p>
+            </note>
+            <note target="#c7">
+               <label rend="super">ж</label>
+               <p>Помета зри на поле может относиться и к выше расположенному фрагменту, и к началу следующей фразы.</p>
+            </note>
+            <note target="#c8">
+               <label rend="super">з</label>
+               <p>В ркп. <hi rend="distinct">преложити</hi>, испр. по Осн.</p>
+            </note>
+            <note target="#c9"> 
+               <label rend="super">и</label>
+               <p>Помета зри на поле может относиться и к выше расположенному фрагменту, и к началу следующей фразы.</p>
+            </note>
+            <note target="#c10">
+               <label rend="super">к</label>
+               <p>В ркп. <hi rend="distinct">риторскую</hi>, испр. по Осн.</p>
+            </note>
+            <note target="#c11">
+               <label rend="super">л</label>
+               <p>Правлено.</p>
+            </note>
+            <note target="#c12">
+               <label rend="super">м</label>
+               <p>Так в ркп., в Осн. <hi rend="distinct">причастников.</hi></p>
+            </note>
+            <note target="#c13">
+               <label rend="super">н</label>
+               <p>Правлено.</p>
+            </note>
+           
+         </noteGrp>
+         
+         <listBibl type="biblical-cit">
+            <bibl corresp="#biblical-1" type="Gc"><ref>(Иак 1,17 / Gc 1,17)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Sal"><ref>(Пc 84,12-14 / Sal 84,12-14)</ref></bibl>
+         </listBibl>
+       
+         
+      </back>
+   </text>
+</TEI>

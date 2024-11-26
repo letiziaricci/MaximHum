@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание В. М. Тучкову, сопроводительное к переводам из Лексикона «Суда» [Poslanie V. M. Tučkovu, soprovoditel'noe k perevodam iz Leksikona "Suda"]</title>  
+            <title type="alt" xml:lang="cu-Cyrl">Сопроводительное послание к переводам из Лексикона Свиды [Soprovoditel'noe poslanie k perevodam iz Leksikona Svidy] <ref target="lista-bibliografia.xml#Bul-1984a">(Bulanin 1984a: 199-200)</ref></title>  
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <notesStmt>
+            <note type="textual-relationships">Testo non catalogato in Ivanov 1969 / Missiva di accompagnamento, desitinata a V.M. Tučkov, alle traduzioni dalla Suda Ivanov 74-77</note>   
+         </notesStmt>
+         
+         <sourceDesc>
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Maksim-Grek-2008">Maksim Grek 2008: 349 (nr. II.16)</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="349">349</biblScope>, <biblScope unit="chapter">nr. II.16</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Vost-1842"><name>Vostokov</name>, <date>1842</date></ref>: <biblScope unit="page" from="369">369</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Iva-1969"><name>Ivanov</name>, <date>1969</date></ref>: <biblScope unit="page" from="70">70 (n. 133)</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="199" to="200">199-200</biblScope>, <biblScope unit="chapter">nr. III.2</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Muz-1948">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>ГИМ, Муз. 1948</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#277v">л. 277об. / f. 277v</locus> 
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Сия повѣсти о Оригенѣ, и Авраамѣ, и Иовѣи, и Мѣлхиседекѣ преведены мною ис книгыа гречѣскыа философьскыа, глаголемыа Суидасъ.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">А я тебѣ, государю своему, много челом бию о всѣхб твоихъ благых, что мене нищаго не забываеши.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl">
+               <witness corresp="#basic-witness" ana="#reference-ms"/> <!-- riferimento a sopra (manoscritto base) -->
+               
+               <witness xml:id="Р">  
+                  <ref target="lista-manoscritti.xml#Troic-200">РГБ, Рум. 264</ref>, <locus type="foliation" target="#107r">л. 107 / f. 107r</locus> 
+               </witness>
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>Intra 1525 <ref target="lista-bibliografia.xml#Bul-1984a">(Bulanin 1984a: 192)</ref> <ref target="lista-bibliografia.xml#MG-2008">(Maksim Grek 2008: 35)</ref></date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">    
+               <term>Corrispondenza privata</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>  
+            </keywords>
+         </textClass>
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="MG">
+                  <persName>Максим Грек / Maksim Grek</persName>
+               </persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="VMT">
+                  <persName>Василий Михайлович Тучков-Морозов / Vasilij Michajlovič Tučkov-Morozov</persName>
+                  <roleName>государь-кънязь / государь</roleName>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) -->
+         <p>ПОСЛАНИЕ В. М. ТУЧКОВУ, СОПРОВОДИТЕЛЬНОЕ К ПЕРЕВОДАМ ИЗ ЛЕКСИКОНА «СУДА»</p>  
+      </front>
+      
+      <body>
+         <p>Сия повѣсти о Оригенѣ, и Авраамѣ, и Иовѣи<anchor xml:id="v1" n="1" rend="super"/>, и Мѣлхиседекѣ преведены мною ис книгы<anchor xml:id="c1" n="а" rend="super"/> гречѣскыа философьскыа, глаголемыа Суидасъ. Аще полюбишь, <anchor xml:id="v2a1" n="2" rend="super"/>государь-князь Василеи Михаиловичь<anchor xml:id="v2a2" n="2" rend="super"/>, вели списати их себѣ на чистую тетратку, а черную ту опять отсли ко мнѣ Бога ради, занеже и ини такоже<anchor xml:id="v3" n="3" rend="super"/> пытают<anchor xml:id="v4" n="4" rend="super"/> такыя вещи. А я тебѣ, государю своему, много челом бию о всѣх<anchor xml:id="c2" n="б" rend="super"/> твоихъ благых, что мене нищаго не забываеши.
+         </p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" > <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head>
+               <app from="#v1"> 
+                  <rdg wit="#Р">Иовѣ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">I</head>
+               <app from="#c1">
+                  <lem wit="#Р">книгы</lem>
+                  <rdg wit="#basic-witness">кигы</rdg>     
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2-2</head>
+               <app from="#v2a1" to="#v2a2"> 
+                  <rdg wit="#Р">имярек</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head>
+               <app from="#v3"> 
+                  <rdg wit="#Р">такожде</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head>
+               <app from="#v4"> 
+                  <rdg wit="#Р">опытають</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">II</head>
+               <app from="#c2">
+                  <lem wit="#Р">всѣх</lem>
+                  <rdg wit="#basic-witness">ввѣх</rdg>     
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note">
+            <note target="#c1"> <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Испр. по Р, в ркп. <hi rend="distinct">кигы</hi>.</p>
+            </note>
+            <note target="#c2" > 
+               <label rend="super">б</label>
+               <p>Испр. по Р, в ркп. <hi rend="distinct">ввѣх</hi>.</p>
+            </note>
+         </noteGrp>
+         
+      </back>
+   </text>
+</TEI>

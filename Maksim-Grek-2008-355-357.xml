@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание россиянам, сербам и болгарам о переводе Бесед св. Иоанна Златоуста на Евангелие от Матфея [Poslanie rossijanam, serbam i bolgaram o perevode Besed sv. Ioanna Zlatousta na Evangelie ot Matfeja]</title> 
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <notesStmt>
+            <note type="textual-relationships">Testo non catalogato in Ivanov 1969 / Dedicatoria della traduzione slava delle omelie di Giovanni Crisostomo sul Vangelo di Matteo (Ivanov 7)</note> 
+         </notesStmt>
+         
+         <sourceDesc>
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Maksim-Grek-2008">Maksim Grek 2008: 355-357</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">  
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="355" to="357">355–357</biblScope>, <biblScope unit="chapter">nr. II.18</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Egor-920"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 98, Егор. 920</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#334v #335v">лл. 334об.-335об. / ff. 334v-335v</locus>   <!-- 02. Inventario testimone base COLONNA G -->
+                     <rubric type="epistolary-formula" xml:lang="cu-Cyrl">Максим инок святогорец от священныа обители Ватопедскиа всѣм прочитати имѣющим священную сию книгу боголюбезным мужем росианом, сербом и болгаром радоватися о Господи!</rubric> 
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Достоинство убо священныя сеа книги яково же и елико есть, и юже от неа пребывающую пользу прочитающим сию душам, но убо иже исперва счинившаго сию и иже по многих родѣх съкровеннаго еа разума на свѣт произнесшаго и сего пишу сладчяишу боголюбезным независтно предложившаго, и котории будут коею вышнею благодатию и яже оттуду божественными сияньми [...]</incipit>   <!-- 01. Inventario COLONNA J -->
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Здравствуите о Господѣ и преписание священыа сеа книги не всякому писцу вверяите, но разумом духовным и благоговѣнием, украшением сие повелеваите, аще убо здраво и право сие стяжати желает книгу.</explicit>   <!-- 01. Inventario COLONNA K -->
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/> 
+            </listWit> 
+
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>1524ca <ref target="lista-bibliografia.xml#MG-2008">(Maksim Grek 2008: 355)</ref></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label"> 
+               <term>Епистолиа</term> 
+            </keywords>
+            <keywords scheme="#scope">  
+               <term>Istruzione</term> 
+               <term>Catechesi</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution">
+               <term target="#original">Testo originale</term>  
+            </keywords>
+         </textClass>
+         
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="MG">
+                  <persName>Максим Грек / Maksim Grek</persName>
+               </persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="rsb">
+                  <persName>i russi, i serbi e i bulgari</persName>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front>
+         <p>ПОСЛАНИЕ РОССИЯНАМ, СЕРБАМ И БОЛГАРАМ О ПЕРЕВОДЕ БЕСЕД СВ. ИОАННА ЗЛАТОУСТА НА ЕВАНГЕЛИЕ ОТ МАТФЕЯ</p>
+      </front>
+      
+      <body>
+         <p><metamark function="end-page" rend="//"/><pb type="folio" n="л. 334 об." rend="label-margin-right"/>Максим инок святогорец от священныа обители Ватопедскиа всѣм прочитати имѣющим священную сию книгу боголюбезным мужем росианом, сербом и болгаром радоватися о Господи!</p>
+         <p>Достоинство убо священныя сеа книги яково же и елико есть, и юже от неа пребывающую пользу прочитающим сию душам, но убо иже исперва счинившаго сию и иже по многих родѣх съкровеннаго еа разума на свѣт произнесшаго и сего пишу сладчяишу боголюбезным независтно предложившаго, и котории будут коею вышнею благодатию и яже оттуду божественными сияньми — научит убо явственѣше и сама собою иже не по прохожению, но прилѣжне сию прочитающих.</p>
+         <p>Не меньше же сея сиа вся изъяснит и яже по сеи епистолиа нашего брата Селивана, иже книгу сию от еладскаго гласа добрѣише же и благоразумнѣише, елико мнѣ вѣдѣти, на рус<metamark function="end-page" rend="//"/><pb type="folio" n="л. 335" rend="label-margin-right"/>скои преложшу. Муж бо сеи естества прилучився деснаго, и ко приатию словесных ученеи наипаче остроумен явлься, и тщание же внес нехудо, в малых лѣтех въ нрав изряден бысть, иже у нас сладкаго гласа ниже въ Афины, ниже в прочую Еладу по древлелюбоученых отити потребовав, но в самом своем отечествѣ и посреди языка своего и не многим беседова учителем, но единому и токмо мнѣ, сиа пишущему, потребовав учителю. Сиа же не яко прилучися рѣх, ниже да токмо мужа сего удивлю, но яко и вас, прочитати имѣющих священную сию книгу, уверю, яко истинна, яко опасна, яко потребнѣша устроися, нежели каа ина, иже в разум истинныи нашего таинства достигнути желающим.</p>
+         <p>Еще же да уготовлю вас съ многим великим трезвѣнием и предстательством прочитати сию, множае бо имѣет различное счинение толкованиа и не въ едином образе стоит: овогда бо изъявляет сокровеннаго еуагелискаго глагола разума и въ свѣт производит, мрака нипостижениа очистив его, овогда же яже от съпротивных слову истинны злочестивѣ спротив сподносимаа, яко паучинное ткание разтерзав доблестьвнѣ, вѣтри попусти носитися, по притчи. Видяще, яже ся к прочим еуагелистом разгласовати съглашает премудренѣ и видящееся разгласие и вину не худу, иже о нас порока клеветником подающему съставление паче истинныя от небытие быти любоистинне показует, есть то же нѣгде наипаче же по всему толкованию догмат касается высочаиших и на древних ересеначяльников въстает доблественѣ зело и непобедимыя истины словом и силою духа всяко еретическое превращает хуление. И что подобает много глаголюща стужающи вам слухом различно чрез всю и учященно устроися толкованиа уготование, сего ради и опасных требует и попеченнаго тщаниа и прилежаниа сеа прочитаниа и мысли трезвящиася всегдашниа и вещи страстеи<anchor xml:id="c1" n="а" rend="super"/> сущи чистыа. Да не како в нем же видимся простоты ради речении<anchor xml:id="c2" n="б" rend="super"/> глубины достигати глаголемых, все окаанее погубим и тщеми отидем руками, по притчи, ничто же себѣ приплодивше; испытаите бо, и Господь рече нѣгдѣ июдеом: <cit><quote xml:id="biblical-1">«Писаниа разумѣите»</quote></cit>, а не прочитаите токмо, но «испытаите», сирѣчь истяжите прилежне, и съкровенныи в них разум увѣжите со многим настоанием, подобает бо прочитающему начяльнѣ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 335 об." rend="label-margin-left"/> убо своеа ради ползы священнаа писаниа прочитати съ многим трезвѣнием и попечением, яко да не избежит что его от споспѣшающих к житиа исправлению и добродѣтели приатию. По божественному убо апостолу Иякову, брату Господню, <cit><quote xml:id="biblical-2">«аще кто послушатель закона есть, а не творец, сеи уподобися мужу, усмотрившему лице бытиа своего в зерцалѣ, усмотри бо себѣ си, отиде и абие забы, каков бѣ; приникни же в закон съвершен свободы и пребыв, сеи не послушатель забытлив быв, но творец дѣлу, сеи блажен въ творении своем будет»</quote></cit>. Потом же и прочих създаниа ради пользы подобает сиа прочитати, яко да бесѣдующе<anchor xml:id="c3" n="в" rend="super"/> ему и послушающе, благоюханиа вложенных его мысли божественых словес насладившеся, прославят Господа нашего Иисуса Христа, толику благодать человѣком даровавшаго, да не убо тщимся, яко да сладко прочитаем сиа людем въ церкви, сие бо тщание ниже въ славу Господню, ниже в создание прочитающих поспешествует, ниже мзду отнюдь нѣкую прилагает сице прочитающему, ниже бо к сладости яже до уха божественых писании<anchor xml:id="c4" n="г" rend="super"/> прочитание святых отець уставися в собраних общих, но в пользу душевную слышавших и въ Божие славословие, нам же ниже точку, ниже запятую съблюдающим, ниже ум прочитаемых, идѣже подобает съвершити, попечение творим, но все вкупе смешаюшим же и сливающим безчиннѣ, идѣже убо стремление пѣсни гласа отводит, како невѣжа съзижется или кою пользу приплодит, не пользовав же ся, како прославит Господа, Господу же не<anchor xml:id="c5" n="д" rend="super"/> прославляему кая мзда нам от Него съблюдется, <cit><quote xml:id="biblical-3">«прославляющих бо Мя, — рече, — прославлю»</quote></cit>. Приимете убо священную сию делту<anchor xml:id="c6" n="е" rend="super"/> обрадованнѣ и трезвящею мыслию и попеченным поучением съкровенное в неи богатъство разума и премудрости духа въсприемше, молитвъ дарованием трудившихся о неи, въздаровати подщитеся, блаженному Павлу покаряющеся, глаголюще в первои епистолии к селуняном: <cit><quote xml:id="biblical-4">«Молим же вы, братие, вѣдѣти тружающихся в вас и предстательствующих вам о Господѣ наказующих вас и непщевати их ис преизлишества в любви дѣла ради их»</quote></cit>. Здравствуите о Господѣ и преписание священыа сеа книги не всякому писцу вверяите, но разумом духовным и благоговѣнием, украшением сие повелеваите, аще убо здраво и право сие стяжати желает книгу.
+         </p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note"> <!-- note alfabetiche = commenti al testo-->
+            <note corresp="#c1"> <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <term rend="super">а</term> <!-- lettera in apice -->
+               <p>Далее буква <hi rend="distinct">и</hi>, зач. кин.</p>
+            </note>
+            <note corresp="#c2"> 
+               <term rend="super">б</term>
+               <p>Буква <hi rend="distinct">и</hi> вписана над строкой другими чернилами и другим почерком.</p>
+            </note>
+            <note corresp="#c3"> 
+               <term rend="super">в</term>
+               <p>В ркп. <hi rend="distinct">бесѣдуиюще</hi>, буква <hi rend="distinct">и</hi> зач. кин., над строкой добавлена буква <hi rend="distinct">и</hi> другими чернилами.</p>
+            </note>
+            <note corresp="#c4">
+               <term rend="super">г</term>
+               <p>Доб. буква <hi rend="distinct">и</hi>, зач. кин.</p>
+            </note>
+            <note corresp="#c5">
+               <term rend="super">д</term>
+               <p>Вписано над строкой другим почерком и другими чернилами.</p>
+            </note>
+            <note corresp="#c6">
+               <term rend="super">е</term>
+               <p>На поле со знаком глоссы другим почерком и другими чернилами <gloss>бочку</gloss>.</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Gv"><ref>(Ин 5, 39 / Gv 5,39)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Gc"><ref>(Иак 1, 23-25 / Gc 1,23-25)</ref></bibl>
+            <bibl corresp="#biblical-3" type="1Sam"><ref>(1 Цар 2, 30 / 1Sam 2,30)</ref></bibl>
+            <bibl corresp="#biblical-4" type="1Ts"><ref>(1 Фес 5, 12 / 1Ts 5,12)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Письмо Иоанну Григоропулосу [3] [Pis'mo Ioannu Grigoropulosu]</title>
+            
+            <title type="alt" xml:lang="fr" source="lista-bibliografia.xml#Den-1943">Lettre à Jean Grégoropoulos, de mars 1500 <note type="editorial"><ref><bibl>Denissoff 1943 <citedRange unit="page" from="402" to="404">402, 404</citedRange></bibl></ref></note></title> 
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Kli-1958">Письмо Иоанну Григоропулу от марта 1500 г. [Pis'mo Ioannu Grigoropulu ot marta 1500 g.] <note type="editorial"><ref><bibl>Klibanov 1958 <citedRange unit="page" from="402" to="404">166</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Письмо к Иоанну Григоропуло от марта 1500 г. из Мирандолы [Pis'mo k Ioannu Grigoropulo ot marta 1500 g. iz Mirandoly] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="162" to="162">162</citedRange></bibl></ref></note></title> 
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">238</idno>
+            </bibl>
+
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="94" to="96">94, 96</biblScope>, <biblScope unit="chapter">nr. I.5</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Leg-1885"><name>Legrand</name>, <date>1885</date></ref>: <biblScope unit="page" from="301">301</biblScope> [greco]
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Den-1943"><name>Denissoff</name>, <date>1943</date></ref>: <biblScope unit="page" from="402" to="404">402–404</biblScope> [greco]
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Fir-Did"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>Collezione privata Firmin-Didot</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation">[non rilevabile]</locus>  
+                     <rubric type="epistolary-formula" xml:lang="grc">Τῷ ἐπιεικεῖ καὶ πεπαιδευμένῳ ἀνδρὶ κυρίῳ Ίωάννῃ τῷ Γριγοροπούλῳ, ἑταίρῳ προσφιλεστάτῳ. Ένετίῃσιν.</rubric>
+                     <incipit type="info-ms" xml:lang="grc">Ἴσθι, προσφιλέστατέ μοι Ίωάννη, ὅτι ὑγιεινῶς εἰς Μιραντούλην κατῆλθον, καὶ ὅτι τὸν ἄρχοντα οὐδὲν ἧττον πρὸς ἐμὲ ἢ πρότερον εὖ διατεθειμένον κατέλαβον· [...]</incipit>
+                     <explicit type="info-ms" xml:lang="grc">Μηνὸς μαρτίου οὐκ οἶδα πόσαις. Τὸν Μαϊστροφραγκῖσκον ὡς ἀπ' ἐμοῦ προσφώνησον. Ό σὸς Δωρίλεως ὁ Τριβώλης ὁ ἐκ Σπάρτης Λακεδαιμόνιος. [segue post scriptum]</explicit> 
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" /> 
+            </listWit> 
+ 
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#MG-2008">1500 <note type="editorial"><ref><bibl>Maksim Grek 2008 <citedRange unit="page" from="96" to="96">96</citedRange></bibl></ref></note></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="grc">Greco</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Corrispondenza privata</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>  
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName xml:id="MG">
+                  <persName>Μιχαὴλ Τριβώλης / Michele Trivolis / Михаил Триволис</persName>
+               </persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:id="IG">
+                  <persName>Ἰωάννης Γρηγορόπουλος / Giovanni Gregoropulo / Иоанн Григоропулос</persName>
+                  <roleName>κύριος</roleName>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text>    
+      <front xml:lang="cu-Cyrl">
+         <p>ПИСЬМО ИОАННУ ГРИГОРОПУЛОСУ</p>
+      </front>
+      
+      <body xml:lang="grc">
+         <p>Τῷ ἐπιεικεῖ καὶ πεπαιδευμένῳ ἀνδρὶ χυρίῳ Ἰωάννῃ τῷ Γρηγοροπούλῳ, ἑταίρῳ προσφιλεστάτῳ. Ἐνετίῃσιν.</p>
+         <p>Ἴσθι, προσφιλέστατέ μοι Ἰωάννη, ὅτι ὑγιεινῶς εἰς Μιραντούλην κατῆλθον, καὶ ὅτι τὸν ἄρχοντα οὐδὲν ἧττον πρὸς ἐμὲ ἢ πρότερον εὖ διατεθειμένον κατέλαβον· ἄσμενος γὰρ ὡς ἦν τεκμήρασθαι ἐκ πολλῶν προφανῶν σημείων προσήκατό με. Ἐλπίζω δ᾽ ὅτι καὶ εἰς τὸν ἑξῆς εὐμενεστέρῳ τῷ ἀνδρὶ χρήσομαι· ἔστι γὰρ ἑλληνομανὴς καὶ φιλοτιμότατος. ᾿Αλλ᾽ οὕτως ἴδοιμι καὶ σὲ ἐπ᾽ ἔρωτι καὶ φιλοτιμίᾳ χρηστοῦ τινος τοιούτου ἄρχοντος χομῶντα καὶ καυχώμενον, τότε γὰρ τελείως εὐδαιμονεῖν νομίσαιμι· ἀλλὰ «ταῦτα μέν, φασι, θεῶν ἐν γούνασι κεῖται». Σὺ δ᾽, ὦ ἑταῖρε, εὐθύμει καὶ τοῦ καιροῦ μέμνησο ἀπολαύειν, μεμνημένος τοῦ σοφοῦ λέγοντος «τῆς ὥρας ἀπόλαυε, παρακμάζει ταχὺ πάντα». Ἔρρωσο, καὶ τὸν λογιώτατον Ἄλδον ὡς ἀπ᾿ ἐμοῦ προσεῖπον. Περὶ τοῦ Κρητικοῦ τρίμματος οὐδὲν ἔχω σοι, κατὰ τὸ παρόν, λέγειν· οὕπω γὰρ αὐτὸν διεσεισάμην γράμμασι, μὴ ταὐτὰ τῷ τὸν ἀνάγυρον κινοῦντι πείσεσθαι φοβούμενος. Πάντας τοὺς φίλους ὡς ἀπ᾽ ἐμοῦ προσφώνησον, καὶ μάλιστα τὸν δερματοπώλην, οἶσθα ὃν λέγω· μάλιστα δὲ μέμνησο ἀντεπιστεῖλαί μοι. Εἶπον τῷ Ζαχαρίᾳ ὅπως φροντίσοι ἐκτελέσαι μοι ὅπερ ἀπερχομένῳ μοι ὑπέστη ποιῆσαι. Ἔρρωσо αὖθις. Μηνὸς μαρτίου οὐκ οἶδα πόσαις. Тоν Μαϊστροφραγκῖσχον ὣς ἀπ᾽ ἐμοῦ προσφώνησον. О σὸς Δωρίλεως ὁ Τριβώλης ὁ ἐκ Σπάρτης Λακεδαιμόνιος.  
+         </p>
+         <p>На поле: Γράφω τῷ Ἄλδῳ ὅπως πέμψοι μοί τινα βιβλία, ἐν οἷς ἐδεόμην καὶ Διοσκουρίδου, τὸν ὁποῖον ἂν τὸν ἔχῃς, κέρδεσε κάλλιον σὺ τὰ στάμενα παρὰ κἀνεῖς ἄλλος, μάλιστα δὲ ποιῆσαί μοι χάριν καὶ πέμψε μοι τὸν τοῦ Παύλου, ὃν ἐκεῖνος ἔχει εἰς τὴν Πάδουαν δεδεμένον, καὶ τὰ στάμενα τοῦ τὰ θέλω στείλῃ, ὅταν στείλω τῷ Ἄλδῳ καὶ περὶ τῶν ἄλλων βιβλίων.</p>
+      </body>
+
+   </text>
+</TEI>

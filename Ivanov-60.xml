@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Великаго Афонасиа архиепископа александрьскаго ко Аммону мниху о соблажняющихся во снѣ. 71 [Velikago Afonasia archiepiskopa aleksandr'skago ko Ammonu mnichu o soblažnjajuščichsja vo sně. 71]</title>   
+            <title type="alt" xml:lang="cu-Cyrl">Titolo concorde con il titolo editoriale in <ref  target="lista-bibliografia.xml#Bul-1984a">Bulanin 1984a: 189</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl">Великаго Афанасия, архиепископа александрииского ко Аммону мниху. О соблазняющихся во сне. 75 [Velikago Afanasija, archiepiskopa aleksandriiskogo ko Ammonu mnichu. O sobljaznjajuščichsja vo sne. 75] <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 65)</ref></title> 
+             
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Testo analogo per contenuto a Ivanov 186 e Ivanov 194 (inedito)</note>   <!-- 01. Inventario COLONNA C -->
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">60</idno>
+            </bibl>            
+
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Lop-1899"><name>Loparev</name>, <date>1899</date></ref>: <biblScope unit="page" from="197" to="198">197-198</biblScope>
+            </bibl> 
+              
+            <listBibl type="other-editions">  
+               <bibl type="catalogue">
+                  <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="189">189</biblScope>, <biblScope unit="chapter">nr. II.V.32</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#O-176"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ ОЛДП, О.176</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+
+                     <locus type="foliation" target="#63r">л. 63 / f. 63r</locus>   
+                     <title type="info-ms" xml:lang="cu-Cyrl">Великаго Афонасиа архиепископа александрьскаго ко Аммону мниху о соблажняющихся во снѣ. 71</title> 
+                
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Рцы ми благоговѣние которыи грѣх имат или нечистоту ественое нѣкое истечение, может ли жалити кто и скорбѣти [...]</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">[...] а шуею ногою того дѣля обнизи песножекъ да не вѣрующии к нему отягчают и снидут во адъ.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+           </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Atanasio di Alessandra (vita monastica: la tentazione demoniaca negli istinti della carne e nei pensieri lussoriosi)</term> 
+               <term>Istruzione</term> 
+            </keywords>
+         </textClass>
+
+         <textClass>
+            <keywords scheme="#attribution">
+               <term target="#translation">Traduzione</term> 
+               <term target="#reuse">Riuso [Kormčaja kniga] <ref target="lista-bibliografia.xml#Bul-1984a">(Bulanin 1984a: 189)</ref>[= PG 26: col. 1172]</term>
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ВЕЛИКАГО АФОНАСИА АРХИЕПИСКОПА АЛЕКСАНДРЬСКАГО КО АММОНУ МНИХУ ОТ СОБЛАЖНЯЮЩИХСЯ ВО СНѢ 71</p>  
+      </front>
+      
+      <body>
+         <p>Рцы ми благоговѣние которыи грѣх имат или нечистоту естьственое нѣкое истечение, может ли жалити кто и скорбѣти о исходящих от ноздрю или от устъ и от чрева износимыхъ тогда токмо оскверяемся егда смрадныи грѣхъ дѣлаемъ истечение же естьственое внезапу бывающее естьственое дѣло есть аще нѣцыи безсловесно реченое во еваггелие нудяще прилагают и глаголюще исходящаа оскверияют человѣка се же реченное наводить откуду исходящаа оскверияют человѣка яко от сьрдьца иде же сут лукавии сквернии помысли. О крестѣ христовѣ. Что ради пишу у креста подножекъ христовъ десную страну горѣ поимшю занеж иисусъ на крестѣ стоя главу поклони надесно да приклонит вся языки вѣровати и кланятися ему и того ради облегчи десную ногу и подяся к верхови подножекъ да отдасть грѣхы вѣрующим ему и во второе пришествие вознесутся горѣ во устрѣтение гне а шуею ногою того дѣля обнизи подножекъ да не вѣрующии к нему отягчают и снидут во адъ.</p>
+      </body>
+   </text>
+</TEI>
