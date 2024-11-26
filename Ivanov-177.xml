@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека сказание живущимъ во грѣсѣхъ неотступно, а каноны всякими и молитвами преподобныхъ, молящимся Богу во вся дни, надѣющимся спасение получити [Inoka Maksima Greka skazanie živuščim'' vo grěsěch'' neotstupno, a kanony vsjakimi i molitvami prepodobnych'', moljaščimsja Bogu vo vsja dni, nadějuščimsja spasenie polučiti]</title>   
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Ivanov 1969: <citedRange unit="page" from="134" to="134">134</citedRange></bibl></ref></note></title>
+            
+           
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+        
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">177</idno>
+            </bibl>
+
+            <bibl type="reference-edition" xml:id="KI">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="213" to="214">213–214</biblScope>, <biblScope unit="chapter">nr. 10</biblScope>
+               <title type="info-ms" xml:lang="cu-Cyrl">Titolo presumibilmente concorde con il titolo editoriale</title>
+               <incipit type="info-ms">Молитвы многа и различны обрѣташася древними святыми и преподобнымни отцы, всѣмъ же сихъ единъ разумъ есть и дѣиство, тѣми бо всѣми исповѣдаемся всѣхъ Владыцѣ предъ дерзнутыя нами грѣхи и отпущения ихъ просимъ себѣ [...]</incipit>
+               <explicit type="info-ms">[...] едина убо есть молитва благоприятна ему и благоугодна и дѣлательна, еже отступити прочее всею душею отъ всякаго преступления святыхъ его заповѣдеи, и крѣпитися прочее во страсѣ его, дѣлающе всяку правду, съ радостию духовною и любовию нелицемѣрною.</explicit>
+               </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+           
+            
+            <msDesc type="reference-ms" xml:id="basic-witness-1" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>   
+               </msIdentifier>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl">
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+            </listWit> 
+           </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Сказание</term> 
+               </keywords>
+            <keywords scheme="#scope">   
+               <term>Riforma religiosa</term> 
+               <term>Esteriorità del culto</term>
+               <term>Denuncia</term>
+               <term>Correzione</term>
+               <term>Profezia (Giudizio)</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+        </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>      
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОКА МАКСИМА ГРЕКА СКАЗАНИЕ ЖИВУЩИМЪ ВО ГРѢСѢХЪ НЕОТСТУПНО, А КАНОНЫ ВСКЯИМИ И МОЛИТВАМИ ПРЕПОДОБНЫХЪ, МОЛЯЩИМСЯ БОГУ ВО ВСЯ ДНИ, НАДѢЮЩИМСЯ СПАСЕНИЕ ПОЛУЧИТИ</p>  
+      </front>
+      
+      <body>
+         <p>Молитвы многи и различны обрѣташася древними святыми и преподнбными отцы, всѣмъ же сихъ единъ разумъ есть и дѣиство, тѣми бо всѣми исповѣдаемся всѣхъ Владыцѣ предъ<anchor xml:id="v1" n="1" rend="super"/> дерзнутыя нами грѣхи и отпущения ихъ просимъ себѣ и престатие въ прочее си рѣчь укрѣпитися и престатие въ прочее сир ѣчь укрѣепитися намъ прочее во страсѣ Господни, творящимъ благогодное и благое предъ нимъ, по святыхъ его заповѣдѣхъ, такожде и силу къ просвѣщения разума божественнаго получити просятъ елицы совершени достигоша въ мѣру возраста Спаса Христа, по глаголющему апостольскому гласу: <cit><quote xml:id="biblical-1">«дондеже достигнемъ вси по единство вѣры и познании Сына Божия въ мужа совершенна, въ мѣру возраста исполнения Сына Божия»</quote></cit>. Вѣдомо убо да есть намъ благочестивымъ, яко дондеже пребываемъ во грѣсѣ, еже есть въ преступлении божественныхъ заповѣдеи Христа Бога, аще и вся молитвы преподобныхъ и тропари, и кондаки и молебныя каноны глаголемъ по вся дни и часы, ничтоже отнюдь исправляемъ; самъ во Владыка Христосъ собою глаголетъ къ намъ, аки укаряя насъ и поношая: что мя глаголете: Господи, Господи, и не творите, яже азъ повелѣваю вамъ, сирѣчь дондеже пребываете преступаюши заповѣди моя, всуе презываете мене многими молитвами и многострочными; едина убо есть молитва благоприятна ему и благоугодна и дѣлательна, еже отступити прочее сею душею отъ всякаго преступления святыхъ его заповѣдеи, и крѣпитися прочее во страсѣ его, дѣлающе всяку правду, съ радостию духовною и любовию нелицемѣрною.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> <!-- numero in apice -->
+               <app from="#v1"> 
+                  <rdg wit="#KI">прежде</rdg>
+               </app>
+            </listApp>
+            </listApp>
+         
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Ef"><ref>(Еф 4, 13 / Ef 4,13)</ref></bibl>
+            </listBibl>
+         
+         
+      </back>
+   </text>
+</TEI>

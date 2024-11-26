@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же инока Максима сказание, какаа словеса реклъ бы Петръ, отверглься Христа и плакася горко [Togo že inoka Maksima skazanie, kakaa slovesa rekl'' by Petr'', otvergl'sja Christa i plakasja gorko]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1860 #Iva-1969 #Sin-1977"><note type="editorial">Titoli concordi con il titolo editoriale in <ref><bibl>Maksim Grek 1860 <citedRange unit="page" from="445" to="446">445-446</citedRange></bibl></ref> <ref><bibl>Ivanov 1969: <citedRange unit="page" from="181" to="181">181</citedRange></bibl></ref> <ref><bibl>Sinicyna 1977: <citedRange unit="page" from="230" to="230">230</citedRange></bibl></ref></note></title>
+
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">Ivanov-293</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 4</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 4</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="65" to="65">65</biblScope>, <biblScope unit="chapter">nr. 4</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="445" to="446">445-446</biblScope>, <biblScope unit="chapter">nr. 44</biblScope>
+               </bibl>
+
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#MDA-42"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier>
+                  <msName>РГБ, ф. 173, МДА 42</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#24v #25v">лл. 24об.-25об. / ff. 24v-25v</locus>   
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима сказание, какаа словеса реклъ бы Петръ, отверглься Христа и плакася горко</title>               
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Горе мнѣ окаянному, горе мнѣ, увы ми, увы ми, увы! Кыми слезами потокы исчищу нечестие мое, окаянныи? Кыими теплыми стенании измыю беззаконие мое? Горе ми въистину, понеже Христа, всѣхъ живота и свѣта, Съдѣтеля моего и Живодавца и Господа, съшедшаго свыше на мое взыскание и душю Свою, мене ради, смерти предавша, отвергохся, увы мнѣ, трижды прещениемъ худыа рабыни, въ забвении бывъ всѣхъ Его ко мнѣ даровании, увы мнѣ, что пострадах, что же ся паче надежи случило ми?</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">[...] Боже, милосердъ ми буди, и мене, Владыко, равнѣ имъ вопиюща еже съгрѣшихъ и милосердъ буди ми, Боже, и приими и ущедри и нечестие сердца моего остави ми, молю ти ся, не струями вод, нъ в слезномъ наводнении и горкими воздыхании молящу ми Тя умилено, да не презриши, Господи, молю Тя, потокы слез моих и болѣзнь грьчяишую сердца моего, истлѣвающу ми, подобнѣ огню, и душу и кости и мозгы; спасениа бо ради грѣшных и нечестивых с небеси съшелъ еси и неподобную смерть приялъ еси!</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl">
+               <witness corresp="#basic-witness" ana="#reference-ms"/> 
+               <witness xml:id="Х">  
+                  <ref target="lista-manoscritti.xml#Chlud-73">ГИМ, Хлуд. 73</ref>, <locus type="chapter"></locus>, <locus type="foliation" target="#376v #377r">лл. 38-39об. / ff. 38r-39v</locus>   
+               </witness>
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label"> 
+               <term>Сказание</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Preghiera penitenziale</term> 
+            </keywords>
+         </textClass>
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>    
+            </keywords>
+         </textClass>
+
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>4 ТОГО ЖЕ ИНОКА МАКСИМА СКАЗАНИЕ, КАКАА СЛОВЕСА РЕКЛЪ БЫ<anchor xml:id="c1" n="а" rend="super"/> ПЕТРЪ, ОТВЕРГЛЬСЯ ХРИСТА И ПЛАКАСЯ ГОРКО. 4<anchor xml:id="c2" n="б" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Горе мнѣ окаянному, горе мнѣ, увы ми<anchor xml:id="c3" n="в" rend="super"/>, увы <anchor xml:id="c4a1" n="г" rend="super"/>ми, увы<anchor xml:id="c4a2" n="г" rend="super"/>! Кыми слезами потокы исчищу нечестие мое, окаянныи? Кыими теплыми стенании измыю беззаконие мое? Горе ми въистину, понеже Христа, всѣхъ живота и свѣта, Съдѣтеля моего и Живодавца и Господа, съшедшаго свыше на мое взыскание и душю Свою, мене ради, смерти предавша, отвергохся, увы мнѣ, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 25" rend="label-margin-left"/> трижды прещениемъ худыа рабыни, въ забвении бывъ всѣхъ Его ко мнѣ даровании, увы мнѣ, что пострадах, что же ся паче надежи случило ми? О коль зѣло невѣренъ азъ и неблагодаренъ къ Тебѣ, Спасе, явихся и самого Твоего предателя зѣло горѣе. Аще убо азъ большиа чести паче всѣх сътаинникохъ моихъ достоинъ суженъ быхъ, увѣренъ бывъ самыа ключи небеснаго царствиа и врьх и началникъ имъ от Тебе, Спасе, показахся, увы мнѣ, окаянному, како достоино себе въсплачу? Кыми же умиленными рыдании умолю и милосерда сътворю себѣ нелицемѣрно судяща Судию? Обаче Твоих щедрот бездну познах, о Владыко, и отпущающаго Тя абие вся грѣхы являющим съ бодростию теплое покаяние вѣмъ Тя блудницу всегнусную и сына блуднаго ущедривъшаго, понеже она убо Твоа пречистыа ногы своимы слезами омочи и власы отерла есть, овъ же падъ, съгрѣшихъ, възопи, <anchor xml:id="c5a1" n="д" rend="super"/>и Твои сынъ нарицатися уже нѣсмъ достоин<anchor xml:id="c5a2" n="д" rend="super"/>, вѣм оправдана бывша абие неправеднаго мытаря, понеже точию возопи: Боже, милосердъ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 25 об." rend="label-margin-left"/> ми буди, и мене, Владыко, равнѣ имъ вопиюща еже съгрѣшихъ и милосердъ буди ми, Боже, и приими и ущедри и нечестие сердца моего остави ми, молю ти ся, не струями вод, нъ в слезномъ наводнении и горкими воздыхании молящу ми Тя умилено, да не презриши, Господи, молю Тя, потокы слез моих и болѣзнь грьчяишую сердца моего, истлѣвающу ми, подобнѣ огню, и душу и кости и мозгы; спасениа бо ради грѣшных и нечестивых с небеси съшелъ еси и неподобную смерть приялъ еси!</p>
+      </body>
+      
+      <back> 
+         
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" > 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>В ркп. испр. из <hi rend="distinct">бо</hi> почерком Редактора</p> 
+            </note>
+            
+            <note target="#c2" >
+               <label rend="super">б</label>
+               <p>Буквенное обозначение номера главы кин. на левом поле</p> 
+            </note>
+            
+            <note target="#c3" > 
+               <label rend="super">в</label> 
+               <p>Вписано на поле в конце строки почерком Максима</p> 
+            </note>
+            
+            <note target="#c4a1" targetEnd="#c4a2">
+               <label rend="super">г-г</label> 
+               <p>Вписано над строкой и в строке почерком Максима</p> 
+            </note>
+            
+            <note target="#c5a1" targetEnd="#c5a2"> 
+               <label rend="super">д-д</label> 
+               <p>Вписано на нижнем поле почерком Редактора</p> 
+            </note>       
+         </noteGrp>
+
+      </back>
+   </text>
+</TEI>

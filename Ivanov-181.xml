@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека сказание о разрѣшении обѣта постнаго [Inoka Maksima Greka skazanie o razrěšenii oběta postnago]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Ivanov 1969 <citedRange unit="page" from="135" to="135">135</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Послание Максима Грека неизвестной госпоже о посте (Poslanie Maksima Greka neizvestnoj gospože o poste) <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="258" to="258">258</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Послание госпоже о разрешении обета поста (Poslanie gospože o razrešenii obeta posta) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>       
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">181</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 100</bibl>           
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="245" to="246">245–246</biblScope>, <biblScope unit="chapter">nr. 16</biblScope> 
+               <incipit type="info-ms">Добро есть и зело угодно Богу и намъ спасительно, аще со благимъ изволениемъ довершимъ должныя наши обѣты, елико обрекохомся Богу; тогда исполняемъ дѣломъ реченное пророкомъ Ионою [...]</incipit>
+               <explicit type="info-ms">[...] отъ брашенъ воздержащися, душе, и отъ страстеи не чистотуеши, всуе радуешися о неядении и злѣишимъ бѣсомъ уподобляещися никогдаже ядущимъ, отъ сихъ же лицемѣриа да избавитъ насъ Господь. Аминь.</explicit>
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Posl. nr. 14</biblScope><note>Edizione in corso di stampa</note>
+                  
+               </bibl>
+            </listBibl>
+            
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-494-513">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName> 
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>  
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>  
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol- 497-516">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>  
+               </msIdentifier>
+            </msDesc>
+            
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni, tanti <witness></witness> quanti sono i testimoni di controllo in 03. Inventario testimoni di controllo--> 
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-4" ana="#reference-ms" />
+            </listWit> 
+            
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Сказание</term> 
+               <term>Послание</term>       
+            </keywords>
+            <keywords scheme="#scope">  
+               <term>Vita monastica (deroga al digiuno; il digiuno dal cibo e dal peccato)</term> 
+               <term>Istruzione</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#mo">[un monaco]</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2 #b-wit-3 #b-wit-4">       
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>    
+            </interpretation>
+         </editorialDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОКА МАКСИМА ГРЕКА СКАЗАНИЕ О РАЗРѢШЕНИИ ОБѢТА ПОСТНАГО</p>  
+      </front>
+      
+      <body>
+         <p>Добро есть и зело угодно Богу и намъ спасительно, аще со благимъ изволениемъ довершимъ должныя наши обѣты, елпко обрекохомся Богу; тогда исполняемъ дѣломъ реченное пророкомъ Ионою: <cit><quote xml:id="biblical-1">«азъ же со гласомъ хваления и исповѣдания пожру тебѣ елико помолихся воздамъ тебѣ во спасение мое, Господи»</quote></cit> . Аще же изнемогаемъ старостию или частыми немощми и не можемъ безъ брашна пребывати во весь день во средѣ и пятницы, и мы да ожидаемъ часъ вечернии, и тогда разрѣшаимъ постъ легкимъ и плохимъ брашномъ и то не до обьядения, по елико утѣшити мало тѣлесное изнеможение. И сему учитъ насъ великии апостолъ Павелъ, въ нихже пишетъ къ Тимофею, глаголя: <cit><quote xml:id="biblical-2">«чадо Тимофее, ктому воды не пии, но мало вина приимаи, частыхъ ради немощеи стомаха твоего»</quote></cit> . Оно же вѣждь, что постъ узаконися намъ умерщвения для плотскихъ востании и скоктании сквернящихъ внутреняго человѣка, по реченному пророкомъ: <cit><quote xml:id="biblical-3">«азъ же, внегда ови стужаху ми, облачахся во вретище и смиряхъ постомъ душу мою»</quote></cit> , а егда и не можетъ плотъ старостию или немощми, тогда пособие и нужа есть брашны легкими, да можетъ служити души въ прочихъ духовныхъ служениихъ ея, рекше, поклоны, молитвы, стояниа и службы нужныя различныя. Еще и сие подобаетъ намъ брещи прилѣжно, еже есть да постимся и духовнѣ отъ всѣхъ душевныхъ страстеи, яже суть: зависть, ревность, лихорадство, лукавство, пронырство, льстивыи норовъ, лжа, лицемѣрство, сребролюбие жидовское и лихоимание богомерзское и всѣмъ злымъ виновное гордость. Воздержание совершенное отъ сицевыхъ душетлительныи страстеи истиненъ есть постъ и Богу приятенъ, а едино отъ брашенъ воздержание не токмо пользуетъ мене, но и болши осуждаетъ и бѣсомъ уподобляетъ, по реченому стихерою: отъ брашенъ воздержащися, душе, и отъ страстеи не чистотуеши, всуе радуешися о неядении и злѣишимъ бѣсомъ уподобляешися никогдаже ядущимъ, отъ сихъ же лицемѣриа да избавитъ насъ Господь. Аминь.</p>
+      </body>
+      
+      <back> 
+         
+      
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Gn"><ref>(Иона 2, 10 / Gn 2,10)</ref></bibl>
+            <bibl corresp="#biblical-2" type="1Tm"><ref>(1 Тим 5, 23 / 1Tm 5,23)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Sal"><ref>(Пс 34, 13 / Sal 34,13)</ref></bibl>
+         </listBibl>
+         
+               
+      </back>
+   </text>
+</TEI>

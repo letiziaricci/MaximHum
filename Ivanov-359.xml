@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Сказание о птице неясыти [Skazanie o ptice nejasyti]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881 #Iva-1969 #Sin-1977 #MG-2014"><note type="editorial">Titolo concorde com il titolo editoriale in <ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="491" to="491">491</citedRange></bibl> <bibl>Ivanov 1969 <citedRange unit="page" from="205" to="206">205-206</citedRange></bibl> <bibl>Sinicyna 1977 <citedRange unit="page" from="233" to="233">233</citedRange> <citedRange unit="page" from="244" to="244">244</citedRange> <citedRange unit="page" from="255" to="255">255</citedRange></bibl> <bibl>Maksim Grek 2014 <citedRange unit="page" from="340" to="340">340</citedRange></bibl></ref></note></title>
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Того же инока Максима сказание о птицы-неясыти, словенски же именуется стерг, или букол, или журавль белыи [Togo že inoka Maksima skazanie o pticy-nejasyti, slovenski že imenuetsja sterg, ili bukol, ili žuravl' belyi] <note type="editorial"><ref><bibl>Ivanov 1969: 205, n. 19, ms. RGB, Sol. 496/515, ff. 305v-306v</bibl></ref></note></title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Сказание о птице-неясыти пустыннои [Skazanie o ptice-nejasyti pustynnoi] <note type="editorial"><ref><bibl>Ivanov 1969: 205, n. 19, ms. RГB, Pogod. 1553; GIM, Uvar. 840</bibl></ref></note></title>   
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#QI-225">Того же инока Максима Грека. Сказание о неясыти птице <note type="editorial"><ref><locus>ms. RNB, Q.I.225, ff. 601v-602r</locus></ref></note></title>
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+        
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Ivanov">359</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie"> Румянцевское собрание 64</bibl> 
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 46</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 31</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#Zur-2011"><name>Žurova</name>, <date>2011</date></ref>: <biblScope unit="page" from="76" to="77">76–77</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="220" to="221">220-221</biblScope>, <biblScope unit="chapter">nr. 41</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="340">340</biblScope>, <biblScope unit="chapter">nr. 46</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Bols-285"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier>
+                  <msName>РГБ, Больш. 285</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 31</locus>  
+                     <locus type="foliation" target="#36v #37r">лл. 36об.-37 / ff. 36v-37r</locus>   
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока. Сказание о птици неясыти</title>   
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Неясыть - птица подобна есть жеравлю, питаетъ же ся змиями, гнѣздо же свое складываетъ на высочаиших каменехъ или стлъпех и древесѣхъ, дѣти своя брегущи от змиих.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">[...] биение же въ перси и кровь истекшая - образъ суть страсти Спасовѣ и животворнѣи крови его, имиже мы вѣровавшеи исцѣлѣхомъ и ожихом, по рекшему пророчьскому слову: «Язвою его мы вси исцѣлѣхомъ».</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni di controllo--> 
+               <witness xml:id="P">  
+                  <ref target="lista-manoscritti.xml#Rum-264">РГБ, собр. Румянцева 264</ref>, <locus type="chapter">ст. 64 / art. 64</locus>, <locus type="foliation" target="#109r #109v">лл. 109-109об. / ff. 109r-109v</locus>   
+               </witness>
+               <witness xml:id="И1">   
+                  <ref target="lista-manoscritti.xml#MDA-III-138">РГБ, ф. 173, МДА/III 138</ref>, <locus type="chapter">гл. 46 / cap. 46</locus>, <locus type="foliation" target="#233v #234r">лл. 233об.-234 / ff. 233v-234r</locus>    
+               </witness>
+               <witness xml:id="И">   
+                  <ref target="lista-manoscritti.xml#MDA-I-42">РГБ, собр. МДА/I 42</ref>, <locus type="chapter">гл. 46 / cap. 46</locus>, <locus type="foliation" target="#376v #377r">лл. 376об.-377 / ff. 376v-377r</locus> 
+               </witness> 
+               <witness xml:id="Г">   
+                  <ref target="lista-manoscritti.xml#QI-225">РНБ, Q.I.225</ref>, <locus type="chapter">гл. 82</locus>, <locus type="foliation" target="#601v #602r">лл. 601об.-602</locus>    
+               </witness> 
+            </listWit> 
+
+            </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Сказание</term> 
+            </keywords>
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Fisiologo (pellicano)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation" source="lista-bibliografia.xml#Iva-1969 #Iva-1976 #Kaz-2004">Traduzione Fisiologo <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="206" to="206">206</citedRange></bibl> <bibl>Ivanov 1976 <citedRange unit="page" from="167" to="167">167</citedRange></bibl> <bibl>Kazimova 2004</bibl></ref></note></term> 
+            </keywords>
+         </textClass>
+         
+        
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><pb type="folio" n="л. 36 об." rend="label-margin-left"/> <anchor xml:id="v1a1" n="1" rend="super"/>ТОГО ЖЕ ИНОКА. СКАЗАНИЕ О ПТИЦИ НЕЯСЫТИ<anchor xml:id="v1a2" n="1" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Неясыть - птица подобна есть жеравлю, питаетъ же ся змиями, гнѣздо же свое складываетъ на высочаиших каменехъ или стлъпех и древесѣхъ, дѣти своя брегущи<anchor xml:id="v2" n="2" rend="super"/> от змиих<anchor xml:id="v3" n="3" rend="super"/>. Змия бо естеством враждующи<anchor xml:id="v4" n="4" rend="super"/> на ня, егда родители птенцем<anchor xml:id="v5" n="5" rend="super"/> отлѣтаютъ<anchor xml:id="v6" n="6" rend="super"/> гнѣзда кръмли для, тогда ядовитая змия, възшедши на гнѣздо, ихъ убиваетъ. Аще ли нелзѣ еи будеть на гнѣздо плъзат<anchor xml:id="v7" n="7" rend="super"/>, смотрить ино мѣсто ли<anchor xml:id="v8" n="8" rend="super"/>  древо высоко, стояще близ гнѣзда. Егда вѣтръ тянеть<anchor xml:id="v9" n="9" rend="super"/> прямо<anchor xml:id="v10" n="10" rend="super"/> гнѣзда ихъ, и дыхаеть ядовитым и гръчаишимъ своимъ дыханиемъ на вѣтрѣ<anchor xml:id="v11" n="11" rend="super"/> противу ихь, и тако убиваеть<anchor xml:id="v12" n="12" rend="super"/> ихъ вѣтром ядовитым. <metamark function="end-page" rend="//"/><pb type="folio" n="л. 37" rend="label-margin-left"/> Родитель же ихъ или рождшия, прилетѣвши и узрѣвши ихъ умръшихъ, стоитъ над ними, крилѣ свои распростръши и носом своимъ биетъ въ перси свои до крови, и истекшею оттуду кровию своею<anchor xml:id="v13" n="13" rend="super"/> , каплющею на нихъ, оживляются.</p>
+         <p>Тлък<anchor xml:id="v14" n="14" rend="super"/>. Птица убо сия<anchor xml:id="v15" n="15" rend="super"/> - образъ есть<anchor xml:id="v16" n="16" rend="super"/>  Христу, Богу нашему; птенци же ея умръшлени<anchor xml:id="v17" n="17" rend="super"/> - образ <anchor xml:id="v18a1" n="18" rend="super"/> суть намъ<anchor xml:id="v18a2" n="18" rend="super"/>, языком уязвленымъ<anchor xml:id="v19" n="19" rend="super"/>  бывшем<anchor xml:id="v20" n="20" rend="super"/> злоначалным мысленымъ змиемъ; а змия — образ есть диаволу, уязвившу нас; биение же въ перси и кровь истекшая — образъ суть страсти Спасовѣ и животворнѣи крови Его, имиже мы вѣровавшеи исцѣлѣхомъ<anchor xml:id="v21" n="21" rend="super"/> и ожихом, по рекшему пророчьскому слову: <cit><quote xml:id="biblical-1">«Язвою Его мы вси<anchor xml:id="v22" n="22" rend="super"/> исцѣлѣхомь»</quote></cit>.</p>
+         </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1-1</head> 
+               <app from="#v1a1" to="#v1a2"> 
+                  <rdg wit="#Г">Того же инока Максима Грека. Сказание о неясыти птице</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> 
+                  <witDetail wit="#И">Буква <hi rend="distinct">и</hi> вписана по стертому почерком Максима Грека, л. 376 об., 13 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3"> 
+                  <rdg wit="#Г">змеи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4"> 
+                  <rdg wit="#Г">враждующа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5"> 
+                  <witDetail wit="#И">Буква <hi rend="distinct">м</hi> вписана над строкой почерком Максима Грека, л. 376 об., 14 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6"> 
+                  <witDetail wit="#Г">Доб. <hi rend="distinct">от</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7"> 
+                  <rdg wit="#Г">восполсти</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8"> 
+                  <rdg wit="#Г">или</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9"> 
+                  <rdg wit="#Г">потянет</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10"> 
+                  <witDetail wit="#Г">Доб. <hi rend="distinct">прямо</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11"> 
+                  <rdg wit="#Г">вѣтръ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12"> 
+                  <rdg wit="#Г">уморяет</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13"> 
+                  <witDetail wit="#И1">Буквы <hi rend="distinct">ею</hi> вписаны почерком Максима Грека, л. 234, 2 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14"> 
+                  <witDetail wit="#Г">Писано киноварью</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15"> 
+                  <witDetail wit="#Г">Доб. <hi rend="distinct">есть</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16"> 
+                  <witDetail wit="#Г">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17"> 
+                  <rdg wit="#И #P">умръшвлени</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">18-18</head> 
+               <app from="#v18a1" to="#v18a2"> 
+                  <rdg wit="#Г">нам суть</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">19</head> 
+               <app from="#v19"> 
+                  <rdg wit="#Г">уязвеным</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">20</head> 
+               <app from="#v20"> 
+                  <rdg wit="#Г">бывшим</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">21</head> 
+               <app from="#v21"> 
+                  <rdg wit="#Г">исцелѣвше</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">22</head> 
+               <app from="#v22"> 
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+         </listApp> 
+            
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Is"><ref>(Ис 53,5 / Is 53,5)</ref></bibl>
+            </listBibl>
+         
+      </back>
+   </text>
+</TEI>

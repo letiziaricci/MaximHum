@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека послание къ царю Иоанну Васильевичу всея Русии [Inoka Maksima Greka poslanie k'' carju Ioannu Vasil'eviču vseja Rusii]</title>
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Ivanov 1969: 167-168</bibl></ref></note></title> 
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Послание-прошение Ивану IV (Poslanie-prošenie Ivanu IV) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>] </title>  
+
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">245</idno>
+            </bibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="376" to="379">376–379</biblScope>, <biblScope unit="chapter">nr. 31</biblScope> 
+               <title type="epistolary-formula" xml:lang="cu-Cyrl">Благовѣрнѣишему, свѣтлѣишему и Богомъ хранимому, великому и пресловутому самодержцу всеа Русии и многихъ инихъ окиянскихъ языкъ господину, Иоанну Васильевичу, окаянныи чернецъ святогорецъ, богомолецъ крѣпкаго царствия твоего, дерзая возвѣщаю сия о себѣ съ болѣзнию сердечною п слезами горькими.</title>
+               <incipit type="info-ms">Ниже кровоточиву ону вѣрную жену, отаи крадшую исцѣление многолѣтнаго недуга ея, укорилъ общии всѣхъ Владыка человѣковъ, Спасъ и врачь душамъ же и тѣлесемъ, супротивно же паче хвалимъ ея, велия ради вѣры ея</incipit>
+               <explicit type="info-ms">[...] сего ради и азъ, худоумныи и нищии богомолецъ твоея богохранимыя державы, принесу еи, со упованимеъ, маль поминокъ, словесъ тетратки, о нихже и имиже извѣстится держава твоя богохранимая, каковъ азъ грѣшныи былъ изначала доброхотенъ богомолецъ п служебникъ благовѣрнѣи державѣ рустѣи, и семь благодатию Христовою, и буду до преставления моего!</explicit>
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Posl. nr. 1</biblScope><note>Edizione in corso di stampa</note>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-495-514"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>  
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>  
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol- 497-516"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>   
+               </msIdentifier>
+            </msDesc>
+            
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni, tanti <witness></witness> quanti sono i testimoni di controllo in 03. Inventario testimoni di controllo--> 
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-4" ana="#reference-ms" />
+            </listWit> 
+            
+ 
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Iva-1969">Fine anni 40 del XVI sec. <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="168" to="168">168</citedRange></bibl></ref></note></date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   <!-- 01. Inventario COLONNA L -->
+               <term>Послание</term> 
+            </keywords>
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Richiesta di autorizzazione al rimpatrio</term> 
+               <term>Virtù morale e politica del sovrano</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>    <!-- 01. Inventario COLONNA N -->
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#I4V">Иван IV Васильевич / Ivan IV Vasil'evič</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>
+            </interpretation>
+         </editorialDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОКА МАКСИМА ГРЕКА ПОСЛАНИЕ КЪ ЦАРЮ ИОАННУ ВАСИЛЬЕВИЧУ ВСЕА РУСИИ
+         </p>  
+      </front>
+      
+      <body>
+         <p>Благовѣрнѣишему, свѣтлѣишему и Богомъ хранимому, великому и пресловутому самодержцу всея Русии и многихъ иныхъ окиянскихъ языкъ господину, Иоанну Васильевичу, окаянныи чернецъ святогорецъ, богомолецъ крѣпкаго царствия твоего, дерзая возвѣщаю сия о себѣ съ болѣзнию сердечною и слезами горькими. Ниже кровоточиву ону вѣрную жену, отаи крадшую исцѣление многолѣтнаго недуга ея, укорилъ общии всѣхъ Владыка человѣковъ, Спасъ и врачъ душамъ же и тѣлесемъ, супротивно же паче хвалимъ ея, велия ради вѣры ея; ниже хананею до конца отринулъ, помольшуся о дщери своеи, но зѣльнаго ради смирения оноя, яко псомъ приложену бывшу себе, сышавшу отъ него сладцѣ праведно оно поношение претерпѣ помилова ея, рекъ: о жено, велия вѣра твоя, буди тебѣ яко хощеши; ниже гнуснаго оного прокажениа припадша и очищения просивша безъ исцѣления отпусти, но человѣколюбиѣ отвѣща, рекъ: еи хощу, очистися. Оного человѣколюбиваго и милостиваго Владыки вѣдыи, и азъ окаянныи, со упованиемъ, дерзаю и припадаю государьскимъ твоимъ ногамъ, моля благовѣрную державу твою, да благоизволишъ сотворити милость и исцѣлиши многолѣтную болѣзнь окаянныя души моея, о немъ же лишенъ есмь безмолвнаго и спасительнаго, еже во Святѣи горѣ пребываниа, идѣже лѣта 10 потрудихся тѣлеснѣ и душевнѣ о уповании, да тамо положатся окаянныя кости моя. Ни во чтоже прочее потребенъ азъ благовѣрному и пресловотому граду Москвѣ; егоже получити желаше мною грѣшникомъ, получилъ уже сокровище разума спасительнаго и неистощаема, глаголю же соборное толкование 150 богодохновенныхъ псалмовъ. Да благоизволитъ убо благовѣрная держава твоя воздарити труды моя, елико потерпѣхъ, во время преведения, избавлениемъ многолѣтнаго и нужнаго удержаниа, имъ же держимь есмь, и отпущениемъ во Святую гору. Праведно бо и лѣпо и полезно есть благовѣрнѣи державѣ твоеи, да сотвориши милость со мною и отпустишъ мя, съ миромъ, откуду мя взятъ, грамотою своею и государьскимъ словомъ, приснопамятныи государь мои, отецъ твои государевъ, князь великии Василии Ивановичь всеа Русии, праведно убо, зане призванъ отъ него, не ослушался царское велѣние его; лѣпо же, зане труды многи претерпѣхъ и въ бѣдахъ многихъ падохъ на пути, дондеже приидохъ здѣ; полезно же, зане сотворь милость и отпустишъ мя къ богомольцемъ твоимъ отцемъ и братиямъ моимъ, много множаиша и лучшая молитвенная плодоносия почерпнути будетъ благочестивая держава величества твоего, егоже да соблюдаетъ иже всѣхъ Царь и Господь въ бесконечныя вѣки во всякомъ мирѣ и безмолвии и утвержении и пресвѣтлыхъ побѣдахъ, яже на всякого врага и супостата его. Елма же повелѣние Владыки всѣхъ глаголющее: не явишися тощь предо мною, ты же вмѣсто его царь и государь и властель на земли поставленъ еси отъ него, да правиши достояние его православныя людие, всякою правдою и богоугоднымъ промысломъ, сего ради и азъ, худоумныи и нищии богомолецъ твоея богохранимыя державы, принесу еи, со упованиемъ, малъ поминокъ, словесъ тетратки, о нихже и имиже извѣстится держава твоя богохранимая, каковъ азъ грѣшныи былъ изначала доброхотенъ богомолецъ и служебникъ благовѣрнѣи державѣ рустѣи, и есмь благодатию Христовою, и буду до преставления моего!</p> 
+      </body>
+      
+   </text>
+</TEI>

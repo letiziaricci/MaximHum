@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Строкы Сивилы пророчицы о втором преславном пришествии Спаса Христа, и о страшнем судѣ ихь же краеграние, сицево ест Иисус Христос божии Сынъ Спасъ (Иисус Христос Феоу о Иос Сотир) [Stroky Sivily proročicy o vtorom preslavnom prišestvii Spasa Christa, i o strašnem sudě ich' že kraegranie, sicevo est Iisus Christos božii Syn'' Spas'' (Iisus Christos Feou o Ios Sotir)]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Titolo concorde con il titolo editoriale in Ivanov 1969: 75</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Перевод Максима Грека из лексикона «Суда» - Сивиллино пророчьство о втором пришествии общаго судии всех и о суде живых и мертвых, есть же краеграние его в греческом сицево: Иисус Христос божии Сын Спас, по-гречески Иисус Христос Феу Иос Сотир [Perevod Maksima Greka iz leksikona "Suda" - Sivillino proroč'stvo o vtorom prišestvii obščago sudii vsech i o sude živych i mertvych, est' že kraegranie ego v grečeskom sicevo: Iisus Christos božii Syn Spas, po-grečeski Iisus Christos Feu Ios Sotir] <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="251" to="251">251</citedRange></bibl></ref></note></title>  
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Testo tematicamente contiguo a Ivanov 87 (Suda Σ361) e talora identificato nella tradizione come traduzione dalla Suda insieme a Ivanov 89 (cfr. Rumjancevskoe sobranie in Sinicyna 1977: 251)</note>   
+            <note type="textual-relationships">testo richiamato nei contenuti in Ivanov 142 insieme a Ivanov 88</note>
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">Ivanov-88</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 29</bibl>                    
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Lop-1899"><name>Loparev</name>, <date>1899</date></ref>: <biblScope unit="page" from="188" to="189">188-189</biblScope>
+            </bibl> 
+           
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#О-176"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ ОЛДП, О.176</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#44r #?">лл. 44-? / ff. 44r-?</locus>  
+                     
+                     <title type="info-ms" xml:lang="cu-Cyrl">Строкы Сивилы пророчицы о втором преславном пришествии Спаса Христа, и о страшнем судѣ ихь же краеграние, сицево ест Иисус Христос божии Сынъ Спасъ (Иисус Христос Феоу о Иос Сотир)</title>   
+                    
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Изпотѣет бо земля знамение суда егда будет / Приидет же с небесе Царь вѣком будущим [...]</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Приидуть же пред судищем божиим цесарие всемъ / Потечеть же с небесе рѣка огнена и жупелна.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>            
+
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Строкы</term> 
+               <term>Пророчьство</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Oracoli sibillini (la Parusia)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation" source="lista-bibliografia.xml#Bul-1979">Traduzione [Oracoli sibillini in Sant'Agostino, De civitate Dei <note type="editorial"><ref><bibl>Bulanin 1979 <citedRange unit="page" from="432" to="432">432</citedRange></bibl></ref></note>]</term>
+            </keywords>
+         </textClass>
+
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>СТРОКЫ СИВИЛЫ ПРОРОЧИЦЫ О ВТОРОМ ПРЕСЛАВНОМ ПРИШЕСТВИИ СПАСА ХРИСТА, И О СТРАШНЕМ СУДѢ ИХЬ ЖЕ КРАЕГРАНИЕ, СИЦЕВО ЕСТ ИИСУС ХРИСТОС БОЖИИ СЫНЪ СПАСЪ (ИИСУС ХРИСТОС ФЕОУ О ИОС СОТИР)</p>  
+      </front>
+      
+      <body>
+         <p>Изпотѣет бо земля знамение суда егда будет</p>
+         <p>Приидет же с небесе царь вѣком будущим</p>
+         <p>Плоти пришед всякои и миру всему судит </p>
+         <p>Узрять же бога человѣцы вѣрнии и невѣрнии</p>
+         <p>Вышняго со святыми на концѣ вѣкомъ</p>
+         <p>Плотеносца, душамь же человѣком на судище судит</p>
+         <p>Лядина ега весь миръ терние будетъ</p>
+         <p>Отвергут же идолы человѣцы и вся богатество</p>
+         <p>Взыскуя же разорит врата темницы адъскыа</p>
+         <p>Плоть же всяка мрьтвых во свободны свѣт приидет</p>
+         <p>Святыа и беззаконныа огнь в вѣкы изобличит</p>
+         <p>Елика кто содѣяв утаився тогда вся изречет</p>
+         <p>Перси бо мрачныа богъ свѣтом разверзет</p>
+         <p>Плачь же от всѣх будет и скрежет зубомъ</p>
+         <p>Исчезнет же свѣтъ сълньчьныи и звѣзднаа украшениа</p>
+         <p>Небо повьет и мѣсячное погибиет сиание</p>
+         <p>Вознесет же юдолиа и погубит высоты холмскиа</p>
+         <p>Высота же люта к тому не явится в человѣцѣхъ</p>
+         <p>Равны горы полям будут и всяко море</p>
+         <p>В плавание не приидет земля бо сожжена огнем</p>
+         <p>Со источникы рѣкы кипяще изчезнутъ</p>
+         <p>Труба же с небесе глас многоплачевенъ изпустит</p>
+         <p>Рыкающи муку будущую и страсти миру</p>        
+         <p>Тартарную же пропасть покажет тогда земля разступишися</p>         
+         <p>Приидуть же пред судищем божиим царие всѣмъ</p>
+         <p>Потечеть же с небесе рѣка огнена и жупелна.</p>
+         </body>
+
+   </text>
+</TEI>

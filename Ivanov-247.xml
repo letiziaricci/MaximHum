@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека послание къ Адашеву, о тафияхъ [Inoka Maksima Greka poslanie k'' Adaševu, o tafijach'']</title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881">Послание к Алексѣю Адашеву о тафияхъ [Poslanie k Aleksěju Adaševu o tafijach''] <note type="editorial"><ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="496" to="496">496</citedRange></bibl></ref></note></title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Послание к преподобному Алексию о тафиях [Poslanie k prepodobnomu Aleksiju o tafijach] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="168" to="169">168-169</citedRange></bibl></ref></note></title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Послание к преподобному жителю, благоумному мужу Алексею, в нем же повелевает и ко священноначальствующему о тафиях реши [Poslanie k prepodobnomu žitelju, blagoumnomu mužu Alekseju, v nem že povelevaet i ko svjaščennonačal'stvujuščemu o tafijach reši] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="168" to="168">168</citedRange> <citedRange unit="chapter">n. 22</citedRange> ms. RGB Troic. 200, ff. 358r-359v; ms. GIM Chl. 44, ff. 778r-781r</bibl></ref></note></title>
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Послание митрополичьему казначею Алексею (Poslanie mitropolič'emu kaznačeju Alekseju) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>  
+        
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Nel testo si fa menzione di Ivanov 216+101 e si esprime la richiesta di un libro greco necessario alla continuazione del commento all'Oratio 39. In sancta lumina di Gregorio di Nazianzo avviato in Ivanov 344 e ultimato in Ivanov 260 di Ivanov 260+102; l'epistola potrebbe essere rivolta al tesoriere del metropolita Makarij, Aleksij, a cui è diretta anche la postilla [Ivanov 217-a] (Ržiga 1934: 73)</note>   <!-- 01. Inventario COLONNA C -->
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Ivanov">247</idno>
+            </bibl>
+            
+         
+            <bibl type="reference-edition">  
+               <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="382" to="386">382-386</biblScope>, <biblScope unit="chapter">nr. 33</biblScope>          
+               <title type="epistolary-formula" xml:lang="cu-Cyrl">Алексѣю, преподобне отче и брате возлюбленне о Христѣ Иисусѣ Господѣ нашемъ, здравъ ми бываи п весгда всселъ!</title>
+               <incipit type="info-ms">Богъ тебѣ государю моему да исполнить духовную любовь твою, что мене бѣднаго жалуешь всякимъ дѣломъ и образомъ [...]</incipit>
+               <explicit type="info-ms">Честнаго священподиакопа Васиана ризничиа аспазоме олопеихосъ, спрѣчь цѣлую и облобызаю всею душсю; жалование его дошло мене цѣло. Спасъ ему да исполнитъ!</explicit>
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+          
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Posl. nr. 6</biblScope><note>Edizione in corso di stampa</note>
+               </bibl>
+            </listBibl>
+            
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-495-514"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+            </msDesc>
+            
+            
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol- 497-516"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+            </msDesc>
+            
+           
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni di controllo--> 
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+       
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-4" ana="#reference-ms" />
+            </listWit> 
+            
+ 
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Iva-1969">1547ca <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="169" to="169">169</citedRange></bibl></ref></note></date>  
+            <date resp="lista-bibliografia.xml#Bul-1984a">1548 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="46" to="46">46</citedRange></bibl></ref></note></date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Послание</term> 
+            </keywords>
+            <keywords scheme="#scope">    
+               <term>Polemica religiosa</term> 
+               <term>Confutazione</term> 
+               <term> Ortoprassi (uso delle tachie)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Al">Алексей / Aleksej (tesoriere del metropolita Makarij [?], cfr. Ržiga 1934: 73)</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+ 
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2 #b-wit-3 #b-wit-4">       
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>    
+            </interpretation>
+         </editorialDecl>
+         
+                       
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОКА МАКСИМА ГРЕКА ПОСЛАНИЕ КЪ АДАШЕВУ, О ТАФИЯХЪ</p>  
+      </front>
+      
+      <body>
+         <p>Государь мои, милыи рабе Христовъ и человѣче Божии Алексѣю, преподобне отче и брате возлюбленне о Христѣ Иисусѣ Господѣ нашемъ, здравъ ми бываи и всегда веселъ! Богъ тебѣ государю моему да исполнитъ духовную любовь твою, что мене бѣднаго жалуешь всякимъ дѣломъ и образомъ, и то мнѣ извѣстно по грамотѣ твоеи, исполненнѣи всякия христоподобныя любве и истины, да еще и служебникъ вашъ же государевъ, Андреи Семеновъ, пространнѣе сказывалъ твое, что имаши, прилежное тщание о моемъ добру. И (како) азъ могу достоино благодарение воздати противо толико твое ко мнѣ благоутробие, недоумѣниемъ многимъ содержимъ есмь; сущее ты Христовъ ученикъ и подражатель послушивъ Павловъ, глаголющаго: подобни ми бываите, якоже и азъ Христу. Сего ради и снаслѣдника Павлу Христосъ покажетъ тя всяко во царство свое небесное. Еи, Господе Иисусе Христе! не презри его благоутробие и доброхотство, еже ко всякому скорбящему и помощи требующему! Но сия убо сице да будутъ. Азъ же, отче, по твоеи грамотѣ и тетратку ту приготовилъ, по твоему приказу, да еще къ тоеи и ины тетратки 10 посылаю къ государю нашему преосвященному митрополиту и к тебѣ вещи, по моему суду, не худи, учение о правѣхъ и вооружение сильно на латинския ереси, и злочестивое упрямство евреиско, и на еллинскую прелесть и звѣздочетие, премудрости довольныя и разума духовнаго и силы исполнь прочитающимъ я, со вниманиемъ и умомъ трезвеннымъ и охотою и вѣрою и любовию отрясшимъ отъ мысли своея всякое кичение и мнѣние и чаяние младенческое и коринфеиское надмение. Господи, такимъ неистовствомъ неистоствовати; васъ бо вѣмъ исполненныхъ всякихъ добродѣтелеи духовныхъ; - но слово сие мое ко инымъ нѣкимъ простирается. Молю тя, прочти же и самъ посланеицо мое, егоже черкнулъ къ преосвященному, и въ томъ уразумѣеши извѣстно всю мою кривду и правду клевещущихъ мене, ихъ же Богъ единъ Судиа, и грѣхъ сеи да не поставитъ имъ Господь! А тетратка, въ неиже главы 27, та мною списана мудро добрѣ къ самому великому властелю. Какъ государь митрополитъ разсужаетъ о тафияхъ, господине мои, вѣждь, что и самъ также гнушаюся, егда увижу на главахъ бритыхъ православныхъ, и отъ глубины сердца воздыхаю воистину, что христиане уподобляютъ себе христианоборцемъ туркомъ, не токмо тафиями, но еще и сапоги туркообразными, и не можешь инымъ знати ихъ что христиане, точию крестнымъ знамениемъ. Братиа моя грецы многа лѣта уже работаемъ туркомъ и въ среди ихъ живемъ, а тотъ обычаи не знаемъ; блюдуся, отче Алексѣю, что дале полюбятъ и чалмы по турцки носити; гнусно, Алексѣю, гнусно и отнюдъ чюже православнымъ людемъ, нѣсть богоугодно таковыи мерскии паче и поганскии обычаи заповѣдию крѣпкою апостольския власти да заповѣсться всѣмъ вкупѣ таковыми не беззаконновати, и наипаче мастеромъ дѣлающимъ таковая, да къ тому не дѣлаютъ. Да будетъ кто не послушаетъ, приказати крѣпко приходнымъ попомъ не дати ни ему ни семьи его причастиа, не пустити его въ церкви, и армениямъ и прочимъ гостямъ приказати крѣпко же таковыи товаръ не возити на русь, а привезетъ, быти ему въ торгу биту кнутиемъ и ограблену. Бога ради, не кленете, двигнитеся съ Богомъ апостолодержательнѣ: и ста, рече, Финеесъ, рекше ревностию по Бозѣ воста и угоди, копиемъ прободъ вельможя нѣкоего Израиля, таино блудяща съ женою иноплеменницею мадианитяниною, и уби ихъ обоихъ, на самомъ гнусномъ ихъ дѣлѣ; мы же возстанемъ съ духовнымъ ножемъ, иже есть глаголъ Божии и ревность Финеесова и Илиина, да и мы угодимъ Господу. Не замолча Павелъ волхву Еллимѣ, прельщающу Павла Сергиа Анфипата, по апостольскою властию запретивъ ему, лишилъ есть его свѣта зрительнаго; такожде и мы да запретимъ крѣпцѣ таковая и дѣиствующимъ и носящимъ которыи не будутъ, и не убоимся отъ убивающихъ убо тѣло, душу же погубити не могущихъ; прежде же прещениа учение довольно съ молениемъ и любовию, а не съ бранию ни съ сердцемъ, рабу бо Божию не подобаетъ сваритися, но кротку быти и прочая, оно имъ прирекше съ кротостию по первомъ и второмъ учении: вѣдомо да есть вамъ, коли не слушаете слово Божие и мое отца вашего, отселѣ кто не приидетъ ко мнѣ съ тафьею благословитися, ему не слышати, ни видати отъ мене благословениа; что святое Божие писание не хвалитъ, ни велитъ, ни азъ того хвалю. Или всуе непщуете речено бывше оно святымъ писаниемъ о преступившихъ Божиа заповѣди израильтянехъ: и смѣсишася, рече, въ языцѣхъ, и навыкоша дѣла ихъ, и бысть имъ въ соблазнь. Но и о семъ толика. А мене, Бога ради, заклинаю васъ Иисусъ Христомъ, не оставите безъ причастия; судъ, господине, не прашивалъ и не прошу, милости прошу; покажите милость, да и вы восприимете отъ Спаса туже благодать, судъ бо, рече, безъмилостенъ къ несотворшимъ милость. Къ тому молю васъ, Бога ради, послите ми на подержание Григориа богослова, книгу греческую съ толкованиемъ, Бога ради, послите ми ея, Андрея сего служебника вѣрнаго вашего пожалуите посѣтите его скудость, какъ Богъ положитъ вамъ по сердцу; клобучекъ греческии нѣсть у мене отраденъ, Бога ради, послите ми такова. А я вамъ государемъ челомъ бью до лица земли. Честнаго священнодиакона Васиана ризничиа аспазоме олопсихосъ<anchor xml:id="c1" n="а" rend="super"/>, сирѣчь цѣлую и облобызаю всею душею; жалование его дошло мене цѣло. Спасъ ему да исполнитъ!</p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note corresp="#c1" > 
+               <term rend="super">а</term> <!-- lettera in apice -->
+               <p>Греч: ἀσπάζομαι ὁλοψύχως.</p> 
+            </note>
+            </noteGrp>                     
+         
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание о францисканцах и доминиканцах [Poslanie o franciskankach i dominikancach]</title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Sinicyna 1977 <citedRange unit="page" from="257" to="257">257</citedRange></bibl></ref></note></title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Послание о католических монашеских орденах, францисканском и доминиканском [Poslanie o katoličeskich monašeskich ordenach, franciskanskom i dominikanskom] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="157" to="157">157</citedRange></bibl></ref></note></title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Послание о францисканском и доминиканском орденах (Poslanie o franciskanskom i dominikanskom ordenach) <ref><bibl>Maksim Grek 2025</bibl></ref>]</title> 
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Testo in relazione con l'esegesi del discorso dell'Areopago (At 17,22-34) in Ivanov 265 (inedito)</note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">230</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 84</bibl>                 
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#Rzi-1935"><name>Ržiga</name>, <date>1935-1936</date></ref>: <biblScope unit="page" from="99" to="101">99–101</biblScope>, <biblScope unit="chapter">nr. 1</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Posl. nr. 21]</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, Рум. 264</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#177r #178v">лл. 177-178об. / ff. 177r-178v</locus> 
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Вѣдыи аз презѣлно любослышателное священныя души твоея, яко всегда желаеши слышати душеполезна и наслажающа мысль повѣдания нѣкая, праведно судих, преосвященнѣишии владыко, возвеселити преподобныа мысли твоея сицевыми сладкыми новыми повѣстьми, их же самъ своима очима и ушию и видѣхъ и слышах въ юности моеи время довлъно поживъ въ странѣ Италиистѣи похотью еллиньскых учении.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Смѣя не смѣя писах, рабъ твои неключимыи и богомолец нищии, много челом бью предосвященным ногамъ твоимъ.</explicit>
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Iva-1969">Post 1531 <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="157" to="157">157</citedRange></bibl></ref></note></date>    
+            <date resp="lista-bibliografia.xml#Rom-2021">1532-1547ca <note type="editorial"><ref><bibl>Romoli 2021 <citedRange unit="page" from="28" to="28">28</citedRange></bibl></ref></note></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Ordini religiosi occidentali</term> 
+               <term>Ordine certosino</term>
+               <term>Ordine domenicano</term>
+               <term>Povertà nella religione</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>  
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Ak">Акакий / Akakij (vescovo di Tver')</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <tagsDecl>
+            <rendition xml:id="roundBefore" scheme="css" scope="before">content: "(";</rendition>
+            <rendition xml:id="roundAfter" scheme="css" scope="after">content:")";</rendition>
+         </tagsDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ПОСЛАНИЕ О ФРАНЦИСКАНЦАХ И ДОМИНИКАНЦАХ</p>  
+      </front>
+      
+      <body>
+         <p><metamark function="end-page" rend="//"/><pb type="folio" n="л. 177"/> Вѣдыи аз презѣлно любослышателное священныя души твоея, яко всегда желаеши слышати душеполезна и наслажающа мысль повѣданиа нѣкая, праведно судих, преосвященнѣишии владыко, возвеселити преподобныа мысли твоея сицевыми сладкыми новыми повѣстьми, их же самъ своима очима и ушию и видѣхъ и слышах въ юности моеи время довлъно поживъ въ странѣ Италиистѣи похотью еллиньскых учении. Сие же дръзнух, подражавъ блаженаго и премудраго апостола Павла, <cit><quote xml:id="biblical-1">*учащаго премудрыя ареопагиты великому благочестиа таин'ству*</quote></cit>, неуказании богодухновеных писании, <cit><quote xml:id="biblical-2">*но требищем почитаемаго у них невѣдомаго Бога об<hi rendition="#roundBefore #roundAfter">ъ</hi>являяи, препирая ихъ и руководя къ свѣту истины, не требище оно прославляя, но надписанием, еже на немъ, об<hi rendition="#roundBefore #roundAfter">ъ</hi>являя имЪ невѣдома имъ Бога*</quote></cit>. Никто же убо да укоритъ мнѣ повѣствующему толдостохвалныи обычаи и дѣаниа неправославныхъ въ всемъ христианъ, не ихъ бо неправая учениа, но похвалная ихъ начинаниа и дивлюся в лѣпоту и повѣствую истинолюбно. Аз же имамъ и богодуховеное пророческое слово пособъствующе мнѣ, поношая бо частое неблагодарных иудѣехъ, еже къ идолом преложение <metamark function="end-page" rend="//"/><pb type="folio" n="л. 177 об."/> <cit><quote xml:id="biblical-3">«идите, рече, въ Хетиимъ и видите, аще премѣнять языкы боговъ своихъ, иже не богы суть»</quote></cit>. И аще иудѣомъ, съгрѣшающим на Бога, повелѣвает пророчьское слово приимати себѣ учение от идолопоклоникъ языкъ, како азъ укоризны достоинъ вмѣнюся, повѣствуя достохвалныи обычаи и дѣла человѣковъ, крещающихся въ имя отца и Сына и Святаго Духа и Христа исповѣдующих истиннаго Бога и исправлениа убо ихъ добраа сказую всѣмъ, а ихъ ересеи многыми иными словесы обличих инде<anchor xml:id="c1" n="а" rend="super"/>. К сим же обрѣтаю хвалимаго от благовѣрных, а не укаряема списавшаго в рахманех честное жителство и подвиги человѣковь благоразумных естеством и произволениемъ Бога почетших, а не данным законом Боговидцу Моисею на горѣ Синиастѣи. Но и о сем толика доволна къ отвѣту пред благоразумным, аз же по божественои ревности, яко же Богъ свидѣтел, списаниемъ тол чюдна начинаниа повѣствую православным, да имут съвръшено извѣщение о семъ, яко равноангелно и вышеестественое евангельское законоположение зѣло убои исправляемо ест изволяющим вседушно и ничто же в немъ бѣднѣ носимо, ни притрудно, яко же и самъ Господь глаголеть: <cit><quote xml:id="biblical-4">«иго бо мое благо и бремя мое легко ест»</quote></cit> и сему свидѣтели достовѣрни древле <metamark function="end-page" rend="//"/><pb type="folio" n="л. 178"/> убо многочислена множества вездѣ по вселенѣи въсиавших въ постничествѣ преподобных православных инокъ, в далных пустынях живших, въ всяком нестяжании и нищетѣ влънѣи, <cit><quote xml:id="biblical-5">*своима рукама тружающеся и въ потѣ лица своего свои хлѣб ядяще*</quote></cit>, нѣнѣ же такоже многа множества по всѣхъ королевствех латыньскых мних елико ихъ общее житие произволяют, подобнѣ древнимъ нестяжателно и безмятежно житие любезно проходят и дѣлом съвръшают. Едино у них дѣло прилѣжно и едино стяжание любимо — богодухновеных писании поучение непрестанно и еже по церквам учити без лѣности люди словомъ божиимъ. Сицеви же наипаче сут, иже от чина и правила чествуемого у них преподобнаго Доминика, и иже от чина и правила глаголемаго Франчиска. Честнѣиших и смирѣнеиши норовомъ и чистѣиши житиемъ сут, иже от правила отца ихъ и началника Доминика, иже и предикатори наричются, еже ест по-рускы проповѣдникы и учители, всякыя премудрости и разума преплъни, но понеже внѣ православных догмат носятся, чимъ плъзуются от многыа ихъ премудрости и разума <metamark function="end-page" rend="//"/><pb type="folio" n="л. 178 об."/> всяко ничим же, аще не ложь глаголяи Господь: <cit><quote xml:id="biblical-6">«иже нѣст съ мною, на мя ест, и не събираяи съ мною, разсыпает»</quote></cit>. Человѣколюбивыи Господь да съблюдает нам тебе <anchor xml:id="c2a1" n="б" rend="super"/>священнѣиши владыко<anchor xml:id="c2a2" n="б" rend="super"/> на многа лѣта, да и нас святыми твоимт молитвами да съблюдаетъ всегда въ всякомъ православии и правосудии, аминь. Смѣя не смѣя писах, рабъ твои неключимыи и богомолец нищии, много челом бью предосвященым ногамъ твоимъ.</p>
+      </body>
+      
+      <back> 
+
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p><hi rend="distinct">«Инде»</hi>— приписано другим почерком.</p> 
+            </note>
+            <note target="#c2a1" targetEnd="#c2a2">
+               <label rend="super">б</label>
+               <p>Исправлено на полях.</p> 
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit">
+            <bibl corresp="#biblical-1" type="1Tm"><ref>(см. 1 Тим 3, 16 / cfr. 1Tm 3,16)</ref></bibl>
+            <bibl corresp="#biblical-2" type="At"><ref>(см. Деян 17, 22-24 / cfr. At 17,22-24)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Ger"><ref>(Иер 2, 10-11 / Ger 2,10-11)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Mt"><ref>(Мф 11, 30 / Mt 11,30)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Gen"><ref>(см. Быт 3, 19 / cfr. Gen 3,19)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Sal"><ref>(см. Пс 127, 2 / cfr. Sal 127,2)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Mt"><ref>(Мф 12, 30 / Mt 12,30)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

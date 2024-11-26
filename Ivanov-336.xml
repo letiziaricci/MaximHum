@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Слова, подвигающие к покаянию [3] [Slova, podvigajuščie k pokajaniju (3)]</title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1860 #Iva-1969 #Sin-1977">Инока Максима Грека похвальная словеса о божественнѣй Фомаидѣ, мечемъ убитѣй отъ своего свекра [Inoka Maksima Greka pochval'naja slovesa o božestvenněj Fomaidě, mečem'' ubitěj ot'' svoego svekra] <note type="editorial"><ref><bibl>Maksim Grek 1860 <citedRange unit="page" from="448" to="449">448-449</citedRange></bibl> <bibl>Ivanov 1969 <citedRange unit="page" from="199" to="199">199</citedRange></bibl> <bibl>Sinicyna 1977 <citedRange unit="page" from="245" to="245">245</citedRange></bibl></ref></note></title>   
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Lop-1899">Похвальное слово о блаженней Фомаиде, мечем убитей от своего свекра [Pochval'noe slovo o blažennej Fomaide, mečem ubitej ot svoego svekra] <note type="editorial"><ref><bibl>Loparev 1899: 190</bibl></ref></note></title>   
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Похвалнаа епи о блаженней Фомаиди мечем убитей от своего свекра [Pochvalnaa epi o blažennej Fomaidi mečem ubitej ot svoego svekra] <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="234" to="234">234</citedRange></bibl></ref></note></title>
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">О блаженей Фомаиди мечем убитей от своего свекра [O blaženej Fomaidi mečem ubitej ot svoego svekra] <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="255" to="255">255</citedRange></bibl></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#MDA-I-42">Похвальная епи о блаженнѣи Фомаиди, мечемъ убитѣи от своего свекра. 49 <note type="editorial"><ref><locus>ms. RGB, sobr. MDA/I 42, ff. 377r-380r</locus></ref></note></title>
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#MDA-III-138">Похвальная епи о блаженнѣи Фомаиди, мечемъ убитѣи от своего свекра <note type="editorial"><ref><locus>ms. RGB, f. 173, MDA/III 138, ff. 234r-236r</locus></ref></note></title>
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Rum-264">О блаженнѣи Фомаиди, мечемъ убитѣи от своего свекра <note type="editorial"><ref><locus>ms. RGB, sobr. Rumjanceva 264, ff. 109v-111v</locus></ref></note></title>
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#RGIA-1622">Похвальная епистолия о блаженнѣи Фомаиде, мечемъ убитѣи от своего свекра. Максим Грек <note type="editorial"><ref><locus>ms. RGIA, f. 834, op. 4, 1622, ff. 128v-129r, 115r-117v</locus></ref></note></title>
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Toric-200">Того же Максима философа похвальная слова о блаженнѣи Фомаиди, мечемъ убитѣи от своего свекра <note type="editorial"><ref><locus>ms. RGB, Troickoe sobr. 200, ff. 352r-353r</locus></ref></note></title>
+
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Nelle raccolte intra vitam compone un capitolo unico insieme a Ivanov 176, 335, 337-338 </note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Ivanov">336</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie"> Румянцевское собрание 65</bibl> 
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 47</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 44</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#Zur-2011"><name>Žurova</name>, <date>2011</date></ref>: <biblScope unit="page" from="72" to="73">72–73</biblScope>, 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="448" to="449">448-449</biblScope>, <biblScope unit="chapter">nr. 46</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="343">343</biblScope>, <biblScope unit="chapter">nr. 49 [47-b]</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Bols-285"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, Больш. 285</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 44 / cap. 44</locus> 
+                     <locus type="foliation" target="#60r #60v">лл. 60-60об. / ff. 60r-60v</locus>  
+                     <title  type="info-ms" xml:lang="cu-Cyrl">Похвальная слова о блаженнѣи Фомаиди, мечемъ убитѣи от своего свекра</title>   
+                     <incipit  type="info-ms" xml:lang="cu-Cyrl">Фомаида да поется - всечестная агница Иисусова, велиа похвала цѣломудреная женамъ!</incipit> 
+                     <explicit  type="info-ms" xml:lang="cu-Cyrl">Елико убо луна свѣтлѣиши есть звѣздъ, и сея пакы превелиа свѣща солнечная, толь болшыя славы получила священнаа Фомаида и Сосаны, и самого цѣломудренаго Иосифа.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni di controllo--> 
+               <witness xml:id="T">  
+                  <ref target="lista-manoscritti.xml#Troic-200">РГБ, Троицкое собр. 200</ref>, <locus type="chapter">гл. 89-92 / capp. 89-92</locus>, <locus type="foliation" target="#352r #353r">лл. 352-353 / ff. 352r-353r</locus><note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>   
+               </witness>
+               <witness xml:id="P">   
+                  <ref target="lista-manoscritti.xml#Rum-264">РГБ, собр. Румянцева 264</ref>, <locus type="chapter">ст. 65 / art. 65</locus>, <locus type="foliation" target="#109v #111v">лл. 109об.-111об. / ff. 109v-111v</locus><note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>    
+               </witness>
+               <witness xml:id="A">   
+                  <ref target="lista-manoscritti.xml#RGIA-1622">РГИА, ф. 834, оп. 4, 1622</ref>, <locus type="foliation" target="#128v #129r">лл. 128об.-129 / ff. 128v-129r</locus><locus type="foliation" target="#115r #117v">лл. 115-117об. / 115r-117v </locus><note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>
+               </witness> 
+               <witness xml:id="И1">   
+                  <ref target="lista-manoscritti.xml#MDA-III-138">РГБ, ф. 173, МДА/III 138</ref>, <locus type="chapter">гл. 47 / cap. 47</locus>, <locus type="foliation" target="#234r #236r">лл. 234-236 / ff. 234r-236r</locus><note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>
+               </witness> 
+               <witness xml:id="И">   
+                  <ref target="lista-manoscritti.xml#MDA-I-42">РГБ, собр. МДА/I 42</ref>, <locus type="chapter">гл. 47 / cap. 47</locus>, <locus type="foliation" target="#377r #380r">лл. 377-380 / ff. 377r-380r</locus><note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>
+               </witness> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label"> 
+               <term>Похвальная слова</term> 
+             </keywords>
+            <keywords scheme="#scope">   
+               <term>Pentimento</term> 
+               <term>Istruzione</term>
+               <term>Correzione</term>
+               <term>Exemplum</term>
+               <term>Encomio</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) --> 
+               <term target="#original" >Testo originale</term> 
+               <term target="#dubium" source="lista-bibliografia.xml#Iva-1969">Dubium <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="200" to="200">200</citedRange></bibl></ref></note></term>   
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><anchor xml:id="v1a1" n="1" rend="super"/>Похвальная<anchor xml:id="v2" n="2" rend="super"/> слова<anchor xml:id="v3" n="3" rend="super"/> <anchor xml:id="v1a2" n="1" rend="super"/> о блаженнѣи Фомаиди<anchor xml:id="v4" n="4" rend="super"/>, мечемъ убитѣи от своего свекра<anchor xml:id="v5" n="5" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Фомаида да поется — всечестная агница Иисусова<anchor xml:id="c1" n="а" rend="super"/><anchor xml:id="v6" n="6" rend="super"/>, велиа похвала цѣломудреная<anchor xml:id="c2" n="б" rend="super"/> женамъ! Та, бо страхом Божиим и желаниемъ цѣломудриа сердце обдръжима<anchor xml:id="v7" n="7" rend="super"/> и горящи, изволила убиена быти мечемъ паче, а не повинутися блудному бѣсованию свекра своего, богомръзско судивши<anchor xml:id="v8" n="8" rend="super"/> осквернити ложе <anchor xml:id="v9a1" n="9" rend="super"/>муже ея<anchor xml:id="c3" n="в" rend="super"/><anchor xml:id="v9a2" n="9" rend="super"/> и душу свою и свекрову погубити.</p>
+         <p>Да хвалится убо о неи седморождьшия<anchor xml:id="v10" n="10" rend="super"/> не мнѣе, нежели преже о Сосанѣ<anchor xml:id="v11" n="11" rend="super"/> многорождьшия<anchor xml:id="v12" n="12" rend="super"/>, понеже и нага и умываема убо<anchor xml:id="v13" n="13" rend="super"/> она и въ саду явися очесемъ старческымъ. А сия ни единого таковаго преткновения <anchor xml:id="v14a1" n="14" rend="super"/>виновна бысть своему свекру, но всѣми<anchor xml:id="v14a2" n="14" rend="super"/> неповинна: и внѣшными, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 60 об." rend="label-margin-left"/> и внутреними, всенепорочна вся явльшися, вѣрна же Христу и мужу своему. Елико убо луна свѣтлѣиши есть<anchor xml:id="v15" n="15" rend="super"/> звѣздъ, и сея пакы превелиа<anchor xml:id="v16" n="16" rend="super"/> свѣща солнечная, толь болшыя славы получила священнаа Фомаида и Сосаны<anchor xml:id="v17" n="17" rend="super"/>, и самого цѣломудренаго Иосифа.</p>
+         </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1-1</head> 
+               <app from="#v1a1" to="#v1a2"> 
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> 
+                  <rdg wit="#Т">Того же Максима философа похвалная</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3"> 
+                  <rdg wit="#И #И1">епи</rdg>
+                  <rdg wit="#А">епистолия</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4"> 
+                  <rdg wit="#А">Фомаиде</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5"> 
+                  <witDetail wit="#И">Доб. <hi rend="distinct">49</hi> (номер главы)</witDetail>
+                  <witDetail wit="#И1">Нет номера главы</witDetail>
+                  <witDetail wit="#И1">Испр. из <hi rend="distinct">сквекра</hi></witDetail>
+                  <witDetail wit="#А">Доб. <hi rend="distinct">Макисм Грек</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#6"> 
+                  <rdg wit="#Р #A">Исусова</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7"> 
+                  <witDetail wit="#Т">Испр. из <hi rend="distinct">обдръжими</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8"> 
+                  <witDetail wit="#И">Правлена конечная буква <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9-9</head> 
+               <app from="#v9a1" to="#v9a2"> 
+                  <rdg wit="#И #И1 #P">мужее</rdg>
+                  <rdg wit="#А">мужне</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10"> 
+                  <witDetail wit="#И #И1">Киноварная глосса на левом поле: <gloss>Толк: Церковь Христова</gloss></witDetail>
+                  <rdg wit="#А">седьморождья</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11"> 
+                  <rdg wit="#А">Сусанѣ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12"> 
+                  <witDetail wit="#И #И1">Киноварная глосса на левом поле: <gloss>сонмище иудѣиское</gloss></witDetail>
+                </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13"> 
+                  <witDetail wit="#И">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14-14</head> 
+               <app from="#v14a1" to="#v14a2"> 
+                  <witDetail wit="#И1">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15"> 
+                  <witDetail wit="#Т">Вписано киноварью над строкой</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16"> 
+                  <rdg wit="#А">превелие</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17"> 
+                  <witDetail wit="#И1">Буква <hi rend="distinct">ы</hi> вписана по стертому почерком неосновного писца, л. 235 об., 2 св.</witDetail>
+               </app>
+            </listApp>
+            
+            
+           
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> 
+               <p>Стерта начальная буква И, 4 св.</p>
+            </note>
+            <note target="#c2"> 
+               <label rend="super">б</label> 
+               <p>Буквы <hi rend="distinct">ло</hi> вписаны над строкой почерком Максима Грека, 4 св.</p>
+            </note>
+            <note target="#c3"> 
+               <label rend="super">в</label> 
+               <p>Буква <hi rend="distinct">я (юс малый)</hi> вписана в строку почерком Максима Грека, 11 св.</p>
+            </note>
+            
+         </noteGrp>
+         
+         
+         
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,3074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ivanov-121">
+   <teiHeader>
+      <fileDesc>
+         <!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание московскому великому князью Василию III об афонских монастырях [Poslanie moskovskomu velikomu knjaz'ju Vasiliju III ob afonskich monastyrjach]</title> <!--titolo editoriale-->
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Und-1867 #MG-1860">Изложение отчасти пребываниа и чина сущих во Святеи горе святеиших монастыреи, общих и глаголемых особных, и отчасти сказание, яко не от человек ниже человекы, но от божественаго промышлениа и помощи съблюдается гора она до днесь [Izloženie otčasti prebyvanija i čina suščich vo Svjatei gore svjateišich monastyrei, obščich i glagolemych osobnych, i otčasti skazanie, jako ne ot čelovek niže čeloveky, no ot božestvenago promyšlenia i pomošči s''bljudaetsja gora ona do dnes'] <note type="editorial"><ref><bibl>Sinicyna 1965a <citedRange unit="page" from="128" to="136">128-136</citedRange></bibl></ref> <ref><bibl>Ivanov 1969 <citedRange unit="page" from="192" to="192">192</citedRange></bibl></ref></note></title> 
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue">
+               <idno type="Ivanov">323</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="119" to="132">119-132</biblScope>, <biblScope unit="chapter">nr. II.1</biblScope>
+            </bibl> 
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Sin-1965a"><name>Sinicyna</name>, <date>1965a</date></ref>: <biblScope unit="page" from="128" to="136">128-136</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Sof-1498"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Соф. 1498</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#287r #303v">лл. 287-303об. / ff. 287r-303v</locus>
+                     <title type="info-ms" xml:lang="cu-Cyrl">Ἰησοῦ, βοήθει μοι, τῷ δούλῳ σου. Изложение отчасти пребываниа и чина сущих въ Святѣи горѣ святѣиших монастыреи общих и глаголемых особных и отчасти сказание, яко не от человѣкъ ниже человѣкы, но от божественаго промышлениа и помощи съблюдается гора она до днесь</title>
+                    
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Понеже убо крѣпкое и многохвалное господство твое, в царех благочестивѣишии и самодръжче божественѣишии Москвы и всеа Росиа великыи княже Василие Иоаннович Палеологе, въпрoси множицею нас смиреных о пребывании и о устроении сущих въ Святѣи горѣ честных обителеи</incipit>
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Здрава въ всѣхъ и побѣдителя и благоденстена да съхранит Господь благочестивѣишаго самодръжца нашего и царя Василиа Ивановича Палеолога. Максим монах</explicit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni --> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/> 
+               <witness xml:id="А">   
+                  <ref target="lista-manoscritti.xml#RGIA-4025">РГИА, ф. 834, оп. 3, 4025</ref>, <locus type="foliation" target="#126v #141v">лл. 126об.-141об. / ff. 126v-141v</locus>   
+               </witness>
+               <witness xml:id="К">   
+                  <ref target="lista-manoscritti.xml#Kir-Bel-131-1208">РНБ, Киp.-Бел. 131/1208</ref>, <locus type="foliation" target="#172r #223v">лл. 172-223об. / ff. 172r-223v</locus>    
+               </witness>
+               <witness xml:id="П">   
+                  <ref target="lista-manoscritti.xml#F-I-425">РНБ, F.I.425</ref>, <locus type="foliation" target="#533r #545r">лл. 533-545 / ff. 533r-545r</locus>    
+               </witness>                
+            </listWit>          
+            
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         
+         <creation>
+            <date resp="lista-bibliografia.xml#MG-2008">1518-1519 <note type="editorial"><ref><bibl>Maksim Grek 2008 <citedRange unit="page" from="35" to="35">35</citedRange></bibl></ref></note></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Greco e slavo</language>
+         </langUsage>
+         
+         <textClass>
+            <keywords scheme="#label">  
+               <term>Изложение</term> 
+            </keywords>
+            <keywords scheme="#scope"> 
+               <term>Monachesimo athonita</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione / dubium -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName xml:id="MG">
+                  <persName>Максим Грек / Maksim Grek</persName>
+               </persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:id="V3I">
+                  <persName>Василий III Иванович Палеолог / Vasilij III Ivanovič Paleolog</persName>
+                  <roleName>самодьржьць Москвы и всея Руси / великии кънязь / царь</roleName>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:lang="cu-Cyrl">
+      <front>
+         <p>1. [1518–1519 Г.] ПОСЛАНИЕ МОСКОВСКОМУ ВЕЛИКОМУ КНЯЗЮ ВАСИЛИЮ III ОБ АФОНСКИХ МОНАСТЫРЯХ </p>  
+      </front>
+      
+      <body>
+         <p xml:lang="grc">
+            'Ιησοῦ, βοήθει μοι, τῷ δούλῳ σου.<anchor xml:id="c0" n="*" rend="super"/>
+         </p>
+         <p>
+            Изложение отчасти пребываниа и чина сущих въ Святѣи Горѣ святѣиших монастыреи общих и глаголемых особных и отчасти сказание, яко не<anchor xml:id="c1" n="а" rend="super"/> от человѣкъ ниже человѣкы<anchor xml:id="v1" n="1" rend="super"/>, но от божественаго промышлениа и помо- щи съблюдается Гора она до днесь<anchor xml:id="v2" n="2" rend="super"/>
+         </p>
+         <p>
+            Понеже убо крѣпкое и многохвалное господство твое, в<anchor xml:id="c2" n="б" rend="super"/> царех<anchor xml:id="c3" n="в" rend="super"/> благочестивѣишии и самодръжче божественѣишии Москвы и всеа Росиа<anchor xml:id="c4" n="г" rend="super"/> <anchor xml:id="v3" n="3" rend="super"/> великыи княже Василие Иоаннович<anchor xml:id="v4" n="4" rend="super"/> Палеологе, въпрoси множицею нас смиреных о пребывании<anchor xml:id="v5" n="5" rend="super"/> и о устроении сущих въ Святѣи горѣ честных обителеи, яже<anchor xml:id="v6" n="6" rend="super"/> еще съблюдаються божественою благодатию, — изволися мнѣ благословно<anchor xml:id="v7" n="7" rend="super"/> изложение нѣкое отчасти<anchor xml:id="v8" n="8" rend="super"/> сътворити къ твоему величьству, едино убо да сие извѣщу о всеи истиннѣ, второе же и да иже завистию и ненавистию оклеветати хотящих честнаа она и боголѣпнаа Божиа жилища възъущу<anchor xml:id="v9" n="9" rend="super"/> и<anchor xml:id="v10" n="10" rend="super"/> въ покаание тѣх<anchor xml:id="v11" n="11" rend="super"/> приведу ихъ дръзоглаголание, аще и отнюдь възмогу сие <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 287 ОБ." rend="label-margin-left"/> съдѣлати, понеже разума завистию и ненавистию единою потоплена преложити покушатися весма неудобьтворимое<anchor xml:id="v12" n="12" rend="super"/>, да не глаголю невъзможное<anchor xml:id="v13" n="13" rend="super"/> есть.
+         </p>       
+         <p>
+            Възвѣщу же уложениа<anchor xml:id="v14" n="14" rend="super"/> и образы и създателеи<anchor xml:id="v15" n="15" rend="super"/> тѣх не всѣх — сие бо не точию мнѣ невъзможно, понеже ниже сам сиа от иного слышах, но и мало имат полезное, — но еже въ всѣхъ простѣ жительствуемыи<anchor xml:id="c5" n="д" rend="super"/> <anchor xml:id="v16" n="16" rend="super"/> чин же и устроение въ чемъ и како межи собою разньствують, любоистиннѣише излагаю о Бозѣ свѣдѣтели, ничто же развративъ истины. Възвѣщу же сиа въкратцѣ, сирѣчь два токмо предложивъ: единаго от особныхъ монастыреи и от общих единаго, аще бо которыи<anchor xml:id="c6" n="е" rend="super"/> въ сихъ дву жительствуеть<anchor xml:id="v17" n="17" rend="super"/> чинъ<anchor xml:id="v18" n="18" rend="super"/> и устроение — и<anchor xml:id="c7" n="ж" rend="super"/> <anchor xml:id="v19" n="19" rend="super"/> въ прочих всѣхъ тои же узрится. 
+            
+         </p>        
+         <p>
+            Начну же сице нѣкако. Гора убо Афонъ преименована послѣди Гора Святаа ради пришествиа, бывшаго <anchor xml:id="v20a1" n="20" rend="super"/>в неи древле<anchor xml:id="v20a2" n="20" rend="super"/>, якоже древняа вѣсть предаеть<anchor xml:id="v21" n="21" rend="super"/>, еще <anchor xml:id="c8" n="з" rend="super"/>живѣ Богоматери<anchor xml:id="c9" n="и" rend="super"/>, егда къ Кипру прехо// [Л. 288]жаше видѣти Лазаря, и ради краиние добродѣтели и святыни подвизавшихся<anchor xml:id="v22" n="22" rend="super"/> божественых мужеи в неи древними времены. Есть убо гора Македонии Селунскаго краа<anchor xml:id="v23" n="23" rend="super"/> къ морю, яже простирается внутрь моря къ востоком на сто връстъ, якоже непщую, яже от пръваго вхожениа<anchor xml:id="v24" n="24" rend="super"/> еже в неа, его же сице нѣкако глаголемъ Мегалинъ Вигланъ, сирѣчь Велиа Стража, въздвизается от земля въсхожениемъ жестоким же и острѣишим, яко поприщь<anchor xml:id="c10" n="к" rend="super"/> единаго и полъ, от него же пръваго вхожениа<anchor xml:id="v25" n="25" rend="super"/> донелѣ же скончается въ краинѣишея<anchor xml:id="c11" n="л" rend="super"/> <anchor xml:id="v26" n="26" rend="super"/> горы части — на болшее присно и<anchor xml:id="c12" n="м" rend="super"/> <anchor xml:id="v27" n="27" rend="super"/> въздвизаеться и утолстѣваеться<anchor xml:id="v28" n="28" rend="super"/>, и холмы и хребты высочаишими и частьми<anchor xml:id="v29" n="29" rend="super"/> съгнѣтаема. Въ краинѣишую<anchor xml:id="v30" n="30" rend="super"/> же часть горы на толику высоту въземлеться много, яко въсходящих въ краинѣишее<anchor xml:id="v31" n="31" rend="super"/> еа верха, аще убо ведрить въздух, видѣти доброчестнѣишии островъ Еврипъ, отстоаще<anchor xml:id="v32" n="32" rend="super"/> <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 288 ОБ." rend="label-margin-left"/> далече от Афона<anchor xml:id="v33" n="33" rend="super"/>, яко поприщь двѣстѣ и вяще<anchor xml:id="v34" n="34" rend="super"/>. Но и древнии писатели<anchor xml:id="v35" n="35" rend="super"/> глаголють, яко егда преклониться солнце к западомъ, достизаеть сѣнь краа верха<anchor xml:id="v36" n="36" rend="super"/> Афона въ <anchor xml:id="c13a1" n="н" rend="super"/>острова<anchor xml:id="v37" n="37" rend="super"/> Лимносъ<anchor xml:id="v38" n="38" rend="super"/> <anchor xml:id="c13a2" n="н" rend="super"/>, далече отстоащаго, яко поприщь 60<anchor xml:id="v39" n="39" rend="super"/>, которыи верхъ до дву поприщь; близ к нижнеи странѣ есть всенагъ<anchor xml:id="v40" n="40" rend="super"/> камень ради зѣлныа студени, яко не обрѣтатися что ино тамо, развѣ трава<anchor xml:id="v41" n="41" rend="super"/> нѣкаа<anchor xml:id="v42" n="42" rend="super"/> малѣишаа<anchor xml:id="v43" n="43" rend="super"/> въ каменных щѣлѣхъ, въ безсолнечных<anchor xml:id="c14" n="о" rend="super"/> же удолиих, сущих подъ връхом еа, обрѣтаеться снѣгъ весь год.
+         </p>   
+         <p>
+            <anchor xml:id="v44a1" n="44" rend="super"/> <anchor xml:id="c15a1" n="п" rend="super"/>О Велицѣи лаврѣ<anchor xml:id="c15a2" n="п" rend="super"/> <anchor xml:id="v44a2" n="44" rend="super"/>. Под краинею убо ногою горы к морю, еже къ востоком, на мѣстѣ равнѣ убо, елико мощно есть, обаче жестоцѣ зѣлнѣ и каменнѣ, создана есть божественаа въистину и царскаа великаа Лавра преподобнаго <anchor xml:id="v45a1" n="45" rend="super"/>и богоноснаго<anchor xml:id="v45a2" n="45" rend="super"/> отца нашего Афанасиа Афонскаго<anchor xml:id="v46" n="46" rend="super"/>, долга и уска, стѣнами высокыми <anchor xml:id="v47a1" n="47" rend="super"/>и толстыми<anchor xml:id="v47a2" n="47" rend="super"/> и столпы<anchor xml:id="v48" n="48" rend="super"/> крѣпкими округъ огражена. Создатель же тоа бысть иже въ царѣхъ приснопомнимыи<anchor xml:id="v49" n="49" rend="super"/> Никифоръ Фока, его же уби Иоан // [Л. 289] Цимисхис. Лежит же сиа священнаа и честнаа обитель прямо <anchor xml:id="v50a1" n="50" rend="super"/>къ вешним<anchor xml:id="v50a2" n="50" rend="super"/> въстоком, коа древле убо, егда благоденьствоваше, <anchor xml:id="v51a1" n="51" rend="super"/>общее житие съблюдаше<anchor xml:id="v51a2" n="51" rend="super"/> по божественых преданиих<anchor xml:id="c16" n="р" rend="super"/> преподобнаго отца Афанасиа. Послѣди же от грѣхъ наших <anchor xml:id="v52a1" n="52" rend="super"/>изнемогши и сиа, якоже и прочии<anchor xml:id="v52a2" n="52" rend="super"/>, и<anchor xml:id="v53" n="53" rend="super"/> не могущи питати<anchor xml:id="v54" n="54" rend="super"/> общежителнѣ своа чада многа бывшаа и попечение тѣх<anchor xml:id="v55" n="55" rend="super"/> въ всем творити, съвѣтъ съвѣщаша зѣло мудръ и добръ, възложивъ свою нужу священному Собору пресвятѣишаго патриарха Констянтиняграда<anchor xml:id="c17" n="с" rend="super"/>, и прощение<anchor xml:id="v56" n="56" rend="super"/> оттуду приемъ, раздѣли по келиамъ чада своа по два и по три и по четырѣ, дающи им на всякъ день хлѣбъ доволен и сочиво и от сада своего зелие всяческое, и на кѣлию<anchor xml:id="v57" n="57" rend="super"/> подаде толикъ виноград и толики маслици и инаа нѣкаа плодовитаа древеса, яже сами тружающеся и добрѣ дѣлающе изобилують присно и вина и елеа и всяческых овощев, от них же доволнаа себѣ съхранивше, преизлишняа <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 289 ОБ." rend="label-margin-left"/> продают, иже неискуства ради или и<anchor xml:id="v58" n="58" rend="super"/> немощи не могущим братиам сиа дѣлати, ова же и<anchor xml:id="v59" n="59" rend="super"/> туне немощнѣишим дарують.
+         </p>
+         <p>
+            Не в сих же точию упражняются иже на вся преподобнии, но и хитрости всяческиа<anchor xml:id="v60" n="60" rend="super"/> дѣлають и рукодѣлиа: овъ убо сапожник, ов же ковачь, инъ же швець, другыи же древодѣл, ин же здець, ин же точить сосуды, другыи на холмѣх древеса сѣчет и доски скоблит и брусиа, инъ прядет и вязеть клобуки и пояски<anchor xml:id="v61" n="61" rend="super"/>, другии пишет, инъ переплетает, другыи сад дѣлаеть, ин же виноградъ добрѣ дѣлает<anchor xml:id="v62" n="62" rend="super"/>, другыи рыбы<anchor xml:id="v63" n="63" rend="super"/> ловит и сѣти плететь, и симъ чином кождо и<anchor xml:id="v64" n="64" rend="super"/> себе питает и другаго, но и того<anchor xml:id="c18" n="т" rend="super"/> приемшую<anchor xml:id="c19" n="у" rend="super"/> духовную матерь, честную глаголю обитель <anchor xml:id="v65a1" n="65" rend="super"/>от своих потовъ лишену прохладилъ. Сице убо братиа живуть въ себѣ и обитель<anchor xml:id="v65a2" n="65" rend="super"/> изнемогшую ничим же отягчают, но и паче облегчають и упокоают от преизлишних попечении, якоже нѣции матерелюбци дѣти престарѣвшую матерь ста// [Л. 290]рость питающе, не до сего же к неи показуют любовь, но и на множаише сию простирают. Егда бо сѣтвы время настанет или жатвы или гроздособраниа или рыбъловитва, или зданиа и обновлениа нѣкоего<anchor xml:id="v66" n="66" rend="super"/> нужа<anchor xml:id="v67" n="67" rend="super"/> понужает, которую братию иже по временех<anchor xml:id="v68" n="68" rend="super"/> преподобнѣишии игуменъ съ честнѣишими старци<anchor xml:id="v69" n="69" rend="super"/> Събора изберет, да ови убо пристоат дѣлом, ови же повелѣвающим служат и покоряються абие съ усердием многым и душевным веселиемъ, под иго послушаниа подтицают, и ови убо на брегъ устремишася<anchor xml:id="v70" n="70" rend="super"/> къ еже превести от пашня<anchor xml:id="v71" n="71" rend="super"/> жито<anchor xml:id="v72" n="72" rend="super"/>, еже инии предшедше<anchor xml:id="v73" n="73" rend="super"/> въ житница събраша. Друзии же чресла своа мужественѣ препоасавше и яже<anchor xml:id="v74" n="74" rend="super"/> къ потребѣ пригоднаа орудиа в руках приемше, наставнику и вожу<anchor xml:id="v75" n="75" rend="super"/> обители строителю послѣдующе<anchor xml:id="v76" n="76" rend="super"/> честнѣ, Господеви поюще и веселящеся духовнѣ, на предлежащее им<anchor xml:id="v77" n="77" rend="super"/> дѣлание устремишася. И сие не бываеть единою или дважды на год, но присно и не<metamark function="end-page" rend="//"/><pb type="folio" n="Л. 290 ОБ." rend="label-margin-left"/>престано, едина работа другои послѣдуеть<anchor xml:id="v78" n="78" rend="super"/>, и единъ трудъ другаго присно приносит, <anchor xml:id="v79a1" n="79" rend="super"/>и нынѣ<anchor xml:id="v79a2" n="79" rend="super"/> убо в мори тружаются, нынѣ<anchor xml:id="v80" n="80" rend="super"/> же на земли злостражуть.
+         </p>
+         <p>
+            Нѣкогда убо ради нужныа потребы монастыреи, нѣкогда же<anchor xml:id="v81" n="81" rend="super"/> ради неправедных<anchor xml:id="v82" n="82" rend="super"/> винъ и злохитръствъ, яже нечестивии от лихоимственаго изволениа и зависти на благочестивых сътворяют, оних<anchor xml:id="v83" n="83" rend="super"/> же аще и в темницу въвръзатися<anchor xml:id="v84" n="84" rend="super"/> нужа<anchor xml:id="v85" n="85" rend="super"/> будет, и въ юзы благодушнѣ сиа<anchor xml:id="v86" n="86" rend="super"/> облекаются чюднии и о тѣхъ веселятся мучениа<anchor xml:id="v87" n="87" rend="super"/> образ непщующе бываемаа, иже и аще толикыми труды и бѣдами ради еже о Христѣ любве облиаеми въ всем животѣ своем, обаче ниже сице ниспадають, ниже утомляются, но аки нѣкии<anchor xml:id="v88" n="88" rend="super"/> адаманти мыслении непобѣдими<anchor xml:id="v89" n="89" rend="super"/> пребывають и оно едино приобрѣтение помышляюще, аще своею смертию честных обителеи<anchor xml:id="v90" n="90" rend="super"/> съставление искупити възмогут. Како убо неправедно есть всякого благочестиваго христианина отвсюду тѣмъ съ// [Л. 291]страдати истещи всею силою и сподвизатися добрым симъ подвигом и спасителным еже отнюдь твоему благoчестию<anchor xml:id="v91" n="91" rend="super"/> въ попечение будеть, понеже и над всѣх имаши приемъ днесь от Бога добродѣтель<anchor xml:id="c20" n="ф" rend="super"/> побѣдителнаа<anchor xml:id="v92" n="92" rend="super"/>. Но пребывание убо и труды обрѣтающихся бого носных мужеи в лаврах Святыа Горы, их же пръваа есть честнаа обитель преподобнаго отца нашего Афанасиа<anchor xml:id="v93" n="93" rend="super"/>, таковое есть въкратцѣ рещи и<anchor xml:id="c21" n="х" rend="super"/> истиннолюбнѣ<anchor xml:id="v94" n="94" rend="super"/>, в неи же обрѣтаются мнихи<anchor xml:id="v95" n="95" rend="super"/> нѣкогда убо 200, нѣкогда же и множаише.
+         </p>
+         <p>
+            Втораа же по сеи есть божественаа и священнаа царскаа обитель Пресвятыа Богородица Благовѣщениа нарицаемаа Ватопединъ, яже и<anchor xml:id="v96" n="96" rend="super"/> лежить къ полунощнѣи странѣ горы выше от моря, яко стрѣлы испущение отстоаща, стѣнами и<anchor xml:id="v97" n="97" rend="super"/> сиа высокыми и столпы<anchor xml:id="v98" n="98" rend="super"/> 9-ми округъ огражена въ образѣ триугловиднѣ<anchor xml:id="v99" n="99" rend="super"/>, толико кратчаишаа<anchor xml:id="v100" n="100" rend="super"/> священныа Лавры преподобнаго отца 
+            Афанасиа<anchor xml:id="II-v1" n="1" rend="super"/> суща, елико она тоа есть тѣснѣиша<anchor xml:id="II-v2" n="2" rend="super"/>. Създатель же тоа бѣ, яко при<metamark function="end-page" rend="//"/><pb type="folio" n="Л. 291 ОБ." rend="label-margin-left"/>ахом от блаженых отець, Ватосъ нѣкто от Испаниа, брат великаго<anchor xml:id="II-v3" n="3" rend="super"/> Феодосиа<anchor xml:id="II-v4" n="4" rend="super"/>, тѣм же и<anchor xml:id="II-v5" n="5" rend="super"/> древнѣиша<anchor xml:id="II-v6" n="6" rend="super"/> много<anchor xml:id="II-v7" n="7" rend="super"/> есть священныа Лавры, понеже<anchor xml:id="II-v8" n="8" rend="super"/> <anchor xml:id="II-v9a1" n="9" rend="super"/>Феодосие древнѣиши<anchor xml:id="II-v9a2" n="9" rend="super"/> Никифора<anchor xml:id="II-v10" n="10" rend="super"/>. Но<anchor xml:id="II-v11" n="11" rend="super"/> морьское воинство безбожных аравии тогда<anchor xml:id="c22" n="ц" rend="super"/> владычьствующих<anchor xml:id="II-v12" n="12" rend="super"/> нашедъ, опусти<anchor xml:id="II-v13" n="13" rend="super"/> ю и множаишиа красоты лиши, и на лѣта<anchor xml:id="II-v14" n="14" rend="super"/> доволна пребывъ пуста. Обновися паки при царствѣ Никифора Фоки прилежаниемъ и сребром 5 нѣкыхъ вельможь андрианопольскых, иже и<anchor xml:id="II-v15" n="15" rend="super"/> мнихы бывше в тои же честнѣи обители, освящениемъ от Бога прославишася<anchor xml:id="II-v16" n="16" rend="super"/>, скиптра<anchor xml:id="II-v17" n="17" rend="super"/> же Греческых царства, иже въ царѣхъ приснопомнимыи<anchor xml:id="II-v18" n="18" rend="super"/> господинъ Андроникъ Палеологъ, твои праотець, приемъ многаа<anchor xml:id="II-v19" n="19" rend="super"/> благодѣаниа от яже в неи чествуемыа<anchor xml:id="II-v20" n="20" rend="super"/> иконы Богоматере<anchor xml:id="c23" n="ч" rend="super"/> множицею приемъ<anchor xml:id="II-v21" n="21" rend="super"/>, якоже самъ исповѣдаеть въ своемъ златопечатном словѣ. Многыми и великими благодѣании самъ и иже по нем царствовавъ господинъ Иоаннъ сию укрѣпиша и на пръвую еа красоту пакы приведоша благодатию и помощию // [Л. 292] еже в неи почитаемыа Всечистыа Богоматере, нынѣ же и сиа изнемогши подобнымъ образомъ, якоже и священнаа Лавра, зане лишени быша сии яже от цареи и<anchor xml:id="II-v22" n="22" rend="super"/> благочестивых деспотъ благодѣаниа. Подобное<anchor xml:id="II-v23" n="23" rend="super"/> и сиа пребывание<anchor xml:id="II-v24" n="24" rend="super"/> и чинъ и жительство по всему жительствуеть, <anchor xml:id="c24a1" n="ш" rend="super"/>яко и<anchor xml:id="c24a2" n="ш" rend="super"/> священнаа Лавра, и<anchor xml:id="II-v25" n="25" rend="super"/> таже паки<anchor xml:id="II-v26" n="26" rend="super"/> глаголати не подобает; все бо, что речено бысть мною тамо о трудѣх и напастех и ревности божественыа и тщаниа и усръдиа еже на дѣла<anchor xml:id="II-v27" n="27" rend="super"/>, такоже и о хитрости и сообщениа еже въ немощнѣиших братеи, безразньственѣ<anchor xml:id="c25" n="щ" rend="super"/> <anchor xml:id="II-v28" n="28" rend="super"/> и в тои священѣи обители Ватопеди<anchor xml:id="II-v29" n="29" rend="super"/> обрящеши исполняема; разньствует же сиа от оноа множьствомъ иноковъ, въ 300 бо сиа умножаеться, и мѣстоположениа имать кратчаишаа<anchor xml:id="II-v30" n="30" rend="super"/> и зѣло веселителна, такоже и нѣдро морское, сирѣчь пристанище, много и кругловидно, водъ же не толико изообилуеть, елико Лавра. Но особных убо<anchor xml:id="II-v31" n="31" rend="super"/> обителеи двѣ сии честнии обители<anchor xml:id="II-v32" n="32" rend="super"/> суть доволнаа образована <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 292 ОБ." rend="label-margin-left"/> жительства подобных тѣмъ<anchor xml:id="II-v33" n="33" rend="super"/>.
+         </p>
+         <p>
+            От<anchor xml:id="II-v34" n="34" rend="super"/> сущих же у нас въ истинну общежителеи пръваа и въ истину чистъ<anchor xml:id="II-v35" n="35" rend="super"/> от особства<anchor xml:id="c26" n="э" rend="super"/> есть въ греческых убо честнаа обитель честнаго Предтеча, яже нарицается Дионисиева, въ блъгарскых же и сербьскых честнаа обитель великаго<anchor xml:id="II-v36" n="36" rend="super"/> Георгиа, именуемаа<anchor xml:id="II-v37" n="37" rend="super"/> Зографова, от них же единого съжитиа изложивше доволнѣ, покажем аки образом и прочих. Едино бо и в тѣхъ пребывание и та же заповѣданиа, аще и<anchor xml:id="II-v38" n="38" rend="super"/> друга другую разньствует<anchor xml:id="II-v39" n="39" rend="super"/> по тщанию или нерадению тѣх предстателеи, движимаа бо присно человѣческаа суть<anchor xml:id="c27" n="ю" rend="super"/>, и не възможно в тѣхъ же всегда съблюдатися мѣрах. Повѣствуемо убо есть<anchor xml:id="c28" n="я" rend="super"/> мною священныа обители Дионисиевы извѣстное съжительство, понеже множицею тамо приидох и<anchor xml:id="II-v40" n="40" rend="super"/> тѣхъ равноаггелное житие извѣстнѣише познах, неже иных; елико убо познах, сие и реку любоистиннѣ.
+         </p>
+         <p>
+            Сиа убо честнаа обитель създателя имѣ преподобна нѣкоего Дионисиа, тамо подви// [Л. 293]завшася, трапезонтянина<anchor xml:id="II-v41" n="41" rend="super"/> родом и брата бывша иже тамо тогда митрополита, създана есть и сиа<anchor xml:id="II-v42" n="42" rend="super"/> под малым глаголемымъ Афономъ<anchor xml:id="II-v43" n="43" rend="super"/> къ полудни на камени высоцѣ, доволнѣ от моря, обаче не толь<anchor xml:id="II-v44" n="44" rend="super"/> велика, якова<anchor xml:id="II-v45" n="45" rend="super"/> нынѣ^IIа^ зриться, но малѣиша; послѣди же при наших днех распрастранися расходы<anchor xml:id="II-v46" n="46" rend="super"/> святѣишаго патриарха Нифона, иже в неи житие скончавшаго преподобнѣ и освящениемъ от Бога прославльшася; стѣнами же крѣпкыми всюду огражена, имать же посреди церковъ единовръхну краснѣишу честнаго Предтеча<anchor xml:id="II-v47" n="47" rend="super"/> Рожество<anchor xml:id="II-v48" n="48" rend="super"/> празнующи; его же окрестъ братеи<anchor xml:id="II-v49" n="49" rend="super"/> кѣлиа двокровны<anchor xml:id="II-v50" n="50" rend="super"/> же и трикровны<anchor xml:id="c30" n="б" rend="super"/> <anchor xml:id="II-v51" n="51" rend="super"/>, обитают же братиа<anchor xml:id="II-v52" n="52" rend="super"/> яко 95, а не болши, общее<anchor xml:id="II-v53" n="53" rend="super"/> житие от начала имѣвше и даже<anchor xml:id="II-v54" n="54" rend="super"/> доселѣ пребывающе чистѣиша, яко ниже до иглы, по реченому, власти дръжати въ келии кромѣ изволениа настоащаго, иже единомысленѣ вся, яже обители исправляюще<anchor xml:id="II-v55" n="55" rend="super"/> непрестанно тружаються и внутрь и внѣ, и на земли и на мори <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 293 ОБ." rend="label-margin-left"/>, якоже и<anchor xml:id="II-v56" n="56" rend="super"/> живущеи въ святѣиших лаврах, тии же суще и корабници, <anchor xml:id="II-v57a1" n="57" rend="super"/>и посланници<anchor xml:id="II-v57a2" n="57" rend="super"/>, и винограда<anchor xml:id="II-v58" n="58" rend="super"/> дѣлатели, и земледѣлатели, и строители, и келари, и хлѣбници, и повары и всякую простѣ службу и потребу обители усръднѣише исполняюще, ничто же нигде от<anchor xml:id="II-v59" n="59" rend="super"/> общих вещеи<anchor xml:id="II-v60" n="60" rend="super"/> братьства отнудъ усвоающе, но паче прибавляти <anchor xml:id="II-v61a1" n="61" rend="super"/>присно сиа тщатся<anchor xml:id="II-v61a2" n="61" rend="super"/>. Толико же тружающеся ниже духовных не радят трудовъ, аще пригоднаа мѣста точию имуть, идеже аще прилучатся<anchor xml:id="c31" n="в" rend="super"/> <anchor xml:id="II-v62" n="62" rend="super"/> тружающеся, егда настанеть время пѣснопѣниа, от дѣлъ преставше, псалмопѣние<anchor xml:id="II-v63" n="63" rend="super"/> съвръшают священником тѣмъ присно<anchor xml:id="II-v64" n="64" rend="super"/> спослѣдующим. И обычаи общаго житиа правило<anchor xml:id="II-v65" n="65" rend="super"/> повсюду съблюдают, сирѣчь понеделник, среду, пяток единою ясти без масла, вина и рыбъ и 300 поклоновъ на всякъ день творити.
+         </p>
+         <p>
+            И якоже тии по вся обители служа, сице паки обитель тѣхъ и безсребренѣ приемлет и постризает, ничто же ино<anchor xml:id="II-v66" n="66" rend="super"/> от них истязавши<anchor xml:id="II-v67" n="67" rend="super"/>, точию<anchor xml:id="II-v68" n="68" rend="super"/> от всеа // [Л. 294] душа въконец послушание и благопокорение. Аще же нѣкы<anchor xml:id="II-v69" n="69" rend="super"/> от приходящих приносит съ собою сребро, не истязуются сиа нужнѣ или аки<anchor xml:id="II-v70" n="70" rend="super"/> о<anchor xml:id="II-v71" n="71" rend="super"/> согласии въклада, — да не буди<anchor xml:id="II-v72" n="72" rend="super"/> таковое<anchor xml:id="c32" n="г" rend="super"/> сребролюбие и<anchor xml:id="c33" n="д" rend="super"/> безмѣстие<anchor xml:id="II-v73" n="73" rend="super"/>, — но сами, яко <anchor xml:id="II-v74a1" n="74" rend="super"/>уже чада<anchor xml:id="II-v74a2" n="74" rend="super"/> обители бывше, самоизволнѣ и свободнѣ сие принесуть Богови и братству.
+         </p>
+         <p>
+            В лаврах же <anchor xml:id="II-v75a1" n="75" rend="super"/>аще кто<anchor xml:id="II-v75a2" n="75" rend="super"/> от своего изволениа покоа своего ради или памяти ради своих прародителеи принесеть сребро — приемлють сие<anchor xml:id="II-v76" n="76" rend="super"/> отци и покоат его въ кѣлии ключимѣ и подають ему и виноград и сад и вино и елеи пръвыи год, дондеже уплодит его виноград, и сотворят его свободна от тяжких служебъ, и по всѣхъ въ покое<anchor xml:id="II-v77" n="77" rend="super"/> пребываеть, иже аще произволить, в монастырскых потребах служить<anchor xml:id="II-v78" n="78" rend="super"/>. Ниже сребро нужнѣ истязуеться отцы, ниже аще не дасть, изженуть его; не буди таковое братоненавидѣние, но и приат бысть любезнѣ в монастырь и упокоенъ бысть добрѣ, наипаче лучше<anchor xml:id="II-v79" n="79" rend="super"/> имѣють
+            единаго трудника брата, неже 10 въклад<metamark function="end-page" rend="//"/><pb type="folio" n="Л. 294 ОБ." rend="label-margin-left"/>щика<anchor xml:id="II-v80" n="80" rend="super"/>; въ киновиах же вкладщики<anchor xml:id="II-v81" n="81" rend="super"/> не именуются, но равнѣ вси тружаются кождо по своеи силѣ и възрасту, и равнѣ вси от обители имуть и одѣаниа и обувениа доволнаа въ весь свои живот; оно же вѣдати должни есми<anchor xml:id="II-v82" n="82" rend="super"/>, яко аще и равнѣ всѣх тружатися рѣхомъ.
+         </p>       
+         <p>
+            Но есть и в тѣх нѣкое различие и разсужение потребное. Честнѣишии бо от братиа, елици искусством вещеи и разумомъ украшени суть, монастыря правление и братии предстательство со игуменом устраают, иже и<anchor xml:id="II-v83" n="83" rend="super"/> старци съборныа именуются, сут же сии 10 или 12. Отнюду же <anchor xml:id="II-v84a1" n="84" rend="super"/>и коих<anchor xml:id="II-v84a2" n="84" rend="super"/> убо<anchor xml:id="II-v85" n="85" rend="super"/> тии испытают от среды их, онѣхъ и посылают аки наставникы и началникы всякиа потребныа службы, имѣющих под собою братии доволно, иже и послушают тѣх и всяко служение исполняют тѣм. Священници же и диакони вся церковнаа со  всѣм прилежаниемъ и честию исполняют. Среднии же тѣх, сии убо в сих, друзии же во инѣхъ упражняются дѣлѣх // [Л. 295], якоже рѣхом. И что по единому сиа глаголю, никто тамо празден видиться пребываа, никто же не в постоании<anchor xml:id="II-v86" n="86" rend="super"/> колѣблеться. Но аще въсхощет нѣкто къ инои обители преходити, не попущается; аще же утаився избежит, призывается многажды от игумена своего, и аще не послушает<anchor xml:id="II-v87" n="87" rend="super"/>, тогда под юзами отлучениа его полагаеть, он же отлучениа боязнию наказан, възвращается въ свои монастырь и своему пастырю повинуеться, еже подобает вездѣ хранитися и преступаемое исправлятися, благому Владыцѣ всегда радующуся о исправлении своего наслѣдиа. Но убо о благочинии и о житии иночьском лавръ и киновии толикаа довлѣют, могущаа и прочаа участнѣ показати, яже мы изволениемъ преходим ради продлъжениа.
+         </p>        
+         <p>
+            Нынѣ же о общем всеа Горы <anchor xml:id="II-v88a1" n="88" rend="super"/>правлении и их<anchor xml:id="II-v88a2" n="88" rend="super"/> единомыслии речем, но преже даже сиа начнемъ, потребно непщую изьявити мѣста образъ, в нем же собираеми<anchor xml:id="II-v89" n="89" rend="super"/> вся Святаа<anchor xml:id="II-v90" n="90" rend="super"/> Гора<anchor xml:id="II-v91" n="91" rend="super"/> о общих ползах съвѣтують. Вѣдомо же<anchor xml:id="II-v92" n="92" rend="super"/> да есть, яко <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 295 ОБ." rend="label-margin-left"/> срединѣ<anchor xml:id="II-v93" n="93" rend="super"/> хребту Горы начинающу от самыа Великиа Стражи и посреди всю гору раздѣляющу и на коеиждо<anchor xml:id="II-v94" n="94" rend="super"/> странѣ удолиа превелиа и потокы творящу, от них же множаиши<anchor xml:id="II-v95" n="95" rend="super"/> ради глубины и лѣсов отнюдь непроходимы суть, под страною еже къ сѣверу тоа хребта простирается и аки изливается равно нѣкое место и водами<anchor xml:id="II-v96" n="96" rend="super"/> изобилно даже до брега морскаго и многыми иными красотами и украшении украшаемо<anchor xml:id="II-v97" n="97" rend="super"/>, то мѣсто именуеться Карее — или зане орѣшыны великиа<anchor xml:id="c34" n="е" rend="super"/> пред монастыремъ от древле насажени<anchor xml:id="II-v98" n="98" rend="super"/> суть, или зане Каре, сирѣчь главы всеа Святыа Горы мѣсто то показуеться<anchor xml:id="II-v99" n="99" rend="super"/>, зане тамо от всѣх монастыреи събираются <anchor xml:id="II-v100a1" n="100" rend="super"/>преподобнии игумени<anchor xml:id="II-v100a2" n="100" rend="super"/> о укрѣплении и потребѣ всѣх советоватися<anchor xml:id="c35" n="ж" rend="super"/><anchor xml:id="III-v1" n="1" rend="super"/>. В том мѣстѣ создана есть<anchor xml:id="III-v2" n="2" rend="super"/> священнаа и честнаа Лавра всепреподобнаго отца<anchor xml:id="III-v3" n="3" rend="super"/> нашего прота, в неи же божественаго Успениа вышеестественое<anchor xml:id="III-v4" n="4" rend="super"/> таинство Богоматере празнуется; стѣнами и та от внѣ огражена, но ветхыми. Есть же // [Л. 296] в неи церковь посредѣ прекраснѣиша и превелиа и много старѣе Святыа Лавры преподобнаго Афанасиа. Округ же того священнаго монастыря протова на лици равнины<anchor xml:id="III-v5" n="5" rend="super"/> тоа разсѣаны суть кѣлии<anchor xml:id="III-v6" n="6" rend="super"/> и столпы и кафисмата<anchor xml:id="III-v7" n="7" rend="super"/>, сирѣчь малыа общины, и многы<anchor xml:id="III-v8" n="8" rend="super"/> и<anchor xml:id="III-v9" n="9" rend="super"/> нарочиты божественых мужеи и подвижников<anchor xml:id="III-v10" n="10" rend="super"/> <anchor xml:id="III-v11a1" n="11" rend="super"/>в себѣ имѣющиа<anchor xml:id="III-v11a2" n="11" rend="super"/> и<anchor xml:id="III-v12" n="12" rend="super"/> церкви, внѣ же винограды и краснѣишиа сады, всеразличныа овощи приносящиа. Келлии же тѣ разсѣани<anchor xml:id="III-v13" n="13" rend="super"/> въ скитѣ Кареиском<anchor xml:id="III-v14" n="14" rend="super"/>, ови<anchor xml:id="III-v15" n="15" rend="super"/> убо<anchor xml:id="III-v16" n="16" rend="super"/> суть всепреподобнаго прота, инии же тамо изначала създани от преподобныхъ мужеи, инии же священных монастыреи суть, от них же множаишии продаются хотящим на мѣстѣ том пребывати, и на толики лица купяться<anchor xml:id="III-v17" n="17" rend="super"/> <anchor xml:id="c36a1" n="з" rend="super"/>на 2<anchor xml:id="c36a2" n="з" rend="super"/> <anchor xml:id="III-v18" n="18" rend="super"/> и 3<anchor xml:id="c37" n="и" rend="super"/>, яже умръшим купившим паки възвращаются под власть монастырскую.
+         </p>   
+         <p>
+            В томъ мѣстѣ събираеми преподобнии игумени и честнии старци Святыа Горы межь себе совѣтують, и лучшаго иже<anchor xml:id="III-v19" n="19" rend="super"/> священством и искусством вещеи свѣтлѣиши будет <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 296 ОБ." rend="label-margin-left"/>, ис тѣх избравше власть еже быти пръваго всѣмъ инымъ<anchor xml:id="III-v20" n="20" rend="super"/> и<anchor xml:id="III-v21" n="21" rend="super"/> главу ему дадут<anchor xml:id="c38" n="к" rend="super"/> <anchor xml:id="III-v22" n="22" rend="super"/>, прота его именовавше, оттого и мѣсто протато именуеться. Егда убо случиться нужа велиа всеи Святѣи Горѣ, тогда обрѣтаемыи всепреподобныи протъ посылает два мирскых дѣлателеи по всѣмъ монастырем, давъ имъ грамоты, кои от единыа страны писаны греческы<anchor xml:id="III-v23" n="23" rend="super"/>, а от другыа болгарскы, кои и<anchor xml:id="III-v24" n="24" rend="super"/> раздѣливше себѣ, всю Гору Святую обходят по всѣмъ монастырем, показующе игуменом грамоты протовы, тии<anchor xml:id="III-v25" n="25" rend="super"/> же абие своих монастыреи старцевъ събравше и протову грамоту пред ними прочетше, посылають в Карею на утрении день, их же от среды себе изберут<anchor xml:id="III-v26" n="26" rend="super"/>, иже тамо дошедше и с протом сѣдѣвше<anchor xml:id="III-v27" n="27" rend="super"/> о них же подобаеть<anchor xml:id="III-v28" n="28" rend="super"/> совѣтують, или тамо дѣло исправиша<anchor xml:id="III-v29" n="29" rend="super"/>, или мниховъ достоиных от среды избравше, внѣ къ владящим послаша<anchor xml:id="III-v30" n="30" rend="super"/> къ коемуждо<anchor xml:id="III-v31" n="31" rend="super"/> граду треба будет, <anchor xml:id="III-v32a1" n="32" rend="super"/>давше им<anchor xml:id="III-v32a2" n="32" rend="super"/> и сребро доволно и братию на службу. Сребро же приемлють от общины // [Л. 297] от приносимаго бо<anchor xml:id="III-v33" n="33" rend="super"/> сребра от внѣ, еже<anchor xml:id="c39" n="л" rend="super"/> благочестивии милостыня ради посылають, съблюдають часть себѣ у прота, да имѣют на общую службу всеа Горы, проту же по вся годы на праздникъ Успениа Пречистыа дають монастыри толико мукы и елеа и вина и воска<anchor xml:id="III-v34" n="34" rend="super"/>. Такоже и<anchor xml:id="III-v35" n="35" rend="super"/> кождо<anchor xml:id="III-v36" n="36" rend="super"/> монастырь длъжен есть дръжати тамо<anchor xml:id="III-v37" n="37" rend="super"/> единаго клирика на пѣние церковных правил, а питаеть коегождо свои монастырь, а пребывают тамо до года или дву кождо по своеи силѣ и тако премѣняються<anchor xml:id="III-v38" n="38" rend="super"/>. Но коа<anchor xml:id="III-v39" n="39" rend="super"/> убо о всепреподобнѣмъ протѣ и о его Съборѣ толика и таковаа суть въкратцѣ глаголати.
+         </p>
+         <p>
+            Еще же о уставленых великых службах в лаврѣхъ глаголавше, каково коегождо<anchor xml:id="III-v40" n="40" rend="super"/> служение есть, повѣсть сице заключимъ.
+         </p>
+         <p>
+            Обычаи убо великым лаврам есть, такоже и меншим монастыремъ Съборъ имѣти честнѣиших старцевъ, якоже<anchor xml:id="III-v41" n="41" rend="super"/> предрекохом, кои съ преподобнѣишим игуменом сѣдяще, вся монастырскаа съ богобоязньствомъ и прилежаниемъ управляют, <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 297 ОБ." rend="label-margin-left"/> восмь<anchor xml:id="III-v42" n="42" rend="super"/> нѣкоих начальных и велиих<anchor xml:id="III-v43" n="43" rend="super"/> службъ уставивше в монастырѣ, от них же перваа служба по<anchor xml:id="III-v44" n="44" rend="super"/> игуменѣ еклисиархис есть, потом типикарис<anchor xml:id="III-v45" n="45" rend="super"/>, третии съсудохранитель, четвертыи иконом, пятыи болных назиратель, шестыи дохиариосъ, сирѣчь келарь, семои<anchor xml:id="III-v46" n="46" rend="super"/> трапезарь, осмои<anchor xml:id="III-v47" n="47" rend="super"/> хортулариосъ<anchor xml:id="III-v48" n="48" rend="super"/>, сирѣчь скотоблюститель; хлѣбъня бо и житници<anchor xml:id="III-v49" n="49" rend="super"/> и подобнаа тѣмъ аки мала суща<anchor xml:id="III-v50" n="50" rend="super"/> не съчитаемъ не яко неключимаа, но зане<anchor xml:id="III-v51" n="51" rend="super"/> таа осмь чинъ дръжат<anchor xml:id="III-v52" n="52" rend="super"/> началныи и имѣют под собою служащих ихъ повелѣниемъ<anchor xml:id="III-v53" n="53" rend="super"/>, а<anchor xml:id="III-v54" n="54" rend="super"/> таа не тако, но тии собою потребнаа<anchor xml:id="III-v55" n="55" rend="super"/> дѣлають.
+         </p>
+         <p>
+            Еклисиарха убо сущее дѣло есть попечение имѣти церковнаго благолѣпиа и священничьскаго благочинства и пригожьства, иже и на Соборѣх всегда близ игумена сѣдить и на клиросѣ, такоже от игумена пръвыи стоитъ; того ради<anchor xml:id="III-v56" n="56" rend="super"/> игумену преставльшуся или игуменство оставльшу тои избирается въ игумена; тои<anchor xml:id="III-v57" n="57" rend="super"/> же и въ<anchor xml:id="III-v58" n="58" rend="super"/> внѣ// [Л. 298]шних и<anchor xml:id="III-v59" n="59" rend="super"/> внутрених монастырьскых послужениих<anchor xml:id="III-v60" n="60" rend="super"/> настоательствуеть и братию подвизаеть и мѣсто дръжить игуменское въ всѣмъ, егда тому не сущу, иже и<anchor xml:id="III-v61" n="61" rend="super"/> посохъ дръжить в таковых службах.
+         </p>
+         <p>
+            Типикар же священникъ и<anchor xml:id="III-v62" n="62" rend="super"/> тои сыи<anchor xml:id="III-v63" n="63" rend="super"/> избирается от Собора честнѣишии и доброрѣчивъ въ священникѣхъ и устава церковнаго паче искусенъ, иже имать под собою новоначальных два или три, их же и<anchor xml:id="III-v64" n="64" rend="super"/> наказуеть всякому служению и благочинию церковному; тии егда послужать доволна лѣта и искушении, аще обрящутся достоини священства — и хиротонисаються диакони, и въ диаконствѣ пребывше елико время игумен съ<anchor xml:id="III-v65" n="65" rend="super"/> Собором искусить, совръшаються въ священники, и въ священствѣ просвѣтившеся приводяться въ чинъ уставщика и еклисиарха и игумена.
+         </p>
+         <p>
+            Уставщикъ убо, яко рѣхом, пръвое попечение имать хранити съ прилежаниемъ чинъ устава Иерусалимъскиа церкви, да <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 298 ОБ." rend="label-margin-left"/> вся съвръшаются полнѣиша въ свое время, бдѣниа на бдѣниих, славословие на славословиих<anchor xml:id="III-v66" n="66" rend="super"/>, и да единъ кождо тръжественыи празникъ имать уставленое исперва просвѣтлѣние и свѣтлость духовную, Господскаа<anchor xml:id="III-v67" n="67" rend="super"/> Господскы, мученичьскаа мученичьскы, преподобных преподобнѣ. Второе же его<anchor xml:id="III-v68" n="68" rend="super"/> дѣло — говорити полунощница велегласно да три псалмы пред ексапсалмы, и пръвои час и третии и шестыи и девятыи и мефимонм<anchor xml:id="c40" n="м" rend="super"/><anchor xml:id="III-v69" n="69" rend="super"/>, но служба уставщикова такова есть<anchor xml:id="c41" n="н" rend="super"/>, да вкратцѣ реку.
+         </p>
+         <p>
+            Скевофилаксъ<anchor xml:id="III-v70" n="70" rend="super"/> же свою службу имать хранити божественыа и священныа съсуды церковныа, коа и<anchor xml:id="III-v71" n="71" rend="super"/> износить на Господскыа праздники въ славу Божию и благолѣпие божественаго дому Его и въ память вѣчную<anchor xml:id="III-v72" n="72" rend="super"/> освятивших таа приснопамятных цареи и деспот. Еще<anchor xml:id="III-v73" n="73" rend="super"/> дѣло его есть по спискомъ взимати събираемое от внѣ сребро<anchor xml:id="III-v74" n="74" rend="super"/> от господареи<anchor xml:id="III-v75" n="75" rend="super"/> и князеи и от всякого православнаго христианина. <anchor xml:id="III-v76a1" n="76" rend="super"/>Тои же<anchor xml:id="III-v76a2" n="76" rend="super"/> съсудохрани// [Л. 299]тель, егда повелится от игумена и от всего Собора, раздаваеть потребныа расходы и должен есть по шти месяцѣхъ дати росчетъ приходовъ и расходовъ.
+         </p>
+         <p>
+            Иконом же свое дѣло имать настоати над всѣми службами внѣшними и внутрьними монастырскыми <anchor xml:id="III-v77a1" n="77" rend="super"/>и виноградных дѣлателеи управляти и пред враты монастырскыми<anchor xml:id="III-v77a2" n="77" rend="super"/> о наемницѣх сущих попечение имѣти, да имѣють потребную пищу въ вечеръ<anchor xml:id="III-v78" n="78" rend="super"/>, заутра посылати их идѣже дѣло будеть монастырское. Еще<anchor xml:id="III-v79" n="79" rend="super"/> дѣло его есть приходящих иноковъ и мирянъ на поклонение в монастырь въводити в онь и поставляти пред игуменом,<anchor xml:id="III-v80" n="80" rend="super"/> аще честнѣиши будут<anchor xml:id="III-v81" n="81" rend="super"/>, или глаголемому гостиннику, иже и<anchor xml:id="III-v82" n="82" rend="super"/> приемлеть их въ гостинницу и покоить их елико днеи пребудет в монастырѣ.
+         </p>
+         <p>
+            Носокомос же свое<anchor xml:id="c42" n="о" rend="super"/> дѣло имать настоати<anchor xml:id="III-v83" n="83" rend="super"/> болницѣ<anchor xml:id="III-v84" n="84" rend="super"/> и попечение имѣти о болящих братиах въ всѣмъ. Болница же <anchor xml:id="III-v85a1" n="85" rend="super"/>есть домъ<anchor xml:id="III-v85a2" n="85" rend="super"/> велик, <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 299 ОБ." rend="label-margin-left"/> отдѣлен внутрь монастыря, келлиа имѣа и<anchor xml:id="III-v86" n="86" rend="super"/> вся потребнаа, в них же хотящии<anchor xml:id="III-v87" n="87" rend="super"/> от братиа<anchor xml:id="III-v88" n="88" rend="super"/>, егда болѣзнують, тамо приносяться и тамо врачюются съ всякою любовию<anchor xml:id="c43" n="п" rend="super"/>. Имать же и храмъ внутрь краснѣишии святыхъ Козмы и Дамиана безсребреникъ, в нем же непрестанно поется служба за братию болящую<anchor xml:id="III-v89" n="89" rend="super"/>.
+         </p>
+         <p>
+            Келар же свою имать службу въсприимати въ келарницю коаждо снѣднаа суть, кромѣ хлѣба и вина, коа и раздаваеть братии по игуменскому и <anchor xml:id="III-v90a1" n="90" rend="super"/>его Собора<anchor xml:id="c44" n="р" rend="super"/> <anchor xml:id="III-v90a2" n="90" rend="super"/> велѣнию.
+         </p>
+         <p>
+            Трапезар же свое дѣло имать дръжати хлѣбъ и вино и раздаати<anchor xml:id="III-v91" n="91" rend="super"/> таа братии по вся дни, не самъ пекучи хлѣбы, но повелѣваа хлѣбнику, да приготовить всегда хлѣбы; тои и<anchor xml:id="III-v92" n="92" rend="super"/> в трапезѣ служить братии съ многыми иными<anchor xml:id="III-v93" n="93" rend="super"/> подружникъ<anchor xml:id="c45" n="с" rend="super"/> <anchor xml:id="III-v94" n="94" rend="super"/>.
+         </p>
+         <p>
+            Скотоблюстителя же дѣло есть над безсловесными животными, сирѣчь над конми и мсками, имѣа под собою пастуховъ и служебниковъ доволныхъ // [Л. 300] на послужение<anchor xml:id="III-v95" n="95" rend="super"/> и управление тѣх.
+         </p>
+         <p>
+            Сими убо осмию болшиа <anchor xml:id="III-v96" n="96" rend="super"/> службы игумен и старци<anchor xml:id="III-v97" n="97" rend="super"/> Събора управляють добрѣ вся монастырскаа благодатию<anchor xml:id="III-v98" n="98" rend="super"/> Господа нашего Иисуса Христа и заступлении пресвятѣишиа Владычици нашеа Богородици, коа и<anchor xml:id="III-v99" n="99" rend="super"/> избраннѣ испроси мѣсто оно от<anchor xml:id="III-v100" n="100" rend="super"/> единороднаго Сына Еа и Бога, да пребудеть въ вѣкъ Еи<anchor xml:id="IV-v1" n="1" rend="super"/> наслѣдие избранное и освященное, якоже явѣ слышим въ житии преподобнаго отца нашего Петра Афонскаго, идеже великии Никола и Симеонъ Богоприимец, егда<anchor xml:id="IV-v2" n="2" rend="super"/> изведоша его ис темници, научиша его, где подобаеть ему иночьскии<anchor xml:id="IV-v3" n="3" rend="super"/> подвигъ съвръшити, Афона<anchor xml:id="IV-v4" n="4" rend="super"/> быти рекше, его же самаа Богомати въ обитание себѣ избра, и что<anchor xml:id="c46" n="т" rend="super"/> треба<anchor xml:id="IV-v5" n="5" rend="super"/> есть многых словесъ, идеже сами вещи показують истину. Колици бо горы и пустыни и мѣста на встоцѣ и въ Европии и в Ливии<anchor xml:id="c47" n="у" rend="super"/> и в Палестинѣ и при Иорданѣ от мних обитаема древле и въ краинюю славу и въ благыи слухъ <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 300 ОБ." rend="label-margin-left"/> дошедши, завистию злоначалника диавола руками варварскыми отнюдь запустѣша! Сиа же судьбами, ими же Богъ вѣсть, съхранена есть въ Европѣ невредима и аще и безчисленыхъ имать борющих еа от моря и земли. Но откуду еи толика сила и помощь, от премудрости ли человѣческои или силы, или от крѣпости мѣста? Никако! Но от Бога еи необоримаа сиа крѣпость и заступление есть. Колици бо колижды нечестивии хотѣвше истребити тоа, — от хранящиа еа благодати избавлена бысть, богоборцем истребленым.
+         </p>
+         <p>
+            Но добро есть, в сеи части Слова дошедши, и особное нѣкое повѣдание чюдесъ, бывших от Бога на съхранение и пребытие мѣста, предложити крѣпкои твоеи дръжавѣ, да имаши наиболшее<anchor xml:id="IV-v6" n="6" rend="super"/> желание къ святому оному мѣсту. Слыши убо. Слышах въ Святѣи Горѣ многажды от многыхъ старцевъ достовѣрных, повѣдающих нѣкую таковую чюдную повѣсть. Глаголаху бо, яко богоненавистныи<anchor xml:id="IV-v7" n="7" rend="super"/> агарянь// [Л. 301]скии властелин, благочестивых цареи разоритель Мехмет султан<anchor xml:id="IV-v8" n="8" rend="super"/>, възшед<anchor xml:id="IV-v9" n="9" rend="super"/> на гору Косинскую близ града Серрскаго, идеже създан есть чюдныи<anchor xml:id="IV-v10" n="10" rend="super"/> нѣкии монастырь во имя почитаем пресвятѣишиа Владычица<anchor xml:id="IV-v11" n="11" rend="super"/> нашеа Богородица<anchor xml:id="IV-v12" n="12" rend="super"/>, к рѣчем прииде съ пресвятѣишим патриархомъ Констянтиняграда господиномъ Дионисиемъ, тамо тогда пребывающим, ему же<anchor xml:id="IV-v13" n="13" rend="super"/> глаголаше, яко желаше ѣхати видѣти Горы Афонскыа и сущаа<anchor xml:id="IV-v14" n="14" rend="super"/> тамо монастыри, како ся имѣють, блаженнѣишему же патриарху отвѣщавшу, яко въ власти его есть ѣхати и не ѣхати. Он же рече: «Добро есть намъ господарем<anchor xml:id="IV-v15" n="15" rend="super"/> греческым бывшим познати намъ работающих», по словесѣх же тѣхъ на сонъ обратившуся нечестивому. Священныи<anchor xml:id="c48" n="ф" rend="super"/> <anchor xml:id="IV-v16" n="16" rend="super"/> Дионисие<anchor xml:id="IV-v17" n="17" rend="super"/> скорбенъ<anchor xml:id="IV-v18" n="18" rend="super"/> бысть, всенощную молитву владыцѣ Христу приношаше за Святую Гору, моля, да нѣкоим премудрым<anchor xml:id="IV-v19" n="19" rend="super"/> смотрениемъ<anchor xml:id="IV-v20" n="20" rend="super"/> отвратит нечестиваго пагубное устремление. Его же молитвам услышанным от Бога сновидѣние<anchor xml:id="IV-v21" n="21" rend="super"/> предста нечестивому <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 301 ОБ." rend="label-margin-left"/>, видяше бо ся ему уже въсходити на Великую Стражу<anchor xml:id="IV-v22" n="22" rend="super"/> и въ восхожении срѣсти его от връха Горы мужеи нѣких страшных огнеобразных и въоруженных, на конѣх огненых сѣдящих и<anchor xml:id="IV-v23" n="23" rend="super"/> прѣтящих ему ту, скоро погубити его<anchor xml:id="IV-v24" n="24" rend="super"/>, аще не скоро въспять обратиться<anchor xml:id="IV-v25" n="25" rend="super"/>. Тои же устрашився възбну, священному Дионисию страшныи сеи сонъ повѣда и яко не полезенъ<anchor xml:id="IV-v26" n="26" rend="super"/> себѣ есть еже тамо приход глаголавъ<anchor xml:id="IV-v27" n="27" rend="super"/>, преста проклятыи <anchor xml:id="IV-v28a1" n="28" rend="super"/>от умышлениа<anchor xml:id="IV-v28a2" n="28" rend="super"/>. Сие чюдное повѣда многажды блаженыи Дионисие, послѣди пришед в нашь священныи монастырь Ватопед. И бысть явно тамо всѣмъ отцемъ и есть непрерѣкованно.
+         </p>
+         <p>
+            Инъ нѣкии<anchor xml:id="IV-v29" n="29" rend="super"/> пръвыи совѣтникъ султанъ<anchor xml:id="IV-v30" n="30" rend="super"/> Баязитовъ<anchor xml:id="c49" n="х" rend="super"/> <anchor xml:id="IV-v31" n="31" rend="super"/>, зѣло ненавидя Святую Гору и ища ю истребити<anchor xml:id="IV-v32" n="32" rend="super"/>, прети посланнымъ к нему<anchor xml:id="IV-v33" n="33" rend="super"/> съ дары отцем нашим, яко скоро еа опустит<anchor xml:id="IV-v34" n="34" rend="super"/> и агарянъ вмѣсто мниховъ вселит в монастыри. Отцем же нашим възопившим съ въздыханием и глаголавшим: «Мы на Владычицу нашу Пречистую Богородицу надѣемся и вѣмы, яко та защитит // [Л. 302] и<anchor xml:id="IV-v35" n="35" rend="super"/> нас и мѣсто святое свое». Богоборець тои нужи пришедши молнии бо съ небеси о нѣкии пиргъ приразися<anchor xml:id="IV-v36" n="36" rend="super"/>, в нем же лежаше пушечное зелие, еже и възгорѣся внезапу, многы и великиа домы истреби и человѣкы многы погуби, тамо скоро пришед за еже помощи, каменем от стѣны силнѣ устреленым въ бедру поражается смертнѣ, от того болѣзнию ятъ, злѣ умирает по нѣколицѣхъ днех, прещении не възмогъ съвръшити.
+         </p>
+         <p>
+            Мних нѣкии нѣкоеа ради<anchor xml:id="IV-v37" n="37" rend="super"/> бѣды избѣгъ от Фесалоникыа<anchor xml:id="IV-v38" n="38" rend="super"/>, къ нашему священному<anchor xml:id="IV-v39" n="39" rend="super"/> монастырю прибѣжа, идеже обрѣте книгу царя Иоанна Кантакузина юже онъ на Маамефа написа, прочиташе любезнѣ, по нѣкоем же времени възвратися в Фесалоникею и ятъ от агарянъ и не зѣло биемъ<anchor xml:id="IV-v40" n="40" rend="super"/> вѣры Христовы отвръжеся. По сих же болшии студъ неже славу получити желаа, възыде в Констянтиньград и мучителю пръвых совѣтников другъ бываеть, иже и пръвое на Святую Гору вины взыскующа <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 302 ОБ." rend="label-margin-left"/>, тогда обрѣтоша благополучну вину и достоину их злобѣ. Богоотвръженыи же тои откры им, яко в монастырѣ Ватопеди есть книга нѣкаа, Маамефа зѣло похуляа, и злохитрьство съставивше на всю Святую Гору, мучителю сие възвѣстиша и богоотметника оного похваливше пред мучителем, въставляаху его на Святую Гору. Он же ибо бѣ свыше удръжа нъ, осудив отступника оного и<anchor xml:id="IV-v41" n="41" rend="super"/> уничиживъ, бити зѣлнѣ повелѣ. Преклятыи<anchor xml:id="IV-v42" n="42" rend="super"/> же тои, отвсюду отчаався, в печаль зѣлну впаде и къ печали моровымъ недугом поражается и обезумився, чрез всю нощь, аки песъ, лааше даже до зори и, своа уды изъядъ, скверную свою душу злѣ отрыгну, другыи Иуда<anchor xml:id="IV-v43" n="43" rend="super"/> бывъ.
+         </p>
+         <p>
+            Инъ<anchor xml:id="IV-v44" n="44" rend="super"/> нечестивыи, преднии писарь послан въ Европию, лихоимствомъ зѣлным и нечестиемъ одръжим, запрети внити въ Святую Гору, и вся яже<anchor xml:id="c50" n="ц" rend="super"/><anchor xml:id="IV-v45" n="45" rend="super"/> тамъ написати, даже<anchor xml:id="IV-v46" n="46" rend="super"/> и до<anchor xml:id="IV-v47" n="47" rend="super"/> древъ плодоносных, и дань тяжчаишу наложити Святои Горѣ. Входя же // [Л. 303] с великою яростию<anchor xml:id="IV-v48" n="48" rend="super"/> и сверѣпством, доиде до нѣкиа пашни нашиа ватопедьскиа, Еладьава<anchor xml:id="IV-v49" n="49" rend="super"/> нарицаема, идеже ядъ<anchor xml:id="IV-v50" n="50" rend="super"/> и питъ, вечерѣ<anchor xml:id="IV-v51" n="51" rend="super"/> здрав прескверныи, усовным недугомъ зѣлнѣ поражается в полунощи и до зореи<anchor xml:id="IV-v52" n="52" rend="super"/> прескверную свою душу с зѣлнѣишими болѣзньми извръже. Но чюдесъ повѣдание таково есть.
+         </p>
+         <p>
+            Твое же боговѣнчанное<anchor xml:id="IV-v53" n="53" rend="super"/> царство, аки суще въ всѣхъ и надо всѣми благочестивѣишее и разумнѣишее, сице и превзыти всѣхъ благоизволи изъобилными даровании и<anchor xml:id="IV-v54" n="54" rend="super"/> царьскими заступлении, мѣсто то святое Богородици благотворя и наипаче честныи и священныи монастырь Ватопедь, иже и<anchor xml:id="IV-v55" n="55" rend="super"/> изначала приснопамятным Палеологом твоимъ прародителем весь бѣ и оттуду благодааниа<anchor xml:id="IV-v56" n="56" rend="super"/>, аки рѣки текущиа, приемляше, якоже и<anchor xml:id="IV-v57" n="57" rend="super"/> златопечатлѣнное слово приснопамятняго Андроника изьявляеть, его же и принесохом сѣмо<anchor xml:id="IV-v58" n="58" rend="super"/> убо, не явихом же силному царству твоему даже<anchor xml:id="IV-v59" n="59" rend="super"/> до сего дни, ожидающе твоего <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 303 ОБ." rend="label-margin-left"/> царскаго повелѣниа. Но сиа убо такова суть и къ<anchor xml:id="IV-v60" n="60" rend="super"/> толику довлѣють<anchor xml:id="IV-v61" n="61" rend="super"/>. Аще же нѣгде речено есть что не исполненѣ<anchor xml:id="IV-v62" n="62" rend="super"/>, нѣсть дивно, зане не о всѣх подробну глаголати обѣщахомъ<anchor xml:id="IV-v63" n="63" rend="super"/> в началѣ, и сие не по страсти нѣкоеи сътворивша мя нѣкто да мнит или по зависти сирѣчь или ради лѣности, яко нѣкто недобрѣ възмнит, — милосердъ ми да будет Господь, не того ради, — но убоався да не<anchor xml:id="IV-v64" n="64" rend="super"/> неискусствомъ<anchor xml:id="IV-v65" n="65" rend="super"/> рѣчи и невѣдѣниемъ коегождо монастыря истины одръжим, досажу убо честным и въистинну божественым тѣмъ обителем, обрящу<anchor xml:id="IV-v66" n="66" rend="super"/> же ся и къ твоему божественому и высокому царству лжущь<anchor xml:id="IV-v67" n="67" rend="super"/>, им же убо что может быти паче поносно и зазорно житие иночское избравшему.
+         </p>
+         <p>
+            Здрава въ всѣхъ и побѣдителя и благоденстена<anchor xml:id="IV-v68" n="68" rend="super"/> да съхранит Господь благочестивѣишаго самодръжца нашего<anchor xml:id="IV-v69" n="69" rend="super"/> и царя Василиа Ивановича Палеолога. <anchor xml:id="c51a1" n="ч" rend="super"/>Максим монах<anchor xml:id="c51a2" n="ч" rend="super"/>.
+         </p>
+        
+      </body>
+      
+      <back>
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> 
+            <listApp>
+               <head rend="super">1</head> <!-- numero in apice -->
+               <app from="#v1"> 
+                  <witDetail wit="#К">Испр. из <hi rend="distinct">человѣческыи</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> 
+                  <witDetail wit="#П">Доб. <hi rend="distinct">Глава 134</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3"> 
+                  <witDetail wit="#К">Испр. из <hi rend="distinct">Русия</hi></witDetail>
+                  <rdg wit="#П">России</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">4</head>
+               <app from="#v4"> 
+                  <witDetail wit="#А">Доб. <hi rend="distinct">и</hi></witDetail>
+                  <rdg wit="#К">Ивановичь</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5"> 
+                  <rdg wit="#К">пpебывани</rdg>
+               </app>
+            </listApp>
+      
+            <listApp>
+               <head rend="super">6</head>
+               <app from="#v6"> 
+                  <witDetail wit="#А">Доб. <hi rend="distinct">и</hi></witDetail>
+                  <witDetail wit="#К">испр. из <hi rend="distinct">якоже</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7"> 
+                  <rdg wit="#А">богословно</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">8</head>
+               <app from="#v8"> 
+                  <witDetail wit="#К">Доб. <hi rend="distinct">изложити</hi> под знаками варианта или глоссы</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">9</head>
+               <app from="#v9"> 
+                  <rdg wit="#А">възущу</rdg>
+                  <rdg wit="#П">взыщу</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">10</head>
+               <app from="#v10"> 
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11">
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12"> 
+                  <rdg wit="#К">Испр. из <hi rend="distinct">неудобьсътворимое</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <rdg wit="#К">невозможно</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14"> 
+                  <rdg wit="#К">уложение</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">15</head>
+               <app from="#v15"> 
+                  <rdg wit="#А">създателе</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16"> 
+                  <witDetail wit="#К">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17"> 
+                  <rdg wit="#П">жительству есть</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#v18"> 
+                  <rdg wit="#К">чины</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">19</head>
+               <app from="#v19"> 
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">20-20</head>
+               <app from="#v20a1" to="#v20a2"> 
+                  <rdg wit="#К">дpевле в неи <witDetail wit="#К">(перед древле зач. в)</witDetail></rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">21</head> 
+               <app from="#v21">
+                  <witDetail wit="#A">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">22</head> 
+               <app from="#v22">
+                  <rdg wit="#К">Испр. из <hi rend="distinct">подвизающихся</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">23</head> 
+               <app from="#v23"> 
+                  <witDetail wit="#К">Испр. из <hi rend="distinct">града</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">24</head> 
+               <app from="#v24">
+                  <rdg wit="#К">восхождениа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">25</head> 
+               <app from="#v25">
+                  <witDetail wit="#К"><hi rend="distinct">вхождениа</hi> испр. из <hi rend="distinct">восхожениа</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">26</head> 
+               <app from="#v26">
+                  <rdg wit="#К">Испр. из <hi rend="distinct">краснѣишая</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">27</head> 
+               <app from="#v27">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">28</head> 
+               <app from="#v28">
+                  <rdg wit="#К">утолъстѣваются</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">29</head> 
+               <app from="#v29">
+                  <rdg wit="#А #П">частыми</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">30</head> 
+               <app from="#v30">
+                  <witDetail wit="#К">Испр. из <hi rend="distinct">краснѣишую</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">31</head> 
+               <app from="#v31">
+                  <witDetail wit="#К">Испр. из <hi rend="distinct">краснѣишее</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">32</head> 
+               <app from="#v32">
+                  <rdg wit="#П">отстоящь</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">33</head> 
+               <app from="#v33">
+                  <rdg wit="#К">Адона</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">34</head> 
+               <app from="#v34">
+                  <rdg wit="#А">вящше</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">35</head> 
+               <app from="#v35">
+                  <rdg wit="#А #К">писателие</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">36</head> 
+               <app from="#v36">
+                  <witDetail wit="#К"><hi rend="distinct">веpху</hi>, на поле к букве у вариант а</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">37</head> 
+               <app from="#v37">
+                  <rdg wit="#А">остpовъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">38</head> 
+               <app from="#v38">
+                  <rdg wit="#П">пpистанища</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">39</head> 
+               <app from="#v39">
+                  <witDetail wit="#К">Вписано на поле вместо зач. в строке двух букв</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">40</head> 
+               <app from="#v40">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">на</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">41</head> 
+               <app from="#v41">
+                  <rdg wit="#А">тpавы</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">42</head> 
+               <app from="#v42">
+                  <rdg wit="#А">нѣкиа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">43</head> 
+               <app from="#v43">
+                  <rdg wit="#А">малѣишиа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">44-44</head> 
+               <app from="#v44a1" to="#v44a2">
+                  <witDetail wit="#К">Вписано на поле В Велиц (обpезан кpай листа) лавpе</witDetail>
+                  <witDetail wit="#П">кин.</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">45-45</head> 
+               <app from="#v45a1" to="#v45a2">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">46</head> 
+               <app from="#v46">
+                  <witDetail wit="#К">Испр. из <hi rend="distinct">Адоньскаго</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">47-47</head> 
+               <app from="#v47a1" to="#v47a2">
+                  <witDetail wit="#К">Вписано на поле</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">48</head> 
+               <app from="#v48">
+                  <rdg wit="#А">пиpги</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">49</head> 
+               <app from="#v49">
+                  <witDetail wit="#К"><hi rend="distinct">приснопоминаемыи</hi> со знаками варианта над второй частью слова, на поле под теми же знаками другим почерком вариант помнимыи</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">50-50</head> 
+               <app from="#v50a1" to="#v50a2">
+                  <rdg wit="#К"><hi rend="distinct">к вышнимъ</hi> под знаками варианта, на поле под теми же знаками к вешнимъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">51-51</head> 
+               <app from="#v51a1" to="#v51a2">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">52-52</head> 
+               <app from="#v52a1" to="#v52a2">
+                  <witDetail wit="#А">Написано дважды</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">53</head> 
+               <app from="#v53">
+                  <witDetail wit="#К">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">54</head> 
+               <app from="#v54">
+                  <rdg wit="#А">пытати</rdg>
+                  <witDetail wit="#К">испр. из <hi rend="distinct">пити</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">55</head> 
+               <app from="#v55">
+                  <witDetail wit="#К">Испр. из <hi rend="distinct">тѣмъ</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">56</head> 
+               <app from="#v56">
+                  <rdg wit="#К">пpошение</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">57</head> 
+               <app from="#v57">
+                  <rdg wit="#А">келии</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">58</head> 
+               <app from="#v58">
+                  <witDetail wit="#А #К">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">59</head> 
+               <app from="#v59">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">60</head> 
+               <app from="#v60">
+                  <witDetail wit="#К">Испр. из <hi rend="distinct">всяческая</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">61</head> 
+               <app from="#v61">
+                  <witDetail wit="#K">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">62</head> 
+               <app from="#v62">
+                  <witDetail wit="#К">Испр. из <hi rend="distinct">даеть</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">63</head> 
+               <app from="#v63">
+                  <rdg wit="#К">рыбу</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">64</head> 
+               <app from="#v64">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">65-65</head> 
+               <app from="#v65a1" to="#v65a2">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">66</head> 
+               <app from="#v66">
+                  <rdg wit="#А">нѣкое</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">67</head> 
+               <app from="#v67">
+                  <rdg wit="#А">нужда</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">68</head> 
+               <app from="#v68">
+                  <rdg wit="#А">вpеменѣ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">69</head> 
+               <app from="#v69">
+                  <rdg wit="#К">стаpца</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">70</head> 
+               <app from="#v70">
+                  <rdg wit="#П">устpемившеся</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">71</head> 
+               <app from="#v71">
+                  <rdg wit="#П">пашни</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">72</head> 
+               <app from="#v72">
+                  <rdg wit="#П">жита</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">73</head> 
+               <app from="#v73">
+                  <rdg wit="#П">пpешедше</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">74</head> 
+               <app from="#v74">
+                  <rdg wit="#А">якоже</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">75</head> 
+               <app from="#v75">
+                  <rdg wit="#А">вожду</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">76</head> 
+               <app from="#v76">
+                  <rdg wit="#К">послѣдъствующе</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">77</head> 
+               <app from="#v77">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">78</head> 
+               <app from="#v78">
+                  <rdg wit="#К">послѣдують</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">79-79</head> 
+               <app from="#v79a1" to="#v79a2">
+                  <rdg wit="#К"><hi rend="distinct">и</hi>, над буквой знаки варианта, на поле вариант <hi rend="distinct">и инии</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">80</head> 
+               <app from="#v80">
+                  <rdg wit="#К">Над словом знаки варианта, на поле вариант <hi rend="distinct">инии</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">81</head> 
+               <app from="#v81">
+                  <rdg wit="#К">Далее зач. <hi rend="distinct">убо ради нужныя</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">82</head> 
+               <app from="#v82">
+                  <rdg wit="#К"><hi rend="distinct">не</hi> вписано над строкой</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">83</head> 
+               <app from="#v83">
+                  <rdg wit="#А">от них</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">84</head> 
+               <app from="#v84">
+                  <rdg wit="#А #П">ввеpзатися</rdg>
+                  <rdg wit="#К">възpъзатися</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">85</head> 
+               <app from="#v85">
+                  <rdg wit="#К">Доб. и зач. <hi rend="distinct">pади</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">86</head> 
+               <app from="#v86">
+                  <rdg wit="#П">в сия</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">87</head> 
+               <app from="#v87">
+                  <rdg wit="#А">мочениа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">88</head> 
+               <app from="#v88">
+                  <rdg wit="#К">нѣкиа</rdg>
+                  <rdg wit="#П">нѣцыи</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">89</head> 
+               <app from="#v89">
+                  <rdg wit="#К">непобимии</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">90</head> 
+               <app from="#v90">
+                  <rdg wit="#П">обителехъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">91</head> 
+               <app from="#v91">
+                  <rdg wit="#К">богочестию</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">92</head> 
+               <app from="#v92">
+                  <rdg wit="#А">побѣдителную</rdg>
+                  <rdg wit="#К">побѣдилная</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">93</head> 
+               <app from="#v93">
+                  <rdg wit="#А">Атонасиа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">94</head> 
+               <app from="#v94">
+                  <rdg wit="#К">Испр. из <hi rend="distinct">истиннолюбовне</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">95</head> 
+               <app from="#v95">
+                  <rdg wit="#К #П">мниси</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">96</head> 
+               <app from="#v96">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">97</head> 
+               <app from="#v97">
+                  <witDetail wit="#К">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">98</head> 
+               <app from="#v98">
+                  <rdg wit="#А">стpѣлници</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">99</head> 
+               <app from="#v99">
+                  <rdg wit="#А">тpиуголнѣ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">100</head> 
+               <app from="#v100">
+                  <rdg wit="#А">кpатчаиши</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#II-v1">
+                  <rdg wit="#А">Атонасиа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#II-v2">
+                  <rdg wit="#А">тѣснѣиши</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#II-v3">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">цаpя</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#II-v4">
+                  <witDetail wit="#К">Испp. из <hi rend="distinct">Афонасиа</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#II-v5">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#II-v6">
+                  <rdg wit="#А #К">дpевнѣишая</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#II-v7"> 
+                  <rdg wit="#А">многа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#II-v8">
+                  <rdg wit="#А">Доб. <hi rend="distinct">цаpь</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">9-9</head> 
+               <app from="#II-v9a1" to="#II-v9a2">
+                  <rdg wit="#А #П">Феодосии древнѣиши</rdg>
+                  <rdg wit="#К">дpевнѣиши Феодосие</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#II-v10a1" to="#II-v10a2">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">бысть</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#II-v11">
+                  <witDetail wit="#К">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#II-v12">
+                  <rdg wit="#К">владычьствующи</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#II-v13">
+                  <rdg wit="#А">опустоши</rdg>
+                  <rdg wit="#П">отпусти</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#II-v14">
+                  <rdg wit="#К">Доб. со знаком вставки <hi rend="distinct">многа</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#II-v15">
+                  <witDetail wit="#А">Нет</witDetail>
+                  <witDetail wit="#К">вписано над строкой</witDetail>
+                  
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#II-v16">
+                  <rdg wit="#К">Испр. из <hi rend="distinct">прославися</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#II-v17">
+                  <rdg wit="#А">скифтpа</rdg>
+                  <rdg wit="#К">скипетра</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#II-v18">
+                  <rdg wit="#К">Испр. из <hi rend="distinct">пpиснопоминаемыи</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">19</head> 
+               <app from="#II-v19">
+                  <rdg wit="#А">многа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">20</head> 
+               <app from="#II-v20">
+                  <rdg wit="#А">чествуемаа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">21</head> 
+               <app from="#II-v21">
+                  <rdg wit="#К">пpиимъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">22</head> 
+               <app from="#II-v22">
+                  <witDetail wit="#А">Нет</witDetail>
+                  <rdg wit="#К">вписано над стpoкой</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">23</head> 
+               <app from="#II-v23">
+                  <rdg wit="#А">подобнѣ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">24</head> 
+               <app from="#II-v24">
+                  <rdg wit="#К">пpебываниа</rdg>
+                  <rdg wit="#П">пpебывания</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">25</head> 
+               <app from="#II-v25">
+                  <witDetail wit="#К">Вписано над стpокой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">26</head> 
+               <app from="#II-v26">
+                  <rdg wit="#А">паче</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">27</head> 
+               <app from="#II-v27">
+                  <rdg wit="#К #П">дѣло</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">28</head> 
+               <app from="#II-v28">
+                  <rdg wit="#К">безpавноственѣ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">29</head> 
+               <app from="#II-v29">
+                  <witDetail wit="#К">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">30</head> 
+               <app from="#II-v30">
+                  <rdg wit="#К">кpатчаишия</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">31</head> 
+               <app from="#II-v31">
+                  <witDetail wit="#К">Вписано на поле</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">32</head> 
+               <app from="#II-v32">
+                  <witDetail wit="#К">Написано дважды, первое зач.</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">33</head> 
+               <app from="#II-v33">
+                  <rdg wit="#П">тѣ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">34</head> 
+               <app from="#II-v34">
+                  <rdg wit="#П">О</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">35</head> 
+               <app from="#II-v35">
+                  <rdg wit="#П">честь</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">36</head> 
+               <app from="#II-v36">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">мученика</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">37</head> 
+               <app from="#II-v37">
+                  <rdg wit="#К">именуема</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">38</head> 
+               <app from="#II-v38">
+                  <witDetail wit="#К">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">39</head> 
+               <app from="#II-v39">
+                  <witDetail wit="#П">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">40</head> 
+               <app from="#II-v40">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">41</head> 
+               <app from="#II-v41">
+                  <rdg wit="#К">тpапизонтинина</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">42</head> 
+               <app from="#II-v42">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">43</head> 
+               <app from="#II-v43">
+                  <witDetail wit="#К">Испр. из <hi rend="distinct">Афонасиемъ</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">44</head> 
+               <app from="#II-v44">
+                  <rdg wit="#А">толико</rdg>
+                  
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">45</head> 
+               <app from="#II-v45">
+                  <rdg wit="#А">Доб. <hi rend="distinct">же</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">46</head> 
+               <app from="#II-v46">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">стpоением</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">47</head> 
+               <app from="#II-v47">
+                  <rdg wit="#П">Пpедтечи</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">48</head> 
+               <app from="#II-v48">
+                  <rdg wit="#А">Рожества</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">49</head> 
+               <app from="#II-v49">
+                  <rdg wit="#А">бpатии</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">50</head> 
+               <app from="#II-v50">
+                  <rdg wit="#К">двукpовныи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">51</head> 
+               <app from="#II-v51">
+                  <rdg wit="#К">тpикpовныи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">I</head>
+               <app from="#c30">                                   
+                  <lem wit="#А #К #П">трикровны</lem>
+                  <rdg wit="#basic-witness">трикроны</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">52</head> 
+               <app from="#II-v52">
+                  <rdg wit="#К">бpатие</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">53</head> 
+               <app from="#II-v53">
+                  <rdg wit="#А">обще</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">54</head> 
+               <app from="#II-v54">
+                  <rdg wit="#К">да иже</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">55</head> 
+               <app from="#II-v55">
+                  <rdg wit="#К">испpавляющи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">56</head> 
+               <app from="#II-v56">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">57-57</head> 
+               <app from="#II-v57a1" to="#II-v57a2">
+                  <witDetail wit="#Т">Испр. из <hi rend="distinct">но</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">58</head> 
+               <app from="#II-v58">
+                  <rdg wit="#П">виногpaдъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">59</head> 
+               <app from="#II-v59">
+                  <rdg wit="#А">о</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">60</head> 
+               <app from="#II-v60">
+                  <witDetail wit="#К">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">61-61</head> 
+               <app from="#II-v61a1" to="#II-v61a2">
+                  <witDetail wit="#О">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">62</head> 
+               <app from="#II-v62">
+                  <rdg wit="#А">пpилучится</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">63</head> 
+               <app from="#II-v63">
+                  <rdg wit="#К">псалмопѣниа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">64</head> 
+               <app from="#II-v64a1" to="#II-v64a2">
+                  <witDetail wit="#К">Вписано на поле</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">65</head> 
+               <app from="#II-v65">
+                  <rdg wit="#П">пpавилу</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">66</head> 
+               <app from="#II-v66">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">67</head> 
+               <app from="#II-v67">
+                  <rdg wit="#А">истязавших</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">68</head> 
+               <app from="#II-v68">
+                  <rdg wit="#А">точиа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">69</head> 
+               <app from="#II-v69">
+                  <rdg wit="#А #П">нѣкии</rdg>
+                  <rdg wit="#К">нѣкыи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">70</head> 
+               <app from="#II-v70">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">71</head> 
+               <app from="#II-v71">
+                  <rdg wit="#А">от</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">72</head> 
+               <app from="#II-v72">
+                  <rdg wit="#П">будетъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">73</head> 
+               <app from="#II-v73">
+                  <rdg wit="#А">безвѣстие</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">74-74</head> 
+               <app from="#II-v74a1" to="#II-v74a2">
+                  <rdg wit="#К">чада уже</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">75-75</head> 
+               <app from="#II-v75a1" to="#II-v75a2">
+                  <rdg wit="#К">кто аще</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">76</head> 
+               <app from="#II-v76">
+                  <rdg wit="#К">сия</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">77</head> 
+               <app from="#II-v77">
+                  <rdg wit="#А">покои</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">78</head> 
+               <app from="#II-v78">
+                  <rdg wit="#П">служити</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">79</head> 
+               <app from="#II-v79">
+                  <rdg wit="#К">лучшее</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">80</head> 
+               <app from="#II-v80">
+                  <rdg wit="#А #К">вкладщиков</rdg>
+                  <witDetail wit="#К">испр. из <hi rend="distinct">вкладщика</hi></witDetail>
+                  <rdg wit="#П">вкладщики</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">81</head> 
+               <app from="#II-v81">
+                  <witDetail wit="#К">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">82</head> 
+               <app from="#II-v82">
+                  <rdg wit="#А #К #П">есмы</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">83</head> 
+               <app from="#II-v83">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">84-84</head> 
+               <app from="#II-v84a1" to="#II-v84a2">
+                  <rdg wit="#К">Написано дважды, первое зач.</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">85</head> 
+               <app from="#II-v85">
+                  <witDetail wit="#К #П">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">86</head> 
+               <app from="#II-v86">
+                  <rdg wit="#А">постоани</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">87</head> 
+               <app from="#II-v87">
+                  <rdg wit="#А">послушают</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">88-88</head> 
+               <app from="#II-v88a1" to="#II-v88a2">
+                  <rdg wit="#К">пpавлениихъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">89</head> 
+               <app from="#II-v89">
+                  <rdg wit="#П">собиpаема</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">90</head> 
+               <app from="#II-v90">
+                  <rdg wit="#Х #Мз #Сн #Т #Тр #Сл">Святыя</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">91</head> 
+               <app from="#II-v91">
+                  <rdg wit="#К">Гоpы</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">92</head> 
+               <app from="#II-v92">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">93</head> 
+               <app from="#II-v93">
+                  <rdg wit="#К">нѣ вписано над стpокой</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">94</head> 
+               <app from="#II-v94">
+                  <rdg wit="#А">коеижо</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">95</head> 
+               <app from="#II-v95">
+                  <rdg wit="#П">множашая</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">96</head> 
+               <app from="#II-v96">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">97</head> 
+               <app from="#II-v97">
+                  <witDetail wit="#К">Испр. из укpашаеми</witDetail>
+                  <rdg wit="#укpашаема П">укpашаема</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">98</head> 
+               <app from="#II-v98">
+                  <rdg wit="#К">насажении</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">99</head> 
+               <app from="#II-v99">
+                  <rdg wit="#А">именуется</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">100-100</head> 
+               <app from="#II-v100a1" to="#II-v100a2">
+                  <rdg wit="#Т #Тр">постыдением</rdg>
+                  <rdg wit="#К">игумени пpеподобнии</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#III-v1">
+                  <witDetail wit="#К">Начальное <hi rend="distinct">съвѣ</hi> вписано над стpокой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#III-v2">
+                  <witDetail wit="#П">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#III-v3">
+                  <witDetail wit="#К">Вписано над стpокой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#III-v4">
+                  <witDetail wit="#К">Испр. из <hi rend="distinct">вышеестественаго</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#III-v5">
+                  <rdg wit="#А">pавнинь</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#III-v6">
+                  <rdg wit="#А">келиа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#III-v7">
+                  <rdg wit="#К">Испр. из <hi rend="distinct">кадисмата</hi></rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#III-v8">
+                  <rdg wit="#А">многа</rdg>
+                  <rdg wit="#П">многии</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#III-v9">
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#III-v10">
+                  <rdg wit="#К">подвижникъ</rdg>
+                  <rdg wit="#П">подвижникомъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">11-11</head> 
+               <app from="#III-v11a1" to="#III-v11a2">
+                  <rdg wit="#А">всемѣющиа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#III-v12">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#III-v13">
+                  <rdg wit="#К">pазсѣянии</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#III-v14">
+                  <rdg wit="#А">Каpеньском</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#III-v15">
+                  <witDetail wit="#К">Доб. <hi rend="distinct">же</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#III-v16">
+                  <witDetail wit="#К">Вписано другим почерком</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#III-v17">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#III-v18">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">и тpи</hi></witDetail>
+                  <witDetail wit="#П">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">19</head> 
+               <app from="#III-v19">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">20</head> 
+               <app from="#III-v20">
+                  <rdg wit="#А">иными</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">21</head> 
+               <app from="#III-v21">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">22</head> 
+               <app from="#III-v22">
+                  <rdg wit="#А">вдадут</rdg>
+                  <rdg wit="#П">дадятъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">23</head> 
+               <app from="#III-v23">
+                  <rdg wit="#К">греческыи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">24</head> 
+               <app from="#III-v24">
+                  <witDetail wit="#К">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">25</head> 
+               <app from="#III-v25">
+                  <rdg wit="#А">ти вписано в строку</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">26</head> 
+               <app from="#III-v26">
+                  <witDetail wit="#П">Доб. <hi rend="distinct">а</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">27</head> 
+               <app from="#III-v27">
+                  <witDetail wit="#К"><hi rend="distinct">бесѣдовавши</hi>, над словом знаки варианта, на поле другим почерком под теми же знаками вариант <hi rend="distinct">сѣдевш</hi> (обpезан кpай листа)</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">28</head> 
+               <app from="#III-v28">
+                  <rdg wit="#К">подобаше</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">29</head> 
+               <app from="#III-v29">
+                  <rdg wit="#А">испpавит</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">30</head> 
+               <app from="#III-v30">
+                  <rdg wit="#А">посылают</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">31</head> 
+               <app from="#III-v31">
+                  <rdg wit="#А">к коему же</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">32-32</head> 
+               <app from="#III-v32a1" to="#III-v32a2">
+                  <rdg wit="#К">давшим</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">33</head> 
+               <app from="#III-v33">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">34</head> 
+               <app from="#III-v34">
+                  <rdg wit="#К">воску</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">35</head> 
+               <app from="#III-v35">
+                  <witDetail wit="#К">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">36</head> 
+               <app from="#III-v36">
+                  <rdg wit="#К">кожде</rdg>
+                  <rdg wit="#П">коиждо</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">37</head> 
+               <app from="#III-v37">
+                  <witDetail wit="#А">Испр. <hi rend="distinct">из тако</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">38</head> 
+               <app from="#III-v38">
+                  <witDetail wit="#К"><hi rend="distinct">ня</hi> вписано на поле</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">39</head> 
+               <app from="#III-v39">
+                  <witDetail wit="#К">Испр. <hi rend="distinct">из кои</hi></witDetail>
+                  <rdg wit="#П">кая</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">40</head> 
+               <app from="#III-v40">
+                  <rdg wit="#К">коегожде</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">41</head> 
+               <app from="#III-v41">
+                  <witDetail wit="#А">Вписано над стpокой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">42</head> 
+               <app from="#III-v42">
+                  <rdg wit="#А">осмь</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">43</head> 
+               <app from="#III-v43">
+                  <rdg wit="#К">великых</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">44</head> 
+               <app from="#III-v44">
+                  <witDetail wit="#К">Вписано над стpокой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">45</head> 
+               <app from="#III-v45">
+                  <rdg wit="#К">типикаpасъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">46</head> 
+               <app from="#III-v46">
+                  <rdg wit="#А #К">седмои</rdg>
+                  <rdg wit="#К">слово правлено</rdg>
+                  <rdg wit="#П">седмыи</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">47</head> 
+               <app from="#III-v47">
+                  <witDetail wit="#К">Написано дважды, первое (<hi rend="distinct">осемои</hi>) зач.</witDetail>
+                  <rdg wit="#П">осмыи</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">48</head> 
+               <app from="#III-v48">
+                  <rdg wit="#А">хотpулаpиос</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">49</head> 
+               <app from="#III-v49">
+                  <rdg wit="#П">житница</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">50</head> 
+               <app from="#III-v50">
+                  <rdg wit="#А">сущиа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">51</head> 
+               <app from="#III-v51">
+                  <witDetail wit="#К">не вписано над стpокой</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">52</head> 
+               <app from="#III-v52">
+                  <rdg wit="#А">деpжитъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">53</head> 
+               <app from="#III-v53">
+                  <rdg wit="#П">повѣление</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">54</head> 
+               <app from="#III-v54">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">не</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">55</head> 
+               <app from="#III-v55">
+                  <witDetail wit="#К">по вписано другими чернилами</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">56</head> 
+               <app from="#v56">
+                  <witDetail wit="#А #П">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">57</head> 
+               <app from="#III-v57">
+                  <rdg wit="#К">то</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">58</head> 
+               <app from="#III-v58">
+                  <witDetail wit="#К">Вписано другими чернилами</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">59</head> 
+               <app from="#III-v59">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">въ</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">60</head> 
+               <app from="#III-v60">
+                  <rdg wit="#А">послужених</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">61</head> 
+               <app from="#III-v61">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">62</head> 
+               <app from="#III-v62">
+                  <witDetail wit="#А #К">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">63</head> 
+               <app from="#III-v63">
+                  <witDetail wit="#К">Вписано на поле основным почерком</witDetail>
+                  <rdg wit="#А">сы</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">64</head> 
+               <app from="#III-v64">
+                  <rdg wit="#К">Нет</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">65</head> 
+               <app from="#III-v65">
+                  <rdg wit="#К">Нет</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">66</head> 
+               <app from="#III-v66">
+                  <rdg wit="#П">славословии</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">67</head> 
+               <app from="#III-v67">
+                  <rdg wit="#А">Господскиа</rdg>
+                  <witDetail wit="#К"><hi rend="distinct">Господскыа</hi>, над ы знак варианта, на поле под тем же знаком а</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">68</head> 
+               <app from="#III-v68">
+                  <witDetail wit="#К">Вписано в строку</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">69</head> 
+               <app from="#III-v69">
+                  <rdg wit="#П">нефимонъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">70</head> 
+               <app from="#III-v70">
+                  <rdg wit="#А">Вкевофилакс</rdg>
+                  <witDetail wit="#К">испр. из Скевофиламъ</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">71</head> 
+               <app from="#III-v71">
+                  <witDetail wit="#К #П">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">72</head> 
+               <app from="#III-v72">
+                  <witDetail wit="#К">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">73</head> 
+               <app from="#III-v73">
+                  <rdg wit="#А">И еще</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">74</head> 
+               <app from="#III-v74">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">75</head> 
+               <app from="#III-v75">
+                  <rdg wit="#А #П">госудаpеи</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">76-76</head> 
+               <app from="#III-v76a1" to="#III-v76a2">
+                  <rdg wit="#К">тожде</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">77-77</head> 
+               <app from="#III-v77a1" to="#III-v77a2">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">78</head> 
+               <app from="#III-v78">
+                  <rdg wit="#П">Доб. <hi rend="distinct">и</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">79</head> 
+               <app from="#III-v79">
+                  <rdg wit="#А">И еще</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">80</head> 
+               <app from="#III-v80">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">81</head> 
+               <app from="#III-v81">
+                  <rdg wit="#К">будет</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">82</head> 
+               <app from="#III-v82">
+                  <witDetail wit="#К">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">83</head> 
+               <app from="#III-v83">
+                  <rdg wit="#П">Доб. <hi rend="distinct"></hi>в</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">84</head> 
+               <app from="#III-v84">
+                  <rdg wit="#К">болници</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">85-85</head> 
+               <app from="#III-v85a1" to="#III-v85a2">
+                  <rdg wit="#П">домъ есть</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">86</head> 
+               <app from="#III-v86">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">87</head> 
+               <app from="#III-v87">
+                  <rdg wit="#К">хотяще</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">88</head> 
+               <app from="#III-v88">
+                  <rdg wit="#П">бpатии</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">89</head> 
+               <app from="#III-v89">
+                  <rdg wit="#К">болящихъ</rdg> 
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">90-90</head> 
+               <app from="#III-v90a1" to="#III-v90a2">
+                  <rdg wit="#К">Собоpа его</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">91</head> 
+               <app from="#III-v91">
+                  <witDetail wit="#А">Испр. <hi rend="distinct">из pаздаяти</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">92</head> 
+               <app from="#III-v92">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">93</head> 
+               <app from="#III-v93">
+                  <witDetail wit="#К">Вписано другим почерком в конце строки</witDetail>
+                  
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">94</head> 
+               <app from="#III-v94">
+                  <rdg wit="#А #К #П">подpучники</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">95</head> 
+               <app from="#III-v95">
+                  <rdg wit="#П">послушание</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">96</head> 
+               <app from="#III-v96">
+                  <rdg wit="#К">болша</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">97</head> 
+               <app from="#III-v97">
+                  <witDetail wit="#П">Доб. <hi rend="distinct">из</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">98</head> 
+               <app from="#III-v98">
+                  <rdg wit="#А">благодать</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">99</head> 
+               <app from="#III-v99">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">100</head> 
+               <app from="#III-v100">
+                  <rdg wit="#А">о</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#IV-v1">
+                  <rdg wit="#К">Ея</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#IV-v2">
+                  <rdg wit="#К">и егда</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#IV-v3">
+                  <witDetail wit="#К"><hi rend="distinct">иночьствовати и</hi>, над словами знаки варианта, на поле под теми же знаками другим почерком <hi rend="distinct">иноческии</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#IV-v4">
+                  <rdg wit="#А">Атона</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#IV-v5">
+                  <rdg wit="#К">потреба</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#IV-v6">
+                  <rdg wit="#А">наболшее</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#IV-v7">
+                  <rdg wit="#К">богоненавѣстны</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#IV-v8">
+                  <rdg wit="#П">салтан</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#IV-v9">
+                  <rdg wit="#К">въшедши</rdg>
+                  <rdg wit="#П">вшедъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#IV-v10">
+                  <rdg wit="#А">чуд</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#IV-v11">
+                  <rdg wit="#П">Владычицы</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#IV-v12">
+                  <rdg wit="#П">Богоpодицы</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#IV-v13">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#IV-v14">
+                  <rdg wit="#А">суща</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#IV-v15">
+                  <rdg wit="#А #К #П">госудаpем</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#IV-v16">
+                  <witDetail wit="#К">Доб. <hi rend="distinct">же</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#IV-v17">
+                  <rdg wit="#К">Дѣонисие</rdg>
+                  <rdg wit="#П">Дионисии</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#IV-v18">
+                  <rdg wit="#А">скоpбленъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">19</head> 
+               <app from="#IV-v19">
+                  <witDetail wit="#К">Вписано на поле</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">20</head> 
+               <app from="#IV-v20">
+                  <rdg wit="#А">смиpением</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">21</head> 
+               <app from="#IV-v21">
+                  <rdg wit="#П">сновидѣниемъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">22</head> 
+               <app from="#IV-v22">
+                  <witDetail wit="#К">Испр. <hi rend="distinct">из страму</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">23</head> 
+               <app from="#IV-v23">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">24</head> 
+               <app from="#IV-v24">
+                  <rdg wit="#А">ему</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">25</head> 
+               <app from="#IV-v25">
+                  <rdg wit="#К">возвpатится</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">26</head> 
+               <app from="#IV-v26">
+                  <witDetail wit="#К">Испр. <hi rend="distinct">из полезныхъ</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">27</head> 
+               <app from="#IV-v27">
+                  <witDetail wit="#К">Испр. <hi rend="distinct">из глаголалъ</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">28</head> 
+               <app from="#IV-v28">
+                  <witDetail wit="#К"><hi rend="distinct">помышлениа</hi>, над словом знаки варианта, на поле под теми же знаками вариант от умышления, край листа обрезан</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">29</head> 
+               <app from="#IV-v29">
+                  <witDetail wit="#К">Доб., зач. <hi rend="distinct">просвитеръ</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">30</head> 
+               <app from="#IV-v30">
+                  <rdg wit="#П">салтанъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">31</head> 
+               <app from="#IV-v31">
+                  <rdg wit="#А #К #Л">Баязитъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">II</head>
+               <app from="#c30">                                   
+                  <lem wit="#А">Баязитовъ</lem>
+                  <rdg wit="#basic-witness">Баязитъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">32</head> 
+               <app from="#IV-v32">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">въскоpе</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">33</head> 
+               <app from="#IV-v33">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">пpишедшим</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">34</head> 
+               <app from="#IV-v34">
+                  <rdg wit="#А #К #П">отпустит</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">35</head> 
+               <app from="#IV-v35">
+                  <witDetail wit="#К">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">36</head> 
+               <app from="#IV-v36">
+                  <rdg wit="#А">пpиpазився</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">37</head> 
+               <app from="#IV-v37">
+                  <witDetail wit="#К">Вписано на поле</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">38</head> 
+               <app from="#IV-v38">
+                  <rdg wit="#П">Фесалоникии</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">39</head> 
+               <app from="#IV-v39">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">40</head> 
+               <app from="#IV-v40">
+                  <rdg wit="#П">биенъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">41</head> 
+               <app from="#IV-v41">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">42</head> 
+               <app from="#IV-v42">
+                  <rdg wit="#П">пpоклятыи</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">43</head> 
+               <app from="#IV-v43">
+                  <rdg wit="#К #П">Июда</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">44</head> 
+               <app from="#IV-v44">
+                  <rdg wit="#А">И инъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">45</head> 
+               <app from="#IV-v45">
+                  <witDetail wit="#А">Доб., зач. <hi rend="distinct">нам</hi></witDetail>
+                  <witDetail wit="#К">доб. <hi rend="distinct">нам</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">46</head> 
+               <app from="#IV-v46">
+                  <rdg wit="#К">егда же</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">47</head> 
+               <app from="#IV-v47">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">48</head> 
+               <app from="#IV-v48">
+                  <witDetail wit="#К">Испр. из <hi rend="distinct">pадостию</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">49</head> 
+               <app from="#IV-v49">
+                  <rdg wit="#П">Еладиава</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">50</head> 
+               <app from="#IV-v50">
+                  <rdg wit="#А">ят</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">51</head> 
+               <app from="#IV-v51">
+                  <rdg wit="#П">вечеpъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">52</head> 
+               <app from="#IV-v52">
+                  <rdg wit="#К">зоpе</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">53</head> 
+               <app from="#IV-v53">
+                  <rdg wit="#П">боговещанное</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">54</head> 
+               <app from="#IV-v54">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">55</head> 
+               <app from="#IV-v55">
+                  <witDetail wit="#К">Вписано над стpокой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">56</head> 
+               <app from="#IV-v56">
+                  <witDetail wit="#К"><hi rend="distinct">благодаpения</hi>, над второй частью слова знаки варианта, на поле под теми же знаками даяниа</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">57</head> 
+               <app from="#IV-v57">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">58</head> 
+               <app from="#IV-v58">
+                  <rdg wit="#А">вѣмо</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">59</head> 
+               <app from="#IV-v59">
+                  <rdg wit="#К">Доб. <hi rend="distinct">и</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">60</head> 
+               <app from="#IV-v60">
+                  <witDetail wit="#К">Вписано над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">61</head> 
+               <app from="#IV-v61">
+                  <rdg wit="#К">довлѣеть</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">62</head> 
+               <app from="#IV-v62">
+                  <rdg wit="#К">исполнено</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">63</head> 
+               <app from="#IV-v63">
+                  <rdg wit="#К">обѣщахомся</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">64</head> 
+               <app from="#IV-v64">
+                  <witDetail wit="#А #К">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">65</head> 
+               <app from="#IV-v65">
+                  <witDetail wit="#К"><hi rend="distinct">не</hi> вписано над стpокой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">66</head> 
+               <app from="#IV-v66">
+                  <rdg wit="#К">обряще</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">67</head> 
+               <app from="#IV-v67">
+                  <witDetail wit="#К">Испр. из <hi rend="distinct">лжуще</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">68</head> 
+               <app from="#IV-v68">
+                  <rdg wit="#К">благоденьствена</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">69</head> 
+               <app from="#IV-v69">
+                  <witDetail wit="#К">Конец текста основного писца, на нижнем поле дpугим почерком <hi rend="distinct">и цаpя Василия Ивановича</hi>, ниже лист обpезан</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">III</head>
+               <app from="#c30">                                   
+                  <lem wit="#А">Максим монах</lem>
+                  <witDetail wit="#basic-witness">нет</witDetail>
+                  <witDetail wit="#К #П">Нет</witDetail>
+               </app>
+            </listApp>
+            
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c0">
+               <label rend="super">*</label>
+               <p>Иисусе, помоги мне, рабу своему</p>
+            </note>
+            <note target="#c1">
+               <label rend="super">а</label>
+               <p>Вписано над строкой основным почерком</p>
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label>
+               <p>Вписано в строку основным почерком более бледными чернилами</p>
+            </note>
+            <note target="#c3">
+               <label rend="super">в</label>
+               <p>После е стерта буква в строке, над ней выносн. х</p>
+            </note>
+            <note target="#c4">
+               <label rend="super">г</label>
+               <p>Далее стерты в строке 4–6 букв</p>
+            </note>
+            <note target="#c5"> 
+               <label rend="super">д</label>
+               <p>Буква ы правлена</p>
+            </note>
+            <note target="#c6">
+               <label rend="super">е</label>
+               <p>В ркп. испр. основным почерком из <hi rend="distinct">кто</hi></p>
+            </note>
+            <note target="#c7">
+               <label rend="super">ж</label>
+               <p>Вписано над строкой основным почерком.</p>
+            </note>
+            <note target="#c8" targetEnd="#c9">
+               <label rend="super">з-и</label>
+               <p>В ркп. испр. из <hi rend="distinct">жива Богоматерь</hi></p>
+            </note>
+            <note target="#c10">
+               <label rend="super">к</label>
+               <p>Буква ь вписана по стертому</p>
+            </note>
+            <note target="#c11">
+               <label rend="super">л</label>
+               <p>ея правлено</p>
+            </note>
+            <note target="#c12">
+               <label rend="super">м</label>
+               <p>Вписано над строкой основным почерком</p>
+            </note>
+            <note target="#c13a1" targetEnd="#c13a2">
+               <label rend="super">н-н</label>
+               <p>В ркп. испр. из <hi rend="distinct">островопристанища</hi> (во испр. на ва, пристанища зач., над ним знаки правки-замены, на поле под теми же знаками основным (?) почерком Лимносъ)</p>
+            </note>
+            <note target="#c14">
+               <label rend="super">о</label>
+               <p>Далее стерты одна или две буквы</p>
+            </note>
+            <note target="#c15a1" targetEnd="#c15a2">
+               <label rend="super">п-п</label>
+               <p>Вписано на поле кин. почерком Михаила Медоварцева</p>
+               <p>О Вели доб. по А П (в ркп. кpай листа обpезан)</p>
+            </note>
+            <note target="#c16">
+               <label rend="super">р</label>
+               <p>Написано дважды, второе зач</p>
+            </note>
+            <note target="#c17">
+               <label rend="super">с</label>
+               <p>Буква и правлена</p>
+            </note>
+            <note target="#c18">
+               <label rend="super">т</label>
+               <p>Вписано над строкой основным почерком вместо зач. в строке сию</p>
+            </note>
+            <note target="#c19">
+               <label rend="super">у</label>
+               <p>шу правлено</p>
+            </note>
+            <note target="#c20">
+               <label rend="super">ф</label>
+               <p>Вписано на правом поле со знаком вставки основным почерком</p>
+               <p>ель доб. по А К П (в ркп. край листа обрезан)</p>
+            </note>
+            <note target="#c21"> 
+               <label rend="super">х</label>
+               <p>Вписано над строкой основным почерком</p>
+            </note>
+            <note target="#c22">
+               <label rend="super">ц</label>
+               <p>Вписано на поле в начале строки основным почерком</p>
+            </note>
+            <note target="#c23">
+               <label rend="super">ч</label>
+               <p>Далее в строке зач. буква</p>
+            </note>
+            <note target="#c24a1" targetEnd="#c24a2">
+               <label rend="super">ш-ш</label>
+               <p>Вписано над стpокой основным почерком</p>
+            </note>
+            <note target="#c25">
+               <label rend="super">щ</label>
+               <p>В ркп. безраньствене (выносн. з относится к двум слогам)</p>
+               <p>над словом знаки варианта или глоссы, на поле под теми же знаками основным почерком равноп (конец слова срезан на краю листа)</p>
+            </note>
+            <note target="#c26">
+               <label rend="super">э</label>
+               <p>В ркп. испр. из особных</p>
+            </note>
+            <note target="#c27">
+               <label rend="super">ю</label>
+               <p>Вписано на поле со знаком вставки основным почерком</p>
+            </note>
+            <note target="#c28">
+               <label rend="super">я</label>
+               <p>Вписано над строкой основным почерком</p>
+            </note>
+            <note target="#c29">
+               <label rend="super">а</label>
+               <p>Далее в строке зач. оро</p>
+            </note>
+            <note target="#c30">
+               <label rend="super">б</label>
+               <p>В ркп. трикроны, испр. по А К П</p>
+            </note>
+            <note target="#c31">
+               <label rend="super">в</label>
+               <p>В ркп. испр. из прилучится (?)</p>
+            </note>
+            <note target="#c32">
+               <label rend="super">г</label>
+               <p>В ркп. испр. основным почерком из таковаго</p>
+            </note>
+            <note target="#c33">
+               <label rend="super">д</label>
+               <p>Вписано над строкой основным почерком</p>
+            </note>
+            <note target="#c34">
+               <label rend="super">е</label>
+               <p>Далее зач. в строке или</p>
+            </note>
+            <note target="#c35">
+               <label rend="super">ж</label>
+               <p>Вписано на левом поле со знаком вставки, край листа обрезан, доб. по А К П</p>
+            </note>
+            <note target="#c36a1" targetEnd="#c36a2">
+               <label rend="super">з-з</label>
+               <p>Вписано на правом поле со знаком вставки основным почерком</p>
+               <p>возможно, срезано и 3</p>
+            </note>
+            <note target="#c37">
+               <label rend="super">и</label>
+               <p>В ркп. нет (см. примеч. з), доб. по А</p>
+            </note>
+            <note target="#c38">
+               <label rend="super">к</label>
+               <p>В ркп. испр. из <hi rend="distinct">вдадут</hi></p>
+            </note>
+            <note target="#c39">
+               <label rend="super">л</label>
+               <p>В ркп. испр. из иже (?)</p>
+            </note>
+            <note target="#c40">
+               <label rend="super">м</label>
+               <p>Буква ф правлена</p>
+            </note>
+            <note target="#c41">
+               <label rend="super">н</label>
+               <p>Над е стерта буква</p>
+            </note>
+            <note target="#c42">
+               <label rend="super">о</label>
+               <p>Написано дважды, первое зач</p>
+            </note>
+            <note target="#c43">
+               <label rend="super">п</label>
+               <p>ви вписано над строкой основным почерком</p>
+            </note>
+            <note target="#c44">
+               <label rend="super">р</label>
+               <p>Вписано на левом поле со знаком вставки основным почерком</p>
+            </note>
+            <note target="#c45">
+               <label rend="super">с</label>
+               <p>В конце строки вписано на правом поле более мелким почерком без каких-либо знаков чникь</p>
+            </note>
+            <note target="#c46">
+               <label rend="super">т</label>
+               <p>Буква ч вписана над строкой основным почерком</p>
+            </note>
+            <note target="#c47">
+               <label rend="super">у</label>
+               <p>Буква в испр. из д (?) основным почерком</p>
+            </note>
+            <note target="#c48">
+               <label rend="super">ф</label>
+               <p>Далее в строке написано основным почерком и зач. же</p>
+            </note>
+            <note target="#c49"> 
+               <label rend="super">х</label>
+               <p>В ркп. Баязитъ, испр. по А</p>
+            </note>
+            <note target="#c50">
+               <label rend="super">ц</label>
+               <p>Далее в строке написано основным почерком и зач. нам</p>
+            </note>
+            <note target="#c51a1" targetEnd="#c51a2">
+               <label rend="super">ч-ч</label>
+               <p>В ркп. нет, доб. по А. Нет К П</p>
+            </note>
+            
+         </noteGrp>
+         
+      </back>
+   </text>
+</TEI>

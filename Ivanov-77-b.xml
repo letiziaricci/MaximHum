@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Переводы из Свиды, не образующие циклов - Переводы в сборнике сочинений Максима Грека ГБЛ, ф. 256, собр. Румянцева, № 264 [Perevody iz Svidy, ne obrazujuščie ciklov - Perevody v sbornike sočinenij Maksima Greka GBL, f. 256, sobr. Rumjanceva, № 264]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Перевод Максима Грека из лексикона «Суда» [Perevod Maksima Greka iz leksikona "Suda"] <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="256" to="256">256</citedRange></bibl></ref></note></title>  
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Diversa redazione di Ivanov 77 e [Ivanov 77-a]</note>   
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">77-b</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 74</bibl>              
+               </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984</date></ref>: <biblScope unit="page" from="168">168</biblScope>, <biblScope unit="chapter">nr. I.6.I</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+           
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, собр. Румянцева 264</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#134v">лл. 134об.</locus>   <!-- 02. Inventario testimone base COLONNA G -->
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Мелхиседек - священник божии, царь хананеом.</incipit>   
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Такожде и Салим, ему же царь бе, многословутыи Иерусалим есть, не у носящ всецело имя Иерусалим, но приложению же иеру, прием склад и съединением именовася Иерусалим.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+
+            
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="M544" >Suda M544 [= Adler 1928-1938, III: 357]</ref> 
+               </bibl> 
+            </listBibl>
+           
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">1519ca <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="72" to="72">72</citedRange> <citedRange unit="chapter">n. 69</citedRange></bibl></ref></note></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Suda (Melchisedec)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation" source="#Μ544">Traduzione</term> 
+            </keywords> 
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      
+      <body>
+         <p><metamark corresp="#M544" function="locus-Suda" rend="label-margin-left" />Мелхиседек — священник божии, царь хананеом. Съи създав град на горе, глаголемеи Сион, нарече и Салим, еже есть по-греческы Иринопол, а по-рускы мирныи град; в нем же царствовав лета 113, измер праведен и девьственик. Неродословим же речеся, зане не бысть отнудь от семени Авраамля, бысть же родом хананеанин и от проклятаго семени считаем, сего ради ни родословию сподобися. Не бе бо лепо краинешыа правды рачителя съчитати роду краинеишыа неправды; ея же ради вины и безотечня и безматерня сего бывша глаголют. А яко хананеанин бе родом, явлено есть и от них жe обладаше и царствоваше Хананеанскых стран, и от них же съседъствоваше злеишим содомляном. Такожде и Салим, eму же царь бе, многословутыи Иерусалим есть, нe у носящ всецело имя Иерусалим, по приложению жe иеру, прием склад и съединением именовася Иерусалим. <metamark function="end-page" rend="//"/><pb type="folio" n="л.135" rend="label-margin-left"/></p>
+         
+      </body>
+      
+      
+   </text>
+</TEI>

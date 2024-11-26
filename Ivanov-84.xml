@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Переводы, присоединяющиеся к 1-му и 2-му комплексам переводов из Свиды - I. Группа переводов - статьи о рахманах, Креме, Велисарии - Ина повесть тогожде. Суида [Perevody, prisoedinjajuščiesja k 1-mu i 2-mu kompleksam perevodov iz Svidy - I. Gruppa perevodov - stat'i o rachmanach, Kreme, Velisarii - Ina povest' togožde. Suida]</title>   
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Повесть о Креме, государе болгарском [Povest' o Kreme, gosudare bolgarskom] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="73" to="73">73</citedRange></bibl></ref></note></title>  
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Ovc-131">Ина повесть тогожде Максима. Суида <note type="editorial"><ref><locus>ms. RGB, f. 209, sobr. Ovčinnikova 131, ff. 760r-762r</locus></ref></note></title>
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+        
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">84</idno>
+            </bibl>
+            
+           
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984</date></ref>: <biblScope unit="page" from="147" to="148">147–148</biblScope>, <biblScope unit="chapter">nr. I.3.I</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Sol-495-514"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, собр. Соловецкого мон. 495/514</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#694r #694v">лл. 694-694об.</locus>   
+                     <title xml:lang="cu-Cyrl">Ина повесть тогожде. Суида</title>  
+                     <incipit xml:lang="cu-Cyrl">Яко Крем, болгарскии государь, по пленении аваров вопроси их: «Откуду и с чего, разумеете, погибе князь ваш и весь язык?».</incipit>  
+                     <explicit xml:lang="cu-Cyrl">А голени татя да преламаются, виногради же все искоренити повеле; просящему же всякому не скудно давати, но доволство ему дати, да не паки требуя просит. А иже преступит заповеди моя сия, да грабят его.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl">  
+               <witness corresp="#basic-witness" ana="#reference-ms" /> 
+               
+               <witness xml:id="O">  
+                  <ref target="lista-manoscritti.xml#Ovc-131">РГБ, ф. 209, собр. Овчинникова 131</ref>, <locus type="foliation" target="#760r #762r">лл. 760-762 / ff. 760r-762r [foliazione cumulativa per Ivanov 83, Ivanov 84, Ivanov 82]</locus>  
+               </witness>
+                
+            </listWit> 
+            
+            
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="Β423" >Suda Β423 [= Adler 1928-1938, I: 483-484]</ref> 
+               </bibl> 
+            </listBibl>
+           </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">intra 1525 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="77" to="77">77</citedRange></bibl></ref></note></date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Повесть</term> 
+               </keywords>
+            <keywords scheme="#scope">  
+               <term>Suda (khan Krum)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation" source="#Β423">Traduzione</term> 
+            </keywords>
+         </textClass>
+         
+         
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНА ПОВЕСТЬ ТОГОЖДЕ. <anchor xml:id="v1" n="1" rend="super"/>СУИДА<anchor xml:id="v2" n="2" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p><metamark corresp="#B423" function="locus-Suda" rend="label-margin-right" />Яко Крем, болгарскии государь, по пленении аваров вопроси их: «Откуду и с чего, разумеете, погибе князь ваш и весь язык?» И отвещаша: «Зане преумножишася яже друг на друга клеветы и погубиша мужественеиших <metamark function="end-page" rend="//"/><pb type="folio" n="л.694 об." rend="label-margin-right"/> и разумнеиших, та же неправеднии и татие причастницы быша судящим, та же пианство; преумножившу бо ся вину, вси были бражники; та же мздоимание, и вси были посулники; та же торгование, и вси были купци, друг друга прелстяще.<anchor xml:id="c1" n="а" rend="super"/><anchor xml:id="v3" n="3" rend="super"/> И погибель наша от сих пришла». Крем же, слышав сия, созва болгары вся<anchor xml:id="v4" n="4" rend="super"/> и повеле, закон полагая:аще кто поклеплет кого, не слушати его, преже не связан быв, истяжется; и аще клевещущь и лжущ обрящется, да убивается. Ниже достоит кому крадущу ясти подати; и аще кто дерзнет сие творити, имения его расхищаются. А голени татя да преламаются, виногради же все искоренити повеле; просящему же всякому не скудно давати, но доволство ему дати, да не паки требуя просит. А иже преступит заповеди моя сия, да грабят его.</p>
+         </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> 
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1"> 
+                  <witDetail wit="#О">Доб. <hi rend="distinct">Максима</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> <!-- variante2 -->
+                  <witDetail wit="#О">На поле: <hi rend="distinct">глава 57</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <rdg wit="#О">оманующе, <witDetail wit="#О">испр. на <hi rend="distinct">обманывающе</hi></witDetail></rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <rdg wit="#О">своя</rdg>
+               </app>
+            </listApp>
+            </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> 
+            <note target="#c1" > 
+               <label rend="super">а</label> 
+               <p><gloss>оманующе</gloss></p> 
+            </note>
+            
+         </noteGrp>
+         
+         
+         
+      </back>
+   </text>
+</TEI>

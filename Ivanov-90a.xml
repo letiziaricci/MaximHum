@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Переводы, присоединяющиеся к 1-му и 2-му комплексам переводов из Свиды - III. Переводы в сборнике сочинений Максима Грека ГПБ, Q.I.219 - Епистолие Анастасии мученици к Хрисогону исповеднику [Perevody, prisoedinjajuščiesja k 1-mu i 2-mu kompleksam perevodov iz Svidy - III. Perevody v sbornike sočinenij GPB, Q.I.219 - Epistolie Anastasii mučenici k Chrisogonu ispovedniku]</title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Епистолие Анастасии мученици к Хрисогону исповеднику [Epistolie Anastasii mučenici k Chrisogonu ispovedniku] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="76" to="76">76</citedRange></bibl></ref></note></title>  
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">90a</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984</date></ref>: <biblScope unit="page" from="150" to="150">150</biblScope>, <biblScope unit="chapter">nr. I.3.III</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#QI-219"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Q.I.219</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#538r #538v">лл. 538-538об.</locus>   
+                     <title xml:lang="cu-Cyrl">Епистолие Анастасии мученици к Хрисогону исповеднику</title>  
+                     <incipit xml:lang="cu-Cyrl">Святому исповеднику Христову Хрисогону Анастасиа радоватися! Аще и зело мои отец идолом поклоняшеся, но убо мати моя Флавиа, всегда в христианех сущи, отнели же родила мя, христиану сътвори мя.</incipit> 
+                     <explicit xml:lang="cu-Cyrl">Тъи же всесил(ьныи) Христос свидетель, яко егда избуду прелести сея, у святых пребуду служащи, и яже о них попечениа, яко же начах, даже д(о) конца въсприиму. Здрав буди, рабе божии, и поминаи мя в молитвах своих!</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="X574" >Suda X574 [= Adler 1928-1938, IV: 831-834]</ref> 
+               </bibl> 
+            </listBibl>
+            </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">intra 1525 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="77" to="77">77</citedRange></bibl></ref></note></date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">
+               <term>Епистолие</term> 
+               </keywords>
+            <keywords scheme="#scope">   
+               <term>Suda (Epistola di Anastasi a Crisogono)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#translation" source="#X574">Traduzione Suda</term> 
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#Ana">Анастасия / Anastasia</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Cri">Хрисогон / Crisogono</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <tagsDecl>
+            <rendition xml:id="roundBefore" scheme="css" scope="before">content: "(";</rendition>
+            <rendition xml:id="roundAfter" scheme="css" scope="after">content:")";</rendition>
+         </tagsDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ЕПИСТОЛИЕ АНАСТАСИИ МУЧЕНИЦИ К ХРИСОГОНУ ИСПОВЕДНИКУ</p>  
+      </front>
+      
+      <body>
+         <p><metamark corresp="#X574" function="locus-Suda" rend="label-margin-left" />Святому исповеднику Христову Хрисогону Анастасиа радоватися! Аще и зело мои отець идолом поклоняшеся, но убо мати моя Флавиа, всегда в христианех сущи, отнели же родила мя, христиану сътвори мя. По смерти же ея съпрягохся мужу сквернеишему, его же съвокуплениа благодатию божиею избегох, молящися господу моему Иисусу<anchor xml:id="c1" n="а" rend="super"/> Христу день да нощь избавитися от сквернаго идолослужителя оного, иже моя имениа скоро явился с скверными идолослужители истъщив, мене же акы чародеицу и храмокрадителницу в тяжчаишу темницу предал, да бых привременное житие погубила<anchor xml:id="c2" n="б" rend="super"/>. И ничто же ми оста точию душа. И сего ради молюся с упованием еже к Богу умрети. <metamark function="end-page" rend="//"/><pb type="folio" n="л.538 об." rend="label-margin-left"/> Обаче, аще и хвалюся в исповедании Христа Б<hi rendition="#roundBefore #roundAfter">ога</hi> моего, зело скръблю, яко мое богатств<hi rendition="#roundBefore #roundAfter">о</hi>, его же моляхся о рабех божиих истъщити, с<hi rendition="#roundBefore #roundAfter">кве</hi>рныи он человек бесослужителем раздавает; и яже аз раздавати божиим рабом моляхся, сиа скверным и непреподобным человеком раздавает. И сего ради молю тя, рабе Христу Богу, да прилежно молишися Богу о мне, аще убо предвесть Бог, верити моем<hi rendition="#roundBefore #roundAfter">у</hi> мужу Поплию в Христа — добро убо зело, аще ли же ни, да попустит погыбнути ему в своих его прелестех, мене же да избавит<anchor xml:id="c3" n="в" rend="super"/> от него. Лучше бо ми есть умрети, нежели Сына божиа отврещися и верующ<hi rendition="#roundBefore #roundAfter">им</hi> в него съблазн быти. Тъи же всесил<hi rendition="#roundBefore #roundAfter">ьныи</hi> Христос свидетель, яко егда избуду прелести сея, у святых пребуду служащи, и яже о них попечениа, яко же начах, даже д<hi rendition="#roundBefore #roundAfter">о</hi> конца въсприиму. Здрав буди, рабе божии, и поминаи мя в молитвах своих! <metamark function="end-page" rend="//"/><pb type="folio" n="л.539" rend="label-margin-left"/></p>
+         </body>
+      
+      <back> 
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> 
+            <note target="#c1" > 
+               <label rend="super">а</label> 
+               <p>Второе <hi rend="distinct">и</hi> затерто.</p>
+            </note>
+            <note target="#c2" > 
+               <label rend="super">б</label> 
+               <p>Испр., в ркп. <hi rend="distinct">погубил</hi></p>
+            </note>
+            <note target="#c3" > 
+               <label rend="super">в</label> 
+               <p>Испр., в ркп. <hi rend="distinct">избави</hi></p>
+            </note>
+            </noteGrp>
+         
+         
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание Константину [Poslanie Konstantinu]</title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Sinicyna 1977 <citedRange unit="page" from="250" to="250">250</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Rzi-1935-1936">Констянтину възлюбленому брату и другу Максимъ грѣшник радоватися о Господѣ [Konstjantinu v''zljublenomu bratu i drugu Maksim'' grěšnik radovatisja o Gospodě] <note type="editorial"><ref><bibl>Ržiga 1935-1936 <citedRange unit="page" from="93" to="93">93</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Послание утешительное к некоему Константину [Poslanie utešitel'noe k nekoemu Konstantinu] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="140" to="140">140</citedRange></bibl></ref></note></title> 
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">Послание Константину о терпении в напастях и скорбях (Poslanie Konstantinu o terpenii v napastjach i skorbjach) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note></title>   
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Responsiva di cui non si è conservata la missiva</note>   
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">Ivanov 192</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 13</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984</date></ref>: <biblScope unit="page" from="202" to="204">202-204</biblScope>, <biblScope unit="chapter">nr. III.4</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Posl. nr. 13</biblScope><note>Edizione in corso di stampa</note>
+                  
+               </bibl>
+            </listBibl>
+            
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, собр. Румянцева 264</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#34r #36r">лл. 34-36 / ff. 34r-36r</locus>   
+                     <title xml:lang="cu-Cyrl">Костянтину, възлюбленному брату и другу, Максим грешник радоватися о Господе</title>   
+                     <rubric type="epistolary-formula" xml:lang="Cyrl">Костянтину, възлюбленному брату и другу, Максим грешник радоватися о Господе.</rubric> 
+                     <incipit xml:lang="cu-Cyrl">Грамота твоиа писана в 6 день августа месяца, ею же сказываеши мне достигшую тебе паче надежи скръбь зелную, от нея же снесен бываеши в недоумение много и отчаяние, и исцеление некое ея просиш от мене грубаго и ненаказанаго.</incipit>  
+                     <explicit xml:lang="cu-Cyrl">Да же и мы акы благочестиви и истинне христиане сподобимься еже одесную стоаниа Бога и Спаса нашего Исуса Христа, тому слава и дръжава в векы, аминь.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/>          
+            </listWit>                      
+
+
+            <listBibl type="cited-fontes" source="#Bul-1984a">
+               <bibl> 
+                  <ref xml:id="Α3909" type="excerptum">Suda Α3909 [= Adler 1928-1938, I: 355]</ref> 
+               </bibl>
+               <bibl>
+                  <ref xml:id="Α4102" type="excerptum">Suda Σ295 [= dler 1928-1938, I: 375]</ref> 
+               </bibl>
+            </listBibl>
+            
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date ana="#post-1531" resp="lista-bibliografia.xml#Bul-1984a">Post 1525 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="194" to="194">194</citedRange></bibl></ref></note></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label"> 
+               <term>[Послание]</term> 
+               <term>[Утѣшение]</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Istruzione</term> 
+               <term>Consolazione (la sofferenza terrena e la ricompensa nei cieli)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original" source="#Α3909 #Α4102">Testo originale con excerpta Sudae</term> 
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Gre</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Konst">Константин / Konstantin</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <body>
+         <p>Костянтину, възлюбленому брату и другу, Максим грешник радоватися о Господе.
+         </p> 
+         <p>Грамота твоиа писана в 6 день августа месяца, ею же сказываеши мне достигшую тебе паче надежи скръбь зелную, от нея же снесен бываеши в недоумение много и отчаяние, и исцеление некое ея просиш от мене грубаго и ненаказанаго. <metamark function="end-page" rend="//"/><pb type="folio" n="л. 34 об." rend="label-margin-left"/>Аз же, возлюблене Костянтине, кое ино исцеление помышлю тебе, но точию апостольское речение, глаголющее нам: <cit><quote xml:id="biblical-1">«Всяку радость возмните, братиа моя, егда в напастех падаете различных, ведяще, яко искуство<anchor xml:id="c1" n="а" rend="super"/> вашея веры съделовает тръпение, тръпение же да имать дело съвръшено».</quote></cit>  Тъи же божественныи<anchor xml:id="c2" n="б" rend="super"/> апостол пониже глаголеть: «Блажен человек, иже тръпит искушение». Чесо ради? <cit><quote xml:id="biblical-2">«Зане же, — рече, — искусен быв, приимет венец жизни, его же обеща Господь любящим его».</quote></cit>  Разумеи убо, аще истинною разумен еси ты, како въздаание имат от вышняго беды тръпети с благодарением съвръшеным, навожение напастеи. Ибо слышим и веровахом, яко <cit><quote xml:id="biblical-3">«многыми скорбьми подобает нам вънити в царство небесное»,</quote></cit>  еже чаемо есть истинным благоверным и любящим нелицемерно Спаса Христа, его же ради богоноснии мученици, не точию имениа своя и преизобилная стяжаниа<anchor xml:id="c3" n="в" rend="super"/> расхыщаеми и лишаеми от христоборцов, гонителеи благовериа, радовахуся, но и самыа плоти своея с всякою радостию предаяху в всякых горчаиших мучении, тръпяще настоащая, доблевьствене радующеся о надежных. Приимем убо, да дръжим в памяти нашеи всегда навожение напрасных и гръчаиших напастеи онeх, их же нанесе в един день богоборныи человекоубиица диавол непоколебленому стлъпу тръпениа, глаголю же приснопа <metamark function="end-page" rend="//"/><pb type="folio" n="л. 35" rend="label-margin-right"/> мятному и многострадалцу блаженому Иову. Яко в един день обнажен быв всех, их же стяжавше имении, стяжании, славы, чести царскыя, угожениа и служениа и рабов, самех любезнеиших сынов его; и надо всеми сими язвою злою поражен быв все оно многострадалное тело, и на гъвне на гноищи седя 7 лет, не малодушествовал, ниже плакал о погублении всех онех толикых и сицевых преизобилии. Не низ паде доблевьственое и непобедимое мудрование боголюбезнеишиа его души, но всеми онеми страшнеишими напастьми явися морьскыи скопел, от всякых ветр и тревлънении ударяем и обливаем. Сего ради и в иже к вышнему вере и любви съвръшенеи утвержен и крепце съвръшен и связан, изглаголи приснопамятныи он глас: <cit><quote xml:id="biblical-4">«Господь даст, Господь взят; яко же господеви угоде бысть, тако и бысть; буди имя господне благословено! Наг изыдох от чрева матере моея, наг и отиду».</quote></cit>  Тем же и мы, възлюблене, да не скръбим о погублении треемих вещеи ниже в отчаяние снесемся, да не радование будемь наветником нашим лукавым бесом, но вооружим себе <cit><quote xml:id="biblical-5">«оружии правды десными и шуими»</quote></cit>  по божественому апостолу.
+         </p>
+         <p>Не утаю от тебе пречюдно некое поведание и доблевьствено исправление от некоего философа еллина, его же имя, аще добре памятую,<anchor xml:id="c4" n="г" rend="super"/> Хрисипп бе или Аристипп. Тъи в корабли многочеловеческом море проходя и уразумев себя наветуема <metamark function="end-page" rend="//"/><pb type="folio" n="л. 35 об." rend="label-margin-right"/> от корабленик злата ради многаго, его же носяше с собою, абие пометал е в море и рек: «Сего погубление мне есть спасение». Аще же он еллин сыи привременнаго ради живота толика злата не пощаде, но потопи е бодрено, множае паче мы благочестивии длъжни есмы съблюдаемаго ради праведным вечнаго живота и царствиа не токмо имении преизобилии стяжание презирати, но самого привременнаго житиа небречи и вся бодрено пометати наслажениа ради вечных благ.
+         </p>
+         <p>Слыши же и ино тако же познание веледушиа еллина некоего, Архиада нарицаемаго, и утешися. Съи бо множаиших имении расхыщен быв, поне же позна Феагена, сына своего млада еще суща, скръбяща о погублении и расхыщении имениих: «О, Феагене, — глагола, — уповати уже тебе подобает и Богом благодарение приносити о спасении нашем, о имениих<anchor xml:id="c5" n="д" rend="super"/> же не подобает скорбети. Аще бо Афина, града хранителница, повелела была истощити их в панафинеех, коликою убо ценою купили быхом сицевыа проторы. Но настоащаго подвига не всевати подобает и панафинеех самех и всякого иного светлеиша же и благочестивеиша».
+         </p>
+         <p>Темь же подобаеть и нам не скръбети безмерно о погублении и расхыщении имении и треемых стяжании, но ведящим съблюдаемое возда <metamark function="end-page" rend="//"/><pb type="folio" n="л. 36" rend="label-margin-left"/> ание от праведнаго судии тръпящим доблевьствене с благым упованием всякыа скръби и обиды, благодарити длъжны есмы в всех, и веледушьствовати, и ко обидящим не вражебне прилежати, но кротце, послушающим божественому апостолу Павлу, завещавающу нам и глаголющу: <cit><quote xml:id="biblical-6">«Не побежаи злом, но побежаи злое благым».</quote></cit> Да же и мы акы благочестиви и истинне христиане сподобимься еже одесную стоаниа Бога и Спаса нашего Исуса Христа, тому слава и дръжава в векы, аминь.
+         </p>
+      
+      </body>
+      
+      <back> 
+         
+        
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note corresp="#c1" > <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <term rend="super">а</term> <!-- lettera in apice -->
+               <p>Испр., в ркп.  <hi rend="distinct">искуствое</hi>.</p>
+            </note>
+               <note corresp="#c2" > 
+                  <term rend="super">б</term> <!-- lettera in apice -->
+                  <p>Испр., в ркп. <hi rend="distinct">божестве</hi>.</p>
+               </note>
+            <note corresp="#c3" > 
+               <term rend="super">в</term> <!-- lettera in apice -->
+               <p>В ркп. <hi rend="distinct">стяжаниа стяжа</hi>.</p>
+            </note>
+            <note corresp="#c4" > 
+               <term rend="super">г</term> <!-- lettera in apice -->
+               <p>Испр., в ркп. <hi rend="distinct">памятуи</hi>.</p>
+            </note>
+            <note corresp="#c5" >
+               <term rend="super">д</term> <!-- lettera in apice -->
+               <p>Испр., в ркп. <hi rend="distinct">именииих</hi>.</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Gc"><ref>(Иак 1, 2—4 / Gc 1, 2—4)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Gc"><ref>Иак 1, 12 / Gc 1, 12)</ref></bibl>
+            <bibl corresp="#biblical-3" type="At"><ref>(Деян 14, 22 / At 14, 22)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Gb"><ref>(Иов 1, 21 / Gb 1, 21)</ref></bibl>
+            <bibl corresp="#biblical-5" type="2Cor"><ref>(2 Кор 6, 7 / 2Cor 6, 7)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Rm"><ref>(cр. Рим 12, 21 / cfr. Rm 12, 21)</ref></bibl>
+         </listBibl>
+         
+
+      </back>
+   </text>
+</TEI>

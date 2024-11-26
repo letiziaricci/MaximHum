@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание неизвестному лицу (Вассиану Патрикееву?) с фрагментом перевода «Мучения» Дионисия Ареопагита (Симеона Метафраста) [Poslanie neizvestnomu licu (Vassianu Patrikeevu?) s fragmentom perevoda "Mučenija" Dionisija Areopagita (Simeona Metafrasta)]</title> 
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Missiva di accompagnamento (destinatario ignoto) alla traduzione del Martirio di Dionigi Areopagita di Simeone Metafraste con frammento di traduzione (la traduzione integrale è in Ivanov 12 [inedito])</note>   
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">12-a</idno>
+            </bibl>
+            
+           
+            <bibl type="reference-edition">    
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="405" to="405">405</biblScope>, <biblScope unit="chapter">nr. II.23</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+                       
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#V-5636-399">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>ВМЗ, B-5636/399</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#203v #204r">лл. 203об.-204</locus>   
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Изъ греческых книг Семиона Метафраста Мучение святого Деонисия Ареопагита сиа обрѣтох, честныи отче, писано Симеоном Метафрастом в Мучении святого Дионисиа Ареопагита, и послах тебѣ, вѣдя, яко тебѣ потребна будуть.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">И архиерею Дионисию аки велие что съдѣавъ добродѣтелно, пишеть о бывшем горѣ и долѣ дръзостно в онои епистолии, извѣщаа яко не себе, но вясще Бога отомститель есть.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>     
+          
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#MG-2008">Intra 1525 <note type="editorial"><ref><bibl>Maksim Grek 2008 <citedRange unit="page" from="42" to="42">42</citedRange></bibl></ref></note></date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+           <keywords scheme="#scope">
+               <term>Corrisondenza provata</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#dubium" source="lista-bibliografia.xml#ZKS-2008">Dubium <note type="editorial"><ref><bibl>Žurova, Kruteckij, Sinicyna 2008 <citedRange unit="page" from="509" to="509">509</citedRange></bibl></ref></note></term>   
+           </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="received">
+               <persName ref="#VIP">Вассиан Иванович Патрикеев / Vassian Ivanovič Patrikeev <note type="editorial">identificazione in Maksim Grek 2008: 42</note></persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+           
+      <body>
+         <p><pb type="folio" n="л. 203 об." rend="label-margin-left"/><anchor xml:id="c1a1" n="а" rend="super"/>Изъ греческых книг Семиона Метафраста<anchor xml:id="c1a2" n="а" rend="super"/> <anchor xml:id="c2a1" n="б" rend="super"/>в Мучение святого Деонисия Ареопагита<anchor xml:id="c2a2" n="б" rend="super"/> сиа обрѣтох, честныи отче, писано Симеоном Метафрастом в Мучении святого Дионисиа Ареопагита, и послах тебѣ, вѣдя, яко тебѣ потребна будуть.</p>
+         <p>Дионисию угодники убо и ины бѣша, единъ же от нихъ и Димофилъ, Димофилу же град афинеанъ область, образ же ему и житие и иночьское и иночьскыи же образ чистыа и святительскыя руцѣ Дионисиевѣ ему положиша, чинъ сеи и служение от Дионисиа мужу церковных двереи стрещи. Димофилъ убо сеи, своего презвитера узрѣвъ обрасщагося нѣкоего къ покаанию милостно приемшаго, не кротцѣ тръпѣвъ, но разъяривъся и внутрь <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 204" rend="label-margin-right"/> олтарных невходимых вшед, в коих внити или касатися бѣдно и неподобно есть, посрамлятися убо святая святых творить, благаго же оного и кроткаго священника биение нестерпимыми подлагаеть и в ланиту бия, отрѣваетъ и со многым благоговѣниемь приступающаго дръзостно отгоняеть ногами, нечестива имѣнуя и сквернаго разсудившаго благостью презирати людьскаа невѣдѣниа. И архиерею Дионисию аки велие что съдѣавъ добродѣтелно, пишеть о бывшем горѣ и долѣ дръзостно в онои епистолии, извѣщаа яко не себе, но вясще Бога отомститель есть.</p>
+         
+      </body>
+      
+      <back> 
+         
+                 
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1a1" targetEnd="#c1a2"> <!-- riferimento all'id sul testo - c1 è commento1 -->
+              <label rend="super">а-а</label>
+               <p>Вписано на верхнем поле со знаком вставки основным (?) почерком.</p>
+            </note>
+            <note target="#c2a1" targetEnd="#c2a2"> <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">б-б</label>
+               <p>Вписано на нижнем поле со знаком вставки тем же почерком, что на верхнем поле.</p>
+            </note>
+         </noteGrp>
+         
+         
+      </back>
+   </text>
+</TEI>

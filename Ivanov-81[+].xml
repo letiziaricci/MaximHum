@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Переводы, присоединяющиеся к 1-му и 2-му комплексам переводов из Свиды - II. Переводы в сборнике ГПБ, F.XVII.13 [Perevody, prisoedinjajuščiesja k 1-mu i 2-mu kompleksam perevodov iz Svidy - II. Perevody v sbornike GPB, F.XVII.13]</title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Сказание о Давиде пророке [Skazanie o Davide proroke] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="72" to="72">72</citedRange></bibl></ref></note></title>   
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Il testo edito in Bulanin 1984a: 148-149 si apre con Suda A3560 [= Adler 1928-1938, I: 322] (che compare in altra traduzione in Ivanov 266) e include Ivanov 81, che corrisponde a Suda Δ94-95 [= Adler 1928-1938, II: 9-10]</note>   <!-- 01. Inventario COLONNA C -->
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">81[+]</idno>
+            </bibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="148" to="149">148–149</biblScope>, <biblScope unit="chapter">nr. I.3.II</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+           
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#F-XVI-13"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>ГПБ, F.XVI.13</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#82v #83v">л. 82 об.—83 об. / ff. 82v-83v</locus>   
+                     <incipit type="info-ms" xml:lang="cu-Cyrl"><idno type="id">Suda A3560</idno>Великаго Василья. Апостольское жительство, еже есть очию бо его възрение, языку удръжание, телу порабощение, смирено мудрование, мысли чистота, генву исчезение.</incipit>
+                     <incipit type="info-ms" xml:lang="cu-Cyrl"><idno type="id">Ivanov 81</idno> Давид, пророк и праотець Господа и Бога нашего Исуса Христа. Иже по еже царь бысть, идяше величаем, и Господь Вседержитель бе с ним</incipit>
+                     <explicit type="info-ms" xml:lang="cu-Cyrl"><idno type="id">Suda A3560</idno> [...] умрътвися греху, сраспнися Христу, всю любов преложи к Господу</explicit>
+                     <explicit type="info-ms" xml:lang="cu-Cyrl"><idno type="id">Ivanov-81</idno>Остави же богатство, яко ни един ин [sic!] царь ниже евреов, ниже иных язык.</explicit>
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="lettera" /> 
+               <witness xml:id="П2">   
+                  <ref target="lista-manoscritti.xml#QI-219">РНБ, Q.I.219</ref>, <locus type="foliation" target="#553v #554v">лл. 553об.-554об. (статья о Давиде) / ff. 553v-554v (passo su David)</locus>   
+               </witness>
+               </listWit> 
+            
+            
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="A3560" >Suda A3560 [= Adler 1928-1938, I: 322]</ref> 
+                  <ref xml:id="Δ94-95" >Suda Δ94-95 [= Adler 1928-1938, II: 9-10]</ref>
+               </bibl> 
+            </listBibl>
+            </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">intra 1525 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="77" to="77">77</citedRange></bibl></ref></note></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Suda (Basilio Magno)</term> 
+               <term>Suda (David, profeta)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation" source="#A3560 #Δ94-95">Traduzione</term> 
+            </keywords>
+         </textClass>
+
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+
+      <body>
+         <p><metamark corresp="#A3560" function="locus-Suda" rend="label-margin-left" />Великаго Василья. Апостольское жительство, еже есть очию бо его<anchor xml:id="c1" n="а" rend="super"/> възрение, языку удръжание,телу порабощение, смирено мудрование, мысли чистота, гневу исчезение. Силою поемлем прилагаи, бьем приимаи, лишаем не тязися, възненавидим любляи, гоним тръпи, хулим утешаи, умрътвися греху, сраспнися Хриcту, всю любов преложи к господу.</p>
+         <p><metamark corresp="#Δ94" function="locus-Suda" rend="label-margin-left" />Давид, пророк и праотець господа и Бога нашего Исуса Христа. Иже по еже царь бысть, идяше величаем, и Господь Вседержитель бе с ним. Имяше же сильных мужеи<anchor xml:id="c2" n="б" rend="super"/> 37, яко малому их можащу<anchor xml:id="v1" n="1" rend="super"/> противу 100, а великому противу 1000 мужех. Силни же инепобедими бяху противу ратных, шчити вземлюще и кониих<anchor xml:id="v2" n="2" rend="super"/> великых, легки ногами, яко же серны рыщуще по горам. Строение их телесное престрашно, лица их акы лвов. Бранных же имяше со събою тмы 332, яко же изчтени быша от Иовава, архистратига Давидова. И сие лукаво явися пред господом, его же ради и посла господь Гада пророка к Давиду, и рече ему: <metamark function="end-page" rend="//"/><pb type="folio" n="л. 83" rend="label-margin-left"/> «Сия глаголеть Господь<anchor xml:id="v3" n="3" rend="super"/> Бог: избери себе быти тебе<anchor xml:id="v4" n="4" rend="super"/> едину от триех сих, или 3 лета гладу на земли, или <anchor xml:id="v5" n="5" rend="super"/>месяця 3<anchor xml:id="v6" n="6" rend="super"/> бежати пред супостатом своим, или 3 дни смерть быти на земли». И рече Давид: «Тесно ми отвсюду и трия; обаче впадну в руце господни». И изволи смерть, и умроша от утриа даже<anchor xml:id="v7" n="7" rend="super"/> часа обедняго <anchor xml:id="v8" n="8" rend="super"/>тысяща 70<anchor xml:id="v9" n="9" rend="super"/>. И рече Давыд: «Аз есмь пастырь, сътворивы злое, а сии овца; буди убо рука твоа на мне». И умолен быв Господь,<anchor xml:id="v10" n="10" rend="super"/> отвратил есть руку свою<anchor xml:id="c3" n="в" rend="super"/> и преста сечь, и създа ту Давыд<anchor xml:id="v11" n="11" rend="super"/> ольтарь Господеви.</p>
+         <p><metamark corresp="#Δ95" function="locus-Suda" rend="label-margin-left" />Съи же Давыд царь Израилев. Гонящи его Саулу, и падшу Саулу в руце Давидови и единоа и дважды, и ничим же обидену<anchor xml:id="v12" n="12" rend="super"/> бывшу, рече Давыд кротчаишы к Саулу безчеловечну: «Въскую гониши, о царю, достигнути душу мою? Да судит господь промежь мною и тобою и да отмстит мене от рукы твоеа. А рука моя на тебе не будет». И дом убо Давидов преспеяше и укрепляшеся, дом же Саулов умаляшеся п изнeмогаше. Та же иноплеменником<anchor xml:id="c4" n="г" rend="super"/> на Саула воинъством нашедшим<anchor xml:id="c5" n="д" rend="super"/>, бодрено вниде на брань, и стрелою в бок язвен быв, умре. Бе же Давыд добродетелен и мужествен яко же никто же ин, в бранех же яже от<anchor xml:id="v13" n="13" rend="super"/> подручников пръвы в бедах устремляашеся, трудом своим и бранью подвизая воини на противоополчение, а не яко властель повелением, разумети же и расмотряти о смотрених будущих же и на<metamark function="end-page" rend="//"/><pb type="folio" n="л.83 об." rend="label-margin-left"/>стоащих доволнеиши, целомудрен, кроток, благ к сущим в бедах, не съгрешив, точию о жене Уриине. Остави же богатство, яко ни един ин царь ниже евреов, ниже иных язык.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> 
+            <listApp>
+               <head rend="super">I</head>         
+               <app from="#c2">       
+                  <lem wit="#П2">мужеи</lem> 
+                  <rdg wit="#basic-witness">муи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1"> 
+                  <rdg wit="#П2">мощи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2">
+                  <rdg wit="#П2">копии</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3"> 
+                  <witDetail wit="#П2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4"> 
+                  <witDetail wit="#П2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5-6</head> 
+               <app from="#v5" to="#v6">
+                  <rdg wit="#П2">Три месяця</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <witDetail wit="#П2">Доб. <hi rend="distinct">до</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8-9</head> 
+               <app from="#v8" to="#v9">
+                  <rdg wit="#П2">70 тысящ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10"> 
+                  <witDetail wit="#П2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II</head>         
+               <app from="#c3">       
+                  <lem>свою</lem>     
+                  <rdg wit="#basic-witness">своою</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11"> 
+                  <witDetail wit="#П2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <rdg wit="#П2">врежену</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III</head>         
+               <app from="#c4">       
+                  <lem>иноплеменником</lem>     
+                  <rdg wit="#basic-witness">иноплелеменником</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV</head>         
+               <app from="#c5">       
+                  <lem wit="#П2">нашедшим</lem> 
+                  <rdg wit="#basic-witness">нашедши</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13"> 
+                  <witDetail wit="#П2">Нет</witDetail>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> 
+            <note target="#c1" > 
+               <label rend="super">а</label> 
+               <p>αχρίβεια</p> 
+            </note>
+            <note target="#c2" > 
+               <label rend="super">б</label> 
+               <p>Испр. по П2, в ркп. <hi rend="distinct">муи</hi>.</p> 
+            </note>
+            <note target="#c3" > 
+               <label rend="super">в</label> 
+               <p>Испр., в ркп. <hi rend="distinct">своою</hi>.</p> 
+            </note>
+            <note target="#c4" > 
+               <label rend="super">г</label> 
+               <p>Испр., в ркп. <hi rend="distinct">иноплелеменником</hi>.</p> 
+            </note>
+            <note target="#c5" > 
+               <label rend="super">д</label> 
+               <p>Испр. по П2, в ркп. <hi rend="distinct">нашедши</hi>.</p> 
+            </note>
+            </noteGrp>
+         
+         
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Главы поучительны к начальствующим правовѣрно (допольнительные главы) [Glavy poučitel'ny k načal'stvujuščim pravověrno (dopol'nitel'nye glavy)]</title>
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969"><idno type="id">[Ivanov 279]</idno> Сказание о венце Спасове [Skazanie o vence Spasove] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="178" to="178">178</citedRange></bibl></ref></note></title>
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969"><idno type="id">[Ivanov 280]</idno> Сказание о богородичне имяни [Skazanie o bogorodične imjani] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="178" to="178">178</citedRange></bibl></ref></note></title>
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977"><idno type="id">[Ivanov 279+280+297]</idno> Сочинение Максима Грека об иконах Христа и Богородицы [Sočinenie Maksima Greka ob ikonach Christa i Bogorodicy] <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="260" to="260">260</citedRange></bibl></ref></note>]</title>
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025"><idno type="id">[Ivanov 279+280]</idno> [Сказание о венце Спасове, свитке и о Богородичном имени (Skazanie o vence Spasove, svitke i o Bogorodičnom imeni) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>
+            
+         
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">A Ivanov 279 segue senza stacco Ivanov 280. Nel testimone RNB, F.I.425, f. 511r, Ivanov 280 è accompagnato dalla postilla Ivanov 280[(279+280)-a]. In Sinicyna 1977: 260 Ivanov 279-280 sono accostati a Ivanov 297 (inedito) </note>   <!-- 01. Inventario COLONNA C -->
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">279+280</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie"> Румянцевское собрание 112</bibl> 
+               </listBibl>
+            
+            
+            <bibl type="reference-edition" xml:id="KI">   
+               <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="95" to="96">95-96+96</biblScope>, <biblScope unit="chapter">nr. 15</biblScope>
+               <incipit xml:lang="cu-Cyrl"><idno type="id">[Ivanov 279]</idno> О семъ OωН, еже пишутъ иконники въ вѣнцѣ Спасовѣ [...]</incipit>
+               <incipit xml:lang="cu-Cyrl"><idno type="id">[Ivanov 280]</idno> А что пишуть обоюду святыя иконы Богородицы сице [...]</incipit>
+               <explicit xml:lang="cu-Cyrl"><idno type="id">[Ivanov 279]</idno> Ангели же и души человѣческия по благодати его, а не собою создашася отъ Него и безсмертни суть, но о семъ толика довлѣютъ</explicit>
+               <explicit xml:lang="cu-Cyrl"><idno type="id">[Ivanov 280]</idno> Мария есть имя Богородицы, а не Марфа, ни Мирфу.</explicit>
+            </bibl> 
+            
+            
+            <listBibl type="other-editions">
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2'25"><name>[Maksim Grek 2025: ]</name>, <date>2025</date></ref>: <biblScope unit="chapter">Sbor.smeš.sost. nr. 9</biblScope>
+               </bibl>
+               </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness-1" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>   
+               </msIdentifier>
+               
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl">
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               <witness corresp="#b-wit-4" ana="#reference-ms" />
+            </listWit> 
+
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[intra 1525]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo (con lettere greche)</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Сказание</term> 
+               </keywords>
+            <keywords scheme="#scope">    
+               <term>Iconografia</term> 
+               <term>Esegesi (corretto scioglimento delle abbreviazioni dei nomi inscritte nelle icone del Salvatore e della Madre di Dio)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="l#VMT">Василий Михайлович Тучков-Морозов / Vasilij Michajlovič Tučkov-Morozov (Ivanov 1969: 178)</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>      
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>Инока Максима Грека сказание о вѣнцѣ спасовѣ и богородичнѣ имяни</p>  
+      </front>
+      
+      <body>
+         <p>О семъ OωН, еже пишутъ иконники въ вѣнцѣ Спасовѣ, вѣдомо да ти есть, яко сия пословица еллинска, сирѣчь греческа есть, а толкуется на русскии языкъ: сыи, а сеи сыи толкуется; иже есмь, или иже есть; тѣмъ бо именованиемъ нареклъ есть себе Вседержитель Моисею, егда посылаше его во Египетъ, реклъ ему: рцы сыномъ израилевымъ, яко OωН, сирѣчь сыи тебе есть послалъ къ нимъ. Сице же себе нареклъ есть Вышнии, понеже онъ единъ по существу есть сущь, не имыи ни начала, ни конца; но все еже быти – и прошедшее и настоящее и грядущее объемъ имать, егоже ради присносущенъ наричется. Прочая же его дѣла вся видимая и невидимая отъ него и по благодати его имутъ еже быти, и жити и двизатися и пребываютъ и суть, онъ же ни отъ кого иного ни бысть, ни еже быти имать, но собою присно бѣ и есть и пребудетъ въ безконечныя вѣки безначаленъ, безсмертенъ и безконеченъ естествомъ, животъ живущимъ и существо сущимъ. Ангели же и души человѣческия по благодати его, а не собою создашася отъ него и безсмертни суть, но о семъ толика довлѣютъ.</p>
+         <p>А что пишутъ обоюду святыя иконы Богородицы сице: ΜΡ ΘΥ, виждь, яко и та и писмена и пословицы гречески суть, толкуется же сице: митиръ феу<anchor xml:id="v1" n="1" rend="super"/>, еже есть порусски: мати Божия, а не Марфа, ни Мирфу, якоже нѣцыи мнятъ всуе, отъ невѣдѣния греческия рѣчи. Мария есть имя Богородицы, а не Марфа, ни Мирфу.</p>
+         </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1"> 
+                  <rdg wit="#KI">Μητήρ θεού</rdg>
+               </app>
+            </listApp> 
+         </listApp>
+         
+      </back>
+   </text>
+</TEI>

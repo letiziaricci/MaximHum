@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Письмо Николаю Тарсскому [Pis'mo Nikolaju Tarsskomu]</title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Den-1943">Lettre à Nicolas de Tarse, du 29 mars 1498 <note type="editorial"><ref><bibl>Denissoff 1943: <citedRange unit="page" from="396" to="396">396</citedRange></bibl></ref></note></title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Klib-1958">Письмо Николаю Тарсскому от 29 марта 1498 г. [Pis'mo Nikolaju Tarsskomu ot 29 marta 1498 g.] <note type="editorial"><ref><bibl>Klibanov 1958: <citedRange unit="page" from="164" to="164">164</citedRange></bibl></ref></note></title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Письмо к Николаю Тарскому, канонику в Верчелли, от 29 марта 1498 г. из Мирандолы [Pis'mo k Nikolaju Tarskomu, kanoniku v Verčelli, ot 29 marta 1498 g. iz Mirandoly] <note type="editorial"><ref><bibl>Ivanov 1969: <citedRange unit="page" from="160" to="160">160</citedRange></bibl></ref></note></title>  
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue">
+               <idno type="Ivanov">235</idno>
+            </bibl> 
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="86" to="86">86</biblScope>, <biblScope unit="chapter">nr. I.2</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Fir-Did-1875"><name>Firmin-Didot</name>, <date>1875</date></ref>: <biblScope unit="page" from="540" to="541">540-541</biblScope>, <biblScope unit="chapter"></biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Den-1943"><name>Denissoff</name>, <date>1943</date></ref>: <biblScope unit="page" from="396">396</biblScope>, <biblScope unit="chapter"></biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Fir-Did">
+               <msIdentifier> 
+                  <msName>Collezione privata Firmin-Didot</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation">[non rilevabile]</locus> 
+                     <rubric type="epistolary-formula" xml:lang="Cyrl">Venerabili in Christo presbytero colendissimo domino Nicolao Taresso (?) canonico Vercellensi, Vercellis. Cito, cito.</rubric> 
+                     <incipit xml:lang="Cyrl">Aἰδεσιμώτατέ μοι πάτερ, εἴης ὑγιαίνων· ὑγιαίνω καὶ αὐτός.</incipit>  
+                     <explicit xml:lang="Cyrl">[...] καὶ τούτοις ἀπόκρισιν ταχέως ἐπιστεῖλαι φρόντισον εἴτε καὶ οὐχί. Ἒρρωσο, θεοφιλέστατε ἄνερ. Άπὸ Μιραντούλης μαρτίου 29. Ὸ σὸς κατὰ πάντα Μιχαήλ.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" />
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#MG-2008">1498 <note type="editorial"><ref><bibl>Maksim Grek 2008 <citedRange unit="page" from="86" to="86">86</citedRange></bibl></ref></note></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="lat">Latino</language>
+            <language ident="grc">Greco</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Corrispondenza privata</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original" source="lista-bibliografia.xml#MG-2008">Testo originale</term>    
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="list.xml#MG">Μιχαὴλ Τριβώλης / Михаил Триволис</persName>            
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#NT">Niccolò di Tarso / Николай Тарсский</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      
+      <body>
+         <p xml:lang="lat">
+            Venerabili in Christo presbytero colendissimo domino Nicolao Taresso <unclear rend="(?)"/> canonico Vercellensi, Vercellis. Cito, cito.
+         </p> 
+         
+         <p xml:lang="grc">
+            Αἰδεσιμώτατέ μοι πάτερ, εἴης ὑγιαίνων· ὑγιαίνω καὶ αὐτός. Πολλὰς οἶδά σοι χάριτας ὅτι φροντίζεις ἡμῶν χαὶ ἀπόντων, καὶ οὐ παύῃ εὖ πράττων ἡμᾶς· τούτων δὲ πάντων ἀνταμοιβὴν ἀξίαν ὁ πάντων βασιλεὺς ἀνταποδῴη σοι· ἀξίως γὰρ ἀνταποτῖσαί σοι οὐχ ἡμῶν ἐστιν. Ἐμὲ δὲ ἴσθι παρὰ τὸν ἄρχοντα τῆς Μιραντούλης ἤδη ἀφικέσθαι ἐπὶ μισθῷ, ὃν προέγραφά σοι· πρὸς οὗ καὶ ἀγαπῶμαι, καὶ τιμῶμαι ἐф᾽ ἱκανόν· διὸ οὐχ ἂν εἴη τοῦτον ἀπολιπόντα ἄλλοις ἐλθεῖν ὑπηρετήσειν, ἅπαξ ἐκείνῳ πίστιν χαὶ δεξιὸς ἐπιδεδωκότα. Ἐπεὶ δὲ ὁ ἄρχων τῆς Δεκιανῆς ἐστὶν οὕτως φιλέλλην, ὡς οἴδαμεν, χαριζόμενος αὐτῷ πέμψω ἄλλον τινὰ νέον οὐχ ἧττον ἐμοῦ πεπαιδευμένον, Κρῆτα, λόγοις τε καὶ ἤθεσιν ὑπέρευγε κεκοσμημένον, χαὶ τῆς τῶν Λατίνων χοινῆς ἄριστα φωνῆς ἐξησκημένον καὶ τῆς εὐλόγου ἅλις ἔμπειρον· τοῦτον ἀντ᾽ ἐμοῦ εἰ δοχεῖ ἐπὶ τῷ αὐτῷ μισθῷ ὃν καὶ ἔμοιγε προὔτεινε, μείονα γὰρ οὐχ ἂν δέξαιτο, ὡς ὑμᾶς πέμψω: σὺ δὲ ἐμοὶ χαριζόμενος μέμνησο τὴν αὐτὴν ἐκείνην σπουδὴν καὶ ὑπὲρ τούτου καταβαλεῖν, ἐμοὶ γὰρ χαρίση ὅ, τι ἂν ὑπὲρ τούτου κατεργάσῃ· φιλῶ γὰρ αὐτὸν μάλιστα διὰ τὴν ἀρετὴν αὐτοῦ· οὕτως ἐστὶν ἀγαθὸς καὶ σώφρων ὁ νέος. Sed de iis satis dictum, ἐμὲ δὲ φίλει ὥσπερ ἐφίλεις, καὶ χρῶ μοι θαῤῥῶν καὶ ἀφειδῶς ὡς καὶ πρότερον· καὶ τούτοις ἀπόκρισιν ταχέως ἐπιστεῖλαι φρόντισον, εἴτε καὶ οὐχί. Ἔρρωσο, θεοφιλέστατε ἄνερ.
+         </p>
+         <p xml:lang="grc">
+            ᾿Απὸ Μιραντούλης μαρτίου 29. Ὁ σὸς κατὰ πάντα Μιχαήλ.
+         </p>
+      </body>
+      
+      <back> 
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека послание къ нѣкоему, желающу отврещися мира, и ити во иночествующии чинъ, коснящу же, а уже нужею не единою обдержимъ, и еще просящу у него притчи и гадания и словесе темна [Inoka Maksima Greka poslanie k'' někoemu, želajušču otvreščisja mira, i iti vo inočestvjuščii čin'', kosnjašču že, a uže nužeju ne edinoju obderžim'', i ešče prosjašču u nego pritči i gadanija i slovese temna]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969 #Sin-1977">Titoli concordi con il titolo editoriale in Ivanov 1969: 139; Sinicyna 1977: 246 </title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Послание к желающему идти в иноки (Poslanie k želajuščemu idti v inoki) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+                 
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">Ivanov-190</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl">
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 58</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="228" to="231">228-231</biblScope>, <biblScope unit="chapter">nr. 13</biblScope> [Maksim Grek 2025: Chlud. nr. 12]
+               <incipit type="info-ms" xml:lang="cu-Cyrl">Отъ премудрыхъ и разумныхъ бысть Иоаннъ всехвальныи мужъ, пле паче многихъ сверстникъ свояхъ украшашеся притчами и гадании и темными словесы пашего же и внѣшняго наказания [...]</incipit>   <!-- 01. Inventario COLONNA J -->
+               <explicit type="info-ms" xml:lang="cu-Cyrl">Иного совѣтника не ищи, ни приимаи и выше всѣхъ философъ обрящешися и вмѣнепъ будеши, предъ Содѣтелемъ всѣхъ и Владыкою. Здравъ буди!</explicit>   <!-- 01. Inventario COLONNA K -->
+            </bibl>
+            
+            <listBibl type="other-editions">
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Chlud. nr. 12</biblScope>. <note>Edizione in corso di stampa</note>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-494-513">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>  
+               </msIdentifier>   
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-495-514">
+                  <msIdentifier> 
+                     <msName>РНБ, Сол. 495/514 [308/495]</msName>   
+                  </msIdentifier>
+               </msDesc>
+                  
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515">
+                     <msIdentifier> 
+                        <msName>РНБ, Сол. 496/515 [309/496]</msName>  
+                     </msIdentifier>
+                  </msDesc>
+                     
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol-497-516">
+                        <msIdentifier> 
+                           <msName>РНБ, Сол. 497/516 [310/497]</msName>  
+                        </msIdentifier>
+                     </msDesc>   
+
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#b-wit-1" ana="#reference-ms"/> 
+               <witness corresp="#b-wit-2" ana="#reference-ms"/> 
+               <witness corresp="#b-wit-3" ana="#reference-ms"/> 
+               <witness corresp="#b-wit-4" ana="#reference-ms"/> 
+            </listWit>       
+      
+            </sourceDesc>
+         </fileDesc>
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Послание</term> 
+            </keywords>
+            <keywords scheme="#scope">    
+               <term>Polemica antiellenica</term> 
+               <term>Istruzione</term> 
+            </keywords>
+         </textClass>
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+         <correspDesc> 
+            <correspAction type="received">
+               <persName ref="list.xml#X">ignoto</persName>
+            </correspAction>
+            <correspAction type="sent">
+               <persName ref="list.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2 #b-wit-3 #b-wit-4">       
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>         
+            </interpretation>
+         </editorialDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОКА МАКСИМА ГРЕКА ПОСЛАНИЕ КЪ НѢКОЕМУ, ЖЕЛАЮЩУ ОТВРЕЩИСЯ МИРА, И ИТИ ВО ИНОЧЕСТВУЮЩИИ ЧИНЪ, КОСНЯЩУ ЖЕ, А УЖЕ НУЖЕЮ НЕ ЕДИНОЮ ОБДЕРЖНМЪ, И ЕЩЕ ПРОСЯЩУ У НЕГО ПРИТЧИ И ГАНАНИЯ<anchor xml:id="v1" n="1" rend="super"/> И СЛОВЕСЕ ТЕМНА</p>  
+      </front>
+      
+      <body>
+         <p>Отъ премудрыхъ и разумныхъ бысть Иоаннъ всехвальныи мужъ, иже паче многихъ сверстникъ своихъ украшашеся притчами и гадании и темными словесы нашего же и внѣшняго наказания; но егда искра божественнаго огня коснуся сердцу его, вся вкупѣ украшающая внѣшняго и внутренняго человѣка, оплевавъ вся и по проповѣднику Христоглаголивому, уметы вся вмѣнивъ, да и сеи Христа приобрящетъ подобнѣ оному, абие внѣ всякия суетныя молвы и плищеи<anchor xml:id="v2" n="2" rend="super"/> себѣ сотворь, во слѣдъ гоняше непрестаннымъ желаниемъ премирнаго рачения, заднихъ убо всегда забывая, на предняя же простираяся, достигнути желая почесть вышняго звания, егоже ради и конечное молчание восприятъ, весь же разумъ свои въ себѣ собравъ и затворивъ мечташеся присно невидимыя красоты краснаго паче всѣхъ сыновъ человѣчь, покаряяся таиноучителю, повелѣвающу: <cit><quote xml:id="biblical-1">«аще совостасте Христу, вышняя мудрствуите, а не земная, вышняя взыскуите, идѣже есть Христосъ, одѣсную Бога сѣдя»</quote></cit>. Что же и Ареопагитскии<anchor xml:id="v3" n="3" rend="super"/> не вся ли предъизученная ему словеса премудрая всѣхъ вкупѣ внѣшнихъ философофъ и риторовъ оплевавъ, единымъ и кроткимъ народоглаголаниемъ бобожественнаго проповѣдника во слѣдъ его поиде, абие, якоже незлобивыи агнецъ во слѣдъ матери своея идя, не пифагорския, ни платонския, ни аристотельския премудрости къ тому, не рыбарския и мытаревы простыя премудрости держася крѣпко, аки едины могущи причастника ся приусвоити самому краинеишему желанию, еже есть сама та ипостасная Божия премудрость и сила вседержительна и жизнь и свѣтъ присносущественныи Иисусъ Христосъ, иже надъ всѣми Богъ, о немъже глаголаше нѣкто: <cit><quote xml:id="biblical-2">«мнѣ же прилѣплятися Господеви благо есть, полагати во Господѣ уповании моихъ»</quote></cit>; и паки: <cit><quote xml:id="biblical-3">«о коль возлюблена селения твоя, Господи силъ, прежелаетъ и оскудѣетъ душа моя, во дворы Господня, седрце мое и плоть моя возрадовастася о Бозѣ живѣ, чесо ради, рцы о пребожественныи царю!»</quote></cit> зане, рече, воробеи обрѣте храмину себѣ, рекше: душа убогая и маломощна и плотолюбива, такожде и горлица гнѣздъ, идѣже положитъ птенцы своя, рекше чистолюбива и цѣломудренна душа, имъ же глаголютъ, яко горлица, по умертвии мужскаго полу, со другимъ не совокупляется, тако же и мужескии другую не ищетъ, по умертвии первыя, но пребываютъ прочее въ цѣломудрии; олтари убо Господни, глаголю же святыя его церкви, прибѣжища суть обоему чину человѣческому, глаголю же и грѣхолюбивымъ и цѣломудреннымъ, овымъ убо врачевание и исцѣление исповѣдающимъ многолѣтныхъ струповъ своихъ, овымъ же утверждение прочее и пребытно сохранение праведныхъ своихъ о Бозѣ исправлении, молитвами священническими и приношениемъ пречистаго тѣла и крови непорочнаго Агнца Божия обои чинъ получаетъ оставление грѣховъ и соблюдение въ прочее божественно. Сицевыя у меня притчи живутъ и ганания и словеса не темна, но свѣтла внимающимъ ихъ и зѣло полезна, а презирающимъ не токмо не полезна, но и зѣло темна. Пребогатъ еси и преполонъ всякого разума человѣческаго и божественнаго, ищи совершение сихъ: аще хощеши совершенъ быти, или продаждь имѣния своя и прочая вѣдома. Иного совѣтника не ищи, ни приимаи и выше всѣхъ философофъ обрящешися и вмѣненъ будеши, предъ Содѣтелемъ всѣхъ и Владыкою. Здравъ буди!</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1-1</head> <!-- numero in apice -->
+               <app from="#v1a1" to="#v1a2">
+                  <rdg>гадания</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2">
+                  <rdg>смятений</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <rdg>Дионисий Ареопагитъ</rdg>
+               </app>
+            </listApp>
+         </listApp>
+                 
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Кол 3, 1-2 / Col 3,1-2)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Sal"><ref>(Пс 72, 28 / Sal 72,28)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Sal"><ref>(Пс 83, 2-4 / Sal 83,2-4)</ref></bibl>
+         </listBibl>
+                 
+      </back>
+   </text>
+</TEI>

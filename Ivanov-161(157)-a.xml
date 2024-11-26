@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Фрагмент Румянцевской редакции о Сауле и Давиде [Fragment Rumjancevskoj redakcii o Saule i Davide]</title>  
+           
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Frammento su Saul e David aggiunto in coda a Ivanov 157 (inedito - diversa redazione [Rumjancevskoe sobranie] di Ivanov 161)</note>   
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">161(157)-a</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie"> Румянцевское собрание 7</bibl> 
+               </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="307">307</biblScope>, <biblScope unit="chapter">nr. 37-a</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+           
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, Рум. 264</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#29r #29v">лл. 29-29об. / ff. 29r-29v</locus>   
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Глаголеть бо самъ о себѣ: «Самъ Господь услышит, Самъ посла аггела своего». Кто ли тот? Самуилъ архиереи, а не фортуна баба изгнила, ни мужикъ, которыи бѣсы умышленъ.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Тако же и Саула, ишуща погыбшыя ослята отца своего, не фортуна вертѣниемъ басненаго кола своего възвела на царство, но самъ Вышнии явилъ его царемъ тѣм же иереомъ своимъ Самуилом, его же, не хотяша възыти на толь превысокыи царскыи санъ, явилъ его Самуилу, где крыеться.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+           
+           
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[Intra 1525]</date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Esegesi biblica</term> 
+               <term>Istruzione</term> 
+               <term>Correzione </term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution">
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+       
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ФРАГМЕНТ РУМЯНЦЕВСКОЙ РЕДАКЦИИ О САУЛЕ И ДАВИДЕ</p>  
+      </front>
+      
+      <body>
+         <p>Глаголеть бо самъ о себѣ: «Самъ Господь услышит, Самъ посла аггела Своего». Кто ли тот? Самуилъ архиереи, а не фортуна баба изгнила, ни мужикъ, которыи бѣсы умышленъ. «И изят мя, рече, от стад овчих отца моего, и помаза мя елеомъ помазаниа Своего», таже присовокупляетъ: «братиа моя добрии и велици, и не благоволи о них Господь»<anchor xml:id="c1" n="а" rend="super"/>. А не глаголеть: не дала имъ фортуна на царство ни единому, но Господь, рече, не благоволи о онѣхъ, но о мнѣ». Тако же и Саула, ишуща погыбшыя ослята отца своего, не фортуна вертѣниемъ басненаго кола своего възвела на царство, но самъ Вышнии явилъ его царемъ тѣм же иереомъ своимъ Самуилом, его же, не хотяша възыти на толь превысокыи царскыи санъ, явилъ его Самуилу, где крыеться.</p>
+         </body>
+      
+      <back> 
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->  
+            <note target="#c1"> 
+               <label rend="super">а</label> 
+               <p>Пс особый: 3–5 (после пс. 150).</p>
+            </note>
+         </noteGrp>
+         
+      </back>
+   </text>
+</TEI>

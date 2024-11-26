@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">(Третья) статья подобнаго рода [(Tret'ja) stat'ja podobnago roda]</title> 
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969"><idno type="id">[Ivanov 116]</idno> О грамотики инока Максима Грека Святогорца обявлено на тонкословие [O gramotiki inoka Maksima Greka Svjatogorca objavleno na tonkoslovie] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="93" to="93">93</citedRange></bibl></ref></note></title>  
+
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Muz-2778"><idno type="id">[Ivanov 116]</idno> О гласных и согласных звуках, о 8 частях речи, о просодиях [O glasnych i soglasnych zvukach, o 8 častjach reči, o prosodijach] <note type="editorial"><ref><locus>Ivanov 1969: 93, n. 17, ms. RGB, Muz. 2778, ff. 179r-183r</locus></ref></note></title>
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Plig-43"><idno type="id">[Ivanov 116]</idno> Перевод Максима Грека [Perevod Maksima Greka] <note type="editorial"><ref><locus>Ivanov 1969: 93, n. 17, ms. BAN, Plig. 43, ff. 68r-75v</locus></ref></note></title>            
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969"><idno type="id">[Ivanov 117]</idno> О прозодиях [O prozodijach] <note type="editorial"><ref><locus>Ivanov 1969: 94</locus></ref></note></title>      
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#IPB"><idno type="id">[Ivanov 116]</idno> О грамотики Инока Максима грека святогорца обявлено на тонкословие <note type="editorial"><ref><locus>Императорская Публичная библиотека, сборник XVII в.; Jagić 1895: 601 [Jagić 1896: 312]</locus></ref></note></title>     
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#IPB"><idno type="id">[Ivanov 117]</idno> Того же о прозодияхъ <note type="editorial"><ref><locus>Императорская Публичная библиотека, сборник XVII в.; Jagić 1895: 603 [Jagić 1896: 314], n. 8</locus></ref></note></title>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Include Ivanov 117</note>   <!-- 01. Inventario COLONNA C -->
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">116+117</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Jag-1895"><name>Jagić</name>, <date>1895</date></ref>: <biblScope unit="page" from="601" to="605">601-605</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Cud-34-236"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>Рукопись Чудова Монастыря, 34-236 (Jagić 1895: 626) [= ГИМ, Чуд. 34 (?) (Ivanov 1969: 93, n. 17)]</msName> 
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#111r #115v">лл. 111-115об. / ff. 111r-115v</locus>
+                     <incipit xml:lang="cu-Cyrl" type="info-ms"><idno type="id">[Ivanov 116]</idno> Вѣдомо до есть, яко 24 писмена, яже и стихиа глаголются, раздѣляются въ гласовная и въ съгла(гна)сная [...]</incipit> 
+                     <incipit xml:lang="cu-Cyrl" type="info-ms"><idno type="id">[Ivanov 117]</idno> Вѣдомо да есть, яко десятъ суть просодие· оксиа \, вариа /, периспомени 〜 [...]</incipit>
+                     <explicit xml:lang="cu-Cyrl" type="info-ms"><idno type="id">[Ivanov 116]</idno> Числа сутъ три· единъствено, якоже· человѣкъ. двоино· человѣковъ. множествено, якоже· человѣцы.</explicit>  
+                     <explicit xml:lang="cu-Cyrl" type="info-ms"><idno type="id">[Ivanov 117]</idno> Ты же аще желаеши преспѣти в разумѣ божественыхъ писании и внѣшнихъ, не лѣностно пребываи о учении, но бодрено и вседушьвно возлюби я, и всяко получиши ихъ. «никто же бо», рече великии Василеи, «лежа и спя поставляетъ одолѣнье». </explicit>
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni, tanti <witness></witness> quanti sono i testimoni di controllo in 03. Inventario testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="Чуд."/> 
+               <witness xml:id="Унд."> 
+                  <ref target="lista-manoscritti.xml#Und-953">РГБ, ф. 310, Унд. 953</ref>, <locus type="foliation" target="#47r #53v">лл. 47-53об. / ff. 47r-53v</locus>  
+               </witness>
+               <witness xml:id="Пет.">   
+                  <ref target="lista-manoscritti.xml#IPB">Императорская Публичная библиотека, сборник XVII в. (Jagić 1895: 601)</ref>, <locus type="foliation" target="#325r #332r">лл. 325-332 / ff. 325r-332r</locus>   
+               </witness> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+            <language ident="grc">Greco</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Alfabeto e grammatica della lingua greca</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <samplingDecl>
+            <p>Il testo, dedicato alla prosodia della lingua greca, accoglie una serie di segni grafici che sono stati riprodotti a partire dall’edizione.</p>
+         </samplingDecl>
+         
+         <tagsDecl>
+            <rendition xml:id="roundBefore" scheme="css" scope="before">content: "(";</rendition>
+            <rendition xml:id="roundAfter" scheme="css" scope="after">content:")";</rendition>
+         </tagsDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front>
+         <p>[(ТРЕТЬЯ) СТАТЬЯ ПОДОБНАГО РОДА]</p>
+      </front>
+      
+      <body>
+         <p>
+            Вѣдомо до есть, яко 24<anchor xml:id="v1" n="1" rend="super"/> писмена, яже и стихиа глаголются, раздѣляются въ гласовная и въ съгла<hi rendition="#roundBefore #roundAfter">гна</hi>сная<anchor xml:id="v2" n="2" rend="super"/>. и гласовна убо есть седмь, си рѣчь· ά έ ή ί ύ тонько, ο мало, и ω велико. съгласовна же есть 17, си рѣчь· β ́ γ́ δ́ ́ ζ ́ θ ́ κ́ λ ́ μ́ ν́ ξ ́ π́ ρ́ σ́ τ́ φ́ χ́ ψ́. Пакы седмь гласовная раздѣляются въ три· въ долга, въ кратка, и въ двоевременна. и долга убо суть два· ή и̓ ὠ велико<anchor xml:id="v3" n="3" rend="super"/>, кратка же два· έ тонко и ό мало<anchor xml:id="v4" n="4" rend="super"/>, двоевременна же три· ά ί ύ. Такоже<anchor xml:id="v5" n="5" rend="super"/> и̓ съгласовна раздѣляются въ дву<anchor xml:id="v6" n="6" rend="super"/>· в полугласовна<anchor xml:id="v7" n="7" rend="super"/> и безгласовна. и <unclear rend="(?)"/> полугласовъ<anchor xml:id="v8" n="8" rend="super"/> суть осм· ζ ́ ξ ́ ψ́ λ ́ μ́ ν́ ρ́ σ́<anchor xml:id="c1" n="а" rend="super"/>, безгласна же есть девять· β ́ γ́ δ ́ κ́ π́ τ́ ϑ ́ φ́ χ́<anchor xml:id="c2" n="б" rend="super"/>.</p>         
+         <p>Пакы осмь полугласная раздѣляются въ три· в сугубна, в непреложна, и̓ въ σ́. и сугуба<anchor xml:id="v9" n="9" rend="super"/> убо есть· ζ ́ ξ ́ ψ́, непреложна же· λ ́ μ́ ν́ ρ. и сугуба убо глаголются отъ двою писменъ· убо ζ ́ отъ σ́ и̓ δ ́, а ξ ́ отъ κ́ и̓ σ́, а ψ́ отъ π́ и̓ σ́<anchor xml:id="v10" n="10" rend="super"/>. Такоже и девять безгласна раздѣляются в три· в тонка, в чяста, и̓ в средня<anchor xml:id="v11" n="11" rend="super"/>. и тонка убо есть три· κ́ π́ τ́, чяста же три· θ ́ φ́ χ́, срѣдня<anchor xml:id="v12" n="12" rend="super"/> же три· β ́ γ́ δ ́. Вмѣсто же писменъ чястых тонкы<anchor xml:id="v13" n="13" rend="super"/> пременяются, убо φ́ на π́, а κ́ на χ́, а θ ́ на τ́.</p>
+         <p>Вѣдомо<anchor xml:id="v14" n="14" rend="super"/> да есть, яко гласовна съвъкупляема съ <hi rendition="#roundBefore #roundAfter">со</hi>гласовными<anchor xml:id="c3" n="в" rend="super"/>, съврьшают склады, а склады речениа, а речения добросчиненаго слова. яково что глаголю; че, ло, вѣкъ. се три склады, едино речение еже сотворили. Такоже пакы речениа четыри<anchor xml:id="v15" n="15" rend="super"/> сътвориша слово. яково что; человѣкъ есть животно словесно.</p>
+         <p>Сего убо слова чясти<anchor xml:id="v16" n="16" rend="super"/> есть осмь· имя, рѣчь, причястие, члѣн, вмѣстоимя, предлогъ, прирѣчие, съюзъ<anchor xml:id="v17" n="17" rend="super"/>. отъ сихъ убо<anchor xml:id="v18" n="18" rend="super"/> пятъ клонятся, си рѣчь· имя, рѣчь, причястие, члѣнъ, вмѣстоимя<anchor xml:id="v19" n="19" rend="super"/>. три же не клонятся· предлогъ, прирѣчие, съузъ.</p>
+         <p>О сихъ убо осмихъ<anchor xml:id="v20" n="20" rend="super"/> частѣхъ съврьшенаго слова упражняется<anchor xml:id="v21" n="21" rend="super"/> все грамматическое художество, едину каяждо ихъ прилѣжнѣ разчиняюще и учяще человѣка, како подобаетъ каяждо ихъ и<anchor xml:id="v22" n="22" rend="super"/> разумѣти прямо и писати и вѣщати непогрѣшно<anchor xml:id="v23" n="23" rend="super"/> и сложити сихъ и съчинити съгласно и доброразсуднѣ.</p>
+         <p>А имя убо есть, якоже· Богъ, аггелъ, человѣкъ, конь, и елика симъ подобна<anchor xml:id="v24" n="24" rend="super"/>. рѣчь же есть, якоже· пишу, глаголю, чту, слышу, вижю, и елика симъ подобна<anchor xml:id="v25" n="25" rend="super"/>. причястие же есть, якоже· пишаи, глаголяи, прочитаяи. члѣнъ же, якоже· иже, яже, еже. вмѣстоимя<anchor xml:id="v26" n="26" rend="super"/> же, якоже· азъ, ты, онъ. предлогъ же, якоже· въ, на, отъ, съ. прирѣчие же, якоже· добрѣ, мудрѣ, горѣ, долу. съузъ же, якоже· убо, же, и, и убо, но<anchor xml:id="v27" n="27" rend="super"/><anchor xml:id="c4" n="г" rend="super"/>.</p>
+         <p>Име<anchor xml:id="v28" n="28" rend="super"/> ова убо клонятся равноскладнѣ, ова же лишескладнѣ. и ова убо ихъ суть мужеска, якоже· Богъ, аггелъ, человѣкъ, Петръ, Павелъ, и симъ подобная. ова же есть женска<anchor xml:id="v29" n="29" rend="super"/>, якоже· Мариа, Феодора, Екатерина, Иулиании<anchor xml:id="v30" n="30" rend="super"/> и елика сицева. И убо равноскладно клоняемыхъ именъ клонения суть четыре, а лишескладныхъ едино. и первое клонение равноскладныхъ есть· в мужескихъ единѣхъ въ ас <hi rendition="#roundBefore #roundAfter">ας</hi><anchor xml:id="c5" n="д" rend="super"/> и въ ис <hi rendition="#roundBefore #roundAfter">ης</hi> итою скончевающися. ихже родно скончеваетъ въ у <hi rendition="#roundBefore #roundAfter">ου</hi>, дателное в а <hi rendition="#roundBefore #roundAfter">ᾳ</hi> ли въ и <hi rendition="#roundBefore #roundAfter">ῃ</hi>, виновно въ ан <hi rendition="#roundBefore #roundAfter">αν</hi> ли въ ин <hi rendition="#roundBefore #roundAfter">ην</hi>, звателно въ а <hi rendition="#roundBefore #roundAfter">α</hi> ли въ и <hi rendition="#roundBefore #roundAfter">η</hi>. Падениа своиственѣ суть четыри<anchor xml:id="v31" n="31" rend="super"/>· родно, дателно, виновно, и звателно. ибо стоително и прямо не глаголется суще падение, но и обычая. Числа сутъ три· единъствено, якоже· человѣкъ. двоино·<anchor xml:id="v32" n="32" rend="super"/> человѣковъ. множествено, якоже· человѣцы.</p>
+         <p>Вѣдомо<anchor xml:id="v33" n="33" rend="super"/><anchor xml:id="v34" n="34" rend="super"/> да есть, яко десятъ суть просодие· оксиа \, вариа /, периспомени 〜 , макра ¯, врахиа ˘, дасиа ʿ, псили ʾ, апострофос ʼ, ифен 〰 <anchor xml:id="v35" n="35" rend="super"/> и иподиастоли ;. разделяютъ же ся в четыре· в силы, въ времена, в духы, и въ страсти. и силы убо суть трие· \ / 〜, времена же суть два· ¯ и ˘. духи же суть два· ʾ и ʿ, страсти же суть три· ʼ 〰 и ;.</p>
+         <p>Отъ сихъ убо оксиа полагается на триехъ мѣстехъ· на лигусахъ, и на паралигусахъ, и на пропаралигусахъ. а периспомени 〜 на двоихъ мѣстехъ полагается· на лигусанъ, и на паралигусанъ. а вариа / на лигусанъ единъ. и лигуса убо есть же и наричется конечныи складъ коегождо речениа. паралигусанъ же, иже въ средѣ и преже оного. пропалигуса<anchor xml:id="v36" n="36" rend="super"/> же, иже и преже обоихъ ихъ, яково что глаголю; Григориос <hi rendition="#roundBefore #roundAfter">Γρηγόριος</hi> се едино речение, склады же четыре. конечныи же складъ се ос <hi rendition="#roundBefore #roundAfter">ος</hi> лигуса наричется, а се ри <hi rendition="#roundBefore #roundAfter">ρι</hi> паралигуса, а се го <hi rendition="#roundBefore #roundAfter">γο</hi> пропаралигуса.</p>
+         <p>Вѣдомо же долгу сущу лигусис, оксиа не полагается, но сходитъ оттуду на паралигусахъ, и на пропаралигусахъ. Еще вѣдомо, яко долгъ предъ долгымъ не приимаетъ периспомении николиже, но оксию всегда. такоже верху тонкаго склада периспомени не полагается, но оксия всегда полагается. долого приди<anchor xml:id="v37" n="37" rend="super"/> тонкаго периспомении всегда приемлетъ, си рѣчь въ единои чясти слова есть. дологъ же скла есть, имѣаи единого отъ долгыхъ гласовныхъ, ли едину отъ дифтоггон, якоже· Иродъ, добрѣмудръ, добрѣсмыслен. тонокъ складъ есть имѣаи единого отъ гласовныхъ или е́ <hi rendition="#roundBefore #roundAfter">ε</hi> ли о́ <hi rendition="#roundBefore #roundAfter">ο</hi>, ли единого отъ отончеваемыхъ двоевременныхъ, си рѣчь ли а́ <hi rendition="#roundBefore #roundAfter">α</hi> ли і́ <hi rendition="#roundBefore #roundAfter">ι</hi> ли ѵ <hi rendition="#roundBefore #roundAfter">υ</hi><anchor xml:id="c6" n="е" rend="super"/>· у васъ же русѣхъ дологъ<anchor xml:id="v38" n="38" rend="super"/> складъ есть иже писуется· и́ ѡ́ ѣ́ ы́ ȣ́ ѧ́ ѫ́, тонокъ же складъ есть писуемыи· а́ е́ і́, о́ мало, ѵ тонко, верху которыхъ складъ оксию всегда полагаи. надъ долгихъ же периспоменинъ полагаи, аще надъ лигусис единъ отъ тонкихъ гласовныхъ будетъ. аще же отъ долгы<anchor xml:id="v39" n="39" rend="super"/>, оксию положити подобаетъ. дологъ бо предъ долгымъ не приемлетъ периспомени, но оксию всегда. толика о оксии и периспомени.</p>
+         <p>А вария \ на лигусы и<anchor xml:id="v40" n="40" rend="super"/> единомъ полагается всегда, и надъ единоскладнымъ речении сего· ке <hi rendition="#roundBefore #roundAfter">καὶ</hi>, мен <hi rendition="#roundBefore #roundAfter">μὲν</hi>, де <hi rendition="#roundBefore #roundAfter">δὲ</hi> си̏ <hi rendition="#roundBefore #roundAfter">σὺ</hi>, и симъ пододнымъ. такоже и у васъ русѣхъ подобаетъ полагати. Внимаи же прилѣжно, да не положиши николиже ея посреди речениа коего, якоже у васъ грубии нѣцыи иишютъ.</p>
+         <p>А глаголемыи духы, си рѣчь псили ʾ и дасиа ʿ, в началѣхъ отъ гласовнаго начинаемыхъ речении точию полагаются, посредѣ же ихъ николиже. и овогда убо едини полагаются, овогда же с силами, ли оксиею /, ли периспомению 〜, ли вариею \. такоже и у васъ русѣхъ псили и единѣ<anchor xml:id="v41" n="41" rend="super"/> мѣсто есть, а дасии ʿ нѣсть отнюдь. Еллины бо сии умыслишяся<anchor xml:id="c7" n="ж" rend="super"/> потребнѣ на раздѣление разума тожеименныхъ речении, якоже и у васъ русѣхъ великымъ ъ и малымъ ь раздѣляются речениа нѣкая, яко се· ядъ, и се· ядь. Еже перстъ, и еже персть, и симъ подобная. такоже и въ еллинѣхъ двѣма сима дух<hi rendition="#roundBefore #roundAfter">ом</hi>а<anchor xml:id="c8" n="з" rend="super"/> подобогласныхъ нѣкыхъ речении, яково же се εἶς еси, и εἷς<anchor xml:id="c9" n="и" rend="super"/> единъ. се и яже<anchor xml:id="c10" n="к" rend="super"/>. или се· οἷος каковъ, и οἶος единъ, и ина симъ многа подобна.</p>
+         <p>А глаголемая времена· и макра <hi rendition="#roundBefore #roundAfter">ἡ μακρὰ</hi> ¯, и врахиа <hi rendition="#roundBefore #roundAfter">ἡ βραχεῖα</hi> ˘. у васъ русѣхъ никако же потребно. такоже глаголемыя страсти. и <hi rendition="#roundBefore #roundAfter">ὁ</hi><anchor xml:id="c11" n="л" rend="super"/> апострофос <hi rendition="#roundBefore #roundAfter">ἡ ἀπόστροφος</hi> ʼ, и ифен <hi rendition="#roundBefore #roundAfter">ἡ ὑφέν</hi> 〰, и иподиастоли <hi rendition="#roundBefore #roundAfter">ἡ ὑποδιαστολή</hi> ;, непотребна у васъ русѣхъ, у еллинъ же потребна з<anchor xml:id="c12" n="м" rend="super"/><anchor xml:id="v42" n="42" rend="super"/>. едина у васъ потребна и иподиастоли и собою и с точкою сице ; и собою убо полагается, идѣже подобаетъ препочити мало духъ свои прочитаяи, далеко<anchor xml:id="v43" n="43" rend="super"/> еще сущеи<anchor xml:id="c13" n="н" rend="super"/> съврьшеннѣи точкѣ. с точкою же сице ; полагается, по вопросу слово прочитается, яково же есть се· не будь ли повинется<anchor xml:id="c14" n="о" rend="super"/> душа моя и се· създавыи око не сматряетъ ли; насаждеи ухо не слыщитъ ли; наказаяи языкы, не обличит ли; и у <hi rendition="#roundBefore #roundAfter">а</hi>постола<anchor xml:id="c15" n="п" rend="super"/>· научаяи иного себе не научяеши ли; толика убо и о сихъ.</p> 
+         <p>Ты же аще желаеши преспѣти в разумѣ божественыхъ писании и внѣшнихъ, не лѣностно пребываи о учении, но бодрено и вседушьвно возлюби я, и всяко получиши ихъ. <cit><quote xml:id="other-1">«никто же бо», рече великии Василеи, «лежа и спя поставляетъ одолѣнье»</quote></cit>.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1">
+                  <witDetail wit="#Унд.">буквами выписываетъ: <hi rend="distinct">двадесять четыре</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2">
+                  <rdg wit="#Унд.">В согласовна</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <rdg wit="#Унд.">Великое</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <rdg wit="#Унд.">Малое</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <rdg wit="#Пет.">Такожде же</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <rdg wit="#Унд.">Двое</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <rdg wit="#Пет.">Полугласовная</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <rdg wit="#Пет. #Унд.">Полугласовная</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">I</head>
+               <app from="#c1">
+                  <lem wit="#Пет. #Унд.">λ</lem>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">II</head>
+               <app from="#c2">
+                  <lem wit="#Пет. #Унд."></lem>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9">
+                  <rdg wit="#Унд.">Сугубна</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10">
+                  <witDetail wit="#Унд.">выписываетъ буквами: <hi rend="distinct">ȥ отъ слова и добра, а кси отъ кака и слова, а ψ отъ покоя и слова</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11">
+                  <rdg wit="#Пет.">Средная</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <rdg wit="#Пет.">Средная</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <rdg wit="#Унд.">Тонкия</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14">
+                  <witDetail wit="#Унд.">прибавляетъ <hi rend="distinct">же</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15">
+                  <rdg wit="#Унд.">Четыре</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16">
+                  <rdg wit="#Унд.">Частеи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17">
+                  <witDetail wit="#Унд.">повторяетъ въ перечнѣ: <hi rend="distinct">члѣнъ</hi> и <hi rend="distinct">различие</hi>, <hi rend="distinct">прирѣчие</hi> и <hi rend="distinct">нарѣчие</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#v18">
+                  <witDetail wit="#Пет.">Этого слова нѣть</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">19</head> 
+               <app from="#v19">
+                  <rdg wit="#Унд.">Вмѣсто имени</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">20</head> 
+               <app from="#v20">
+                  <rdg wit="#Пет.">Осми</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">21</head> 
+               <app from="#v21">
+                  <rdg wit="#Унд.">Упраздняется</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">22</head> 
+               <app from="#v22">
+                  <witDetail wit="#Пет. #Унд.">Этого слова нѣть</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">23</head> 
+               <app from="#v23">
+                  <rdg wit="#Пет.">Негрѣшно</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">24</head> 
+               <app from="#v24">
+                  <rdg wit="#Унд.">Подобная</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">25</head> 
+               <app from="#v25">
+                  <rdg wit="#Унд.">Подобная</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">26</head> 
+               <app from="#v26">
+                  <rdg wit="#Унд.">Вмѣсто имени</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">27</head> 
+               <app from="#v27">
+                  <witDetail wit="#Пет.">иначе <hi rend="distinct">и и бо</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">28</head> 
+               <app from="#v28">
+                  <rdg wit="#Пет.">Имена</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">29</head> 
+               <app from="#v29">
+                  <rdg wit="#Унд.">Женьска есть</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">30</head> 
+               <app from="#v30">
+                  <rdg wit="#Унд.">Улияна</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">31</head> 
+               <app from="#v31">
+                  <rdg wit="#Унд.">Четыре</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">32</head> 
+               <app from="#v32">
+                  <witDetail wit="#Пет.">прибавляетъ <hi rend="distinct">якоже</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">33</head> 
+               <app from="#v33">
+                  <witDetail wit="#Пет.">Въ петерб. рукописи эта часть статьи озаглавлена так: <hi rend="distinct">Того же о прозодиахъ</hi>. Въ прочихъ спискахъ этого нѣтъ.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">34</head> 
+               <app from="#v34">
+                  <witDetail wit="#Унд.">Послѣ <hi rend="distinct">Вѣдомо</hi> прибавлено <hi rend="distinct">же</hi>.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">35</head> 
+               <app from="#v35">
+                  <rdg wit="#Унд.">Ω</rdg>
+                  <rdg wit="#Пет.">Ʊ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">36</head> 
+               <app from="#v36">
+                  <rdg wit="#Унд.">Пропаролигосанъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">37</head> 
+               <app from="#v37">
+                  <rdg wit="#Пет.">долгъ предъ тонкаго</rdg>
+                  <rdg wit="#Унд.">дологъ пред тонкаго</rdg> 
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">III</head>
+               <app from="#c6">
+                  <lem wit="#Пет.">у (υ)</lem>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">38</head> 
+               <app from="#v38">
+                  <rdg wit="#Пет.">Долгъ</rdg>
+                  <rdg wit="#Унд.">дологъ убо</rdg> 
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">39</head> 
+               <app from="#v39">
+                  <witDetail wit="#Унд.">Читай <hi rend="distinct">долгыхъ</hi>.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">40</head> 
+               <app from="#v40">
+                  <witDetail wit="#Унд.">лучше безъ этого слова</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">41</head> 
+               <app from="#v41">
+                  <witDetail wit="#Пет.">Читай <hi rend="distinct">идинѣи, идино</hi></witDetail>
+                  <witDetail wit="#Унд.">читай <hi rend="distinct">идинои</hi>, дѣйствительно <hi rend="distinct">динои</hi>.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">IV</head> 
+               <app from="#c8">
+                  <rdg wit="#Пет.">духома</rdg>
+                  <rdg wit="#Унд.">духи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">42</head>
+               <app from="#v42">
+               <witDetail wit="#Унд.">дѣйствительно <hi rend="distinct">зѣло</hi>.</witDetail>
+            </app>
+            </listApp>
+            <listApp>
+               <head rend="super">43</head>
+               <app from="#v43">
+                  <witDetail wit="#Пет.">ошибочно <hi rend="distinct">да легко </hi>.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">V</head> 
+               <app from="#c13">
+                  <lem wit="#Унд.">сущеи</lem>
+                  <rdg wit="#Чуд. #Пет.">суще</rdg>  
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">VI</head>
+               <app from="#c14">
+                  <lem wit="#Пет. #Унд.">повинется</lem>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">VII</head>
+               <app from="#c15">
+                  <lem wit="#Пет.">и у апостола</lem>
+               </app>
+            </listApp>
+         </listApp>
+            
+            <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Въ этомъ перечнѣ пропустила <hi rend="distinct">λ</hi> Чуд.; она включена по Пет. Унд.</p>
+            </note>
+               <note target="#c2">
+                  <label rend="super">б</label>
+                  <p>И здѣсь перечень исправленъ по Пет. Унд.</p>
+            </note>
+               <note target="#c3">
+                  <label rend="super">в</label>
+                  <p>По смыслу выходитъ, что къ слову <hi rend="distinct">гласовными</hi> набо было прибавить <hi rend="distinct">со</hi>, слогъ опущенъ по причинѣ предыдущаго <hi rend="distinct">съ</hi>. Но эта описка повторяется во всѣхъ спискахъ.</p>
+               </note>
+               <note target="#c4">
+                  <label rend="super">г</label>
+                  <p>можетъ быть слѣдовало писать: <hi rend="distinct">и, ибо</hi>.</p>
+               </note>
+               <note target="#c5">
+                  <label rend="super">д</label>
+                  <p>Для лучшей вразумительности въ издаваемомъ текстѣ прибавлены въ скобкахъ окончания греческими буквами.</p>
+               </note>
+               <note target="#c6">
+                  <label rend="super">е</label>
+                  <p>Въ текстѣ <hi rend="distinct">ου</hi> Чуд., но <hi rend="distinct">у</hi> (<hi rend="distinct">υ</hi>) Пет.</p>
+               </note>
+               <note target="#c7">
+                  <label rend="super">ж</label>
+                  <p>Лучше м.б. безъ <hi rend="distinct">ся</hi>, хотя въ Чуд. Унд. пишутъ <hi rend="distinct">умыслишяся</hi></p>
+               </note>
+               <note target="#c8">
+                  <label rend="super">з</label>
+                  <p>Надо читать <hi rend="distinct">духома</hi> или <hi rend="distinct">духи</hi>, какъ въ Пет. Унд.; въ подл. <hi rend="distinct">духа</hi>.</p>
+               </note>
+               <note target="#c9">
+                  <label rend="super">и</label>
+                  <p>В подлин. описка <hi rend="distinct">аз</hi>, так и въ Пет.; <hi rend="distinct">азъ</hi> Унд. <hi rend="distinct">духа</hi>.</p>
+               </note>
+               <note target="#c10">
+                  <label rend="super">к</label>
+                  <p>Можетъ быть надо читать <hi rend="distinct">сею яже</hi>, для передачи греческаго <hi rend="distinct">ἧς</hi>.</p>
+               </note>
+               <note target="#c11">
+                  <label rend="super">л</label>
+                  <p>Лишняя прибавка, потому что въ греч. пишутъ <hi rend="distinct">ἡ ἀπόστροφος</hi>.</p>
+               </note>
+               <note target="#c12">
+                  <label rend="super">м</label>
+                  <p>Читай <hi rend="distinct">зѣло</hi>, вм. слова написана буква, подразумѣвается ея название</p>
+               </note>
+               <note target="#c13">
+                  <label rend="super">н</label>
+                  <p><hi rend="distinct">Сущеи</hi> Унд.; <hi rend="distinct">суще</hi> Чуд. Пет.</p>
+               </note>
+               <note target="#c14">
+                  <label rend="super">о</label>
+                  <p>Въ текстѣ <hi rend="distinct">понется</hi> Чуд., <hi rend="distinct">повинется</hi> Пет. Унд.</p>
+               </note>
+               <note target="#c15">
+                  <label rend="super">п</label>
+                  <p>В подл. только <hi rend="distinct">постола</hi> Чуд., <hi rend="distinct">и у апостола</hi> Пет.</p>
+               </note>
+            </noteGrp>
+         
+         <noteGrp type="general-note" xml:lang="cu-Cyrl">
+            <note>
+               <p>
+                  Въ одной рукописи (Р. М. 2435) передъ нашей статьей сдѣлана такого рода замѣтка: «Словесница аристотелска, богословиа платонова и пиитикиа многыхъ любомудрецъ словеса-сими слагании всякии мудрець можетъ свою книгу составити. Оримо ие авалг» (читай: глава ен Омиро). <ref target="lista-bibliografica.xml#Jag-1895">(Jagić 1895: 601)</ref>
+                </p>
+            </note>
+         </noteGrp>
+                
+         <listBibl type="other-cit">
+            <bibl corresp="#other-1" type="Cit">Basilio Magno</bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

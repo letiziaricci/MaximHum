@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Переводы, присоединяющиеся к 1-му и 2-му комплексам переводов из Свиды - I. Группа переводов - статьи о рахманах, Креме, Велисарии - Повести различны преведошася от книги греческия, глаголемыя Суидас, Максимомъ инокомъ святогорским [Perevody, prisoedinjajuščiesja k 1-mu i 2-mu kompleksam perevodov iz Svidy - I. Gruppa perevodov - stat'i o rachmanach, Kreme, Velisarii - Povesti različny prevedošasja ot knigi grčeskija, glagolemyja Suidas, Maksimom'' inokom'' svjatogorskim]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="495" to="495">495</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Повесть о рахманех [Povest' o rachmanech] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="72" to="72">72</citedRange></bibl></ref></note></title>  
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Ovc-131">Повесть преведеся от книги, глаголемыя Суидас, Максимом иноком Греком <note type="editorial"><ref><locus>ms. RGB, f. 209, sobr. Ovčinnikova 131, ff. 760r-762r</locus></ref></note></title>
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">83</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984</date></ref>: <biblScope unit="page" from="146" to="147">146–147</biblScope>, <biblScope unit="chapter">nr. I.3.I</biblScope> 
+            </bibl> 
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Sol-495/514"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, собр. Соловецкого мон. 495/514</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#693v #694r">лл. 693об.-694</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">Повести различны преведошася от книги греческия, глаголемыя Суидас, Максимомъ инокомъ святогорским</title>   
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Врахмане язык есть благочестивеиш, и житие стяжая безименное зело, живет же во острове океанстем, наследие сие от божиих судеб получив.</incipit> 
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Врахмане же нарекошася от Врахмана царя, иже и стране их наречение сие дал, и законы им написал, и градское жительство языку своему беседою своею.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="lettera" /> 
+               
+               <witness xml:id="O">   
+                  <ref target="lista-manoscritti.xml#Ovc-131">РГБ, ф. 209, собр. Овчинникова 131</ref>, <locus type="foliation" target="#760r #762r">лл. 760-762 / ff. 760r-762r [foliazione cumulativa per Ivanov 83, Ivanov 84, Ivanov 82]</locus>   COLONNE D - H - G -->
+               </witness>   
+            </listWit> 
+            
+
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="B524" >Suda Β524 [= Adler 1928-1938, I: 493-494]</ref> 
+               </bibl> 
+            </listBibl>
+            </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">intra 1525 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="77" to="77">77</citedRange></bibl></ref></note></date> 
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Повесть</term> 
+               <term>Повести</term> 
+               </keywords>
+            <keywords scheme="#scope">  
+               <term>Suda (bramini)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation" source="#B524">Traduzione</term> 
+            </keywords>
+         </textClass>
+
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><anchor xml:id="v1" n="1" rend="super"/>ПОВЕСТИ РАЗЛИЧНЫ ПРЕВЕДОШАСЯ ОТ КНИГИ ГРЕЧЕСКИЯ, ГЛАГОЛЕМЫЯ СУИДАС, МАКСИМОМЬ ИНОКОМЬ СВЯТОГОРСКИМ<anchor xml:id="c1" n="а" rend="super"/><anchor xml:id="v2" n="2" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p><metamark corresp="#B524" function="locus-Suda" rend="label-margin-right" />Врахмане язык есть благочестивеиш, и житие стяжая безименное зело, живет же во острове океанстем, наследие сие от божиих судеб получив. На нем же месте быв Александр Македонскии и столп поставив, написа: «Аз великии царь Александр достигох даже до зде». На нем же острове живут Долгоживотнии. Живут бо<anchor xml:id="v3" n="3" rend="super"/> 150 лет за премногую чистоту и благорастворение аерное; у них же ни едино есть четвероножное, ни пахателное орудие, ни железо, ни здание, ни огнь, ни злато, ни сребро, ни хлеб, ни вино, ни мясоядение; но имуще мокреныи, и сла<metamark function="end-page" rend="//"/><pb type="folio" n="л.694" rend="label-margin-left"/>дкии<anchor xml:id="c2" n="б" rend="super"/>, и благораствореныи аер, и всякия немощи непричастен, и малыми овощи и чистеишею водою питаются,<anchor xml:id="c3" n="в" rend="super"/><anchor xml:id="v4" n="4" rend="super"/> почитают искрене бога и непрестанно молятся. И мужие убо к стране океанстеи обитают, жены же от сея<anchor xml:id="v5" n="5" rend="super"/> страны живут Гаггы, реки текущия на океан к стране Индеистеи. Мужие убо преходят к женам в месяц иуль и август, в них же бывают студенеиши, солнцу к нам и к северу возвышшуся, егда же благомощнеиши бываеми к похоти себе двигатися глаголют. К женам же<anchor xml:id="v6" n="6" rend="super"/> пришедше и пребывше у них днии 40, паки к себе возвращаются. Жене же рождьшеи 2 дети, муж к тому к неи не приходит, ниже убо она к иному приближается за премногое благоговение. Аще же лучится неплоды у них обрестися, даже пять лет <anchor xml:id="v7" n="7" rend="super"/>приходя к неи<anchor xml:id="v8" n="8" rend="super"/> муж ея,<anchor xml:id="v9" n="9" rend="super"/> совокупляяся с нею, аще не родит, к тому не приближается к неи. Сего ради не многонародна есть страна их. Врахмане же нарекошася от Врахмана царя, иже и стране их наречение сие дал, и законы им написал, и градское жительство языку своему беседою своею.</p>
+         </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1-2</head> 
+               <app from="#v1" to="#v2"> 
+                  <rdg wit="#O">Повесть преведеся от книги, глаголемыя Суидас, Максимом иноком Греком</rdg>
+                  <witDetail wit="#О">на поле: <hi rend="distinct">глава 56</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3"> 
+                  <witDetail wit="#О">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">I</head>    
+               <app from="#c2">                      
+                  <lem>сладкий</lem>          
+                  <rdg wit="#basic-witness">слаисладкий</rdg>      
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <rdg wit="#О">питающеся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5"> 
+                  <witDetail wit="#О">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6"> 
+                  <witDetail wit="#О">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7-8</head> 
+               <app from="#v7" to="#v8">
+                  <rdg wit="#О">к неи преходя</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9">
+                  <witDetail wit="#О">Доб. <hi rend="distinct">к</hi></witDetail>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" >
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>На поле: <hi rend="distinct">глава 148</hi></p>
+            </note>
+            <note target="#c2" >
+               <label rend="super">б</label> 
+               <p>Испр., в ркп. <hi rend="distinct">слаисладкии</hi></p>
+            </note>
+            <note target="#c3" > 
+               <label rend="super">в</label> 
+               <p><gloss>питающеся</gloss></p>
+            </note>
+            
+         </noteGrp>
+         
+      </back>
+   </text>
+</TEI>

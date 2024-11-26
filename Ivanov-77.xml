@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">1-й комплекс переводов из Свиды - Сказание о Мелхиседеке [1-j kompleks perevodov iz Svidy - Skazanie o Melchisedeke]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881">Сказание о Мелхиседекѣ. Максимъ [Skazanie o Melchisedekě. Maksim''] <note type="editorial"><ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="495" to="495">495</citedRange></bibl></ref></note></title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Повесть о Мелхиседеке [Povest' o Melchisedeke] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="70" to="70">70</citedRange></bibl></ref></note></title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Перевод Максима Грека из лексикона «Суда» - Сказание о Мелхиседеке [Perevod Maksima Greka iz leksikona "Suda" - Skazanie o Melchisedeke] <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="255" to="255">255</citedRange></bibl></ref></note></title> 
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#QI-219">О Мелхиседеце из Суиды же <note type="editorial"><ref><locus>ms. RNB, Q.I. 219, ff. 542r-546r</locus></ref></note></title>
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Sol-495/514">Сказание о Мелхиседеке. Максим <note type="editorial"><ref><locus>ms. RNB, sobr. Soloveckogo mon. 495/514, ff. 688r-693v</locus></ref></note></title>
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Ovc-131">Сказание о Мелхиседеке Максима Грека <note type="editorial"><ref><locus>ms. RGB, f. 209, sobr. Ovčinnikova 131, ff. 688r-693v</locus></ref></note></title>
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <notesStmt>
+            <note type="textual-relationships">Testo accompagnato, insieme a Ivanov 74-76, dalla missiva a V.M. Tučkov Maksim Grek 2008: 349 (nr. II.16); Diversa redazione di [Ivanov 77-a] e [Ivanov 77-b]</note> 
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Ivanov">77</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 59</bibl>                    
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">  
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="142" to="143">142–143</biblScope>, <biblScope unit="chapter">nr. I.1</biblScope> 
+            </bibl> 
+                     
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> 
+                  <msName>РГБ, ф. 256, собр. Румянцева 264</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#106r #106v">лл. 106-106об.</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">Сказание о Мелхиседеке</title>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Мелхиседек - священник бога вышняго, царь хананеаном. Съи създав град на горе, глаголемеи Сион, нарече его Салим, еже есть сказаемо Иринополии, сиречь мирныи град [...]</incipit> 
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">И дал ему Авраам десятное от всех корысть. Мелхиседек же тлъкуеться царь мирен. Сия вся преведошяся от предмудрыа книгы гречьскыа, глаголемыа Суида.</explicit> 
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               
+               <witness corresp="#basic-witness" ana="#reference-ms"  /> 
+               
+               <witness xml:id="O">  
+                  <ref target="lista-manoscritti.xml#Ovc-131">РГБ, ф. 209, собр. Овчинникова 131</ref>, <locus type="foliation" target="#753r #760r">лл. 753-760</locus>   
+               </witness>
+               <witness xml:id="С">  
+                  <ref target="lista-manoscritti.xml#Sol-495/514">РНБ, собр. Соловецкого мон. 495/514</ref>, <locus type="foliation" target="#688r #683v">лл. 688-693об.</locus>    
+               </witness>
+               <witness xml:id="П2">   
+                  <ref target="lista-manoscritti.xml#QI-219">РНБ, Q.I.219</ref>, <locus type="foliation" target="#542r #546r">лл. 542-546</locus>   
+               </witness> 
+               </listWit> 
+            
+            
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="M544-546">Suda Μ545-546 [= Adler 1928-1938, III: 357-358]</ref> 
+               </bibl> 
+            </listBibl>
+            
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">intra 1525 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="55" to="56">55-56</citedRange> <citedRange unit="page" from="66" to="66">66</citedRange></bibl></ref></note></date>
+            <date resp="lista-bibliografia.xml#Bul-1984a">1519ca <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="72" to="72">72</citedRange> <citedRange unit="chapter">n. 69</citedRange></bibl></ref></note></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Сказание</term> 
+               </keywords>
+            <keywords scheme="#scope">    
+               <term>Suda (Melchisedec)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation" source="#M544-546">Traduzione</term> 
+            </keywords>
+         </textClass>
+         
+         
+         
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><anchor xml:id="v1" n="1" rend="super"/>СКАЗАНИЕ О МЕЛХИСЕДЕКЕ<anchor xml:id="v2" n="2" rend="super"/> </p>  
+      </front>
+      
+      <body>
+         <p><metamark corresp="#M544" function="locus-Suda" rend="label-margin-left" />Мелхиседек — священик Бога вышняго, царь хананеаном. Съи създав град на горе, глаголемеи Сион, нарече его Салим, еже есть сказаемо Иринополии, сиречь мирныи град; в нем же царьствовав лета 113, скончася праведен и девьственик. Неродословим же речеся, зане же не бе от семени Авраамля, бысть бо родом хананеанин и<anchor xml:id="v3" n="3" rend="super"/>  от проклятаго семяни прозяб, тем же ни родословию сподобися святыми книгами. Ниже бо <anchor xml:id="v4" n="4" rend="super"/> лепо бе<anchor xml:id="v5" n="5" rend="super"/>  рачителя съвръшеныа правды съпричитати роду съвръшеныа неправды; его же ради и безматерня и безотечня сего <anchor xml:id="v6" n="6" rend="super"/> бывша глаголють.<anchor xml:id="v7" n="7" rend="super"/>  Яко убо<anchor xml:id="v8" n="8" rend="super"/>  хананеин бысть родом, явлено есть и от них же обладаше Хананеискых стран, и от них же приближашеся бесзаконеишим съдомляном. Но и Салим, в нем жө царствовал, многословутыи Иерусалим есть, не у носящ всего имяни Иерусалим, по приложению же складу<anchor xml:id="v9" n="9" rend="super"/>  иеру<anchor xml:id="v10" n="10" rend="super"/>  по Салиме, приимши склад съи иеру<anchor xml:id="v11" n="11" rend="super"/>  по съвокуплению Иерусалим именовася.</p>
+         <p><metamark corresp="#M546" function="locus-Suda" rend="label-margin-right" />Мелхиседек<anchor xml:id="v12" n="12" rend="super"/>  — священик не точию<anchor xml:id="v13" n="13" rend="super"/>  иудеом, но и языком. Такожде и Господь наш Исус Христос не точию<anchor xml:id="v14" n="14" rend="super"/>  за иудея, но и за вся человекы принесе Богу себе. Начинает же священьства своего в нощи, по неи же спасителнуу страсть претръпе, егда приим хлеб и благо<metamark function="end-page" rend="//"/><pb type="folio" n="л.106 об." rend="label-margin-left"/>дарив, преломи и рече: «Приимите, ядите» и прочая. Съи Мелхиседек при Аврааме бяше, муж благочестив,<anchor xml:id="v15" n="15" rend="super"/>  язычен, считаем от рода Сида, сына египетьскаго царя и ливиискаго.</p>
+         <p><metamark corresp="#M545" function="locus-Suda" rend="label-margin-right" />Съи, възвращающуся Аврааму от брани, срет, вынесе к нему хлебы и вино и рече к нему: «Благословен Авраам Богу вышнему, иже създал небо и землю; и благословен Бог вышныи, иже предал врагы твоя под руку».<anchor xml:id="v16" n="16" rend="super"/>  И дал ему Авраам десятное от всех корысть. Мелхиседек же тлъкуеться царь мирен.</p>
+         <p><anchor xml:id="v17" n="17" rend="super"/> Сия вся преведошяся от предмудрыа книгы гречьскыа, глаголемыа Суида.<anchor xml:id="v18" n="18" rend="super"/> </p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1-2</head> <!-- numero in apice -->
+               <app from="#v1" to="#v2"> <!-- FROM variante1 ancora1 -  TO variante1 ancora2-->
+                  <rdg wit="#П2">О Мелхиседеце из Суиды же</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> 
+                  <witDetail wit="#С">Доб. <hi rend="distinct">Максим</hi>; на поле: <hi rend="distinct">147</hi></witDetail>
+                  <witDetail wit="#О">Доб. <hi rend="distinct">Максима Грека</hi>; на поле: <hi rend="distinct">глава 55</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <witDetail wit="#С #O">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4-5</head> 
+               <app from="#v4" to="#v5">
+                  <rdg wit="#С">белепо</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6-7</head> 
+               <app from="#v6" to="#v7">
+                  <rdg wit="#О">глаголют</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <witDetail wit="#O">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9"> 
+                  <witDetail wit="#П2">Доб. <hi rend="distinct">сеи</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10-11</head> 
+               <app from="#v10" to="#v11">
+                  <witDetail wit="#П2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12"> 
+                  <witDetail wit="#О">Доб. <hi rend="distinct">есть</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <rdg wit="#П2">токмо</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14">
+                  <rdg wit="#П2">токмо</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15">
+                  <rdg wit="#П2 #O">богочестив</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16">
+                  <rdg wit="#П2 #С #O">рукою твоею</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17-18</head> 
+               <app from="#v17" to="#v18">
+                  <witDetail wit="#П2 #С">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#v18"> 
+                  <witDetail wit="#О">Доб. <hi rend="distinct">Максимом иноком Греком святогорским</hi></witDetail>
+               </app>
+            </listApp>
+         </listApp>
+         
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Переводы в других сборниках сочинений Максима Грека - Статья об Ираклите - Того же инока Максима о посте [Perevody v drugich sbornikach sočinenij Maksima Greka - Stat'ja ob Iraklite - Togo že inoka Maksima o poste]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Lop-1899">О постѣ [O postě] <note type="editorial"><ref><bibl>Loparev 1899 <citedRange unit="page" from="196" to="196">196</citedRange></bibl></ref></note></title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">О постѣ [O postě] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="143" to="143">143</citedRange></bibl></ref></note></title> 
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#NANU-572">Ермонаха Максима Грека святогорьскаго о посте <note type="editorial"><ref><locus>NB NANU, PO, DA/P 572, ff. 218v-219r</locus></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Sol-495/514">Тогожде, слово о посте <note type="editorial"><ref><locus>RNB, sobr. Soloveckogo mon. 495/514, f. 675r</locus></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Egor-250">Максима инока святогорца о посте <note type="editorial"><ref><locus>RGB, f. 98, sobr. Egorova 250, f. 728v</locus></ref></note></title>
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+        
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">206</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="170" to="171">170–171</biblScope>, <biblScope unit="chapter">nr. I.6.II.Б</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Lop-1899"><name>Loparev</name>, <date>1899</date></ref>: <biblScope unit="page" from="196">196</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Iva-1969"><name>Ivanov</name>, <date>1969</date></ref>: <biblScope unit="page" from="143">143</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Sol-494/513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, собр. Соловецкого мон. 494/513</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#766r">лл. 766</locus>   <!-- 02. Inventario testimone base COLONNA G -->
+                     <title xml:lang="cu-Cyrl">Того же инока Максима о посте</title>   <!-- 01. Inventario COLONNA i -->
+                     <incipit xml:lang="cu-Cyrl">Ираклит философ глаголаше: «Небрещи отнюд тело свое подобает и мнети е и када непотребнеише е [...]</incipit>   <!-- 01. Inventario COLONNA J -->
+                     <explicit xml:lang="cu-Cyrl">Что противу сих возглаголем, приготовляюще себе всякое гортанное наслаждение, безъответен есмь. Пощади, господи, пощади.</explicit>   <!-- 01. Inventario COLONNA K -->
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="lettera" /> 
+               <witness xml:id="C">   
+                  <ref target="lista-manoscritti.xml#Sol-495/514">РНБ, собр. Соловецкого мон. 495/514</ref>,  <locus type="foliation" target="#675r">л. 675</locus>   
+               </witness>
+               <witness xml:id="Ак">   
+                  <ref target="lista-manoscritti.xml#NANU-572">НБ НАНУ, РО, ДА/П 572</ref>, <locus type="foliation" target="#218v #219r">лл. 218об.-219</locus>    
+               </witness>
+               <witness xml:id="Ег">   
+                  <ref target="lista-manoscritti.xml#Egor-250">РГБ, ф. 98, собр. Егорова 250</ref>, <locus type="foliation" target="#728v">лл. 728об.</locus>    
+               </witness> 
+               </listWit> 
+            
+            
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="Η471" >Suda Η471 [= Adler 1928-1938, II: 583]</ref> 
+               </bibl> 
+            </listBibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">intra 1525 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="68" to="69">68-69</citedRange></bibl></ref></note></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Suda (Eraclito)</term> 
+               <term>Suda (il digiuno)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation" source="#H471">Traduzione</term> 
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><anchor xml:id="v1" n="1" rend="super"/>Того же инока Максима о посте<anchor xml:id="v2" n="2" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p><metamark corresp="#H471" function="locus-Suda" rend="label-margin-right" />Ираклит философ глаголаше<anchor xml:id="v3" n="3" rend="super"/>: «Небрещи отнюд тело свое подобает <anchor xml:id="v4" n="4" rend="super"/>и мнети е<anchor xml:id="v5" n="5" rend="super"/> и кала непотребнеише е<anchor xml:id="v6" n="6" rend="super"/>; питати же его худеишими брашны, донде же Бог велит жити<anchor xml:id="v7" n="7" rend="super"/> в нем». Что противу сих возглаголем, приготовляюще себе всякое гортанное паслаждение, безъответен есмь. Пощади, Господи, пощади<anchor xml:id="v8" n="8" rend="super"/>.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> 
+            <listApp>
+               <head rend="super">1-2</head> 
+               <app from="#v1" to="#v2"> 
+                  <rdg wit="#Ак">Ермонаха Макcима Грека святогорьскаго о посте</rdg>
+                  <rdg wit="#С">Тогожде слово о посте</rdg>
+                  <witDetail wit="#С">на поле: <hi rend="distinct">глава 140</hi></witDetail>
+                  <rdg wit="#Ег">Максима инока святогорца о посте</rdg>
+                  <witDetail wit="#Ег">на поле: <hi rend="distinct">135</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3"> 
+                  <rdg wit="#С #Ег">глаголет</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4-5</head> 
+               <app from="#v4" to="#v5"> 
+                  <rdg wit="#Ак">имети есть</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <witDetail wit="#Ак #С #Ег">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <witDetail wit="#Ак">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <witDetail wit="#Ак">Доб. <hi rend="distinct">Всему течение молитва непрестанная и к богу желание ненасытное. Сих бо нощию и днию в чистоте ишем <witDetail wit="#Aк">(так! / sic!)</witDetail> чистоты, зерцале мечтаяся, сытости прияти не хотяше <witDetail wit="#Aк">(так! / sic!)</witDetail></hi></witDetail>
+               </app>
+            </listApp>
+         </listApp>
+         </back>
+   </text>
+</TEI>

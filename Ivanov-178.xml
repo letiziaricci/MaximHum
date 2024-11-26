@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же Максима Грека словеса акы от лица пресвятыя Богородицы къ лихоимцом и скверным и всякыя злобы исполненымъ, а каноны всякыми и различными пѣсньми угожати чающим [Togo že Maksima Greka slovesa aky ot lica presvjatyja Bogorodicy k'' lichoimcom i skvernym i vsjakyja zloby ispolnenym'', a kanony vsjakymi i različnymi pěsn'mi ugožati čajuščim]</title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Sinicyna 1977 <citedRange unit="page" from="233" to="233">233</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1860 #Iva-1969 #Sin-1977">Инока Максима Грека словеса, аки отъ лица пречистыя Богородицы къ лихоимцомъ и сквернымъ, всякия злобы исполненымъ, а каноны всякими и различными пѣсньми угожати чающимъ [Inoka Maksima Greka slovesa, aki ot'' lica prečistyja Bogorodicy k'' lichoimcom'' i skvernym'', vsjakija zloby ispolnenym'', a kanony vsjakimi i različnymi pěsn'mi ugožati čajuščim''] <note type="editorial"><ref><bibl>Maksim Grek 1860 <citedRange unit="page" from="241" to="244">241-244</citedRange></bibl> <bibl>Ivanov 1969 <citedRange unit="page" from="134" to="135">134-135</citedRange></bibl> <bibl>Sinicyna 1977 <citedRange unit="page" from="244" to="244">244</citedRange></bibl></ref></note></title> 
+           
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+                  <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">178</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 39</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 41</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek </name>, <date>2014</date></ref>: <biblScope unit="page" from="317" to="318">317-318</biblScope>, <biblScope unit="chapter">nr. 39</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="241" to="244">241–244</biblScope>, <biblScope unit="chapter">nr. 15</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#MDA-42"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 173, МДА 42</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#347r #349r">лл. 347-349</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же Максима Грека словеса акы от лица пресвятыя Богородицы къ лихоимцом и скверным и всякыя злобы исполненымъ, а каноны всякыми и различными пѣсньми угожати чающим</title>   
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Тогда Мнѣ еже отъ тебе частѣ пѣваемое «радуися» благоприятно будетъ, о тваре Божиа премудра, егда увижу тя дѣлом съвершающа Моего Рожества заповѣди, и отступивша всякыя вкупѣ злобы, блуда и лъжи, гръдости же и льсти и хыщениа неправеднаго чюжих стяжании, их же дондеже дръжишися и симъ радуяся пребываеши, бѣдно живущихъ убогых кровми веселяся, сугубыми росты и трудовъ бесчислиными нужами несытно ихъ испивая мозгы, ничим же мнѣ разликуеши иноплеменника скифянина и христоубииць людии, аще ся крещениемъ хвалиши.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Аще убо истиною желаеши ты отъ Мене помощи получити и Богу, всѣмъ Царю, угодити, съ цѣломудрием и правдою и щедротами къ нищимъ, потщися всегда пѣти Мнѣ сие, еже «радуися».</explicit> 
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl">
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="И" /> 
+               <witness xml:id="Л">   
+                  <ref target="lista-manoscritti.xml#MDA-42">BNF, Man. Slave 123</ref>
+               </witness>
+              </listWit> 
+                    
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Словеса</term> 
+             </keywords>
+            <keywords scheme="#scope">   
+               <term>Riforma religiosa</term> 
+               <term>Esteriorità del culto</term> 
+               <term>Denuncia</term>
+               <term>Correzione</term>
+               <term>Profezia (Giudizio)</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+             <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+      
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <!-- <pb type="folio" n="л. 51" rend="label-margin-left"/>   INDICA   [л. 51] -->
+   <!-- <metamark function="end-page" rend="//"/>     INDICA     // -->
+   <!-- <anchor xml:id="v5" n="5" rend="super"/>     INDICA    <anchor xml:id="v5" n="5" rend="super"/> --> 
+   <!--  <cit><quote xml:id="biblical-1">«ПраведенъГосподи, и прави суди Твои»</quote></cit>   INDICA la citazione-->
+   <text xml:lang="cu-Cyrl">
+      
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ТОГО ЖЕ МАКСИМА ГРЕКА СЛОВЕСА АКЫ ОТ ЛИЦА ПРЕСВЯТЫЯ БОГОРОДИЦЫ КЪ ЛИХОИМЦОМ И СКВЕРНЫМ И ВСЯКЫЯ ЗЛОБЫ ИСПОЛНЕНЫМЪ, А КАНОНЫ ВСЯКЫМИ И РАЗЛИЧНЫМИ ПѣСНЬМИ УГОЖАТИ ЧАЮЩИМ.<anchor xml:id="c1" n="а" rend="super"/></p>  
+      </front>
+      <body>
+         <p>Тогда Мнѣ еже отъ тебе частѣ пѣваемое «радуися» благоприятно будетъ, о тваре Божиа премудра, егда увижу тя дѣлом съвершающа Моего Рожества заповѣди, и отсту<metamark function="end-page" rend="//"/><pb type="folio" n="л. 347 об." rend="label-margin-left"/>пивша всякыя вкупѣ злобы, блуда и лъжи, гръдости же и льсти и хыщениа неправеднаго чюжих стяжании, их же дондеже дръжишися и сим радуяся пребываеши, бѣдно<anchor xml:id="v1" n="1" rend="super"/> живущихъ убогых кровми веселяся, сугубыми росты и трудовъ бесчислиными нужами несытно ихъ испивая мозгы, ничим же мнѣ разликуеши иноплеменника скифянина и христоубииць людии, аще ся крещениемъ хвалиши. Ниже внемлю отнюдь тебѣ, аще и безчислены каноны и стихеры краснымъ гласом поеши Мнѣ. <cit><quote xml:id="biblical-1">«Милости, а не жрътвѣ»</quote></cit> слыши хотящаго Господа, и <cit><quote xml:id="biblical-2">«разумъ Божии, а не всесъждежениа»</quote></cit>. Ты же, акы свиниа, всякого студодѣаниа несытнѣ насыщаася, и аки хышникъ волкъ хыщаа чужая стяжаниа и бѣдныя вдовици лихоимствуя и всячьскыми изъобилуя и обливаемъ дѣлы беззаконными, акы христоненавистникъ татаринъ зернию играя, и упиваяся, и гусльми всегда и пѣсньми скверными насла<metamark function="end-page" rend="//"/><pb type="folio" n="л. 348" rend="label-margin-left"/>ждаа себе блудно, Божиаго страха отринувъ отнудь от мысли своя, благоугодити ли мниши множества каноновъ и стихеръ, высокым воплемъ Мнѣ въспѣвая? Не слышиши ли проповѣдника, явственѣ глаголюща, яко творящеи таковая не царство<anchor xml:id="v2" n="2" rend="super"/> Божие наслѣдствують, и аще не оно явѣ, яко под землею горкыя вѣчныя муки. Не прелщаи убо себе, но аще убо желаеши мукъ избѣжати, царство Божие получити вкупѣ с праведными, отступи отнудь всякыя беззаконныя злобы своея, супротивныя же еи добродѣтели от всея души възлюби, въ мысли своеи скрывъ Божии страхъ и любовь и желание небесных благъ. Инако бо невъзможно ти есть и мукъ себе избавити, ни угодити Страшному Судии. Аще же съвѣтовъ сихъ Моихъ не по слушаешь, безумниче, но пребываеши, дръжася твоего беззаконнаго обычая, тогда уразумѣеши свое безумие, егда веригами связан бывъ по руцѣ и нозѣ, за еже не имѣлъ еси одежу, достоину <metamark function="end-page" rend="//"/><pb type="folio" n="л. 348 об." rend="label-margin-left"/> мысленым браком, и връженъ будеши въ преисподниа бесконечныя мукы огненыя, егда вкупѣ съ гнилыми отвръженъ будеши рыбами, акы не въ чистых струяхъ<anchor xml:id="c2" n="б" rend="super"/> благовѣриа, но в мутных тинах грѣховных въспитався и утучнѣв блудно живот свои, вмѣняа наслаждение похотеи плоти своея. Егда убо услышиши оно: <cit><quote xml:id="biblical-3">«Аминь глаголю вам, не вѣмъ вас»</quote></cit>, <cit><quote xml:id="biblical-4">«исчезните от Мене, дѣлателие беззаконию»</quote></cit>, егда убо затворится на тебѣ мысленыи чертогъ, зане елеи не приялъ еси в своемъ съсудѣ, но сребролюбиемъ побежденъ быв, николи же престалъ еси обидя всѣх безмилостно<anchor xml:id="v3" n="3" rend="super"/> и убогыя възненавидѣлъ еси, тогда убо, тогда, о несмыслене, познаеши извѣстно и уразумѣеши и плакати будеши всуе и бес ползы отнудь, яко не ложна суть обѣтованиа Моего Рожества, яже предвъзвѣщалъ о муках и о вѣчных благых, и яко послушающим убо выну слава и веселие есть, а не послушающимъ огнь без конца горяшь. Аще убо исти<metamark function="end-page" rend="//"/><pb type="folio" n="л. 349" rend="label-margin-left"/>ною желаеши ты отъ Мене помощи получити и Богу, всѣмъ<anchor xml:id="v4" n="4" rend="super"/> Царю, угодити, съ цѣломудриемъ и правдою и щедротами къ нищимъ, потщися всегда пѣти Мнѣ сие, еже «радуися».</p>
+       </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> <!-- numero in apice -->
+               <app from="#v1"> <!-- FROM variante1 ancora1 -  TO variante1 ancora2-->
+                  <rdg wit="#Л">бѣдныхъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> <!-- variante2 -->
+                  <witDetail wit="#Л">Доб. <hi rend="distinct">же</hi>.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <rdg wit="#Л">безъмилостивно</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <rdg wit="#Л">всѣхъ</rdg>
+               </app>
+            </listApp>
+         </listApp> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" > 
+               <label rend="super">а</label> 
+               <p>Буквенное обозначение кин. номера главы на правом поле.</p> 
+            </note>
+            <note target="#c2" >
+               <label rend="super">б</label> 
+               <p>В ркп. слово правлено.</p> 
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl n="1" corresp="#biblical-1" ana="#Os"><ref>(Ос 6,6 / Os 6,6)</ref></bibl>
+            <bibl n="2" corresp="#biblical-2" ana="#Mt"><ref>(Мф 9,13 / Mt 9,13)</ref></bibl>
+            <bibl n="3" corresp="#biblical-3" ana="#Mt"><ref>(Мф 25,12 / Mt 25,12)</ref></bibl>
+            <bibl n="4" corresp="#biblical-4" ana="#Lc"><ref>(Лк 13,27 / Lc 13,27)</ref></bibl>
+         </listBibl>
+         
+        </back>
+   </text>
+</TEI>

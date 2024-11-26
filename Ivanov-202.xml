@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание неизвестному [2] [Poslanie neizvestnomu]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Rzi-1935 #Iva-1969 #Sin-1977">Поучение съкращено всякому обуреваемому в море житейском [Poučenie s''kraščeno vsjakomu oburevaemomu v more žitejskom] <note type="editorial"><ref><bibl>Ržiga 1935-1936 <citedRange unit="page" from="94" to="94">94</citedRange></bibl></ref> <ref><bibl>Ivanov 1969 <citedRange unit="page" from="142" to="142">142</citedRange></bibl></ref> <ref><bibl>Sinicyna 1977 <citedRange unit="page" from="260" to="260">260</citedRange></bibl></ref></note></title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Поучение обуреваемому в море житейском (Poučenie oburevaemomu v more žitejskom) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>   
+
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+                  
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">Ivanov-202</idno>
+            </bibl>
+            
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 117</bibl>         
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografica.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="208" to="211">208-211</biblScope>, <biblScope unit="chapter">nr. III.10</biblScope> 
+            </bibl> 
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografica.xml#Rzi-1935-1936"><name>Ržiga</name>, <date>1935-1936</date></ref>: <biblScope unit="page" from="94">94</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografica.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Rum. nr. 12</biblScope>. <note>Edizione in corso di stampa</note>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, собр. Румянцева 264</msName> 
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#274r #276v">лл. 274-276об. / ff. 274r-276v</locus>  
+                     <title xml:lang="cu-Cyrl">Поучение съкращено всякому обуреваемому в море житеиском</title>  
+                    
+                     <incipit xml:lang="cu-Cyrl">Ищеши от мене грешнаго, рабе божии имя рек, възлюблене друже, списание некое, целбу души, обуреваемыя смущением прегрешении многых.</incipit>  
+                     
+                     <explicit xml:lang="cu-Cyrl">Ты же, възлюблене, потщися създати дом души своея на неподви[ж]ном камени заповедеи бога твоего, да уподобит тебе мужу мудру и сподобит тя внити свещеносца с мудрыми девами в небесныи чрътог его, иде же есть шум непрестанен празднующих и глас неизреченнаго радованиа, аминь. Здрав бываи за все!</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms"  /> 
+            </listWit>
+            
+            
+            <!-- OPZIONALE: bibliografia secondaria per opere dubium -->
+            <listBibl type="secondary-bibliography">
+               <bibl xml:id="Leb-1895">
+                  <ref corresp="lista-bibliografica.xml#Leb-1895"><name>Lebedev</name>, <date>1895</date></ref>: <biblScope unit="page" from="175" to="182">175–182</biblScope>
+               </bibl> 
+               <bibl xml:id="Sce-1915">
+                  <ref corresp="lista-bibliografica.xml#"><name>Lebedev</name>, <date>1895</date></ref>
+               </bibl> <!-- id preso più giù in "source" di <textclass>/<keywords scheme="#attribution">/<term target="#dubium" source="#"> -->
+            </listBibl>
+            
+
+            <listBibl type="secondary-bibliografy"> 
+               <bibl xml:id="Bul-1984a"> <!-- Bulanin è fonte secondaria indicata nel "source" della list Suda-->
+                  <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="180">180</biblScope> 
+               </bibl> 
+            </listBibl>
+            
+            <listBibl xml:id="Suda-Bul1984a" type="excerptum-dubium" source="#Bul-1984a">
+               <bibl>
+                  <ref xml:id="Β294">Β294 [= Adler 1928-1938, I: 472]</ref>
+               </bibl>
+
+            </listBibl>
+            
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">Incerta <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="195" to="195">195</citedRange></bibl></ref></note></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   <!-- 01. Inventario COLONNA L -->
+               <term>Поучение</term> 
+            </keywords>
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Istruzione</term> 
+               <term>Correzione</term> 
+               <term>Povertà nella religione</term> 
+            </keywords>
+         </textClass>
+         <textClass>
+            <keywords scheme="#attribution">
+               <term ana="#original" source="#Suda-Bul1984a">Testo originale con excerptum dubium</term> 
+            </keywords>
+         </textClass>
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="list.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#x">ignoto</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ПОУЧЕНИЕ СЪКРАЩЕНО ВСЯКОМУ ОБУРЕВАЕМОМУ В МОРЕ ЖИТЕИСКОМ</p>  
+      </front>
+      
+      <body>
+         <p>Ищеши от мене грешнаго, рабе божий имя рек, възлюблене друже, списание некое, целбу души, обуреваемыя смущением прегрешений многых. И зело похвально есть и благоприятно богу сицево твое желание, аще и делом исплъниш е, егда таково услышиши от коего разумнаго<anchor xml:id="c1" n="а" rend="super"/> в божественых, аз же откуду инуде могу предложити тебе коль душеполезну целбу, разве от самех богодухновеных Евангелий господа и бога и спаса нашего Исуса Христа, в них же к прочим многым его спасителным заповедем и учениом и некое таково содръжится повествование.</p>
+         <p>Юноша некый прииде к Исусу, кланяяся ему и глаголя: «Учителю благый, что благо сътворю, да живот вечный получю?» Господь же рече к нему: «Аще хощеши в живот вечный вънити, заповеди съхрани». И оному въспросившу господа: «Какыя?», рече ему господь: «Еже не съблудиши, не убиеши, не чюжеженьствуеши<anchor xml:id="c2" n="б" rend="super"/>, не украдеши, не лжесвидетельствуеши; почитай отца и матере твою и любяй ближняго своего акы себе». Таков убо есть ответ господа нашего Исуса Христа к оному юноши поклоняем, и душеполезнейши, и спасителен исплъняющим делом сицевых спасителных заповедей его. И надеюся на щедроты господни, яко сих всих <metamark function="end-page" rend="//"/><pb type="folio" n="л.274 об." rend="label-margin-left"/> съблюл еси, исплъня еси всегда от юности твоеа. Слыши же и яже к сим и прилежне внимай их. Юноши оному рекшу к господу нашему Исусу Христу: <cit><quote xml:id="biblical-1">«Сия вся съхраних от юности моея, что еще не докончал есмь?», и господь к нему отвещал, рек: «Аще хощеши съвръшен быти, еже есть великый сан и боголепный взыти у вышняго, иди и продаждь имениа твоя и даждь я нищим, и имети будеши мъзду на небесех; и иди въслед мене»</quote></cit>. Съй есть съвръшеный степень яже по бозе добродетели и жительства, съй есть тесный и прискръбный путь, водящий в живот вечный ходящих право по нем. И зело малых обретаем ныне шествующих по нем прямым шествием, зане же побежени быхом окаяно от самолюбиа, и властолюбиа, и стяжанолюбиа, и всех злобах губителнейшаго славолюбиа, вси от него преодолеваеми к еже владети, и начальствовати тщимся всею силою и усердием, ослушающе без ума завещавающу нам владычню заповедь и глаголющу: <cit><quote xml:id="biblical-2">«Аще хто в вас хощет пръвый быти, да есть всех последний и всем раб»</quote></cit> и пакы: <cit><quote xml:id="biblical-3">«Аще кто не смирит себе, яко же детищ съй, не вънидет в царство божие»</quote></cit>. От сих богоглаголивых господа нашего заповедей осветившеся и научени бывше, изберем себе всею душею и усердием жительство и пребывание еже противу силе нашей.</p>
+         <p>Два бо зде жительства слышахом наставляюща нас к нестареющей вечней жизни: едино <metamark function="end-page" rend="//"/><pb type="folio" n="л.275" rend="label-margin-left"/> убо по Моисейскым заповедем съвръшаемо, его же юноша он исповедал съвръшив от юности его, еже и женою съжительствовати законо велит, и чадо творити, и стяжаниа имети, и богатьство праведным промыслом, и елика ина сицева потребна и нужа есть человеческому житию. Другому же жительству научихомся высоку и равноаггелному трудом многым, и страданием, и великым тръпением даже до конца. Съвръшаемо сие же есть преподобных и неложных инок жительство, нестяжанием и нищетою волною утвръжаемо, чистотою и святынею аггелоподобно сиающе, смиреномудриемь же, и кротостию, и въздръжанием огражаемо, и слезами, и въздыхании всегда очищаемо, ненавидяще всегда всяку сладкую, и ухыщрену, и чревообъядение несытное, и безчинаго смеха, и безумное многословие, всегда же поминающе смертный час. И страшнаго неумытнаго судии испытаниа сетовати всегда нудит и пристрашну бывати изволшему таковых постническых подвиг.</p>
+         <p>Третие же иное житие паче сих и пребывание ниже слышахом, ниже научихомся от спаса нашего, супротивно же паче слышим его повелевающаго нам и глаголющаго яве: <cit><quote xml:id="biblical-4">«Никто же может двема господинома работати»; и паки: «Не можете работати богу и мамоне»</quote></cit>, сиречь котораго <metamark function="end-page" rend="//"/><pb type="folio" n="л.275 об." rend="label-margin-left"/> от сказаных вам дву<anchor xml:id="c3" n="в" rend="super"/> жительству изволисте, в том же пребывайте, плодоносяще богу, яко же есть ему угодно. И аще убо обычно и человеческое житие възлюбили, в том плодоносите богу дела добра, сия же есть любовь, яже к другу друг, и правду, истину, страннолюбие, благость еже к нищим и нужным, милость, и милосердие, и заступление сирот и вдовиць, и помощ обидимым. Аще такова добраа дела плодоносите богу, живот вечный всяко получити будете. Аще же вышеестествено житие възлюбисте, потщитеся всею душею и мыслию внити в совръшеное наслажение вечных благ ускым и прискръбным путем, отринувше суетнаго житиа сего лишния губителныя печали, яже отводят ума нашего разумнаго видениа и поучениа неизреченых вечных благ и пригвоздять его всего к плотскым похотем и страстем, пекущимься нам безпрестанно, яко да имамы всегда събрана всячьска многа и добрейша брашна и питиа на угожение грътани и чреву, по глаголющему безумне в Евангелиих к своей души: <cit><quote xml:id="biblical-5">«Душе, имаши многа блага лежаща: яжь, пий, наслажайся, почивай», но что противу безумныа его мысли слышал от страшнаго судии: «Безумниче! В сию нощ истязуют душу твою от тебе; а яже еси. приготовил, кому будет?»</quote></cit></p>
+         <p>Бежим, братие, таковыя безумнаго оного плотолюбныя мысли, отлучающия нас бога и всех в постничестве въсиавших богоносных отец: <metamark function="end-page" rend="//"/><pb type="folio" n="л.276" rend="label-margin-left"/> Антониа, Пахомиа, Евфимиа, Савы Освященнаго, Феодосиа киновиарха и всех преподобных скитскых, иже в труде мнове, и страдании непрестаннем, и в поте лица своего ядяху хлеб свой, съблюдающе прилежно изъреченную с негодованием от самого праведнаго судии заповедь праотцу Адаму, преступившу създавшаго владыкы заповедь. Вемы бо, яко <cit><quote xml:id="biblical-6">«царствие небесное нудимо есть, и нужници въсхыщают е»</quote></cit>, сиречь иже с трудом и подвигы непрестанными и волною скудостию житийскых потреб тщятся получити вечнаго живота по глаголющему пророку: <cit><quote xml:id="biblical-7">«И утрудихся в век, и жив будеть до конца»</quote></cit>. <cit><quote xml:id="biblical-8">«Многыми бо скръбми подобает нам вънити в царствие божие»</quote></cit>, — учит святый Павел апостол, а не всегдашним покоем телесным, изобилием стяжаний и имений, их же всех отрекохомся волею, егда власы главныя стригохомся. Яко же бо немощно есть инако присвоитися царю некоему земьскому, и честь у него, и сана некоего получити, разве прилежнейшим съблюдением повелений его, и неложным еже к нему доброхотением, и скорейшим исплънением еликых он требует, такожде бывает и нам благоверным, в них же желаем получити от бога <metamark function="end-page" rend="//"/><pb type="folio" n="л.276 об." rend="label-margin-left"/> спаса нашего Исуса Христа. Аще не по вся спасителныя заповеди его наше исправим житие, подобни будем бую оному мужу, иже създал храмину свою на песце, к ней же възвеявше зелнии ветри, и дождеве, и рекы, разрушишя ея, и бысть падение ея велие.</p>
+         <p>Ты же, възлюблене, потщися създати дом души своея на неподвижном камени заповедей бога твоего, да уподобит тебе мужу мудру и сподобит тя внити свещеносца с мудрыми девами в небесный чрътог его, иде же есть шум непрестанен празднующих и глас непзреченнаго радованиа, аминь.</p>
+         <p>Здрав бывай за все!</p>
+      </body>     
+      <back> 
+
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">I</head> <!-- numero in apice -->
+               <app from="#с1"> <!-- FROM variante1 ancora1 -  TO variante1 ancora2-->
+                  <lem>разумнаго</lem>
+                  <rdg wit="#basic-witness">тазумнаго</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">II</head> <!-- numero in apice -->
+               <app from="#с2"> <!-- FROM variante1 ancora1 -  TO variante1 ancora2-->
+                  <lem>чюжеженьствуеши</lem>
+                  <rdg wit="#basic-witness">чюженьствуеши</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">III</head> <!-- numero in apice -->
+               <app from="#с3"> <!-- FROM variante1 ancora1 -  TO variante1 ancora2-->
+                  <lem>дву</lem>
+                  <rdg wit="#basic-witness">ду</rdg>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" > <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Испр., в ркп. <hi rend="distinct">тазумнаго</hi></p>
+            </note>
+            
+            <note target="#c2" > <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">б</label> <!-- lettera in apice -->
+               <p>Испр., в ркп. <hi rend="distinct">чюженьствуеши</hi></p>
+            </note>
+            
+            <note target="#c3" > <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">в</label> <!-- lettera in apice -->
+               <p>Испр., в ркп. <hi rend="distinct">ду</hi></p>
+            </note>
+            </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Мф 19,16—21 / Mt 19,16-21)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Cit"><ref>(Мф 20,27 / Mt 20,27)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Cit"><ref>(Мф 18,4 / Mt 18,4)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Cit"><ref>(Мф 6,24; Лк 16,13 / Mt 6,24; Lc 16,13)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Cit"><ref>(Лк 12,19—20 / Lc 12,19-20)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Cit"><ref>(Мф 11,12 / Mt 11,12)</ref></bibl>
+            <bibl corresp="#biblical-7" type="Cit"><ref>(Пс 48,9—10 / Sal 48,9-10)</ref></bibl>
+            <bibl corresp="#biblical-8" type="Cit"><ref>(Деян 14,22 / At 14,22)</ref></bibl>
+         </listBibl>
+
+      </back>
+   </text>
+</TEI>

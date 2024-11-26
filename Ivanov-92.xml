@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Переводы из Свиды, не образующие циклов - Переводы в сборнике сочинений Максима Грека ГБЛ, ф. 256, собр. Румянцева, № 264 - О Сатане [Perevody iz Svidy, ne obrazujuščie ciklov - Perevody v sbornike sočinenij Maksima Greka GBL, f. 256, sobr. Rumjanceva, № 264 - O Satane]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881">Повѣсть о падении ангеловъ [Pověst' o padenii angelov''] <note type="editorial"><ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="495" to="495">495</citedRange></bibl></ref></note></title>    
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Str-1883">О диаволе [O diavole] <note type="editorial"><ref><bibl>Stroev 1883 <citedRange unit="page" from="204" to="207">204-207</citedRange></bibl></ref></note></title>    
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Повесть о Сатане [Povest' o Satane] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="77" to="77">77</citedRange></bibl></ref></note></title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Повесть о Сатане и бесех [Povest' o Satane i besech] <note type="editorial"><ref><bibl>Ivanov 1969: 77, n. 159, md. RNB, F.I.425, cap. 143, ff. 558v-559r</bibl></ref></note></title>
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Перевод Максима Грека из лексикона «Суда» - О Сатане [Perevod Maksima Greka iz leksikona "Suda" - O Satane] <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="255" to="255">255</citedRange></bibl></ref></note></title>
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">92</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 62</bibl>                    <!-- 01 inventario COLONNA M -->
+               </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984</date></ref>: <biblScope unit="page" from="167" to="168">167–168</biblScope>, <biblScope unit="chapter">nr. I.6.I.</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, собр. Румянцева 264</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                    <locus type="foliation" target="#107r">лл. 107</locus>   <!-- 02. Inventario testimone base COLONNA G -->
+                     <title xml:lang="cu-Cyrl">О сатане</title>   <!-- 01. Inventario COLONNA i -->
+                     <incipit xml:lang="cu-Cyrl">Яко Сатана по евреискому языку отступник глаголеться.</incipit>   <!-- 01. Inventario COLONNA J -->
+                     <explicit xml:lang="cu-Cyrl">Подвизателнои же борбы бог не възбранил, да бръба покажеть храборников.</explicit>   <!-- 01. Inventario COLONNA K -->
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+           
+            
+            
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="Σ151">Suda Σ151 [= Adler 1928-1938, IV: 330-331]</ref> 
+               </bibl> 
+            </listBibl>
+            
+           
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">1519ca <note type="editorial"><ref><bibl>Bulanin 1984a: 72, n. 69</bibl></ref></note></date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">  
+               <term>Suda (Satana)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation" source="#Σ151">Traduzione</term> 
+            </keywords>
+         </textClass>
+         
+       
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>(Л. 107) 0 САТАНЕ</p>  
+      </front>
+      
+      <body>
+         <p><metamark corresp="#Σ151" function="locus-Suda" rend="label-margin-right" />Яко сатана по евреискому языку отступник глаголеться. Тъи же и диавол еллиньскым языком, сиречь клеветник, акы оклеветав Бога к человеком и самем человеком рвение влагая промеже им и брань. Не лукави же изначала беси от Бога всех създани бышя, но развращением норова своего от лучших на гръша препадошя самовластне и самоизволне, н о дарованых им от Бога недовлъни бывше, но блъшим въжделевше, гръдостную страсть прияша<anchor xml:id="c1" n="а" rend="super"/>, и на них акы божественым образом почтеных неистовьствовашя, предстательством же аггелов съблюдаеми суть. Подвизателнои же борбы Бог не възбранил, да бръба покажеть храборников.</p>
+         </body>
+      
+      <back> 
+         
+         
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> 
+            <note corresp="#c1" > 
+               <term rend="super">а</term> 
+               <p xml:lang="grc">Пропуск: <hi rend="distinct">ʾεχπεσεῖν τῆς ἀρχῆθεν δοθείσης τιμῆς χαί τόν χατά τῶν ἀνθρώπων ἀωαδέξασθαι πόλεμον</hi></p> 
+            </note>
+            
+         </noteGrp>
+         
+         
+         
+      </back>
+   </text>
+</TEI>

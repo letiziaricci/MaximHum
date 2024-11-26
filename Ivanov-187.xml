@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека послание къ Григорию дякону [Inoka Maksima Greka poslanie k'' Grigoriju djakonu]</title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881 #Iva-1969"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="495" to="495">495</citedRange></bibl> <bibl>Ivanov 1969 <citedRange unit="page" from="138" to="138">138</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025"> [Послание дьякону Григорию (о пьянстве) (Poslanie d'jakonu Grigoriju [o p'janstve]) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>  
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Il destinatario dell'epistola è menzionato in Ivanov 251 e condiviso con Ivanov 262 e Ivanov 309</note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">187</idno>
+            </bibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="386" to="388">386-388</biblScope>, <biblScope unit="chapter">nr. 34</biblScope> 
+               <title type="epistolary-formula" xml:lang="cu-Cyrl">Господине мои, брате о Господѣ Григорие, Христовъ диаконе! </title>
+               <incipit type="info-ms">Aще позпаеши свое погрѣшенние и исправишися, не подиви, Христа ради, о моемъ безумии [...]</incipit>
+               <explicit type="info-ms">Григорие! Гдѣ слово глаголющее: Рабъ, иже увѣдѣвыи волю господина своего, п не сотворь ю, биенъ будетъ много? Имаши ли вѣры словеси сему? Исправися предъ страшнымъ Судиею, а не имаши вѣры, самъ узриши.</explicit> 
+            </bibl> <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Posl. nr. 11</biblScope><note>Edizione in corso di stampa</note>
+                  
+               </bibl>
+            </listBibl>
+  
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-495-514"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol-497-516"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni, tanti <witness></witness> quanti sono i testimoni di controllo in 03. Inventario testimoni di controllo--> 
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-4" ana="#reference-ms" />
+            </listWit> 
+            
+  
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Послание</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Denuncia (ingordigia, ubriachezza)</term> 
+               <term>Istruzione</term> 
+               <term>Correzione</term>
+               <term>Profezia (Giudizio)</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>    
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grekv</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Gri">Григорий / Grigorij (diacono del vescovo Akakij di Tver', cfr. Žurova 2022a: 1367)</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>
+            </interpretation>
+         </editorialDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОКА МАКСИМА ГРЕКА ПОСЛАНИЕ КЪ ГРИГОРИЮ ДИАКОНУ</p>  
+      </front>
+      
+      <body>
+         <p>Господина мои, брате о Господѣ Григорие, Христовъ диаконе! аще познаеши свое погрѣшение и исправишися, не подиви, Христа ради, о моемъ безумии; болитъ бо ми сердце духовнѣ о тебѣ, сице безълѣпо безчиньствующемъ, и се вразумѣ и еще въ такия священныя дни, оставивъ священная и яже Божия, гортани и чреву тлѣющимъ празднуеши мирски. Гдѣ страхъ Божии и память смертная и истязание оно страшно, еже на судилищи Христовѣ? Али забылъ еси глаголющаго: <cit><quote xml:id="biblical-1">пьяницы во царство небесное не приемлются</quote></cit>, и заповѣдь Божию, глаголющую: <cit><quote xml:id="biblical-2">блюдетеся, да не когда отягчаютъ сердця ваша отъ объядения и пиянства</quote></cit> и прочая вѣдома? Тако ли, Григорие, брежеши Христовы заповѣди и отеческиа уставы и правила, али не помниши, что судити хощетъ намъ по заповѣдемъ своимъ крѣпцѣ? Но негли речеши ми: люди добры меня нудятъ, да како преслушати; Григорие, а Христосъ не добръ ли ти судится человѣкъ, иже тебе всѣми писании святыми зоветъ на пиръ небесныи? Что пужнѣе намъ, скажи ми, аще еще осталась въ тебѣ каплинка христианолѣпнаго твоего разума. Христосъ ли и вси его святии и пиръ небесныи, али человѣцы мертвеннии, и пиры сатаниньстии? Да не смущаися къ слову сему, нѣсть бо мое, но самого Иоанна Златоустаго; аще ты, соль нареченъ бывъ Христомъ, тако безчиньствуеши, земля въ чѣмъ осолится? Ни вочтоже, рече, къ тому потребна есть, точию да исыплется вонъ отъ царства небеснаго и попираема будетъ человѣки. Григорие! гдѣ слово глаголющее: рабъ, иже увѣдѣвыи волю господина своего, и не сотворь ю, биенъ будетъ много? имаши ли вѣры словеси сему? Исправися предъ страшнымъ Судиею, а не имаши вѣры, самъ узриши.       
+        </p>
+      </body>
+      
+      <back> 
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="1Cor"><ref>(ср. 1 Кор 6, 10 / cfr. 1Cor 6,10)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Lc"><ref>(ср. Лк 21, 34 / cfr. Lc 21,34)</ref></bibl>
+         </listBibl>
+         
+
+      </back>
+   </text>
+</TEI>

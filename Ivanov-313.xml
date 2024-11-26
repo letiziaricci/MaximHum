@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание к великому князю Ивану Максима Грека [Poslanie k velikomu knjazju Ivanu Maksima Greka]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Послание к самодержавному царю Ивану Васильевичю о еже не брити брады [Poslanie k samoderžavnomu carju Ivanu Vasil'evičju o eže ne briti brady] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="184" to="185">184-185</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Послание Ивану IV о небритии бороды (Poslanie Ivanu IV o nebritii borody) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title> 
+          </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+        <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">313</idno>
+            </bibl>
+            
+      
+            <bibl type="reference-edition">    
+               <ref target="lista-bibliografia.xml#Sce-1911"><name>Ščeglova</name>, <date>1911</date></ref>: <biblScope unit="page" from="10" to="13">10–13</biblScope>
+               
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografica.xml#Zma-1881"><name>Žmakin 1881</name>, <date>1881</date></ref>: <biblScope unit="page" from="81" to="84">81-84</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Posl. nr. 3]</biblScope> <note>Edizione in corso di stampa</note></bibl>
+            </listBibl>
+            
+           <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Kir-Bel 21/1098">
+               <msIdentifier> 
+                  <msName>РНБ, Кир.-Бел. 21/1098</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#22r #27r">лл. 22-27</locus>  
+                     <title xml:lang="cu-Cyrl">Благовѣрному царю и самодержьцу всея Русии, государю великому князю Иванну Василевичю ниско много челомъ</title>  
+                     <rubric type="epistolary-formula" xml:lang="Cyrl">Благовѣрному царю и самодержьцу всея Русии, государю великому князю Иванну Василевичю ниско много челомъ.</rubric> 
+                     <incipit xml:lang="cu-Cyrl">«Ни едино дѣло премудрости божиа суетно есть». реклъ есть нѣкыи от древних богомудрых мужь.</incipit>  
+                     <explicit xml:lang="cu-Cyrl">и да ся исправим послушающе глаголющаго таиноглагольника. аще Духом живем, Духомъ да ходим. еже есть христианолѣпными обычаи и предании, да украшаимъ житие наше. о Христѣ Иисусѣ Господѣ нашемъ, тому слава въ вся вѣкы аминь.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+
+           
+           <listBibl type="secondary-bibliography"> 
+              <bibl xml:id="Bul-1984a">
+                 <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="179">179</biblScope> 
+              </bibl> 
+           </listBibl>
+           
+           <listBibl xml:id="Suda-Bul1984a" type="excerptum-dubium" source="#Bul-1984a">
+              <bibl> 
+                 <ref xml:id="Σ484">Suda Σ484 [= Adler 1928-1938, IV: 367]</ref> 
+              </bibl>
+            </listBibl>
+     
+        </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[ab anno 1547]</date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>[Послание]</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Polemica religiosa</term> 
+               <term>Confutazione</term>
+               <term>Ortoprassi (taglio della barba)</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original" source="lista-bibliografia.xml#Iva-1969">Testo originale</term> 
+               <term target="#original" source="#Suda-Bul1984a">Testo originale con excerptum dubium</term>    
+               <term target="#dubium" source="lista-bibliografia.xml#Fil-1842">Dubium <note type="editorial"><ref><bibl>Filaret 1842 <citedRange unit="page" from="80" to="81">80-81</citedRange></bibl></ref></note></term>
+             
+               
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#I4V">Иван IV Васильевич / Ivan IV Vasil'evič</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <tagsDecl>
+            <rendition xml:id="roundBefore" scheme="css" scope="before">content: "(";</rendition>
+            <rendition xml:id="roundAfter" scheme="css" scope="after">content:")";</rendition>
+         </tagsDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+            
+      <body>
+         <p>Благовѣрному царю, и самодержьцу всея Русии. государю великому <metamark function="end-page" rend="//"/><pb type="folio" n="л. 22 об."/> князю Иванну Василевичю ниско много челомъ<anchor xml:id="c1" n="а" rend="super"/>.</p>
+         <p><cit><quote xml:id="other-1">«Ни едино дѣло премудрости божиа суетно есть»</quote></cit>. реклъ есть нѣкыи от древних богомудрых мужь. и богодъхновенныи царь и пророкъ Давидъ, дивуяся преухищренным украшениемъ съдѣтельства Вышняго, въпиеть глаголя. <cit><quote xml:id="biblical-1">«коль възвеличишася дѣла твоа Господи. вся премудростию сътворилъ еси»</quote></cit>. многымъ убо сущим съвершающим тѣло наше удовом нашим. овы убо сих, на нужнѣишу потребу нашу умышлены премудрым Содѣтелем. якоже ногы убо въ еже движатися нам идѣже аще треба будет. руцѣ же въ еже дѣлати потребнаа. очи же въ еже глядати и разознати срѣтающаа; и лучающаа нам какова же и елика суть. носъ и ноздри къ разсуждению различным воням и въдышению, и издышению жи <metamark function="end-page" rend="//"/><pb type="folio" n="л. 23"/>вотнаго воздуха. овых не въ украшение и благолѣпие. точию лицом нашим, но и к немалеи потребе умылшени бышя премудрѣишим Съдѣтелем. якоже брови убода яко къ еже от них благолѣпию. да и подлежащая им очи, не вредных съблюдут от натекающих и сланых потовъ. рясницых наихуждьше съзание да тѣ еже очи съблюдаютъ нестужаемых от всякаго тончаишаго праха и пуха. якова многа въздухомъ обносима в глазѣх лежут. усъ же и брада предобрѣише умышлена бывша премудреишим хитрецем Богомъ. не точию къ разознанию женьскаго полу и мужскаго, но еще къ чьстьновидному благолѣпию лиць нашихъ. кто здравъ умом Сын и Богу въ всем тщася благоугодити възненавидити, когда и бритвою изьгладити видениа его. дарова <metamark function="end-page" rend="//"/><pb type="folio" n="л. 23 об."/>нное ему сицево от Съдѣтеля честнообразное украшение. и наипаче слышя волокы крѣпце Моисеомъ, повелѣвающаго людем ииловым. <cit><quote xml:id="biblical-2">«не отъсецѣте брады ваша» еже есть не бреите. «ниже сътворите сисоинъ на главах вашых якоже языцы»</quote></cit>. аще же прокляти уклоняющеися от заповѣдеи божиихъ. якоже слышим въ священном пѣснопѣнии. под тоиже клятвѣ подлежят и истребляющии бритвою брады своя. противящися без ума заповѣди божии. но что к сим противящеися глаголют непокоривии и презоривии латыня. по ветхаго Рима святитель соборным правилом своим отлучает глаголють съобщениа вѣрных небреющих брады. И аще сице есть якоже сказуютъ тои убо паппа и его събор повинни суть еуангельскому отвѣту глаголющему явѣ иже аще разорити едину от сих менших заповѣдеи <metamark function="end-page" rend="//"/><pb type="folio" n="л. 24"/> и научити тако человѣкы, наименшии наречется въ царьство небесное. еже есть въ страшном втором пришествии, неумытнаго судии сужденъ будет, аки противився еуангельстѣи заповеди. яко древнее и богоугодное предание есть еже брады не брѣете, явѣ есть и от иных писанных показании. и наипаче от них же писано есть во втором царьствии и съдѣяся при самом цари Давидѣ. царь Давидѣ послалъ чьстьных мужеи, къ Аннону царю аманитскому сыну Наасову. утѣшити его скорбяща о умрьтвии отьца его. ихже пришедших обесчестилъ Анонъ, брады их отъсѣкъ. и одѣжды ихъ долгы отрѣзавъ до бедръ. послушавъ своихъ боляръ главших к нему, яко с лестию послалъ ихъ Давидъ. а не по любви и дружбе. вѣдати хотя какаа крѣпость града и людии есть. слышав же Давидъ дръзну тую на посланникы своя досаду и бесчестие. велѣлъ им в селех <metamark function="end-page" rend="//"/><pb type="folio" n="л. 24 об."/> их жити дондеже пакы брады их отъростут. скверну възмнѣвъ прибыти себѣ, аще събесѣдуеть и сице безъобразившимся. толь мръско мняшеся древним праведным еже брѣети брады свои. божию заповедь съблюдающим глаголющую, не отъсѣчете брады вашя. Въпрашаемых латыня чесо ради брѣются, глаголють яко тщеславие суетно притворять еже браду пущати. и аще есть от тщеславиа съгрѣшениа избывающе, сего ради брѣют бороды своя. множае паче подобаше им отърѣзати дѣтородныя уды скопскы, аки разжигающих ихъ къ стулным блужениемъ. и богомрьскым похотем. очи же извертѣти. руку же и ногу отъсѣкати. еуангельскы рещи. аки сими нудимым ко всячьскым лукавым дѣланиемъ и похотем. но не уды телесъ нашых отъсѣщи нам спасъ велит, но лукавыя <metamark function="end-page" rend="//"/><pb type="folio" n="л. 25"/> похоти душь нашых сими удесы дѣиствуемых. сице подобаше бѣгати и съгрѣшениа тщеславнаго. смиреномудреными подвигы противящимся ему. а не бороду брѣети знамение суще чьстьнолѣпнаго образа. елма есть видѣти их без бород тщеславиемъ побѣждаемыхъ лютѣ. овых убо о благородии родителеи. иных же о изобилии многообразнаго разума и премудрости. самого же пресловутаго паппу их. о одежи огненообразнѣи различнѣ преукрашаемѣ и златом и сребром, и о митрии <hi rendition="#roundBefore #roundAfter">вѣнцы</hi> высоцѣ и треми, и многоцѣнными каменми осиаваеме, невозъдръжно хвалящася. гдѣ у него смиренное мудрование верховънаго, иже ни обычное человѣкопоклонение корнильевоприат. но воздвиже его рекъ въста <metamark function="end-page" rend="//"/><pb type="folio" n="л. 25 об."/>ни, ибо и самъ человѣкъ есмь. чюднѣиши паппа объѣщая въ Римъ аще не поклоним будет от срѣтающих его, ничтоже ради тъ ему, биемых бываемых ихъ от паличникъ своих. а еже не изволяти дати лобзание въ уста или в ланиту. приступающим к нему властелем и княземъ и велможам. но овым убо колѣно, овем же ногу на целование даати. кое краинее кичениа и высокоумиа и гръдости не превъсходит. и наипаче слыша волоку Христа, Симона убо укоряюща не давша ему лобзание любовное знамение. а блудницу похваляюща ногы его причьстыа облобызающу. Суятенъ убо въистину и безуменъ извѣтъ латынскыи, показаша бо ся и без бород невоздръжно тщеславящеся, явъственѣ убо <metamark function="end-page" rend="//"/><pb type="folio" n="л. 26"/> обличаеми бывают. яко гнушающеся сицево чьстьное украшение дарованное от създателя мужу, брѣют е. а яко не точию словесному естеству человѣковъ. но еще и безсловесному даровася, сицевъ, благолѣпныи образъ. Услышим внятно. нѣкоего слышалъ есмъ повѣдавша мнѣ. а самовидецъ не бывалъ. яко играюще нѣции отъсѣкоша браду нѣкоего зла, добробородна зѣло. и тои не стерпѣвъ сицевы досады. самого себе убилъ до смрьти. биа без милости главу свою к земли. уразумѣемь коль чьстьно и любезно есть бородное украшение и безсловесному животну. азъ же словесенъ сыи гнушаюся ея. Оле студа и безумия моего. но сие убо сицево. услышим же и ино дивно. Воевода нѣкии славенъ грекъ, именемъ Мина. ездя съ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 26 об."/> еже онѣмъ воинствомъ по брегом ниловым, явишася ему посредѣ Нила. дваи животна человѣкообразна поряду стоаща. прекрасна взором. ихъ же едино предоброю брадою преукрасися мужь съи былъ. а другое женскою добротою преукрашено зѣло. их же доброте удивляа ся на длъго Мина. заклялъ их. не погрузити ся в водѣ, дондеже все воиньство узри ихъ. да разумѣемъ убо мы немыслении, коль неисчетна есть благодать яже о нас Съдѣтеля нашего. яко не точию заповѣдию своею но показаниемъ бесловесных животных наказает нас, чьстьнолѣпно жительствовати, благочьстивым сущим, а не яко же языкы невѣрныя. и да ся исправим послушающе глаголющаго таиноглагольника. аще Духом живем, Духомъ да ходим. еже есть <metamark function="end-page" rend="//"/><pb type="folio" n="л. 27"/> христианолѣпными обычаи и предании, да украшаимъ житие наше. о Христѣ Иисусѣ Господѣ нашемъ, тому слава въ вся вѣкы аминь.</p>
+     </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1">
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Въ оглавлении читаемъ: <hi rend="distinct">«Послание к великому князю Ивану. Максима Грека»</hi></p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Пс 103, 24 / Sal 103,24)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Lv"><ref>(Лев 19, 27 / Lv 19,27)</ref></bibl>
+         </listBibl>
+         
+         <listBibl type="other-cit">
+            <bibl corresp="#other-1" type="Cit">Da individuare</bibl>
+         </listBibl>
+         
+         
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же инока Максима сказание къ отрицающимся на поставлении и кленущимся своим рукописаниемъ рускому митрополиту и всему священному Собору, еже не приимати поставлениа на митрополию и на владычьства от Римскаго папы латынскыа вѣры и от Цареградскаго патриарха, акы въ области безбожныхъ турков поганаго царя, и поставленаго от них не приимати [Togo že inoka Maksima skazanie k'' otricajuščimsja na postavlenii i klenuščimsja svoim rukopisaniem'' ruskomu mitropolitu i vsemu svjaščennomu Soboru, eže ne priimati postavlenia na mitropoliju i na vladyč'stva ot Rimskago papy latynskya věry i ot Caregradskago patriarcha, aky v'' oblasti bezbožnych'' turkov poganago carja, i postavlenago ot nich ne priimati]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1897 #Iva-1969 #Sin-1977"><note type="editorial">Titoli concordi con il titolo editoriale in <ref><bibl>Maksim Grek 1897 <citedRange unit="page" from="126" to="127">126-127</citedRange></bibl> <bibl>Ivanov 1969 <citedRange unit="page" from="154" to="154">154</citedRange></bibl> <bibl>Sinicyna 1977 <citedRange unit="page" from="233" to="233">233</citedRange> <citedRange unit="page" from="244" to="244">244</citedRange></bibl></ref></note></title>  
+            
+           </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+     
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">225</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 44</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 36</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="337">337</biblScope>, <biblScope unit="chapter">nr. 44</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="126" to="127">126-127</biblScope>, <biblScope unit="chapter">nr. 22</biblScope>
+               </bibl>
+              </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#MDA-42"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 173, МДА 42</msName> 
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#373r #374r">лл. 373-374</locus>   
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима сказание къ отрицающимся на поставлении и кленущимся своим рукописаниемъ рускому митрополиту и всему священному Собору, еже не приимати поставлениа на митрополию и на владычьства от Римскаго папы латынскыа вѣры и от Цареградскаго патриарха, акы въ области безбожныхъ турков поганаго царя, и поставленаго от них не приимати</title>   
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Римского убо папы, аки отпадшаго лика православных архиереевъ рукоположениа отвращатися и отметати достоино и праведно есть и нужно зѣло. А Костянтинаградскаго вселенскаго патриарха въ всяком православии и благозаконии Божиею благодатию даже и доселѣ съхраняемаго рукоположениа коея ради вины отметаешися, о пречюдныи?</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Яко же убо похвално есть еже отвращатися еретичьствующих, такожде укорно есть и неспасително, еже отлучитися православнѣ архиереиствующихъ!</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="И" /> 
+                  <witness xml:id="Р">   
+                  <ref target="lista-manoscritti.xml#Rum-264">(РГБ, Рум. 264)</ref>   
+               </witness>
+            </listWit> 
+        
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc> 
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Iva-1969">1522ca <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="154" to="154">154</citedRange></bibl></ref></note></date>  
+            <date resp="lista-bibliografia.xml#MG-2014">post 1531 <note type="editorial"><ref><bibl>Maksim Grek 2014 <citedRange unit="page" from="408" to="410">408-410</citedRange></bibl></ref></note></date> 
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label"> 
+               <term>Сказание</term> 
+              </keywords>
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Polemica religiosa (illegittimità dell'autocefalia della Chiesa russa)</term> 
+           </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+     </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ТОГО ЖЕ ИНОКА МАКСИМА СКАЗАНИЕ КЪ ОТРИЦАЮЩИМСЯ НА ПОСТАВЛЕНИИ И КЛЕНУЩИМСЯ СВОИМ РУКОПИСАНИЕМЪ РУСКОМУ МИТРОПОЛИТУ И ВСЕМУ СВЯЩЕННОМУ СОБОРУ, ЕЖЕ НЕ ПРИИМАТИ ПОСТАВЛЕНИА НА МИТРОПОЛИЮ И НА ВЛАДЫЧЬСТВА ОТ РИМСКАГО ПАПЫ ЛАТЫНСКЫА ВѣРЫ И ОТ ЦАРЕГРАДСКАГО ПАТРИАРХА, АКЫ ВЪ ОБЛАСТИ БЕЗБОЖНЫХЪ ТУРКОВ ПОГАНАГО ЦАРЯ, И ПОСТАВЛЕНАГО ОТ НИХ НЕ ПРИИМАТИ.<metamark function="text-sequence" rend="44"/><anchor xml:id="c1" n="а" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Римского убо папы, аки отпадшаго лика православных архиереевъ рукоположениа отвращатися и отметати достоино и праведно есть и нужно зѣло. А Костянтинаградскаго вселенскаго патриарха въ всяком православии и благозаконии Божиею благодатию даже и доселѣ съхраняемаго рукоположениа коея ради вины отметаешися, о пречюдныи? <metamark function="end-page" rend="//"/><pb type="folio" n="л. 373 об." rend="label-margin-left"/> Да еще предобѣщався своимъ рукописаниемъ блюсти опасно священныя каноны святых апостолъ и седмих Съборъ вселенскых, гдѣ от них учимъ бываеши отнудь отлучитися своего патриарха, дондеже православнѣ предстоитъ святѣишеи Божиеи церкви? Аще ли, понеже Божиимъ праведным судом отгнашася грѣх ихъ ради правовѣрнии царие и вмѣсто их попустишася безвѣрникы, мучители, христианогонители, сего ради гнушаешися константиноградскаго рукоположениа, первѣе убо учися, яко святая николи же скверна не бываютъ областию нечестивых, и сие увѣжь им же 300 вся лѣта и мало что къ симъ от Спасова Възнесения до великаго царя Константина нечестивыми христианогонители вся вселенная царствовашеся и управляшеся, и святая Божия Церковь, акы солнце, сияше посрѣдѣ нечестиа, бесчислеными чюдесы и силами Святаго Духа преукрашаема, и ни единъ когда языкъ отлучился ея, акы оскверняемыя <metamark function="end-page" rend="//"/><pb type="folio" n="л. 374" rend="label-margin-left"/> областию нечестивых, яко же ты недобрѣ непщуеши. Потом да научится преподобие твое, яко святительство и царя мажетъ и вѣнчаваеть и утвержает, а не царство святителехъ. И сего ради рукы ихъ съ желаниемъ и благоговѣние цѣлуетъ, акы освященных Богу Вышнему, и главу свою приклонь, акы прочии народ, знамениямъ честнаго креста знаменуется от них по премногу. Убо болше есть священьство царства земскаго, кромѣ бо всякого прекословиа меншее от болшаго благословляется, глаголетъ божественыи апостолъ. Тѣм же, аще изгнашася Божиимъ судом мирскыи царствующеи, но духовнѣ царствуяи не отриновенъ бысть рукы Божия благодати, но пребываеть и утвердится, съхраняемъ Божиею благодатию въ всяком православии посредѣ нечестивых. Яко же убо похвално есть еже отвращатися еретичьствующих, такожде укорно есть и неспасително, еже отлучитися православнѣ архиереиствующихъ!</p>
+      </body>
+      
+      <back> 
+         
+        <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" >
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Буквенное обозначение номера главы на поле другим почерком и другими (более светлыми) чернилами.</p> 
+            </note>
+          </noteGrp>
+         
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека сказание рѣчи: ступаите людие мои и прочая (Исаии 26,20) [Inoka Maksima Greka skazanie rěči: stupaite ljudie moi i pročaja (Isaii 26,20)]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969 #Sin-1977">Titoli concordi con il titolo editoriale in <ref><bibl>Ivanov 1969 <citedRange unit="page" from="173" to="173">173</citedRange></bibl></ref> <ref><bibl>Sinicyna 1977 <citedRange unit="page" from="260" to="260">260</citedRange></bibl></ref></title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Толкование текста пророка Исаии (Tolkovanie teksta proroka Isaii) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>   
+           
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+                  
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">Ivanov-258</idno>
+            </bibl>
+            
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 118</bibl>
+            </listBibl> 
+            
+            <bibl type="reference-edition">    
+               <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="28" to="32">28-32</biblScope>, <biblScope unit="chapter">nr. 4</biblScope> 
+               <incipit type="info-ms" xml:lang="cu-Cyrl">Божественныя рѣчи пророка Исаии, глаголющыя: ступаите людие мои внидите въ клѣть вашу затворите дверь вашу и прочая, таковъ есть толкъ, елико мощно мнѣ достигнути.</incipit>  
+               <explicit type="info-ms" xml:lang="cu-Cyrl">Того же и мы да держимся крѣпцѣ, да яко обрящемся основани о немъ и неподвижни во вѣки. Аминь.</explicit>  
+            </bibl> 
+
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Rum. nr. 13</biblScope>. <note>Edizione in corso di stampa</note>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-494-513">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>  
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName> 
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName> 
+               </msIdentifier>
+            </msDesc>
+
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#b-wit-1" ana="#reference-ms" /> 
+               <witness corresp="#b-wit-2" ana="#reference-ms" /> 
+               <witness corresp="#b-wit-3" ana="#reference-ms" /> 
+               <witness corresp="#b-wit-4" ana="#reference-ms" /> 
+            </listWit> 
+            
+        </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Сказание</term> 
+
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Esegesi biblica (Is 26,20)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2 #b-wit-3 #b-wit-4">       
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>         
+            </interpretation>
+         </editorialDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОКА МАКСИМА ГРЕКА СКАЗАНИЕ РѢЧИ: <cit><quote xml:id="biblical-1">«СТУПАИТЕ ЛЮДИЕ МОИ»</quote></cit> И ПРОЧАЯ</p>  
+      </front>
+
+      <body>
+         <p>Божественныя рѣчи пророка Исаии, глаголющыя: ступаите людие мои внидите въ клѣть вашу затворите дверь вашу и прочая, таковъ есть толкъ, елико мощно мнѣ достигнути. Понеже мало повыше помолился пророкъ рекъ: Господи Боже нашъ, даждь намъ миръ, вся бо отдалъ еси намъ, Господи Боже нашъ, притяжи насъ и прочая, сирѣчь елицѣхъ скорбѣхъ и казнехъ должни бяхомъ терпѣти, грѣхъ ради нашихъ, отъ тебе неумытнаго и страшнаго Судии подъ страхомъ уже, и градъ бо святыи твои Иерусалимъ разорилъ еси, и храмъ пресловутыи божественныи Сионъ истребилъ еси, и царя наша и священники и люди твоя плѣнены въ земли дальнѣи и поганѣи отпустилъ еси; нынѣ же молимъ тя милостиваго Господа, умилосердися о насъ и призри милостивымъ окомъ и покои насъ, возвративъ отъ плѣнения и многолѣтны работы вавилонскиа и всели насъ въ землю твою, юже обѣтовалъ еси отцемъ вашимъ Аврааму и Исааку и Иакову, возлюбленнымъ тебѣ. Сими и сицевыми умиленными молении умоленъ бывъ многомилостивыи Богъ отвѣщаетъ имъ и завѣщаетъ милостивно, глаголя: ступаите людие мои, сирѣчь ходите устроите житие ваше соблюдениемъ и исполнениемъ  всѣхъ заповѣдеи моихъ; ступание бо здѣ не движение глаголетъ, еже отъ мѣста на мѣсто ногами прехождение, но еже отъ добродѣтели на большую добродѣтель преспѣяние и восхожение. И сему учитъ насъ самъ Господь, глаголя къ иудеомъ: <cit><quote xml:id="biblical-2">«ходите, дондеже свѣтъ имате»</quote></cit>, не мѣстно хожение завѣщавая имъ, но добродѣтельное преспѣяние святыхъ заповѣдеи его, якоже и псалмопѣвецъ глаголетъ о святыхъ мученикъ: ходящеи хождаху и плачюще метаху сѣмена своя, еже есть держащеся вѣры и любви Христовы, терпяху съ радостию всяческиа муки и скорби, и понеже ко ступанию сему требуемъ еще и большаго брежениа и внимания, приводитъ, глаголя: внидите во клѣть свою, затворите дверь вашу, укрыитеся мало и прочая, сирѣчь, всею вашею мыслию и помыслы соберите вашего всего ума, въ сокровеннѣи дѣлательницы сердецъ вашихъ, и не оставляите его скитатися безпутиемъ сѣмо и овамо, но затворяите его дверми вашими, сирѣчь прилежнымъ хранениемъ пятихъ чювствии вашихъ, имиже входитъ умная смерть и убиваетъ внутренняго человѣка, укрыитеся мало елико елико, сирѣчь утишитеся отъ лишнихъ и неполезныхъ и суетныхъ мира сего суетнаго попечении, въ нихъ же безпрестани привязаны суетеся, и мнѣ, повелѣвающу   вамъ упразднитися и разумѣти, яко азъ есмь Богъ, никакоже внимаете, а вся ваша мысль и тщание и желание въ земныхъ и маловременныхъ  стяжании  и въ  богатство  гиблющее. Аще убо хощете истиною насладитися въ моихъ благихъ, ихъ же уготовахъ  любящимъ   мене, ходите всегда вЪ заповѣдехъ  моихъ  правою  и совершенною  мыслию  и желаниемъ, отступивше всякихъ суетныхъ житеискихъ  плищехъ  и молвахъ, укрыитеся убо отъ сицевыхъ  вашихъ суетныхъ  тщании  мало, сирѣчь  на маловременномъ  семъ житии  вашемъ,   дондеже  приидетъ   гнѣвъ  Господень, хотящии  явитися  на вся грѣшники   въ день  судныи, егда воздаяние  будетъ  всякому  по дѣломъ  его. Но  о семъ  убо толика.  Да  разсмотримъ  же и се, что есть реченное тѣмъ  же  пророкомъ  въ тои же пѣсни;  мертвии же жизнь  да не узрятъ, ни врачеве да воскресятъ, рекъ  повыше  пророкъ, зависть прииметъ  людеи ненаказанныхъ и нынѣ огнь супротивныхъ поястъ. Въ сихъ пророкъ явственнѣ пророчествуетъ и безумную ревность саддукеовъ и фарисеовъ, иже затвориша въ темниды апостоловъ возвѣщающихъ воскресение мертвыхъ о имени Иисусовѣ такоже  пророчествуетъ и конечную погибель всеродну распеншихъ Господа, въ нихъ же  глаголетъ:`сего ради навелъ еси и погубилъ и взятъ всякъ мужескъ полъ ихъ; сие же бысть, внегда предалъ ихъ воемъ римскимъ при Веспасианѣ и Титѣ цареиъ  римскимъ и разсѣялъ ихъ плѣненныхъ по всеи подсолнечнѣи. И чесо ради таково  всегубительство напустилъ на ня Божии судъ праведныи? Зане глаголаху  противницы книжницы и фарисеи со беззаконными  своими  архиереи. Мертвии  же жизнь да не узрятъ и врачеве  да не воскресятъ мертвыхъ - глаголетъ  безбожныя  прежде языки, занеже непричастны  отнюдъ бяху жизни вѣчныя; врачеве же суть  послани во всю вселенную святии апостоли воскресити умерщвеныя душа смертоноснымъ идолослужениемъ. И сие явѣ сказуетъ Павелъ апостолъ, въ первомъ  къ Солуняномъ, глаголя: <cit><quote xml:id="biblical-3">«яко таяжде пострадасте и вы отъ соплеменники, якоже и они отъ июдеехъ, иже Господа убиша и насъ и своя пророки изгнаша и Богу не угодиша и всѣмъ человѣкомъ противляются, возбраняюще намъ глаголати языкомъ, да спасутся, постиже на ня гнѣвъ въ конецъ»</quote></cit>, якоже и въ Дѣяниихъ   апостольскихъ тожде является глаголющихъ ко апостоломъ: <cit><quote xml:id="biblical-4">«не прещениемъ ли  запретихомъ  вамъ  не учити о имени  семъ,  и се исполнисте  Иерусалимъ  учения  вашего и хощете навести на ны кровь человѣка сего»</quote></cit>. Такоже о немъ  беззакономыслящимъ пророкъ божественною ревностию жегомь молится на ня Господу  и вѣщаетъ: приложи имъ зла, Господи, приложи зла славнымъ земли, еже есть ищущимъ славу отъ человѣкъ на земли, а не отъ Бога въ будущемъ; таже пониже  вѣщаетъ, радуяся: воскреснутъ мертвии и востанутъ лежащеи въ гробѣхъ, сирѣчь языцы погребени во всякихъ богомерскыхъ грѣсѣхъ оживутъ божественнымъ познаниемъ и возвеселятся земнороднии, окропившеся росою, яже отъ тебе, Боже, яже есть святое крещение и причастие даровъ Святаго Духа и святыхъ писании наслажение. А земля нечестивыхъ еже есть свѣтъ ихъ и нечестивое мудрование, еже умышлиша на тя, Господи, падетъ, сирѣчь не станетъ, но якоже дымъ исчезнетъ и якоже прахъ, егоже отмѣтаетъ вѣтръ отъ лица земли; паде бо на нихъ камень краеугольныи, на негоже падыи сокрушается, а на негоже паднетъ, стрыетъ и. Того же и мы да держимся крѣпцѣ, да яко обрящемся основани о немъ и неподвижни во вѣки. Аминь.</p>
+      </body>
+      
+      <back> 
+                 
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Ис 26, 12-13 / Is 26,12-13)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Gv"><ref>(Ин 12, 35 / Gv 12,35)</ref></bibl>
+            <bibl corresp="#biblical-3" type="1Ts"><ref>(1 Фес 2, 14-16 / 1Ts 2,14-16)</ref></bibl>
+            <bibl corresp="#biblical-4" type="At"><ref>(Деян 5, 28 / At 5,28)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>
