@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt><title></title></titleStmt>
+			<publicationStmt><ab></ab></publicationStmt>
+			<sourceDesc><p></p></sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<standOff>
+		<list type="auctoritates">
+			<head>AUCTORITATES</head>
+			<desc>Lista di Aucoritates</desc>
+			
+<!-- ESEMPIO  -->
+			<item xml:id="auct" ana="#intero_testo"> <!-- elemento di descrizione auctoritas e indicazione se ci si riferisce all'intero testo -->
+				<idno type="ivanov">Ivanov 122</idno> <!-- Id Ivanov --> 
+				<name type="autority" ref="#giovanni_damasceno"> <!-- autorità -->
+					<persName xml:lang="ita">Giovanni Damasceno</persName>
+					<persName xml:lang="lat">Iohannes Damascenus</persName>
+					<persName xml:lang="grc">Ἰωάννης ὁ Δαμασκηνός</persName>
+				</name>
+				
+				
+				<cit type="direct"> <!-- citazione -->
+					<quote>искусъ бо мужескъ не приимши всенепорочнаа родила еси безъ Отца Сына въ плоти, иже прежде вѣкъ отъ Отца рождена без матере</quote>
+					<ref>(Maksim Grek 2014: 141-142)</ref>
+				</cit>
+				<cit type="reference"> <!-- riferimento --> 
+					<quote></quote>
+					<ref></ref>
+				</cit>
+				
+				
+				<cit type="source"> <!-- Citazione / Riferimento alla fonte -->
+					<cit subtype="lang"><quote xml:lang="grc">Οἱ μὲν οὖν Ἕλληνες διὰ τῆς τῶν ἄντρων τούτων, ἡλίου τε, καὶ σελήνης, ἀνατολῆς, καὶ δύσεως, καὶ συγκρούσεως.</quote> <ref> (PG 94: coll. 892-893)</ref></cit>
+					<cit subtype="lang"><quote xml:lang="lat">Sidera quorum signa sint. Nihil libertati officiunt, contra fatum. Jam vero gentiles, per horum</quote> <ref>(PG 94: coll. 891, 894)</ref></cit>
+				</cit>
+				
+				
+				<bibl xml:id="source" type="source" xml:lang=""> <!-- fonte -->
+					Iohannes Damascenus, Expositio accurata fidei orthodoxae. Liber secundus. Caput VII: De luce, igne, luminaribus, sole, luna et stellis / Ἰωάννης ὁ Δαμασκηνός, Ἔκδοσις ἀκριβὴς τῆς ὀρθοδόξου πίστεως. Τόμος Β. Κεφάλαιον Ζ΄ [ΚΑ΄]: Περὶ φωτός, πυρός, φωστήρων, ἡλίου τε, καὶ σελήνης, καὶ ἀστέρων
+				</bibl>
+				
+				
+				<bibl type="humanistic_edition" corresp="https://www.google.com.au/books/edition/Apanta_ta_tou_Platonos_Omnia_Platonis_op/PNj8Fm9OfG0C?hl=en">Ἅπαντα τὰ τοῦ Πλάτωνος / Omnia Platonis opera, edidit Marcus Musurus, Venezia, Aldus Pius Manutius et Andreas Torresanus, 1513</bibl> <!-- edizione umanistica e link a edizione -->	
+				<note type="file-humanistic">Clementis Romani quae feruntur homiliae viginti_1853</note> <!-- File in cartella Edizioni umanistiche	-->
+				
+				
+				<rs type="mediation"> <!-- mediazione -->
+					<name type="editor" ref="#nome_del_editore">
+							<persName xml:lang="ita">Girolamo Savonarola</persName>
+					</name>
+					<title level="m">Trattato contra li astrologi</title>
+					<cit type="mediation_source"> <!-- Citazione/Riferimento alla fonte di mediazione -->
+						<quote></quote>
+						<ref></ref>
+					</cit>
+				</rs>
+				
+				<listBibl> <!-- bibliografia di riferimento -->
+					<bibl>Bulanin 1984a: 39, n. 38</bibl>
+					<bibl></bibl>
+				</listBibl> 
+			</item>	
+<!-- FINE ESEMPIO  -->		
+
+			
+			
+			<!-- riga 101 -->
+			<item xml:id="auct1" > <!-- elemento di descrizione auctoritas e indicazione se ci si riferisce all'intero testo -->
+				<idno type="ivanov">Ivanov 134</idno> <!-- Id Ivanov --> 
+				<name type="autority" ref="#giovanni_crisostomo"> <!-- autorità -->
+					<persName xml:lang="ita">Giovanni Crisostomo</persName>
+					<persName xml:lang="lat">Iohannes Chrysostomus</persName>
+					<persName xml:lang="grc">Ἰωάννης ὁ Χρυσόστομος</persName>
+				</name>
+				
+				<cit type="direct"> <!-- citazione -->
+					<quote>Яве есть о них же божественыи Иоан Златаустъ глаголеть в 88 Бесѣде толковании святаго Еуагелия еже от Иоанна, имать же сице: «Нѣции убо глаголють, не Духа даде, но вмѣстителныхъ их къ пpиятию дуновениемъ сотвоpи. Аще бо аггела видѣвъ, Данилъ ужасеся, что не постpадали бы, неизpеченную ону благодать пpиемлюще, аще не сотвоpилъ бы их пpеже учениковъ? Сего pади, глаголеть, не pече «пpиясте Духъ Святыи», но «пpиимѣте». Ничто же убо согpѣшит кто глаголяи тогда пpиимших ихъ власть нѣкую и благодать духовную, но не яко меpтвыхъ воскpешати и силы твоpити, но яко гpѣхы оставляти, pазлична бо Духа даpования. Тѣм же и пpиведе: «аще нѣкоимъ оставите гpѣхы, оставишася», показуя, каковъ вид дѣиства даде. Тамо же по 40 днех знамении пpияша дѣиство; сего pади глаголеть: «Воспpиимѣте силу, пpишедшю Святому Духу на вас, и будѣте Ми свѣдѣтели». Свѣдѣтели же знамении бываху, ибо неизpеченна Духа благодать и даpъ многообpазенъ».</quote>
+					<ref>(Maksim Grek 2008: 206)</ref>
+				</cit>
+				
+				<cit type="source"> <!-- Citazione / Riferimento alla fonte -->
+					<cit subtype="lang"><quote xml:lang="grc">3. Ἐὰν μὴ ἀπέλθω, ἐκεῖνος οὐ μὴ ἔλθῃ, καὶ δὴ τὸ Πνεῦμα δίδωσι; Τινὲς μέν φασιν, ὅτι οὐ τὸ Πνεῦμα ἔδωκεν, ἀλλ᾽ ἐπιτηδείους αὐττοὺς πρὸς ὑποδοχὴν δι' ἐμφυσήματος κατέστησεν. Εί γὰρ ἄγγελον ἰδὼν ὁ Δανιὴλ ἐξέστη, τί τὴν ἀπόῤῥητον χάριν ἐκείνην δεχόμενοι οὐκ ἂν ἔπαθον, εἰ μὴ μαθητάς αὐτοὺς πρότερον κατεσκεύασε; Διὰ τοῦτο οὐκ εἶπε, φησὶν,  Ἐλάβετε Πνεῦμα ἅγιον· ἀλλὰ, Λάβετε Πνεῦμα ἅγιον. Οὐκ ἂν δέ τις ἁμάρτοι καὶ τότε εἰληφέναι αὐτοὺς λέγων ἐξουσίαν τινὰ πνευματικὴν καὶ χάριν · ἀλλ' οὐχ ὥστε νεκροὺς ἐγείρειν καὶ δυνάμεις ποιεῖν, ἀλλ' ὥστε ἀφεῖναι ἁμαρτήματα· διάφορα γὰρ τὰ χαρίσματα τοῦ Πνεύματος. Διὸ ἐπήγαγεν· ῎Ων ἂν ἀφῆτε, ἀφέωνται, δεικνὺς ποῖον εἶδος ἐνεργείας δίδωσιν. Ἐκεῖ δὲ μετὰ τεσσαράκοντα ἡμέρας τὴν τῶν σημείων ἔλαβον ἐνέργειαν· διό φησι· Λήψεσθε δύναμιν ἐπελθόντος τοῦ ἁγίου Πνεύματος ἐφ' ὑμᾶς, καὶ ἔσεσθέ μοι μάρτυρες […] μάρτυρες δὲ διὰ τῶν σημείων ἐγίνοντο. Καὶ γὰρ ἄφατος ἡ τοῦ Πνεύματος χάρις καὶ πολυειδὴς ἡ δωρεά.</quote> <ref>(PG 59: col. 471)</ref></cit>
+					<cit subtype="lang"><quote xml:lang="lat">3. Quidam dicunt, ipsum non Spiritum dedisse, sed illos per insufflationem ad recipiendum Spiritum idoneos fecisse. Nam si Daniel viso angelo perculsus est (Dn 8, 17), quid non passi fuissent illi, si tam ineffabilem gratiam accepissent, nisi prius illos adhuc discipulos praeparasset? Ideo non dixit, Accepistis; sed, Accipite Spiritum sanctum. Nec tamen aberraverit quis si dicat illos tunc accepisse potestatem quamdam spiritualem et gratiam; sed non ita ut mortuos suscitarent, et virtutes facerent, sed ut peccata dimitterent: diversa enim sunt Spiritus charismata. Ideo addidit: Quorum remiseritis peccata, remittuntur, ostendens quod genus operationis largiatur. Illic vero post quadraginta dies vim signorum acceperunt: idcirco ait: Accipietis virtutem supervenientis Spiritus sancti in vos, et eritis mihi testes […] Testes fuerunt per signa: ineffabilis quippe est Spiritus gratia et multiplex donum</quote><ref>(PG 59: col. 471)</ref></cit>
+				</cit>
+				
+				<bibl type="source" xml:lang="lat">  <!-- fonte -->
+					Iohannes Chrysostomus, Homilia 86 in Iohannem
+				</bibl>
+				<bibl type="source" xml:lang="grg">  <!-- fonte -->
+					Ἰωάννης ὁ Χρυσόστομος, Ὑπόμνημα εἰς Ἰωάννην τὸν Ἀπόστολον καὶ Εὐαγγελιστήν, Ὁμιλία 86
+				</bibl>
+				
+				<listBibl type="reference-bibliography">  <!-- bibliografia di riferimento -->
+					<bibl>Schultze 1963: 107-110</bibl>
+					<bibl>Szmańda 2020: 231, n. 12</bibl>
+				</listBibl>
+			</item>
+			
+			
+			
+			
+			<!-- riga 102 -->
+			<item xml:id="auct2" > <!-- elemento di descrizione auctoritas e indicazione se ci si riferisce all'intero testo -->
+				<idno type="ivanov">Ivanov 137</idno> <!-- Id Ivanov --> 
+				<name type="autority" ref="#giovanni_crisostomo"> <!-- autorità -->
+					<persName xml:lang="ita">Giovanni Crisostomo</persName>
+					<persName xml:lang="lat">Iohannes Chrysostomus</persName>
+					<persName xml:lang="grc">Ἰωάννης ὁ Χρυσόστομος</persName>
+				</name>
+				
+				<cit type="direct"> <!-- citazione -->
+					<quote>Яве есть о них же божественыи Иоан Златаусть глаголетъ въ 88-м Бесѣде в толковании святаго Еуагелия еже от Иоана, имать же сице: «Нѣцы убо глаголют, не Духа даде, но вместительных ко приятию дуновениемъ сотворил. Аще бо аггела видѣвь, Данилъ ужасеся, что ны пострадали бы, неизреченную благодать приемлюще, аще не сотворил бы их преже учеником? Сего ради глаголютъ, „не рече: приасте Духъ Святыи, но — приимете“. Ничто же убо согрѣшитъ кто глаголяи, тогда приимших их власть нѣкую и благодать духовную, но не яко мертвых воскрешати и силы творити, но яко грѣхи оставляти, различна бо Духа дарования. Тѣм же и приведе: „аще нѣкоимъ оставите грѣхи, оставишася“, показуя, каковъ видъ дѣиство даде. Тамо же 40 днех знамения прияша дѣиство, сего ради глаголеть: „восприимѣте силу, пришедшу Святому Духу на вас, и будете Ми свидѣтели«, свидѣтели же знамении бываху, ибо неизреченна Духа благодать и даръ многообразенъ».</quote>
+					<ref>(Maksim Grek 2008: 378)</ref>
+				</cit>
+				
+				<cit type="source"> <!-- Citazione / Riferimento alla fonte -->
+					<cit subtype="lang"><quote xml:lang="grc">3. Ἐὰν μὴ ἀπέλθω, ἐκεῖνος οὐ μὴ ἔλθῃ, καὶ δὴ τὸ Πνεῦμα δίδωσι; Τινὲς μέν φασιν, ὅτι οὐ τὸ Πνεῦμα ἔδωκεν, ἀλλ᾽ ἐπιτηδείους αὐττοὺς πρὸς ὑποδοχὴν δι' ἐμφυσήματος κατέστησεν. Εί γὰρ ἄγγελον ἰδὼν ὁ Δανιὴλ ἐξέστη, τί τὴν ἀπόῤῥητον χάριν ἐκείνην δεχόμενοι οὐκ ἂν ἔπαθον, εἰ μὴ μαθητάς αὐτοὺς πρότερον κατεσκεύασε; Διὰ τοῦτο οὐκ εἶπε, φησὶν,  Ἐλάβετε Πνεῦμα ἅγιον· ἀλλὰ, Λάβετε Πνεῦμα ἅγιον. Οὐκ ἂν δέ τις ἁμάρτοι καὶ τότε εἰληφέναι αὐτοὺς λέγων ἐξουσίαν τινὰ πνευματικὴν καὶ χάριν · ἀλλ' οὐχ ὥστε νεκροὺς ἐγείρειν καὶ δυνάμεις ποιεῖν, ἀλλ' ὥστε ἀφεῖναι ἁμαρτήματα· διάφορα γὰρ τὰ χαρίσματα τοῦ Πνεύματος. Διὸ ἐπήγαγεν· ῎Ων ἂν ἀφῆτε, ἀφέωνται, δεικνὺς ποῖον εἶδος ἐνεργείας δίδωσιν. Ἐκεῖ δὲ μετὰ τεσσαράκοντα ἡμέρας τὴν τῶν σημείων ἔλαβον ἐνέργειαν· διό φησι· Λήψεσθε δύναμιν ἐπελθόντος τοῦ ἁγίου Πνεύματος ἐφ' ὑμᾶς, καὶ ἔσεσθέ μοι μάρτυρες […] μάρτυρες δὲ διὰ τῶν σημείων ἐγίνοντο. Καὶ γὰρ ἄφατος ἡ τοῦ Πνεύματος χάρις καὶ πολυειδὴς ἡ δωρεά</quote> <ref>(PG 59: col. 471)</ref></cit>
+					<cit subtype="lang"><quote xml:lang="lat">3. Quidam dicunt, ipsum non Spiritum dedisse, sed illos per insufflationem ad recipiendum Spiritum idoneos fecisse. Nam si Daniel viso angelo perculsus est (Dn 8, 17), quid non passi fuissent illi, si tam ineffabilem gratiam accepissent, nisi prius illos adhuc discipulos praeparasset? Ideo non dixit, Accepistis; sed, Accipite Spiritum sanctum. Nec tamen aberraverit quis si dicat illos tunc accepisse potestatem quamdam spiritualem et gratiam; sed non ita ut mortuos suscitarent, et virtutes facerent, sed ut peccata dimitterent: diversa enim sunt Spiritus charismata. Ideo addidit: Quorum remiseritis peccata, remittuntur, ostendens quod genus operationis largiatur. Illic vero post quadraginta dies vim signorum acceperunt: idcirco ait: Accipietis virtutem supervenientis Spiritus sancti in vos, et eritis mihi testes […] Testes fuerunt per signa: ineffabilis quippe est Spiritus gratia et multiplex donum</quote> <ref>(PG 59: col. 471)</ref></cit>
+				</cit>
+				
+				<bibl type="source" xml:lang="lat">  <!-- fonte -->
+					Iohannes Chrysostomus, Homilia 86 in Iohannem
+				</bibl>
+				<bibl type="source" xml:lang="grg">  <!-- fonte -->
+					Ἰωάννης ὁ Χρυσόστομος, Ὑπόμνημα εἰς Ἰωάννην τὸν Ἀπόστολον καὶ Εὐαγγελιστήν, Ὁμιλία 86
+				</bibl>
+				
+				<listBibl type="reference-bibliography">  <!-- bibliografia di riferimento -->
+					<bibl>Schultze 1963: 107-110</bibl>
+				</listBibl>
+				
+			</item>
+			
+			
+			
+			
+			<!-- riga 103 -->
+			<item xml:id="auct3" > <!-- elemento di descrizione auctoritas e indicazione se ci si riferisce all'intero testo -->
+				<idno type="ivanov">Ivanov 141</idno> <!-- Id Ivanov --> 
+				<name type="autority" ref="#giovanni_crisostomo"> <!-- autorità -->
+					<persName xml:lang="ita">Giovanni Crisostomo</persName>
+					<persName xml:lang="lat">Iohannes Chrysostomus</persName>
+					<persName xml:lang="grc">Ἰωάννης ὁ Χρυσόστομος</persName>
+				</name>
+				
+				<cit type="direct"> <!-- citazione -->
+					<quote>Явѣ есть о них же божественыи Иоаннъ Златоустыи глаголетъ въ 88 Бесѣдѣ толковании святаго Еуагелия еже от Иоанна, имать же сице: «Нѣцыи убо глаголютъ, не Духа даде, но вмѣстителных ихъ к приятию дуновением сотвори. Аще бо аггела видѣвъ, Даниилъ ужасеся, что не пострадали были, неизреченную ону благодать приемлюще, аще не сотворилъ бы их преже учениковъ? Сего ради, глаголютъ, не рече „приясте“ Духъ Святыи, но „приимѣте. Ничто же убо согрѣшитъ кто, глаголяи тогда приимших ихъ власть нѣкую и благодать духовную, но не яко мертвых воскрешати и силы творити, но яко грѣхи оставляти; различна бо Духа дарования. Тѣм же и приведе: „Аще нѣкоим оставите грѣхи, оставишася“, показуяи, каковъ видъ дѣиства даде. Таможе по 40 днех знамения прияша дѣиство, сего ради глаголет: „Восприимите силу, пришедшу Святому Духу на васъ, и будете ми свидѣтели“, свидѣтели же знамении бываху, ибо неизреченная Духа благодать и дар многообразен».</quote>
+					<ref>(Maksim Grek 2008: 404)</ref>
+				</cit>
+				
+				<cit type="source"> <!-- Citazione / Riferimento alla fonte -->
+					<cit subtype="lang"><quote xml:lang="grc">3. Ἐὰν μὴ ἀπέλθω, ἐκεῖνος οὐ μὴ ἔλθῃ, καὶ δὴ τὸ Πνεῦμα δίδωσι; Τινὲς μέν φασιν, ὅτι οὐ τὸ Πνεῦμα ἔδωκεν, ἀλλ᾽ ἐπιτηδείους αὐττοὺς πρὸς ὑποδοχὴν δι' ἐμφυσήματος κατέστησεν. Εί γὰρ ἄγγελον ἰδὼν ὁ Δανιὴλ ἐξέστη, τί τὴν ἀπόῤῥητον χάριν ἐκείνην δεχόμενοι οὐκ ἂν ἔπαθον, εἰ μὴ μαθητάς αὐτοὺς πρότερον κατεσκεύασε; Διὰ τοῦτο οὐκ εἶπε, φησὶν,  Ἐλάβετε Πνεῦμα ἅγιον· ἀλλὰ, Λάβετε Πνεῦμα ἅγιον. Οὐκ ἂν δέ τις ἁμάρτοι καὶ τότε εἰληφέναι αὐτοὺς λέγων ἐξουσίαν τινὰ πνευματικὴν καὶ χάριν · ἀλλ' οὐχ ὥστε νεκροὺς ἐγείρειν καὶ δυνάμεις ποιεῖν, ἀλλ' ὥστε ἀφεῖναι ἁμαρτήματα· διάφορα γὰρ τὰ χαρίσματα τοῦ Πνεύματος. Διὸ ἐπήγαγεν· ῎Ων ἂν ἀφῆτε, ἀφέωνται, δεικνὺς ποῖον εἶδος ἐνεργείας δίδωσιν. Ἐκεῖ δὲ μετὰ τεσσαράκοντα ἡμέρας τὴν τῶν σημείων ἔλαβον ἐνέργειαν· διό φησι· Λήψεσθε δύναμιν ἐπελθόντος τοῦ ἁγίου Πνεύματος ἐφ' ὑμᾶς, καὶ ἔσεσθέ μοι μάρτυρες […] μάρτυρες δὲ διὰ τῶν σημείων ἐγίνοντο. Καὶ γὰρ ἄφατος ἡ τοῦ Πνεύματος χάρις καὶ πολυειδὴς ἡ δωρεά</quote> <ref>(PG 59: col. 471)</ref></cit>
+					<cit subtype="lang"><quote xml:lang="lat">3. Quidam dicunt, ipsum non Spiritum dedisse, sed illos per insufflationem ad recipiendum Spiritum idoneos fecisse. Nam si Daniel viso angelo perculsus est (Dn 8, 17), quid non passi fuissent illi, si tam ineffabilem gratiam accepissent, nisi prius illos adhuc discipulos praeparasset? Ideo non dixit, Accepistis; sed, Accipite Spiritum sanctum. Nec tamen aberraverit quis si dicat illos tunc accepisse potestatem quamdam spiritualem et gratiam; sed non ita ut mortuos suscitarent, et virtutes facerent, sed ut peccata dimitterent: diversa enim sunt Spiritus charismata. Ideo addidit: Quorum remiseritis peccata, remittuntur, ostendens quod genus operationis largiatur. Illic vero post quadraginta dies vim signorum acceperunt: idcirco ait: Accipietis virtutem supervenientis Spiritus sancti in vos, et eritis mihi testes […] Testes fuerunt per signa: ineffabilis quippe est Spiritus gratia et multiplex donum</quote> <ref>(PG 59: col. 471)</ref></cit>
+				</cit>
+				
+				<bibl type="source" xml:lang="lat">  <!-- fonte -->
+					Iohannes Chrysostomus, Homilia 86 in Iohannem
+				</bibl>
+				<bibl type="source" xml:lang="grg">  <!-- fonte -->
+					Ἰωάννης ὁ Χρυσόστομος, Ὑπόμνημα εἰς Ἰωάννην τὸν Ἀπόστολον καὶ Εὐαγγελιστήν, Ὁμιλία 86
+				</bibl>
+				
+				<listBibl type="reference-bibliography">  <!-- bibliografia di riferimento -->
+					<bibl>Schultze 1963: 107-110</bibl>
+				</listBibl>
+			</item>
+			
+			
+			
+			
+			<!-- riga 165 -->
+			<item xml:id="auct4"> <!-- elemento di descrizione auctoritas e indicazione se ci si riferisce all'intero testo -->
+				<idno type="ivanov">Ivanov 121</idno> <!-- Id Ivanov --> 
+				<name type="autority" ref="#isidoro_di_pelusio"> <!-- autorità -->
+					<persName xml:lang="ita">Isidoro di Pelusio</persName>
+					<persName xml:lang="lat">Isidorus Pelusiota</persName>
+					<persName xml:lang="grc">Ἰσίδωρος ὁ Πηλουσιώτης</persName>
+				</name>
+				
+				
+				<cit type="direct"> <!-- citazione -->
+					<quote>Съгласна же сему учит и блаженыи Исидоръ Пилусиитьскый, глаголя сице: «Отъемлющеи или приложити что смѣющеи от богодухновеных словесѣх, единым от двою недугують: или бо не вѣруют, яко Духом Святым писана бышя святая Писаниа, и сего ради праведнѣ нарекутся и суть безвѣрникы, или себе самѣхъ мнятъ мудрѣиших Святаго Духа, и что ино, развѣ неистовьствують?»</quote>
+					<ref>(Žurova 2011: 216)</ref>
+				</cit>
+				
+				
+				<cit type="source"> <!-- Citazione / Riferimento alla fonte -->
+					<cit subtype="lang"><quote xml:lang=""></quote> 
+						<ref></ref></cit>
+				</cit>	
+				
+				<bibl type="source" xml:lang=""> <!-- fonte -->	
+				</bibl>
+				
+				
+				<listBibl> <!-- bibliografia di riferimento -->
+					<bibl>cfr. Schultze 1963: 107, n. 71</bibl>
+					<bibl>Szmańda 2020: 347</bibl>
+				</listBibl> 
+			</item>
+			
+			
+			
+			
+			<!-- riga 166 -->
+			<item xml:id="auct5"> <!-- elemento di descrizione auctoritas e indicazione se ci si riferisce all'intero testo -->
+				<idno type="ivanov">Ivanov 134</idno> <!-- Id Ivanov --> 
+				<name type="autority" ref="#isidoro_di_pelusio"> <!-- autorità -->
+					<persName xml:lang="ita">Isidoro di Pelusio</persName>
+					<persName xml:lang="lat">Isidorus Pelusiota</persName>
+					<persName xml:lang="grc">Ἰσίδωρος ὁ Πηλουσιώτης</persName>
+				</name>
+				
+				
+				<cit type="direct"> <!-- citazione -->
+					<quote>Им же и Пилусиискыи и божественыи Исидоpъ послѣдуя глаголеть: «Отъемлющии или что пpиложити смѣющи к богодухновеннымъ словесем, единым от двоих недугують: или бо не вѣpоваша Духомъ Святымъ pеченых бывших Святых Писании, или суть невѣpни, или себе непщують мудpииших Святаго Духа, и что иное, токмо бѣсуются»</quote>
+					<ref>(Maksim Grek 2008: 202-203)</ref>
+				</cit>
+				
+				
+				<cit type="source"> <!-- Citazione / Riferimento alla fonte -->
+					<cit subtype="lang"><quote xml:lang=""></quote> 
+						<ref></ref></cit>
+				</cit>	
+				
+				<bibl type="source" xml:lang=""> <!-- fonte -->	
+				</bibl>
+				
+				
+				<listBibl> <!-- bibliografia di riferimento -->
+					<bibl>cfr. Schultze 1963: 107, n. 71</bibl>
+					<bibl>Szmańda 2020: 347</bibl>
+				</listBibl> 
+			</item>
+			
+			
+			
+			
+			<!-- riga 167 -->
+			<item xml:id="auct6"> <!-- elemento di descrizione auctoritas e indicazione se ci si riferisce all'intero testo -->
+				<idno type="ivanov">Ivanov 121</idno> <!-- Id Ivanov --> 
+				<name type="autority" ref="#isidoro_di_pelusio"> <!-- autorità -->
+					<persName xml:lang="ita">Isidoro di Pelusio</persName>
+					<persName xml:lang="lat">Isidorus Pelusiota</persName>
+					<persName xml:lang="grc">Ἰσίδωρος ὁ Πηλουσιώτης</persName>
+				</name>
+				
+				
+				<cit type="direct"> <!-- citazione -->
+					<quote>Им же и Пилусиискии божественыи Исидор послѣдуетъ глаголя: «Отъемлющии или что приложити смѣющии къ богодухновенным словесем единымъ от двоих недугуютъ: или бо не вѣроваша Духомъ Святымъ реченных бывших Святых Писании и суть невѣрни, или себе непщуют мудрѣиших Святого Духа, и что иное, токмо бѣсуются»</quote>
+					<ref>(Maksim Grek 2008: 402)</ref>
+				</cit>
+				
+				
+				<cit type="source"> <!-- Citazione / Riferimento alla fonte -->
+					<cit subtype="lang"><quote xml:lang=""></quote> 
+						<ref></ref></cit>
+				</cit>	
+				
+				<bibl type="source" xml:lang=""> <!-- fonte -->	
+				</bibl>
+				
+				
+				<listBibl> <!-- bibliografia di riferimento -->
+					<bibl>cfr. Szmańda 2020: 347</bibl>
+				</listBibl> 
+			</item>
+			
+			
+			
+		</list>
+	</standOff>	
+</TEI>
