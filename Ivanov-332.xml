@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Сложение вкратце о тверском пожаре [Složenie vkratce o tverskom požare]</title>  
+            <title type="alt" xml:lang="cu-Cyrl">Инока Максима Грека сложение вкратцѣ о бывшемъ пожарѣ тверскомъ, въ томъ же и похвала о обновлении церковнаго украшения, бывшаго боголюбивымъ епископомъ тферскимъ Акакиемъ [Inoka Maksima Greka složenie vkratcě o byvšem'' požarě tverskom'', v'' tom'' že i pochvala o obnovlenii cerkovnago ukrašenija, byvšago bogoljubivym'' episkopom'' tferskim'' Akakiem''] <ref target="lista-bibliografia.xml#MG-1860 #Iva-1969 #Sin-1977 #MG-2014">(Maksim Grek 1860: 290-294; Ivanov 1969: 198; Sinicyna 1977: 231, 244, 254; Maksim Grek 2014: 238-240)</ref></title>   
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl">Того же. Сложение въкратцѣ о бывшемъ пожарѣ тферскомъ: тако же и похвала обновлении церковнаго украшения, бывшаго боголюбивым епископомъ тферскым Акакием <ref target="lista-manoscritti.xml#Sol-494-513">(ms. RNB, Soloveckoe sobr. 494/513, ff. 374r-378v)</ref></title>
+            <title type="alt-apparatus" xml:lang="cu-Cyrl">Того же инока Максима Грека. Сложение въкратцѣ о бывшемъ пожарѣ тферскомъ: како же и похвала о обновлении церковнаго украшения, бывшаго боголюбивым епископомъ тферскым Акакием <ref target="lista-manoscritti.xml#Pogod. 1441">(ms. RNB, sobr. Pogodina 1441, ff. 214r-216v)</ref></title>
+            <title type="alt-apparatus" xml:lang="cu-Cyrl">Того же инока Максима. Сложение въкратцѣ о бывшемъ пожарѣ тферскомъ: тако же и похвала о обновлении церковнаго украшения, бывшаго боголюбивым епископомъ тферскoм Акакием <ref target="lista-manoscritti.xml#KOF-1204">(ms. VIĖM, KOF-1204, ff. 245r-247v)</ref></title>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <notesStmt>
+            <note type="textual-relationships">Incipit condiviso con Ivanov 342; testo motivato dalla riedificazione della cattedrale di Tver' dopo l'incendio del 1537 insieme a Ivanov 333-334 </note>
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">332</idno>
+            </bibl>    
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl">
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 50</bibl>                  
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 22</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 38</bibl>
+            </listBibl>
+            
+            <bibl type="reference-edition">  
+               <ref target="lista-bibliografia.xml#Zur-2011"><name>Žurova</name>, <date>2011</date></ref>: <biblScope unit="page" from="21" to="25">21-25</biblScope>
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl> 
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="290" to="294">290-294</biblScope>, <biblScope unit="chapter">nr. 22</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="365" to="387">238-240</biblScope>, <biblScope unit="chapter">nr. 22</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Bols-285"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, собр. Большакова 285</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 38 / cap. 38</locus> 
+                     <locus type="foliation" target="#51r #54v">лл. 51-54об. / ff. 51r-54v</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима Грека. Сложение въкратцѣ о бывшемъ пожарѣ тферскомъ: тако же и похвала о обновлении церковнаго украшения, бывшаго боголюбивым епископомъ тферскым Акакием</title>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">«Обновления почитати древнии законъ есть, и добрѣ уставленъ», - глаголетъ преизобилныи въ богословии Григории.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">И нас преподобными его молитвами да сподобишь во прочее жития нашего благоугожати пред тобою со всяким смиреномудриемъ и праведными дѣлы, и истиною, и чистотою всякою поющих и славословящих Отца безначалнаго, Сына собезначална и Духа соприсносущна нынѣ и присно и в вѣки вѣкомъ. Аминь.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/> <!-- riferimento a sopra (manoscritto base) -->
+               
+               <witness xml:id="Т"> 
+                  <ref target="lista-manoscritti.xml#Troic-200">РГБ, Троицкое собрание 200</ref>, <locus type="foliation" target="#245r #246r">лл. 245-246 / ff. 245r-246r</locus>, <locus type="chapter">гл. 32 / cap. 32</locus>   
+               </witness>
+               <witness xml:id="Сд">  
+                  <ref target="lista-manoscritti.xml#Sin-919">ГИМ, Синодальное собр. 919</ref>, <locus type="foliation" target="#211v #215r">лл. 211об.-215 / ff. 211v-215r</locus>, <locus type="chapter">гл. 26 / cap. 26</locus>   
+               </witness>
+               <witness xml:id="Р">  
+                  <ref target="lista-manoscritti.xml#Rum-264">РГБ, Румянцевское собр. 264</ref>, <locus type="foliation" target="#88r #90r">лл. 88-90 / ff. 88r-90r</locus>, <locus type="chapter">ст. 50 / art. 50</locus>  
+               </witness>
+               <witness xml:id="Сл"> 
+                  <ref target="lista-manoscritti.xml#Sol-494-513">РНБ, Соловецкое собр. 494/513</ref>, <locus type="foliation" target="#374r #378v">лл. 374об.-378об. / ff. 374r-378v</locus>, <locus type="chapter">гл. 24 / cap. 24</locus>
+               </witness>
+               <witness xml:id="И">  
+                  <ref target="lista-manoscritti.xml#MDA-42">РГБ, собр. МДА/I 42</ref>, <locus type="foliation" target="#247v #250v">лл. 247об.-250об. / ff. 247v-250v</locus>, <locus type="chapter">гл. 22 / cap. 22</locus>   
+               </witness>
+               <witness xml:id="У">  
+                  <ref target="lista-manoscritti.xml#Egor-869">РГБ, собр. Егорова 869</ref>, <locus type="foliation" target="#252r #255r">лл. 252-255 / ff. 252r-255r</locus>, <locus type="chapter">гл. 22 / cap. 22</locus>  
+               </witness>
+               <witness xml:id="П"> 
+                  <ref target="lista-manoscritti.xml#Pogod-1441">РНБ, собр. Погодина 1441</ref>, <locus type="foliation" target="#214r #216v">лл. 214-216об. / ff. 214r-216v</locus>, <locus type="chapter">гл. 22 / cap. 22</locus>     
+               </witness>
+               <witness xml:id="Тж">  
+                  <ref target="lista-manoscritti.xml#KOF-1204">ВИЭМ, КОФ-1204</ref>, <locus type="foliation" target="#245r #247v">лл. 245-247об. / ff. 245r-247v</locus>, <locus type="chapter">гл. 28 / cap. 28</locus>     
+               </witness>
+
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>1538-1539<ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 199)</ref></date>    
+            <date>1537ca <ref target="lista-bibliografia.xml#MG-2014">(Maksim Grek 2014: 13, 383)</ref></date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Сложение въкратцѣ</term> 
+               <term>Похвала</term>
+            </keywords>
+            <keywords scheme="#scope">  
+               <term>Preghiera</term> 
+               <term>Correzione</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>  
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) -->
+         <p>СЛОЖЕНИЕ ВКРАТЦЕ О ТВЕРСКОМ ПОЖАРЕ</p>  
+      </front>
+      
+      <body>
+         <p><pb type="folio" n="л. 51" rend="label-margin-left"/> Того же <anchor xml:id="v1a1" n="1" rend="super"/>инока Максима Грека<anchor xml:id="v1a2" n="1" rend="super"/>. Сложение въкратцѣ о бывшемъ пожарѣ тферскомъ; тако<anchor xml:id="v2" n="2" rend="super"/> же и похвала о<anchor xml:id="v3" n="3" rend="super"/> обновлении церковнаго украшения, бывшаго боголюбивым<anchor xml:id="v4" n="4" rend="super"/> епископомъ тферскым<anchor xml:id="v5" n="5" rend="super"/> Акакием<anchor xml:id="v6" n="6" rend="super"/>.</p>
+         <p>
+            «Обновления почитати древнии законъ есть, и добрѣ уставленъ», - глаголетъ преизобилныи<anchor xml:id="v7" n="7" rend="super"/> въ богословии Григории<anchor xml:id="v8" n="8" rend="super"/>. И како не добрѣ уставленъ, идѣже ими два велия нѣкая сътворяются, ибо и промыслъ, и еже о насъ прилежание<anchor xml:id="v9" n="9" rend="super"/> всѣх Съдѣтеля и Владыкы явлена бываютъ выну всѣмъ человѣком, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 51 об." rend="label-margin-left"/> имиже едиными вся яже<anchor xml:id="v10" n="10" rend="super"/> о нас и правятся, и къ нашеи ползѣ устраяются. Такожде и дѣания, и велелѣпная съоружения добрых и боголюбивыхъ архиереехъ<anchor xml:id="v11" n="11" rend="super"/>, и благовѣрных цареи, и всѣх властелеи<anchor xml:id="v12" n="12" rend="super"/>, и еже о добрых, сирѣчь елика въ славу и честь<anchor xml:id="v13" n="13" rend="super"/> тянуть, тщание же и попечение ихъ пѣваемо бываеть<anchor xml:id="v14" n="14" rend="super"/> и незабытно присно пребываеть, от рода къ роду всегда препосылаема<anchor xml:id="v15" n="15" rend="super"/> и на подражание добрых ихъ исправлении<anchor xml:id="v16" n="16" rend="super"/> въставляюща<anchor xml:id="v17" n="17" rend="super"/> послѣднеродных.
+         </p>
+         <p>
+            Симъ убо сице ся имущимъ, праведно и мнѣ, неключимому, показася не предати забвению, но краткымъ<anchor xml:id="v18" n="18" rend="super"/> писаниемъ явлено сътворити послѣднимъ родом съдѣяное неизслѣдованными судбами Владыкы всѣх въ преславном<anchor xml:id="v19" n="19" rend="super"/> градѣ Тферскомъ<anchor xml:id="v20" n="20" rend="super"/> при государьствѣ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 52" rend="label-margin-left"/> благовѣрнаго самодръжца всея Руси, великаго князя Ивана<anchor xml:id="v21" n="21" rend="super"/> Василиевича и Акакии, боголюбивомъ епископѣ, добрѣ и честнѣ правящемъ<anchor xml:id="v22" n="22" rend="super"/> церковныя кръмила тферскыя епископии.
+         </p>
+         <p>
+            Въ 45<anchor xml:id="v23" n="23" rend="super"/> лѣто осмыя тысящи въ 22 юлиа<anchor xml:id="v24" n="24" rend="super"/> месяца солнцу<anchor xml:id="v25" n="25" rend="super"/> полдень минующу, судбами Божиими неизреченными огнь, не вѣмы<anchor xml:id="v26" n="26" rend="super"/> откуду, възгорѣвся внезапу<anchor xml:id="v27" n="27" rend="super"/> и духъ буренъ възставъ<anchor xml:id="v28" n="28" rend="super"/> от сѣверскых странъ градскыа стѣны<anchor xml:id="v29" n="29" rend="super"/>. Саму же стѣну всю окрестъ и велику съборную церковь съ всѣми святыми образы, и священными<anchor xml:id="v30" n="30" rend="super"/> съсуды, и пеленами, и книгами, и ины многы<anchor xml:id="v31" n="31" rend="super"/> священыя<anchor xml:id="v32" n="32" rend="super"/> храмы и дворы всѣ<anchor xml:id="v33" n="33" rend="super"/> вся вкупѣ вытребилъ въ малѣ<anchor xml:id="v34" n="34" rend="super"/> времени. Видѣние страшно и многымъ слезамъ достоино: огню, зѣлным вѣтромъ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 52 об." rend="label-margin-left"/> гониму, вся всъкорѣ изъѣдшу, и людем многымъ<anchor xml:id="v35" n="35" rend="super"/> погорѣвшим, невъзмогшим<anchor xml:id="v36" n="36" rend="super"/> избѣжати гонениа пламеннаго.
+            
+         </p>
+         <p>
+            О, неиспытаных судебъ<anchor xml:id="v37" n="37" rend="super"/> Твоих, Христе Спасе! Кто доволенъ разумѣти и насъ научити толь велие Твое на нас праведное всяко за грѣхы нашя попущение<anchor xml:id="v38" n="38" rend="super"/>? Паче же кто доволенъ молбою утолити толь велие Твое на нас праведное негодование, о нем же прогнѣваемъ неисчетное Твое<anchor xml:id="v39" n="39" rend="super"/> о<anchor xml:id="v40" n="40" rend="super"/> нас, неблагодарных, человѣколюбие же и благость, преступлениемъ спасителных Твоихъ заповѣдеи? <cit><quote xml:id="biblical-1">«Праведенъ еси<anchor xml:id="v41" n="41" rend="super"/>, Господи, и прави суди Твои»</quote></cit>, по божественому и поклоняемому слову, яко<anchor xml:id="v42" n="42" rend="super"/> наказаниа ради и обращения нашего ниже самѣхъ Твоихъ святых и<anchor xml:id="v43" n="43" rend="super"/> поклоняемых щадиш<anchor xml:id="v44" n="44" rend="super"/> храмовъ и образовъ Твоихъ, и Пре<metamark function="end-page" rend="//"/><pb type="folio" n="л. 53" rend="label-margin-left"/>чистыя Ти Матере, и всѣх святых Твоихъ. Но и сия вся или рукама<anchor xml:id="c1" n="а" rend="super"/><anchor xml:id="v45" n="45" rend="super"/> безбожных скифъ<anchor xml:id="v46" n="46" rend="super"/> разаряешь<anchor xml:id="v47" n="47" rend="super"/> или огнемъ вытребляешь до конца, образом симъ сказуя намъ, нечювьственымъ, нестерпимо<anchor xml:id="v48" n="48" rend="super"/> Твое праведное негодование еже на нас. Да познаемъ себе самѣхъ и прегрѣшении наших и, познавше, покаимся<anchor xml:id="v49" n="49" rend="super"/> Тебѣ<anchor xml:id="v50" n="50" rend="super"/> достоино<anchor xml:id="v51" n="51" rend="super"/> беззакониомъ<anchor xml:id="v52" n="52" rend="super"/> нашим. Еи, Господи, буди намъ, познавшим прегрѣшения нашя, каятися Тебѣ от всея души, съ всякымъ смиреномудриемъ, и праведными дѣлы, и щедротами<anchor xml:id="v53" n="53" rend="super"/> убогыхъ!
+         </p>
+         <p>
+            Благодарим же, Владыко, от всея души<anchor xml:id="v54" n="54" rend="super"/> Твою яже о нас благость, онем же не токмо сподобиши нас милости и щедротъ, наказуя владычнѣ вкупѣ и отечьскы<anchor xml:id="v55" n="55" rend="super"/>, но яко и<anchor xml:id="v56" n="56" rend="super"/> Твоего вѣрна<anchor xml:id="v57" n="57" rend="super"/> архиерeа, нашего же<anchor xml:id="v58" n="58" rend="super"/> пастыря и отца Акакиа, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 53 об." rend="label-margin-left"/> господина нашего, наплъняеши всегда благолати, и духовныя премудрости, и разума въ славу Твою<anchor xml:id="v59" n="59" rend="super"/> и въ снабдѣние<anchor xml:id="v60" n="60" rend="super"/> нам, в Тя вѣрующимъ и надежы<anchor xml:id="v61" n="61" rend="super"/> имущимь. Иже благодатию Твоею освѣтився<anchor xml:id="v62" n="62" rend="super"/> и укрѣпленъ, не<anchor xml:id="v63" n="63" rend="super"/> низ паде помыслы, от толикых лютых окруженъ, ниже не ради еже по силѣ украшения и благолѣпия Твоихъ поклоняемых образовъ, и <cit><quote xml:id="biblical-2">«всего божественаго селения неприступныя Ти славы»</quote></cit>, и потребных въ таиную службу съсудъ священыхъ, и пеленъ, и всѣх вкупѣ прочих орудии церковных, и внутрь олтаря, и внѣ, но съ многымъ<anchor xml:id="v64" n="64" rend="super"/> усръдиемъ и презѣлнымъ<anchor xml:id="v65" n="65" rend="super"/> рачениемъ въста на обновление огнемъ<anchor xml:id="v66" n="66" rend="super"/> истребленаго древняго украшения поклоняемаго храма Твоего, подражавъ<anchor xml:id="v67" n="67" rend="super"/> глаголющаго праведна<anchor xml:id="v68" n="68" rend="super"/>, яко <metamark function="end-page" rend="//"/><pb type="folio" n="л. 54" rend="label-margin-left"/> <cit><quote xml:id="biblical-3">«клялся<anchor xml:id="v69" n="69" rend="super"/> Господеви и помолися<anchor xml:id="v70" n="70" rend="super"/> Богу Иаковлю: <anchor xml:id="v71" n="71a1" rend="super"/>"аще вниду въ селение дому моего<anchor xml:id="v71a2" n="71" rend="super"/>, аще взыду на одръ постеля моея; <anchor xml:id="v72a1" n="72" rend="super"/>аще дамъ сонъ очима моима<anchor xml:id="v72a2" n="72" rend="super"/> и вѣкома моима дремание, и покои скраниямъ моимъ, дондеже обрящу мѣсто Господеви, селение – Богу Иаковлю"»</quote></cit>.
+         </p>
+         <p>
+            Тѣм же Ему рачениемъ и ревностию и сеи въставъ и Твоею благодатию поспѣшествованъ, <anchor xml:id="v73a1" n="73" rend="super"/>преукраси и<anchor xml:id="v73a2" n="73" rend="super"/> вышше силы божественую церковь Твою<anchor xml:id="v74" n="74" rend="super"/> образы предобрыми, рукою избранных иконникъ писанными и многоцѣнно<anchor xml:id="v75" n="75" rend="super"/> златом и сребромъ преукрашеными. Зрѣние нѣкое предоброе и сладчаише<anchor xml:id="v76" n="76" rend="super"/> очесем<anchor xml:id="v77" n="77" rend="super"/> благовѣрныхъ, и душя ихъ предивиѣ възвеселяя, вкупѣ же и възставляя ихъ на славословие<anchor xml:id="v78" n="78" rend="super"/> и благодарьствие Твоея благости и неисчетнаго о нас человѣколю<metamark function="end-page" rend="//"/><pb type="folio" n="л. 54 об." rend="label-margin-left"/>бия, яко<anchor xml:id="v79" n="79" rend="super"/> и наказуеши нас, якоже Владыка<anchor xml:id="v80" n="80" rend="super"/>, отставити тщася нас всякыя злобы нашея, и пакы<anchor xml:id="v81" n="81" rend="super"/> щедришь нас, якоже отець-чадолюбець. Аще бо и праведнымъ Твоимъ негодованиемъ опечалилъ еси нас немалѣ, огнемъ<anchor xml:id="v82" n="82" rend="super"/> истребивъ древнюю доброту поклоняемаго храма Твоего, но пакы отдалъ ю<anchor xml:id="v83" n="83" rend="super"/> еси намъ, не хужьшу пръвыя, тщанием <anchor xml:id="v84a1" n="84" rend="super"/>и прилежаниемъ<anchor xml:id="v84a2" n="84" rend="super"/> вѣрнаго Ти угодника Акакиа, боголюбиваго епископа Твоего, нашего же<anchor xml:id="v85" n="85" rend="super"/> пастыря и отца любезнѣишаго, его<anchor xml:id="v86" n="86" rend="super"/> же по<anchor xml:id="v87" n="87" rend="super"/> еже отселѣ отхожении<anchor xml:id="c2" n="б" rend="super"/> да съпричитаешь къ числу избранных<anchor xml:id="v88" n="88" rend="super"/> Твоихъ пръвосвященникъ и да сподобишь его пѣти Тя с ними въ бесконечныя вѣкы въ предивнѣмъ<anchor xml:id="v89" n="89" rend="super"/> и святѣмъ храмѣ божественыя Ти славы, акы възлюбльша от всея<anchor xml:id="c3" n="в" rend="super"/> души и издѣлавше<anchor xml:id="v90" n="90" rend="super"/> обновление благолѣпиа<anchor xml:id="v91" n="91" rend="super"/> сущаго на земли и покланяемаго храма славы Твоеа. И нас преподобными<anchor xml:id="v92" n="92" rend="super"/> его молитвами да сподобишь во<anchor xml:id="v93" n="93" rend="super"/> прочее жития нашего <metamark function="end-page" rend="//"/><pb type="folio" n="Сд, л. 215" rend="label-margin-left"/> благоугожати пред Тобою со всяким смиреномудриемъ и праведными<anchor xml:id="v94" n="94" rend="super"/> дѣлы, и истиною, и чистотою всякою поющих и славословящих Отца Безначалнаго, Сына Собезначална и Духа Соприсносущна нынѣ и присно и в вѣки вѣкомъ. Аминь.
+         </p>
+        
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" > <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1-1</head> <!-- numero in apice -->
+               <app from="#v1a1" to="#v1a2"> 
+                  <witDetail wit="#Сл">Нет</witDetail>
+                  <rdg wit="#Тж">инока Максима</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> 
+                  <rdg wit="#П">како</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <witDetail wit="#Сл">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <witDetail wit="#И">Испр. из <hi rend="distinct">боголюбиваго</hi>: зачеркнуты буквы <hi rend="distinct">аго</hi>, вписаны над строкой буквы <hi rend="distinct">ымъ</hi> почерком Максима Грека, л. 248, 3 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <rdg wit="#Тж">тферском</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <witDetail wit="#Р">Заголовок писан киноварью, последнее слово размещено на правом поле</witDetail>
+               </app>
+            </listApp>
+            <listApp> 
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <rdg wit="#И">преизъобилныи</rdg>
+                  <rdg wit="#Р #Сд">преизообилныи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <rdg wit="#И #Р #Сл #У">Григореи</rdg>
+                  <rdg wit="#Тж">Григорие</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9">
+                  <witDetail wit="#П"> Доб. <hi rend="distinct">во</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10">
+                  <witDetail wit="#У">Вписано над строкой почерком неосновного писца</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11">
+                  <witDetail wit="#И">Испр. из <hi rend="distinct">архиереих</hi>: последняя буква <hi rend="distinct">и</hi> зачеркнута, над строкой вписана буква е почерком Максима Грека, л. 248, 10 сн.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <witDetail wit="#И">Испр. из <hi rend="distinct">властелехъ</hi>: по стертым буквам <hi rend="distinct">хъ</hi> почерком Максима Грека вписана буква <hi rend="distinct">и</hi>, л. 248, 9 сн.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <witDetail wit="#И #Р #Сл #У #Тж">Доб. <hi rend="distinct">Владыкы всѣхъ</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14">
+                  <witDetail wit="#И">Буква е вписана над строкой почерком Максима Грека, л. 248, 6 сн.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15">
+                  <witDetail wit="#И">Буква <hi rend="distinct">ы</hi> вписана по стертому почерком Максима Грека, л. 248, 5 сн.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16">
+                  <witDetail wit="#Л">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17">
+                  <witDetail wit="#Сл">Слово правлено: киноварью зачеркнуты лишние буквы</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#v18">
+                  <rdg wit="#И">кратным</rdg>
+               </app>
+            </listApp>
+            <listApp> 
+               <head rend="super">19</head> 
+               <app from="#v19">
+                  <rdg wit="#И #У">преславнѣмъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">20</head> 
+               <app from="#v20">
+                  <rdg wit="#И">Тфериском</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">21</head> 
+               <app from="#v21">
+                  <witDetail wit="#И #Р #Сл #У">Доб. <hi rend="distinct">млада</hi> <witDetail wit="#Сл">(в Сл вписано киноварью со знаком вставки на поле почерком неосновного писца)</witDetail></witDetail>
+                  <rdg wit="#П">Иоанна</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">22</head> 
+               <app from="#v22">
+                  <rdg wit="#Сл">правящим</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">23</head> 
+               <app from="#v23"> 
+                  <rdg wit="#И #Р #Сл #У">46</rdg>
+                  <witDetail wit="#Тж">маргиналия вписана почерком неосновного писца: <hi rend="distinct">во Твери былъ пожарь от Адама 45, от Христа 537 года при епископи Акакии, того 34 годъ</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">24</head> 
+               <app from="#v24">
+                  <rdg wit="#Т">июлиа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">25</head> 
+               <app from="#v25">
+                  <rdg wit="#Т">солнце</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">26</head> 
+               <app from="#v26">
+                  <rdg wit="#Т">вѣмь</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">27</head> 
+               <app from="#v27">
+                  <rdg wit="#И #Р #Сл #У">внезаапу</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">28</head> 
+               <app from="#v28">
+                  <rdg wit="#Р">въставъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">29</head> 
+               <app from="#v29">
+                  <rdg wit="#Р">страны</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">30</head> 
+               <app from="#v30">
+                  <witDetail wit="#Р">Доб. <hi rend="distinct">съ</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">31</head> 
+               <app from="#v31">
+                  <witDetail wit="#Сл">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">32</head> 
+               <app from="#v32">
+                  <rdg wit="#Сл">священы</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">33</head> 
+               <app from="#v33">
+                  <rdg wit="#И #Р #Сл #У">всѣми</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">34</head> 
+               <app from="#v34">
+                  <rdg wit="#П">мало</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">35</head> 
+               <app from="#v35">
+                  <witDetail wit="#И">Буква <hi rend="distinct">м</hi> вписана над строкой почерком неосновного писца, л. 248 об., 1 сн.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">36</head> 
+               <app from="#v36">
+                  <witDetail wit="#И">Вписано на верхнем поле со знаком вставки почерком Максима Грека, л. 249</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">37</head> 
+               <app from="#v37">
+                  <rdg wit="#П #Т">судбах</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">38</head> 
+               <app from="#v38">
+                  <rdg wit="#И">попусщение</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">39</head> 
+               <app from="#v39">
+                  <witDetail wit="#П #Т">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">40</head> 
+               <app from="#v40">
+                  <witDetail wit="#И">Вписано над строкой, л. 249, 8 св.</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">41</head> 
+               <app from="#v41">
+                  <rdg wit="#Р">есть</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">42</head> 
+               <app from="#v42">
+                  <rdg wit="#Сл">ико</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">43</head> 
+               <app from="#v43">
+                  <witDetail wit="#Сл #П">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">44</head> 
+               <app from="#v44">
+                  <rdg wit="#Сл">щадиши</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">45</head> 
+               <app from="#v45">
+                  <rdg wit="#И #Р #Сл #У">руками</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">46</head> 
+               <app from="#v46">
+                  <rdg wit="#И">скыфъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">47</head> 
+               <app from="#v47">
+                  <rdg wit="#П #Т">разоряюще</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">48</head> 
+               <app from="#v48">
+                  <witDetail wit="#И">Вторая буква е вписана над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">49</head> 
+               <app from="#v49">
+                  <rdg wit="#Сл #П">покаемся</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">50</head> 
+               <app from="#v50">
+                  <rdg wit="#Т">Тобѣ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">51</head> 
+               <app from="#v51">
+                  <witDetail wit="#Р">Последняя буква вписана по стертому неразборчиво</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">52</head> 
+               <app from="#v52">
+                  <rdg wit="#И #Р #Сл #У #П">безакониемъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">53</head> 
+               <app from="#v53">
+                  <witDetail wit="#И">Доб. <hi rend="distinct">на</hi>, вписано над строкой со знаком вставки почерком Максима Грека, л. 249 06., 4св.</witDetail>
+                  <witDetail wit="#У">Доб. <hi rend="distinct">на</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">54</head> 
+               <app from="#v54">
+                  <witDetail wit="#Р">Написано дважды</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">55</head> 
+               <app from="#v55">
+                  <witDetail wit="#Сл">Испр. из <hi rend="distinct">отечьскых</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">56</head> 
+               <app from="#v56">
+                  <witDetail wit="#И У">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">57</head> 
+               <app from="#v57">
+                  <rdg wit="#И #Р #Сл #У">вѣрнаго</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">58</head> 
+               <app from="#v58">
+                  <witDetail wit="#Сл #Т">Нет</witDetail>
+                  <witDetail wit="#П">доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">59</head> 
+               <app from="#v59">
+                  <witDetail wit="#И">Испр. из <hi rend="distinct">Твоею</hi>: буква е подтерта, л. 249 06., 11 св.</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">60</head> 
+               <app from="#v60">
+                  <witDetail wit="#И">Буква <hi rend="distinct">с</hi> вписана над строкой</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">61</head> 
+               <app from="#v61">
+                  <rdg wit="#Т">надежу</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">62</head> 
+               <app from="#v62">
+                  <rdg wit="#И #У">освятився</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">63</head> 
+               <app from="#v63">
+                  <witDetail wit="#Сл">Испр. киноварью из <hi rend="distinct">не не</hi>: зачеркнуто первое написание</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">64</head> 
+               <app from="#v64">
+                  <witDetail wit="#П">Доб. <hi rend="distinct">со</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">65</head> 
+               <app from="#v65">
+                  <rdg wit="#Р">презѣлны</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">66</head> 
+               <app from="#v66">
+                  <rdg wit="#П">Доб. <hi rend="distinct">и</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">67</head> 
+               <app from="#v67">
+                  <rdg wit="#И">Буквы <hi rend="distinct">въ</hi> вписаны на поле со знаком вставки</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">68</head> 
+               <app from="#v68">
+                  <rdg wit="#И">Испр. из <hi rend="distinct">праведнаго</hi>: стерты буквы го</rdg>
+                  <rdg wit="#П #Т">праведнаго</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">69</head> 
+               <app from="#v69">
+                  <rdg wit="#Сл">кляхся</rdg>
+                  <rdg wit="#П #Т">клятся</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">70</head> 
+               <app from="#v70">
+                  <rdg wit="#Сл">помолихся</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">71-71</head> 
+               <app from="#v71a1" to="#v71a2">
+                  <witDetail wit="#Тж">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">72-72</head> 
+               <app from="#v72a1" to="#v72a2">
+                  <witDetail wit="#Сл">Вписано на нижнем поле со знаком вставки почерком неосновного писца; маргиналия киноварью 131</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">73-73</head> 
+               <app from="#v73a1" to="#v73a2">
+                  <rdg wit="#И #У">преукрасил <witDetail wit="#И">(в И испр. почерком Максима Грека из преукраси и: буква л вписана над строкой, буква и стерта, л. 250, 12 св.)</witDetail></rdg>
+                  <rdg wit="#П">прекраси</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">74</head> 
+               <app from="#v74">
+                  <witDetail wit="#И #Р #Сл #У #Сн">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">75</head> 
+               <app from="#v75">
+                  <rdg wit="#И #Р #Сл #У #Сн">многоцѣннымъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">76</head> 
+               <app from="#v76">
+                  <witDetail wit="#И">Буквы ише вписаны на правом поле со знаком вставки</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">77</head> 
+               <app from="#v77">
+                  <witDetail wit="#Т">Буква <hi rend="distinct">о</hi> вписана киноварью</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">78</head> 
+               <app from="#v78">
+                  <witDetail wit="#Т">Буквы <hi rend="distinct">сл</hi> вписаны киноварью поверх букв <hi rend="distinct">пр</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">79</head> 
+               <app from="#v79">
+                  <witDetail wit="#П">Далее киноварью зачеркнуто <hi rend="distinct">да</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">80</head> 
+               <app from="#v80">
+                  <rdg wit="#Сл">Владыку</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">81</head> 
+               <app from="#v81">
+                  <rdg wit="#Т">Буква <hi rend="distinct">п</hi> вписана киноварью поверх букв <hi rend="distinct">пр</hi></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">82</head> 
+               <app from="#v82">
+                  <witDetail wit="#И #Р #Сл #У">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">83</head> 
+               <app from="#v83">
+                  <witDetail wit="#Т">Вписано над строкой киноварью</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">84-84</head> 
+               <app from="#v84a1" to="#v84a2">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">85</head> 
+               <app from="#v85">
+                  <witDetail wit="#П #Т">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">86</head> 
+               <app from="#v86">
+                  <witDetail wit="#П #Т">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">87</head> 
+               <app from="#v87">
+                  <rdg wit="#П #Т">во</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">88</head> 
+               <app from="#v88">
+                  <witDetail wit="#Т">Испр. из <hi rend="distinct">избрал</hi>: буквы <hi rend="distinct">ных</hi> вписаны над строкой киноварью</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">89</head> 
+               <app from="#v89">
+                  <rdg wit="#П">предивнѣимъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">90</head> 
+               <app from="#v90">
+                  <rdg wit="#И #Р #Сл #У">издѣлавша</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">91</head> 
+               <app from="#v91">
+                  <rdg wit="#И #У">боголѣпиа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">92</head> 
+               <app from="#v92">
+                  <rdg wit="#Т">преподобным</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">93</head> 
+               <app from="#v93">
+                  <rdg wit="#Р">и</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">94</head> 
+               <app from="#v94">
+                  <rdg wit="#И">правными</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">95</head> 
+               <app from="#v95">
+                  <witDetail wit="#Сл">Нет</witDetail>
+               </app>
+            </listApp>
+            
+         </listApp>
+         
+         <noteGrp type="editorial-note">
+            <note target="#c1" > <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Вписано на правом поле со знаком вставки почерком Максима Грека</p>
+            </note>
+            <note target="#c2" > 
+               <label rend="super">б</label> <!-- lettera in apice -->
+               <p>Испр. из <hi rend="distinct">отхожениы</hi> стёрта буква <hi rend="distinct">ы</hi>, последняя буква <hi rend="distinct">и</hi> вписана в виде двух косых над строкой Х</p>
+            </note>
+            <note target="#c3" > 
+               <label rend="super">в</label> <!-- lettera in apice -->
+               <p>На этом обрывается текст в Х, далее по списку ГИМ, Синодальное собр., № 919, л. 214 об.—215</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Is"><ref>(Иc 14,8 / Is 14,8)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Is"><ref>(Иc 14,13-14 / Is 14,13-14)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Is"><ref>(Иc 14,12 / Is 14,12)</ref></bibl>
+         </listBibl>
+         
+         
+      </back>
+   </text>
+</TEI>

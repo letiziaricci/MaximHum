@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Переводы в других сборниках сочинений Максима Грека - Статья о таланте - Из книги, глаголемыя Суиды [Perevody v drugich sbornikach sočinenij Maksima Greka - Stat'ja o talante - Iz knigi, glagolemyja Suidy]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881 #MG-1897">Сказание о талантахъ изъ книги Суиды [Skazanie o talantach'' iz'' knigi Suidy] <note type="editorial"><ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="496" to="496">496</citedRange></bibl></ref> <ref><bibl>Maksim Grek 1897 <citedRange unit="page" from="229" to="229">229</citedRange></bibl></ref></note></title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Сказание о таланте [Skazanie o talante] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="77" to="77">77</citedRange></bibl></ref></note></title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969 lista-manoscritti.xml#Rog-341">Сказание о талантех [Skazanie o talantech] <note type="editorial"><ref><bibl>Ivanov 1969: <citedRange unit="page" from="77" to="77">77</citedRange></bibl></ref>, <ref><locus>n. 158, ms. RGB, Rog. 341, f. 507r</locus></ref></note></title>  
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Sol-495/514">Сказание о талантех из книги Суиды <note type="editorial"><ref><locus>ms. RNB, sobr. Soloveckogo mon. 495/514, f. 719v</locus></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Rog-341">Из книги, глаголемыя Суиды о талантех <note type="editorial"><ref><locus>ms. RGB, f. 247, sobr. Rogožskoj obščiny 341, f. 507r</locus></ref></note></title>
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">91</idno>
+            </bibl>
+            
+           
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984</date></ref>: <biblScope unit="page" from="170">170</biblScope>, <biblScope unit="chapter">nr. I.6.II.A</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek 1897: 229 (nr. 47)</name>, <date>1897</date></ref>: <biblScope unit="page" from="229">229</biblScope>, <biblScope unit="chapter">nr. 47</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Burc-25"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>БАН, ф. 1.5.97, собр. Бурц. 25</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#168v #169r">лл. 168об.-169</locus>   <!-- 02. Inventario testimone base COLONNA G -->
+                     <title xml:lang="cu-Cyrl">Из книги, глаголемыя Суиды</title>   <!-- 01. Inventario COLONNA i -->
+                     <incipit xml:lang="cu-Cyrl">Талант, яко же глаголеть Диодор в слове о иже «О мерех», мносом есть 60, мнас же драгмов 100, драгма же пулов 6, пуло же медниць 6, медниц же тонкых 7 зовется лепта.</incipit>   <!-- 01. Inventario COLONNA J -->
+                     <explicit xml:lang="cu-Cyrl">Литра же полвторы гривенки. Динарь же имать тяжести полполтини.</explicit>   <!-- 01. Inventario COLONNA K -->
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl">  
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="lettera" /> <!-- OPZIONALE: xml:id da mantenese solo se è indicata la lettera 02. Inventario testimone base COLONNA E  -->
+               <witness xml:id="B">   
+                  <ref target="lista-manoscritti.xml#Sin-491">ГИМ, Синодальное собр. 491</ref>, <locus type="foliation" target="#35v #36r">лл. 35об.-36</locus>   
+               </witness>
+               <witness xml:id="T2">   
+                  <ref target="lista-manoscritti.xml#Troic-201">РГБ, ф. 304, собр. Троице-Сергиевой лавры 201</ref>, <locus type="foliation" target="#253r">лл. 253</locus>    
+               </witness>
+               <witness xml:id="C">   
+                  <ref target="lista-manoscritti.xml#Sol-495/514">РНБ, собр. Соловецкого мон. 495/514</ref>, <locus type="foliation" target="#719v">лл. 719об.</locus>    
+               </witness> 
+               <witness xml:id="K">   
+                  <ref target="lista-manoscritti.xml#Rog-341">РГБ, ф. 247, собр. Рогожской общины 341</ref>, <locus type="foliation" target="#507r">л. 507</locus>    
+               </witness> 
+            </listWit> 
+            
+            
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="T34" >Suda Τ34 [= Adler 1928-1938, IV: 497-498]</ref> 
+               </bibl> 
+            </listBibl>
+            </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">intra 1525 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="68" to="69">68-69</citedRange></bibl></ref></note></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label"> 
+               <term>[Сказание]</term> 
+               </keywords>
+            <keywords scheme="#scope">    
+               <term>Suda (il talento del Vangelo)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation" source="#T34">Traduzione</term> 
+            </keywords>
+         </textClass>
+         
+         
+         
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><anchor xml:id="v1" n="1" rend="super"/>Из книги, глаголемыя <metamark function="end-page" rend="//"/><pb type="folio" n="л.169" rend="label-margin-left"/> Суиды<anchor xml:id="v2" n="2" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p><metamark corresp="#Т34" function="locus-Suda" rend="label-margin-left" />Талант, яко же глаголеть Диодор в слове о иже «О мерех», мносом есть 60, мнас же драгмов 100, драгма же пулов<anchor xml:id="c1" n="а" rend="super"/><anchor xml:id="v3" n="3" rend="super"/> 6, пуло<anchor xml:id="v4" n="4" rend="super"/> же медниць 6, медниц же<anchor xml:id="v5" n="5" rend="super"/> тонкых 7 зовется лепта. Талант же, ныне глаголемый Афинейскы; у<anchor xml:id="v6" n="6" rend="super"/> сикелиотах древний убо бе 24 мнасов, ныне же 12 мнасов. Талант же в божественом писании посылаемая свыше коемуждо божественая благодать. Талант<anchor xml:id="v7" n="7" rend="super"/> у некоих имать литр 100 и полтретия десять<anchor xml:id="c2" n="б" rend="super"/>. Литра же полвторы<anchor xml:id="v8" n="8" rend="super"/> гривенки. Динарь же имать тяжести полполтини.</p>
+         </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> 
+            <listApp>
+               <head rend="super">1-2</head> 
+               <app from="#v1" to="#v2"> 
+                  <rdg wit="#С">Сказание о талантех из книги Суиды</rdg>
+                  <witDetail wit="#С">на поле: <hi rend="distinct">глава 161</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> <!-- variante2 -->
+                  <witDetail wit="#К">Доб. <hi rend="distinct">о талантех, глава 129</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <rdg wit="#В #T2">полув</rdg>
+                  <witDetail wit="#Т2">глосса ХІХ в.: <gloss>пулов</gloss></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <rdg wit="#В #T2">полу</rdg>
+                  <witDetail wit="#Т2">глосса ХІХ в.: <gloss>пуло</gloss></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <witDetail wit="#К">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <rdg wit="#К">в</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <witDetail wit="#Т2">Доб. <hi rend="distinct">же</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <rdg wit="#Т2">полтретьи</rdg>
+                  <witDetail wit="#С"><gloss>В другой книге: полтретьи</gloss></witDetail>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> 
+            <note target="#c1" > 
+               <label rend="super">а</label> 
+               <p>ʾοβολῶν</p> 
+            </note>
+            <note target="#c2" > 
+              <label rend="super">б</label>
+               <p>λίτρας ρχεˊ</p>
+            </note>
+         </noteGrp>
+         
+        
+         
+      </back>
+   </text>
+</TEI>

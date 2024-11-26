@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrs">Притча [Pritča]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrs" source="lista-bibliografia.xml#PVK-1881">Притча объ антихристѣ [Pritča ob'' antichristě] <note type="editorial"><ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="496" to="496">496</citedRange></bibl></ref></note></title>
+            <title type="alt" xml:lang="cu-Cyrs" source="lista-bibliografia.xml#Iva-1969">Притча (об антихристе) [Pritča (ob antichriste)] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="203" to="203">203</citedRange></bibl></ref></note></title>
+           
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">354</idno>
+            </bibl>
+            
+            
+            <bibl type="reference-edition" xml:id="KI">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="230" to="230">230</biblScope>, <biblScope unit="chapter">nr. 49</biblScope> 
+               <title type="info-ms" xml:lang="cu-Cyrl">Titolo verosimilmente concorde con il titolo editoriale</title> 
+               <incipit type="info-ms">Нѣкто родися на лицы поля въ нощи тмою, пеленами не повить, водою не омытъ и солнце на него не возсияетъ и возрасту же миръ радуется.</incipit>
+               <explicit type="info-ms">[...] и измаильте, и татаровѣ и вси, имъ же подобни безвѣрнии люди, миръ нарицаеми, за еже преумножитися тогда всяческому грѣху и беззаконию.</explicit>
+            </bibl>
+            
+            
+            <msDesc type="reference-ms" xml:id="basic-witness-1" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <listWit xml:lang="cu-Cyrs">
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   <!-- 01. Inventario COLONNA L -->
+               <term>Притча</term> 
+               </keywords>
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Sulla venuta dell'Anticristo</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation">Possibile traduzione</term>
+               <term target="#reuse">Riuso</term>
+            </keywords>
+         </textClass>
+         
+         
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2 #b-wit-3 #b-wit-4">       
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>         
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrs">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ПРИТЧА</p>  
+      </front>
+      
+      <body>
+         <p>Нѣкто родися<anchor xml:id="c1" n="а" rend="super"/> на лицы поля въ нощи тмою, пеленами не повитъ, водою не омытъ и солнце на него не возсияетъ и возрасту же миръ радуется. Сказание: притча сия явлена есть, что антихристово пришествие и бытие являетъ гадательнѣ. Тои бо, проклятъ сыи, на лицы поля родится въ нощнѣи тмѣ, рекше во время пространно, сие бо являетъ поле во тмѣ нощнѣи, рекше въ послѣдняя времена, егда преумножится тма всякаго беззакония и безвѣрия измаильтескаго. Тои же противникъ пеленами, еже есть святыми заповѣдьми евангельскими, не повивается, еже есть не прииметъ наказания, ни водою, сирѣчь банею паки бытия не очистится, и сего ради ни солнце правды, еже есть свѣтъ присносущныи Христосъ, не возсияетъ нань. О его же антихриста рожествѣ и явлении радуется миръ, сирѣчь ожидающеи его жидове, и измаильте, и татаровѣ и вси, имъ же подобни безвѣрнии люди, миръ нарицаеми, за еже преумножитися тогда всяческому грѣху и беззаконию.</p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrs"> <!-- note alfabetiche = commenti al testo-->
+            <note corresp="#c1" >
+               <p>Въ другомъ спискѣ: <hi rend="distinct">родится</hi>.</p>
+            </note>
+            
+         </noteGrp>
+         
+        
+      </back>
+   </text>
+</TEI>

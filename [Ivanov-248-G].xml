@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl"></title>  
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Versione greca di Ivanov 248</note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Ivanov">[248-G]</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    
+               <ref target="lista-bibliografia.xml#Olm-1989"><name>Olmsted</name>, <date>1989</date></ref>: <biblScope unit="page" from="273" to="276">273–276</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Lop-1917"><name>Loparev</name>, <date>1917</date></ref>: <biblScope unit="page">???</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#V-5636-429">
+               <msIdentifier> 
+                  <msName>ВМЗ, B-5636/429</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#140v #141r">лл. 140об.-141 / ff. 140v-141r</locus>  
+                     <incipit xml:lang="grc">μὴ ξενισθήτω ἡ σὴ μεγαλοπρεπὴς εὐγένεια, περιφανέστατε ἂρχον ἐμοὶ τε κατὰ πάντα περιπόθητε αὐθέντα κὺρ Πέτρε Σούϊσκε [...]</incipit>  
+                     <explicit xml:lang="grc">τῆ τηλικαύτη τοίνυν αὐτοῦ περὶ ἐμὲ χρηστότητι καὶ φιλανθρωπία ἐπιθαρρή/σας κἀγὼ, ὡσαύτως καταμαθὼν [...]</explicit> 
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Olm-1989">Post 1542 <note type="editorial"><ref><bibl>Olmsted 1989 <citedRange unit="page" from="268" to="268">268</citedRange></bibl></ref></note></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="grc">Greco</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Autodifesa</term> 
+               <term>Supplica</term>
+               <term>Richiesta di riammissione all'eucaristia</term>
+               <term>Richiesta di restituzione dei libri greci portati dall'Athos</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original" source="lista-bibliografia.xml#Olm-1989">Testo originale</term>   
+            </keywords>
+         </textClass>
+              
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="list.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#PIS">Петр Иванович Шуйский / Petr Ivanovič Šujskij</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="grc">
+      
+      <body>
+         <p>μὴ ξενισθήτω ἡ σὴ μεγαλοπρεπὴς εὐγένεια, περιφανέστατε ἄρχον ἐμοὶ τε κατὰ πάντα περιπόθητε αὐθέντα κὐρ Πέτρε Σούϊσκε ἐφ’ ὧ τὴν ἐπικατασχοῦσαν ἐμὲ διὰ πλῆθος ἐμῶν ἁμαρτιῶν περίστασιν τολμῶ παραβάλλειν τῇ ἀδικωτάτη τοῦ <del rend="strikethrough">?ετου?</del><anchor xml:id="c1" n="а" rend="super"/> δικαίου ἐκείνου θλίψει ἤν ὑπέστη παρά τινων ἰδίων αὐταδέλφων πρότερον ἀπεμποληθεὶς ὡς ἀνδράποδόν τι φαῦλον καὶ ὕστερον κατὰ διαβολὴν φαύλης μοιχαλίδος εἰρκτῆ ἀντικλεισθεὶς δέσμιος ὁ τῆς τοῦ παραδείσου τρυφῆς καὶ αὐτῶν τῶν ἐπουρανίων σκηνωμάτων ἄξιος ὑπὲρ πολλοὺς ἀλλους δικαίους. οὐχ ὅτι ἐγὼ λογίζομαι ὅλως ἐμαυτὸν <anchor xml:id="c2a1" n="б" rend="super"/>ὁμοκατάγοντι<anchor xml:id="c2a2" n="б" rend="super"/> ἐκείνῳ τῷ δικαιοτάτῳ, ἄπαγε τῆς τοια ύτης μανίας καὶ ἐσχάτης ἀνοίας. ἐγὼ γάρ εἰμι αὐτὸ ἐκεῖνο τὸ ἀρχαῖον κακὸν τὸ βδέλυγμα τῆς ἐρημώσεως ἀλλ’ ἐκείνο πάντως παραστῆσαι σπεύδων τῇ σῇ περιφανείᾳ, ὅτι καθάπερ δὴ <del rend="strikethrough">δακη</del><anchor xml:id="c3" n="в" rend="super"/> περὶ ἐκείνον τὸν ἀθῶον κατὰ θείαν πάντως ἐπίσκεψιν ὠκονομήθη ὀργῆ ὑποπεσεῖν τοῦ ἰδίου βασιλέως καὶ εἰρκτῇ τῇ αὐτῇ ἐγκατακλεισθῆναι τοῦς περιφανεῖς ἐκείνους δύο ἄνδρας <anchor xml:id="c4a1" n="г" rend="super"/>τῳ οἷς<anchor xml:id="c4a2" n="г" rend="super"/> ὀρθῶς καὶ εὐστοχως διέκρινε τὰ ὠφθέντα ἐκείνοις ἐνυπνία ὁ τρισμακάριος ἐκεῖνος νεανίας καὶ μνησθῆναι αὐτοῦ τῆς ἀδίκου καθείρξεως ἱκέτευσε τὸν ὦδε προεῖπε τὴν πρώτην ἐκείνου παρὰ τῶ βασιλεῖ ἀξίαν <metamark function="end-page" rend="//"/><pb type="folio" n="л. 141"/> τε καὶ τιμήν καὶ δι’ ἐκείνου μηνυθεὶς τῶ φαραῶ τῆς τε εἰρκτῆς ἐλύθη καὶ τῶν δεσμῶν ὁ δίκαιος ἐκεῖνος καὶ τῆς πρώτης παρὰ τῶ βασιλεῖ ἠξιώθη τιμῆς κατὰ τὸ λέγον ἱερὸν λόγιον ἀπέστειλε βασιλεὺς καὶ ἔλυσε αὐτὸν ἂρχοντα λαοῦ καὶ ἀφῆκε αὐτὸν καὶ κατέστητε αὐτὸν κύριον τοῦ οἴκου αὐτοῦ καὶ ἂρχοντα πάσης τῆς κτήσεως αὐτοῦ. τὸν αὐτὸν δὴ τρόπον <anchor xml:id="c5a1" n="д" rend="super"/>ὠήθην πάντως<anchor xml:id="c5a2" n="д" rend="super"/> ὡκονόμηται κατὰ θεϊκὴν ὑπερβαλλοῦσαν περὶ<del rend="strikethrough">φάνειαν</del><anchor xml:id="c6" n="е" rend="super"/> ἐμὲ φιλανθρωπίαν καὶ χρηστότητα καὶ τὸ τὴν σὴν περιφάνειαν κατὰ πολλὴν σὴν ταπεινοφροσύνην καὶ εὔνοιαν καὶ ζητῆσαι με καὶ εἰσελθεῖν πρὸς ἐμὲ τὸν ἀχρεῖον καὶ θεωρίας ἀξιῶσαι <anchor xml:id="c7a1" n="ж" rend="super"/>τῆς μέσης<anchor xml:id="c7a2" n="ж" rend="super"/> καὶ ὁμιλίας εὐνουστάτης καὶ θωμύζειν<anchor xml:id="c8" n="з" rend="super"/> επὶ τούτω οὐ χρή· ὁ γὰρ ἐξ ἀρχῆς οἰκτίρμον καὶ ἐλεήμων καὶ φιλάνθρωπος, θεὸς ἀεῖ ἐλεήμων καὶ οἰκτίρμων καὶ φιλάνθρωπος. εἰ καὶ πρὸς καιρὸν συγχωρεῖ πειρασμοῖς ποικίλοις περιπεσεῖν τινα, ἀλλ’ οὐκ εἰς τέλος ὀργισθήσεται, φησὶ τὸ λόγιον, οὐδὲ εἰς τὸν αἰῶνα μηνιεῖ· καὶ ἐτέρα γραφὴ, πατάξω κἀγὼ πάλιν ἰάσομαι. αὐτὸς δημιουργὸς πάντων ἡμῶν αὐτὸς καὶ σωτήρ αὐτὸς καὶ προνοητὴς καὶ ἰατρὸς τῶν ψυχικῶν ἡμῶν παθῶν, αὐτὸς μόνος οἶδεν ἀκριβῶς τί ἑκάστω συμφέρει, αὐτὸς ταπεινοῖ καὶ ἀνυψοῖ, θανατοῖ καὶ ζωογονεῖ οὐ τύχη καὶ ζωδίοις καὶ πλανήταις, ὡς <metamark function="end-page" rend="//"/><pb type="folio" n="л. 141 об."/> ἡ ψευδώνυμος τῶν ἀθέων βαβυλωνίων καὶ αἰγυπτίων καὶ ἀράβων καὶ ἑλλήνων παιδεία <anchor xml:id="c9a1" n="и" rend="super"/>μεγαλορρήμον εἰ<anchor xml:id="c9a2" n="и" rend="super"/> καὶ ὀρίζεται, ἀλλ’ οἶς οἶδεν αὐτὸς μόνος ἀδήλοις καὶ ἀρρήτοις κρίμασιν αὐτοῦ· τίς γὰρ ἔγνω φησὶ τὸ λόγιον, νοῦν κυρῖου ἢ τίς σύμβουλος ἐγένετο αὐτῶ. τῆ τηλικαύτη τοίνυν αὐτοῦ <anchor xml:id="c10a1" n="к" rend="super"/>περὶ ἐμὲ<anchor xml:id="c10a2" n="к" rend="super"/> χρηστότητι καὶ φιλανθρωπία ἐπιθαρρήσας κἀγὼ, ὡσαύτως καταμαθὼν...</p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1">
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>(written, then lined out)</p>
+            </note>
+            <note target="#c2a1" targetEnd="#c2a2"> 
+               <label rend="super">б-б</label>
+               <p>The syllables <hi rend="distinct">κατα τι</hi> are entered supra (Fol. 140v.9).</p>
+            </note>
+            <note target="#c3">
+               <label rend="super">в</label>
+               <p>(written, then lined out)</p>
+            </note>
+            <note target="#c4a1" targetEnd="#c4a2"> 
+               <label rend="super">г-г</label>
+               <p>τῳ οἷ</p>
+            </note>
+            <note target="#c5a1" targetEnd="#c5a2"> 
+               <label rend="super">д-д</label>
+               <p>revised from original <hi rend="distinct">ὠήθην πάντως</hi> with indication supra to read, <hi rend="distinct">πάντως ὠήθης</hi> “in all ways you [2psg aor] considered”.</p>
+            </note>
+            <note target="#c6">
+               <label rend="super">е</label>
+               <p>written <hi rend="distinct">περὶφάνειαν</hi> (eyeskip: cf. beginning of next line); last three syllables lined out, leaving the preposition <hi rend="distinct">περὶ</hi>.</p>
+            </note>
+            <note target="#c7a1" targetEnd="#c7a2"> 
+               <label rend="super">ж-ж</label>
+               <p>The syllables <hi rend="distinct">της σης</hi> are entered supra (Fol. 141.9-10).</p>
+            </note>
+            <note target="#c8">
+               <label rend="super">з</label>
+               <p><hi rend="distinct">θωμύζειν</hi>—This form is otherwise unknown. Expected would be <hi rend="distinct">θαυμάζειν</hi>.</p>
+            </note>
+            <note target="#c9a1" targetEnd="#c9a2"> 
+               <label rend="super">и-и</label>
+               <p><hi rend="distinct">μεγαλορρήμον εἰ</hi>—non-standard form.</p>
+            </note>
+            <note target="#c10a1" targetEnd="#c10a2"> 
+               <label rend="super">к-к</label>
+               <p><hi rend="distinct">περὶ ἐμε</hi> written supra</p>
+            </note>
+         </noteGrp>
+         
+      </back>
+   </text>
+</TEI>

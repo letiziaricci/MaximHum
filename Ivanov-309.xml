@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание къ брату Григорию о рѣчи: Господи прибѣжище былъ еси намъ [Poslanie k'' bratu Grigoriju o rěči: Gospodi priběžišče byl'' esi nam'']</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Ivanov 1969 <citedRange unit="page" from="18" to="18">18</citedRange></bibl></ref></note></title> 
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Послание дьякону Григорию о толковании строки 89 псалма (Poslanie d'jakonu Grigoriju o tolkovanii stroki 89 psalma) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>   
+            
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Il destinatario dell'epistola è mezionato in Ivanov 251 e condiviso con Ivanov 262 e Ivanov 309</note>   
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue">
+               <idno type="Ivanov">309</idno>
+            </bibl>
+                                
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="421" to="423">421-423</biblScope>, <biblScope unit="chapter">nr. 39</biblScope>             
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+                 
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Posl. nr. 10</biblScope><note>Edizione in corso di stampa</note>
+               </bibl>
+            </listBibl>
+            
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Troic-200">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 304, Троиц. 200</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#359v #360r">лл. 359об.-360 / ff. 359v-360r</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">[О рѣчи: Господи прибѣжище былъ еси намъ, ms. RGB, f. 304, Troic. 200, ff. 359v-360r)]</title> 
+                     <rubric type="epistolary-formula" xml:lang="Cyrl">Господине и брате Григорие! Спаситъ тя Господь о всемъ твоемъ, еже ко мнѣ, жаловании и любви духовнѣи.</rubric> 
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Слышалъ есмь стороною, что государь нашъ владыка тверскои смущается о мнѣ бѣдномъ пословицею сею [...]</incipit> 
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Писалъ бы и прострацнѣе отвѣтъ о пословици сеи, а не хотѣлъ, да пе глаголеться и о мнѣ оно пророческое: ядыи хлѣбы мон возвеличнлъ на мя пяту.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+                       
+     
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Iva-1969">1551-1552ca <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="183" to="183">183</citedRange></bibl></ref></note></date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Послание</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Esegesi biblica (Sal 89,2)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Gri">Григорий / Grigorij (diacono del vescovo Akakij di Tver', cfr. Žurova 2022a: 1367)</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ПОСЛАНИЕ КЪ БРАТУ ГРИГОРИЮ О РѢЧИ: ГОСПОДИ ПРИБѢЖИЩЕ БЫЛЪ ЕСИ НАМЪ
+          </p>  
+      </front>
+      
+      <body>
+         <p>Господине и брате Григорие! спаситъ тя Господь о всемъ твоемъ, еже ко мнѣ, жаловании и любви духовнѣи. Слышалъ есмь стороною, что государь нашъ владыка  тферскои смущается о мнѣ бѣдномъ пословицею сею: <cit><quote xml:id="biblical-1">«Господи прибѣжище былъ еси намъ»</quote></cit>, и говоритъ, оглаголуя мене напрасно: восе-де Максимъ писаниемъ сицевымъ своимъ мудръствуетъ, что намъ ужь нѣсть прибѣжище къ Богу. Избави мя Господи отъ таковыа хулы; а иже таково учитъ, да будеть анафема въ вѣки, аминь. А сиа пословица: «былъ еси» не отлучаетъ насъ Божиаго промысла и прибѣгъства, якоже владыка толкуетъ, но наипаче исповѣдуеть и  твердо являеть Божии, иже о насъ промыслъ, явѣ глаголя, яко не точию нынѣ прибѣжище еси намъ Господи, но искони человѣческаго рода бысть, или былъ еси прибѣжище намъ. Сие бо сказуетъ намъ еже въ родъ и родъ, еже есть выну, сирѣчь изначала и нынѣ еси прибѣжище намъ и до скончаниа вѣка будеши у насъ и мы у тебе, по глаголющему неложному обѣщанию: и се азъ съ вами есмь во вся дни живота вашего, и яже по сихъ. Безлѣпо убо смущается о мнѣ добрыи государь нашь пословицею сею. Богъ волень да онъ. А различие пословицамъ симъ таково есть: егда пословица сиа сочетается къ первому липу, рекше, егда благодаряще Содѣтеля глаголемъ къ нему самому о его, еже къ намъ, милосердии, тогда  соидется глаголати составнѣ: Господи прибѣжище былъ еси намъ въ родъ и родъ, еже есть выну. А егда къ второму лицу сочетается, рекше, хвалящеся инымъ сказываетъ бывшее, еже его къ намъ благодарение, тогда составнѣ глаголетъ: Господь пробѣжище бысть намъ, якоже и инде глаголетъ: крѣпость моя и пѣние мое Господь, и бысть мнѣ въ спасение. А что еже бысть не вмѣсто всегда  полагается въ писании, какъ владыка государь толкуетъ е, слышите внятно евангелиста глаголюща: <cit><quote xml:id="biblical-2">«вся тѣмъ бышя и безъ него ничтоже бысть, еже бысть»</quote></cit>. Разсудите же: единою бышя всяческая, а не всегда бываютъ нова небеса и земля и прочая творениа. Господа  ради, не смущаитеся безлѣпо на мене. Жаловалъ государь, упокоилъ мене всякимъ довольствомъ многа лѣта, пожаловалъ (бы) и до конца побереглъ по Бозѣ, да и ему было возмездие совершенно отъ Господа.</p>
+         <p>Скажи пожалуи безъ боязни святителю сии складъ и челобитие ниско. Я всегда въ любви духовнѣи пребываю къ его святительству и его многолѣтное брежение и  жалование забывати немощно ми есть, Григорие. Не таковъ я безуменъ и неблагодаренъ. Писалъ бы и пространнѣе отвѣтъ о пословици сеи, а не хотѣлъ, да не глаголеться и о мнѣ оно пророческое: ядыи хлѣбы мои возвеличилъ на мя пяту.</p>
+      </body>
+      
+      <back> 
+         
+        
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Пс 89, 2 / Sal 89,2)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Gv"><ref>(Ин 1, 3 / Gv 1,3)</ref></bibl>
+         </listBibl>
+         
+        
+      </back>
+   </text>
+</TEI>

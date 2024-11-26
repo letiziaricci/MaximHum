@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание игуменье Евникии и инокиням Елене, Анастасии, Феофании [Poslanie igumen'e Evnikii i inokinjam Elene, Anastasii, Feofanii]</title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Rzi-1935-1936 #Iva-1969"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Ržiga 1935-1936 <citedRange unit="page" from="94" to="94">94</citedRange></bibl></ref>, <ref><bibl>Ivanov 1969: <citedRange unit="page" from="143" to="143">143</citedRange></bibl></ref></note></title>
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">Послание игуменье Евникии [Poslanie igumen'e Evnikii] <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note></title>   
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">205</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">  
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="212">212</biblScope>, <biblScope unit="chapter">nr. III.12</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Posl. nr. 24]</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Q-I-219"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Q.I.219</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#567v #567r">лл. 567об.-567 / ff. 567v-567r <hi rend="italic">(sic.)</hi></locus>   
+                     <rubric type="epistolary-formula" xml:lang="Cyrl">Преподобнеи, и христолюбивеи, и всякыми добродетелми украшенеи государыне игумении Евникии честныа обители пресвятыа Богородици и Приснодевы Марии, всея твари вид(и)мыа и невидимыа Владычици, и честным рабам и угодниц(ам) Христу Исусу Богу нашему Елене, и Анастасии, и Феофан(ии) многогрешныи чернець Максим, святогорец иногда, бого(мо)лець благовернаго великого князя Ивана Василиевичя вс(ея) Руси и вашь по вашему жалованию, дръзая многог ...</rubric> 
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">и молю Спаса Христа и ныне, и вперед пребуду моляся (о) вашем преподобии, да съблюдет вас всегда от всякыя к(оз)ни вражиа, и укрепит сердца вашя в страсе и люб(ви) божественеи [...]</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Ваши честнии помник(и) ...шли мене - и ряска, и свитка, и свещи, и рыбк(а) ...лник, и хлеб ароматныи. Вся приях цела ... (Ф)еодора, служебника вашего и в... </explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="П2"/> 
+            </listWit>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">1556ca <note type="editorial"><ref><bibl>cfr. Bulanin 1984a: <citedRange unit="page" from="195" to="196">195-196</citedRange></bibl></ref></note></date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Missiva di ringraziamento e di benedizione</term> 
+               <term>Istruzione</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName xml:id="MG">
+                  <persName>Максим Грек / Maksim Grek</persName>
+               </persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:id="Ev-El-An-Feof">
+                  <persName>Евникья, Елена, Анастасия, Феофания / Evnik'ja (egumena), Elena (monaca), Anastasija (monaca), Feofanija (monaca) (egumena e monache del monastero delle Vergini di Mosca) <note type="editorial"><ref><bibl>cfr. Bulanin 1984a: <citedRange unit="page" from="195" to="196">195-196</citedRange></bibl></ref></note></persName>
+               <roleName>[Евникья] государыни игумения</roleName>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <tagsDecl>
+            <rendition xml:id="roundBefore" scheme="css" scope="before">content: "(";</rendition>
+             <rendition xml:id="roundAfter" scheme="css" scope="after">content:")";</rendition>
+         </tagsDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> 
+         <p>ПОСЛАНИЕ ИГУМЕНЬЕ ЕВНИКИИ И ИНОКИНЯМ ЕЛЕНЕ, АНАСТАСИИ, ФЕОФАНИИ</p>  
+      </front>
+      
+      <body>
+         <p>Преподобнеи, и христолюбивеи, и всякыми добродетелми украшенеи государыне игумении Евникии честныа обители пресвятыа Богородици и Приснодевы Марии, всея твари вид<hi rendition="#roundBefore #roundAfter">и</hi>мыа и невидимыа Владычици, и честным рабам и угодниц<hi rendition="#roundBefore #roundAfter">ам</hi> Христу Исусу Богу нашему Елене, и Анастасии, и Феофан<hi rendition="#roundBefore #roundAfter">ии</hi> многогрешныи чернець Максим, святогорец иногда, бого<hi rendition="#roundBefore #roundAfter">мо</hi>лець благовернаго великого князя Ивана Василиевичя вс<hi rendition="#roundBefore #roundAfter">ея</hi> Руси и вашь по вашему жалованию, дръзая многог<gap rend="..."/>и молю Спаса Христа и ныне, и вперед пребуду моляся <hi rendition="#roundBefore #roundAfter">о</hi> вашем преподобии, да съблюдет вас всегда от всякыа к<hi rendition="#roundBefore #roundAfter">оз</hi>ни вражиа, и укрепит сердца вашя в страсе и люб<hi rendition="#roundBefore #roundAfter">ви</hi> божественеи, и просвещает мысли вашя озар<hi rendition="#roundBefore #roundAfter">ени</hi>ем Святого Духа, и да правит всегда стопы вашя, и д<hi rendition="#roundBefore #roundAfter">е</hi>ла, и словеса в спасителных заповедех его. Да все<hi rendition="#roundBefore #roundAfter">ми</hi> добродетелми преукрасившеся и масло доволно <gap rend="..."/>дех ваших вземше на вжигание светилник ваш<hi rendition="#roundBefore #roundAfter">их</hi>, сподобитеся с мудрыми и доброхвалными девами съ<gap rend="..."/>ти небеснаго жениха Христа Исуса и с ним внити све<gap rend="..."/> <gap rend="..."/>цам в небесныи чертог его, сиречь в наслажд<hi rendition="#roundBefore #roundAfter">ение ве</hi>чных благ, <cit><quote xml:id="biblical-1">«их же око не виде, ни ухо слы<hi rendition="#roundBefore #roundAfter">ша, и на се</hi>рдце человеческо не взыдошя, их же угото<hi rendition="#roundBefore #roundAfter">ва Бог любящим</hi> его»</quote></cit> апостольскы рещися, их же ради бесчис<gap rend="..."/></p>
+         <p><metamark function="end-page" rend="//"/><pb type="folio" n="л. 567" rend="label-margin-left"/> <gap rend="..."/>его оставльше и поправше, вся краснаа и сладка<hi rendition="#roundBefore #roundAfter">я</hi> житиа сего окаанаго и многоболезненаго с усердие<hi rendition="#roundBefore #roundAfter">м</hi> горящим, и тщанием многотрудным, и желанием неп<hi rendition="#roundBefore #roundAfter">рес</hi>танным, и слезами, поcтом же, и молитвами чист<hi rendition="#roundBefore #roundAfter">ыми</hi> всенощными, труды и подвигы духовными, взем<hi rendition="#roundBefore #roundAfter">ше</hi> крест свои, рекше, умрътвивше вся своя и хоте<hi rendition="#roundBefore #roundAfter">ния</hi>, похоти обоего человека, вслед Христу поидошя по рече<hi rendition="#roundBefore #roundAfter">нн</hi>ому о них пророком и царем Давидом: <cit><quote xml:id="biblical-2">«Ходяще же, хожа<hi rendition="#roundBefore #roundAfter">ху и</hi> плакаху, метающе семена своя», сиречр добра<hi rendition="#roundBefore #roundAfter">я</hi> дела и подвиги всяческы. «И сего ради, — рече, — грядущ<hi rendition="#roundBefore #roundAfter">е</hi> приидут с радостию, вземлюще рукояти своя»</quote></cit>,<hi rendition="#roundBefore #roundAfter">р</hi>екше в втором пришествии спасове, въскресшим телесем их нетлеемым ужь, и пресветлым, и <hi rendition="#roundBefore #roundAfter">бесс</hi>мертным, въсприимут от праведнаго судии и възмз<hi rendition="#roundBefore #roundAfter">д</hi>авца Исуса Христа нетленныи венець, бесмертие же и жи<gap rend="..."/> <gap rend="..."/>стареющ, еже есть и именуется царство божи<hi rendition="#roundBefore #roundAfter">е</hi> <gap rend="..."/>нчаемо, аминь.</p>
+         <p>Ваши честнии поминк<hi rendition="#roundBefore #roundAfter">и</hi> <gap rend="..."/>шли мене — и ряска, и свитка, и свещи, и рыбк<hi rendition="#roundBefore #roundAfter">а</hi> <gap rend="..."/>лник, и хлеб ароматныи. Вся приях цела <gap rend="..."/><hi rendition="#roundBefore #roundAfter">Ф</hi>еодора, служебника вашего и в<gap rend="..."/><anchor xml:id="c1" n="а" rend="super"/></p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> 
+               <p>Далее строчка заклеена.</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl n="1" corresp="#biblical-1" type="Cor1"><ref>(1 Кор 2, 9 / 1Cor 2,9)</ref></bibl>
+            <bibl n="2" corresp="#biblical-2" type="Sal"><ref>(Пс 125, 6 / Sal 125,6)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

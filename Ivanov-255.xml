@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека толкование отъ псалма 103[102]-го строка: обновится якоже орлу юность твоя [Inoka Maksima Greka tolkovanie ot'' psalma 103(102)-go stroka: obnovitsja jakože orlu junost' tvoja]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881 #Iva-1969 #Sin-1977">Titoli concordi con il titolo editoriale in Porfir'ev, Vadkovskij, Krasnosel'cev 1881: 491; Ivanov 1969: 172; Sinicyna 1977: 246</title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Толкование 102 псалма (Tolkovanie 102 psalma) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title> 
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">Ivanov-255</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 57</bibl>
+            </listBibl>
+             
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="20" to="21">20-21</biblScope>, <biblScope unit="chapter">nr. 2</biblScope> 
+               <incipit type="info-ms" xml:lang="cu-Cyrl">Блаженныи царь и пророкъ Давидъ во 103-мъ псалмѣ, воздвизая душу свою на хвалу и благодарение Владыки всѣхъ и Содѣтеля, глаголетъ: благословляи душе моя Господа и не забываи всѣхъ воздаянии его.</incipit>   <!-- 01. Inventario COLONNA J -->
+               <explicit type="info-ms" xml:lang="cu-Cyrl">[...] а юность орла разумнаго, ведикаго сирѣчь Христа и всѣхъ праведныхъ единою бываетъ и пребываеть во вѣки жива, япрена и необетчпаема, сея же благодати да сподобитъ насъ Господь Богъ нашъ Иисусъ Христосъ. Аминь.</explicit>   <!-- 01. Inventario COLONNA K -->
+            </bibl> 
+
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+            <bibl>
+               <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Chlud. nr. 11</biblScope>. <note>Edizione in corso di stampa</note>
+            </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   
+               </msIdentifier>
+            </msDesc>
+               
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>  
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>  
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName> 
+               </msIdentifier>
+               </msDesc>
+                        
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni, tanti <witness></witness> quanti sono i testimoni di controllo in 03. Inventario testimoni di controllo--> 
+               <witness corresp="#b-wit-1" ana="#reference-ms" /> 
+               <witness corresp="#b-wit-2" ana="#reference-ms" /> 
+               <witness corresp="#b-wit-3" ana="#reference-ms" /> 
+               <witness corresp="#b-wit-4" ana="#reference-ms" /> 
+            </listWit> 
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Толкование</term> 
+            </keywords>
+            <keywords scheme="#scope">  
+               <term>Esegesi biblica (Sal 103[102])</term>  
+            </keywords>
+         </textClass>
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>    
+            </keywords>
+         </textClass>
+
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОНА МАКСИМА ГРЕКА ТОЛКОВАНИЕ ОТЪ ПСАЛМА 102-ГО СТРОКА: <cit><quote xml:id="biblical-1">«ОБНОВИТСЯ ЯКОЖЕ ОРЛУ ЮНОСТЬ ТВОЯ»</quote></cit></p>  
+      </front>
+      
+      <body>
+         <p>Блаженныи царь и пророкъ Давидъ во 102-мъ псалмѣ, воздвизая душу свою на хвалу и благодарение Владыки всѣхъ и Содѣтеля, глаголетъ: благословляи душе моя  Господа и не забываи всѣхъ воздаянии его. Таже, исчитавъ еи вся дарования Божия, приводитъ; обновится якоже орлу юность твоя. Сие дарование совершенство есть всего блаженства, его-же ждутъ праведнии получити, по реченному святымъ    Павломъ апостоломъ въ  послании, еже  къ Филиписияномъ: <cit><quote xml:id="biblical-2">«наше бо жительство», рече, «на небесЪхъ есть, отнюдуже и Спасителя ждемъ Господа нашего Иисуса Христа»</quote></cit>, иже преобразитъ тѣло смирения нашего, сирѣчь, обновити будетъ худое и тлѣющее всякимъ образомъ болѣзненнымъ и смертию, въ еже быти ему сообразну тѣлу славы своея, сирѣчь пресвѣтла будутъ тѣла святыхъ во второмъ пришествии Спасовѣ, якоже и самъ Иисусъ Христосъ извѣствуетъ насъ, глаголя:  тогда праведнии возсияютъ, якоже солнце, во царствии Отпа своего. И паки апостолъ Павелъ инде: <cit><quote xml:id="biblical-3">«ина слава солнцу, и ина слава лунѣ, и ина слава звѣздамъ, звѣзда бо звѣздѣ преизобилуетъ во славѣ, сицѣ и воскресение мертвыхъ, сѣется, сирѣчь погребается во тлѣние, востаетъ въ нетлѣние, сѣется не въ честь, востаетъ въ чести, сѣется въ немощи, востаетъ въ славѣ, сѣется тѣло душевное, востаетъ тѣло духовное»</quote></cit>. Явлено убо отъ сихъ божественныхъ реченти, яко тѣлеса праведныхъ востаютъ подобно-образна тѣлу славѣ Христовои разумнаго орла, глаголемаго святымъ писаниемъ пророческимъ и божественною апокалипсиею, идѣже глаголетъ:<cit><quote xml:id="biblical-4"> «и даны быша женѣ два крила орла великого, да летитъ въ пустыню»</quote></cit>. Орелъ великъ Христосъ есть, крила же его новыи и ветхии завѣтъ, имиже Христова церкви Божия подымаема и подмогаема, превыше лѣтаетъ всѣхъ кознеи бѣсовскихъ и живетъ въ пустыни, сирѣчь въ тишинѣ и безмолвии, не  боящися еретическихъ шатании и бурныхъ навѣтъ ихъ. Безъ ума убо нѣцыи спираются и юность орлову глаголютъ орла птичнаго и пернатаго, обновление бо птицы пернатыя на всякомъ году бываетъ и обетшаетъ, а юность орла разумнаго, ведикаго сирѣчь Христа и всѣхъ праведныхъ единою бываетъ и пребываеть во вѣки жива, ядрена и необетшаема, сея же благодати да сподобитъ насъ Господь Богъ нашъ Иисусъ Христосъ. Аминь.</p>
+      </body>
+      
+      <back>        
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Пс 102,5 / Sal 102,5)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Cit"><ref>(Флп 3, 20-21 / Fil 3, 20-21)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Cit"><ref></ref>(1 Кор 15,41-44 / 1Cor 15,41-44)</bibl>
+            <bibl corresp="#biblical-4" type="Cit"><ref>(Откр 12,14 / Ap 12,14)</ref></bibl>
+         </listBibl>     
+         
+      </back>
+   </text>
+</TEI>

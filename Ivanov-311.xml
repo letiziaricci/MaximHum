@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же Максима Грека послание к нѣкоему князю просившему у него с чего пошло не ясти скоромного в понедѣлныи день [Togo že Maksima Greka poslanie k někoemu knjazju prosivšemu u nego s čego pošlo ne jasti skoromnogo v ponedělnyi den']</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Lop-1899 #Iva-1969 #Sin-1977"><note type="editorial">Titoli concordi con il titolo editoriale in <ref><bibl>Loparev 1899 <citedRange unit="page" from="194" to="195">194-195</citedRange></bibl> <bibl>Ivanov 1969 <citedRange unit="page" from="183" to="184">183-184</citedRange></bibl> <bibl>Sinicyna 1977 <citedRange unit="page" from="245" to="245">245</citedRange></bibl></ref></note></title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Сказание, с чего пошло не ясти скоромно в понеделник день [Skazanie, s čego pošlo ne jasti skoromno v ponedelnik den'] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="183" to="184">183-184</citedRange>, n. 70, ms. RNB, Q.I.219, cap. 72, ff. 450r-450v</bibl></ref></note></title>
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Послание князю (Poslanie knjazju) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>
+           
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">311</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl">
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 51</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    
+               <ref target="lista-bibliografia.xml#Sce-1911"><name>Ščeglova</name>, <date>1911</date></ref>: <biblScope unit="page" from="8">8</biblScope> 
+            </bibl>
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Lop-1899"><name>Loparev</name>, <date>1899</date></ref>: <biblScope unit="page" from="194" to="195">194-195</biblScope>,
+               </bibl> 
+               <bibl>   
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">nr. 8</biblScope>.
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#F-I-250"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, F.I.250</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#9r #9v">лл. 9-9об. / ff. 9r-9v</locus>   <!-- 02. Inventario testimone base COLONNA G -->
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же Максима Грека послание к нѣкоему князю просившему у него с чего пошло не ясти скоромного в понедѣлныи день</title>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Понеже слышалесмы что твое благородие прилѣжне взыскуетъ глаголя, с чего убо пошло не ясти въ понедѣлныи день скоромного. праведно судия малыми писмены разрешет тебе сицевое недоумѣние.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">[...] и сего ради приложиша нам иноком, понедѣлныи постъ. да в тѣ триех днех. трезвеным умом и чистым помыслом. прославляим отьца и сына, и святаго духа. троицу единосущну, и неразделиму. еюже да соблюдасм еси. во всяком благовѣрии и здравии веселии от господе. и со всѣми возлюблеными твоими аминь.</explicit> 
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/> 
+            </listWit>
+
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Послание</term> 
+            </keywords>
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Vita monastica (il digiuno del lunedì)</term> 
+               <term>Povertà nella religione</term>
+               <term>Istruzione</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>  
+            </keywords>
+         </textClass>
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pe">un principe</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <tagsDecl>
+            <rendition xml:id="roundBefore" scheme="css" scope="before">content: "(";</rendition>
+            <rendition xml:id="roundAfter" scheme="css" scope="after">content:")";</rendition>
+         </tagsDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><metamark function="end-page" rend="//"/><pb type="folio" n="л. 9" rend="label-margin-left"/>ТОГО ЖЕ МАКСИМА ГРЕКА ПОСЛАНИЕ К НѢКОЕМУ КНЯЗЮ ПРОСИВШЕМУ У НЕГО С ЧЕГО ПОШЛО НЕ ЯСТИ СКОРОМНОГО В ПОНЕДѢЛНЫИ ДЕНЬ</p>  
+      </front>
+
+      <body>
+         <p>Понеже слышалесмы что твое благородие прилѣжне взыскуетъ глаголя, с чего убо пошло не ясти въ понедѣлныи день скоромного. праведно судия малыми писмены разрешет тебе сицевое недоумѣние. <hi rendition="#roundBefore #roundAfter">В</hi>ѣдомо убо да есть твоему благородию. что древнии святии отьцы началници иноческому житию. возолюбивше всею душею спаса. и тщашеся всѣми егда повед мир <unclear rend="?"/> святими угодити ему. къ прочим многим съпасительным уставом иноческаго жития еже есть отлучение всего мира сего. Сирѣчь всякия нечтоты плоцкыя, лихоимания и всяко неправдования язычнаго обядения и пиянства. и въ краце рещи. от всякого фарисиискаго сребролюбия и лицемѣрия. Слышавше <metamark function="end-page" rend="//"/><pb type="folio" n="л. 9 об."/> реченное от господа. аще не преизлешествует правда ваша паче книжникъ и фарисеов, не внидете въ царство небесное, и научившеся от хавлящася фарисся что есть правда иже. и яко къ прочим иже добродѣтелим и дважды в неделю постяхуся уставиша себе святии они Христови угодници. да якоже въ прочих добрых дѣтелех преодолѣли их зело. такоже и в постнох дѣланиих превзыти их да явятся, во всѣхъ послушающе господа своего. К сим же вѣдомо да есть всякому премудрому христову ученику, и рачителю теплеишему небесных жителеи. Яко аще кто от мирян произволет постъ тот соврьшат, сиреч пондлныи, добро есть ему аще припряжет к нему и прочая добрая дѣла. годаго оного постника хвалящагося без ума, и глаголющаго. боже благодарю тя яко нѣсмь яко же прочи человѣци. Блудники прелюбодѣя. хищники неправедници. ниж якоже мытар се сиречь лихоимен едину его злобу неисцелную. да ненавидит всѣмъ сьрдъцамъ глаголю гордость безумную. еяже ради и от своих добрых прочих дѣл. не тою ползу ни едину прияти. но еще и осужен бы. и сего ради приложиша нам иноком, понедѣлныи постъ. да в тѣ триех днех. трезвеным умом и чистым помыслом. прославляим отьца и сына, и святаго духа. троицу единосущну, и неразделиму. еюже да соблюдасм еси. во всяком благовѣрии и здравии веселии от господе. и со всѣми возлюблеными твоими аминь.</p>
+      </body>
+
+   </text>
+</TEI>

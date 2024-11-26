@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание В. М. Тучкову о типографском знаке Альда Мануция I вариант (вид) [Poslanie V. M. Tučkovu o tipografskom znake Al'da Manucija I variant (vid)]</title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Gen-1858">О типографскомъ знакѣ альдинскихъ изданий (Из сочинений Максима Грека) [O tipografksom znake al'dinskich izdanij (Iz sočinenij Maksima Greka)] <note type="editorial"><ref><bibl>Gennadi 1858 <citedRange unit="page" from="184" to="185">184-185</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Сказание об Альде Мануччи [Skazanie ob Al'de Manučči] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="207" to="209">207-209</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Bul-1984a">О типографском знаке Альда Мануция [O tipografskom znake Al'da Manucija] <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="198" to="199">198-199</citedRange></bibl></ref></note></title>  
+   
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Variante (redazione in Bulanin 1984a: 199) di [Ivanov 362-a]</note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">Ivanov-362</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 54</bibl>       
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">  
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="345" to="346">345-346</biblScope>, <biblScope unit="chapter">nr. II.15</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Gen-1858"><name>Gennadi</name>, <date>1858</date></ref>: <biblScope unit="page" from="184" to="185">184-185</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="198" to="199">198-199</biblScope>, <biblScope unit="chapter">nr. III.1</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, Рум. 264</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#99r #99v">лл. 99-99об. / ff. 99r-99v</locus>  
+                     <incipit xml:lang="cu-Cyrl">Велѣл еси мнѣ, князь государь мои Василие Михаилович, сказати тебѣ, что есть тлъкъ знамению, его же видѣлъ еси въ книзѣ печатнѣи.</incipit>  
+                     <explicit xml:lang="cu-Cyrl">[...] Толико постиже мысль моа худаа, толико и сказалъ. Могыи же и болѣ того, да просвѣтит нас. А я тебѣ, государю моему, много челомъ бию.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/>
+               
+               <witness xml:id="М">  
+                  <ref target="lista-manoscritti.xml#Muz-1948">ГИМ, Муз. 1948</ref>, <locus type="foliation" target="#305r #306v">лл. 305-306об. / ff. 305r-306v</locus> 
+               </witness>
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a #MG-2008">Intra 1525 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="192" to="192">192</citedRange></bibl> <bibl>Maksim Grek 2008 <citedRange unit="page" from="35" to="35">35</citedRange></bibl></ref></note></date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">    
+               <term>Esegesi</term> 
+               <term>Catechesi</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="received">
+               <persName>князь государь Василий Михайлович Тучков / Vasilij Michajlovič Tučkov</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      
+      <body>
+         <p><pb type="folio" n="л. 99" rend="label-margin-left"/> Велѣл еси мнѣ, князь государь мои Василие Михаилович, сказати тебѣ, что есть тлъкъ знамению, его же видѣлъ еси въ книзѣ печатнѣи. Слыши же внятно. Въ Венеции<anchor xml:id="v1" n="1" rend="super"/> был нѣкыи философ добрѣ хытръ, имя ему Алдусъ, а прозвище Мануциусъ, родом фрязинъ, отчьством римлянинъ, Вѣтхаго Рима отрасль, грамотѣ и по римьскы, и по греческы добрѣ гораздъ. Я его зналъ и видѣлъ<anchor xml:id="v2" n="2" rend="super"/> въ Венеции<anchor xml:id="v3" n="3" rend="super"/> и к нему чясто хаживал книжным дѣлом, а я тогда еще молодъ, въ мирьскых<anchor xml:id="v4" n="4" rend="super"/> платьях<anchor xml:id="v5" n="5" rend="super"/>. Тотъ Алдус Мануциус римлянинъ по своеи мудрости замыслил себѣ таково премудрое замышление, въспоминая притчею сею всякому и властелю и невѣже<anchor xml:id="v6" n="6" rend="super"/>, како мочно имъ будет<anchor xml:id="v7" n="7" rend="super"/> получити вѣчныи животъ, аще истинною желают ему. И якорем убо являет утвръжение и крѣпость вѣры, рыбою же — душу человѣчю, и учит нас притчею сею и говорит: как якорь<anchor xml:id="v8" n="8" rend="super"/> желѣзен крѣпит и утвръжает корабль в море и избавляет его от всякыа бѣды морскых<anchor xml:id="v9" n="9" rend="super"/> влънении и обуревании, такъ, — деи<anchor xml:id="v10" n="10" rend="super"/>, — и страх Божии нелицемѣренъ, твердо въдруженъ въ душах человѣческых въ всякои правдѣ<anchor xml:id="v11" n="11" rend="super"/>, истинѣ заповѣдеи Божиих, избавляет ихь от всякыа напасти и кознеи видимых и невидимых врагъ. И какъ пакъ<anchor xml:id="v12" n="12" rend="super"/> корабль без якоря не умѣет избыти морскых обуревании<anchor xml:id="c1" n="а" rend="super"/>, но разбитъ<anchor xml:id="v13" n="13" rend="super"/> погружаеться<anchor xml:id="v14" n="14" rend="super"/> въ бездну и пропадает<anchor xml:id="c2" n="б" rend="super"/>, тѣм же дѣлом и душя человѣческаа, отринувши <metamark function="end-page" rend="//"/><pb type="folio" n="л. 99 об." rend="label-margin-right"/> страха Божиа, еже есть дѣлание всякыа правды, удобь обладаема бывает невидими<anchor xml:id="v15" n="15" rend="super"/> врагы и<anchor xml:id="v16" n="16" rend="super"/> погыбает<anchor xml:id="c3" n="в" rend="super"/> прочее, отлучена бывши Божиа помощи<anchor xml:id="c4" n="г" rend="super"/>.</p>
+         <p>Толико постиже мысль моа худаа, толико и сказалъ. Могыи же и болѣ<anchor xml:id="v17" n="17" rend="super"/> того, да просвѣтит нас. А я тебѣ, государю моему, много челомъ бию.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" > <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> <!-- numero in apice -->
+               <app from="#v1"> 
+                  <rdg wit="#M">Виниции</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> <!-- variante2 -->
+                  <rdg wit="#M">видал</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <rdg wit="#M">Виницее</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <rdg wit="#M">мирском</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <rdg wit="#M">платие</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <rdg wit="#M">невѣжду</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <witDetail wit="#M">Доб. <hi rend="distinct">да</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <rdg wit="#M">якоръ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9">
+                  <rdg wit="#M">моркых</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10">
+                  <rdg wit="#M">де</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11">
+                  <witDetail wit="#M">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <rdg wit="#M">пакы</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <witDetail wit="#M">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14">
+                  <rdg wit="#M">погружает</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15">
+                  <rdg wit="#M">неведыми</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16">
+                  <witDetail wit="#M">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17">
+                  <rdg wit="#M">болѣе</rdg>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Далее стерта часть строки (ок. 20 строчных знаков).</p>
+            </note>
+            
+            <note target="#c2"> 
+               <label rend="super">б</label> 
+               <p>После <hi rend="distinct">па</hi> стерты (до дыры) 2–3 знака.</p>
+            </note>
+            
+            <note target="#c3"> 
+               <label rend="super">в</label> 
+               <p>В ркп. испр. основным почерком из <hi rend="distinct">подобает</hi>.</p>
+            </note>
+            
+            <note target="#c4"> 
+               <label rend="super">г</label> 
+               <p>Следующий обзац написан с отсутствием в одну сторону.</p>
+            </note>
+         </noteGrp>
+   
+      </back>
+   </text>
+</TEI>

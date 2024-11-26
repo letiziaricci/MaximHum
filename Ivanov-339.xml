@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">О Спиридонии чюдотворци [O Spiridonii čjudotvorci]</title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881 #Iva-1969"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="489" to="489">489</citedRange></bibl></ref> <ref><bibl>Ivanov 1969 <citedRange unit="page" from="200" to="200">200</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Слово о Спиридоне Тримифунтском (Slovo o Spiridone Trimifuntskom) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>  
+            </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Ivanov">339</idno>
+            </bibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="218" to="220">218–220</biblScope>, <biblScope unit="chapter">nr. 39</biblScope>
+               <title type="info-ms" xml:lang="cu-Cyrl">Titolo presumibilmente concorde con il titolo editoriale</title> 
+               <incipit type="info-ms">По многихъ философскихъ взысканиихъ и сильныхъ показаниихъ и священнаго перваго собора спирающуся и еще словесы противящуся еллинскому философу, преподобныи епископъ тримифиискии Спиридонъ чюдотворецъ, поболѣвъ и стуживъ си о супротивлении еллина, помолилъ священнаго собора [...]</incipit>
+               <explicit type="info-ms">[...] и аще повинуетеся мнѣ, добрая совѣтующу, приидите вы и ходите со мною въ слѣдъ божественнаго сего старца и просвѣтитися просвѣщениемъ божественнаго разума святою банею паки бытия.</explicit>
+               </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>:  <biblScope unit="chapter">Sbor.smeš.sost. nr. 12</biblScope>. <note>Edizione in corso di stampa</note>
+               </bibl>
+               </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness-1" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <listWit xml:lang="cu-Cyrl">
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Storia eccelsiastica</term> 
+               <term>Exemplum (san Spiridone e la conversione di un filosofo)</term>
+               <term>Dogmatica (la Trinità)</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>    
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>О CПИРИДОНИИ ЧЮДОТВОРЦИ</p>  
+      </front>
+      
+      <body>
+         <p>По многихъ философскихъ взысканиихъ и сильныхъ показаниихъ и священнаго перваго собора спирающуся и еще словесы противящуся еллинскому философу, преподобныи епископъ тримифиискии Спиридонъ чюдотворецъ, поболѣвъ и стуживъ си о супротивлении еллина, помолилъ священнаго собора, да позволятъ ему глаголати къ философу, и, по многомъ молении, повелѣвшу священному собору глаголати къ философу, сице просто со многою тихостию и честию: вѣруеши ли, о честныи философе, яко единъ есть Богъ содѣтель и строитель всего? и философу отвѣщавшу: вѣрую, честныи отче, и паки преподобному епископу рекшу къ нему: вѣруеши ли, яко премудрѣишии тои Содѣтель имать и Слово живо и себѣ единосущно, имъ же вся сотворилъ? и оному и сие исповѣдавшу, глагола паки къ нему: вѣруеши ли прочее, яко и Духъ имать единосущенъ себѣ и соприсносущенъ, да есть же и вѣруется единъ Богъ въ триехъ ипостасѣхъ во единомъ существѣ и естествѣ и божествѣ, сего убо слова мы отъ богодохновенныхъ писании учили же и просвѣщаеми проповѣдуемъ и исповѣдуемъ Бога совершенна во своемъ ипостаси и человѣка совершенна бывше в послѣднихъ временехъ сихъ на спасение роду человѣческому, вѣруеши ли сему, о философе! И философъ, аки нѣкии богопокоривъ ученикъ: вѣрую вся сия, честныи старче, отвѣща; и преподобныи къ нему; чего ради убо медлиши и не приемлеши баню паки бытия во имя Отца и Сына и Святаго Духа, яко да свои грѣхи омыеши и, Духа Святаго исполинвся, большаа сихъ узриши и научишися? и онъ ко преподобному: буди же сия, якоже ты велиши, честнѣишии старче. Сице оному рекшу и въ слѣдъ преподобному идущу въ церковь, да крестится, друзии ученицы его возмутившеся во еже внезапномъ его измѣнении и укоряюще его побѣждена бывша сице неискуснѣ отъ единаго некнижнаго старца, рече къ нимъ: не дивитеся о семъ, о любезнии друзи мои! донелѣже бо словесы прение и хитрословиемъ бываше мнѣ подвигъ ко всему священному собору пречюдныхъ сихъ святителехъ, вѣдахъ противу претися и стязатися крѣпцѣ, егда же малыми учении сеи старецъ отверзъ Богомъ просвѣщенная уста своя, начатъ глаголати ко мнѣ, яже о божественномъ величествѣ, явилъ ми ся огненыи пламень изъ устъ его спроисходящь и словесы его просвѣщаше умъ мои и просвѣщениемъ разума божественнаго, вкупѣ же и препираше мене отринути всяко суетно хитрословие и прение богопротивное, и аще повинуетеся мнѣ, добрая совѣтующу, приидите вы и ходите со мною въ слѣдъ божественнаго сего старца и просвѣтитися просвѣщениемъ божественнаго разума святою банею паки бытия.
+         </p>
+      </body>
+      </text>
+</TEI>

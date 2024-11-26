@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание царю Ивану IV [Poslanie carju Ivanu IV]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Titolo concorde con il titolo editoriale in <ref><bibl>Ivanov 1969 <citedRange unit="page" from="152" to="152">152</citedRange></bibl></ref></title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Послание Максима Грека Ивану IV [Poslanie Maksima Greka Ivanu IV] <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="261" to="261">261</citedRange></bibl></ref></note></title>
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Послание Ивану IV (Poslanie Ivanu IV) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>   
+
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">223</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 126</bibl>                    
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#Rzi-1934"><name>Ržiga</name>, <date>1934</date></ref>: <biblScope unit="page" from="117" to="119">117-119</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Posl. nr. 2</biblScope> <note>Edizione in corso di stampa</note>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264">
+               <msIdentifier>
+                  <msName>РГБ, Рум. 264</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#302r #304r">лл. 302-304 / ff. 302r-304r</locus>  
+                     <incipit xml:lang="cu-Cyrl">Да исчезнет от всякыя благочестивыя мысли лъжа и ласкание и завистливъ нравъ, такожде да исчезнет всяко неправодѣиство и лихорадство, да множит же ся всяко праводѣиство и истина и христианолѣпенъ нравъ и кротост, в них же ими же изрядно украшаеться иже по образу и подобию божию рукою божиею създаныи изначала человѣкъ [...]</incipit> 
+                     <explicit xml:lang="cu-Cyrl">Аще и не сподобихся видѣти царское твое лице по моим грѣхом, а слышаниемъ твоих всехвалных исправлении и строении радости духовныя...</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/>        
+            </listWit>
+            
+          
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Iva-1969">Primavera del 1551 <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="152" to="152">152</citedRange></bibl></ref></note></date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>[Послание]</term> 
+            </keywords>
+            <keywords scheme="#scope">    
+               <term>Speculum principum (virtù morale)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+              
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#I4V">Иван IV Васильевич / Ivan IV Vasil'evič</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <tagsDecl>
+            <rendition xml:id="roundBefore" scheme="css" scope="before">content: "(";</rendition>
+            <rendition xml:id="roundAfter" scheme="css" scope="after">content:")";</rendition>
+         </tagsDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+     
+      <body>
+         <p><metamark function="end-page" rend="//"/> <pb type="folio" n="л. 302"/> Да исчезнет от всякыя благочестивыя мысли лъжа и ласкание и завистливъ нравъ, такожде да исчезнет всяко неправодѣиство и лихорадство, да множит же ся всяко праводѣиство и истина и христианолѣпенъ нравъ и кротост, в них же ими же изрядно украшаеться иже по образу и подобию божию рукою божиею създаныи изначала человѣкъ, о немь же премудрѣишѣ речено бысть пророкомъ и боготцом: <cit><quote xml:id="biblical-1">«и человѣкъ въ чест быв не разумѣ, приложися скотом несмысленым и уподо<hi rendition="#roundBefore #roundAfter">би</hi>ся имъ»</quote></cit>, сирѣчь нетлѣниемъ и безсмертиемъ и всякою премудръстию и разумом преукрашенъ бывъ, не разумѣ изрядную высоту даровъ небеснаго сана ему от създавшаго его, прельстився словесы льстивыми жены легкоумныя, его же ради приложися скотом несмысленым и уподобися имъ, смертенъ бывъ от безсмертнаго и тлѣненъ от нетлѣннаго преступлени<hi rendition="#roundBefore #roundAfter">е</hi>мъ порученныя ему спасителныа заповѣди и въмѣсто съсуда избраннаго и въмѣстителнаго разумѣнии и дѣании всякыя премудрости и божественнаго разума, показася прочее съсуд погубленъ, давидьскыи рещи, еже ест съкрушениа достоинъ, акы непотребенъ прочее бывъ и безсчестенъ отнуд въходомъ всяческыя злобы. Но еда презрѣлъ ли създание пречистых рукъ своих съкрушено бывше по зависти змиини же нѣкии прелести? Никако же, но не преста<anchor xml:id="c1" n="а" rend="super"/> всякыми образы посѣщая его и руку помощи простирая <metamark function="end-page" rend="//"/><pb type="folio" n="л. 302 об. "/> ему знаменми, яже съ небесъ, знаменми от земли, знаменми въ мори, законоположении и поучении и наставлении мужеи святыхъ и иных от земли бывших премудрых въ всякомъ языцѣ еллинѣх же и египтянъ и халдеехъ и аравлянъ и бывших въ Индии, в рахманех, их же кождо своимъ съплемеником писаныхъ оставишя различных учении и яже о нравех законоположениа ко всякои добродѣтели и правдѣ наставляюще своих съплеменикы и къ познании съдѣтеля всѣхъ руководяще ихъ по даннѣи имъ свыше божественѣи помощи, послѣ же и самъ всѣхъ съдѣтель и промысленикъ съставная премудрость Божиа, в немь же сут вся съкровища Божиа премудрости и разума събрана, единородныи сынъ и слово Божие утробами щедрот своих побежденъ иже единъ непобѣдимыи самоизволенъ прииде на помощъ своего създаниа. И сие преже многыхъ лѣтъ предвъзъгласилъ блаженыи пророкъ Давидъ, глаголя: <cit><quote xml:id="biblical-2">«Богъ явѣ приидет и не премолчитъ»</quote></cit>, и пакы: <cit><quote xml:id="biblical-3">«явит Богъ боговъ въ Сионѣ»</quote></cit>. И богоглаголивыи Аввакум: <cit><quote xml:id="biblical-4">«Богъ от юга приидетъ»</quote></cit>. О нем же пришедшим и сугубѣ сущемъ естеством Бога и человѣка глагола она моляс о немъ Богу и Отцу, глаголя: <cit><quote xml:id="biblical-5">«Боже, суд твои цареви даи и правду твою сыну цареву судити людемъ твоимъ правдою и нищим твоимъ судом»</quote></cit>. Сицевым же молится о немъ, акы о человѣцѣ, яко же Богъ бо имат сия въ естествѣ въсажена, яко же самъ глаголеть, Отецъ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 303"/> судит не единому, но вес суд дал ест Сыну, да вси почитают Сына, яко же почитают Отца, а яко конець прият сицевая молитва бого отцова, никто же противляяися, вездѣ бо по подсолнечнѣи въсиашя лучя разумнаго солнца правды просвѣщающе душя богопокорно и благоразумно прикланяющих выя своя под иго благое евангельскых велѣнии и лѣхкое бремя ихъ съ усердиемъ приемлющих, яко же и божественыи Аввакум, о немь же предвъзвѣщает, глаголя: <cit><quote xml:id="biblical-6">«Покры небеса добродѣтел его и хвалениа его испльнь земля, и сиание его, яко же свѣтъ будет»</quote></cit> и прочая… Но яко же повышше предрече ми ся, и нынѣ глаголю: Да исчезнет от всякыя благовѣрныя мысли всяко ласкание и лъжа и завистливъ обычаи, истину же и правость нрава да любит всякъ и нарочитая и достохвалная исправлениа царствующих благовѣрно и якоже Богу благоугодно ест не млъчаниемъ миновати, ни забвению предати, завистию побѣжаем, но да хвалит я у себе и иным вѣдома да творит, да презѣлнѣ въспѣваемъ бываетъ и славится Царь царствующих и Господь господьствующих, от него же учинени сут по божественому апостолу сущая на земли власти, от нихъ же едина ест изрядна и свѣтлѣиша царствие твое, еже по отческому жребию многолѣтному дошедше даже до твоего благовѣриа, благочестивѣишии самодерьжче всея Руси, государь княз великыи Иване Василиевич, ему же вручену бывшу ти от вышняго богоначалиа, правишь е всякою правдою и правосудиемъ, очищая е <metamark function="end-page" rend="//"/><pb type="folio" n="л. 303 об."/> премудрѣишими умышлении и строении от всякого неправдованиа разбоиничества же и кровопролитиа неправеднѣиших и клевѣтникь бездушнѣиших и влъшебныа прелести и всяческых сатаниньскых инрании чювественых бѣсовъ, слуговъ антихристовыхъ, пленящих душя вѣрных въ всякых богомръзскых блужении, яко и нам съ необиновениемъ мощи глаголати и о твоем царствии рѣчи пророчьскыя молитвы, глаголющиа: «Боже суд твои цареви нашему далъ еси и правду твою сыну цареву, яко судити людемъ твоимъ правдою и нищим твоим судом и избавляти сыны убогых от насильствующих я и обидящих лютѣ, тѣмь же никто же толь готовъ и усерденъ, якоже избранныи твои царь и защититель нашъ въ еже пособляти обидимымъ и отмъстити насилничаемых, поминая добрѣ молящагося тебѣ пророка и царя глаголющаго: <cit><quote xml:id="biblical-7">«Сътворих судъ и правду, не предажь мене обидящим мя видимым и невидимым врагом»</quote></cit>. Утишилася земля древлѣ убо, яко не слышимъ, при пресловутых царѣхъ Александрѣ Маке<hi rendition="#roundBefore #roundAfter">до</hi>ньстѣм и Августѣ кесарѣ. Утишила же и при тебѣ, благовѣрнѣишии самодръжче нашъ от различныя злобы и неправдодѣльства велеименитаа страна всеа Рус<hi rendition="#roundBefore #roundAfter">и</hi>, управляема предобрѣишѣ твоими премудрыми умышлении и велѣнии, по их же уповаемъ извѣстно, яко и горы словении въсприимут людемъ съвръшеныи <metamark function="end-page" rend="//"/><pb type="folio" n="л. 304"/> мир и холми сущеи о благовѣрнѣи дръжавѣ твоеи славнии князи и велможи възлюбят всяку правду, повинующеся твоим праведнѣишим уставом и велѣнием възирающе на твое человѣколюбнѣише изволение, якоже на доброту одушевленую и образ самыа божественыа благости, из нея же невидимо озаряемъ велемудреныи и быстрѣишии умъ твои царскыи. Всѣхъ преимѣеши и всѣхъ одолеваеши яко же царскымъ саномъ, тако же превъсходиши всѣхъ и разумом и премудростию божественою и благостию къ всѣмъ требующимъ твоея благолѣпныя помощи царскыя, ея же да сподоблюся получити и азъ, окаянныи, лѣта ужь доволна удръжимъ и различными обьстоянии озлобляемъ и якоже лодиа въ пучинѣ безпрестанно обуреваемъ всякыми треволнении. Ущерди мя, благовѣрнѣишии царю, и многолѣтнаго озлоблениа благоизволи избавити мя щедротъ ради всемилостиваго Бога, да и с веселымъ сердцемъ обилнѣиших приношаю вышнему яже о<anchor xml:id="c2" n="б" rend="super"/> твоеи благовѣрнѣи дръжавѣ длъжных молитвах, их же николи же престах принося вышнему, якоже свѣсть иже вся свѣдыи, яко не лъжу. Аще и не сподобихся видѣти царское твое лице по моим грѣхом, а слышаниемъ твоих всехвалных исправлении и строении радости духовныя…<anchor xml:id="c3" n="в" rend="super"/></p>
+      </body>
+      
+      <back> 
+         
+      
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" > <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Испр., в рукоп. <hi rend="distinct">праста</hi>.</p>
+            </note>
+            <note target="#c2" > <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">б</label> <!-- lettera in apice -->
+               <p>Испр., в рукоп. <hi rend="distinct">от</hi>.</p>
+            </note>
+            <note target="#c3" > <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">в</label> <!-- lettera in apice -->
+               <p>Текст обрывается, вероятно, недостает слова «исполнихся».</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Пс 48, 13 / Sal 48,13)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Sal"><ref>(Пс 49, 3 / Sal 49,3)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Sal"><ref>(Пс 49, 2 / Sal 49,2)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Ab"><ref>(Авв 3, 3 / Ab 3,3)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Sal"><ref>(Пс 71, 1 / Sal 71,1)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Ab"><ref>(Авв 3, 3-4 / Ab 3,3-4)</ref></bibl>
+            <bibl corresp="#biblical-7" type="Sal"><ref>(Пс 118, 121 / Sal 118,121)</ref></bibl>
+         </listBibl>
+
+
+      </back>
+   </text>
+</TEI>

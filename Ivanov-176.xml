@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Слова, подвигающие к покаянию [1] [Slova, podvigajuščie k pokajaniju (1)]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1860 #Iva-1969 #Sin-1977">Инока Максима Грека словеса воставлятельна къ покаянию [Inoka Maksima Greka slovesa vostavljatel'nja k'' pokajaniju] <note type="editorial"><ref><bibl>Maksim Grek 1860 <citedRange unit="page" from="247" to="247">247</citedRange></bibl> <bibl>Ivanov 1969 <citedRange unit="page" from="134" to="134">134</citedRange></bibl> <bibl>Sinicyna 1977 <citedRange unit="page" from="233" to="233">233</citedRange> <citedRange unit="page" from="245" to="245">245</citedRange> <citedRange unit="page" from="255" to="255">255</citedRange></bibl></ref></note></title>   
+            
+           
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Nelle raccolte intra vitam compone un capitolo unico insieme a Ivanov 335-338 </note>
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">176</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie"> Румянцевское собрание 65</bibl> 
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 47</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 44</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">  
+               <ref target="lista-bibliografia.xml#Zur-2011"><name>Žurova</name>, <date>2011</date></ref>: <biblScope unit="page" from="71">71</biblScope>
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="247">247</biblScope>, <biblScope unit="chapter">nr. 17</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="341">342</biblScope>, <biblScope unit="chapter">nr. 47</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Bols-285"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, Больш. 285</msName> 
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 44</locus>  
+                     <locus type="foliation" target="#58v #59r">лл. 58об.-59</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима. Словеса възставлятелна къ покаанию</title>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Огнь, и присно изнуряя червъ, и плачь непрестаненъ, и тма, и мракъ, и страшенъ скрежетъ зубныи ждеть нас, душе, беззаконно живущихъ, въ преисподнихъ и мрачных земли пропастех шедших.</incipit>   
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Ему повинующися теплыми слезами, себе измываи всегда, очищение же огнено по смерти не чаи безумно. Зловѣрных сие умышление есть, своея злобы студено утѣшение изобретено ими.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/>
+               
+               <witness xml:id="A">   
+                  <ref target="lista-manoscritti.xml#RGIA-1622">РГИА, ф. 834, оп. 4, 1622</ref>, <locus type="chapter">гл. 46</locus>, <locus type="foliation" target="#376v #377r">лл. 128об.-129 / ff. 128v-129r, 115r-117v</locus><note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>, <locus type="foliation" target="#376v #377r">лл. 115-117об. / ff. 128v-129r, 115r-117v</locus><note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>
+               </witness>
+               <witness xml:id="И1"> 
+                  <ref target="lista-manoscritti.xml#MDA-III-138">РГБ, ф. 173, МДА/III 138</ref>, <locus type="chapter">гл. 47</locus>, <locus type="foliation" target="#234r #236r">лл. 234-236 / ff. 234r-236r</locus><note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>   
+               </witness>
+               <witness xml:id="И">   
+                  <ref target="lista-manoscritti.xml#MDA-I-42">РГБ, собр. МДА/I 42</ref>, <locus type="chapter">гл. 47</locus>, <locus type="foliation" target="#377r #380r">лл. 377-380 / ff. 377r-380r</locus><note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>   
+               </witness> 
+               <witness xml:id="P">  
+                  <ref target="lista-manoscritti.xml#Rum-264">РГБ, собр. Румянцева 264</ref>, <locus type="chapter">ст. 65</locus>, <locus type="foliation" target="#109v #111v">лл. 109об.-111об. / ff. 109v-111v</locus><note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>   
+               </witness>
+               <witness xml:id="T">  
+                  <ref target="lista-manoscritti.xml#Troic-200">РГБ, Троицкое собр. 200</ref>, <locus type="chapter">гл. 89-92</locus>, <locus type="foliation" target="#352r #353v">лл. 352-353 / ff. 352r-353r</locus><note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>   
+               </witness>
+            </listWit> 
+
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Iva-1969">1542ca <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="64" to="64">64</citedRange></bibl></ref></note></date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Словеса възставлятелна</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Pentimento</term> 
+               <term>Istruzione</term>
+               <term>Correzione</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+         
+       
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><pb type="folio" n="л. 58 об." rend="label-margin-left"/> ТОГО ЖЕ ИНОКА МАКСИМА. СЛОВЕСА ВЪЗСТАВЛЯТЕЛНА КЪ ПОКААНИЮ</p>  
+      </front>
+      
+      <body>
+         <p>Огнь, и присно изнуряя червъ, и плачь непрестаненъ, и тма, и мракъ, и страшенъ скрежеть зубныи ждеть нас, душе, беззаконно живущихъ, въ преисподнихъ и мрачных земли пропастех шедших. Убоимся, въсплачимъ<anchor xml:id="v1" n="1" rend="super"/>, своея злобы удалимся, дѣла истиннаго покаяния покажимъ, доколѣ время eсть. «Дѣланию бо нынѣшныи вѣкъ, а послѣднии въздаяниомъ есть» <unclear rend="(?)"/>, Павелъ глаголетъ, истиннаа премудрость<anchor xml:id="v2" n="2" rend="super"/> уста Христова. Ему повинующися теплыми слезами, <anchor xml:id="v3a1" n="3" rend="super"/>себе измы<metamark function="end-page" rend="//"/><pb type="folio" n="л. 59" rend="label-margin-left"/>ваи<anchor xml:id="v3a2" n="3" rend="super"/> всегда, очищение же огнено по смерти не чаи безумно. Зловѣрных сие умышление есть, своея злобы студено утѣшение изобретено ими.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1"> 
+                  <rdg wit="#И1">въсплачем</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> 
+                  <rdg wit="#И #И1">предмудрая</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3-3</head> 
+               <app from="#v3a1" to="#v3a2"> 
+                  <rdg wit="#И">измываи</rdg>
+               </app>
+            </listApp>
+         </listApp>
+            
+          
+      </back>
+   </text>
+</TEI>

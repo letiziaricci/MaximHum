@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Отче наш толковои [Otče naš tolkovoi]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Bul-1984a">Titolo concorde con il titolo editoriale in Bulanin 1984a: 187</title> 
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Толкование: Отче наш иже еси на небесех [Tolkovanie: Otče naš iže esi na nebesech] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="177" to="177">177</citedRange></bibl></ref></note></title>    
+             
+           </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+        
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">Ivanov-274</idno>
+            </bibl>
+
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Rom-2024"><name>Romoli</name>, <date>in stampa</date></ref>
+            </bibl> 
+            
+            
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl type="catalogue">
+                  <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="187">187</biblScope>, <biblScope unit="chapter">nr. II.IV.23</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Lop-1899"><name>Loparev</name>, <date>1899</date></ref>: <biblScope unit="page" from="198" to="199">198-199</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#O-176">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ ОЛДП, О.176</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#54v #57r">лл. 54об.-57 / ff. 54v-57r</locus>   
+                     
+                     <title xml:lang="cu-Cyrl">Отче наш толковои</title>   
+                    
+                     <incipit xml:lang="cu-Cyrl">Отче нашъ, иже еси на небесех. Толк. Отца нарицаеши Бога. И добрѣ глаголеши: Отецъ бо и Творецъ есть всѣм нам.</incipit>  
+                     <explicit xml:lang="cu-Cyrl">[...] не предажь нас в руцѣ его, но покрои ны обычным си человѣколюбием. Яко твое есть царство.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+        </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   <!-- 01. Inventario COLONNA L -->
+               <term>[Толкование]</term> 
+            </keywords>
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Esegesi patristica</term> 
+               <term>Pseudo-Crisostomo (esegesi del Pater noster)</term>
+            </keywords>
+         </textClass>
+
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#reuse" source="lista-bibliografia.xml#Bul-1984a">Riuso [Tolkovaja služba] [= traduzione slava (seconda redazione, terza versione) di PG 59: coll. 627-628] <note type="editorial">traduzione in <ref><bibl>Bulanin 1984a <citedRange unit="page" from="187" to="187">187</citedRange></bibl></ref></note></term>   
+            </keywords>
+         </textClass>
+ 
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel manoscritto (se presente) --> 
+         <p>ОТЧЕ НАШ ТОЛКОВО</p>  
+      </front>
+      
+      <body>
+         <p><pb type="folio" n="л. 54 об." rend="label-margin-left"/> Отче нашъ иже еси на небесех. Толк. Отца нарицаеши Бога, и добрѣ глаголеши, Отецъ бо и Творецъ есть всѣм нам. Ты же человѣче право покажи житие, в вѣре чистѣ, и добрыми дѣлы тружаася, якоже ти заповѣдал еуаггельским гласом, да угодиши Отцу твоему небесному, правыи будеши сынъ ему роженыи крещением. Аще ли нечистыми дѣлы <pb type="folio" n="л. 55." rend="label-margin-left"/> упряжняешися, то диавола отца себѣ призываеши, волю его творя.</p>
+         <p>И да святится имя твое. Толк. Нѣсть бо свята якоже Богъ нашъ понеже Христос, а мы христиане именем его и мы освящаемся. Аще святослoвиши пресвятое имя, душу свою чисту соблюди от грѣх, исправися в добрых дѣлех сыновних, и прославится имя его въ твоеи чистотѣ, pече бо: Узрят человѣцы добраа вашя дѣла, и прославят Отца небеснаго.</p>
+         <p>Да придет Царствие твое. Толк. Богъ царь есть, рече пророкъ: Воцарися Богъ на языцѣх, царствует бо всеи твари, видимѣи и невидимеи. Якоже град плѣняем от врага, и просит временна царя помощи, и мы отступлении от грѣховных сил и от лукавых помыслъ, молимся приити на ны благодати божии, изяти нас от злых, и царствовати в нас, и пакы приити имат судити всѣм творяще бо добраа дѣла, внидем въ Царствие его.</p>
+         <p><pb type="folio" n="л. 55 об." rend="label-margin-left"/> И да будет воля твоя яко на небеси. Толк. По воли бо его на небеси аггели без зависти в мирѣ и в тихости глубоцѣ Бога славят.</p>
+         <p>Тако и на земли. Толк. На земли бо человѣцы добраа дѣла творяще, якоже во Еуаггелии научил Бога славят.</p>
+         <p>Χлѣб нашъ насыщныи. Толк. Се есть небеснаго и зде лежащаго, oт душа бо и тѣла составлен человѣкъ, xлѣбъ телесныи ѣдымыи, а хлѣбъ душевныи слово божие, рече бо пророкъ: Хлѣб аггельскыи ясть человѣкъ, то есть непрестанное славословие.</p>
+         <p>Даи же нам днесь. Толк. Аще хлѣба просиши молите Бога не о богатстве, ни о утренем ядении и питии, но что день изясти, а останок убогым даи, тѣм бо на будущем Судѣ, Судию милостива обрящеши.</p>
+         <p>Остави нам долгы наша, якоже и мы оставляем должником нашим. Толк. Си молитва с клятвою съпряжена, рече бо Господь: <pb type="folio" n="л. 56" rend="label-margin-left"/> Аще принесеши дар твои ко олтареви и помянеши яко брат твои имат нѣчто на тя, оставя дар иди смирися с ним, и потом принесеши, никоего же бо грѣха помяну в тои час, развѣ гнѣва и злопомнѣние. Аще и во истину не имаши в срдцы ни на кого же враждь, и простил тебе обидѣвших, и под рукою вашею всѣм котораго отпущениа просиша, подобострастным ти человѣком, и алчныа напитал, и все якоже Господь въ Еуаггелии заповѣдал, и нѣкыа от бѣд спасалъ еси, и добро что сотворил и добрѣ помолился еси, и добре отпущениа просиши. Аще ли злопамятие и в малѣ имаши то клятву себе стяжал еси. О горе лжа начах глаголати, лжа от диавола есть, ложь бо рече и отець его, и погубит по пророку вся глаголющаа лжу. Аще ты не оставиши, гнѣва и зависти ненависти и горести и всякого злапомнѣниа, <pb type="folio" n="л. 56 об." rend="label-margin-left"/> ни простиши должником рѣзы, ни удержиши мзды наимнику, ни лишишися срамнаго ради прибытка корчемнаго прикупа, и криваго суда и мзды и всякого граблениа, ни тобѣ оставяться грѣховнии долзи. Уста бо твоя на тебе молят.</p>
+         <p>И не введи нас в напасть. Толк. Рече бо Господь: Иже и творит волю Отца моего тои есть сынъ мои и тому напасть не приближиться, ни мука будущаго вѣка, но инѣм, в напастех руцѣ свои простирают, а не аз ввожу в напасть, но отецъ ваш диавол егоже волю творите, дѣла бо его суть: хула, клевета, осужение, свар бои и прочаа. Аще начнеши добре страдати, моляся Богу, видимыя и невидимыя неприязни от тебе отбѣгнут, яко сынъ милыи будеши, и наслѣдник Царствия небеснаго.</p>
+         <p>Но избави нас от неприазни. Толк. Аще просит нас Сатана, разсѣяти якоже древле <pb type="folio" n="л. 57" rend="label-margin-left"/> святыа твоа ученикы, ли яко праведнаго Иова, не даи же ему на нас власти, но аще и лукавъ человѣкъ хощет искусити или обидѣти, не предажь нас в руцѣ его, но покрои ны обычным си человѣколюбием. Яко твое есть Царство.</p>
+         </body>
+      
+   </text>
+</TEI>

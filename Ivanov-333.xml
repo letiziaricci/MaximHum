@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека рѣчи отъ амвона къ восходящимъ на немъ попомъ и диакономъ [Inoka Maksima Greka rěči ot'' amvona k'' voschodjaščim'' na nem'' popom'' i diakonom'']</title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969 #Sin-1977"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Ivanov 1969 <citedRange unit="page" from="198" to="198">198</citedRange></bibl></ref> <ref><bibl>Sinicyna 1977 <citedRange unit="page" from="244" to="244">244</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Речи от амвона (Reči ot amvona)] <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note></title>   
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Testo motivato dalla riedificazione della cattedrale di Tver' dopo l'incendio del 1537 insieme a Ivanov 332, 334</note>   <!-- 01. Inventario COLONNA C -->
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">333</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl">
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 39</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition" xml:id="KI">    
+               <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="295">295</biblScope>, <biblScope unit="chapter">nr. 23</biblScope>. 
+               <title type="info-ms" xml:lang="cu-Cyrl">Titolo presumibilmente concorde con il titolo editoriale</title>  
+               <incipit type="info-ms" xml:lang="cu-Cyrl">Амвонъ азъ преухишренъ дѣло доброхвально всяческими цвѣтми различныхъ узоръ и ваповъ преудобренъ, посреди церкви водруженъ есмь, на возглашение богодохновенныхъ писании православнымъ людемъ.</incipit>  
+               <explicit type="info-ms" xml:lang="cu-Cyrl">[...] да яко же совершители Божиихъ велѣнии приимете отъ него неувядаемыи вѣнецъ н велии наречетеся во царствии его.</explicit> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-494-513">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>  
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName> 
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName> 
+               </msIdentifier>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />      
+            </listWit>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Iva-1969">1538-1539 <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="199" to="199">199</citedRange></bibl></ref></note></date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Речи</term>
+            </keywords>
+            <keywords scheme="#scope">  
+               <term>Istruzione</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>    
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName xml:id="MG">
+                  <persName>Максим Грек / Maksim Grek</persName>
+               </persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:id="pd">
+                  <persName>i popi e i diaconi della cattedrale di Tver' <note type="editorial"><ref><bibl>cfr. Ivanov 1969 <citedRange unit="page" from="199" to="199">199</citedRange></bibl></ref></note></persName>
+                  <roleName>божии рабы</roleName>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2 #b-wit-3 #b-wit-4">       
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>    
+            </interpretation>
+         </editorialDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОКА МАКСИМА ГРЕКА РѢЧИ ОТЪ АМВОНА КЪ ВОСХОДЯЩИМЪ НА НЕМЪ ПОПОМЪ И ДИАКОНОМЪ</p>  
+      </front>
+      
+      <body>
+         <p>Амвонъ азъ преухишренъ дѣло доброхвально всяческими цвѣтми различныхъ узоръ и ваповъ преудобренъ, посреди церкви водруженъ есмь, на возглашение богодохновенныхъ писании православнымъ людемъ. Восходящии на мя Божии раби блюдите, како восходите: аще убо достоинѣ по душѣ украшаетеся проповѣдании, ихъ же инымъ сами велегласно проповѣдуете, да яко же совершители Божиихъ велѣнии приимете отъ него неувядаемыи вѣпецъ и велии наречетеся во царствии его.</p>
+      </body>
+
+   </text>
+</TEI>

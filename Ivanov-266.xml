@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Подборки выписок из Свиды в сборнике сочинений Максима Грека ГБЛ, ф. 256, собр. Румянцева, № 264 - От книгы тлъковыа [Podborki vypisok iz Svidy v sbornike sočinenij Maksima Greka GBL, f. 256, sobr. Rumjanceva, № 264 - Ot knigy tl''kovya] </title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">От книгы толковые, что есть апостольское жительство [Ot knigy tolkovye, čto est' apostol'skoe žitel'stvo] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="176" to="176">176</citedRange></bibl></ref></note></title>   
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Переводы Максима Грека из лексикона «Суда» - От книгы тлъковыа [Perevody Maksima Greka iz leksikona "Suda" - Ot knigy tl''kovya] <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="257" to="257">257</citedRange></bibl></ref></note></title>   
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Il testo si apre con Suda A3560 [= Adler 1928-1938, I: 322], che in altra traduzione compare già in Ivanov 80[+]</note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">266</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 82</bibl>                    
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="162" to="162">162</biblScope>, <biblScope unit="chapter">nr. I.4.II</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, собр. Румянцева 264</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#170v #171r">лл. 170об.-171</locus>   
+                     <title type="info-ms" xml:lang="cu-Cyrl">От книгы тлъковыа</title>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Что есть апостольское жительство? Ответ. Очесем опасно зрение, языку въздержание, телу порабощение, мудрование смирено, мысли чистота, гневу исчезение.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Оному в лепоту уподобил братское съгласие и съжитие, еже бо множаиших добродетельных исправлении съвръшение съвръшеныя добродетели благовоние съделоваеть.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            
+            
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="Α3560" >Suda Α3560 [= Adler 1928-1938, I: 322]</ref>
+                  <ref xml:id="Κ151" >Suda Κ151 [= Adler 1928-1938, III: 13]</ref>
+                  <ref xml:id="Κ2351" >Suda Κ2351 [= Adler 1928-1938, III: 183]</ref>
+                  <ref xml:id="Μ1450" >Suda Μ1450 [= Adler 1928-1938, III: 428]</ref>
+               </bibl> 
+            </listBibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">1519ca <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="72" to="72">72</citedRange> <citedRange unit="chapter">n. 69</citedRange></bibl></ref></note></date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Suda (esegesi biblica)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation" source="#Α3560 #Κ151 #Κ2351 #Μ1450">Traduzione</term> 
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ОТ КНИГЫ ТЛЪКОВЫА</p>  
+      </front>
+      
+      <body>
+         <p><metamark corresp="#A3560" function="locus-Suda" rend="label-margin-left" />Что есть апостольское жителство? Ответ. Очесем опасно зрение, языку въздержание, телу порабощение, мудрование смирено, мысли чистота, гневу исчезение. Поемлем прилагаи, бием не стужаися, лишаем не стезаися, възненавидим любляи, гоним терпи, хулим утешаи, умрътвися к греху, сраспнися Христу, всю любовь преложи к Господу.</p>
+         <p><metamark corresp="#K151" function="locus-Suda" rend="label-margin-left" />Злоба. Два сказует речь сиа: сущее злоба блуд и всяка плотскаа нeчистота, лихоимьство, клятвопреступление, оглаголание. Глад же, и пагуба, и смерть, и недугы не зла суть, зане многажды блага нам ходатаиствуют. И о сeи глаголеть пророк: «Несть злоба в граде, ю же не сътвори господь».</p>
+         <p><metamark corresp="#K2351" function="locus-Suda" rend="label-margin-left" />«Вопль содомьскыи» — гнуснеишыи и злосмраднеишыи иже паче естества грех, от содомлян деиствуем, акы некыи глас, въсходящ и вопиущ величество не<metamark function="end-page" rend="//"/><pb type="folio" n="л.171" rend="label-margin-left"/>чествию их в ушеса Господа Саваофа. И длъготръпеливыи Господь опосле за непокаятелно и неисправлятелно их и неразсудное норова их сквернаго зело праведне напустив на ня казнь, глаголаше: «Вопль Содомов и Гоморры преумножися к мне».</p>
+         <p><metamark corresp="#K1450" function="locus-Suda" rend="label-margin-left" />«Яко же миро на главе» — елeи, им же мазахуся архиерее и царие иудеискые, от различных благовоных творяшеся. Но ни едино от них собою толико благовоние пускаше; а еже всех смешение и сложение множаише благоюхание творяше. Оному в лепоту уподобил братское съгласие и съжитие, еже бо множаиших добродетельных исправлении съвръшение съвръшеныя добродетели благовоние съделоваеть.</p>
+      </body>
+      
+      
+   </text>
+</TEI>

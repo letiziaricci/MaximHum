@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Сказание об афонских монастырях в Кормчей старца Вассиана (кн. В. И. Патрикеева) [Skazanie ob afonskich monastyrjach v Kormčej starca Vassiana (kn. V. I. Patrikeeva)]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1897">Инока Максима Грека святогорца ко старцу Васиану о Святой Горѣ жительства [Inoka Maksima Greka svjatogorca ko starcu Vasianu o Svjatoj Gorě žitel'stva] (Maksim Grek 1897: 197-198)</title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Сказание инока Максима ко старцу Васиану о Святой горе жительства [Skazanie inoka Maksima ko starcu Vasianu o Svjatoj gore žitel'stva] (Ivanov 1969: 194)</title>     
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">Ivanov-324</idno>
+            </bibl>
+
+
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="340" to="341">340-341</biblScope>, <biblScope unit="chapter">nr. II.13</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="197" to="198">197–198</biblScope>, <biblScope unit="chapter">nr. 34</biblScope>
+               </bibl>
+
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#RGADA-1597"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГАДА, ф. 181, 1597</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#336v #337r">лл. 336об.-337 / ff. 336v-337r</locus>   
+                     <title type="info-ms" xml:lang="cu-Cyrl">Сказание старца Максима Святыа Горы къ старцу Васиану о Святои Горѣ жительства</title>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">"Въ Святои Горѣ житие раздѣляется на трое: на общее, и на особно,
+                        сирѣчь на лаврьское, и на скытьское. И в киновии и труды и имѣние и
+                        пища и прочая вся суть обща всѣмъ и внутрь манастыря и внѣ."</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">[...] А праздникы Владычны: 1. Благовѣщение, 2. Рожество Христово, 3. Срѣтение, 4. Богоявление, 5. Въскресение Лазарево, 6. Входъ въ Иерусалимъ, 7. Преображение, 8. Распятие, 9. Въскресение, 10. Възнесение, 11. Сшествие Святаго Духа, 12. Успение Святыа Богородица, и послѣдующая имъ якож и здѣ.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" /> 
+               <witness xml:id="Т"> 
+                  <ref target="lista-manoscritti.xml#Troic-200">РГБ, ф. 304, Троицк. 200</ref>, <locus type="chapter"></locus>, <locus type="foliation" target="#376v #377r">лл. 14об.-15 / ff. 14v-15r</locus>   
+               </witness>
+               <witness xml:id="У"> 
+                  <ref target="lista-manoscritti.xml#Und-488">РГБ, ф. 310, Унд. 488</ref>, <locus type="chapter">г</locus>, <locus type="foliation" target="#233v #234r">лл. 603-603об. / ff. 603r-603v</locus>   
+               </witness>
+              
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Iva-1969">Intra 1521 <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="194" to="194">194</citedRange></bibl></ref></note></date>  
+            <date resp="lista-bibliografia.xml#MG-2008">intra 1525 <note type="editorial"><ref><bibl>Maksim Grek 2008 <citedRange unit="page" from="35" to="35">35</citedRange></bibl></ref></note></date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Сказание</term> 
+
+            </keywords>
+            <keywords scheme="#scope">    
+               <term>Monachesimo athonita</term>  
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="list.xml#FIK">старецъ Вассиан Иванович Патрикеев / Vassian Ivanovič Patrikeev</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#MG"></persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><pb type="folio" n="Л. 336 ОБ." rend="label-margin-left"/> СКАЗАНИЕ СТАРЦА<anchor xml:id="v1" n="1" rend="super"/> МАКСИМА СВЯТЫА ГОРЫ КЪ СТАРЦУ ВАСИАНУ О СВЯТОИ ГОРѢ ЖИТЕЛЬСТВА.</p>  
+      </front>
+      
+      <body>
+         <p>Въ Святои Горѣ житие раздѣляется на трое: на общее, и на особно<anchor xml:id="v2" n="2" rend="super"/>, сирѣчь на лаврьское, и на скытьское. И в киновии и труды и имѣние и пища и прочая вся суть обща всѣмъ и внутрь манастыря и внѣ. В лаврѣ<anchor xml:id="v3" n="3" rend="super"/> сирѣчь святаго Афанасиа и въ<anchor xml:id="v4" n="4" rend="super"/> Ватопеди у Благовѣщениа труди убо внутрь монастыря и внѣ общи всѣмъ по разсужению и по достоиньству. Милостиню же приходящую всю въ казну полагають на всячьскую потребу монастырьскую съ всякымъ брежением и на гость, а братиамъ по келиамъ дають всѣмъ на всякъ день по два хлѣба, а въ среду и в<anchor xml:id="v5" n="5" rend="super"/> пятокъ по единому, а служители взимають всякую потребу отъ манастыря. Егда же братия вся на манастырьськую служьбу, тогда ядят вся монастырьская дващи на день. На праздникы же на великиа Благовѣщение<anchor xml:id="v6" n="6" rend="super"/>, Великий День, Пентикости<anchor xml:id="v7" n="7" rend="super"/>, Петровь день, Успене<anchor xml:id="v8" n="8" rend="super"/> Богородици, Рожество Христово, Богоявление, и дващи на годъ <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 337" rend="label-margin-left"/> за строителеи вся братиа и приходящиа в трапезѣ ядять и пиють<anchor xml:id="v9" n="9" rend="super"/> все монастырьское. </p>
+         <p>А которыя братиа въ манастырь вкладъ дають, тѣмъ на воли, хотят дѣлають, хотят не делають, обаче и тѣ дѣлають по своей силѣ<anchor xml:id="v10" n="10" rend="super"/>.</p>
+         <p>В киновиах же вкладъ не дают за свои покои, развѣ за благословение и милостыню.</p>
+         <p>В киновиах же и въ<anchor xml:id="v11" n="11" rend="super"/> лаврах обычаи, да игуменъ без совѣта братеи избранныхъ 15 и 20 не можеть никотораго дѣла единъ сътворити<anchor xml:id="v12" n="12" rend="super"/>. Есть же общеи законъ въ всеи Святѣи Горѣ: да без брада<anchor xml:id="v13" n="13" rend="super"/> брата млада не постригут, ниже пришедше откуду приимуть. А постригают Бога ради всякого приходящаго. А игумени на всякои служьбѣ монастырьскои тружаются съ братиею. Мирьских же служителеи въ всей Святои Горѣ нѣтъ, развѣ по единому или по два, которыа соблюдають мъскы и кони и волы монастырьскыя.</p>
+         <p>А праздникы Владычны: 1. Благовѣщение, 2. Рожество Христово, 3. Срѣтение, 4. Богоявление, 5. Въскресение Лазарево, 6. Входъ въ Иерусалимъ, 7. Преображение<anchor xml:id="v14" n="14" rend="super"/>, 8. Распятие, 9. Въскресение<anchor xml:id="v15" n="15" rend="super"/>, 10. Възнесение, 11. Сшествие Святаго Духа, 12. Успение Святыа Богородица<anchor xml:id="v16" n="16" rend="super"/>, и послѣдующая имъ якож и здѣ.</p>
+        
+         
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> <!-- numero in apice -->
+               <app from="#v1">
+                  <rdg wit="#У">инока</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">2</head> <!-- numero in apice -->
+               <app from="#v2"> 
+                  <rdg wit="#T #У">особное</rdg>
+               </app>
+            </listApp>
+
+            <listApp>
+               <head rend="super">3</head> <!-- numero in apice -->
+               <app from="#v3"> 
+                  <witDetail wit="#У">Доб. <hi rend="distincct">же</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">4</head> <!-- numero in apice -->
+               <app from="#v4"> 
+                  <witDetail wit="#У">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">5</head> <!-- numero in apice -->
+               <app from="#v5"> 
+                  <witDetail wit="#У">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">6</head> <!-- numero in apice -->
+               <app from="#v6"> 
+                  <rdg wit="#У">Благовѣщения</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">7</head> <!-- numero in apice -->
+               <app from="#v7"> 
+                  <rdg wit="#У">Пентикостиа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">8</head> <!-- numero in apice -->
+               <app from="#v8">
+                  <rdg wit="#T #У">Успение</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">9</head> <!-- numero in apice -->
+               <app from="#v9"> 
+                  <rdg wit="#У">пию</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">10</head> <!-- numero in apice -->
+               <app from="#v10"> 
+                  <rdg wit="#У">воли</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">11</head> <!-- numero in apice -->
+               <app from="#v11"> 
+                  <witDetail wit="#У">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">12</head> <!-- numero in apice -->
+               <app from="#v12"> 
+                  <rdg wit="#Т">сотворити единъ</rdg>
+                  <rdg wit="#У">творити единъ</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">13</head> <!-- numero in apice -->
+               <app from="#v13"> 
+                  <rdg wit="#T #У">брады</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">14</head> <!-- numero in apice -->
+               <app from="#v14"> 
+                  <rdg wit="#У">Преображения</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">15</head> <!-- numero in apice -->
+               <app from="#v15"> 
+                  <rdg wit="#У">Воскресение Лазарево</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">16</head> <!-- numero in apice -->
+               <app from="#v16"> 
+                  <rdg wit="#У">Богородицы</rdg>
+               </app>
+            </listApp>
+         </listApp>        
+         
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Главы поучительны к начальствующим правовѣрно (допольнительные главы) [Glavy poučitel'ny k načal'stvujuščim pravověrno (dopol'nitel'nye glavy)]</title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1897"><idno type="id">[Ivanov 119]</idno> Инока Максима Грека святогорца о правдѣ и милости [Inoka Maksima Greka svjatogorca o pravdě i milosti] <note type="editorial"><ref><bibl>Maksim Grek 1897 <citedRange unit="page" from="192" to="192">192</citedRange></bibl></ref></note></title>
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969"> <idno type="id">[Ivanov 119]</idno>Сказание о правде и милости [Skazanie o pravde i milosti] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="149" to="149">149</citedRange></bibl></ref></note></title>
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025"><idno type="id">[Ivanov 119]</idno> О правде и милости [O pravde i milosti] <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note></title>
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1897 #Iva-1969 #MG-2025"><idno type="id">[Ivanov 120]</idno> Инока Максима Грека о веледушии и совѣтѣ [Inoka Maksima Greka o veledušii i sovětě] <note type="editorial"><ref><bibl>Maksim Grek 1897 <citedRange unit="page" from="193" to="193">193</citedRange></bibl></ref> <ref><bibl>Ivanov 1969 <citedRange unit="page" from="150" to="150">150</citedRange></bibl></ref> <ref><bibl>Maksim Grek 2025</bibl></ref></note>)</title>
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969"><idno type="id">[Ivanov 120]</idno> О птице-орле [O ptice-orle] <note type="editorial"><ref><bibl>Ivanov 1969: 150, n. 15, ms. RNB, Q.I.219, cap. 29, f. 383r</bibl></ref></note></title>
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Bul-2021a"><idno type="id">[Ivanov 120]</idno> [Совет царю (Sovet carju) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Il testo è prosecuzione di Ivanov 216</note>   <!-- 01. Inventario COLONNA C -->
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">219+220+Bulanin 2021a: 109</idno>
+            </bibl>
+           
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bul-2021a"><name>Buanin</name>, <date>2021a</date></ref>: <biblScope unit="page" from="109" to="109">109</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Sbor.smeš.sost. nrr. 3, 4, 5</biblScope>
+               </bibl>
+               <bibl>
+                  <idno type="id">[Ivanov 119]</idno> <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="192" to="192">192</biblScope>, <biblScope unit="chapter">nr. 29</biblScope>
+               </bibl> 
+               <bibl>
+                  <idno type="id">[Ivanov 120]</idno> <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="193" to="193">193</biblScope>, <biblScope unit="chapter">nr. 30</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#QI-219"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Q.I.219</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#382v #383v">лл. 382об.-383об. / ff. 382v-383v</locus> 
+                     
+                     <incipit type="info-ms" xml:lang="cu-Cyrl"><idno type="id">[Ivanov 119]</idno> Украшение небу благолѣпно въ день убо - самое то свѣтлѣише солнце, претечя по вся дни и освщая всю поднебесную, в нощи же украшение ему луна, плъна сущи.</incipit>
+                     <incipit type="info-ms" xml:lang="cu-Cyrl"><idno type="id">[Ivanov 120]</idno> Всѣх птиць славнѣишыи орелъ есть тѣм [...]</incipit>
+                     <incipit type="info-ms" xml:lang="cu-Cyrl"><idno type="id">[Bulanin-2021a-109]</idno> Царю подобает быти праведну и грозну, яко да иже убо добрѣ жителствуют [...]</incipit>
+                     <explicit type="info-ms" xml:lang="cu-Cyrl"><idno type="id">[Ivanov 119]</idno> Таковому прекрасному и спасителному вѣнцу въжделѣите вси сущеи въ властех преимѣющих и в царскых высотах, да и горняго и бесконечнаго царствиа получите.</explicit>
+                     <explicit type="info-ms" xml:lang="cu-Cyrl"><idno type="id">[Ivanov 120]</idno> [...] правит всегда скипетры царствиа своего и с ними противу супостатовъ своих оплъчается.</explicit>
+                     <explicit type="info-ms" xml:lang="cu-Cyrl"><idno type="id">[Bulanin-2021a-109]</idno> Аще бо вси быша были блази и добродѣтелни, благости единыя потреба бы была, аще же грѣхолюбци, и страха потреба. Поне же и добри суть, и злы — обоими подобает царствующему управляти.</explicit>
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-2021a">post 1547-1548 <note type="editorial"><ref><bibl>cfr. Bulanin 2021a <citedRange unit="page" from="108" to="108">108</citedRange></bibl></ref></note></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>[Главы поучительны]</term> 
+               </keywords>
+            <keywords scheme="#scope">   
+               <term>Speculum principum (virtù morale)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ГЛАВЫ ПОУЧИТЕЛНЫ К НАЧАЛЬСТВУЮЩИМ ПРАВОВѢРНО (ДОПОЛНИТЕЛЬНЫЕ ГЛАВЫ)</p>  
+      </front>
+      
+      <body>
+         <p>28. Украшение небу благолѣпно въ день убо — самое то свѣтлѣише солнце, претечя по вся дни и освщая всю поднебесную, в нощи же украшение ему луна, плъна сущи. Царю же благоверному украшение боголепно и вѣнець пресвѣтел главѣ его царстѣи самое то незаходимое солнце правды Исусъ Христос, просвѣщая и святя выну царскыи умъ его и душу лучами милости и всячьскыя <metamark function="end-page" rend="//"/><pb type="folio" n="л. 383" rend="label-margin-left"/> правды и кротости. Их же ради о(т) всѣх подручников своих и славим, и хвалимъ есть, и любимъ, акы отець от своих чядъ, и молитвами яже о нем к Вышнему укрѣпляемъ бываеть. И въ всѣх, их же аще дѣеть благых или думает, Богом поспѣшь- ствуется, и желаемаго не погрѣшаеть, и миром съвершеном утвержаемъ бываеть отвсюду даже до старости и матерства. И что сих лучшѣе, и потребнѣе, и нужнѣе благовѣрным царем и государемъ? Таковому прекрасному и спасителному вѣнцу въжделѣите вси сущеи въ властех преимѣющих и в царскых высотах, да и горняго и бесконечнаго царствиа получите.</p>
+         <p>29. Всѣх птиць славнѣишыи орелъ есть тѣм, еже силою многою своих крилъ на высоту превелию взиматися. Всѣх же на земли владѣющих тъи нарочит царь, иже съвѣтникы благохитреными и воеводами крѣпкодушными правит всегда скипетры царствиа своего и с ними противу супостатовъ своих оплъчается.</p>
+         <p>30. Царю подобает быти праведну и грозну, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 383 об." rend="label-margin-left"/> яко да иже убо добрѣ жителствуют, благонадежно живут, а съгрешающии убоятся. Едино бо кромѣ другаго безцарствие есть паче, а не царство. Аще бо вси быша были блази и добродѣтелни, благости единыя потреба бы была, аще же грѣхолюбци, и страха потреба. Поне же и добри суть, и злы — обоими подобает царствующему управляти.</p>
+         </body>
+      
+
+   </text>
+</TEI>

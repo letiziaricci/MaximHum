@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Слова, подвигающие к покаянию [4] [Slova, podvigajuščie k pokajaniju (4)]</title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1860 #Iva-1969 #Sin-1977">Инока Максима Грека похвальная словеса о нѣкоторѣи добропобѣднѣи мученицѣ, еиже имя Потамия, еже толкуется Рѣчная [Inoka Maksima Greka pochval'naja slovesa o někotorěi dobropobědněi mučenicě, eiže imja Potamija, eže tolkuetsja Rěčnaja] <note type="editorial"><ref><bibl>Maksim Grek 1860: 449-450; Ivanov 1969: 199; Sinicyna 1977: 245</bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin_1977">Похвалнаа епи о некоторои добропобеднеи мученици, еи же имя Потамиа еже тлъкуется речнаа [Pochvalnaa epi o nekotoroi dobropobednei mučenici, ei že imja Potamia eže tl''kuetsja rečnaa] <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="234" to="234">234</citedRange> <citedRange unit="page" from="255" to="255">255</citedRange></bibl></ref></note></title>   
+           
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <notesStmt>
+            <note type="textual-relationships">Nelle raccolte intra vitam compone un capitolo unico insieme a Ivanov 176, 335-336, 338 </note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Ivanov">337</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 65</bibl>                  
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 47</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 44</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Zur-2011"><name>Žurova</name>, <date>2011</date></ref>: <biblScope unit="page" from="73">73</biblScope>
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="449" to="450">449-450</biblScope>, <biblScope unit="chapter">nr. 47</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek 2014: 344</name>, <date>2014</date></ref>: <biblScope unit="page" from="344">344</biblScope>, <biblScope unit="chapter">(nr. 50 [47-v])</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Bols-285"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> 
+                  <msName>РГБ, собр. Большакова 285</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 44 / cap. 44</locus> 
+                     <locus type="foliation" target="#60v #61r">лл. 60об.-61об.</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">Похвалная слова о нѣкоторои доброподѣднѣи мученици, еи же имя Потамиа, еже тлъкуеться «Рѣчная»</title>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">«Рѣко» тезоименитая Христова раба да поется, яже душевною красотою и тѣлесною преизлиха съкрывши многых отроковицъ, и мученичьскыми подвигы, елико мужьствова да благочестие, вкупѣ и цѣломудрие божественою Христовою любовию уязвившися по души!</incipit>   <!-- 01. Inventario COLONNA J -->
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Сеи конець жития сего мученици Христовы и начало венцемъ и славѣ, и жизни некончаемѣ, в нихже нынѣ съ пръвородными радующися наслажается.</explicit>   <!-- 01. Inventario COLONNA K -->
+                  </msItem> 
+               </msContents>
+            </msDesc>
+             
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[Incerta]</date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Похвалная слова</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Pentimento</term> 
+               <term>Istruzione</term> 
+               <term>Correzione</term>
+               <term>Exemplum</term>
+               <term>Encomio</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+               <term target="#dubium" source="#Iva-1969">Dubium <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="200" to="200">200</citedRange></bibl></ref></note></term>   
+            </keywords>
+         </textClass>
+
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>Похвалная<anchor xml:id="v1" n="1" rend="super"/> слова<anchor xml:id="v2" n="2" rend="super"/> о нѣкоторои добропобѣднѣи<anchor xml:id="v3" n="3" rend="super"/> мученици<anchor xml:id="v4" n="4" rend="super"/>, еи же имя Потамиа<anchor xml:id="v5" n="5" rend="super"/>, еже тлъкуеться «Рѣчная»<anchor xml:id="v6" n="6" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>«Рѣко» тезоименитая Христова раба да поется, яже душевною красотою и тѣлесною преизлиха съкрывши<anchor xml:id="v7" n="7" rend="super"/> многых отроковицъ, и мученичьскыми подвигы, елико мужьствова за благочестие, вкупѣ и цѣломудрие божественою Христовою<anchor xml:id="v8" n="8" rend="super"/> любовию уязвившися<anchor xml:id="v9" n="9" rend="super"/> по души! Та бо преже от господина своего скръби премногы<anchor xml:id="c1" n="а" rend="super"/><anchor xml:id="v10" n="10" rend="super"/> претръ<metamark function="end-page" rend="//"/><pb type="folio" n="л. 61" rend="label-margin-right"/>пѣвши<anchor xml:id="v11" n="11" rend="super"/>, блудному оного<anchor xml:id="v12" n="12" rend="super"/> бѣсованию не повинувшися, судии прочее богоненавистнику предана бысть въ мучениихъ, акы Христа почитающи. <anchor xml:id="v13a1" n="13" rend="super"/>Блудная бо любовь презираема<anchor xml:id="v13a2" n="13" rend="super"/>, въ ненависть обыче скончатися, многы же за Христа въ судилище<anchor xml:id="v14" n="14" rend="super"/> мукы претерпѣвши. Послѣ же познавши, осужену бывшу<anchor xml:id="v15" n="15" rend="super"/> себе въ конобѣ, огнем и смолою презѣлнѣ кыпящемъ<anchor xml:id="v16" n="16" rend="super"/>, ниже тогда забыла своего цѣломудренага стыда, но судию заклинавши царевымъ здравиемъ, да не повелить обнажитися<anchor xml:id="v17" n="17" rend="super"/> еи<anchor xml:id="v18" n="18" rend="super"/> мучителевыми руками, но самѣи еи то<anchor xml:id="v19" n="19" rend="super"/> повелѣти. И судящему то<anchor xml:id="v20" n="20" rend="super"/> повелѣвшу еи Божиимъ<anchor xml:id="v21" n="21" rend="super"/> мановениемъ, съ радостию премногою<anchor xml:id="v22" n="22" rend="super"/>, акы въ бани умыватися хотящи, влѣзла въ котлѣ кыпящем<anchor xml:id="v23" n="23" rend="super"/>, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 61 об." rend="label-margin-right"/> срачицу свою погружающися<anchor xml:id="v24" n="24" rend="super"/> помалу, подпряташе даже до самѣхъ<anchor xml:id="v25" n="25" rend="super"/> пречистыхъ пръсеи и выя своeя<anchor xml:id="v26" n="26" rend="super"/> пренепорочныя<anchor xml:id="v27" n="27" rend="super"/>. Сеи<anchor xml:id="v28" n="28" rend="super"/> конець жития сего мученици<anchor xml:id="v29" n="29" rend="super"/> Христовы<anchor xml:id="v30" n="30" rend="super"/> и начало венцемъ и славѣ, и жизни некончаемѣ<anchor xml:id="v31" n="31" rend="super"/>, в нихже нынѣ съ пръвородными радующися<anchor xml:id="v32" n="32" rend="super"/> наслажается<anchor xml:id="v33" n="33" rend="super"/>.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1">
+                  <rdg wit="#И">похвална</rdg>
+                  <rdg wit="#Т">Того же Максима философа похвалная</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2">
+                  <rdg wit="#И #И' #Р">епи</rdg>
+                  <rdg wit="#A">епистолия</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <rdg wit="#A">добропобѣднои</rdg> 
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <rdg wit="#A">мученицѣ</rdg> 
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <rdg wit="#И'">Потомия</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <witDetail wit="#И">Доб. 50 (номер главы)</witDetail>
+                  <witDetail wit="#А">Доб. <hi rend="distinct">Максим Грек</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <witDetail wit="#И'">Буква <hi rend="distinct">и</hi> испр. из <hi rend="distinct">е</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <witDetail wit="#И">Буква <hi rend="distinct">ю</hi> вписана над строкой почерком Максима Грека, л. 379, 1 св. <hi rend="distinct">е</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9">
+                  <rdg wit="#А">уязвишеся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10">
+                  <rdg wit="#И #И' #Р">многы</rdg>
+            </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11">
+                  <rdg wit="#А">терпѣвши</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <rdg wit="#Р">оному</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13-13</head> <!-- numero in apice -->
+               <app from="#v13a1" to="#v13a2"> <!-- FROM variante1 ancora1 -  TO variante1 ancora2-->
+                  <witDetail wit="#Т">Вписано на левом поле киноварью со знаком вставки </witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14">
+                  <rdg wit="#И'">судилищи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15">
+                  <witDetail wit="#И #И’ #Р #А">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16">
+                  <rdg wit="#A">кипящимъ</rdg>
+             </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17">
+               <rdg wit="#A">обнажити</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#v18">
+                  <rdg wit="#A">ея</rdg> 
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">19</head> 
+               <app from="#v19">
+                  <rdg wit="#A">ту же</rdg> 
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">20</head> 
+               <app from="#v20">
+                  <rdg wit="#А">ту</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">21</head> 
+               <app from="#v21">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">же</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">22</head> 
+               <app from="#v22">
+                  <witDetail wit="#Т">Буквы пре вписаны киноварью над строкой </witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">23</head> 
+               <app from="#v23">
+                  <rdg wit="#A">кипящим</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">24</head> 
+               <app from="#v24">
+                  <rdg wit="#A">погружающуся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">25</head> 
+               <app from="#v25">
+                  <rdg wit="#P #A">самыхъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">26</head> 
+               <app from="#v26">
+                  <rdg wit="#A">своего</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">27</head> 
+               <app from="#v27">
+                  <rdg wit="#A">пренепорочнаго</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">28</head> 
+               <app from="#v28">
+                  <rdg wit="#И">сице</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">29</head> 
+               <app from="#v29">
+                  <rdg wit="#A">мученицѣ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">30</head> 
+               <app from="#v30">
+                  <rdg wit="#И' #A">Христовѣ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">31</head> 
+               <app from="#v31">
+                  <rdg wit="#И'">нескончаемѣ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">32</head> 
+               <app from="#v32">
+                  <rdg wit="#И'">радуяся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">33</head> 
+               <app from="#v33">
+                  <witDetail wit="#A">Здесь конец сочинения, далее в рукописи две строчки чистые, на следующем листе 118 другим почерком вписано название «Послание инока Максима Грека къ бывшему Даниилу митрополиту сущу тогда извержену»</witDetail>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" > <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">а</label> <!-- lettera in apice -->
+                <p>Буквы <hi rend="distinct">пре</hi> вписаны над строкой, 1 сн. </p>
+            </note>
+         </noteGrp>
+         
+      
+      </back>
+   </text>
+</TEI>
