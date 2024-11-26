@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же инока Максима Грека словцо к смѣющимъ трижды глаголати «аллилуиа» чрез преданиа церковнаго, а четвертое «Слава Тебѣ Боже» [Togo že inoka Maksima Greka slovco k smějuščim'' triždy glagolati "alliluia" črez predania cerkovnago, a četvertoe "Slava Tebě Bože"]</title>   
+            <title type="alt" xml:lang="cu-Cyrl">Titoli concordi con il titolo editoriale in <ref target="lista-bibliografia.xml#Lop-1899">Loparev 1899: 215-219</ref>; <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 187-188</ref>; <ref target="lista-bibliografia.xml#Sin-1977">Sinicyna 1977: 232, 243</ref></title>   
+             
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">316</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 27</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 27</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="272" to="275">272–275</biblScope>, <biblScope unit="chapter">nr. 27</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Lop-1899"><name>Loparev</name>, <date>1899</date></ref>: <biblScope unit="page" from="215" to="219">215-219</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#MDA-42"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 173, МДА 42</msName> 
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#281v #292v">лл. 281об.-292об. / ff. 281v-292v</locus>   
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима Грека словцо к смѣющимъ трижды глаголати «аллилуиа» чрез преданиа церковнаго, а четвертое «Слава Тебѣ Боже»</title>   
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Предание апостольское и отечьское изначяла приахомъ равнѣ списанѣ преданым намъ православным догматом блюсти апостольская и отечьская неписана церковнаа преданиа непретворна; уставы отечьскыя преставляти нѣсть твердо, глаголеть Соломон премудрыи и блаженыи Павелъ: «Хвалю же вас братие, яко дръжите моа преданиа», и пакы тъи же тѣм же: «Убо братие стоите и дръжите преданиа, им же научистеся или словом или посланиемъ нашим».</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Брегите себе крѣпцѣ от ереси папы Римскаго и от хытрословии единомудреных ему глаголемыхъ докторовъ, иже прелстиша многых малоумных и еще прелщаютъ всякымъ образом внѣшняго учениа, не внимаите хитрословиемъ ихъ, дръжите же ся отцепреданныя православныя вѣры въ простотѣ и беззлобии сердца, пиюще нелестное млеко непорочныя невѣсты небеснаго жениха Иисуса Христа истиннаго Бога, Тому слава и дръжава въ вѣкы вѣкомъ. Аминь.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni, tanti <witness></witness> quanti sono i testimoni di controllo in 03. Inventario testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="И" /> 
+               <witness xml:id="Х-Больш.">   
+                  <ref target="lista-manoscritti.xml#Bolš-285">РГБ, ф. 37, Больш. 285</ref>, <locus type="foliation" target="#17r #23v">лл. 17-23об. / ff. 17r-23v</locus>  
+               </witness>
+               <witness xml:id="Л">  
+                  <ref target="lista-manoscritti.xml#Slave-123">BNF, Man. Slave 123</ref>, <locus type="foliation">foliazione mancante</locus>
+               </witness> 
+            </listWit> 
+            
+            
+            <!-- OPZIONALE: bibliografia secondaria per opere dubium -->
+            <listBibl type="secondary-bibliography">
+               <bibl xml:id="Evg-1827">
+                  <ref corresp="lista-bibliografia.xml#Evg-1827"><name>Evgenij</name>, <date>1827</date></ref>: <biblScope unit="page" from="40" to="41">40-41</biblScope>
+               </bibl>  <!-- id preso più giù in "source" di <textclass>/<keywords scheme="#attribution">/<term target="#dubium" source="#"> -->
+               <bibl xml:id="Fil-1842">
+                  <ref corresp="lista-bibliografia.xml#Fil-1842"><name>Filaret</name>, <date>1842</date></ref>: <biblScope unit="page" from="80" to="81">80-81</biblScope>
+               </bibl>
+               <bibl xml:id="Klju-1959">
+                  <ref corresp="lista-bibliografia.xml#Klju-1959"><name>Ključevskij</name>, <date>1959</date></ref>: <biblScope unit="page" from="104">104</biblScope>
+               </bibl>
+            </listBibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[Ante 1551]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label"> 
+               <term>Словцо</term> 
+            </keywords>
+            <keywords scheme="#scope">    
+               <term>Dibattito teologico</term> 
+               <term>Prassi liturgica ortodossa (Alleluia)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original" source="#Gol-1896 #Iva-1969 #MG-2014">Testo originale (Golubinskij 1896: 196-218; Ivanov 1969: 187-188; Maksim Grek 2014: 394)</term>
+               <term target="#dubium" source="#Evg-1827 #Fil-1842 #Klju-1959">Dubium (Evgenij 1827, II: 40-41; Filaret 1842: 80-81; Ključevskij 1959: 104)</term><!-- 01. Inventario COLONNA N -->
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ТОГО ЖЕ ИНОКА МАКСИМА ГРЕКА СЛОВЦО КЪ СМѣЮЩИМЪ ТРИЖДЫ ГЛАГОЛАТИ «АЛЛИЛУИА» ЧРЕЗ ПРЕДАНИА ЦЕРКОВНАГО, А ЧЕТВЕРТОЕ «СЛАВА ТЕБѢ БОЖЕ»<anchor xml:id="c1" n="а" rend="super"/>. 27<anchor xml:id="c2" n="б" rend="super"/></p>
+      </front>
+      
+      <body>
+         <p>Предание апостольское и отечьское изначяла приахомъ равнѣ списанѣ<anchor xml:id="v1" n="1" rend="super"/> преданым намъ православным догматом блюсти апостоль<metamark function="end-page" rend="//"/><pb type="folio" n="л. 293" rend="label-margin-left"/>ская и отечьская неписана<anchor xml:id="v2" n="2" rend="super"/> церковнаа преданиа непретворна; уставы отечьскыя преставляти нѣсть твердо, глаголеть Соломон премудрыи и блаженыи Павелъ: <cit><quote xml:id="biblical-1">«Хвалю же вас братие, яко дръжите моа преданиа»</quote></cit>, и пакы тъи же тѣм же: <cit><quote xml:id="biblical-2">«Убо братие стоите и дръжите преданиа, им же научистеся или словом или посланиемъ нашим»</quote></cit>. Многым же сущим и различным церковным преданиемъ, едино от них есть древнее предание<anchor xml:id="v3" n="3" rend="super"/>, еже дважды глаголати «аллилуиа» и по сем приглашати «Слава тебѣ Боже» въ псалмоглаголаниихъ, и таковому церковному обычаю пръвыи блаженыи Игнатии богоносныи, ученъ бысть от самѣх бесплотных аггельскых силъ, егда явишяся ему по Божию всяко строению, поюще божественыя псалмы, на два лика раздѣлени. Како убо нѣции смѣютъ претворити аггелы преданное сие старо церковное предание, трижды глаголюще «аллилуиа» и четвертое приглашають «Слава Тебѣ Боже»? Но негли оно рекут, яко въ божественѣи Апокалипси сице есть писано святымъ Иоанном еуагелистом, к сему же <metamark function="end-page" rend="//"/><pb type="folio" n="л. 293 об." rend="label-margin-left"/> их противоположению, оно пръвие реку к нимъ, что же Осии не вѣдяху ли явльшиися святии аггели блаженому Игнатию, еже въ Апокалипси четверогубное, а не трегубное, яко же вы глаголете «аллилуиа», еи всяко вѣдяху, тии же бо и тогда сие въспѣша на небесѣхъ сѣдящему на престолѣ Богу, чесо убо ради сице предашя блаженому Игнатию, а не яко же въ Апокалипси съдръжится. Но всяко недоумѣетеся къ отвѣту, азъ же разрѣшу вамъ сицевое недоумѣние.</p>
+         <p>Разумѣите убо прилѣжно, яко въ божественѣи Апокалипси сего ради четырижды въспѣто бысть «аллилуиа», понеже<anchor xml:id="v4" n="4" rend="super"/> три тамо чинове видятся възсылающе Вышнему хвалу о нем же нечестивых град Вавилонъ великыи огнемъ опепели и до конца истребилъ. И пръвыи чинъ поющих иже глаголется глас велии на небеси народа глаголющаго «аллилуиа», начяло пѣнию сие сътвори, тожде же <anchor xml:id="v5a1" n="5" rend="super"/>и конець<anchor xml:id="v5a2" n="5" rend="super"/>, еже и второе глаголется въ Апокалипси «аллилуиа», а третие «аллилуиа» вторыи чинъ поющих <metamark function="end-page" rend="//"/><pb type="folio" n="л. 294" rend="label-margin-left"/> поетъ сии же суть 20 и 4 старци, и яже о владычнѣмъ престолѣ четыре четверообразна животна, а четвертое «аллилуиа» третии чинъ поющих глаголеть, иже именуется глас народа великаго, акы глас водъ многых. И пръвыи убо чинъ славословит Вышняго, о Нем же отмщение сътворилъ есть рабом своимъ избиенымъ Его ради, истребивъ до конца градъ нечестивыхъ. Вторыи же чинъ поклонившеся сѣдящему на престолѣ, запечатлѣеть пѣние пръваго чина, тѣмъ «аминь аллилуиа». Третии же чинъ възглашает четвертое «аллилуиа», о нем же истребленым бывшим нечестивым въцарися Господь Богъ Вседръжитель. Къ сим же и оно примѣтите прилѣжно, яко тамо кыиждо чинъ единою припѣвает, еже «аллилуиа», а не дважды ни трижды, зане единъ есть Богъ Святаа Троица. И яко же единым поклонениемъ поклоняема бывает, сице и единою аллилуиею<anchor xml:id="v6" n="6" rend="super"/> славословится. Но негли к сим речете противящеися<anchor xml:id="c3" n="в" rend="super"/> намъ и глаголющее, и аще сия сице суть, чесо ради и вы не единою, но дважды <metamark function="end-page" rend="//"/><pb type="folio" n="л. 294 об." rend="label-margin-right"/> възглашаете Вышнему «аллилуиа», а третие «Слава Тебѣ Боже».</p>
+         <p>Къ сим же оно отвѣщающе глаголемъ, зане яко же въ божественѣи Апокалипси трие чинове въспѣшя на небесехъ по единому еже «аллилуиа», сице и въ сущеи на земли апостольстѣи Церкви трие чинове суть: пръвыи чинъ священникомъ и от лица ихъ первое «аллилуиа», вторыи чинъ преподобныхъ инокъ и от лица сих второе «аллилуиа», третии же чинъ православных верныхъ мирянъ, их же от лица припѣвается еже «Слава тебѣ Боже». Еже есть сказателно сея «аллилуии», что бо есть у нас еже «Слава тебѣ Боже», то есть у евреехъ «аллилуиа». Къ сим еще и оно глаголю вамъ, яко сие сице глаголем съблюдающе прилѣжнѣ преданныи от самѣхъ святыхъ аггелъ обычаи блаженому Игнатию, егда явишася ему поюще божественыя псалмы, да не къ прочимъ нашим съгрѣшениомъ и акы презирателие и преступници отечьскых предании осудимся. Вы же <metamark function="end-page" rend="//"/><pb type="folio" n="л. 295" rend="label-margin-right"/> что къ симъ противу отвѣщаете или кое праведно показание творите, яко и богоугоднѣ и добрѣ мудръствуете о семъ и глаголете: намъ бо твръдѣ сие вѣдомо есть, яко супротивъ отечьскых предании и самѣх святых писании носитеся и себе самѣх и иных прелщаете, но негли глаголете, яко святаа Божиа Церковь<anchor xml:id="v7" n="7" rend="super"/> яже в Ветхом Риме сице дръжитъ и възглашаеть. И аще сице глаголете, явьственѣ исповѣдуете себе самѣх причястникох сущих латынскыя паче чясти, а не апостолы преданаго неблазненаго богоразумиа, судите убо сами аще полезно и спасително есть Вамъ еже съ зловѣрными латыны пѣти Святую Троицу, а не съ благовѣрно проповѣдующими слово еуагельскыя истины четырми патриархы православными. Аще же Римскаго папы сана стыдящеся, сице възглашаете еже «аллилуиа», время ужь вамъ, о предобрии, и прочимъ церковнымъ Паппиным<anchor xml:id="v8" n="8" rend="super"/> обычаемъ съглашати и по всеи святѣи Четыредесятници, даже <metamark function="end-page" rend="//"/><pb type="folio" n="л. 295 об." rend="label-margin-right"/> и до Великыя суботы млъчати, еже «аллилуиа», понеже и онъ млъчитъ есть, такожде и живоносное Спасово Въскресение с нимъ съвръшати въ третии час Великыя суботы и глаголати с нимъ, не яко же мы<anchor xml:id="v9" n="9" rend="super"/>, но тако: «Христос въскресе из мертвых»<anchor xml:id="v10" n="10" rend="super"/>, «аллилуиа» трижды, ниже въ кваснѣи просфорѣ, но въ опрѣсноцѣх яко же онъ съврьшати священную и таиную службу, ниже проскомисание потребно мнѣти, понеже ни онъ нужно мнитъ, ниже ектению, ниже и прошениа и различныя молбы, ниже выход съ Еуагелиемъ, ниже переносъ честных даръ от жрътвеника въ божественыи олтарь, но сиа вся отставити, акы излишна и Паппѣ непо требна, ниже теплоту вливати въ священыи потирь, понеже ни онъ вливаетъ, но трижды въдыхати въ потирѣ яко же онъ, ниже в началѣ священныя таиныя службы възглашати: «Благословено царство Отца и Сына и Святаго Духа», <anchor xml:id="v11a1" n="11" rend="super"/>но глаголати с нимъ: «Въ имя Отца и Сына и Святаго Духа<anchor xml:id="v11a2" n="11" rend="super"/> Аминь», ниже отпускъ прочее творити, яко же приахом <metamark function="end-page" rend="//"/><pb type="folio" n="л. 296" rend="label-margin-left"/> от божественых отець священнику глаголющу къ вѣрным людем: «Христос истиныи Богъ нашь» и прочяа, но отпущати яко же Паппа отпущаеть, глаголя обращаяся къ людемъ: «идите, съврьшися». Минеи же и октаихи и каноны и стихеры и самогласны и догматикы и тропари и кондакы всегодное украшение и наслажение духовное святыа апостольскыя Божиа Церкви, отверзите прочее и непотребна мыслите, понеже и Паппа не требуетъ ниже приемлетъ ихъ. Аще же сиа вся странна и безмѣстна, и слуху благовѣрному неудобь приатна видятся нам, да дръжимъ крѣпцеѣ священаа преданиа блаженых апостолъ и въсиавших по всеи вселенѣи<anchor xml:id="c4" n="г" rend="super"/> богодухновеных отець наших, повинующеся божественому апостолу Павлу глаголющу: «Тѣм же убо братие стоите и дръжите преданиа, им же научистеся или словом или посланиемъ нашим». И тъи инде же: <cit><quote xml:id="biblical-3">«В научениа странна и различна не прилагаитеся»</quote></cit>. Да не прелщаимся убо саномъ Паппиным<anchor xml:id="v12" n="12" rend="super"/>, ниже да внимаимъ отнудь преухыщреным <metamark function="end-page" rend="//"/><pb type="folio" n="л. 296 об." rend="label-margin-left"/> хытрословиемъ глаголемых докторовъ, да не с ними явимся хуляще въ самых главизнах правых догматъ непорочныя вѣры христианскыя, али мало нам <anchor xml:id="v13a1" n="13" rend="super"/>видится прегрѣшение и осужение, еже паче устава и страшных<anchor xml:id="v13a2" n="13" rend="super"/> клятвъ всѣх священых Вселенскых съборъ прилагати<anchor xml:id="c5" n="д" rend="super"/> съ папою<anchor xml:id="v14" n="14" rend="super"/> въ Исповѣдании православны вѣры, еже и от Сына происхожение Святаго Духа виновна мудръствующимъ и Сына Божеству Всесвятаго Духа, паче еуагельскаго <anchor xml:id="v15a1" n="15" rend="super"/>богословиа обьявленаго самѣмъ Богомъ Словом<anchor xml:id="v15a2" n="15" rend="super"/>, и кромѣ всѣх вкупѣ Вселенскых съборъ и богословцовъ учителеи, такожде мало ли намъ ся кажет хуление еже съ папою<anchor xml:id="v16" n="16" rend="super"/> мудръствовати огнемъ чистителным очищатися беззаконная дѣяниа беззаконно и богомръзко живших грѣшных и тако преити въ живот вѣчныи. <anchor xml:id="v17a1" n="17" rend="super"/>И наипаче<anchor xml:id="v17a2" n="17" rend="super"/> неумытному Судии явьственѣ въ святом Еуагелии глаголющу: <cit><quote xml:id="biblical-4">«И изыдут благая сътворшии въ воскресение животу»</quote></cit>, рекше въ животъ вѣчныи и царство непоколеблемо, а съ<metamark function="end-page" rend="//"/><pb type="folio" n="л. 297" rend="label-margin-left"/>творшии злая, сирѣчь, иже по всему житию своему беззаконновавшеи и не покаавшеся достоинѣ своихъ беззаконии въ воскресениа суду, рекше осужению и некончаемыя мукы, по глаголющему божественому гласу: <cit><quote xml:id="biblical-5">«Идите от Мене, проклятии, въ огнь вѣчныи»</quote></cit> и прочая. И пакы: <cit><quote xml:id="biblical-6">«И отидутъ праведнии убо в живот вѣчныи, а грѣшникы в муку вѣчную»<anchor xml:id="v18" n="18" rend="super"/></quote></cit>, а не въ огнь очищающь грѣхы. Лучше убо намъ всякымъ образомъ поминати всегда притчи Спасовы, яже о богатѣм и нищемъ, и съ патриархом Авраамом мудръствовати и глаголати съ дръзновением, «чадо помяни яко въспри алъ еси благая Твоя въ животѣ твоемъ», такожде и нищии съи Лазарь злая своя. И нынѣ съи убо утѣшаемъ есть<anchor xml:id="c6" n="е" rend="super"/>, ты же болѣзнуеши, но и промежь нам же и вамъ пропасть утвердися превелиа и прочая горкаго увы оного отвѣта научившеся убо симъ малымъ писаниемъ отчасти, какова странна и безмѣстна суть Папина учениа и обычаи. Брегите себе крѣ/<metamark function="end-page" rend="//"/><pb type="folio" n="л. 297 об." rend="label-margin-right"/>пцѣ от ереси папы Римскаго и от хытрословии единомудреных ему глаголемыхъ<anchor xml:id="v19" n="19" rend="super"/> докторовъ, иже прелстиша многых малоумных и еще прелщаютъ всякымъ образом внѣшняго учениа, не внимаите хитрословиемъ ихъ, дръжите же ся отцепреданныя православныя вѣры въ простотѣ и беззлобии сердца, пиюще <anchor xml:id="v20a1" n="20" rend="super"/>нелестное млеко непорочныя<anchor xml:id="v20a2" n="20" rend="super"/> невѣсты небеснаго жениха Иисуса Христа истиннаго Бога, Тому слава и дръжава въ вѣкы вѣкомъ. Аминь.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1"> 
+                  <rdg wit="#Л">списанным</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2">
+                  <rdg wit="#Л">ненаписана</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <witDetail wit="#Л">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+            <head rend="super">4</head> 
+            <app from="#v4">
+               <rdg wit="#Л">елма же</rdg>
+            </app>
+         </listApp>
+            <listApp>
+               <head rend="super">5-5</head>
+               <app from="#v5a1" to="#v5a2">
+                  <witDetail wit="#Л">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <rdg wit="#Л">аллилуиа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <rdg wit="#Л">церкви</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <rdg wit="#Л">Папиным</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9">
+                  <witDetail wit="#Л">Доб. <hi rend="distinct">глаголем</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10">
+                  <witDetail wit="#Л">Доб. <hi rend="distinct">смертию на смерть и бывшим въ гробѣх живот даровав, но глаголати яко же Паппа поет тако: Христос въскресе из мертвых</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11-11</head>
+               <app from="#v11a1" to="#v11a2">
+                  <witDetail wit="#Л">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <rdg wit="#Л">Папиным</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13-13</head>
+               <app from="#v13a1" to="#v13a2">
+                  <witDetail wit="#Л">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14">
+                  <rdg wit="#Л">Паппою</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15-15</head>
+               <app from="#v15a1" to="#v15a2">
+                  <rdg wit="#Л">богословом</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16">
+                  <rdg wit="#Л">Паппою</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17-17</head>
+               <app from="#v17a1" to="#v17a2">
+                  <rdg wit="#Л">или паче</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#v18">
+                  <rdg wit="#Л">бесконечну</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">19</head> 
+               <app from="#v19">
+                  <witDetail wit="#Л">Доб. <hi rend="distinct">сказание</hi>вписано на нижнем поле</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">20-20</head>
+               <app from="#v20a1" to="#v20a2">
+                  <witDetail wit="#Л">Нет</witDetail>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>На левом поле вписано поздним почерком <hi rend="distinct">сие слово инъ нѣкто под именемъ Максима написалъ, ибо противно есть и священному писанию, Апокалипси не прямо научитъ(?), и на Игнатия богоносца написалъ, чего нѣтъ у житии Его</hi>.</p> 
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label>
+               <p>Буквенное обозначение номера главы на левом поле.</p>
+            </note>
+            <note target="#c3">
+               <label rend="super">в</label>
+               <p>Вторая буква <hi rend="distinct">и</hi> вписана над строкои почерком Р.</p>
+            </note>
+            <note target="#c4">
+               <label rend="super">г</label>
+               <p>Далее зач. буква.</p>
+            </note>
+            <note target="#c5">
+               <label rend="super">д</label>
+               <p>Далее стерты две буквы.</p>
+            </note>
+            <note target="#c6">
+               <label rend="super">е</label>
+               <p>Далее стерты две-три буквы.</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="1Cor"><ref>(I Кор 11, 2 / 1Cor 11,2)</ref></bibl>
+            <bibl corresp="#biblical-2" type="2Ts"><ref>(2 Фес 2, 15 / 2Ts 2,15)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Eb"><ref>(Евр 13, 9 / Eb 13,9)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Gv"><ref>(Ин 5, 29 / Gv 5,29)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Mt"><ref>(Мф 25, 41 / Mt 25,41)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Mt"><ref>(Мф 25, 46 / Mt 25,46)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Слово утешительное инока в темнице [Slovo utešitel'noe inoka v temnice]</title>
+            <title type="alt" xml:lang="cu-Cyrl">Словеса сия сотворил творец книги сея о себе, в темницы затворен и скорбя, ими же себе утешаше и утвержаше в терпении [Slovesa sija sotvoril tvorec knigi seja o sebe, v temnicy zatvoren i skorbja, imi že sebe utešaše i utveržaše v terpenii] <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 164)</ref></title> 
+            <title type="alt" xml:lang="cu-Cyrl">Словцо препирательно к души своей состави, егда затворен бысть в темнице [Slovco prepiratel'no k duši svoej sostavi, egda zatvoren byst' v temnice] <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 164, n. 8, ms. RNB, Egor., nr. 1251, cap. 16, ff. 50r-51r)</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">Сия словеса сътворил есть инок в темници затворен и скръбя, ими же себе утешаше и утвръжаше в тръпении в 7000 и 40-ное лето [Sija slovesa s''tvoril est' inok v temnici zatvoren i skr''bja imi že sebe utešaše i utvr''žaše v tr''penii v 7000 i 40-noe leto] <ref target="lista-bibliografia.xml#Sin-1977">(Sinicyna 1977: 245; 250)</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl">[Словеса в утешение инока, затворенного в темнице (Slovesa v utešenie inoka, zatvorennogo v temnice) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title>  
+            <title type="alt-apparatus" xml:lang="cu-Cyrl">Сия слова сътворилъ есть инокъ въ темници затворенъ и скръбя, имиже себе и утѣшаше и утвръжаше въ тръпѣнии въ 7 тысяч и 40-ное лѣто <ref target="lista-manoscritti.xml#RGIA-1622">(ms. RGIA, f. 834, op. 4, 1622, ff. 341r-341v)</ref></title> 
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">241</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 12</bibl>                 
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 45</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    
+               <ref target="lista-bibliografia.xml#Zur-2011"><name>Žurova</name>, <date>2011</date></ref>: <biblScope unit="page" from="131" to="132">131–132</biblScope>
+            </bibl>
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="452" to="453">452-453</biblScope>, <biblScope unit="chapter">nr. 49</biblScope>  
+               </bibl> 
+               <bibl type="reference-edition">   
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">nr. 5</biblScope>. <note>Edizione in corso di stampa</note>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Bols-285"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, собр. Большакова, № 285</msName> 
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 45 / cap. 45</locus>   <!-- 02. Inventario testimone base COLONNA h -->
+                     <locus type="foliation" target="#63r #64r">лл. 63-64 / ff. 63r-64r</locus>   <!-- 02. Inventario testimone base COLONNA G -->
+                     <title type="info-ms" xml:lang="cu-Cyrl">Сия словеса сътворилъ есть инокъ въ темници затворенъ и скръбя, имиже себе утѣшаше и утвръжаше въ тръпѣнии въ 7 тысяч и 40-ное лѣто</title>   <!-- 01. Inventario COLONNA i -->
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Не тужи, ни скръби, ниже тоскуи о них же, любезна ми душе! Стражеши бес правды, от них же наипаче подобаше ти благая прияти, о нихъ же ихъ духовнѣ ползовала еси, предложивши имъ трапезу [...]</incipit>   
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Аще сице въоружаеши себе всегда и тѣмъ образом тщишися веселити Владыку своего, радуися и веселися, якоже Господь твои повелѣваеть, твоя бо мъзда велия на небесѣхъ.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" /> 
+               
+               <witness xml:id="Р">  
+                  <ref target="lista-manoscritti.xml#Rum-264">РГБ, собр. Румянцева, № 264</ref>, <locus type="chapter">ст. 12 / art. 12</locus>, <locus type="foliation" target="#33v #34r">лл. 33об.-34 / ff. 33v-34r</locus>  
+               </witness>
+               <witness xml:id="А">  
+                  <ref target="lista-manoscritti.xml#RGIA-1622">РГИА, ф. 834, оп. 4, № 1622</ref>, <locus type="foliation" target="#341r #341v">лл. 341-341об. / ff. 341r-341v</locus>  
+               </witness> 
+            </listWit>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>1525 <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 164)</ref></date>    <!-- 01. Inventario COLONNA O -->
+            <date>1531ca <ref target="lista-bibliografia.xml#Olm-1987">(Olmsted 1987: 6)</ref></date>
+            <date>ab anno 1532 <ref target="lista-bibliografia.xml#Zur-2011">(Žurova 2011: 132)</ref></date>
+            <date>ab anno 1531/1532 <ref target="lista-bibliografia.xml#Gar-2022">(Garzaniti 2022: 61)</ref></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Словеса</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Letteratura carceraria</term> 
+               <term>Consolazione</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>    
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+ 
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><pb type="folio" n="л. 63" rend="label-margin-left"/> СИЯ СЛОВЕСА<anchor xml:id="v1" n="1" rend="super"/> СЪТВОРИЛЪ ЕСТЬ ИНОКЪ ВЪ ТЕМНИЦИ ЗАТВОРЕНЪ И СКРЪБЯ, ИМИЖЕ СЕБЕ УТѢШАШЕ<anchor xml:id="v2" n="2" rend="super"/> И УТВРЪЖАШЕ ВЪ ТРЪПѢНИИ ВЪ 7 ТЫСЯЧ И 40-НОЕ ЛѢТО</p>  
+      </front>
+      
+      <body>
+         <p>Не тужи, ни скръби, ниже тоскуи о них же, любезна ми душе! Стражеши бес правды, от<anchor xml:id="v3" n="3" rend="super"/> них же наипаче подобаше ти благая прияти, о нихъ же ихъ духовнѣ ползовала еси, предложивши<anchor xml:id="v4" n="4" rend="super"/> имъ трапезу, Духа Свята исплънену, <anchor xml:id="v5a1" n="5" rend="super"/>сирѣчь<anchor xml:id="v6" n="6" rend="super"/> отцетворное<anchor xml:id="v5a2" n="5" rend="super"/> сказание<anchor xml:id="v7" n="7" rend="super"/> богодухновенаго пѣснопѣния<anchor xml:id="v8" n="8" rend="super"/> Давидова, преведши<anchor xml:id="v9" n="9" rend="super"/> е<anchor xml:id="v10" n="10" rend="super"/> от бесѣды еллиньскыя на бесѣду шумящаго вѣщаниа рускаго и ины многыя книгы душеполезныя, овѣхъ убо преведши, овѣх же<anchor xml:id="v11" n="11" rend="super"/>, премного имущихъ ложное чюжих словесъ, красотою истины утвердивши. Но паче благо<metamark function="end-page" rend="//"/><pb type="folio" n="л. 63 об." rend="label-margin-left"/>дарствуи твоему Владыцѣ, и хвали, и слави<anchor xml:id="v12" n="12" rend="super"/> Его благоразумно, о нихже сподобилъ тя есть въ нынѣшнѣмъ житии малыми привременными скръбьми отдати съ лихвою весь длъгъ, многъ талантъ, имиже длъжна была еси<anchor xml:id="v13" n="13" rend="super"/>. Внимаи убо, да не сѣтования время възмниши злѣ, но паче божественыя радости, <anchor xml:id="v14a1" n="14" rend="super"/>да не<anchor xml:id="v14a2" n="14" rend="super"/> стражеши, окаанна<anchor xml:id="v15" n="15" rend="super"/>, сугубою тщетою и въ настоящемъ и въ будущем<anchor xml:id="v16" n="16" rend="super"/> вѣцѣ мучима, акы<anchor xml:id="v17" n="17" rend="super"/> неблагодарна. Весели<anchor xml:id="v18" n="18" rend="super"/> же ся паче и радуися богомудрено, смирено же и благодарьствено тщися имѣти всегда благонадежно же и честно житие, имиже удобъ<anchor xml:id="v19" n="19" rend="super"/> въсхыщаемо<anchor xml:id="v20" n="20" rend="super"/> бываеть Царство Небесное, емуже нѣсть <anchor xml:id="v21a1" n="21" rend="super"/>ничто же точно<anchor xml:id="v21a2" n="21" rend="super"/> от всѣх сущихъ. Аще сице въоружаеши се<metamark function="end-page" rend="//"/><pb type="folio" n="л. 64" rend="label-margin-left"/>бе всегда и тѣмъ образом тщишися веселити<anchor xml:id="v22" n="22" rend="super"/> Владыку своего, радуися и веселися, якоже Господь твои повелѣваеть, твоя бо мъзда велия на Небесѣхъ.</p>
+      </body>
+      
+      <back>
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1">
+                  <witDetail wit="#А">Стерты буквы <hi rend="distinct">ес</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+            <head rend="super">2</head> 
+            <app from="#v2"> 
+               <witDetail wit="#А">Доб. <hi rend="distinct">и утѣшаше</hi>, над словом киноварные знаки отмены</witDetail>
+            </app>
+         </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3"> 
+                  <rdg wit="#Р">в</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4"> 
+                  <rdg wit="#А">Предложивше</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5-5</head> 
+               <app from="#v5a1" to="#v5a2"> 
+                  <rdg wit="#Р">отцетворное еси рѣче</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6"> 
+                  <rdg wit="#А">сиирѣчь</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <rdg wit="#Р">пѣснопѣнии</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9"> 
+                  <rdg wit="#А">преведшеи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10"> 
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11"> 
+                  <witDetail wit="#А">Доб. <hi rend="distinct">по</hi>, над словом знаки отмены</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12"> 
+                  <rdg wit="#Р">славляи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13"> 
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14-14</head> 
+               <app from="#v14a1" to="#v14a2"> 
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15"> 
+                  <rdg wit="#Р #А">окааннаа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16"> 
+                  <rdg wit="#Р">чаемом</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17"> 
+                  <witDetail wit="#А">На этом обрывается текст, это последний лист рукописи</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#v18">
+                  <rdg wit="#Р">веселуи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">19</head> 
+               <app from="#v19"> 
+                  <rdg wit="#Р">удобь</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">20</head> 
+               <app from="#v20"> 
+                  <rdg wit="#Р">въсхыщаемъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">21-21</head>
+               <app from="#v21a1" to="#v21a2"> 
+                  <rdg wit="#Р">точно ничто же</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">22</head> 
+               <app from="#v22">
+                  <rdg wit="#Р">веселяти</rdg>
+               </app>
+            </listApp>
+         </listApp>
+         
+      </back>
+   </text>
+</TEI>

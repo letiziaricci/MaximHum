@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека послание нѣкоторой инокынѣ, въ немъ же учитъ не скорбѣти о умершихъ [Inoka Maksima Greka poslanie někotoroj inokyně, v'' nem'' že učit'' ne skorběti o umeršich'']</title>  
+            <title type="alt" xml:lang="cu-Cyrl">Titolo concorde con il titolo editoriale in <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 138-139</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl">[Послание утешительное некоей инокине, скорбящей об умерших (Poslanie utešitel'noe nekoej inokine, skorbjaščej ob umeršich) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">189</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="425" to="432">425-432</biblScope>, <biblScope unit="chapter">nr. 41</biblScope>
+               <incipit type="info-ms">Якоже вѣмъ себя въ печали суща и скорби тѣлеснеи и душевнѣи, сице и тебе слышу въ тѣхъ же мнѣ лютыхъ падшу и зѣльнѣ скорбящу и всякого утѣшениа отъ всѣхъ требующу.</incipit>
+               <explicit type="info-ms">[...] да сподобитъ тя Господь свершити до конца, во всякомъ преподобствѣ п правдѣ и щедротахъ нищихъ, да и ты получиши на небесѣхъ отъ Христа жениха твоего ту же имъ славу и благодать и вѣнецъ. Аминь.</explicit>
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Posl. nr. 20]</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>
+               </msIdentifier>
+            </msDesc>
+            
+            
+            <listWit xml:lang="cu-Cyrl">             
+               <witness corresp="#b-wit-1" ana="#reference-ms"/>
+               <witness corresp="#b-wit-2" ana="#reference-ms"/>
+               <witness corresp="#b-wit-3" ana="#reference-ms"/>
+               <witness corresp="#b-wit-4" ana="#reference-ms"/> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date> 
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Послание</term> 
+               <term>[Утѣшение]</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Istruzione</term> 
+               <term>Consolazione (defunti)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution">
+               <term target="#original">Testo originale</term>  
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="lista-destinatari.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="lista-destinatari.xml#ma">una monaca</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">
+               <p></p>
+            </interpretation>
+         </editorialDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОКА МАКСИМА ГРЕКА ПОСЛАНИЕ НѢКОТОРОИ ИНОКЫНѢ, ВЪ НЕМЪ ЖЕ УЧИТЪ НЕ СКОРБѢТИ О УМЕРШИХЪ</p>  
+      </front>
+      
+      <body>
+         <p>Якоже вѣмъ себя въ печали суща и скорби тѣлеснеи и душевнѣи, сице и тебе слышу въ тѣхъ же мнѣ лютыхъ падшу и зѣльнѣ скорбящу и всякого утѣшениа отъ всѣхъ требующу. Но себѣ како помогу и скорби избавлю, и вѣмъ и могу, въ моеи бо волѣ и благое и злое, власть имамъ уклонитися и въ деснаа и въ лѣвая, и никтоже есть, иже можетъ возбранити ми отъ добраго моего изволениа, дондеже имамъ предъ очима моипма одесную мене стояща призирателя моихъ мыслеи и дѣании Иисуса Христа, якоже азъ учимъ бываю отъ божествеинаго пророка глаголющаго: <cit><quote xml:id="biblical-1">«предзрѣхъ Господа предо мною выну, яко одесную мене есть, да ся не подвижу»</quote></cit>. Но себѣ убо сице помогаю и утѣшаю скорби моя, твою же священную душю, въ печали сущу мнозѣ, како инако утѣшу отъ томящия тя скорби и избавлю ея, но точию якоже блаженныи Павелъ, утѣшая насъ, завѣщаваетъ, глаголя: <cit><quote xml:id="biblical-2">«братие не велю не разумѣвати о усопшихъ, да не скорбите якоже и прочии не имуще надежу. Аще бо вѣруемъ, яко Иисусъ умре и воскресе, тако и Богъ усопшаа Иисусомъ приведеть съ нимь»</quote></cit> и прочаа. Сицевы убо апостольскыи поклопяемыи глаголы, сила же ихъ сицева: таина православныя вѣры, яже по насъ благочестивыхъ, триими сими исповѣдании, паче иныхъ, утвержается, глаголю же рождествомъ, еже по плоти, единороднаго Сына Божиа, яко Богъ сыи безплотепъ и невидимъ и неосязаемъ благоизволилъ, по мнозеи своеи благости, облещися въ плоть человѣчю и быти человѣкъ видимъ, приступенъ и осяжимъ; и второе, яко бывъ тако и смерти вкусилъ, зане человѣкъ, да смертию его вси живутъ во вѣкы, елицы крещаются во имя Отца и Сына и Святаго Духа, по покланяемѣи заповѣди, глаголющеи: вѣровавыи и крестився спасенъ будетъ, сирѣчь во вѣки поживетъ житиемь равноангельнымъ, избѣгъ соблюдаемыхъ нечестивымъ грѣшнымъ вѣчныхъ мучении; таже приглаголетъ: а невѣровавыи осуженъ будетъ вкупѣ съ нечестивыми бѣсы; и третие еже, яко воплощься и смерти вкусивъ, зане человѣкъ, въ третии воскресе изъ мертвыхъ, отложивъ мертвости тлѣниа. Симъ убо сице имущимъ ся, елицы прочее во Христа вѣровахомъ и во имя Отца и Сына и Святаго Духа крестихомся и вѣрою сею уповахомъ получити, еже отъ мертвыхъ, воскресениа и вѣчныя жизни, аще убо зѣльнѣ скорбимъ о преставлении своихъ си и рыдании и слезами себе обливаемъ безмѣрно, явствено обличаеми есме, яко усты точию исповѣдуемъ, яже во Христа, вѣру и надежю, а не всѣмъ сердцемъ и мыслию твердою, по глаголющему божественному пророку: вѣрую видѣти благаа Господня на земли живыхъ. Кая же благаа сия суть и коль предивна, Павелъ божественныи учитъ насъ, глаголя: <cit><quote xml:id="biblical-3">«яже око не видѣ и ухо не слыша и на сердце человѣче не взыдошя, яже уготова Богъ любящимъ его»</quote></cit>. И аще неизреченна и невидима и недомыслима отнюдъ благаа Божиа суть, откуду блаженныи Давидъ и царь толику вѣру о онѣхъ стяжалъ? и откуду инуды, а не точию отъ совершенныа любви, еюже возлюби отъ всеа души своеа и сердца и мысли и крѣпости Содѣтеля всѣхъ, якоже тотъ же пророкъ глаголетъ: <cit><quote xml:id="biblical-4">«возлюблю тя, Господи, крѣпость моя, Господь утвержение мое и прибѣжище мое и избавитель мои»</quote></cit>; и паки тои же: <cit><quote xml:id="biblical-5">«коль возлюбленна села твоа, Господи силъ, прежелаетъ и скончевается душа моа во дворы Господня»</quote></cit>; и пакы тои же, объявляя намъ зѣльнѣишую любовь свою и желание, еже къ Богу, приточно глаголетъ: <cit><quote xml:id="biblical-6">«имъже образомъ желаетъ елень на источникы водныа, сице прежелаетъ душа моа къ тебѣ, Боже, возжада душа моа къ Богу крѣпкому живому»</quote></cit>; таже, елма скорбя о немъже долго пребываетъ въ привременномъ житии семъ, приглаголетъ: <cit><quote xml:id="biblical-7">«когда прииду и явлюся лицу Божию? быша слезы моа мнѣ хлѣбъ день и нощь»</quote></cit>, сирѣчь, якоже алченъ человѣкъ съ зѣльнымъ желаниемъ хлѣба желаетъ, сице и азъ, рече, съ непрестаннымъ желаниемъ, слезами себе обливаю, яко да сподоблюся получиати сладчаишаго зрѣниа Бога моего и насладитися божественныа его красоты, якоже и индѣ глаголетъ тои же: <cit><quote xml:id="biblical-8">«едино просихъ отъ Господа, то взыщу, яко жити ми въ дому Господни вся дни живота моего, зрѣти ми красоту Господню и посѣщати церковь святую его»</quote></cit>; а иже сиа глаголетъ и толь теплѣише молится, явленъ есть, яко всего себе отнюдъ умертвилъ отъ всѣхъ привременныхъ и душетлительныхъ красныхъ прелестника вѣка сего и утвердилъ всеа мысли своея и желание въ недомысленное любление и наслаждение божественныя доброты благости, аще и царь былъ славнѣишии и всяческими благоденьствии и царьскыми высотами обливаемъ, но ничтоже отъ сихъ возможе оставити его божественныа любве и желаниа вѣчныхъ благъ; сего ради глаголаше, яко <cit><quote xml:id="biblical-9">«лутче день единъ во дворехъ твоихъ, паче тысяща», сирѣчь днеи въ маловременномъ и многоболѣзненномъ житии семъ, сего ради «изволихъ, рече, приметатися въ дому Бога моего паче, нежели жити ми въ селѣхъ грѣшничихъ»</quote></cit>. Кая же убо глаголетъ инаа селениа грѣшныхъ, а не точию ли пресвѣтлыхъ здании и гордыхъ строении тѣхъ, елицы послѣ его хотяху беззаконно и богунеугодно царствовати во Иерусалимѣ и Самарии и во всеи Иудеи? исполненъ бо сыи пророческыа благодати блаженныи онъ царь, предувѣдаше всяко нечестиа хотящихъ послѣ его нечестиво царствовати, въ нихъ же преже убо нечестивѣишии всѣхъ явися, иже преже его нечествоваше, послѣ же пресловутыи въ покаании Манассие, иже 52 лѣта законъ Божии и заповѣди неистовствениѣ попра и храмъ Божии осквернилъ идольскими жертвами, но сиа убо и дотолика. Мы же, толико имуще отъ святыхъ писании учениа утѣшениа и образы житиа и пребываниа богоугоднаго, да отложимъ отъ мыслеи нашихъ всякиа скорби и малодушие и всяко ино, егоже имамы, прилежание о привременныхъ и неполезныхъ красныхъ житиа сего сустнаго, яже отлучаютъ насъ наслаждениа неизреченныхъ и вѣчныхъ благъ. Да возлюбимъ же, яже на небесѣхъ, отъ Бога славу и честь и похвалу, а не яже отъ человѣкъ, сяже всякыми образы, по многому нашему суемудрию, себе взыщемъ, раболѣпно ласкающе всѣхъ сущихъ во властехъ и о неправловании молчаще, сильны суще и себѣ вѣнцы отъ Бога получити, необи[л]овениа ради нашего, и онѣхъ оставити всякыа ихъ злобы и неправдованиа словомъ учительнымъ и воспомпнаниемъ страшнаго правдосудиа неумытнаго судии Иисуса Христа, егда открывается съ небесе гнѣвъ Божии на всяко нечестие и неправду человѣковъ и прочаа. Страшно слово се, о преподобнаа мати! и великого соблюдениа достоино всѣмъ вкупѣ человѣкомъ, напаче же вамъ благочестивымъ, иже прияхомъ совершеннаго закона Спаса Христа, повелѣвающаго намъ и глаголюща; <cit><quote xml:id="biblical-10">«внидете узкыми и прискорбными, сирѣчь житиемъ честнымъ п пребываниемъ богоугоднымъ украшеннымъ вольною скудостию потребныхъ»</quote></cit>, яже къ житию, егоже возлюбиша всею душею и словомъ и дѣломъ совершиша не токмо безчисленнии преподобнии и богоноснии мужие въ дальныхъ пустыняхъ живуща, но еще благородныа честныа жены, всѣхъ вкупѣ житеискыхъ красныхъ преобидѣвше и иже обилиа стяжании и богатства и славы, родителеи и сродниковъ, друговъ, отечества и самыа юности своея, поидоша всею душею и сердцемъ въ слѣдъ безсмертнаго и пречистаго жениха своего, все свое богатство и стяжаниа убогимъ и нищимъ и сиротамъ раздавще, по спасеннои заповѣди жениха ихъ глаголющаго ко оному богатому юноши: <cit><quote xml:id="biblical-11">«аще хощеши совершенъ быти, сирѣчь во святости и славѣ небеснѣи, иди продаи же имѣниа своа и даи е нищимъ, и иди вслѣдъ мене»</quote></cit>. Сию спасительную заповѣдь совершиша мнози благородныа жены, яже быша Евгклитикиа приснопамятнаа, Меланиа и Дионисиа, имъже и ты подобящися, тои же путь изволила еси, ихъже житие и пребывание да сподобитъ тя Господь свершити до конца, во всякомъ преподобствѣ и правдѣ и щедротахъ нищихъ, да и ты получиши на небесѣхъ отъ Христа жениха твоего ту же имъ славу и благодать и вѣнецъ. Аминь.</p>
+      </body>
+      
+      <back> 
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Пс 15, 8 / Sal 15,8)</ref></bibl>
+            <bibl corresp="#biblical-2" type="1Ts"><ref>(1 Фес 4, 13-14 / 1Ts 4,13-14)</ref></bibl>
+            <bibl corresp="#biblical-3" type="1Cor"><ref>(1 Кор 2, 9 / 1Cor 2,9)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Sal"><ref>(Пс 17, 2-3 / Sal 17,2-3)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Sal"><ref>(Пс 83, 2-3 / Sal 83,2-3)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Sal"><ref>(Пс 41, 2-3 / Sal 41,2-3)</ref></bibl>
+            <bibl corresp="#biblical-7" type="Sal"><ref>(Пс 41, 3-4 / Sal 41,3-4)</ref></bibl>
+            <bibl corresp="#biblical-8" type="Sal"><ref>(Пс 26, 4 / Sal 26,4)</ref></bibl>
+            <bibl corresp="#biblical-9" type="Sal"><ref>(Пс 83, 11 / Sal 83,11)</ref></bibl>
+            <bibl corresp="#biblical-10" type="Mt"><ref>(Мф 7, 13 / Mt 7,13) </ref></bibl>
+            <bibl corresp="#biblical-11" type="Mt"><ref>(Мф 19, 21 / Mt 19,21)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же инока Максима Грека на несытое чрево и безчисленых золъ виновно иночьствующимъ [Togo že inoka Maksima Greka na nesytoe črevo i bezčislenych zol'' vinovno inoč'stvujuščim'']</title>  
+            <title type="alt" xml:lang="cu-Cyrl">Titoli concordi con il titolo editoriale in <ref target="lista-bibliografia.xml#MG-1860">Maksim Grek 1860: 153-154</ref>; <ref target="lista-bibliografia.xmlIva-1969">Ivanov 1969: 135</ref>; <ref target="lista-bibliografia.xml#Sin-1977">Sinicyna 1977: 231</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">Слово Григория Богослова на несытное чрево и бесчисленных виновно иночествующим [Slovo Grigorija Bogoslova na nesytnoe črevo i besčislennych vinovno inočestvujuščim] <ref target="lista-bibliografia.xml#Sob-1903">(Sobolevskij 1903: 270, ms. RGB Und. 338, cap. 13)</ref></title>    
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+       
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">179</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 17</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 17</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="204">204</biblScope>, <biblScope unit="chapter">nr. 17</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="153" to="154">153-154</biblScope>, <biblScope unit="chapter">nr. 6</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#MDA-42"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 173, МДА 42</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#202v #203v">лл. 202об.-203об. / ff. 202v-203v</locus>   
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима Грека на несытое чрево и безчисленых золъ виновно иночьствующимъ</title>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">О чрево безстудно и николи же насыщаемо, его же ради, иноцы несмыслении, поругание бываем богопротивником бѣсом! Тебе бо ради истицаниа нечистаа, и несытни снове, и различни душевныа смерти, и святых еуагельскых заповѣдеи отметаниа и бесчислены печяли о стяжаниих и свари, ими же память смертьнаа и божественнаа любы и страх без вести бывают от душь иноческых, ими же молитва чиста и слезы и умиление угасоша и съкровеное уму дѣлание.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Тебѣ же повинующеися раби злы и есмя вси тебѣ и ис тебе ражаемым страстемъ, и безсловесным скотом уподобляемся, иже по божественому образу святою Божиею рукою създани быхом.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="И" />
+               
+               <witness xml:id="Х">  
+                  <ref target="lista-manoscritti.xml#Chlud-73">ГИМ, Хлуд. 73</ref>, <locus type="chapter"></locus>, <locus type="foliation" target="#303v #304v">лл. 303об.-304об. / ff. 303v-304v</locus>  
+               </witness>
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Povertà nella religione</term> 
+               <term>Istruzione</term>
+               <term>Correzione</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 135, n. 5)</ref></term>
+               <term target="#translation">Traduzione [Gregorio di Nazianzo] <ref target="lista-bibliografia.xml#Sob-1903">(Sobolevskij 1903: 270)</ref></term><!-- 01. Inventario COLONNA N -->
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ТОГО ЖЕ ИНОКА МАКСИМА ГРЕКА НА НЕСЫТНОЕ ЧРЕВО И БЕЗЧИСЛЕНЫХ ЗОЛЪ ВИНОВНО ИНОЧЬСТВУЮЩИМЪ. СЛОВО 17<anchor xml:id="c1" n="а" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>О чрево безстудно и николи же насыщаемо, его же ради, иноцы несмыслении, поругание бы<metamark function="end-page" rend="//"/><pb type="folio" n="л. 203" rend="label-margin-left"/>ваем богопротивником бѣсом! Тебе бо ради истицаниа нечистаа, и несытни снове, и различни душевныа смерти, и святых еуагельскых заповѣдей отметаниа и бесчислены печяли о стяжаниих<anchor xml:id="c2" n="б" rend="super"/> и свари, ими же память смертьнаа и божественнаа любы и страх без вести бывают от душь иноческых, ими же молитва чиста и слезы и умиление угасоша и съкровеное уму дѣлание. Вмѣсто же сих гръдость привниде и злонравие и лесть, лъжа, зависть и тщеславно желание и еже всѣх злых родителное сребролюбие и богомръзкое взятие губителных лихвъ, им же послѣдьствует лютое и безчеловѣчьско лихоимъство, еже призываетъ сходящии свыше Божии гнѣвъ. О чрево безстудно, его же ради, иноцы несмыслении, падаем в самое губительное чрево адово! Блаженъ, иже тебе покорилъ есть уму своему, нищету же възлюбилъ есть всею душею и житие нестяжателно. Въистину сеи единъ позна себе, сеи неложенъ Вышняго угодникъ и единъ свободенъ. Тебѣ же повинующеися раби злы и есмя вси тебѣ и ис тебе ражаемым страстемъ, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 203 об." rend="label-margin-left"/> и безсловесным скотом уподобляемся, иже по божественому образу святою Божиею рукою създани быхом.</p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label>
+               <p>Обозначение номера главы кин. на левом поле.</p> 
+            </note>
+            <note target="#c2"> 
+               <label rend="super">б</label>
+               <p><hi rend="distinct">жа</hi> вписано на поле почерком <choice><abbr>П</abbr> <expan>почерк писца/писцов / mano del copista/dei copisti</expan></choice>.</p> 
+            </note>
+         </noteGrp>
+         
+      </back>
+   </text>
+</TEI>

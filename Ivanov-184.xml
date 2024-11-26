@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека поучение ко инокомъ о исправлении иноческаго жития, и кая есть сила великыя схимы [Inoka Maksima Greka poučenie ko inokom'' o ispravlenii inočeskago žitija, i kaja est' sila velikyja schimy]</title> 
+            <title type="alt" xml:lang="cu-Cyrl">Titolo concorde con il titolo editoriale in <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 137</ref></title> 
+            <title type="alt" xml:lang="cu-Cyrl">Поучение Максима Грека к монахам - Поучение к иноком о исправлении иночьскаго жития и кая есть сила великыя схимы [Poučenie Maksima Greka k monacham - Poučenie k inokom o ispravlenii inoč'skago žitija i kaja est' sila velikyja schimy] <ref target="lista-bibliografia.xml#Sin-1977">(Sinicyna 1977: 250)</ref></title> 
+            <title type="alt" xml:lang="cu-Cyrl">[Поучение инокам о силе схимы (Poučenie inokam o sile schimy) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title>  
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">184</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 16</bibl>                 
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="220" to="228">220-228</biblScope>, <biblScope unit="chapter">nr. 12</biblScope>
+               <incipit type="info-ms">Видѣхъ неразумѣвающихъ, глаголетъ божественное слово, п истаяхъ. Чесо ради? Зане, рече, словесъ твоихъ не сохраниша, сирѣчь заповѣди твоя и оправдания [...]</incipit>
+               <explicit type="info-ms">[...] друже, како здѣ вшелъ еси, неимыи одѣяние брачно, и прочая вѣдома, отъ нихъ же да избавить насъ Господь нашъ Иисусъ Христосъ. Аминь.</explicit>
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Rum. nr. 4]</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>
+               </msIdentifier>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#b-wit-1" ana="#reference-ms"/>
+               <witness corresp="#b-wit-2" ana="#reference-ms"/>
+               <witness corresp="#b-wit-3" ana="#reference-ms"/>
+               <witness corresp="#b-wit-4" ana="#reference-ms"/> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   <!-- 01. Inventario COLONNA L -->
+               <term>Поучение</term> 
+            </keywords>
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Esteriorità del culto</term> 
+               <term>Povertà nella religione</term>
+               <term>Denuncia</term>
+               <term>Istruzione</term>
+               <term>Correzione</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="lista-destinatari.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="lista-destinatari.xml#mi">monaci</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">
+               <p></p>
+            </interpretation>
+         </editorialDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОКА МАКСИМА ГРЕКА  ПОУЧЕНИЕ КО ИНОКОМЪ О ИСПРАВЛЕНИИ ИНОЧЕСКАГО ЖИТИА, И КАЯ ЕСТЬ СИЛА ВЕЛИКЫЯ СХИМЫ</p>  
+      </front>
+      
+      <body>
+         <p><cit><quote xml:id="biblical-1">«Видѣхъ неразумѣвающихъ, глаголетъ божественное слово, и истаяхъ». Чесо ради? «Зане, рече, словесъ твоихъ не сохраниша»</quote></cit>, сирѣчь заповѣда твоя и оправдания; и паки тоиже пророкъ, уча насъ, еже по Бозѣ ревновати, и съ необиновениемъ глаголаги слово, еже о истинѣ, сице яснѣ вопиетъ ко Господу: <cit><quote xml:id="biblical-2">«и глаголахъ предъ цари во свидѣниихъ твоихъ, и не стыдяхся»</quote></cit>; и паки тоиже: <cit><quote xml:id="biblical-3">«истаяла мя ревность твоя, яко забыша словесъ твоихъ, врази мои»</quote></cit>. Никтоже убо да зазритъ мнѣ, аще и самъ, повинуяся симъ божественнымъ поучениемъ, дерзостнѣе пишу и, по ревности Божиеи, возстаю на обличение нѣкихъ братиихъ моихъ, безчинствующихъ и сопротивъ нашимъ обѣтомъ, яже Богу, жительствующихъ и мыслящихъ, аще бо и самъ во многихъ безчинствую и согрѣшаю, но долженъ есмь, яко же тщуся себе исправляти, сице и братиямъ моимъ завѣщавати, яже ко спасению, емуже обрекохомся волею, узкимъ и скорбнымъ путемъ, а не широкимъ и пространнымъ, шествовати. Кии же есть узкии и скорбныи путь, вводящии въ животъ вѣчныи, самъ Владыка показалъ намъ, краткими словесы рекъ; <cit><quote xml:id="biblical-4">«аще кто хощетъ въ слѣдъ мене ити, да ся отвержетъ себе»</quote></cit>, сирѣчь да отступитъ всякаго совоспитаннаго имъ злаго и зазорнаго обычая, яковаже суть: чревобѣсие, лакомство, пианство, несытство, сребролюбие, лихоимание, скверны прибытки, коваренъ обычаи, пронырство, зависть, ненависть, лжа и симъ подобна. Отъ сихъ же всѣхъ удалятися отнюдъ должны есме и ктому въ нихъ не ходити, аще убо по истинѣ желаемъ убѣгнути вѣчныхъ мукъ, имже повинни суть презирателие и преступники евангельскихъ заповѣдеи и отеческихъ предании; и да возметъ, рече,  крестъ свои, сирѣчь полное умерщвление удесѣхъ своихъ и чювствиихъ, имиже входить въ таи душевная смерть: очесы убо, якоже егда съ вохотию взираемъ на женскую красоту и умыслено<anchor xml:id="v1" n="1" rend="super"/> прегнусъ дѣемъ въ сердцахъ нашихъ, якоже  владычня заповѣдь уставляетъ, глаголющи: всякъ взираяи женѣ ко еже вожделѣти ея, уже преблудилъ съ нею въ сердцы своемъ, въ немъ же согрѣшении и да не паки паднетъ блюдися. Божественныи псалмопѣвецъ молится глаголя: отврати очи мои не видѣти суеты; слухомъ же согрѣшаемъ, егда со сладостио зельною внимаемъ пѣснемъ блуднымъ и сквернымъ повѣстемъ, и егда весь слухъ приклонимъ оклеветающему въ таи ближняго нашего и не гонимъ его отъ насъ, по глаголющему праведному пророческому поучению: <cit><quote xml:id="biblical-5">«оклеветающаго въ таи ближняго своего, сего изгоняхъ»</quote></cit>. Языкомъ же согрѣшаемъ, егда нарокомъ солжемъ, егда съ ненавистию сатанинскою оглаголуемъ ближняго своего, егда ина убо языкомъ глаголемъ и обѣщаваемъ, ина же въ сердцы скрыемъ, не боящеся отнюдь обличающаго насъ страшнаго истязателя и глаголюща: уста твоя преумножиша злобу и языкъ твои сплеташе мщениа, сѣдя на брата своего клеветаше и на сына матери своея полагаше соблазнъ. Такожде согрѣшаемъ и прочими треми нашими чювствии, обоняниемъ и вкусомъ, осязаниемъ, всякимъ образомъ моряще душъ нашихъ, по многому нашему невниманию и безумию, сими бо аки дверми нѣкими входитъ въ сердцахъ нашихъ душевная смерть. Сея же ради вины, по вся дни, божественнымъ служащие таинамъ, завѣщаваютъ намъ, глаголюще: двери двери премудростию вонмемъ, еже есть: предстояще божественнѣи литургии, да соблюдаемъ себѣ чистыхъ отъ зрѣния блуднаго злаго отъ оглаголания братии, отъ сквернословия и празднословия, смѣха безчиннаго и всякия лжи. Егда отъ всѣхъ сихъ себе чистыхъ соблюдаемъ, тогда отъ всѣхъ во истину добрѣ и со страхомъ Божиимъ предстоимъ божественнѣи службѣ и не лжемъ, отвѣщающе служащему таино учителю и глаголюще ему: милость миръ, жертву пѣниа; милость убо ко всякому нужному<anchor xml:id="v2" n="2" rend="super"/> и требующему помощи; миръ — егда всякия вражды и сваръ раззоривше ко всѣмъ и со всѣми миръ любимъ, тогда истинную жертву пѣниа приносимъ, по глаголющему: жертва пѣния прославить мя, и паки: <cit><quote xml:id="biblical-6">«пожри Богови жертву пѣния и отдаждь Вышнему молитвы твоя»</quote></cit>. Аще же не сице устроимъ себе и не сицевыми духовными даровании украшаимъ себе, вотще явимся труждьшеся всуе многопестрыми шелковыми ткании и обрящемся красяще куколь великия схимы. Хощеши ли благоугоденъ быти Владыцѣ всѣхъ, не внѣшнии куколь, иже во гробѣ тлѣетъ, украшаемъ многопестрыми шелковыми ткании, не сицевыми бо лживыми одѣании страшныи и неумытныи Судиа угожаемъ бываетъ, но украси прилежно мысленныи куколь внутренняго человѣка, честнѣишу глаголю часть душевную, умъ частыми поучении богодохновенныхъ писании и трезвенными молитвами и богоугодными бдѣнии. Такожде соблюдаи всегда всего немятежна и собрана въ себѣ, поминая всегда ему глаголющее премудрое завѣщание: <cit><quote xml:id="biblical-7">«предзрѣхъ Господа всегда предо мною выну, яко одесную мене есть, да ся не подвижу»</quote></cit>. Умъ бо, иже не сице соблюдаемъ бываетъ, ничинмъ же разликуетъ жребяти необузданнаго, и трости, всякими вѣтреными вѣянии колеблемыя. Такожде утверди сердце твое о Госнодѣ извѣстнымъ исполнениемъ Господнихъ спасительныхъ заповѣдеи, въ нихъ же и ими же вселяется честныи страхъ Господень. Сему же всельшуся въ тебѣ, и исполняется душа твоя вѣры и мужества духовнаго и Божия любве. Такими же даровании озарившися души твоеи, вознесется рогъ твои о Бозѣ твоемъ, сирѣчь сила души твоея, всякъ страхъ отложьши, въ мужество божественное облечется и дерзновение нестрашливо, и разширятся уста твоя, сирѣчь со дерзновениемъ многимъ и множествомъ разума и премудрости возможеши противословити и противитися всѣваемымъ отъ ратующихъ тя лукавыхъ бѣсовъ нечистымъ помысломъ, никакоже дая имъ мѣсто внити въ клеть сердца твоего. Тогда возвеселишися о Богѣ Спасѣ твоемъ, сирѣчь отъ толь добрыхъ твоихъ духовныхъ подвизѣхъ и трудѣхъ приимеши отъ всеблагаго Подвигоположника твоего веселие вѣчное, по писанному: сѣющеи слезами съ радостию пожнутъ, ходяще хожаху и плакаху мечуше сѣмена своя, еже есть въ малопремѣнномъ житии семъ живуще, подвиги всякия и труды со слезами духовными за спасение свое, яже къ Богу любве изволяху, сего ради въ преславномъ пришествии Бога и Спаса ихъ явллеми съ радостию и веселиемъ приимутъ должная имъ воздарования отъ праведнаго Судии, сирѣчь вѣчныя жизни наслажение вѣчныхъ и неизрѣченныхъ благъ. Тыя же и мы труды и подвиги возлюбимъ и сами за свое спасение и яже къ Богу любви тѣми же и мы преподобными добродѣтелми да украсимъ сами и мысленыи куколь внутренняго человѣка нашего, а не шолковыми пестрыми ткании тлѣемыи  во гробѣ куколь внѣшняго человѣка нашего. Таковое украшение познание<anchor xml:id="v3" n="3" rend="super"/> есть души не наученныя въ божествевныхъ и мысли младенческия показание. Да престанемъ убо отселѣ младенчествовати, повинующежеся божественному апостолу, завѣщавающу намъ и глаголющу: братие, не бываите младенци умомъ, но злобою младенствуите, а умы совершени бываите; и паки тоиже: <cit><quote xml:id="biblical-8">«егда бѣхъ младенецъ, якоже младенецъ смысляхъ, якоже младенецъ глаголахъ, якоже младенецъ мудрствовахъ; егда же быхъ мужъ, испразнилъ младенческая»</quote></cit>. Сего ради, братие, и мы елма волею отрекохомся суеты всякия и безчиния мирскаго жития и иноческаго преподобнаго и совершеннаго жития возлюбихомъ, совершающаго внутренняго чедовѣка нашего и наставляюща въ самую вѣчную жизнь, и да премудрствуимъ и возлюбимъ, да не создавшему на песцѣ храмину свою, но иже на камени, уподобимся; каменемъ же разумѣимъ исполнение словомъ и дѣломъ евангельскихъ заповѣдеи и велѣнии, въ нихже храмина внутренняго человѣка нашего созидается и крѣпится, пескомъ же паки созидающа разумѣимъ удовляемаго<anchor xml:id="v4" n="4" rend="super"/> точию вѣрою и крещениемъ, а о заповѣдѣхъ евангельскихъ нимало преддежаща<anchor xml:id="v5" n="5" rend="super"/>; сего же храмина удобь разорится всякия напасти приражениемъ, елма вѣра едина, кромѣ благихъ дѣлъ, мертва есть, якоже есть писано. Къ симже, кто есть вѣрныи рабъ мудрыи, егоже поставилъ господинъ его надъ челедию своею,  да даетъ имъ во время житомѣрие и прочая вѣдома суть. Вѣдомо убо да есть намъ, братие, якоже поклоняемое владычнее поучение блажитъ убо и вѣрныхъ и мудрыхъ рабъ наричетъ сущихъ въ санехъ церковныхъ властехъ и добрѣ и богоугоднѣ правящихъ увѣренное имъ словесное стадо, а иже злѣ и нерадивѣ пасущихъ е и безъ милости всяческими пѣняжными истизании и непрестанными работами, окаиваетъ и полма разсѣкаетъ, и часть ихъ съ лицемѣры полагаетъ, еже есть безконечнымъ мукамъ предаетъ ихъ. Такожде и мы о себѣ самѣхъ да мыслимъ всегда и мудрствуимъ, яко аще достоинѣ ходимъ обѣтъ нашихъ, ихъ же дахомъ страшному Судии, сирѣчь, аще всякою чистотою и преподобиемъ и смиренномудриемъ и братолюбиемъ нелицемѣрнымъ преукрашаемъ душа наша и соблюдаемъ я чистыхъ небесному Жениху отъ всякиа скверны плоти и духа, всяко услышимъ и сами глаголющаго преблагаго Владыки: благодать вамъ, благии раби и вѣрнии, на малыхъ явистеся вѣрнии раби мои, надъ многими поставлю васъ, внидите въ неизглаголанную радость Господа вашего; аще не сицевыми благоугодными исправлении украшаемъ мысленыи куколь внутренняго человѣка нашего, азъ убо прочее умолчю, евангельская же истина сие (съ) обиновениемъ да глаголетъ: друже, како здѣ вшелъ еси, неимыи одѣяне брачно, и прочая вѣдома, отъ нихъ же да избавитъ насъ Господь нашъ Иисусъ Христосъ. Аминь.</p>
+      </body>
+      
+      <back>
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1"> 
+                  <rdg>мысленно</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> 
+                  <rdg>нуждающемуся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3"> 
+                  <rdg>признакъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4"> 
+                  <rdg>довольствующагося</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5"> 
+                  <rdg>прилежаща</rdg>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Пс 118, 158 / Sal 118,158)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Sal"><ref>(Пс 118, 46 / Sal 118,46)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Sal"><ref>(Пс 118, 139 / Sal 118,139)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Mt"><ref>(Мф 16, 24 / Mt 16,24)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Sal"><ref>(Пс 100, 5 / Sal 100,5)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Sal"><ref>(Пс 49, 14 / Sal 49,14)</ref></bibl>
+            <bibl corresp="#biblical-7" type="Sal"><ref>(Пс 15, 8 / Sal 15,8)</ref></bibl>
+            <bibl corresp="#biblical-8" type="1Cor"><ref>(1 Кор 13, 11 / 1Cor 13,11)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же инока Максима Грека словеса на обьщую прелесть мечтаемыхъ во снѣ сониих [Togo že inoka Maksima Greka slovesa na ob'ščuju prelest' mečtaemych'' vo sně soniich]</title>   
+            <title type="alt" xml:lang="cu-Cyrl">Titoli concordi con il titolo editoriale in <ref target="lista-bibliografia.xml#MG-1860">Maksim Grek 1860: 154-156</ref>; <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 139</ref>; <ref target="lista-bibliografia.xml#Sin-1977">Sinicyna 1977: 231</ref></title>   
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">191</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 18</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 18</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="205" to="206">205-206</biblScope>, <biblScope unit="chapter">nr. 18</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="154" to="156">154-156</biblScope>, <biblScope unit="chapter">nr. 7</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#MDA-42"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 173, МДА 42</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#203v #205r">лл. 203об.-205 / ff. 203v-205r</locus>   <!-- 02. Inventario testimone base COLONNA G -->
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима Грека словеса на обьщую прелесть мечтаемыхъ во снѣ сониих</title>   <!-- 01. Inventario COLONNA i -->
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Въскую, о злѣишии и губителныи душам человѣчьскым враже и всячьска беззакониа обрѣтателю, мечтании нощными безпрестани смущаеши мя, иногда убо сѣтными, иногда же пакь радостными? Или мниши тѣми мою душю прельстити и повинути внимати ихъ, акы неблазненых?</incipit>   <!-- 01. Inventario COLONNA J -->
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Они бесплотным аггеломъ прилични бѣаху; аз же зракомъ симъ точию и мыслию человѣчьскою от скот безсловесных разликую, а прочими подобенъ им есмь прилѣжно страстьми же и похотми.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="И" /> 
+               
+               <witness xml:id="Х">   
+                  <ref target="lista-manoscritti.xml#Chlud-73">ГИМ, Хлуд. 73</ref>, <locus type="foliation" target="#304v #306r">лл. 304об.-306 / ff. 304v-306r</locus>   
+               </witness> 
+            </listWit> 
+     
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Словеса</term> 
+            </keywords>
+            <keywords scheme="#scope">  
+               <term>Visioni e preveggenze demoniache</term> 
+               <term>Avvertenza</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ТОГО ЖЕ ИНОКА МАКСИМА<anchor xml:id="c1" n="а" rend="super"/> ГРЕКА СЛОВЕСА НА ОБЬЩУЮ ПРЕЛЕСТЬ МЕЧТАЕМЫХЪ ВО СНѢ СОНИИХ. <metamark function="texts-sequence" rend="18"/> <anchor xml:id="c2" n="б" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Въскую, о злѣишии и губителныи душам человѣчьскым враже и всячьска беззакониа обрѣтателю, мечтании нощными безпрестани смущаеши мя, иногда убо сѣтными, иногда же пакь радостными? Или мниши тѣми мою душю прельстити и повинути внимати ихъ, акы неблазненых? Исчезни, сквернѣ, исчезни от мене вкупѣ съ своими ухыщрении. Христосъ мнѣ Спаситель и свѣт и веселие и похвала и слава и непобѣдима помощь, и стѣна от тебе твердѣиша; николи же повинеши мене, на Христа же уповаа сиа глаголю, — внимати ми, акы неложных мечтании твоих. Изначяла бо познах тя завистьника животу моему и съвѣтника губителна и змию злокознена, и вся твоа лесть, аще и нѣгдѣ истиньствуют, — и отлучаютъ от Бога и въ адъ сведут. Ниже бо да ползуеши <metamark function="end-page" rend="//"/><pb type="folio" n="л. 204" rend="label-margin-right"/> душу мою, являеши сеи, нѣкогда истиньна нѣкаа въ снѣх, понеже ни рыбарь правою мыслию никогда<anchor xml:id="c3" n="в" rend="super"/> же мечет, обложь удици, приваду рыбам, нъ да помалу привлечеши ю къ болшеи прелести и под губителною своею рукою повинеши ю, или сице, влъною кычениа възнесъ еа, връжеши ю въ<anchor xml:id="c4" n="ш" rend="super"/> любимую тобою гръдостную пропасть, или съчтеши еа съ христоубиицами, показавъ еи ихъ убо съ Моисеомъ въ свѣте живущих, а Христа пакы сѣдяща съ своими ученикы въ глубоцѣи тмѣ, якоже древле прельстилъ еси нѣкоего пустынника и повинулъ еси его отступити правовѣриа и въсприимати<anchor xml:id="c5" n="д" rend="super"/> богомръзское жидовьское невѣрие. Блаженъ, иже възненавидѣлъ есть вся вкупѣ умышлениа твоа, не точию сущая<anchor xml:id="c6" n="е" rend="super"/> злаа, но и мнящаася блага. Сѣмя бо беззакониа всякаго в тебѣ есть, богомръзскыи, ис тебе пакы рожено бывше въ своем естествѣ, и твое тщание всегда и изрядно дѣло сие есть, како человѣческы душа всякым дѣлом прельстити звѣздами, ворожении<anchor xml:id="c7" n="ж" rend="super"/> же<anchor xml:id="c8" n="з" rend="super"/> беззаконными, и лѣтанием птичным, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 204 об." rend="label-margin-right"/> и облачными смотрѣнии, и влъхвовании ячменными и мучными и бобными, и движением ока, и блюдении дланными, ими же, злѣишыи, льстя зломыслено душа безумных връжеши в сущыа под земленыа пламенныа мукы. Нъ несиленъ еси отнюдь поругатися и мыслем служащих вѣрою твердою и непорочною царю и Богу всѣх Христу. Утвержени бо суть на твердом камени священных Его заповѣдеи и божественѣи Его любви, ими же попирают вся вкупѣ лщениа твоа. Исчезни убо от мене, сквернѣишии, исчезни вкупѣ съ всѣми твоими душетлѣнными бѣсовьскыми лщении. Инымъ тѣми прелестьми твоими поругаися не знающим извѣстно злобы твоея халдѣом безбожным, италианомъ и нѣмцом прегръдым, иже по всему повинуются твоим умышлением. Ниже прельщаи мене указом Даниловым и Иосифовым, иже съвръшеныа ради добродѣтели своеа прияша свыше премудрость разсудити сониа послана владующим, по божественому устроению, их же ни к сѣни самои прикла<metamark function="end-page" rend="//"/><pb type="folio" n="л. 205" rend="label-margin-left"/>доватися азъ достоинъ есмь, бесчисленых ради моих грѣхопадении. Они бесплотным аггеломъ прилични бѣаху; аз же зракомъ симъ точию и мыслию человѣчьскою от скот безсловесных разликую, а прочими подобенъ им есмь прилѣжно страстьми же и похотми.</p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" > 
+               <label rend="super">а</label> 
+               <p>В ркп. <hi rend="distinct">Мамаксима</hi>.</p>
+            </note>
+            <note target="#c2" >
+               <label rend="super">б</label>
+               <p>Обозначение номера главы кин. на левом поле.</p>
+            </note>
+            <note target="#c3" >
+               <label rend="super">в</label>
+               <p>Буква <hi rend="distinct">и</hi> написана по стертому вместо двух букв почерком <choice><abbr>М</abbr> <expan>почерк Максима Грека / mano di Massimo il Greco</expan></choice> (?).</p>
+            </note>
+            <note target="#c4" >
+               <label rend="super">г</label>
+               <p>Вписано на поле почерком <choice><abbr>М</abbr> <expan>почерк Максима Грека / mano di Massimo il Greco</expan></choice> (?).</p>
+            </note>
+            <note target="#c5" >
+               <label rend="super">д</label>
+               <p><hi rend="distinct">въ</hi> вписано над строкой почерком <choice><abbr>М</abbr> <expan>почерк Максима Грека / mano di Massimo il Greco</expan></choice>.</p>
+            </note>
+            <note target="#c6" >
+               <label rend="super">е</label>
+               <p>Вписано на правом поле почерком <choice><abbr>П</abbr> <expan>почерк писца/писцов / mano del copista/dei copisti</expan></choice>.</p>
+            </note>
+            <note target="#c7" >
+               <label rend="super">ж</label>
+               <p>Первая <hi rend="distinct">о</hi> написана по стертому. </p>
+            </note>
+            <note target="#c8" >
+               <label rend="super">з</label>
+               <p>Далее написано и зачеркнуто <hi rend="distinct">нии же</hi>.</p>
+            </note>
+         </noteGrp>
+         
+      </back>
+   </text>
+</TEI>

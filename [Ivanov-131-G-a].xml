@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl"></title>  
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Missiva di accompagnamento (a tale Macrobio) di [Ivanov 131-G]</note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">[131-G-a]</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografica.xml#Bus-1993"><name>Buškovič</name>, <date>1993</date></ref>: <biblScope unit="page" from="228">228</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Vind-202"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>ÖN, Vind. Ph. Gr. 202</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#15v">л. 15об. / f. 15v</locus>   
+                     <rubric type="epistolary-formula" xml:lang="Cyrl">Μακροβίῳ τῷ πολλυθρυλλήτφ ἐραστῇ πάσης σοφίης ἱερᾶς ὁ μίνιμος μᾶλλον ὴ Μάξιμος, ὁ ποτ' ἑλλάδιος νῦν καὶ ὑπερβόρειος χαίρειν ἐν κυρίῳ.</rubric> <!-- 01. Inventario COLONNA J parte testuale in ROSSO (tag da cancellare se nel campo dell'inventario non è presente la parte in rosso) -->
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Τὸ βραχὺ φιλοπόνημα τοῦτο δεξάμενος ἐπιδιώρθωσον αὐτό ἐν οἷσπερ δόζει ἐσφάλθαι· [...]</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">"[...] ἔρρωσο ἀγαπητὲ ἑταίρε καὶ ἀδελφὲ έν κυρίῳ:·
+ζξ ῳ· ἐκ πόλεος Μοσχοβίου τῆς βασιλευούσης πάσης τῆς αἰωτάτου Ῥωσίας :."
+                     </explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni, tanti <witness></witness> quanti sono i testimoni di controllo in 03. Inventario testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" /> 
+            </listWit>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta, sicuramente antecedente a Ivanov 131]</date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="grc">Greco</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Corrispondenza privata</term>  
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>  
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="lista-destinatari.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="lista-destinatari.xml#M">Μακρόβιος / Macrobio / Макробий</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      
+      <body>
+         <p>Μακροβίῳ τῷ πολλυθρυλλήτῳ ἐραστῇ πάσης σοφίης ἱερᾶς ὁ μίνιμος μᾶλλον ὴ Μάξιμος, ὁ ποτ᾽ ἑλλάδιος νῦν καὶ ὑπερβόρειος χαίρειν ἐν κυρίῳ. Τὸ βραχὺ φιλοπόνημα τοῦτο δεξάμενος ἐπιδιώρθωσον αὐτό ἐν οἷσπερ δόζει ἐσφάλθαι· καὶ ἐπιδιωρθωθὲν σοι, μὴ βυθοῖς λήθης ἀξιῶ σε παραδοθήτω· ἀλλὰ καὶ ἄλλοις φιλαρέτοις ἐπιγνωσθήτω· καὶ εἰ μὴ πάντας ἀλλ᾽ ἴσως τινὰς ἐκσπάσει τῆς ὑπερβαλούσης ἐρωμανίης αὐτῶν ἧς νοσουσιν ἀκρατῶς περὶ τὰ ἑλληνικὰ στωμύλματα· ἔρρωσο ἀγαπητὲ ἑταίρε καὶ ἀδελφὲ έν κυρίῳ:·</p>
+         <p>ζξ ῳ· ἐκ πόλεος Μοσχοβίου τῆς βασιλευούσης πάσης τῆς αἰωτάτου Ῥωσίας :.</p>
+      </body>
+
+   </text>
+</TEI>

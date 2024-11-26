@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека сказание притчею сада о младомъ отрочищи, якоже глаголютъ: родивый сына не умре [Inoka Maksima Greka skazanie pritčeju sada o mladom'' otročišči, jakože glagoljut'': rodivyj syna ne umre]</title> 
+            <title type="alt" xml:lang="cu-Cyrl">Titolo concorde con il titolo editoriale in <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 144</ref></title>
+            <title type="alt" xml:lang="cu-Cyrl">Сочинение Максима Грека с притчей об отце и сыне [Sočinenie Maksima Greka s pritčej ob otce i syne] <ref target="lista-bibliografia.xml#Sin-1977">(Sinicyna 1977: 257)</ref></title> 
+            <title type="alt" xml:lang="cu-Cyrl">[Притча об отце и сыне (Pritča ob otce i syne) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">213</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 80</bibl>          
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografica.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="226" to="227">226–227</biblScope>, <biblScope unit="chapter">nr. 44</biblScope>
+               <title type="info-ms">Titolo presumibilmente concorde con il titolo editoriale</title>
+               <incipit type="info-ms">Четырьми нѣкими потребными силами всяко плодовито древо на лучьшее преспѣваетъ всегда и плодъ красенъ даетъ тружающемуся около его садовнику [...]</incipit>
+               <explicit type="info-ms">[...] иже убо сподобится таковаго сада получити, блаженъ воистину сицѣвыи во трудѣхъ своихъ; о сицевомъ правѣ речется: родивыи сына не умре.</explicit>
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografica.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Rum nr. 8]</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>
+               </msIdentifier>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni, tanti <witness></witness> quanti sono i testimoni di controllo in 03. Inventario testimoni di controllo--> 
+               <witness corresp="#b-wit-1" ana="#reference-ms"/>
+               <witness corresp="#b-wit-2" ana="#reference-ms"/>
+               <witness corresp="#b-wit-3" ana="#reference-ms"/>
+               <witness corresp="#b-wit-4" ana="#reference-ms"/> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label"> 
+               <term>Сказание</term> 
+               <term>Притча</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Parabola</term> 
+               <term>Istruzione</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution">
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">
+               <p></p>
+            </interpretation>
+         </editorialDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОКА МАКСИМА ГРЕКА СКАЗАНИЕ ПРИТЧЕЮ САДА О МЛАДОМЪ ОТРОЧИЩИ, ЯКОЖЕ ГЛАГОЛЮТЪ: РОДИВЫИ СЫНА НЕ УМРЕ</p>  
+      </front>
+      
+      <body>
+         <p>Четырьми нѣкими потребными силами всяко плодовито древо на лучьшее преспѣваетъ всегда и плодъ красенъ даетъ тружающемуся около его садовнику, сия же суть: мастита земля предобра, и сходящии свыше благовременно дождь и благорастворена теплота солнечна, и хитродѣлецъ садовникъ: отъ сихъ аще едино не получитъ, на совершение не доходитъ, ни плодъ даетъ. Садомъ же разумѣемъ младо отрочище, маститою землею благопослушливое его изволение и еже ко учениомъ презѣльное желание, дождемъ же сходящую свыше росу, о неи же глаголется: роса бо, яже отъ тебе, исцѣление имъ будетъ, сия есть споспѣшество святаго Параклита, солнечною же теплотою угадаемъ осѣнение солнца правды совершаемо дѣланиемъ спасительныхъ заповѣдеи его; иже убо сподобится таковаго сада получити, блаженъ воистину сицѣвыи во трудѣхъ своихъ; о сицевомъ правѣ речется: родивыи сына не умре.</p>
+      </body>
+
+   </text>
+</TEI>

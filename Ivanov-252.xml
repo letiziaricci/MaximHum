@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же инока Максима Грека сказание противу глаголющих, яко плотским съвокуплением и рождьством хотяще множитися человѣчьскыи род, аще не согрѣшили праотци [Togo že inoka Maksima Greka skazanie protivu glagoljuščich, jako plotskim s''vokupleniem i rožd'stvom chotjašče množitisja čelověc'skyi rod, ašče ne sogrěšili praotci]</title>  
+            <title type="alt" xml:lang="cu-Cyrl">Titoli concordi con il titolo editoriale in <ref target="lista-bibliografia.xml#MG-1894">Maksim Grek 1894: 431-435</ref>; <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 171-172</ref>; <ref target="lista-bibliografia.xml#Sin-1977">Sinicyna 1977: 232, 243</ref></title>   
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">252</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl">
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 29</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 29</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="278" to="280">278-280</biblScope>, <biblScope unit="chapter">nr. 29</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1894"><name>Maksim Grek</name>, <date>1894</date></ref>: <biblScope unit="page" from="431" to="435">431-435</biblScope>, <biblScope unit="chapter">nr. 27</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#MDA-42"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 173, МДА 42</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#297v #299v">лл. 297об.-299об. / ff. 297v-299v</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима Грека сказание противу глаголющих, яко плотским съвокуплением и рождьством хотяще множитися человѣчьскыи род, аще не согрѣшили праотци</title>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Понеже некых слышах глаголющих, яко аще праотци рода нашего пребыли съблюдающе даную имъ изначала от всех Съдетеля и Владыки заповѣдь, тем же съвршаемому нынѣ скотолѣпному образу хотяще родъ нашь множатися обаче кромѣ похоти и страсти и женскых болѣзнеи — сие же глаголють не от боже ственых писании показание творяще, но человѣчьскыми помыслы многоучителнаго внѣшняго наказаниа препираеми и води — праведно судих малыми нѣкыми о семъ взыскании бесѣдовати к ним, не изъявительнѣ ниже уставителенѣ, но гадателнѣ и словесномысленѣ и простѣ сице с ними стязаася.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Но елика убо дастъ благодать глаголати о сем, толика аще же кто сими не покоряется, пребывает же еще пряся, «Мы таковъ обычаи не имамы, ни Церкви Божиа», глаголеть святыи проповѣдникъ Божии, его же вседѣтельным и всесилным мановениемъ Божиимъ всячьскаа въскорѣ сътворишася и съблюдаются и правятся, Ему же подобает всяка слава, честь же и поклонение въ вся вѣкы. Аминь.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="И" /> 
+               
+               <witness xml:id="Х-Больш.">  
+                  <ref target="lista-manoscritti.xml#Bolš-285">РГБ, ф. 37, Больш. 285</ref>, <locus type="foliation" target="#26v #31r">лл. 26об.-31 / ff. 26v-31r</locus> 
+               </witness> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Сказание</term> 
+            </keywords>
+            <keywords scheme="#scope">
+               <term>Dibattito teologico (peccato originale)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution">
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ТОГО ЖЕ ИНОКА МАКСИМА ГРЕКА СКАЗАНИЕ ПРОТИВУ ГЛАГОЛЮЩИХ, ЯКО ПЛОТСКИМ СЪВОКУПЛЕНИЕМ И РОЖДЬСТВОМ ХОТЯЩЕ МНОЖИТИСЯ ЧЕЛОВѣЧЬСКЫИ РОД, АЩЕ НЕ СОГРѣШИЛИ ПРАОТЦИ. 29<anchor xml:id="c1" n="а" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Понеже некых слышах глаголющих, яко аще праотци рода нашего пребыли съблю дающе даную имъ изначала от всех Съдетеля и Владыки заповѣдь, тем же съвршаемому нынѣ скотолѣпному образу хотяще родъ нашь множатися обаче кромѣ похоти и страсти и женскых болѣзнеи — сие же глаголють не от божественых писании показание творяще, но человѣчьскыми помыслы многоучителнаго внѣшняго наказаниа препираеми и водими — праведно судих малыми нѣкыми о семъ взыскании бесѣдовати к ним, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 300" rend="label-margin-left"/> не изъявительнѣ ниже уставителенѣ, но гадателнѣ и словесномысленѣ и простѣ сице с ними стязаася.</p>
+         <p>Рците намъ, о предобрии, нетлѣнных ли и безсмертных мните създанных бывших изначала родоначалникох наших или тлѣнию и смерти подлежащих? И аще убо рекут второе, явьственѣ обличаются лъжуще от божественаго гласа, глаголящаго<anchor xml:id="c2" n="б" rend="super"/> первозданным: <cit><quote xml:id="biblical-1">«В он же день снѣсте от заповеданаго, сирѣчь плода, смертию умрете»</quote></cit>. Сие же рекъ Съдѣтель, явьственѣ<anchor xml:id="c3" n="в" rend="super"/> научил есть<anchor xml:id="c4" n="г" rend="super"/> нас, яко безсмертных създалъ есть ихъ, и безсмертны<anchor xml:id="c5" n="д" rend="super"/> всяко пребыли убо до конца, аще бы съблюли были святую заповѣдь Его, яко же и инъ божественыи глас свидѣтельствуеть глаголющь: <cit><quote xml:id="biblical-2">«Азъ рѣх: бози есте и сыны Вышняго вси»</quote></cit>, сирѣчь вышши всякыя тли и мрътвости, таже приводитъ: <cit><quote xml:id="biblical-3">«Вы же, яко же человѣци умираете»</quote></cit> и прочая, и пакы: <cit><quote xml:id="biblical-4">«Человѣкъ в чести бывъ не разумѣ»</quote></cit>, сиречь в нетлѣнии и равноаггельском пребывании, «прикладовася, рече, скотом немысленым и уподобися имъ», еже есть подпаде тлѣнию и смерти и безсловеснымъ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 300 об." rend="label-margin-left"/> страстем, не познавъ своея чести, сирѣчь нетлѣнию и безсмертию санъ.</p>
+         <p>Такожде и Соломонъ премудрым рече: <cit><quote xml:id="biblical-5">«Смерть же Бог не сътвори, завистию же; диаволею смерть в миръ вниде»</quote></cit>. Аще же от божественаго списаниа препираеми, исповѣдят и не хотяще, яко нетлѣнни и безсмртьни създашася и яко и до конца съпадаюшеся убо были нетлѣнии, аще бы Божию заповѣдь не преступили, како сие глаголють, яко съврьшаемом нынѣ скотскымъ образом хотящше множатися иже по нас родъ, обаче кроме похоти и страсти и женскых болѣзнеи? Вѣмы же, яко дѣтородныя уды двоих ради присъздашася обоему полу, да тѣми пребудеть родъ человѣчьскыи, а не до конца исчезнет, и да тѣми выстощаются всегда излишиа гниющих брашенъ. Иже бо вся Вѣдыи преже бытиа ихъ предувѣдаша всяком и отпадение первозданных, такоже и виновное отпадению ихъ вѣдаше, яко равни Богу быти възжделѣют.</p>
+         <p>Сего ради премудрыи Съдѣтель присъзда <metamark function="end-page" rend="//"/><pb type="folio" n="л. 301" rend="label-margin-right"/> имъ сицевыя скотьскыя уды и зѣлное разжьджение скотскыя похоти привсѣалъ въ них, да яко и не хотяще съвокупляются другъ другу и дети раждают. Инако бо не хотѣли были съвокуплятися другъ другу, поминающе обои полъ многых и нестерпимых злострадании детотворениа и въспитаниа раждаемыхъ, — женскыи убо полъ поминаючи девятомѣсячнаго тяжчаишаго въ чревѣ ношениа и их же терпит из него гнусных горестеи, и их же по рожествѣ имать неотреченых печалеи о младенци, дондеже поступит на възрастъ болшыи, а отець и тъи поминаючи многых попечении въспи таниа своих отродъ, како сих въспитати добрѣ и наказати благочестивѣ иже намъ убо сыны своя, мужем же дѣвы съвокупити.</p>
+         <p>От сего убо явьственеѣ показуется, яко инымъ некым образомъ, вышшим и человѣча разума превъсходящим и приличным създаному по образу Божию и по подобию хотяше премудрыи Съдетель умножити иже по нас родъ, аще убо родоначални<metamark function="end-page" rend="//"/><pb type="folio" n="л. 301 об." rend="label-margin-right"/>кы пребыли събюдающе божественную заповѣдь, и ниако же понуженъ был бы иже Един не нудимыи таково стыдное и скотское безобразие и смѣшение скверное примешати своему образу. Нѣсть убо праведно мудрь ствовати и глаголати, яко създаное по образу Божию, рекше, безсмертное и безстрастно и нетлѣнное, аще бы пребылъ в заповѣди Създавшаго, сицевымъ сквернымъ и скотьскымъ съвокуплениемъ хотяше множитися. Идеже бо скот ское съвокупление, ту всяко истицание скверно, без таковаго бо зачатие не бываеть. <anchor xml:id="c5a1" n="е" rend="super"/>Аще же истицание и тля<anchor xml:id="c7" n="ж" rend="super"/> и страсть съкровена<anchor xml:id="c6a2" n="е" rend="super"/>, то убо несть безсмертно зачатое и рожденное и въспитанное, но тлимое и мрътвеное и маловременное. Все бо еже тля начатъ, тли и смерти подлежитъ. Инымъ убо образом чюднѣишим, нашего разума превъсходящим хотяше множитися родъ человечьскыи, а не съвокуплениемъ скотолѣ<metamark function="end-page" rend="//"/><pb type="folio" n="л. 302" rend="label-margin-right"/>пнымъ, яко же нѣции недостоинѣ божественаго образа непщевашя.</p> 
+         <p>Не премудръствуимъ убо всуе въ превъсходящих разума и достижениа нашего, иже бо по насъ разумъ и земенъ есть и немощен и въ множаиших погрѣшаеть, по божественному слову глаголющу: <cit><quote xml:id="biblical-6">«Господь свѣсть помышлениа человѣчьеска, яко суть суетна»</quote></cit>, и ино писание: <cit><quote xml:id="biblical-7">«помышлениа человѣчьска не мощна и замышлениа их не тверда»</quote></cit>, а дѣла Божиа непостижима всякому създанному естеству. <cit><quote xml:id="biblical-8">«Кто бо позна умъ Господень, или кто бысть Ему съвѣтникъ?»</quote></cit>. К сим же помыслимъ бесчисленыя тмы бесплотныхъ сил, како въскорѣ и въ мьгновение ока съставишася вседѣтелным мановениемъ Его. Еда не можаше ли иже Единъ Всесилныи тем же вседѣтелным мановениемъ Своим умножити родъ человѣчь, яко же и мыленая воиньства бесчисленных бесплотных силъ, аще убо родоначалникы пребыли въ даннѣи имъ божественѣи заповеди? Еи можаше всяко. Что бо невъзможно вседѣтелному мановению Его, им же бесчи<metamark function="end-page" rend="//"/><pb type="folio" n="л. 302 об." rend="label-margin-right"/>слеными тмами звѣздъ въскорѣ небо преукраси, и множества четвероножных земли, и рыбъ морскых и птиць небесных от небытиа въ бытие приведе въскорѣ и землю всю бесчисленными цвѣты и различными сады же и лѣсы преукраси? Но елика убо дастъ благодать глаголати о сем, толика аще же кто сими не покоряется, пребывает же еще пряся, <cit><quote xml:id="biblical-9">«Мы таковъ обычаи не имамы, ни Церкви Божиа»</quote></cit>, глаголеть святыи проповѣдникъ Божии, его же вседѣтельным и всесилным мановениемъ Божиимъ всячьскаа въскорѣ сътворишася и съблюдаются и правятся, Ему же подобает всяка слава, честь же и поклонение въ вся вѣкы. Аминь.</p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> 
+               <p>Буквенное обозначение кин. номера главы на левом поле.</p>
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label>
+               <p>Буква <hi rend="distinct">а</hi> (в окончании <hi rend="distinct">аго</hi>) правлена.</p>
+            </note>
+            <note target="#c3">
+               <label rend="super">в</label>
+               <p>Далее зач. <hi rend="distinct">есть</hi>.</p>
+            </note>
+            <note target="#c4">
+               <label rend="super">г</label>
+               <p>Вписано над строкои почерком <choice><abbr>М</abbr> <expan>почерк Максима Грека / mano di Massimo il Greco</expan></choice>.</p>
+            </note>
+            <note target="#c5">
+               <label rend="super">д</label>
+               <p>В ркп. испр. из <hi rend="distinct">безсмертно</hi></p>
+            </note>
+            <note target="#c6a1" targetEnd="#c6a2"> 
+               <label rend="super">е-е</label>
+               <p>Вписано на поле.</p>
+            </note>
+            <note target="#c7">
+               <label rend="super">ж</label>
+               <p>В ркп. написано дважды с вариантом: вместо <hi rend="distinct">тля</hi> написано <hi rend="distinct">то убо и тлѣние</hi></p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Gen"><ref>(Быт 2, 17 / Gen 2,17)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Sal"><ref>(Пс 81, 6 / Sal 81,6)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Sal"><ref>(Пс 81, 7 / Sal 81,7)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Sal"><ref>(Пс 48, 21 / Sal 48,21)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Sap"><ref>(Прем Сол 1, 3; 2, 24 / Sap 1,3; 2,24)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Sal"><ref>(Пс 93, 11 / Sal 93,11)</ref></bibl>
+            <bibl corresp="#biblical-7" type="Pr"><ref>(Пр Сол 9, 14 / Pr 9,14)</ref></bibl>
+            <bibl corresp="#biblical-8" type="Rm"><ref>(Рим 11, 34 / Rm 11,34)</ref></bibl>
+            <bibl corresp="#biblical-9" type="1Cor"><ref>(1 Кор 11, 1 / 1Cor 11,1)</ref></bibl>
+         </listBibl>
+          
+      </back>
+   </text>
+</TEI>

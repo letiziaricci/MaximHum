@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Приписка к посланию Ивану IV Васильевичу [Pripiska k poslaniju Ivanu IV Vasil'eviču]</title>  
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Postilla di accompagnamento a Ivanov 127, forse rivolta al tesoriere del metropolita Makarij, Aleksij, a cui è diretta anche l'epistola Ivanov 247 (Ržiga 1934: 73)</note> 
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">[217-a]</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="252">252</biblScope>, <biblScope unit="chapter">nr. 24-a</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Rzi-1934"><name>Ržiga</name>, <date>1934</date></ref>: <biblScope unit="page" from="73">73, n. 4</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Iva-1969"><name>Ivanov</name>, <date>1969</date></ref>: <biblScope unit="page" from="148">148, n. 10</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Vor-34-2-37"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>БАН, Вор. 34.2.37</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#32v">л. 32об. / f. 32v</locus>   <!-- 02. Inventario testimone base COLONNA G -->
+                     <incipit xml:lang="cu-Cyrl">Прочти, молю тя, со обычнымъ промыслом, и разумнымъ промысломъ и разсудным, и разсудомъ праведнымъ тетрадку сию писаною мною малоумнымъ со всякою истиною и нелицемѣрною любовью, юже имѣлъ есмь изначала и нынѣ имѣю и до смерти имѣти буду к православннѣи держави Рустии.</incipit>   <!-- 01. Inventario COLONNA J -->
+                     <explicit xml:lang="cu-Cyrl">Здравъ всегда живи и веселъ, посли ми пожалуи мало иберьи, корицы и ино что индѣиское бы жилие, аще ест у тебе, прошу та у тебе на нужу со всякым упованием добрым по твоему жалованию.</explicit>   <!-- 01. Inventario COLONNA K -->
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>Ante 1551 <ref target="lista-bibliografia.xml#Rzi-1934">>(Ržiga 1934: 72)</ref></date>  
+            <date>1547-1548 <ref target="lista-bibliografia.xml#Kap-2008">(Kapica 2008: 504)</ref></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Corripondenza privata</term>  
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="lista-destinatari.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="lista-destinatari.xml#Al">Алексей / Aleksej (tesoriere del metropolita Makarij [?], cfr. Ržiga 1934: 73)</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      
+      <body>
+         <p>Прочти, молю тя, со обычнымъ промыслом, и разумнымъ промысломъ и разсудным, и разсудомъ праведнымъ тетрадку сию писаною мною малоумнымъ со всякою истиною и нелицемѣрною любовью, юже имѣлъ есмь изначала и нынѣ имѣю и до смерти имѣти буду к православннѣи держави Рустии. Единыи сердцевѣдець Иисус Христос свидѣтель вамъ, господамъ моимъ, от мене, яко ничто же лестию, ни хитростию, ни пронырствомъ, ни по ласканию говорю, ни пишу къ вамъ. Всѣх вас возлюбил есмь изначала и нынѣ люблю всѣмъ сердцем моим, какъ и себе самого, благоизволите убо и вы ту же любовь показати к вашему богомолцу нищему. Здравъ всегда живи и веселъ, посли ми пожалуи мало иберьи, корицы и ино что индѣиское бы жилие, аще ест у тебе, прошу та у тебе на нужу со всякым упованием добрым по твоему жалованию.</p>
+      </body>
+   </text>
+</TEI>

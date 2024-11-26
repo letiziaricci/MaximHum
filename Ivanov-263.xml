@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же инока Максима Грека сказание о иже свыше мирѣ и о спасении душь наших Господу помолимся [Togo že inoka Maksima Greka skazanie o iže mirě i o spasenii duš' našich Gospodu pomolimsja]</title>  
+            <title type="alt" xml:lang="cu-Cyrl">Titoli concordi con il titolo editoriale <ref target="lista-bibliografia.xml#MG-1897 #Iva-1969 #Sin-1977">(Maksim Grek 1897: 76-80; Ivanov 1969: 175; Sinicyna 1977: 232, 243)</ref></title>   
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">263</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl">
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 30</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 30</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="281" to="283">281-283</biblScope>, <biblScope unit="chapter">nr. 30</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="76" to="80">76-80</biblScope>, <biblScope unit="chapter">nr. 14</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#MDA-42"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 173, МДА 42</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#299v #302v">лл. 299об.-302об. / ff. 299v-302v</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима Грека сказание о иже свыше мирѣ и о спасении душь наших Господу помолимся</title> 
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Елма же по твоему апостолодражателному смиреномудрию сподобляеши мене, худоумнаго и грубаго, святительскыя бесѣды своея и съвъпрашаешися съ мною о нѣкых недоумѣнных книжных речении, праведно разсудих малыми извѣстити твое преподобие о сих, елико вразумит худую мысль мою свѣт истинны, просвѣщаяи всякого человѣка грядущаго въ миръ.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Преложишяся убо странно и необычнѣ, рекше «побѣдишася», глаголати лѣпо есть о неи, а не «истощишяся» естества, яко же и въ ином ирмосѣ слышим глаголемо о том же и о неи же, «чюже есть матерем дѣвою быти и странно дѣвамъ дѣти ражати», рекше без совокуплениа, обое о тебѣ, Богородице, смотрѣние бысть, рекше божественою силою преложишяся и побѣдишяся естествении устави, и зачала еси неискусомужно, и родивши Дѣвою пребыла еси, тоя же святыми молитвами да наставитъ нас Господь нашь Иисус Христос на стезю спасениа и истиннаго разума. Аминь.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimonio--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="И" /> 
+               <witness xml:id="Х-Больш.">  
+                  <ref target="lista-manoscritti.xml#Bolš-285">РГБ, ф. 37, Больш. 285</ref>, <locus type="foliation" target="#31v #36r">лл. 31об.-36 / ff. 31v-36r</locus>   
+               </witness>
+               <witness xml:id="Л">
+                  <ref target="lista-manoscritti.xml#Slave-123">BNF, Man. Slave 123</ref>, <locus type="foliation">foliazione mancante</locus>
+               </witness>
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>1532-1547ca <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 175)</ref></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Сказание</term> 
+            </keywords>
+            <keywords scheme="#scope">    
+               <term>Riflessione linguistica</term> 
+               <term>Prassi liturgica ortodossa</term>
+               <term>Dibattito teologico</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="lista-destinatari.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="lista-destinatari.xml#Ak">Акакий / Akakij (vescovo di Tver')</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ТОГО ЖЕ ИНОКА МАКСИМА ГРЕКА СКАЗАНИЕ О ИЖЕ СВЫШЕ МИРѣ И О СПАСЕНИИ ДУШЬ НАШИХ ГОСПОДУ ПОМОЛИМСЯ. 30<anchor xml:id="c1" n="а" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Елма же по твоему апостолодражателному<anchor xml:id="v1" n="1" rend="super"/> смиреномудрию сподобляеши мене, худоумнаго и грубаго, святительскыя бесѣды своея<anchor xml:id="v2" n="2" rend="super"/> и съвъпрашаешися съ мною о нѣкых недоумѣнных книжных речении, праведно разсудих малыми извѣстити твое преподобие <metamark function="end-page" rend="//"/><pb type="folio" n="л. 303" rend="label-margin-right"/> о сих, елико вразумит худую мысль мою свѣт истинны, просвѣщаяи всякого человѣка грядущаго въ миръ.</p>
+         <p>Понеже убо по старому преводу вашему священници же и диакони въ началѣ святыя литургии велятъ благовѣрнымъ молитися о свышнем мирѣ, и нѣцыи тлъкуют то о аггелѣх, — вѣдомо да есть твоему преподобию, яко пословица сиа — миръ — у вас<anchor xml:id="v3" n="3" rend="super"/> двое что знаменуетъ, сирѣчь и тварь всю видиму же и невидиму, да еще съуз любовенъ, им же человѣци межи себе миръ имѣють. А у грековъ пословици розны: миръ бо, рекше тварь вся, «козмосъ» именуется, а съузъ любовенъ «ирини» нарицается.</p>
+         <p>В том же убо мѣстѣ священници и диакони у нас не глаголють: «ипер ту анофень козму», еже есть о вышнеи твари, рекше о аггелѣхъ<anchor xml:id="v4" n="4" rend="super"/>, но глаголють: <anchor xml:id="v5a1" n="5" rend="super"/>ипертись анофень иринись<anchor xml:id="v5a2" n="5" rend="super"/>, еже есть о иже съвыше мирѣ, рекше о съузѣ любовнѣм и тишинѣ, да тако реку, его же Господь нашъ Иисус Христос многажды далъ есть и възгласилъ Своимъ учеником, глаголя: «Миръ вамъ, миръ Мои дамъ вам, миръ имѣите», сирѣчь съузъ любовенъ. О томъ съузѣ мирном не точию <metamark function="end-page" rend="//"/><pb type="folio" n="л. 303 об." rend="label-margin-right"/> началници священныя литургии уставили нам молитися и прошати и всегда, дабы и нас грѣшных сподобилъ Христос Богъ нашь тоя же благодати, но и еще Исаиа велегласныи пророкъ учить нас прошати и всегда глаголя: <cit><quote xml:id="biblical-1">«Господи Боже нашь, миръ даждь намъ, вся бо въздалъ еси намъ»</quote></cit>. Такожде и блаженыи Давидъ глаголеть: <cit><quote xml:id="biblical-2">«Услышу, что възглаголеть въ мнѣ Господь Богъ, яко възглаголеть миръ на люди Своя и на преподобныя Своя»</quote></cit>. И блаженыи Козма въ ирмосѣ 5 пѣсни Канона Рожества Христова: «Богъ сыи мира, отець щедротамъ великаго съвѣта Твоего аггела, миръ подавающа послалъ еси намъ»; и въ ином ирмосѣ: «Просвѣти нас велѣнии Твоими, Господи, и мышьцею Твоею высокою Твои миръ даждь нам, Едине Человѣколюбче». И инде: «Молитвою, Господи, всѣх святых и Богородици, Твои миръ даждь намъ и помилуи нас, яко же единъ щедръ». И вкратцѣ рещи, въ бесчисленых мѣстѣхъ обрѣтаемъ, велѣно нам о таковом мирном съузѣ молитися присно, а не о вышнемъ мирѣ, рекше о аггелѣх, яко же нѣцыи непщують неискуснѣ. Они присно изначала въ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 304" rend="label-margin-left"/> мирѣ пребывають межи себе, исплънени всякоя<anchor xml:id="c2" n="б" rend="super"/> благодати Святаго Духа, и нам первии въ Рожествѣ Спасовѣ явльшеся, пастырем благовѣстишя миръ, глаголюше: <cit><quote xml:id="biblical-3">«Слава въ вышних Богу и на земли миръ, в человѣцѣх благоволение»</quote></cit>. Мы ихъ молитвъ и предстателства всегда требуемъ, они намъ и хранители, и наставници, и молитвеници. И свидѣтель слову тому вся святаа писаниа, в них же суть и канони октаишнии по вся понедѣлникы, творение преподобнаго Иосифа пѣснописца, а не Иоанна Дамаскына. Не требують, рече божественыи глас, врача здравии, но болящии. Они всегда здравии быша изначала и<anchor xml:id="c3" n="в" rend="super"/> суть, аще и нѣцыи отпадоша, гръдости ради ихъ, а прочии пребыша и пребывають в любви и страсѣ и послушании Съдѣтеля всѣх всякыя святыни и благодати Святаго Духа исполнении.</p> 
+         <p>А мы всегда болимъ различно, прогнѣвающе преслушаниемъ нашим преблагаго Спаса, тѣм же и требуемъ врачеваниа от них, а не они от нас; <cit><quote xml:id="biblical-4">«кромѣ бо, рече, всякого прекословиа меншее<anchor xml:id="v6" n="6" rend="super"/> благословляется от болшаго»</quote></cit>. <metamark function="end-page" rend="//"/><pb type="folio" n="л. 304 об." rend="label-margin-left"/> Сего ради не достоить внимати тлъкованию глаголющему, яко о аггелѣх молится святаа Божия Церковь. Тлъкование то ни Златоустаго, ни Василиа, ни Дамаскина. Единъ Нилъ Кавасила Дирахиискыи<anchor xml:id="v7" n="7" rend="super"/> епископъ, нарочит церковныи учитель и предстатель <anchor xml:id="v8a1" n="8" rend="super"/>православныя вѣры<anchor xml:id="v8a2" n="8" rend="super"/> тлъковал святую литургию съборнѣишим тлъкованиемъ и извѣстнѣишим, его же и достоить <anchor xml:id="v9a1" n="9" rend="super"/>искати Вамъ<anchor xml:id="v9a2" n="9" rend="super"/>; есть бо не точию свѣтлѣиши сказатель всѣм таинам святыа литургии, но еще и секира обоюду остра на латинѣх, зазирающих нашеи святѣи службѣ. Но о сихъ убо толика довлеют в настоящем, да не многоглаголаниемъ стужаю священнымъ слухом твоимъ.</p>
+         <p>Но понеже съвзыскание бысть и о том: Богъ бо бѣ рождеися, сего ради и естества, по вашему преводу<anchor xml:id="v10" n="10" rend="super"/>, истощишяся, ли не истощишяся, ли ново пресѣчеся, — вѣдомо да есть твоему преподобию, яко не пришло ни едино не точию къ истинѣ греческыя рѣчи, но ни къ прямому мудрованию православнаго богословиа. <metamark function="end-page" rend="//"/><pb type="folio" n="л. 305" rend="label-margin-left"/> Посмотримъ же сице. <anchor xml:id="c4a1" n="г" rend="super"/>Се исполнися Исаино проречение<anchor xml:id="c4a2" n="г" rend="super"/>, Дѣва бо родила есть, и по Рожествѣ, яко же преже Рожества пребысть, рекше, Дѣвою пребысть; <anchor xml:id="c5a1" n="д" rend="super"/>таже приводитъ<anchor xml:id="c5a2" n="д" rend="super"/>: не чюдо, рече, аще тако бысть; почему? Богъ бо, рече, бѣ рождеися, тѣм же и всемогущею божественою силою Своею естества, рекше женскыи еже о зачятии и рожествѣ ихъ обычаи, по истиннѣи гречестѣи рѣчи екенотомисе<anchor xml:id="c6" n="е" rend="super"/>, рекше странно и необычнѣ преложилъ или премѣнилъ есть. И сему достовѣренъ учитель и послух блаженыи Козма явѣ сице глаголя ирмосом 9 пѣсни: «Побѣдишяся естествении устави о тебѣ, Дѣво чистая». Кыи же ли устави, самъ сказалъ рекъ: «Дѣвьствуеть бо Рожество и животъ обручаеть смерть»; <anchor xml:id="v11a1" n="11" rend="super"/>или такъ: «И смертию в животъ преходишь»<anchor xml:id="v11a2" n="11" rend="super"/>, сирѣчь и преже рожества дѣвою зачала еси от Святаго Духа, и по еже родити ти Еммануила, Дѣвою пребыла еси, такожде и преставление твое предивно и выше естества человѣчьска. Вси бо праведнии, и патриарси, и пророци, апостоли же и мученици и преподобнии от житиа сего преставльшеся, душами точию жизни вѣчныя и благыхъ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 305 об." rend="label-margin-right"/> Божиихъ наслажаются, съвершенство ждуще въ Втором Пришествии. Ты же едина по благодати Сына Своего и преже Втораго Пришествиа въскресла еси и в тѣлѣ своемъ прославленом уже живеши живот божественыи, одесную стоящи Сына и Бога своего въ ризах позлащенахъ, яко же есть писано, одѣана и преиспещрена. По истинѣ убо греческыя рѣчи тотъ есть тлъкъ сущее, а еже глаголати «истощися» или «новопресѣчеся», далече истины стоитъ. Аще бо «истощися», то убо и в небытие пошло и исчезе отнудь, а еже пакы рещи «не истощися», являеть, яко по женскому обычаю естественому и зачала и родила<anchor xml:id="v12" n="12" rend="super"/>, еже нѣсть подобно глаголати и мудрьствовати о вышеестественом зачятии ея и непорочномъ дѣвьствѣ. Преложишяся убо странно и необычнѣ, рекше «побѣдишася», глаголати лѣпо есть о неи, а не «истощишяся» естества, яко же и въ ином ирмосѣ слышим глаголемо о том же и о неи же, «чюже есть<anchor xml:id="v13" n="13" rend="super"/> матерем дѣвою быти и странно дѣвамъ дѣти ражати», <metamark function="end-page" rend="//"/><pb type="folio" n="л. 306" rend="label-margin-right"/> рекше без совокуплениа, обое о тебѣ, Богородице, смотрѣние бысть, рекше божественою силою преложишяся и побѣдишяся естествении устави, и зачала еси неискусомужно, и родивши Дѣвою пребыла еси, тоя же святыми молитвами да наставитъ нас Господь нашь Иисус Христос на стезю спасениа <anchor xml:id="v14a1" n="14" rend="super"/>и истиннаго разума. Аминь<anchor xml:id="v14a2" n="14" rend="super"/>.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1">
+                  <rdg wit="#Л">апостолодержателному</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2">
+                  <rdg wit="#Л">твоея</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <rdg wit="#Л">нас</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <witDetail wit="#Л">Доб. <hi rend="distinct">по вашеи мысли</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5-5</head>
+               <app from="#v5a1" to="#v5a2">
+                  <witDetail wit="#Л"><hi rend="distinct">ипетрис ановенирисъ</hi> (ошибочное воспроизведение)</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <rdg wit="#Л">мнѣе</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <rdg wit="#Л">Диррахиискыи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8-8</head>
+               <app from="#v8a1" to="#v8a2">
+                  <rdg wit="#Л">православию</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9-9</head>
+               <app from="#v9a1" to="#v9a2">
+                  <rdg wit="#Л">вам искати</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10">
+                  <rdg wit="#Л">толкованию</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11-11</head>
+               <app from="#v11a1" to="#v11a2">
+                  <rdg wit="#Л">Вписано на верхнем поле</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <witDetail wit="#Л">Доб. <hi rend="distinct">еси</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <witDetail wit="#Л">Доб. <hi rend="distinct">рече</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14-14</head>
+               <app from="#v14a1" to="#v14a2">
+                  <witDetail wit="#Л">Доб., вписано на нижнем поле</witDetail>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Буквенное обозначение номера главы кин. на левом поле.</p>
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label>
+               <p>Перед конечной я зачеркнута буква <hi rend="distinct">е</hi>.</p>
+            </note>
+            <note target="#c3">
+               <label rend="super">в</label>
+               <p>Вписано над строкои почерком Р.</p>
+            </note>
+            <note target="#c4a1" targetEnd="#c4a2"> 
+               <label rend="super">г-г</label>
+               <p>В ркп. нет, доб. по Л.</p>
+            </note>
+            <note target="#c5a1" targetEnd="#c5a2"> 
+               <label rend="super">д-д</label>
+               <p>В ркп. нет, доб. по Л.</p>
+            </note>
+            <note target="#c6">
+               <label rend="super">е</label>
+               <p>В ркп. слово правлено.</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Is"><ref>(Ис 26, 12 / Is 26,12)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Sal"><ref>(Пс 84, 9 / Sal 84,9)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Lc"><ref>(Лк 2, 14 / Lc 2,14)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Eb"><ref>(Евр 7, 7 / Eb 7,7)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

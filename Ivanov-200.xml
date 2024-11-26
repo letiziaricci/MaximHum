@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание инокине [Poslanie inokine]</title> 
+            <title type="alt" xml:lang="cu-Cyrl">Titolo concorde con il titolo editoriale in <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 142</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl">Многогрѣшныи чрънецъ онъ сице много челом преподобнѣи инокыни и госпожѣ нашеи имярек [Mnogogrěšnyi čr''nec'' on'' sice mnogo čelom prepodobněi inokyni i gospožě našei imjarek] <ref target="lista-bibliografia.xml#Rzi-1935">(Ržiga 1935-1936: 93-94)</ref></title> 
+            <title type="alt" xml:lang="cu-Cyrl">Послание Максима Грека неизвестной монахине о предсмертной схиме [Poslanie Maksima Greka neizvestnoj monachine o predsmertnoj schime] <ref target="lista-bibliografia.xml#Sin-1977">(Sinicyna 1977: 258)</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">[Послание неизвестной монахине о предсмертной схиме (Poslanie neizvestnoj monachine o predsmertnoj schime) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title>   
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->      
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">200</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 95</bibl>                
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="207" to="208">207–208</biblScope>, <biblScope unit="chapter">nr. III.9</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Posl. nr. 23]</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, собр. Румянцева 264</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#203r #204v">лл. 203-204об. / ff. 203r-204v</locus>   
+                     <rubric type="epistolary-formula" xml:lang="Cyrl">Многогрешныи чрънец онъсице много челом преподобнеи инокыни госпоже нашеи имя рек.</rubric> 
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Старец некыи от великых в ските лежя в последнем дыхании, събравшимся к нему иным преподобным старцом на посещение.</incipit>   
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Сия писал к преподобию твоему по любви духовнеи, ты же акы едина от премудрых дев сущи разсуди словеса сия духовна, да и ты сподобишися внити с небесным женихом в невестник его небесныи. Мене же въздаруи молитвами преподобными твоими.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="Р"/> 
+            </listWit>
+               
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>Incerta <ref target="lista-bibliografia.xml#Bul-1984a">(Bulanin 1984a: 195)</ref></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Esteriorità del culto</term> 
+               <term>Povertà nella religione</term>
+               <term>Denuncia</term>
+               <term>Istruzione</term>
+               <term>Correzione</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>    <!-- 01. Inventario COLONNA N --> 
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="lista-destinatari.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="lista-destinatari.xml#ma">una monaca</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ПОСЛАНИЕ ИНОКИНЕ</p>  
+      </front>
+      
+      <body>
+         <p>Многогрешныи чрънец онъсице много челом прелодобнеи инокыни госпоже нашеи имя рек.</p>
+         <p>Старец некыи от великых в ските лежя в последнем дыхании, събравшимся к нему иным преподобным старцом на посещение. Он же <metamark function="end-page" rend="//"/><pb type="folio" n="л. 203 об." rend="label-margin-right"/> видев их плачющих, о немь же такова старца лишитися хотять, осклабися тихым осклабением трижды. И тем въпросившим его вины смеха, отвеща им: «Первее осклабихся о сем, что боитеся смерти, еже есть вам и мне на велику ползу душам нашим; второе осклабихся о сем, что по любви духовнеи скръбите о моем өже от вас<anchor xml:id="c1" n="а" rend="super"/> отшествии; третие осклабихся о сем, что от труд житиа сего многоболезненаго прехожу в покои и житие безпечално». И по тех речеи и преставился блаженыи он старець.</p>
+         <p>Так же и аз грешныи, услышав у твоего богомолца и друга моего имя рек, что по Бозе мыслиш и попечение твориши о спасении своем, поминающи страшныи час смертныи, радуюся духовне и молю Бога и Господа нашего Исуса Христа, да тя сподобить устроити яже о себе по его святеи воли. Несть нам ничто же ино дело и умышление нужнее к спасению, паче страха Божиа и страха мертваго: <cit><quote xml:id="biblical-1">«Блажен мужь бояися Господа<anchor xml:id="c2" n="б" rend="super"/>, в заповедех его въсхощет<anchor xml:id="c3" n="в" rend="super"/> зело»</quote></cit>. Того сущее Бога боиться, хто в святых его заповедех<anchor xml:id="c4" n="г" rend="super"/> всегда ходить, рекше житие свое правит всякою правдою, и смирением, и чистотою, ни кого скорбить, ни обидить, ни презираеть; в скорби и бедах живущаа по силе своеи посещает, утешаеть, пособляет ему и словом, и делом. Тот сущее боиться Бога, и страха смертнаго избывает, и от <metamark function="end-page" rend="//"/><pb type="folio" n="л. 204" rend="label-margin-right"/> житиа сего исходит, радуяся упованием богоугодным известным съвести своеи чисте сущеи от всякыя нечистоты и неправды, от них же неции небрегут себе ни малехонко, а себе чают получити спасение одными платми чернеческыми и скымою в последнем дыхании. Одны платы и скима не спасаеть меня, аще не покажу и дела прилична и достоина иноческаго житиа, сия же есть раздаание събраных имении и стяжании моих всякою неправдою и лихоимьством, оставити длъг длъжником моим, раздрати кабалы, неправды всякыя и немилосердиа исплънены, отпустити в свободу еще с жалованием люди моя кобалныя, да бышя меня по смерти моеи благословили, а не прокляли; а буду в чем обидил кого насилием, каятися ему, и аще можем отдадим ему взятое силою и неправдою. Аще так устроим исход наш с всякым добрым и богоугодным изволением, и без скымы получим всяко спасение по неложному обещанию праведнаго судии, глаголющаго сице явьствене святым своим Евангелием: <cit><quote xml:id="biblical-2">«Блажени милостивии, яко тии помиловани будут»</quote></cit>. И услышим и мы от него, яко же и Закхеи: <cit><quote xml:id="biblical-3">«Днесь спасение дому сему, поне же полимений своих роздавал нищим, и аще что кого лихоимьствовал — четверицею отдал»</quote></cit>. Аще ли же не тако устроим свое житие, блюдуся велми глаголющаго <metamark function="end-page" rend="//"/><pb type="folio" n="л. 204 об." rend="label-margin-left"/> святого словесе: <cit><quote xml:id="biblical-4">«Рабе лукавыи, весь длъг он оставих тебе, поне же пад поклонил ми ся; не подобаше ли и тебе помиловати съработника твоего, яко же и аз помиловах тебе». И разгневався Господин его, предасть его мучителем мучити, донде же въздасть все его</quote></cit>. И сие чесо ради? <cit><quote xml:id="biblical-5">«Зане, — рече, — суд божий без милости есть к несътворшим<anchor xml:id="c5" n="д" rend="super"/> милость в житии сем»</quote></cit>.</p>
+         <p>Сия писал к преподобию твоему по любви духовней, ты же акы едина от премудрых дев сущи разсуди словеса сия духовна, да и ты сподобишися внити с небесным женихом в невестник его небесный. Мене же въздаруй молитвами преподобными твоими.</p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Испр., в ркп. <hi rend="distinct">От нас от вас</hi>.</p>
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label>
+               <p>Испр. по библейскому тексту, в ркп. <hi rend="distinct">господь</hi>.</p>
+            </note>
+            <note target="#c3">
+               <label rend="super">в</label>
+               <p>Испр., в ркп. <hi rend="distinct">въсхоще</hi>.</p>
+            </note>
+            <note target="#c4">
+               <label rend="super">г</label>
+               <p>Испр., в ркп. <hi rend="distinct">заповедеи</hi>.</p>
+            </note>
+            <note target="#c5">
+               <label rend="super">д</label>
+               <p>Испр., в ркп. <hi rend="distinct">несътвошим</hi>.</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Пс 111, 1 / Sal 111,1)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Mt"><ref>(Мф 5, 7 / Mt 5,7)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Lc"><ref>(Лк 19, 8-9 / Lc 19,8-9)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Mt"><ref>(Мф 18, 32-34 / Mt 18,32-34)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Gc"><ref>(Иак 2, 13 / Gc 2,13)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

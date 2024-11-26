@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Сказание инока Максима Грека Святогорца против глаголющих Христа во священство ставили [Skazanie inoka Maksima Greka Svjatogorca protiv glagoljuščich Christa vo svjaščenstvo stavili]</title>  
+            <title type="alt" xml:lang="cu-Cyrl">Titolo concorde con il titolo editoriale in <ref target="lista-bibliografia.xml#Lop-1899">Loparev 1899: 221</ref>; <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 131</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl">[Сказание об иерействе Христа (Skazanie ob ierejstve Christa) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title> 
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">170</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#Sce-1911"><name>Ščeglova</name>, <date>1911</date></ref>: <biblScope unit="page" from="6" to="7">6-7</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Lop-1899"><name>Loparev</name>, <date>1899</date></ref>: <biblScope unit="page" from="221">221</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Sbor.smeš.sost. nr. 1×</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#O-176"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ ОЛДП, О.176</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 40 / cap. 40</locus>   <!-- 02. Inventario testimone base COLONNA h -->
+                     <locus type="foliation" target="#295r #295v">лл. 295-295об. / ff. 295r-295v</locus>   
+                     <title type="info-ms" xml:lang="cu-Cyrl">Сказание инока Максима Грека святогорца против глаголющих Христа во священство ставили</title>   
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Первые убо отъ колѣна левиина священникы поставляхуся а не отъ иного которого. по божию велѣнию и моисеову завѣщанию.</incipit> 
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">никако же бы глаголали бы к нему с негодованием въ свѣтилище. коею властию сиа твориши. или кто тобѣ далъ есть власть сию. Лжа убо проявлена сиа повѣсть. </explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>  
+            
+            <!-- OPZIONALE: excerpta Sudae -->
+            <listBibl type="secondary-bibliografy"> 
+               <bibl xml:id="Bul-1984a"> <!-- Bulanin è fonte secondaria indicata nel "source" della list Suda-->
+                  <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="180">180</biblScope> 
+               </bibl> 
+            </listBibl>
+            <listBibl type="cited-fontes" source="#Bul-1984a">
+               <bibl> <!-- fonte citata Suda con attributo "type"="excerptum" o "excerptum dubium" info indicata nell' 01. Inventario COLONNA N -->
+                  <ref xml:id="Ι229" type="excerptum-dubium">Suda Ι229 [= Adler 1928-1938, II: 620-625]</ref>
+               </bibl>
+            </listBibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   <!-- 01. Inventario COLONNA L -->
+               <term>Сказание</term> 
+            </keywords>
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Polemica religiosa</term> 
+               <term>Confutazione (sacerdozio di Cristo)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <!-- quando excerpta Sudae indicare in source il rif alla Suda-->
+               <term target="#original" source="#Ι229">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><metamark function="end-page" rend="//"/><pb type="folio" n="л. 295"/> СКАЗАНИЕ ИНОКА МАКСИМА ГРЕКА СВЯТОГОРЦА ПРОТИВ ГЛАГОЛЮЩИХ ХРИСТА ВО СВЯЩЕНСТВО СТАВИЛИ</p>  
+      </front>
+      
+      <body>
+         <p>Первые убо отъ колѣна левиина священникы поставляхуся а не отъ иного которого. по божию велѣнию и моисеову завѣщанию. а господь нашъ иисусъ христосъ отъ колѣна иудова босия. якож всяко писание богодъхновенничествѣ Моисеи глаголалъ. якоже блаженныи апостолъ Павелъ глаголет. бо еж ко ереомъ послании. како убо мощно было чрез моисеиское завѣщание от иного колѣна явити иерея неподобно прочим иереом левитяном сущим. второе яко изначала божественныи отвѣт с клятвою превозвѣщает его иерея по чину мелхиседекову. а не по чину ааронову. како убо поставленныи свыше иереи от Бога и отца. по чину мелхиседекову изволилъ бы убо второе от человѣкъ поставити иереи по чину ааронову. Третие яко аще быша вѣдали презбитери и архиереи его священника от них поставлена. никако же бы глаголали бы <metamark function="end-page" rend="//"/><pb type="folio" n="л. 295 об."/> к нему с негодованием въ свѣтилище. коею властию сиа твориши. или кто тобѣ далъ есть власть сию. Лжа убо проявлена сиа повѣсть.</p>
+      </body>
+      
+   </text>
+</TEI>

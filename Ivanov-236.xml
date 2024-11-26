@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Письмо Иоанну Григоропулосу [1] [Pis'mo Ioannu Grigoropulosu]</title>   
+            <title type="alt" xml:lang="fr">Lettre à Jean Grégoropoulos, du 29 mars 1498 <ref target="lista-bibliografia.xml#Den-1943">(Denissoff 1943: 398, 400)</ref></title>
+            <title type="alt" xml:lang="cu-Cyrl">Письмо Иоанну Григоропулу от 29 марта 1498 г. [Pis'mo Ioannu Grigoropulu ot 29 marta 1498 g.] <ref target="lista-bibliografia.xml#Kli-1958">(Klibanov 1958: 165)</ref></title> 
+            <title type="alt" xml:lang="cu-Cyrl">Письмо к Иоанну Григоропуло от 29 марта 1498 г. из Мирандолы [Pis'mo k Ioannu Grigoropulo ot 29 marta 1498 g. iz Mirandoly] <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 160-162)</ref></title> 
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">236</idno>
+            </bibl>
+
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="88" to="90">88, 90</biblScope>, <biblScope unit="chapter">nr. I.3</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Leg-1885"><name>Legrand</name>, <date>1885</date></ref>: <biblScope unit="page" from="302" to="303">302–303</biblScope> [greco]
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografica.xml#Den-1943"><name>Denissoff</name>, <date>1943</date></ref>: <biblScope unit="page" from="398" to="400">398, 400</biblScope> [greco]
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Fir-Did"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>Collezione privata Firmin-Didot</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation">[non rilevabile]</locus> 
+                     <rubric type="epistolary-formula" xml:lang="grc">Σοὶ καὶ αὓτη.</rubric> 
+                     <incipit type="info-ms" xml:lang="grc">Ὰγωνιζόμενόν με καθ` ἡμέραν, ἑταῖρέ μοι, προσειπεῖν σε, προὒφθακάς με πρότερος προσαγορευσάμενος.</incipit> 
+                     <explicit type="info-ms" xml:lang="grc">Ἔρρωσο, καὶ ἀπόκριναί μοι ταχέως ὅτι πεποίηκας, ἃμα δὲ τούτοις καὶ εἴ τι ἀληθὲς καὶ ἀξιόλογον ἔχεις νέον· οἶσθα γὰρ ὅτι φιλομαχῶ ὅταν καλεύδω. Ἔρρωσο αὖτις. Μαρτίου κθῃ. Ό σὸς Μιχαήλ.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl">
+               <witness corresp="#basic-witness" ana="#reference-ms"/>
+            </listWit> 
+                        
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>1498 <ref target="lista-bibliografia.xml#MG-2008">(Maksim Grek 2008: 90)</ref></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="grc">Greco</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Corrispondenza privata</term>  
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>    
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="lista-destinatari.xml#MG">Μιχαὴλ Τριβώλης / Michele Trivolis / Михаил Триволис</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="lista-destinatari.xml#IG">Ἰωάννης Γρηγορόπουλος / Giovanni Gregoropulo / Иоанн Григоропулос</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="grc">
+      
+      <body>
+         <p>Σοὶ καὶ αὕτη.</p>
+         <p>᾿Αγωνιζόμενόν με καθ᾽ ἡμέραν, ἑταῖρέ μοι, προσειπεῖν σε, προὔφθακάς με πρότερος προσαγορευσάμενος. Ὅσον δὲ καὶ ηὔφρανάν µε τὰ σὰ ἐγχειρισθέντα μοι γράμματα τί χρὴ καὶ λέγειν; Αὐτῷ γάρ σοι συνομιλεῖν αὐτόπτως ἐδόκουν καί σου τῆς χειρὸς ἐπιλαβόμενος, ὡς εἰώθαμεν, εὐτραπελίζειν ᾠόμην. ᾿Αλλὰ σὺ μὲν καλῶς ἐποίησας ἡμῖν χαρὰν ἐπιστείλας οὐκ ὀλίγην καὶ εἰς τὸ ἑξῆς τὰ ὅμοια ποιοίης· ἐγὼ δὲ ὅπερ μοι κεκέλευκας ἐξετέλεσα, καὶ οἵως μὲν γράψω, αὐτὸς ὄψει καθ᾽ ἕκαστα τὴν ἐπιστολὴν ἐξελίξας, ἀσφράγιστον γὰρ αὐτὴν διὰ τοῦτο στέλλω σοι. Ἐπεὶ δ᾽ ἀναγνῴης, ἐπιπτύξας καὶ σφραγίσας ἐγχείρισον ἐκείνῳ τῷ ἄρχοντι τῷ τὸ κιβώτιόν μου παραδεδωκότι μοι. Καὶ ἵνα δὲ γνῴης εὐχειρῶς τὸν ἄνδρα, ἄπιθι εἰς τὸ λεγόμενον Ῥεάλτον in Panaria, τουτέστιν εἰς τὰ λινόπωλα ἐργαστήρια, εἰς τὸ ἐργαστήριον τὸ ἐπιγεγραμμένον μίμημα βοὸς καὶ ἐρώτησον ἐκεῖ περὶ αὐτοῦ, ἐκεῖ γὰρ εἴωθε συχνὰ διατρίβειν· καλεῖται δ᾽ ὁ ἀνὴρ miser Ieronymo di Pichi, κἀκεῖνοι δείξουσί σοι τὸν ἄνδρα ἢ ἔνθα κατοικεῖ, καὶ ἐγχειρίζων αὐτῷ τὴν ἐπιστολήν, προσφώνησον αὐτὸν ὡς ἀπ᾽ ἐμοῦ καὶ εἶπον αὐτῷ ὡς ἀπ᾽ ἐμοῦ ὅπως διαστείλῃ ταύτην εἰς Βερχέλλας· καὶ εἶπον αὐτῷ ὅπως ἐγχειρίζοι σοι αὐτῷ πάσας τὰς Βερχελλῶν ὡς ἐμὲ ἐρχομένας ἐπιστολάς.
+         </p>
+         <p>Ἔτι γίνωσκε ὡς ἐξ ὑπογύου καὶ ἐκ Βονωνίας ἧκέ μοι ἄλλη τις κατάστασις· ὅθεν ἐμοῦ δεόμεναι ἀπιέναι παρὰ τοὺς ἐκεῖ ἐπιστολαὶ ἐγχειρίσθησαν, ὑπισχνούμεναί τε ἡμῖν πολλά τινα, οὐ μέντοι τὸν μισθὸν ἀποφαίνοντες κεφαλαιωδῶς. Ταῦτα δὲ δηλώσω σοι ἵνα ἰδῇς ἑλέσθαι ὁπότερον μᾶλλόν σοι ἀρέσκει, ἑκάτερον γὰρ καλόν ἐστι κατὰ τὸ παρόν. Φρόντισον δ᾽ ὅμως ὡς ἀποσταλῇ εἰς Βερχέλλας ἣν γέγραφα ἐπιστολή.</p>
+         <p>Ἔρρωσο, καὶ ἀπόκριναί μοι ταχέως ὅτι πεποίηκας, ἅμα δὲ τούτοις καὶ εἴ τι ἀληθὲς καὶ ἀξιόλογον ἔχεις νέον· οἶσθα γὰρ ὅτι φιλομαχῶ ὅταν καθεύδω. Ἔρρωσο
+            αὖθις. Μαρτίου κθῃ. Ὁ σὸς Μιχαήλ.
+         </p>
+      </body>
+      
+   </text>
+</TEI>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека о томъ, како подобаетъ входити во святыя божия храмы [Inoka Maksima Greka o tom'', kako podobaet'' vchoditi vo svjatyja božija chramy]</title>   
+            <title type="alt" xml:lang="cu-Cyrl">Titoli concordi con il titolo editoriale in <ref target="lista-bibliografia.xml#Pet-1913">Petrovskij 1913: 383-384</ref>; <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 103</ref>; <ref target="lista-bibliografia.xml#Sin-1977">Sinicyna 1977: 245</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">[Как подобает входить в храмы (Kak podobaet vchodit' v chramy) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title> 
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Testo accompagnato, insieme a Ivanov 127, da Ivanov 125</note>   <!-- 01. Inventario COLONNA C -->
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">126</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 46</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition" xml:id="KI">   
+               <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="232" to="233">232–233</biblScope>, <biblScope unit="chapter">nr. 52</biblScope> 
+               <title type="info-ms">Titolo verosimilmente concorde con il titolo editoriale</title>
+               <incipit type="info-ms" xml:lang="cu-Cyrl">Егда же въ божественныи сеи храмъ ходиши, о иже рачитель благовѣрию неблазненому еси! Въ самѣхъ Вышняго мни дворехъ пречистыхъ ходити, ангельска пѣснь непрестанна въ нихъ же; блюду убо, како входиши.</incipit>  
+               <explicit type="info-ms" xml:lang="cu-Cyrl">Якоже убо и боляи преслушая совѣтования славнаго лѣкаря никогдаже цѣлоуденъ, сирѣчь здравъ.</explicit> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Pet-1913"><name>Petrovskij</name>, <date>1913</date></ref>: <biblScope unit="page" from="383" to="384">383–384</biblScope>, <biblScope unit="chapter"></biblScope>
+               </bibl> 
+               <bibl>   
+                  <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Chlud. nr. 6</biblScope> 
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-494-513">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>  
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName> 
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName> 
+               </msIdentifier>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />      
+            </listWit>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie --> 
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Prassi liturgica ortodossa (l'ingresso in chiesa)</term> 
+               <term>Istruzione</term>
+               <term>Correzione</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation">Autotraduzione di originale greco <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 104)</ref></term>  
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">       
+               <p> all’interno del p inseriremo un contenuto testuale predefinito</p>         
+            </interpretation>
+         </editorialDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>Инока Максима Грека о томъ, како подобаетъ входити во святыя Божия храмы</p>  
+      </front>
+      
+      <body>
+         <p>Егда же въ божественныи сеи храмъ ходиши, о иже рачитель благовѣрию неблазненому еси! въ самѣхъ Вышняго мни дворехъ пречистыхъ ходити, ангельска пѣснь непрестанна въ нихъ же; блюду убо, како входиши. Аще убо отнюдъ отъ лжи и зависти и злопамятныя мысли и беззаконныхъ похотеи душа твоя  чистотуетъ, божественнымъ освятися страхомъ же и любовию и смиренными одежами и христианолѣпными украшаешися, гнушаяся отъ души всякое поганское одѣяние. Аще сице входити тщишися, блаженъ еси ты и живыи и пришедъ къ иже послѣди жизни. Аще ли не сице, всуе входишь, яковъ же влѣзъ еси, такои же и исходишь, ничтоже совершивъ отнюдъ. Якоже убо и боляи преслушая совѣтования славнаго лѣкаря никогдаже цѣлоуденъ, сирѣчь здравъ.</p>
+      </body>
+      
+   </text>
+</TEI>

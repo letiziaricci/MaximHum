@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Колофон в рукописи «Геопоники», переписанной Михаилом Триволисом для Иоанна Ласкариса [Kolofon v rukopisi "Geoponiki", perepisannoj Michailom Trivolisom dlja Ioanna Laskarisa]</title>  
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <notesStmt>
+            <note type="textual-relationships">Testo non catalogato in Ivanov 1969</note>   <!-- 01. Inventario COLONNA C -->
+         </notesStmt>
+         
+         <sourceDesc>
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Maksim-Grek-2008">Maksim Grek 2008: 84</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="84">84</biblScope>, <biblScope unit="chapter">nr. I.1</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Sev-1997"><name>Ševčenko</name>, <date>1997</date></ref>: <biblScope unit="page" from="64">64</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Gr-1994"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>BNF, Gr. 1994</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#155v">л. 155об. / f. 155v</locus>               
+                     <incipit xml:lang="grc" type="info-ms">Μιχαήλου: Δὶς δέκα καὶ δὶς τέσσαρ` ἐν ἥμασι τοῦτο τὸ ἔργον Λασκάρει Μιχαὴλ γράφα γεηπονίης.</incipit> 
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>1492-1495 <ref target ="lista-bibliografia.xml#MG-2008">(Maksim Grek 2008: 20)</ref></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="grc">Greco</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Dedica</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+         
+         <!-- EPISTOLA indicare mittente e/o destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName xml:id="MG">
+                  <persName>Μιχαὴλ Τριβώλης / Michele Trivolis / Михаил Триволис</persName>
+                </persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:id="IL">
+                  <persName>Ἰανὸς Λάσκαρις / Giano Lascaris / Иоанн Ласкарис</persName>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text>
+      <front xml:lang="cu-Cyrl">
+         <p>ΚΟЛΟΦΟΗ В РУКОПИСИ «ΓΕΟΠΟΗИΚИ», ПЕРЕПИСАННОЙ МИХАИЛОМ ΤΡИΒΟЛИСΟΜ ДЛЯ ИОАННА ЛАСКАРИСА</p>
+      </front>
+      
+      <body>
+         <lg type="free" xml:lang="grc">
+            <l>Μιχαήλου:<anchor xml:id="c1" n="а" rend="super"/></l>
+            <l><anchor xml:id="c2a1" n="б" rend="super"/>Δὶς δέκα καὶ δὶς τέσσαρ᾽ ἐν ἥμασι τοῦτο τὸ ἔργον</l>
+            <l>Λασκάρει Μιχαὴλ γράφα γεηπονίης.<anchor xml:id="c2a2" n="б" rend="super"/></l>
+         </lg>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note"> 
+            <note target="#c1" > 
+               <label rend="super">а</label> 
+               <p>Это имя написано красными чернилами.</p>
+            </note>
+            <note target="#c2a1" targetEnd="#c2a2"> 
+               <label rend="super">б</label> 
+               <p>По-видимому, вскоре после написания этих двух строк в их текст другой рукой чернилами более светлого оттенка были внесены следующие изменения: зачеркнуто καὶ; над строкой между τέσσαρ᾽ и ἐν надписано σιτ (эта часть текста должна была выглядеть так: Δὶς δέκα δὶς τέσσαρσι τ᾽ ἐν ἥμασι...). См.: Шевченко 1997, С. 64.</p>
+            </note>
+         </noteGrp>
+         
+         
+         <noteGrp type="general-note">
+            <note n="1">
+               <p>Между 1492—1495 гг. Михаил Триволис переписал во Флоренции «Геопоники» для Иоанна Ласкариса (ок. 1445—1535) — Paris. gr. 1994. На л. 155 об. этой рукописи находится колофон писца.</p>
+            </note>
+            <note n="2" > 
+               <p>На переплетном листе С, у нижнего его края, имеется еще одна запись Михаила Триволиса: ἔτει τῷ ἀπὸ τῆς Χ(ριστο)ῦ үєνήσεως ͵αω0ωϙη, μηνὶ ἰουνίῳ κаη: («В лето от Рождества Христова 1498 месяца июня 21-го»). Скорее всего, эта дата не имеет отношения ко времени написания кодекса, а должна быть связана с моментом переплетения рукописи. (Подробно см.: Фонкич 2003. С. 74—75.)</p>
+            </note>
+         </noteGrp>
+
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же инока Максима Грека слово к начяльствующему на земли [Togo že inoka Maksima greka slovo k načjal'stvujuščemu na zemli]</title>  
+            <title type="alt" xml:lang="cu-Cyrl">Titolo concorde con il titolo editoriale in <ref target="lista-bibliografia.xml#Sin-1977 #Iva-1969">Sinicyna 1977: 232; Ivanov 1969: 148, n. 10</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl">Инока Максима Грека послание къ благовѣрному царю и великому князю Иоанну Васильевичу всея Руси [Inoka Maksima Greka poslanie k'' blagověrnomu carju i velikomu knjazju Ioannu Vasil'eviču vseja Rusi] <ref target="lista-bibliografia.xml#MG-1860 #Rzi-1934 #Iva-1969">(Maksim Grek 1860: 346-357; Ržiga 1934: 72, n. 4; Ivanov 1969: 148-149)</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">Слово к начальствующим на земли, ко царям и бояром и прочим всем [Slovo k načal'stvujuščim na zemli, ko carjam i bojarom i pročim vsem] <ref target="lista-bibliografia.xml#Muz-2874">(Ivanov 1969: 148, n. 10, ms. GIM Muz. 2847, cap. 24, ff. 143r-144r)</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">Тогожде инока Максима Грека слово к начальствующему в Руси [Togožde inoka Maksima Greka slovo k načal'stvujuščemu v Rusi] <ref target="lista-bibliografia.xml#Sin-1977">(Sinicyna 1977: 243)</ref></title>   
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+
+         <notesStmt>
+            <note type="textual-relationships">Testo talora accompagnato dalla postilla [Ivanov 217-a]; nel testo si fa menzione di Ivanov 112</note>   
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">217</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl">
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 24</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 24</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">  
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="247" to="251">247–251</biblScope>, <biblScope unit="chapter">nr. 24</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="346" to="357">346-357</biblScope>, <biblScope unit="chapter">nr. 28</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#MDA-42">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 173, МДА 42</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#258r #264v">лл. 258-264об. / ff. 258r-264v</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима Грека слово к начяльствующему на земли</title>   
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Многа убо и ина суть уподобляющаа небесному Владыце благовѣрно царствующих на земли: и кротость бо и длъготрьпѣние, и еже о подручных прилѣжание, и еже ко своимъ боляром благоволение и веледарное, изряднѣ же правда и милость и еже не презрѣти обидимыа, нъ с многым человѣколюбиемъ и божественою ревностию въставлятися на отмщение их.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Даруи мене имъ, лѣта ужь многа желаюшим мене, приклонися умиленым ихъ молениемъ яже о мнѣ, къ твоеи богохранимѣи дръжавѣ, испълни им таково праведное прошение, даже и ихъ, яже о богохранимѣи државѣ твоеи, възсылаема непрестанна прошениа и мольбы к Вышнему, услышит и исполняет дѣлом иже над всѣми Богъ и Владыка Иисус Христос, иже да съхранит, съблюдет и укрѣпит на многа лѣта благовѣрно царьство твое. Аминь, аминь, аминь.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="И" /> 
+               <witness xml:id="Л-1">   
+                  <ref target="lista-manoscritti.xml#Slave-123">BNF, Man. Slave 123</ref>, <locus type="foliation" target="#607v #613v">лл. 607об.-613об. / ff. 607v-613v</locus>   
+               </witness>
+               <witness xml:id="Л-2">   
+                  <ref target="lista-manoscritti.xml#Slave-123">BNF, Man. Slave 123</ref>, <locus type="chapter">гл. 64 / cap. 64</locus>, <locus type="foliation" target="#386v #392r">лл. 386об.-392 / ff. 386v-392r</locus>   
+               </witness>
+               <witness xml:id="Х">  
+                  <ref target="lista-manoscritti.xml#Chlud-73">ГИМ, Хлуд. 73</ref>, <locus type="foliation" target="#388r #397v">лл. 388-397 / ff. 388r-397r</locus>   
+               </witness> 
+            </listWit>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>Ante 1551 <ref target="lista-bibliografia.xml#Rzi-1934">(Ržiga 1934: 72)</ref></date>
+            <date>1545ca <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 149)</ref></date>
+            <date>1547-1548 <ref target="lista-bibliografia.xml#Kap-2008">(Kapica 2008: 504)</ref></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Слово</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Speculum principum (virtù politica)</term> 
+               <term>Richiesta di autorizzazione al rimpatrio</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>  
+
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="lista-destinatari.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="lista-destinatari.xml#I4V">Иван IV Васильевич / Ivan IV Vasil'evič</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><anchor xml:id="v1" n="1" rend="super"/>ТОГО ЖЕ ИНОКА МАКСИМА ГРЕКА СЛОВО К НАЧЯЛЬСТВУЮЩЕМУ <anchor xml:id="v2" n="2" rend="super"/>НА ЗЕМЛИ<anchor xml:id="v3" n="3" rend="super"/>. 24<anchor xml:id="c1" n="а" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Многа убо и ина суть уподобляющаа небесному Владыце благовѣрно царствующих на <metamark function="end-page" rend="//"/><pb type="folio" n="л. 258 об." rend="label-margin-right"/> земли: и кротость<anchor xml:id="v4" n="4" rend="super"/> бо и длъготрьпѣние, <anchor xml:id="v5a1" n="5" rend="super"/>и еже<anchor xml:id="v5a2" n="5" rend="super"/> о подручных прилѣжание, <anchor xml:id="v5a3" n="5" rend="super"/>и еже<anchor xml:id="v5a4" n="5" rend="super"/> ко своимъ боляром благоволение и веледарное, изряднѣ же правда и милость и еже не презрѣти обидимыа, нъ с многым человѣколюбиемъ и божественою ревностию въставлятися<anchor xml:id="v6" n="6" rend="super"/> на отмщение их. Сиа начяльствующих Богу подобных съдѣловают и дръжаву их не точию утвержаютъ <anchor xml:id="v7a1" n="7" rend="super"/>и въ<anchor xml:id="v7a2" n="7" rend="super"/> глубоцѣ мирѣ и тишинѣ всегда съхраняютъ, нъ еще и преславнѣишими побѣдами укра шають и прославляют ихъ, Вседръжительнѣи десницы свыше помагающи им и<anchor xml:id="v8" n="8" rend="super"/> покоряющи под ногама<anchor xml:id="v9" n="9" rend="super"/> их вся их супостаты. И свидѣтельствуетъ слову сему въ Ветхом убо завѣтѣ пресловутыи Давидъ <anchor xml:id="v10a1" n="10" rend="super"/>царъ же<anchor xml:id="v10a2" n="10" rend="super"/> и пророк, и иже по нем Езекиа и Иосиа, в Новом же и съвръшеномъ завѣтѣ Коньстянтинъ Великыи и пьрвыи въ христианехъ царѣх, Феодосии же тако же великъ и благочестивѣишии, и<anchor xml:id="v11" n="11" rend="super"/> его внукъ Феодосеи нареченныи Юныи, и ины мнози благовѣрнѣиши и правѣднеиши, <anchor xml:id="c2a1" n="б" rend="super"/>иже за превелию правду и еже кь подручнимъ<anchor xml:id="c2a2" n="б" rend="super"/> благоумие и при<metamark function="end-page" rend="//"/><pb type="folio" n="л. 259" rend="label-margin-right"/>лѣжнѣишыи промыслъ<anchor xml:id="v12" n="12" rend="super"/>, в Вышних Царствующему угодивше, в мирѣ глубоцѣ и тишинѣ пребываху присно, и побѣды преславни взяху на варвары, всемогущею Десницею<anchor xml:id="v13" n="13" rend="super"/> покрываеми же и утвръжаеми. Но сия убо сице.</p>
+         <p>Многым убо и различным сущим въ человѣцех художеством и хитростем и велможнымъ саном кождо человѣковъ безспрестани печется<anchor xml:id="v14" n="14" rend="super"/> и всею душею тщится<anchor xml:id="v15" n="15" rend="super"/> достигнути краи, конець, его же желаетъ<anchor xml:id="v16" n="16" rend="super"/>, художества или хитрости или велможнаго сана, акы на образ нѣкии на въсиавших древле в нѣкоим сих взираа, да яко и тъи сам сподобится тѣх же имъ получити хвалении, и да от всѣх славится въ еже по нем время.</p>
+         <p>Тебѣ же, благовѣрнеишему и велехвалному самодръжцу всея Руси, ему же увѣрена суть от Самого Вышняго скыпетра царства сего преславнаго, на кыи инъ образ <anchor xml:id="v17" n="17" rend="super"/>взирати всегда лѣпо есть<anchor xml:id="v18" n="18" rend="super"/>, а не точию в самого Царствующаго на небесѣх и святыя Его заповѣди, иже Единъ есть страшенъ и всесилен, поставляа царя и отставляа, <cit><quote xml:id="biblical-1">«въздви<metamark function="end-page" rend="//"/><pb type="folio" n="л. 259 об." rend="label-margin-left"/>заа от земли убога и от гноища възнося нища, да посадитъ его съ силными людскыми и престоломъ славы наслѣдника являа его»</quote></cit>. Аще бо на Нь Единого упование все твое възлагаеши и по спасителным заповѣдем Его и законом устрааеши увѣреное ти царьство, и твориши всегда суд и правду посреди земля, яко же есть писано, блаженъ и треблаженъ<anchor xml:id="c3" n="в" rend="super"/> ты въистину еси не точию <anchor xml:id="v19a1" n="19" rend="super"/>в будущем, нъ и в настоащем<anchor xml:id="v19a2" n="19" rend="super"/>; всегда бо съхраненъ будеши от Него въ всякомъ утвержении и мирѣ и здравии и славѣ и благословении и духовнѣмъ разумѣ. Да ничто же убо предпочтеши паче правды и суда Царя Небеснаго Иисуса Христа Господа<anchor xml:id="c4" n="г" rend="super"/> и Бога твоего, ни единым бо иным толико Онъ угоденъ и милосердъ и благотворець будетъ богохранимѣи дръжавѣ твоеи, елико твоею къ подручником правдою и правым судом и щедротами и кротостию къ всѣмъ вкупѣ нищетствующим. Добро убо, добро въистину и велми спасително молитва и пост, овъ бо плотскаа скоктаниа утишаетъ и мертвитъ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 260" rend="label-margin-left"/> и помыслы чиститъ, ова же Богу съединяетъ и духовнѣ присвоает<anchor xml:id="v20" n="20" rend="super"/> и боговидна творитъ молящагося трезвенѣ. Но аще лишатся преждереченых<anchor xml:id="v21" n="21" rend="super"/> добродѣтелеи, акы ничто же вмѣняются пред праведным Судиею; писано бо есть святымъ Божиимъ пророкомъ Осиемъ, акы от лица Божиа: <cit><quote xml:id="biblical-2">«Милости хощу, а не жрътвѣ, разумъ Божии, а не всесъдежении»</quote></cit>; и пакы: <cit><quote xml:id="biblical-3">«Не всякъ глаголяи Ми: Господи, Господи, внидет въ царство небесное, но творяи волю Отца Моего, иже на небесѣх»</quote></cit>. Виждь, благовѣрныи царю, како явѣ не хвалит мнящаго единою молитвою благоугодити Богу. Чесо ли ради? Занеже Онъ весь Сам естеством благъ есть, весь правда, весь милость, весь щедръ къ всѣмъ вкупѣ живущимъ на земли. Такым же хощет быти и царствующим на земли, царь бо ни что же ино есть, развѣ образ жывыи и видимъ, сирѣчь одушевленъ, Самого Царя Небеснаго, яко же рече нѣкыи от еллиньскых философъ, к нѣкоему царю сице глаголя: «Царству увѣренъ бывъ, буди тому достоинъ, царь бо Божии есть образ одушевленъ, сирѣчь живъ». Нѣсть пред Ним инаа <metamark function="end-page" rend="//"/><pb type="folio" n="л. 260 об." rend="label-margin-left"/> молитва, ни приносъ лучьши и болши угодна, яко же съблюдение и исполънение святыхъ Его заповѣдеи; Сам бо глаголетъ: <cit><quote xml:id="biblical-4">«Имѣяи заповѣди Моа и творяи я, тъи есть любяи Мя, не любяи Мене<anchor xml:id="v22" n="22" rend="super"/> словес Моих не съблюдаетъ»</quote></cit>, и паки: <cit><quote xml:id="biblical-5">«Вы друзи Мои есте, аще творите, елика<anchor xml:id="v23" n="23" rend="super"/> Азъ повелѣваю вам»</quote></cit>. Потщися убо, о благовѣрнѣишыи царю<anchor xml:id="v24" n="24" rend="super"/>, другъ быти всѣх Царю и Владыцѣ Иисусъ Христу Господу и Богу Твоему всякымъ человеколюбием и благостию и правдосудиемъ, прослави Его на земли земленым<anchor xml:id="c5" n="д" rend="super"/> и привременным симъ начальствомъ, <anchor xml:id="v25a1" n="25" rend="super"/>да яко<anchor xml:id="v25a2" n="25" rend="super"/> и Онъ прославит тя противу божественою Славою своею на земли и на небесѣх, яко же сам Господь обѣщавает, пророком глаголя: <cit><quote xml:id="biblical-6">«Прославляющаа Мя прославлю, а обезчествующеи Мя обезъчестятся»</quote></cit>. Како же ли можеши прославити Его и угодити Ему въ всѣх, чти себѣ частѣе послание блаженаго Фотиа патриарха Царяграда, его же посла къ блъгарскому князю<anchor xml:id="v26" n="26" rend="super"/> Михаилу, и велику премудрость и ползу оттуду исчерпнути имаши, аще <metamark function="end-page" rend="//"/><pb type="folio" n="л. 261" rend="label-margin-right"/> послушаеши его.</p>
+         <p>Благовѣрнеишыи самодръжець! Лѣть ми глаголати всю истинну пред царствиемъ твоим, яко ни единыа иныа ради вины уничижены быша от всѣх Владыки и Творца иже по нас, грековъ, послѣднии царие, и дръжаву свою погубиша, точию за превелию их гръдость и превозношение и сребролюбие иудѣиское и лихо имьство, ими же побѣждени бывше, хыщяху неправеднѣ имения подручниковъ, презираху своа боляры въ скудости и лишении потребных живущих, вдовицы обидимыа, <anchor xml:id="c6a1" n="е" rend="super"/>и сироты и нищиа<anchor xml:id="c6a2" n="е" rend="super"/> не отмщаху от обидящих я; сих ради всѣх и сицевых прииде гнѣвъ праведнаго Судии на нас окаянных, и нынѣ обходим оставлени, алчюще и жаждуще и наготующе и от всѣх поношаеми и гоними есме. И праведнѣ таковаа тръпимъ, рече бо нѣгдѣ святое писание: <cit><quote xml:id="biblical-7">«Обаче за льщениа<anchor xml:id="v27" n="27" rend="super"/> их положилъ имъ еси злаа, низложилъ я еси, внегда разгордѣтися имъ. Како быша в запустѣние? Внезапну изчезоша, погыбоша за беззакония ихъ<anchor xml:id="c7" n="ж" rend="super"/>, акы соние въ<metamark function="end-page" rend="//"/><pb type="folio" n="л. 261 об." rend="label-margin-right"/>стающаго»</quote></cit>. Но яже бо о нас бѣдных, акы беззаконовавших, таковъ конець имѣша правым судом Божиим.</p>
+         <p>Ты же, о благовѣрнеишыи царю и государю, не<anchor xml:id="v28" n="28" rend="super"/> по них, нъ яко же учимъ еси от Самаго Вышняго и Его спасительных законъ и заповѣдеи, сицѣ устрааи потребнаа и полезнаа подручникомъ, всякою правдою и благостию и царскым разумом. Сущаго у тебе преосвященнаго митрополита и боголюбивыа епи скопы всякыа чести сподобляи и брегы, акы ходатаа суща Богу и человѣкомъ, и о<anchor xml:id="c8" n="з" rend="super"/> твоем богохранимом царствии беспристани молящася, и Небеснаго Владыку преподобными молитвами умоляюще о них же акы человѣцы прогнѣваемъ благость Его, различными нашыми прегрѣшении. Сице убо почитаи их и брегы, и полезнаа богохранимѣи дръжавѣ твоеи съвѣтующих послушаи, сих бо слушая, Самого Спаса и Царя твоего Иисуса Христа слушаешь, по божественому уставу, глаголющу: <cit><quote xml:id="biblical-8">«Слушааи вас Мене слушаетъ, а отмѣтааися вас Мене отметается и Пославшаго Мя»</quote></cit>.</p>
+         <p>Виждь, о благо<metamark function="end-page" rend="//"/><pb type="folio" n="л. 262" rend="label-margin-right"/>вернѣишыи государю, гдѣ въсходитъ яже къ боголюбивым архиереомъ честь и безчестие. Страшно слово сие, о благовѣрнеишыи царю, и достоино всякого хранениа и брежениа, аще к Самому Вышнему преходит еже къ архиереом послушание же и преслушание наше. Сего ради и треблаженыи апостолъ Павелъ повелѣваетъ нам, глаголя: «Послушаите наставником<anchor xml:id="v29" n="29" rend="super"/> вашим<anchor xml:id="v30" n="30" rend="super"/> и покаряитеся», ти бо бдят о душах ваших, акы отвѣтъ хотяще дати о вас, <cit><quote xml:id="biblical-9">«да с радостию се<anchor xml:id="v31" n="31" rend="super"/> творятъ, а не въздыхающе, не полезно бо вам сие»</quote></cit>.</p> 
+         <p>Такожде и сущаа о тебѣ пресвѣтлыя князи и боляры и воеводы преславныа и добляа воины и почитаи и брегы и обильно даруи; их бо обогащаа, твою дръжаву отвсюду крѣпишь и огражаешь.</p>
+         <p>Вдовы и сироты<anchor xml:id="v32" n="32" rend="super"/> убогыа обидимы да не презриши въздыхающа и слезы горкыа проливающих пред Отцем сирых и Судиею вдовиць и предстателем убогыхъ. Неполезно бо твоеи дръжавѣ сицево презрѣние и нерадѣние, ничто же ино прегрѣшение наше толь прогнѣвает <metamark function="end-page" rend="//"/><pb type="folio" n="л. 262 об." rend="label-margin-left"/> неисчетную благость Вышняго и на отмщение обидимым възставляет Его, елико въздыхание и слезы обидимых, писано бо есть святым царемъ и пророком<anchor xml:id="c9" n="и" rend="super"/> Давидом: <cit><quote xml:id="biblical-10">«Озлоблениа ради нищих и въздыханиа убогых нынѣ възстану, глаголетъ Господь»</quote></cit>, и прочяа; и инде тъи же: «<anchor xml:id="v33a1" n="33" rend="super"/>Познах, яко сотворит Господъ суд нищим и месть убогым»; и инде тъи же<anchor xml:id="v33a2" n="33" rend="super"/>: <cit><quote xml:id="biblical-11">«Сира и вдову заступит и путь грѣшных погубит»</quote></cit>, сирѣчь, обидимых убо оборонитъ и избавитъ их, а обидящихъ ихъ истребит, <cit><quote xml:id="biblical-12">«лице бо, рече, Господне на творящих злаа, яко да потребит от земли память<anchor xml:id="c10" n="к" rend="super"/> ихъ; очи Господни на праведныа и уши Его въ молитву их»</quote></cit>, сирѣчь, елика просятъ у Него творящеи правду на земли, бывают имъ от Него, по реченному инде: <cit><quote xml:id="biblical-13">«Близ Господь всѣм призывающим Его истинною», <anchor xml:id="v34a1" n="34" rend="super"/><anchor xml:id="c11a1" n="л" rend="super"/>сирѣчь, дѣлным исполнением всех святых заповедеи Его, приглаголеть бо<anchor xml:id="c11a2" n="л" rend="super"/><anchor xml:id="v34a2" n="34" rend="super"/>: волю боящихся Его сътворит и моление ихъ услышитъ и спасетъ их»</quote></cit>.</p>
+         <p>И что ино сего<anchor xml:id="v35" n="35" rend="super"/> может быти лучше? Не за иную которую вину възвысилъ есть преблагыи Богъ царство Кира царя прьскаго, аще<anchor xml:id="v36" n="36" rend="super"/> и нечестивъ и идолопоклонникъ былъ, то<metamark function="end-page" rend="//"/><pb type="folio" n="л. 263" rend="label-margin-left"/>чию за превелию правду и кротость и милосьрдие его к подручником своимъ<anchor xml:id="v37" n="37" rend="super"/>, <anchor xml:id="v38a1" n="38" rend="super"/><anchor xml:id="c12a1" n="м" rend="super"/>их же ради и отца нарицаху его себе подручницы<anchor xml:id="c12a2" n="м" rend="super"/><anchor xml:id="v38a2" n="38" rend="super"/>. И толь приатъ его и почюдися его добродѣтели, яко и помазаника своего нарещи благоизволилъ, яко же слышимъ въ книгах повѣственых<anchor xml:id="v39" n="39" rend="super"/>. И не за ино которое пакы прегрѣшение разорилъ есть царство Седекиево и Иехониево, цареи иерусалимъскых, аще<anchor xml:id="v40" n="40" rend="super"/> и благовѣрни бяху отчасти, точию за их всячьское безаконие и сатониньскую гръдость и богомръзское лихоимание. «Господь бо, рече, гръдым противится, смиренным же даетъ благодать»; и пакы: <cit><quote xml:id="biblical-14">«Праведенъ бо Господь и правды възлюби, праваа вѣсть лице Его»</quote></cit>.</p>
+         <p>Благовѣрнѣишии царю! Молю преславную дръжаву благовѣриа твоего, прости мя в том, яко не обинуяся глаголю пригоднаа к утвержению богохранимыа дръжавы твоеа и всѣх твоих свѣтлеишых велмож. Длъженъ бо есмь, ово убо прещения ради оного раба лѣниваго, съкрывшаго талантъ Господа своего в земли, ово же за премногое брежение и честь, еа же сподобилъ мене <metamark function="end-page" rend="//"/><pb type="folio" n="л. 263 об." rend="label-margin-left"/> 9 лѣт государь мои, приснопамятныи отець твои государевъ, князь великы и самодръжець всея Русии, Василее Ивановичь, иже и большиа бы чести сподобилъ мене въпред, аще <anchor xml:id="v41a1" n="41" rend="super"/>не были, по грѣхом моимъ<anchor xml:id="v41a2" n="41" rend="super"/>, поклепали мене государю моему преславному нѣцыи небратолюбцы, им же Богъ судиа. Инъ убо ино что от многоцѣнных и маловременных красных мира сего мимоходнаго да принесет благовѣрному царствию твоему, азъ же убогии, их же стяжалъ лучшее, глаголю же, слово растворено<anchor xml:id="v42" n="42" rend="super"/> солию писанною приношу тебѣ, царю преславному, его же и приемъ, с обычною тихостию твоею, въздаруи ми рабу твоему и богомолцу нищему<anchor xml:id="v43" n="43" rend="super"/> еже въ Святую Гору възвращение, щедротъ ради Христовых, отпусти мене съ миром отсюду, даже и тамо всею душею и языком и<anchor xml:id="v44" n="44" rend="super"/> веселым сердцемъ<anchor xml:id="v45" n="45" rend="super"/> проповѣдую и величаю превъсходящую славу благовѣрныа дръжавы царствиа твоего, и чистѣишею мыслию и сердцемъ радостным молитвы възсылаю о крѣпком царствѣ твоемъ къ Царю Небесному Иисусу Христу Богу твоему. <metamark function="end-page" rend="//"/><pb type="folio" n="л. 264" rend="label-margin-right"/> Ни во что же прочее потребенъ азъ богохранимѣи земли Рустѣи его же бо потребоваше от мене худаго<anchor xml:id="v46" n="46" rend="super"/>, получила ужъ есть, да получю же и азъ от благовернаго царствиа твоего, чему желаю. Лѣта ужь многа безлѣпа здѣ одержимъ есмь и моих лишаемъ отець и братии, у них от юности трудихся и телеснѣ и духовнѣ о уповании, <anchor xml:id="v47a1" n="47" rend="super"/>тамо и кости положити<anchor xml:id="v47a2" n="47" rend="super"/>. Отдажь мене, благовѣрнѣишии царю, честнѣи обители Пречистыа<anchor xml:id="v48" n="48" rend="super"/> Богородицы Ватопедстѣи, възвесели духовнѣ живущыа в неи преподобныа инокы, рабы твоа и богомолца непрестаю-ща, не въсхоти наипаче оскорбити ихъ. Тамо, благовѣрнѣишии государю, велиа нынѣ скудость от всѣх потребныхъ на съставление и устроение многолюдныа обители, тамошным потребно оканьство мое. Даруи мене имъ, лѣта ужь многа желаюшим мене, приклонися умиленым ихъ молениемъ яже о мнѣ, къ твоеи богохранимѣи дръжавѣ, испълни им таково праведное прошение, даже и ихъ, яже о богохранимѣи др<metamark function="end-page" rend="//"/><pb type="folio" n="л. 264 об." rend="label-margin-right"/>жавѣ твоеи, възсылаема непрестанна прошениа и мольбы к Вышнему, услышит и исполняет<anchor xml:id="v49" n="49" rend="super"/> дѣлом иже над всѣми Богъ и Владыка Иисус Христос, иже да съхранит, съблюдет и укрѣпит на многа лѣта благовѣрно царьство твое. Аминь, аминь, аминь<anchor xml:id="v50" n="50" rend="super"/>.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1-3</head> <!-- numero in apice -->
+               <app from="#v1" to="#v3">
+                  <rdg wit="#Л-1">Благовѣрнеишему и боголюбивому царю и самодръжцу всея Русии преславному государю великому князю Ивану Васильевичю нищии твои государевъ богомолець Максимъ инокъ изъ Святыя Горы смѣя не смѣя низко челомъ биетъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2-3</head>
+               <app from="#v2" to="#v3">
+                  <rdg wit="#Х">в Руси</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head>
+               <app from="#v4">
+                  <rdg wit="#Х #Л-2">кроток</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5-5</head>
+               <app from="#v5a1" to="#v5a2">
+                  <rdg wit="#Л-2">же <witDetail wit="#Л-2">(два раза)</witDetail></rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head>
+               <app from="#v6">
+                  <rdg wit="#Х #Л-1">въставляти</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7-7</head> 
+               <app from="#v7a1" to="#v7a2">
+                  <witDetail wit="#Л-2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8-8</head> 
+               <app from="#v8a1" to="#v8a2">
+                  <witDetail wit="#Л-2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head>
+               <app from="#v9">
+                  <rdg wit="#Л-2">ногами</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head>
+               <app from="#v10">
+                  <rdg wit="#Л-2">же царь</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11">
+                  <witDetail wit="#Л-2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <witDetail wit="#Л-2">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <witDetail wit="#Х #Л-2">Доб. <hi rend="distinct">Вышняго</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head>
+               <app from="#v14">
+                  <rdg wit="#Л-2">печемся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head>
+               <app from="#v15">
+                  <rdg wit="#Л-2">тщимся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head>
+               <app from="#v16">
+                  <rdg wit="#Л-2">желают</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17-18</head> 
+               <app from="#v17" to="#v18">
+                  <rdg wit="#Х #Л-1">подобает взирати всегда</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">19-19</head> 
+               <app from="#v19a1" to="#v19a2">
+                  <rdg wit="#Л-1">и в настоящем, но и в будущемъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">20</head> 
+               <app from="#v20">
+                  <rdg wit="#Л-1">прияет</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">21</head> 
+               <app from="#v21">
+                  <witDetail wit="#Л-1">Доб. <hi rend="distinct">выше</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">22</head> 
+               <app from="#v22">
+                  <rdg wit="#Х #Л-1">Мя</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">23</head> 
+               <app from="#v23">
+                  <rdg wit="#Х">елико</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">24</head> 
+               <app from="#v24">
+                  <witDetail wit="#Л-1">Доб. <hi rend="distinct">самодеръжец</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">25-25</head> 
+               <app from="#v25a1" to="#v25a2">
+                  <rdg wit="#Л-2">якоже</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">26</head> 
+               <app from="#v26">
+                  <rdg wit="#Х #Л-1">царю</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">27</head> 
+               <app from="#v27">
+                  <rdg wit="#Х">лишения</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">28</head> 
+               <app from="#v28">
+                  <witDetail wit="#Л-2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">29</head> 
+               <app from="#v29">
+                  <rdg wit="#Л-2">наставников</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">30</head> 
+               <app from="#v30">
+                  <rdg wit="#Л-2">ваших</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">31</head> 
+               <app from="#v31">
+                  <witDetail wit="#Л-2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">32</head> 
+               <app from="#v32">
+                  <witDetail wit="#Л-1 #Л-2">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">33</head> 
+               <app from="#v33">
+                  <witDetail wit="#Л-2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">34-34</head> 
+               <app from="#v34a1" to="#v34a2">
+                  <witDetail wit="#Л-2">Нет (ср. прим. л).</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">35</head> 
+               <app from="#v35">
+                  <witDetail wit="#Л-2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">36</head> 
+               <app from="#v36">
+                  <rdg wit="#Х #Л-1">хоти</rdg>
+               </app>
+            </listApp>
+            <listApp>
+            <head rend="super">37</head> 
+               <app from="#v37">
+                  <witDetail wit="#Х #Л-1">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">38-38</head> 
+               <app from="#v38a1" to="#v38a2">
+                  <witDetail wit="#Л-2">Нет (ср. прим. м).</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">39</head> 
+               <app from="#v39">
+                  <rdg wit="#Х #Л-1">повѣстных</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">40</head> 
+               <app from="#v40">
+                  <rdg wit="#Х">хоти</rdg>
+                  <rdg wit="#Л-1">хотя</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">41-41</head> 
+               <app from="#v41a1" to="#v41a2">
+                  <rdg wit="#Х">не бы</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">42</head> 
+               <app from="#v42">
+                  <rdg wit="#Л-1">наслажено</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">43</head> 
+               <app from="#v43">
+                  <witDetail wit="#Л-2">Доб. <hi rend="distinct">молю тя</hi>.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">44</head> 
+               <app from="#v44">
+                  <witDetail wit="#Л-1">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">45</head> 
+               <app from="#v45">
+                  <witDetail wit="#Л-1">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">46</head> 
+               <app from="#v46">
+                  <witDetail wit="#Х #Л-1">Доб. <hi rend="distinct">и непотребнаго</hi>.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">47-47</head> 
+               <app from="#v47a1" to="#v47a2">
+                  <rdg wit="#Х">да тамо и кости мои положатся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">48</head> 
+               <app from="#v48">
+                  <rdg wit="#Л-1">Пресвятыа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">49</head> 
+               <app from="#v49">
+                  <rdg wit="#Х">исполнит</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">50</head> 
+               <app from="#v50">
+                  <witDetail wit="#Х #Л-1">Доб. <hi rend="distinct">Смѣя не смѣя писах</hi></witDetail>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" > <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Буквенное обозначение кин. номера главы в строке.</p>
+            </note>
+            <note target="#c2a1" targetEnd="#c2a2"> 
+               <label rend="super">б-б</label>
+               <p>Вписано на нижнем поле почерком Р.</p>
+            </note>
+            <note target="#c3" >
+               <label rend="super">в</label>
+               <p>Далее написано и зачеркнуто <hi rend="distinct">и тр</hi>.</p>
+            </note>
+            <note target="#c4" >
+               <label rend="super">г</label>
+               <p>Вписано на правом поле в конце строки почерком М.</p>
+            </note>
+            <note target="#c5" >
+               <label rend="super">д</label>
+               <p>В ркп. испр. из <hi rend="distinct">земным</hi> почерком Р (?).</p>
+            </note>
+            <note target="#c6a1" targetEnd="#c6a2"> 
+               <label rend="super">е-е</label>
+               <p>Вписано на верхнем поле почерком Р.</p>
+            </note>
+            <note target="#c7" >
+               <label rend="super">ж</label>
+               <p>Далее зачеркнуто киноварью <hi rend="distinct">аихъ</hi>.</p>
+            </note>
+            <note target="#c8" >
+               <label rend="super">з</label>
+               <p>Вписано в строку почерком Р.</p>
+            </note>
+            <note target="#c9" >
+               <label rend="super">и</label>
+               <p>В ркп. <hi rend="distinct">пророко</hi> испр. по Х, Л-1. </p>
+            </note>
+            <note target="#c10">
+               <label rend="super">к</label>
+               <p><hi rend="distinct">па</hi> вписано над строкой почерком Р. </p>
+            </note>
+            <note target="#c11a1" targetEnd="#c11a2"> 
+               <label rend="super">л-л</label>
+               <p>В ркп. нет, доб. по Х, Л-1.</p>
+            </note>
+            <note target="#c12a1" targetEnd="#c12a2"> 
+               <label rend="super">м-м</label>
+               <p>В ркп. нет, доб. по Х.</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="1Sam"><ref>1 Цар 2, 8 / 1Sam 2,8</ref></bibl>
+            <bibl corresp="#biblical-2" type="Os"><ref>(Ос 6, 1 / Os 6,1)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Mt"><ref>(Мф 7, 21 / Mt 7,21)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Gv"><ref>(Ин 14, 121.124 / Gv 14,121.124)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Gv"><ref>(Ин 15, 14 / Gv 15,14)</ref></bibl>
+            <bibl corresp="#biblical-6" type="1Sam"><ref>(1 Цар 2, 30 / 1Sam 2,30)</ref></bibl>
+            <bibl corresp="#biblical-7" type="Sal"><ref>(Пс 72, 18–20 / Sal 72,18-20)</ref></bibl>
+            <bibl corresp="#biblical-8" type="Lc"><ref>(Лк 10, 16 / Lc 10,16)</ref></bibl>
+            <bibl corresp="#biblical-9" type="Eb"><ref>(Евр 13, 17 / Eb 13,17)</ref></bibl>
+            <bibl corresp="#biblical-10" type="Sal"><ref>(Пс 11, 6 / Sal 11,6)</ref></bibl>
+            <bibl corresp="#biblical-11" type="Sal"><ref>(Пс 145, 9 / Sal 145,9)</ref></bibl>
+            <bibl corresp="#biblical-12" type="Sal"><ref>(Пс 33, 17 / Sal 33,17)</ref></bibl>
+            <bibl corresp="#biblical-13" type="Sal"><ref>(Пс 144, 19 / Sal 144,19)</ref></bibl>
+            <bibl corresp="#biblical-14" type="Sal"><ref>(Пс 10, 7 / Sal 10,7)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

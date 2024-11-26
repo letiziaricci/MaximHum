@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Поучение о скоморохах [Poučenie o skomorochach]</title>   
+            <title type="alt" xml:lang="cu-Cyrl">Слово против скоморохов [Slovo protiv skomorochov] <ref target="lista-bibliografia.xml#Rzi-1935">(Ržiga 1935-1936: 105-108)</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">Второе слово поучительное [Vtoroe slovo poučitel'noe] <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 141)</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl">Поучение Максима Грека против скоморохов (Poučenie Maksima Greka protiv skomorochov) <ref  target="lista-bibliografia.xml#Sin-1977 #MG-2025">(Sinicyna 1977: 260; [Maksim Grek 2025])</ref></title>   
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">197</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 114</bibl>                   
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Zur-2019"><name>Žurova</name>, <date>2019</date></ref>: <biblScope unit="page" from="9" to="12">9–12</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Rzi-1935"><name>Ržiga</name>, <date>1935-1936</date></ref>: <biblScope unit="page" from="105" to="108">105–108</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Rum. nr. 11]</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, Рум. 264</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#266r #270r">лл. 266-270 / ff. 266r-270r</locus>   
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Аще и нѣции негодуютъ о списаныхъ от мене по Божии ревности преже худаго сего поучениа и суетщатна сия и мнять, и наричють, но азъ, послушая страшную заповѣдь, глаголющу явьственѣ [...]</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Да внимаимъ убо себе, елици силнии есме отставити ихъ, толь безбожнаго начинаниа таже не възбраняемъ ихъ, ни запрещаемъ, да не как и мы паднемъ под гнѣвомъ неумытнаго Судии, глаголющаго: «Аще видяше татя, течяше с нимъ, и съ прегнусодѣемъ участие свое полагаше».</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/>
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Слово</term> 
+               <term>Поучение</term> 
+            </keywords>
+            <keywords scheme="#scope">    
+               <term>Denuncia</term> 
+               <term>Decadimento morale (giullari)</term>
+               <term>Istruzione</term>
+               <term>Correzione</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>  
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ПОУЧЕНИЕ О СКОМОРОХАХ</p>  
+      </front>
+      
+      <body>
+         <p><metamark function="end-page" rend="//"/><pb type="folio" n="л. 266"/> Аще и нѣции негодуютъ о списаныхъ от мене по Божии ревности преже худаго сего поучениа и суетщатна сия и мнять, и наричють, но азъ, послушая страшную заповѣдь, глаголющу явьственѣ: <cit><quote xml:id="biblical-1">«Иже аще посрамится<anchor xml:id="c1" n="а" rend="super"/> Мене и Моихъ словесъ, посрамитсяа его и Сынъ Человечь»</quote></cit>, и прочая, – не престану писати и глаголати приличная въ славу Содѣтеля всѣхъ и спасение почитающихъ писана мною православныхъ людехъ. Сие же уповая, дерзаю, желая слышати еже <cit><quote xml:id="biblical-2">«благодать ти, рабе вѣрныи и благыи»</quote></cit>, а не еже <cit><quote xml:id="biblical-3">«рабе лукавеи, лѣнивыи, акы скрывъ въ земли въвереныи ми талантъ бездѣлна, отдавъ и господину моему»</quote></cit>. Сие же тщяся съвръшити, како убо инако сие довръшу, а не тѣмъ, яко изобличити дръзаемую нынѣ безъ страха нѣкыми беззаконными богомръзъскую и душегубную злобу, глаголю же, именуемыхъ скомороховъ, бѣсы обрѣтенную прелесть, медвежное плясание. Сии бо беззаконнии отвръгшеся вседушьно апостольскаго завѣщаниа, глаголющаго: <cit><quote xml:id="biblical-4">«Аще хто не хощетъ дѣлати, да не ясть»</quote></cit>. Слышимъ, бо рече, нѣкыя у васъ, безчинно ходяща, ничто же дѣлающихъ, но лестно обзирающихъ. Сицевымь же завѣщаваемь же и молимъ о Господѣ Иисусѣ Христѣ, да съ безмолвиемъ дѣлающе, ядятъ свои хлѣбъ.</p>
+         <p>Сицево спасителное завѣщание апостольское <metamark function="end-page" rend="//"/><pb type="folio" n="л. 266 об."/> отринувше, окааныи скоморохы по многу небрежению и разленению духовныхъ пастыреи научени быша отъ самѣхъ богоборныхъ бѣсовъ сатаниньскому промыслу, по нему же имъ убо изобилие брашенъ и одѣании добываютъ человѣкоубииця бѣси, а веселящимся о бѣсовьскыхъ играниихъ, душевную пагубу и муку вѣчную приготовять. Обрѣтше бо окаании медвѣдъ, дивии звѣрь и многымъ временемъ и споспѣшьствомъ бѣсовьскымъ научивше, и стояща плясати къ сурнѣ и трубѣ, и тимпану, и плясанию рукъ, съ душогубными пѣсньми обходятъ всяку страну и сѣла, играюще предверию безумныхъ игрелюбцевъ, всячьскымъ кличомъ възвигше звѣря къ плясанию сурною и тимпаны, и трубою, и пѣсньми сатаниньскыми. Тогда же тогда<anchor xml:id="c2" n="б" rend="super"/> ино есть видѣти умно благоговѣину и богобоязниву, а не точию самого сатану, пляшуща, играюща съ звѣремъ и веселящася о погыбели прельщающихся вѣрныхъ о таковыхъ и еликыхъ золъ. Ходатаиствено правовѣрнымъ сицевое сатанинское<anchor xml:id="c3" n="в" rend="super"/> замышление, умышленое сквръными бѣсы на отмѣтание и развращение еуаггельскаго и апостольскаго законоположениа и на погыбель благочестивыхъ душь. Отбѣже отъ нихъ божии страхъ и память смертная, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 267"/> и послѣднихъ вѣчныхъ мукъ, усохшя<anchor xml:id="c4" n="г" rend="super"/> источникы теплыхъ слезъ, погаслъ огнь умныи, невещественыи разгревая, и сердце осырѣвше, якоже млеко, студению многолѣтняго бесчювьствия и непоболѣниа. Вмѣсто же ихъ вниде смѣхъ непрестаненъ и бесчинникъ, и похоть злаа, распаляющи непрестанно душя неутвръженыхъ на похоти сквръныи, несытныи. Богомръзъское блужение на толико же мысли благовѣрныхъ изъступиша благочестиваго стояниа и чина своего, яко церковнѣи трубѣ шумящи и вся вѣрны съзывающи на божия пѣсни.</p>
+         <p>Аще случяться в тои чясъ въструбивше антихристовы споспѣшници скврънии и скоморохы къ душогубнымъ ихъ играмъ и звѣря бѣсовьскому плясанию спешити вѣрнымъ, презрѣвшимъ Божия пѣсни и сребреницу на очищение грѣховъ своихъ дати священникомъ скупующе, скврънымъ скоморохомъ с радостию дашя, принесше, моляще ихъ, безумнии утѣшити ихъ сатаниньскымъ своимъ играниемъ. Которыхъ слезъ не достоини ли сицево душегубное сатаниньское умышление? Сие безаконие предзря пророкъ Духомъ Святымъ множащеся благовѣрныхъ, глаголаше съ скръбию къ Вышнему: <cit><quote xml:id="biblical-5">«Видѣхъ неразумѣвающа и истаяхъ, яко словеса Твоя не съблюдошя»</quote></cit>, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 267 об."/> сирѣчь преподобныя и спасителныя заповѣди Твоя преступающе играмъ, преплънымъ всякого безумиа, и сквръности внимають. И пакы тъи же, такоже тужя, въпиетъ: <cit><quote xml:id="biblical-6">«Истаяла мя жалость Твоя, яко забыша словесъ Твоихъ врази мои»</quote></cit>.</p>
+         <p>Да познаемъ разумно, кого суть друзи скврънии скоморохы, елма Божие слово врагы своя именуетъ ихъ, и кого иного могутъ быти друзи и споспѣшници на погыбель благовѣрныхъ, а не точию самого злоначалника диавола, иже безпрестани тщится по подобию лва поглотити нѣкого, пачеже всѣх вкупѣ благовѣрныхъ. Равнѣ бо оному и сии скврънии навѣтуютъ душамъ неутвръженыхъ, ими же замышляютъ сатаниньскыми пѣнии и медвежьимъ плясаниемъ, далече благовѣрныхъ душъ мечюще божии страхъ и плачь духовныи, память некончяемыхъ мукъ, безъ нихъ не мочно спасение получити никому же. Страшныи и неумытныи Суда блажитъ плачющия, окаиваеть же пакы смѣющися, глаголя сице явѣ: <cit><quote xml:id="biblical-7">«Блажени плачющеи, яко смѣетеся»</quote></cit>. Еже инъ еуаггелистъ глаголеть, яко тии утѣшаться, смѣющимься же и блудно питающимся присно в семъ житии. <cit><quote xml:id="biblical-8">*Горе имъ, глаголеть, яко в будущемъ и възплачютъ безутѣшно, и взалчютъ безъ конца*</quote></cit>.</p>
+         <p>Сквернии же скоморохы, плясаниемъ медвежьимъ и сатаниньскыми ихъ игрании въ смѣхы безчи <metamark function="end-page" rend="//"/><pb type="folio" n="л. 268"/>нны и играниихъ и плотскаа грохотаниа призывающе вѣрныя, не явѣ ли противяться еуаггельскымъ заповѣдемъ и обрѣтаються, разсыпающе и блазняще еуаггельскыя паствы, събраныя добрѣсловесныя овци страстию и тридневнымъ погребениемъ Началника пастыря Христа? И истинною врази и супостати ему нарекутся по божественому отвѣту, глаголющу: <cit><quote xml:id="biblical-9">«Иже нѣсть съ Мною, на Мя есть, сирѣчь супостатъ Мои есть, и не събираяи с Мною, сирѣчь иже не тѣми Моими заповѣдми съ Мною гонитъ снисканныя Мною овци словесныя въ Мою небесную паству, разсыпаетъ и разгоняетъ я»</quote></cit>. А сицевыи снискаетъ себѣ страшное прѣщение, глаголящее: <cit><quote xml:id="biblical-10">«Иже аще съблазнитъ единого отъ малыхъ сихъ, вѣрующихъ въ Мя, уне есть ему, да обвеситъ жерновъ оселныи на выи его и утонетъ в море»</quote></cit>.</p>
+         <p>Скврънымъ же скоморохомъ, не единого и два, но всякъ градъ и страну призывающимъ на всяко безаконие и студодѣание, колици мукы и потоплениа удовлѣютъ? <cit><quote xml:id="biblical-11">«Горе, рече, человѣку оному, имьже съблазнь приходитъ»</quote></cit>, страшно въистину прѣщение сие и великаго брежениа достоино желающимъ убѣжати <cit><quote xml:id="biblical-12">*огня неугасающаго и тмы кромѣшныя, черви неусыпающаго*</quote></cit>, <cit><quote xml:id="biblical-13">*страшнаго скрежета зубнаго*</quote></cit>, вѣчнаго отлучениа Божиа. Не едины бо повинны таковѣи клятвѣ, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 268 об."/> творящеи съблазны въ мирѣ семъ, но и живущеи въ властѣхъ. Иже аще ни будутъ силныи суще истребити сицевое безаконие и не истребятъ, но паче съблаговоляють имъ, блазнящимъ и блазняемымъ, глухующе волею къ таковѣи душегубнои прелести, иже и блъше осужение приимутъ по глаголющему божественому отвѣту: <cit><quote xml:id="biblical-14">«Рабъ, увѣдивыи волю господина своего и не сътворь ю, биенъ будетъ много»</quote></cit>, сирѣчь горко и люто мученъ будетъ. Якоже и пророческое слово свѣдѣтельствуетъ, глаголющее: <cit><quote xml:id="biblical-15">«Сыну человече! Назирателя дахъ тебе дому Иисраилеву, и услыши съ слова изъ устъ Моихъ, и запрѣтиши имъ от Мене. Въ еже глаголати ми беззаконному: смрътию умреши!»</quote></cit>. И не запрѣтилъ еси, ниже глаголалъ запрѣтити беззаконному, яко да обратится отъ путеи его злыхъ и живъ будетъ. Беззаконныи онъ въ своеи неправдѣ умретъ, а кровь его<anchor xml:id="c5" n="д" rend="super"/> от рукы твоея взыщутъ. <cit><quote xml:id="biblical-16">«Страшно же въпасти въ руцѣ Бога Живаго»</quote></cit>, еже есть въ гнѣвъ Его за преступление святыхъ Его заповѣдеи. <cit><quote xml:id="biblical-17">*Его же в искусѣ бысть Или<anchor xml:id="c6" n="е" rend="super"/> иереи, заматерѣвся ужь, за еже не наказа Офны да Финеесъ, сына своя суща и священника, иже по Божию гнѣву всеродно погыблъ, самому убо с крѣсла назадъ падшу и шея съкрушену <metamark function="end-page" rend="//"/><pb type="folio" n="л. 269"/>, сыномь же его убиеномъ бывшимъ въ брани*</quote></cit>.</p>
+         <p>Да убоимся притчи, елици на властехъ живемъ и разумно богодухновеныхъ Писанеи паче прочихъ людии просвѣщаемся. Елика бо предъ написашяся, рече божественыи апостол, къ нашему поучению написана бышя. Да не имы подобнѣ имъ, без ума преступающе божиихъ велѣнии, подобнѣ имъ погыбнемъ. <cit><quote xml:id="biblical-18">«Живо, бо рече, слово Божие и дѣиствено, и острѣише паче всякого мечя обоюдаостра, глаголеть божественыи апостол. – И нѣсть тварь, не явлена предъ Нимъ»</quote></cit>.</p>
+         <p>Подражаите по Бозѣ великого ревнителя Вышняго Илиу, елици кръмила духовнаа съборныя церькви въвѣрены есте отъ благодати Святого Духа, и якоже онъ съжьже огнемъ небеснымъ посланыхъ отъ злочестиваго Ахава два пятьдесятникы и скверныхъ жерця вааловыхъ заклалъ, тѣм же образомъ и вы истребити чистителнымъ огнемъ Святаго Духа замышляемаа душегубнаа умышлениа въ пагубу благочестивыхъ отъ мысленаго Ахава, сѣющаго безпрестани лукавыа плѣвелы посрѣди сѣаннаго добраго сѣмени отъ небеснаго Дѣлателя. Възмете духовныи меч, еже есть глагол Божии, и тѣмь всегда закалаете посылаемыя отъ супостата врага диавола, душегубителныя дѣлатели скверныя скоморохы и чародѣя, и влъхвующия бабы, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 269 об."/> и нарицаемыя ведуньи, съблажняющихъ всегда и убивающихъ душевнѣ беззлобивыя овци Спаса Христа. Пособьствуите выну, положшему душу Свою ихъ для, да приимете изъ рукы Его неувядаемыи вѣнець божественыя славы Его, якоже споспѣшникы и способникы Его въ паству възлюбленыхъ овецъ Его благоизволимъ, и сами исплънити дѣломъ, еже по вся дни, акы хвалящеся, глаголемъ предъ Богомъ: <cit><quote xml:id="biblical-19">«Не живяше посрѣди дому моего, творяи гръдыню, глаголяи неправеднаа не исправляше предъ очима моима. Въ утриа избивахъ вся грѣшныя земли, яко истребити отъ града Господня вся творящая беззаконие»</quote></cit>. Яко <cit><quote xml:id="biblical-20">«рѣчнаа устремлениа веселят градъ Божии»</quote></cit>, а <cit><quote xml:id="biblical-21">«потокы беззаконнии въсмущаютъ»</quote></cit> и потопляютъ.</p>
+         <p>Съприсносущныи безначялнаго Отца Богъ-Слово за неизреченную благость и человеколюбие благоизволилъ нагъ възнестися на Крестѣ, да спасетъ заблужшаго человѣка. И богоборныи диаволъ, похваливыся древле положити крестъ свои на облацѣхъ небесныхъ и подобитися Вышнему, на толико небрежетъ лжывыя своея славы по непрекладнѣи своеи ненависти, еяже иматъ изначяла къ человѣческому роду, яко и съ звѣремъ плясати не стыдиться нечестивыи, да токмо возможеть <metamark function="end-page" rend="//"/><pb type="folio" n="л. 270"/> възвращати человеколюбныа мысли Спаса нашего и облазнитъ нѣкыя от презѣлнаго благоговѣиньства, егоже имамы къ спасителнымъ заповѣдемъ Бога нашего. Тѣмже убо споспѣшници въ таково нечестие богоборца сатаны явѣ обличаются скврънии скомороси. Да внимаимъ убо себе, елици силнии есме отставити ихъ, толь безбожнаго начинаниа таже не възбраняемъ ихъ, ни запрещаемъ, да не как и мы паднемъ под гнѣвомъ неумытнаго Судии, глаголющаго: <cit><quote xml:id="biblical-22">«Аще видяше татя, течяше с нимъ, и съ прегнусодѣемъ участие свое полагаше»</quote></cit>.</p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>В рукописи <hi rend="distinct">помится</hi>, исправлено по смыслу.</p>
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label>
+               <p>(так! / sic!)</p>
+            </note>
+            <note target="#c3">
+               <label rend="super">в</label>
+               <p>В рукописи <hi rend="distinct">сатанинссое</hi>, исправлено по смыслу.</p>
+            </note>
+            <note target="#c4">
+               <label rend="super">г</label>
+               <p>В рукописи <hi rend="distinct">усхошя</hi>, исправлено по смыслу.</p>
+            </note>
+            <note target="#c5">
+               <label rend="super">д</label>
+               <p>Вписано над строкой.</p>
+            </note>
+            <note target="#c6">
+               <label rend="super">е</label>
+               <p>Илий – первосвященник (1 Царств 4:18).</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Mc"><ref>(Мк 8, 38 / Mc 8,38)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Mt"><ref>(Мф 25, 21 / Mt 25,21)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Mt"><ref>(Мф 25, 26 / Mt 25,26)</ref></bibl>
+            <bibl corresp="#biblical-4" type="2Ts"><ref>(2 Фес 3, 10 / 2Ts 3,10)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Sal"><ref>(Пс 118, 158 / Sal 118,158)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Sal"><ref>(Пс 118, 139 / Sal 118,139)</ref></bibl>
+            <bibl corresp="#biblical-7" type="Lc"><ref>(Лк 6, 21 / Lc 6,21)</ref></bibl>
+            <bibl corresp="#biblical-8" type="Lc"><ref>(см. Лк 6, 25 / cfr. Lc 6,25)</ref></bibl>
+            <bibl corresp="#biblical-9" type="Mt"><ref>(Мф 12, 30 / Mt 12,30)</ref></bibl>
+            <bibl corresp="#biblical-10" type="Mt"><ref>(Мф 18, 6 / Mt 18,6)</ref></bibl>
+            <bibl corresp="#biblical-11" type="Mt"><ref>(Мф 18, 7 / Mt 18,7)</ref></bibl>
+            <bibl corresp="#biblical-12" type="Is"><ref>(см. Ис 66, 24 / cfr. Is 66,24)</ref></bibl>
+            <bibl corresp="#biblical-13" type="Mt"><ref>(см. Мф 22, 13 / cfr. Mt 22,13)</ref></bibl>
+            <bibl corresp="#biblical-14" type="Lc"><ref>(Лк 12, 47-48 / Lc 12,47-48)</ref></bibl>
+            <bibl corresp="#biblical-15" type="Ez"><ref>(Иез 3, 17-18 / Ez 3,17-18)</ref></bibl>
+            <bibl corresp="#biblical-16" type="Eb"><ref>(Евр 10, 31 / Eb 10,31)</ref></bibl>
+            <bibl corresp="#biblical-17" type="1Sam"><ref>(см. 1 Цар 4, 4–18 / cfr. 1Sam 4,4-18)</ref></bibl>
+            <bibl corresp="#biblical-18" type="Eb"><ref>(Евр 4, 12–13 / Eb 4,12-13)</ref></bibl>
+            <bibl corresp="#biblical-19" type="Sal"><ref>(Пс 100, 7-8 / Sal 100,7-8)</ref></bibl>
+            <bibl corresp="#biblical-20" type="Sal"><ref>(Пс 15, 5 / Sal 15,5)</ref></bibl>
+            <bibl corresp="#biblical-21" type="Sal"><ref>(Пс 17, 5 / Sal 17,5)</ref></bibl>
+            <bibl corresp="#biblical-22" type="Sal"><ref>(Пс 49, 18 / Sal 49,18)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

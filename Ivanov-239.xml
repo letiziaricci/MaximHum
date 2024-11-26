@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Письмо Сципиону Картеромаху [1] [Pis'mo Scipionu Karteromachu]</title>   <!-- 01. Inventario COLONNA F -->
+            <title type="alt" xml:lang="cu-Cyrl">Lettre à Scipion Cartéromachos, du 21 avril 1504 <ref target="lista-bibliografia.xml#Den-1943">(Denissoff 1943: 404, 406)</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">Письмо Сципиону Картеромаху от 21 апреля 1504 г. [Pis'mo Scipionu Karteromachu ot 21 aprelja 1504 g.] <ref target="lista-bibliografia.xml#Kli-1958">(Klibanov 1958: 167)</ref></title> 
+            <title type="alt" xml:lang="cu-Cyrl">Письмо к Сципиону Картеромаху от 21 апреля 1504 г. из Флоренции [Pis'mo k Scipionu Karteromachu ot 21 aprelja 1504 g. iz Florencii] <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 162)</ref></title>  
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">239</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="98">98</biblScope>, <biblScope unit="chapter">nr. I.6</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Den-1943"><name>Denissoff</name>, <date>1943</date></ref>: <biblScope unit="page" from="404" to="406">404, 406</biblScope> [greco]
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Lat-4103"> <!-- info estese del manoscritto in LISTA ESTERNA-->
+               <msIdentifier> 
+                  <msName>BAV, Lat. 4103</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#23Br #23Bv">лл. 23B-23Bоб. / ff. 23Br-23Bv</locus>  
+                     <rubric type="epistolary-formula" xml:lang="grc">Τῷ πεπαιδευμένῳ καὶ λογίῳ ἀνδρὶ κυρίῳ Σκιπίωνι τῷ Καρτερομάχῳ.</rubric> 
+                     <incipit type="info-ms" xml:lang="grc">Εἲης ὑγιαίνων προσφιλέστατέ μοι ἑταῖρε Σκιπίων, Θεοῦ δὲ σώζοντος ὑγιαίνω καὶ αὐτός.</incipit> 
+                     <explicit type="info-ms" xml:lang="grc">Ἔρρωσο καὶ ξύνστησόν με τῷ χρηστῷ Ἂλδῳ καὶ προσφώνησον ὡς ἀπ' ἐμοῦ Ὶωάννην καὶ Νικόλεων τὼ Κρῆτε καὶ πάντας τοὺς φίλους. Ὰποκρίθητί μοι ταχέως πρὸς ταῦτα εἴ γε δυνατόν. Ὁ σὸς κατὰ πάντα Μιχαὴλ ὁ Τριβώλης. Ὰπὸ Φλωρεντίας, ἀπριλλίου καῃ.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" /> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>1504 <ref target="lista-bibliografia.xml#Den-1943">(Denissoff 1943: 406)</ref></date>
+            <date>1503 <ref target="lista-bibliografia.xml#MG-2008">(Maksim Grek 2008: 21)</ref></date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="grc">Greco</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Corrispondenza privata</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original" >Testo originale</term>    <!-- 01. Inventario COLONNA N -->
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="lista-destinatari.xml#MG">Μιχαὴλ Τριβώλης / Michele Trivolis / Михаил Триволис</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="lista-destinatari.xml#SFC">Scipione Forteguerri Carteromaco / Сципион Картеромах</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="grc">
+
+      <body>
+         <p>Τῷ πεπαιδευμένῳ καὶ λογίῳ ἀνδρὶ κυρίῳ Σκιπίωνι τῷ Καρτερομάχῳ.</p>
+         <p>Εἴης ὑγιαίνων προσφιλέστατέ μοι ἑταῖρε Σκιπίων, Θεοῦ δὲ σώζοντος ὑγιαίνω καὶ αὐτός. Ξυντυχὼν ἐγὼ τῷ ἡμετέρῳ προσφιλεστάτῳ καὶ αἰδεσίμῳ ἀνδρὶ Πέτρῳ τῷ Λευχείμονι, ἀκήκοα παρ αὐτοῦ τήν τε σὴν εὐεξίαν καὶ τὴν πρὸς ἐμέ σου καλλί στην καὶ φιλάνθρωπον διάθεσιν, ἐφ᾽ οἷς τῷ τε Θεῷ χάριν ὡμολόγησα τῷ πάντων τῶν ἀγαθῶν αἰτίῳ καὶ σοὶ τὰ κάλλιστα ηὐξάμην οὕτω γενναίῳ καὶ φιλανθρώπῳ πρὸς ἐμὲ τὸν οὔπω ὑπὲρ σού τι πεπονηκότα γεγονότι καὶ τῶν ἐμῶν κηδομένῳ ὡς ἀδελφῷ ὁμογαστερίῳ· ἀλλ᾽ εὐτυχοίης καὶ ἀμεινόνων ἀεὶ τύχοις, τἀμὰ δὲ οἷον ἔσχηκε τέλος ἀκήκοας δήπου, ἀκριβῶς τοῦ χρηστοῦ Πέτρου ταῦτα δηλωσαμένου σου, διὸ καὶ ἐπὶ τοῦ παρόντος περιττόν μοι ἔδοξε ταῦτα δηλῶσαί σοι. Ἂλλως τε καὶ χρόνου σπανίζω καὶ ἠρεμίας ψυχῆς καὶ διανοίας τῷ μήπω μόνον παρά τινι τῶν ἐνταῦθα εὑρηκέναι με, ἀλλ᾽ ἄνω καὶ κάτω ὡς ὑπὸ ποικίλων ἀνέμων ἐν μέσῳ θαλάσσης σαλευομένη ναῦς περιπλανᾶσθαι με, διά τοι τοῦτο πλατύτερον οὐ γράφω σοι ἐπὶ τοῦ παρόντος, τοῦτο δὲ μόνον ὡς ἀπεταξάμην τῷ μονήρει βίῳ διὰ τὰς ἐπιγιγνομένας μοι πολλὰς ἀσθενείας καὶ οὐδ᾽ ἄλλην τινὰ αἰτίαν. Δέομαι δή σου πρὸ αὐτοῦ τοῦ Σωτῆρος, ἀντιλαβοῦ τῶν ἐμῶν ὥσπερ ἤρξω καὶ ἐξελοῦ με τῆς παρούσης θλίψεως καὶ οἰῳδήποτε τρόπῳ δύναιο ἕλκυσόν µε παρ᾽ ὑμῖν, ἰδοὺ үὰр δίδωμί σοι διαθεῖναι περὶ τῶν ἐμῶν ὡς σοὶ αὐτῷ δόξοι ἐμοί τε χρήσιμον ἐλομένῳ ἔσεσθαι καὶ σοὶ φερέτιμον. Тоῦто ἴσθι ὥς ἐπὶ τοῦ παρόντος πάντα μοι εὐπρόσδεχτα κατὰ τὴν ἐπικειμένην ἀνάγκην. Ἔρρωσο καὶ ξύνστησόν µε τῷ χρηστῷ Ἂλδῳ καὶ προσφώνησον ὡς ἀπ᾽ ἐμοῦ Ἰωάννην καὶ Νικόλεων τὼ Κρῆτε καὶ πάντας τοὺς φίλους. ᾿Αποχρίθητί μοι ταχέως πρὸς ταῦτα εἴ γε δυνατόν. Ὁ σὸς κατὰ πάντα Μιχαὴλ ὁ Τριβώλης. Аπὸ Φλωρεντίας, ἀπριλλίου καῃ.
+         </p>
+      </body>
+
+   </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Похвальное слово на святую книгу Грамматику, приписываемое безъ основания Максиму греку [Pochval'noe slovo na svjatuju knigu Grammatiku, pripisyvaemoe bez'' osnovanija Maksimu greku]</title>  
+            <title type="alt" xml:lang="cu-Cyrl">Предисловие к грамматике [Predislovie k grammatike] <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 94-96)</ref></title>  
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">118</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Jag-1895"><name>Jagić</name>, <date>1895</date></ref>: <biblScope unit="page" from="614" to="616">614-616</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Smo-1618"><name>Smotrickij</name>, <date>1618-1619</date></ref>: <biblScope unit="page" from="40r" to="44r">40r-44r</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Smo-1648"><name>Smotrickij</name>, <date>1648</date></ref>: <biblScope unit="page" from="1r" to="44r">1r-44r</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1782"><name>Maksim Grek</name>, <date>1782</date></ref>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Chlud-75">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>ГИМ, Хлуд. 75</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 199 / cap. 199</locus>   
+                     <locus type="foliation" target="#763v #765r">лл. 763об.-765 / ff. 763v-765r</locus>  
+                     <title xml:lang="cu-Cyrl">Прочее же к симъ и похвальная словеса сея блаженныя и святыя книги грамматики да не нерекутся, яко вы от лица ея быти реченнымъ</title> 
+                     <incipit xml:lang="cu-Cyrl">Чтущаго мя яко бы рече почту, и любящаго возлюблю, а уничижающаго не поношю, и притекающаго ко мнѣ не отжену, но паче по естеству случитися тому благоволю, занеже божие дарование нарицатися хощу.</incipit>  
+                     <explicit xml:lang="cu-Cyrl">Такова есмь уставомъ и поставомъ и составомъ и всѣмъ естествомъ грамматика именуюся.</explicit> 
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <!-- fonte per opere tradotte -->
+            <listBibl type="fontes">  
+               <bibl xml:id="Jag-1895">
+                  <ref corresp="lista-bibliografia.xml#Jag-1895"><name>Jagić</name>, <date>1895</date></ref>: <biblScope unit="page" from="613" to="614">613-614</biblScope> [Jagić 1896: 328-329] [traduzione dal greco]
+               </bibl>
+              <bibl xml:id="Sob-1903">
+                 <ref corresp="lista-bibliografia.xml#Sob-1903"><name>Sobolevskij</name>, <date>1903</date></ref>: <biblScope unit="page" from="166" to="169">166-169</biblScope> [traduzione dal latino]
+              </bibl>
+            </listBibl>
+            <listBibl type="secondary-bibliography">
+               <bibl xml:id="Vos-1842">
+                  <ref corresp="lista-bibliografia.xml#Vos-1842"><name>Vostokov</name>, <date>1842</date></ref>: <biblScope unit="page" from="562">562</biblScope>
+               </bibl> 
+            </listBibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>XVI-XVII sec. <ref target="lista-bibliografia.xml#Sob-1903">(Sobolevskij 1903: 166-169)</ref></date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Похвальные словеса</term> 
+            </keywords>
+            <keywords scheme="#scope">
+               <term>Elogio della grammatica e delle altre arti liberali</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#dubium" source="#Jag-1895 #Sob-1903 #Vos-1842">Dubium (Vostokov 1842: 562; Jagić 1895: 613-614 [Jagić 1896: 328-329] [traduzione dal greco]; Sobolevskij 1903: 166-169 [traduzione dal latino])</term>
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <front> 
+         <p>ПРОЧЕЕ ЖЕ К СИМЪ И ПОХВАЛЬНАЯ СЛОВЕСА СЕЯ БЛАЖЕННЫЯ И СВЯТЫЯ КНИГИ ДА НЕ НЕРЕКУТСЯ, ЯКО БЫ ОТЪ ЛИЦА ЕЯ БЫТИ РЕЧЕННЫМЪ</p>  
+      </front>
+      
+      <body>
+         <p>Чтущаго мя яко бы рече почту, и любящаго возлюблю, а уничижающаго не поношю, и притекающаго ко мнѣ не отжену, но паче по естеству случится тому благоволю, занеже божие дарование нарицатися хощу. подобаетъ бо любящи себе, и ищущи мене, чьстьную наук, мудрую грамматику, съ прилѣжаниемъ внимати· понеже бо младенцемъ есмь яко питателница началомъ моимъ, в началѣ своего бытия тонкимъ своимъ и острымъ гласомъ воздухъ препираетъ. еже бо азъ воскликоваетъ, и тѣмъ пищю себѣ испрошаетъ. дѣтищамъ же яко хранительница, яко на восприятие своего бытия пѣстуны призываетъ. отрочятомъ же яко быстрозрителная наставница, яко вся качества и количества не премолчаваетъ, но всяко вопрошаетъ и вѣдатися понуждаетъ. юношамъ яко цѣломудрию учителница, мужемъ яко любимая сожителница, и престарѣющимся яко всечестная собесѣдница. купно же всѣмъ без разсуждения раста яко второродителница, еже къ плоти учениемъ слова, и къ слову зрѣниемъ смысла, и къ смыслу происхождениемъ дѣиства. дѣиство же всякого качества разсѣцаетъ четы и составляетъ вины, и бываетъ цвѣтъ доброплоднаго ума. и потомъ великыи благоразумия плодъ, иже всѣм в преполнение и в насыщение изобилно изливаетъ и простираетъ и подаетъ аки нѣкое сокровище стяжавыи, емуже ключь в руцѣ имущь и тѣмъ дверь разумѣния отверзаетъ, отъ онудуже всечьстьныя багра и многобогатныхъ маргаритовъ доброты восприемлетъ, и прочимъ подаетъ всѣмъ иже на то тщащимся и желающимъ. Сего ради никтоже во умѣ своемъ благо что обрящетъ, аще не познавъ и не уразумѣвъ мене. азъ бо все удобно и разумно глаголати и писати научаю и быстрозрительнаго разума постигнути умудряю, и вся помыслы разсужати умышляю, и отъ лъжи истинствовати наставляю и глубокобытное таинство открываю, и высокопаривое слово совершаю, и нравъ мудростию украшаю, и все существо того прославляю и просвѣщаю. понеже неразумие разрѣшаю и забвение воспоминаю, настоящее предлагаю и будущее возвѣщаю, друголюбие сочетаю. И тѣмъ рекше мною вси мудрыи витии, ритори же реку и философи, достоиныя славы и великия почести себѣ постизаютъ, якоже древнии Понамидъ и иже древнихъ лѣтъ случшаяся обрѣте мудрыи Промефеосъ, с нима же и Комидъ. Сии бо начертаниемъ мя во еллинохъ составиша и тростию назнаменаша, и писмена рекше буквицу собраша, и различными подобии умышленая имена коемуждо особно нарекоша, якоже рещи а б в, и прочая по ряду вся. и таковыми писмены слоги считати умыслиша, якоже рещи· по или до или ба. и таковымъ по согласию сударениемъ снемшимся глаголъ являютъ, якоже рещи· подобаше. или нѣкую отъ осми едину часть обьявляетъ, и частемъ по разуму съшедшимся, уставно слово составляетъ, якоже рещи· больши всѣхъ есть добродѣтелеи любовь. и тако мною составляхуся вся чиновныя статии и съплетаемыя стихи и начинаемыя главы и накончаваемыя свитки, и вся прочитаемыя книги. и таковыя ради вины грамматику мя нарекоша. тѣмъ диалектику же и риторику ми сочеташа и содружиша, и яко чиновницу мя во уставѣхъ и хитрогласницу нарекоша. и тия же сами в своихъ словесѣхъ да рекутся. азъ же о себѣ здѣ явлю.</p>
+         <p>Не токмо убо мене древнии философи возлобиша, но и в новои благодати вси иже во учениихъ божественых писании и прочихъ философъскихъ наказании упражняющиися, ни единъ кто отъ иже в сихъ пребывъ мене не непричастенъ бывъ, якоже и словомъ обьявити· Афанасии, великая слава, иже не точию Александрии но и всеи вселеннѣи похвала, Григории богословъ, Василии великии и Иоаннъ златоустыи, Козма асигкритъ, дамаскинскии Иоаннъ съ тезоименным тому, о немже предваривъ рѣхъ, и инѣхъ множество, якоже в житияхъ ихъ списателие являютъ. вси бо сии отъ юности ихъ и во вся дни жития своего мене возлюбиша и собесѣдницѣ себѣ сочеташа. Прочее же паки ми хваламъ длстоиная о себѣ достоитъ не неизъявити. Есмь бо отъ седми началная и свободная мудрость грамматика, еже домъ ми есть покоя моего всесловесное животно, всякъ человѣкъ. славою бо честна и учениемъ красовита, во устѣхъ сладка, и на сердцы чюдна и на языцѣ свѣтла. Сего ради вси иже разгибающии книги и развивающии свитки мною прочитающе и себе научающе и премудростно ся исполняюще, и другъ друга удивляюще, и всепѣтую славу богу возсылающе, и все еже удобно и лѣтъ человѣку глаголати, то все мною глаголетъ. и кто что пишетъ, или книжная писмена устраяетъ или стихи соплетаетъ или повѣсти изъявляетъ или послания посылаетъ или что таковыхъ составляетъ, то все мною грамматикою снискаетъ, понеже на времена розвожю и на числа розочту и на лица разскажу и на падениа уклоню и на супроужьства сведу, степени разсужю и роды разберу и вся въ писменахъ прочая устроения удобно и разумно со всѣми просодиями и съ точками и з запинками статно и внятно учиню, и не есть безъ мене ни единыя черты яже тростию полагаемая, или писмо или слогъ или часть или рѣчь или слово или статия или стихъ или глава или начало или конецъ, или чему точка или о чемъ запинка, то все мое учение и умѣние и разумѣние и умышление и уложение и положение и всяко въ писменахъ строение и составление мое грамматическое проразумѣние. Такова есмь уставомъ и поставомъ и составомъ и всѣмъ естествомъ грамматика именуюся.</p>
+      </body>
+   </text>      
+
+</TEI>
