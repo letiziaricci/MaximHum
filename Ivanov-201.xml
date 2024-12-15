@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание неизвестному [3] [Poslanie neizvestnomu]</title>
+            
+            <title type="alt" xml:lang="cu-Cyrl">Послание утешительное к неизвестному лицу [Poslanie utešitel'noe k neizvestnomu licu] <ref target="lista-bibliografica.xml#Iva-1969 #MG-2025">(Ivanov 1969: 142; [Maksim Grek 2025])</ref></title>
+ 
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">201</idno>
+            </bibl>
+            
+            <listBibl type="manuscript-collections"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 88</bibl>  
+            </listBibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografica.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="211">211</biblScope>, <biblScope unit="chapter">nr. III.11</biblScope>
+            </bibl> 
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Posl. nr. 17</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, собр. Румянцева 264</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#189r #189v">лл. 189-189об. / ff. 189r-189v</locus>  
+                    
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Слышал есмь, отче, благородию твоему скорбь по неведому всяко строению строителеву, и сам акы человек маловерен опечялихся отчясти.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">[...] Наг изыдох от чрева матере моея, наг и отиду в землю, из я же създан есмь по образу съдетеля своего, у него же съблюдена ми суть вечная блага, яже око не виде, ни ухо слыша, ни нв сердце възыдошя». Здравьствуи, человече, о Христе Господе нашем всем твоим благословеным двором.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>         
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>Incerta <ref target="lista-bibliografia.xml#Bul-1984a">(Bulanin 1984a: 195)</ref></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>[Послание]</term> 
+               <term>[Утѣшение]</term>
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Istruzione</term> 
+               <term>Consolazione (imperscrutabilità dei destini)</term>
+               <term>Povertà nella religione</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->        
+               <term target="#original">Testo originale</term> 
+               <term target="#dubium">Dubium <ref target="lista-bibliografia.xml#Sin-1977">(Sinicyna 1977: 257)</ref></term>
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>11. ПОСЛАНИЕ НЕИЗВЕСТНОМУ</p>  
+      </front>
+      
+      <body>
+         <p>
+            Слышал есмь, отче, благородию твоему скорбь по неведому всяко строению строителеву, и сам акы человек маловерен опечялихся отчясти. Та же въспомянув учителя, <cit><quote xml:id="biblical-1">еда не праведен ли бог наводяй гнев да не будет</quote></cit>, себе укорих, что негораздо устроихся о неизреченных божиих судьбах, ими же строит на ползу нам вся наша. Лутче бо он строит наша вся, нежели яко же мы хощем, мы бо акы землени суще и земным прилежаще всею мыслию, земных стяжаний и различных имений преизобыльство мним быти съвръшено благо и богатство пребывающе в векы, он же акы отец милосерд, милуя паче и хотя творити наследникы вечнующих своих благ да мысль нашу всю отлучити убо от любви земленых и суетных прилежаний наших, преложи яже ея к желанию пребывающих в векы благых. Попущает или на нас самех различныя недугы и напасти, или на любезная нашя имения и стяжаниа, да тако възможем кождо когда познати худость мысли нашея суетныя и преложим ея всю к желанию неизреченых небесных благ, их же уготовил есть господь любящим закон всем сердцем, и по оном исправляют житие свое всякою правдою и смиреномудрием и тръпением скръбных. <cit><quote xml:id="biblical-2">«Блажен бо, — рече, — человек, его же аще накажеши, господи, и от закона твоего <metamark function="end-page" rend="//"/><pb type="folio" n="л.189 об." rend="label-margin-right"/> научиши и»</quote></cit> и прочая. Сие убо известно ведяще, да с всякым благодарением и верою крепкою тръпим случающаяся нам скръбная божиим строением праведным неведомым<anchor xml:id="c1" n="а" rend="super"/>, уяти бо земных наших благ приложение вечных благ дарует нам в будущем. <cit><quote xml:id="biblical-3">«Ничто же бо вънесохом в мир съй, яве, яко ни изнести<anchor xml:id="c2" n="б" rend="super"/> с собою можем», — говорит святый апостол Павел</quote></cit>. Отрини убо безлепичную печаль и глаголи сам с всякым благодарением приснопамятный он глас праведнаго многострадалца оного: «Господь дал, господь взял; яко же господу годе бысть; тако же и бысть; буди имя господне благословено в векы! Наг изыдох от чрева матере<anchor xml:id="c3" n="в" rend="super"/> моея, <cit><quote xml:id="biblical-4">наг и отиду в землю</quote></cit>, из я же създан есмь по образу съдетеля своего, <cit><quote xml:id="biblical-5">у него же съблюдена ми суть вечная блага, яже око не виде, ни ухо слыша, ни на сердце възыдошя»</quote></cit>.
+         </p>
+          <p>  
+             Здравьствуй, человече, о Христе господе нашем всем Твоим благословеным двором.
+         </p>
+      </body>
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Испр. в ркп. <hi rend="distinct">екдомым</hi></p> 
+            </note>
+            <note target="#c2"> 
+               <label rend="super">б</label> <!-- lettera in apice -->
+               <p>Испр., в ркп. <hi rend="distinct">изне</hi></p> 
+            </note>
+            <note target="#c3"> 
+               <label rend="super">в</label> <!-- lettera in apice -->
+               <p>Вставлено по библейскому тексту, в ркп. нет.</p> 
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Пс 7,12 / Sal 7,12)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Sal"><ref>(Пс 93,12 / Sal 93,12)</ref></bibl>
+            <bibl corresp="#biblical-3" type="1Tm"><ref>(1 Тим 6,7 / 1Tm 6,7)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Gb"><ref>(Иов 1,21 / Gb 1,21)</ref></bibl>
+            <bibl corresp="#biblical-5" type="1Cor"><ref>(1 Кор 2,9 / 1Cor 2,9)</ref></bibl>
+         </listBibl>
+         
+      </back>
+      
+   </text>
+</TEI>

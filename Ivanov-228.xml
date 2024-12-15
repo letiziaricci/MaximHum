@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же инока Максима Грека слово благодарьствено къ Господу нашему Иисусъ Христу о бывшеи побѣдѣ на крымскаго пса прѣстательством владычицы нашеа пресвятыа Богородици при благовѣрном великом князѣ Иванѣ Васильевичѣ всея Руси въ лѣто 49 8-а тысящи [Togo že inoka Maksima Greka slovo blagodar'stveno k'' Gospodu našemu Iisus'' Christu o byvšei pobědě na krymskago psa prěstatel'stvom vladyčicy našea presvjatya Bogorodici pri blagověrnom velikom knjazě Ivaně Vasil'evičě vseja Rusi v'' lěto 49 8-a tysjašči]</title>   
+            <title type="alt" xml:lang="cu-Cyrl">Titoli concordi con il titolo editoriale in <ref target="lista-bibliografia.xml#MG-1860">Maksim Grek 1860: 277-289</ref>; <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 155-156</ref>; <ref target="lista-bibliografia.xml#Sin-1977">Sinicyna 1977: 231, 243</ref></title>  
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">228</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 23</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 23</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="241" to="246">241–246</biblScope>, <biblScope unit="chapter">nr. 23</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="277" to="289">277–289</biblScope>, <biblScope unit="chapter">nr. 21</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Sce-1915"><name>Ščeglova</name>, <date>1915</date></ref>: <biblScope unit="page" from="117" to="124">117-124</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#MDA-42"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> 
+                  <msName>РГБ, ф. 173, МДА 42</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#250v #258r">лл. 250об.-258 / ff. 250v-258r</locus>   <!-- 02. Inventario testimone base COLONNA G -->
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима Грека слово благодарьствено къ Господу нашему Иисусъ Христу о бывшеи побѣдѣ на крымскаго пса прѣстательством владычицы нашеа пресвятыа Богородици при благовѣрном великом князѣ Иванѣ Васильевичѣ всея Руси въ лѣто 49 8-а тысящи</title>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">«Кто възъглаголетъ силы Господня, слышаны сътворитъ вся хвалы Его»? Въистину ни единъ доволенъ не точию от сущих на земли силных о премудрости и силѣ словесъ, нъ ниже самѣх, непщую, аггельскых силъ. Повѣдати их и слышаных сътворити, яко же бо божественое существо Его и естество отнюдь непостижимо есть и неказаемо всячьскою мыслию и чювьственою тварию, тѣм же образомъ и величия преестественых, яже от вѣка дѣлъ и устроениих Его презѣлнѣ превъсходят всяческаго ума и мысли.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Тѣм же молим Твоеа благости, преблагыи Господи, благоволи о достоянии Твоемъ и милосердъ бываи всегда о съгрѣшении наших. Милостивъ бо и человѣколюбивъ Богъ еси, и Тебѣ славу възсылаемъ съ безначялным Ти Отцемъ и всесвятым и благым и животворящим Твоимъ Духом, нынѣ и присно и въ вѣкы вѣком. Аминь.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl">
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="И" /> <!-- OPZIONALE: xml:id da mantenese solo se è indicata la lettera 02. Inventario testimone base COLONNA E  -->
+               <witness xml:id="Л">   
+                  <ref target="lista-manoscritti.xml#Slave-123">BNF, Man. Slave 123</ref>
+               </witness>
+               <witness xml:id="Х">  
+                  <ref target="lista-manoscritti.xml#Chlud-73">ГИМ, Хлуд. 73</ref>, <locus type="foliation" target="#377r #388r">лл. 377-388 / ff. 377r-388r</locus> 
+               </witness>
+            </listWit> 
+            
+            <!-- OPZIONALE: bibliografia secondaria per opere dubium -->
+            <listBibl type="secondary-bibliography">
+               <bibl xml:id="Leb-1895">
+                  <ref corresp="lista-bibliografia.xml#Leb-1895"><name>Lebedev</name>, <date>1895</date></ref>: <biblScope unit="page" from="175" to="182">175–182</biblScope>
+               </bibl>  <!-- id preso più giù in "source" di <textclass>/<keywords scheme="#attribution">/<term target="#dubium" source="#"> -->
+               <bibl xml:id="Sce-1915">
+                  <ref corresp="lista-bibliografia.xml#Sce-1915"><name>Ščeglova</name>, <date>1915</date></ref>
+               </bibl> 
+            </listBibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>Agosto-settembre 1541 <ref target="lista-bibliografia.xml#MG-2014">(Maksim Grek 2014: 387)</ref></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Слово благодарьствено</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Preghiera di ringraziamento</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution">
+               <term target="#original">Testo originale <ref target="lista-bibliografia.xml#Rzi-1934 #Iva-1969 #MG-2014">(Ržiga 1934: 80; Ivanov 1969: 155-156; Maksim Grek 2014: 386-387)</ref></term>
+               <term target="#dubium">Dubium <ref target="lista-bibliografia.xml#Leb-1895 #Sce-1915">(Lebedev 1895: 175-182; Ščeglova 1915: ???)</ref></term>
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ТОГО ЖЕ ИНОКА МАКСИМА ГРЕКА СЛОВО БЛАГОДАРЬСТВЕНО КЪ ГОСПОДУ НАШЕМУ ИИСУСЪ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 251" rend="label-margin-right"/> ХРИСТУ О БЫВШЕИ ПОБѣДѣ НА КРЫМСКАГО ПСА ПРѣДСТАТЕЛЬСТВОМ ВЛАДЫЧИЦЫ НАШЕА ПРЕСВЯТЫА БОГОРОДИЦИ ПРИ БЛАГОВѣРНОМ ВЕЛИКОМ КНЯЗѣ ИВАНѣ ВАСИЛЬЕВИЧѣ ВСЕЯ РУСИ ВЪ ЛѣТО 49 8-А ТЫСЯЩИ. <metamark function="texts-sequence" rend="23"/><anchor xml:id="c1" n="а" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p><cit><quote xml:id="biblical-1">«Кто възъглаголетъ силы Господня, слышаны сътворитъ вся хвалы Его»</quote></cit>? Въистину ни единъ доволенъ не точию от сущих на земли силных о премудрости и силѣ словесъ, нъ ниже самѣх, непщую, аггельскых силъ. Повѣдати их и слышаных сътворити, яко же бо божественое существо Его и естество отнюдь непостижимо есть и неказаемо всячьскою мыслию и чювьственою тварию, тѣм же образомъ и величия преестественых, яже от вѣка дѣлъ и устроениих Его презѣлнѣ превъсходят всяческаго ума и мысли. Но понеже обрѣтаемъ нѣкых от древних, не токмо въ Вѣтхом законѣ, яков же бе Моисеи онъ премногыи въ премудрости и святыни, Даниилъ же и Исаиа, Иеремиа и прочии иже по них священнии Божии пророци, нъ еще и в Новомъ завѣтѣ обрѣтаемъ въ всякои премудрости и святыни въсиавших, не обле<metamark function="end-page" rend="//"/><pb type="folio" n="л. 251 об." rend="label-margin-right"/>нившихся по възможному человѣчьстеи немощи въспѣти преестественых дѣлъ Вседръжителя и к послѣдним родом ихъ препосылати по тщавшихся, да всегда от всѣхъ и въ всѣх прославляется иже всѣх вкупѣ Съдѣтель же и Промысленикъ. Приидѣте убо, и мы в них же достигоша концы вѣкъ, по божественому рещи апостолу, не небрежем сущих по силѣ нашеи въспѣвании великаго Бога и Спаса нашего Иисуса Христа, но вседушно въспоим и славословим неисчетное Его еже о нас человѣколюбие и благость, поне иже не преста николи же промышляа и пекыися о нас и строяя выну яже о нас на лучшее. Не тако отець промышляетъ о своих чядѣхъ, яко же преблагы нашь Съдѣтель и Промысленикъ промышляетъ и печется о правѣ<anchor xml:id="c2" n="б" rend="super"/> и вѣрующих в Него и твердѣ уповающих на Нь. Родившеи бо<anchor xml:id="c3" n="в" rend="super"/> нас и въспитавшии многажды отринули нас и отвращаються и прочее, не знаютъ нас погрубивших имъ о нѣчесомъ и обесчестивших. Сътворивыи же нас, аще и бес числа оскорбим Его <metamark function="end-page" rend="//"/><pb type="folio" n="л. 252" rend="label-margin-right"/> преступлениемъ спасителных Его заповѣдеи, аще и отметаемся Его Самого и яже к нам Его благотворении, ниже сице отрѣвает нас, ниже преставает благотворити нам, но всякым образомъ пребываетъ, устраа наше еже к Нему възвращение же и исправление. И сие проавлено есть от бесчисленых Его благотворении, их же изначала показалъ есть о нас заблуждьших от Него завистию диаволею и змииною лестию, аггелы приставивъ нам хранителя вкупѣ и наставникы, пророкы же и Законоположителя пославъ, знамениа же и чюдеса различна же и преестествена показав же и сътворь на въздусѣ, на земли и на мори — ова убо яко да нашему неразумному смыслу извѣстит величество Своего божества и вседръжительнаго господьства, ова же да прославитъ, вкупѣ же и изметъ нас от насильствующих и обидящих нас. Главизна же бесчисленых Его яже о нас благотворении и неисчетных щедрот — Себе о нас предаде на смерть, смерть же горку и поносну, облекся непреложно въ иже по нас непо<metamark function="end-page" rend="//"/><pb type="folio" n="л. 252 об." rend="label-margin-left"/>коривых и отступниковъ, зракъ и плоть приимъ от пречистых кровеи Пречистыа и Приснодѣвы Марии, покрова и предстателницы всѣх вездѣ сущих православных христианѣх. Вкусив же смерть человѣколѣпнѣ, иже есть всѣх вкупѣ животъ, и въскресъ из мертвых и 40 дни, по Въскресении Своем<anchor xml:id="c4" n="г" rend="super"/>, съ ученикы Своими въдворяяся и таино уча их, яже о царствии Божии, и различными образы извѣстивъ им Въскресение Свое и възнесеся на небеса съ славою зрящим учеником Его, и <cit><quote xml:id="biblical-2">«сѣде<anchor xml:id="c5" n="д" rend="super"/> одесную престола величьствиа на высокых»</quote></cit>, <cit><quote xml:id="biblical-3">«покоршимся Ему началом и властем и силам»</quote></cit>, не забытъ Своих учениковъ, но яко же обѣща им, еще пребывая у них, приим от Отца даръ Святаго Духа, излиа богатно и на них, сице же въоруживъ и наплънивъ их всякыа благодати и разума и премудрости, посла их въ весь миръ, рекъ имъ: <cit><quote xml:id="biblical-4">«<anchor xml:id="c6a1" n="е" rend="super"/>Шедше в миръ весь, научите вся языкы, крестяще их въ имя Отца и Сына и Святаго Духа, учаще их блюсти вся, елика заповѣдах вамъ, и се Азъ с вами есмь вся дни, даже до скончяниа вѣка, аминь<anchor xml:id="c6a2" n="е" rend="super"/>»</quote></cit>. <metamark function="end-page" rend="//"/><pb type="folio" n="л. 253" rend="label-margin-left"/> Еда обѣщалъ<anchor xml:id="c7" n="ж" rend="super"/> убо, не исполнил же? Еи убо, исполнилъ. Ими бо акы солнце лучами своими подсолнечьную всю осиаваетъ, явльшеся на востоцѣ, такожде тѣми всѣмъ сущим вездѣ языком възъсиялъ есть свѣтъ неблазненаго богоразумиа и на разум истинныи наставилъ есть, отставивъ ихъ идольскыа прельсти<anchor xml:id="c8" n="з" rend="super"/>. И сие, прежде лѣтъ многыхъ, нѣкыи от богодухновеных предвъзвѣсти, рекъ: <anchor xml:id="c9a1" n="и" rend="super"/><cit><quote xml:id="biblical-5">«Въ всю землю изыде вѣщание их и в конци их вселеныа глаголы их», о апостолѣх и еуагельскои проповѣди глаголя сие. О самом же Пославшемъ их сице яснѣ таино учит глаголя: «Възрадуется, яко же исполинъ тещи путь. От конца небеси исход Его и доитие Его до конца небеси, и нѣсть иже укрыется теплоты Его»<anchor xml:id="c9a2" n="и" rend="super"/></quote></cit>, рекше благодати Всесвятаго Духа, яже разжигаетъ Божиа любве въ душа вѣрующих и боговидны съдѣловает а исполняемых всегда божественаго свѣта и разума неблазненаго.</p>
+         <p>Симъ убо сице ся имущим, како мы смирении достоино възблагодаримъ неисчетному Его о нас человѣколюбию и благости, о всѣх Его их же вы<metamark function="end-page" rend="//"/><pb type="folio" n="л. 253 об." rend="label-margin-left"/>ну показа чюдесных о нас, и наипаче о Немъ же нынѣ паче надежи преславнѣ избавилъ ны есть из рукы ненавидящих нас и по подобию дивиих звѣреи устремившихся на ны безбожных скыфъ, нашедших заклати и погубити учястие Господне избранное и възжделѣнное, в нем же благовѣрно и православно славится Сам тъи единородныи Сынъ и Слово пребезначялнаго Отца, Иисус Христос, Царь царствующих и Господь господьствующих, съ Отцемъ и Всесвятымъ Духом, и съ всенепорочною Владычицею нашею Богородицею и Приснодѣвою Мариею, неискусомужною материю Своею, яже выну предстательствуетъ и поборает по нас и молится единородному Сыну Своему и Творцу всѣх, измоляющи выну Его нам, о них же акы человѣцы прогнѣваем человѣколюбныа утробы благости Его Ея же святыми молитвами и предстательствы умоленъ бывъ, единородныи Сынъ Еа, началникы убо и воеводы благовѣрнаго наслѣдиа Своего дръзновениа и удачьства наполниль и бодрости многыа, и разума браннаго, самаго же пса скифьскаго и яже <metamark function="end-page" rend="//"/><pb type="folio" n="л. 254" rend="label-margin-right"/> о немъ кровопиица звѣри страхом и торопомъ съкрушивъ, бѣжати сътворил<anchor xml:id="c10" n="к" rend="super"/> съ студом многым, ниже прьвое сражение наших въиньствъ стерпѣвша, иже и всяко погыблъ бы убо ту и съ всѣмъ въиньством, аще бы от воевод наших и дана была воля въином гнати въ слѣд его, толика дръзновениа и добляго мудрованиа исплънилъ есть благовѣрныа въины наша съкрушаяи брани Господь мышцею высокою.</p>
+         <p>Потопивыи древле в Чермном мори все воиньство фараоне гонителя и мучителя, иже и благовѣрнаго царя Езекию избавилъ есть богохулных прещении и лютаго осада оного съквернаго и богоборца Сенахирима царя ассирииска, 185 тысящь въиньствъ его, рукою аггела в нощи убивъ, а прочаа въ бѣгъство обративъ, иже благовѣрныи Константинъград многажды избавилъ есть древле от страшных варварьскых нахождении и осад. Тъи же и нынѣ Всесилныи и Единъ непобѣдимыи защищаа Царствующаго градовомъ рускымъ Москву всехвалную, посѣтилъ есть въсто<metamark function="end-page" rend="//"/><pb type="folio" n="л. 254 об." rend="label-margin-right"/>ком свыше благовѣрнаго убо сеа царя и самодръжца всея Руси великаго<anchor xml:id="c11" n="л" rend="super"/> князя Ивана Васильевичя юнна съблюлъ, кромѣ всякаго страха и торопа, въ Царьствующемъ градѣ Москвѣ правяща благонадежно и мужьственѣ потребнаа нашедшиа нужды<anchor xml:id="c12" n="м" rend="super"/>, добляя же потребникы благовѣрныа дръжавы его, воеводы же и воины съ всѣх градовъ вмалѣ събравъ и въоруживъ ревностию, яже о благовѣрии, въ противоплъчение устремивъшагося бѣшено на нас с тяжкою силою новаго хагана, его же прещениа и бѣшениа и неудръжимое устремление скоро разрушилъ еси, акы паучино ткание, и влъка показавъ, тще ротъ розинувша и съ зѣлною грдостию и похвалою пришедша, съ студом многым и погублениемъ немалым своих отпустилъ его в норѣх его погрѣшивша их же имѣ надеж треокаянныи и зѣло себѣ зазирающа.</p>
+         <p>Таково убо еже о нас недостоиных человѣкълюбие и благость великаго Бога и Спаса нашего Иисуса Христа, не точию в настоящем времени, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 255" rend="label-margin-right"/> но еще от самыа прьвыа нашеа вѣры яже в Него и обращениа, яко<anchor xml:id="c13" n="н" rend="super"/> же лѣтописчиа книгы повѣствуютъ!</p>
+         <p>Таково же и толь велие теплое предстательство и крѣпкаа помощь и заступление, еже к нам, Пресвятыа владычицы нашеа Богородици и Приснодѣвы Марии, на ню же по Бозѣ уповаемъ и о неи же хвалимся, и ею же и спастися надѣемся, о Неи же и радуемся и красуемся не меньши, нежели древле благовѣрныи град Коньстантина Великаго прьваго и изряднаго въ христианѣх царѣх. Таяжде бо съдѣяным древле тамо ею чюдеснаа являетъ и нынѣ у нас и в прочее покажет, аще убо и мы вседушно пребудем дѣлом исплъняюще спасителныа заповѣди Единороднаго Сына Еа Иисуса Христа Господа и Бога нашего, сирѣчь отцепреданую правую вѣру, яже в Него, и любовь нелицемѣрну от всего сердца и силы и мысли и души нашеа дръжимъ до коньца непреложну, и суд любим, иже не на лице и мьзды взираетъ, и милость ко всѣм вкупѣ требующим и в бѣдах живущимъ. Аще три сиа прилѣжно съблюдаемъ до ко<metamark function="end-page" rend="//"/><pb type="folio" n="л. 255 об." rend="label-margin-left"/>нца съ страхом Божиимъ, блажени въ истину мы и достохвални и всѣмъ враждующим намъ и ненавидящим нас страшни будемъ, Богу покрывающу нас всесилною десницею Своею. Неложенъ бо глаголяи: <anchor xml:id="c14a1" n="о" rend="super"/>«Моисии, Ааронъ въ иереех Его и Самуилъ въ призывающих имя Его призываху Господа, и Тъи послушаше их, въ столпѣ облачнѣмъ глаголаше к нимъ». Чесо ли ради, о пророче? «Зане храняху, рече, свидѣниа Его и повелѣниа Его, яже даде имъ»; таже приглаголетъ: <cit><quote xml:id="biblical-6">«Господи Боже нашь, Ты послушааше их, Боже, Ты милостивъ бывааше имъ и отмщаа на вся начинаниа их, рекше»<anchor xml:id="c14a2" n="о" rend="super"/></quote></cit>, на которых ни буди окрестных враговъ ихъ идяху ратию, пособьствоваше и побѣду имъ на них даяше. И индѣ глаголетъ подобна сим: <anchor xml:id="c15a1" n="п" rend="super"/><cit><quote xml:id="biblical-7">«аще людие Мои послушали Мене, и Израиль в пути Моя, сирѣчь в заповѣдех Моихъ ходилъ бы, ни о чем же убо смирилъ быхъ <anchor xml:id="c16a1" n="р" rend="super"/>врагы ихъ<anchor xml:id="c16a2" n="р" rend="super"/>, рекше, до конца бых истребилъ их, и на стужающаа имъ възложилъ бых руку Мою»</quote></cit>. И индѣ: <cit><quote xml:id="biblical-8">«Яко не оставит Господь жезлъ грѣшных на жребии праведных<anchor xml:id="c15a2" n="п" rend="super"/>, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 256" rend="label-margin-left"/> яко да не прострутъ праведнии въ безакониихъ рукъ своихъ»</quote></cit>. Тогда же праведнии есме и глаголемся и от Самого Господа покрываеми бываемъ и въ всяком мирѣ и твръдости съблюдаеми есме, егда святыа заповѣди Его и повелѣниа съ страхом и любовию Божиею съблюдаем въ сердцихъ наших и дѣлом исполняем ихъ, яко же есть писано: <cit><quote xml:id="biblical-9">«Миръ многъ любящим законъ Твои и нѣсть имъ съблазнъ»</quote></cit>. Аще же любящим законъ, сирѣчь заповѣди Владыкы Христа дѣломъ исполняющим миръ многъ есть, проявлено убо, яко не любящим и не единъ съблазнъ, нъ всяка скорбь и тѣснота и гнѣвъ, по божественому апо столу Павлу, глаголющему: <cit><quote xml:id="biblical-10">«Открывает бо ся гнѣвъ Божии съ небесе на всяко нечестие и неправду человѣковъ»</quote></cit> и прочаа, яко же и Самъ Тъи Богъ и Отець Господа и Бога нашего Иисуса Христа собою претит намъ вѣрующим в Него и крещающимся, сицѣ явѣ глаголя: <anchor xml:id="c17a1" n="с" rend="super"/>«Аще оставят сынове Его», сирѣчь мы вѣрующеи въ Христа, <cit><quote xml:id="biblical-11">«законъ Мои и в судьбахъ Моихъ не поидутъ», сирѣчь не по заповѣдех Моих жити начнут, «аще оправда<metamark function="end-page" rend="//"/><pb type="folio" n="л. 256 об." rend="label-margin-left"/>ниа Моа осквернят и заповѣди Моа не съблюдутъ, посещу жезлом беззакониа их и ранами неправды их, милость же Мою не разорю от них<anchor xml:id="c17a2" n="с" rend="super"/>»</quote></cit>.</p>
+         <p>Такова убо благаобѣщаниа и страшна прещениа имуще от всѣх Съдѣтеля и Владыкы, да украшаим себе всегда дѣлы добрыми, сирѣчь праведным судомъ, смиреномудрием, любовию нелицемѣрною и единомыслиемъ к себѣ самѣмъ и другъ къ другу, благопокорьством же и послушаниемъ неразсудным к самому благовѣрному и богохранимому царю и государю нашему всехвалному великому князю всея Руси Ивану Васильевичю и къ утвержающему отвсюду и святящему нас преподобными молитвами всеосвященному митрополиту всея Руси господину Макарию<anchor xml:id="c18" n="т" rend="super"/> и къ прочим боголюбивым епископомъ. Тии бо, рече святыи апостолъ, бдят, сирѣчь пекутся и тружаются о душах ваших, акы отвѣтъ дати хотяще начялнику пастырю ихъ, иже<anchor xml:id="c19" n="у" rend="super"/> есть Христос Богъ нашь, надо всѣми же сими щедротами и милосердиемъ къ всѣм нищим и требующим помощи, ни единым бо <metamark function="end-page" rend="//"/><pb type="folio" n="л. 257" rend="label-margin-right"/> другымъ дѣлом нашимъ добрым толь скоро милостивно на нас призираетъ преблагыи Спасъ и молитвам нашимъ внимаетъ и исплъняетъ нам прошениа<anchor xml:id="c20" n="ф" rend="super"/> наша, яко же щедротами и милосердиемъ еже к сущим въистину въ скудости нужных. Аще сице устроим своа вещи и сице жительствуемъ и такыми дѣлы нашими тщимся славити пресвятое и поклоняемое имя Его, и тъи въспрославит нас не точию на небесех, но убо и на земли, въ елико время живемъ на неи. Глаголют бо сице явьственеише неложнаа и поклоняемаа уста Его: <cit><quote xml:id="biblical-12">«Прославляющаа Мя прославлю, а безчествуюшеи мя обезчестятся»</quote></cit>.</p> 
+         <p>Понеже убо молитвами и предстательствы Пречистыа Владычици нашеа Богородици и Приснодѣвы Марии избавлени быхом преславно от прещении и звѣрьскаго устремлениа безбожных скифъ, и они убо съ студом многым и печалию исчезоша от наших предѣлъ, мы же безвредни съблюдохомся, крепкою десницею Вышьняго покрываеми. Приидите убо, и мы с веселиемъ духовным и благодарениемъ мно<metamark function="end-page" rend="//"/><pb type="folio" n="л. 257 об." rend="label-margin-right"/>гымъ рцим съ блаженым царемъ и пророкомъ Давидом: <anchor xml:id="c21a1" n="х" rend="super"/><cit><quote xml:id="biblical-13">«Благословенъ Господь, иже не дасть нас на ловъ зубомъ их, душа наша, яко же птица избавися от сѣти ловящих, сѣть съкрушися, и мы избавлени быхом, помощь наша въ имя Господне Сътворшаго небо и землю. Сии на колесницах и сии на коних, мы же въ имя Господне призовемъ, сего ради тии убо спяти быша и падоша, мы же въстахом и исправихомся»<anchor xml:id="c21a2" n="х" rend="super"/></quote></cit>. Господи, спаси царя нашего благовѣрнаго раба твоего Ивана всехвалнаго великаго князя всея Руси, достоаниа Твоего възлюбленаго и сподоби его, Господи, добрѣ и Тебѣ угоднѣ скыпетри земьскаго царства исправивша даже до старости маститы и матерьства своего, и Твоего получити небеснаго непоколеблемаго царствиа съ всѣми, иже от вѣка угодившими Тебѣ благочестивыми цари. Еи, Господи Боже, иже Единыи милостивъ и человѣколюбивъ, съблюди его въ всяком здравии и духовном веселии и мирѣ и тишинѣ, и вся, яже о немъ светлѣиша князи и боляры, воеводы же и чинона<metamark function="end-page" rend="//"/><pb type="folio" n="л. 258" rend="label-margin-right"/>чялникы и все Его благовѣрно въиньство, поющих Ти всегда и глаголющих: <cit><quote xml:id="biblical-14">«Десница Господня сътвори силу, десница Господня възне се нас»</quote></cit>. <cit><quote xml:id="biblical-15">«Десница Твоа, <anchor xml:id="c22a1" n="ц" rend="super"/>Господи, прославися<anchor xml:id="c22a2" n="ц" rend="super"/> въ крѣпости, деснаа Твоа рука, Господи, съкруши врагы, и множьством славы Твоеа сътрлъ еси съпротивных»</quote></cit>. Прослави, Владыко, в них имя Твое святое, и да увѣдят вси съпротивнии их, яко Ты еси Царь имъ, и ты обладаеши всѣми, яже на небесехъ и на земли, зане и тии о имени Твоемъ хвалятся, и Тебе Единаго Бога истинна, и развѣ Тебе иного не познаша. Тѣм же молим Твоеа благости, преблагыи Господи, благоволи о достоянии Твоемъ и милосердъ бываи всегда о съгрѣшении наших. Милостивъ бо и человѣколюбивъ Богъ еси, и Тебѣ славу възсылаемъ съ безначялным Ти Отцемъ и всесвятым и благым и животворящим Твоимъ Духом, нынѣ и присно и въ вѣкы вѣком. Аминь.</p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" > 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Обозначение номера главы кин. на правом поле.</p>
+            </note>
+            <note target="#c2" >
+               <label rend="super">б</label>
+               <p>Слово правлено.</p>
+            </note>
+            <note target="#c3" >
+               <label rend="super">в</label>
+               <p>В ркп. испр. из <hi rend="distinct">убо</hi>.</p>
+            </note>
+            <note target="#c4" >
+               <label rend="super">г</label>
+               <p>Далее зач. <hi rend="distinct">съ</hi>.</p>
+            </note>
+            <note target="#c5" >
+               <label rend="super">д</label>
+               <p>В ркп. испр. из <hi rend="distinct">седе</hi> почерком <choice><abbr>М</abbr> <expan>почерк Максима Грека / mano di Massimo il Greco</expan></choice>.</p>
+            </note>
+            <note target="#c6"> 
+               <label rend="super">е-е</label>
+               <p>Отмечено вертикальным рядом знаков на левом поле.</p>
+            </note>
+            <note target="#c7" >
+               <label rend="super">ж</label>
+               <p>Конечная <hi rend="distinct">ъ</hi> в ркп. правлена.</p>
+            </note>
+            <note target="#c8" >
+               <label rend="super">з</label>
+               <p><hi rend="distinct">пре</hi> вписано на правом поле почерком <choice><abbr>П</abbr> <expan>почерк писца/писцов / mano del copista/dei copisti</expan></choice>.</p>
+            </note>
+            <note target="#c9a1" targetEnd="#c9a2"> 
+               <label rend="super">и-и</label>
+               <p>Отмечено вертикальным рядом знаков на правом поле.</p>
+            </note>
+            <note target="#c10" >
+               <label rend="super">к</label>
+               <p>Конечная л вписана над строкои почерком <choice><abbr>М</abbr> <expan>почерк Максима Грека / mano di Massimo il Greco</expan></choice>.</p>
+            </note>
+            <note target="#c11" >
+               <label rend="super">л</label>
+               <p>В ркп. ошибочно <hi rend="distinct">великакаго</hi> не правлено.</p>
+            </note>
+            <note target="#c12" >
+               <label rend="super">м</label>
+               <p>В ркп. испр. из <hi rend="distinct">нужда</hi>.</p>
+            </note>
+            <note target="#c13" >
+               <label rend="super">н</label>
+               <p><hi rend="distinct">ко</hi> вписано над строкои почерком <choice><abbr>М</abbr> <expan>почерк Максима Грека / mano di Massimo il Greco</expan></choice>.</p>
+            </note>
+            <note target="#c14a1" targetEnd="#c14a2"> 
+               <label rend="super">о-о</label>
+               <p>Отмечено вертикальным рядом знаков на левом поле.</p>
+            </note>
+            <note target="#c15a1" targetEnd="#c15a2"> 
+               <label rend="super">п-п</label>
+               <p>Отмечено вертикальным рядом знаков на левом поле.</p>
+            </note>
+            <note target="#c16a1" targetEnd="#c16a2"> 
+               <label rend="super">р-р</label>
+               <p>Вписано на левом поле почерком <choice><abbr>М</abbr> <expan>почерк Максима Грека / mano di Massimo il Greco</expan></choice> со знаком вставки.</p>
+            </note>
+            <note target="#c17a1" targetEnd="#c17a2"> 
+               <label rend="super">с-с</label>
+               <p>Отмечено вертикальным рядом знаков на левом поле.</p>
+            </note>
+            <note target="#c18" >
+               <label rend="super">т</label>
+               <p><hi rend="distinct">Иоасафу</hi> в ркп. Л.</p>
+            </note>
+            <note target="#c19" >
+               <label rend="super">у</label>
+               <p>В ркп. испр. из <hi rend="distinct">ихже</hi>.</p>
+            </note>
+            <note target="#c20" >
+               <label rend="super">ф</label>
+               <p>В ркп. испр. из <hi rend="distinct">промышление</hi>.</p>
+            </note>
+            <note target="#c21a1" targetEnd="#c21a2"> 
+               <label rend="super">х-х</label>
+               <p>Отмечено вертикальным рядом знаков на левом поле.</p>
+            </note>
+            <note target="#c22a1" targetEnd="#c22a2"> 
+               <label rend="super">ц-ц</label>
+               <p>Вписано на верхнем поле почерком <choice><abbr>Р</abbr> <expan>почерк редактора/редакторов / mano del revisore/dei revisori</expan></choice> (?).</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Пс 105, 2 / Sal 105,2)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Eb"><ref>(Евр 1, 3 / Eb 1,3)</ref></bibl>
+            <bibl corresp="#biblical-3" type="1Pt"><ref>(I Петр 3, 2 / 1Pt 3,2)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Mt"><ref>(Мф 28, 19 / Mt 28,19)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Sal"><ref>(Пс 18, 5-7 / Sal 18,5-7)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Sal"><ref>(Пс 98, 6-8 / Sal 98,6-8)</ref></bibl>
+            <bibl corresp="#biblical-7" type="Sal"><ref>(Пс 80, 14-15 / Sal 80,14-15)</ref></bibl>
+            <bibl corresp="#biblical-8" type="Sal"><ref>(Пс 124, 3 / Sal 124,3)</ref></bibl>
+            <bibl corresp="#biblical-9" type="Sal"><ref>(Пс 118, 165 / Sal 118,165)</ref></bibl>
+            <bibl corresp="#biblical-10" type="Rm"><ref>(Рим 1, 18 / Rm 1,18)</ref></bibl>
+            <bibl corresp="#biblical-11" type="Sal"><ref>(Пс 88, 31–34 / Sal 88,31-34)</ref></bibl>
+            <bibl corresp="#biblical-12" type="1Re"><ref>(I Цар 2, 30 / 1Re 2,30)</ref></bibl>
+            <bibl corresp="#biblical-13" type="Sal"><ref>(Пс 123, 6–8; Пс 19, 8-9 / Sal 123,6–8; Sal 19,8-9)</ref></bibl>
+            <bibl corresp="#biblical-14" type="Sal"><ref>(Пс 117, 16 / Sal 117,16)</ref></bibl>
+            <bibl corresp="#biblical-15" type="Sal"><ref>(Исх 15, 6-7 / Es 15,6-7)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

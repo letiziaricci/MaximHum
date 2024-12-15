@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание другу об избавлении от блудных помыслов [Poslanie drugu ob izbavlenii ot bludnych pomyslov]</title>   
+            <title type="alt" xml:lang="cu-Cyrl">Инока Максима Грека послание къ нѣкоему другу его, сѣдящу въ темницы и просившу у него, како избыти отъ искушения сатанина, бываему истицанию скверному во снѣ, и отъ скоктаний стужаему и помысломъ блуднымъ и отъ малодушия [Inoka Maksima Greka poslanie k'' někoemu drugu ego, sědjašču v'' temnicy i prosivšu u nego, kako izbyti ot'' iskušenija satanina, byvaemu isticaniju skvernomu vo sně, i ot'' skoktanij stužaemu i pomyslom'' bludnym'' i ot'' malodušija] <ref target="lista-bibliografia.xml#MG-1860 #Iva-1969 #Sin-1977">(Maksim Grek 1860: 248-251; Ivanov 1969: 138; Sinicyna 1977: 246)</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl">[Titolo concorde con il titolo editoriale in <ref target="lista-bibliografia.xml#MG-2025">Maksim Grek 2025</ref>]</title>  
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <notesStmt>
+            <note type="textual-relationships">Testo analogo per contenuto a Ivanov 60 (traduzione) e Ivanov 194 (inedito)</note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Ivanov">186</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 91</bibl>                
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 52</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">  
+               <ref target="lista-bibliografia.xml#Zur-2011"><name>Žurova</name>, <date>2011</date></ref>: <biblScope unit="page" from="133" to="135">133–135</biblScope> 
+            </bibl>
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="248" to="251">248-251</biblScope>, <biblScope unit="chapter">nr. 18</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">nr. 9</biblScope> 
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Bolš-285"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, собр. Большакова, № 285</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 52 / cap. 52</locus>   
+                     <locus type="foliation" target="#120r #122v">лл. 120-122об. / ff. 120r-122v</locus>   
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима Грека. Послание къ нѣкоему другу его, сѣдящу въ темници и просившу у него, како избыти от искушениа сатанина, бываему истицанию сквръному въ снѣ, и от скоктании стужаему, и помысловъ блудных, и от малодушиа</title>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Понеже прошению твоему удивихся, что въ таковѣи скръби обръжимъ, просищь съ прилѣжаниемъ у мене лѣчбу душевную, о нем же стражаешь по зависти бѣсовьстѣи.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">А благоденьствие иноку то есть, егда всею душею и желаниемъ сердечнымъ ходить всегда въ путь заповѣдеи Спасовыхъ и уставохъ отечьчскыхъ.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" /> 
+               
+               <witness xml:id="Р">   
+                  <ref target="lista-manoscritti.xml#Rum-264">РГБ, собр. Румянцева, № 264</ref>, <locus type="chapter">ст. 91 / art. 91</locus>, <locus type="foliation" target="#194r #195r">лл. 194-195 / ff. 194r-195r</locus>   
+               </witness> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label"> 
+               <term>Послание</term> 
+            </keywords>
+            <keywords scheme="#scope">  
+               <term>Vita monastica (la tentazione demoniaca negli istinti della carne e nei pensieri lussuriosi)</term> 
+               <term>Istruzione</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>    
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="lista-destinatari.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="lista-destinatari.xml#x">un amico recluso</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><pb type="folio" n="л. 120" rend="label-margin-left"/> <anchor xml:id="v1a1" n="1" rend="super"/>ТОГО ЖЕ ИНОКА МАКСИМА ГРЕКА. ПОСЛАНИЕ КЪ НѢКОЕМУ ДРУГУ ЕГО, СѢДЯЩУ ВЪ ТЕМНИЦИ И ПРОСИВШУ У НЕГО, КАКО ИЗБЫТИ ОТ ИСКУШЕНИА САТАНИНА, БЫВАЕМУ ИСТИЦАНИЮ СКВРЪНОМУ ВЪ СНѢ, И ОТ СКОКТАНИИ СТУЖАЕМУ, И ПОМЫСЛОВЪ БЛУДНЫХ, И ОТ МАЛОДУШИА<anchor xml:id="v1a2" n="1" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Понеже<anchor xml:id="v2" n="2" rend="super"/> прошению твоему удивихся, что въ таковѣи скръби обдръжимъ, просишь съ прилѣжаниемъ у мене лѣчбу душевную, о нем же стражешь по зависти бѣсовьстѣи. Азъ же, убогыи от всякыя добродѣтели <metamark function="end-page" rend="//"/><pb type="folio" n="л. 120 об." rend="label-margin-left"/> и неискусныи въ таковых лѣкованиихъ, откуду и како имамъ пособити тебѣ, самъ наипаче требуя таковаго<anchor xml:id="v3" n="3" rend="super"/> врачевания? Обаче по<anchor xml:id="v4" n="4" rend="super"/> твоеи извѣстнѣи вѣрѣ, Богу вразумляющу неразумную мысль мою, въспомяну тебѣ, яже<anchor xml:id="v5" n="5" rend="super"/> самъ вѣдаешь.</p>
+         <p>Скотолѣпное распаление и послѣдующее ему нощное осквернение или от зѣлныя теплоты естественыя силу емлет, или от сытости безмѣрныя сладчаищих брашенъ и питиих<anchor xml:id="v6" n="6" rend="super"/>, или от прешедшия<anchor xml:id="v7" n="7" rend="super"/> частыя потребы и обучения его. <anchor xml:id="v8a1" n="8" rend="super"/>Есть же<anchor xml:id="v8a2" n="8" rend="super"/> коли и от гръдости, осужающим<anchor xml:id="v9" n="9" rend="super"/> намъ ближних своихъ. Къ сим же, и еже<anchor xml:id="v10" n="10" rend="super"/> от бѣсовъ на нас непрестанное лукавство <anchor xml:id="v11a1" n="11" rend="super"/>и дѣиство<anchor xml:id="v11a2" n="8" rend="super"/>, разжигающихъ въ сердцихъ наших скотскую похоть. И пръвых<anchor xml:id="v12" n="12" rend="super"/> двухъ виновных таковыя <metamark function="end-page" rend="//"/><pb type="folio" n="л. 121" rend="label-margin-left"/> богомръзкыя гнуси погашаеть и истребляеть до конца уятиеизлишныхъ брашенъ и спаниа, якоже учить нас глаголяи: <cit><quote xml:id="biblical-1">«Азъ же внегда они стужаху ми, сирѣчь бѣси и помыслы блуднии, облачахся въ вретище и смиряхъ постом душу мою»</quote></cit>. «Вретищем» же разумѣи плачь и умиление, и покоя телеснаго небрежение. Такожде тъи же учить нас, глаголя: <cit><quote xml:id="biblical-2">«Възвратихся на страсть, егда унзе ми тернъ»</quote></cit>. «Тернъ»<anchor xml:id="v13" n="13" rend="super"/> разумѣи разжьженую стрѣлу блудную, «възвращение же на<anchor xml:id="v14" n="14" rend="super"/> страсть» разумѣи самоизволное озлобление, имже себе кто озлобляеть неядениемъ многым и бдѣниемъ, и подвигы духовными всячьскыми<anchor xml:id="v15" n="15" rend="super"/>, съмиреномудриемъ сердечным и молитвою чистою. Еже и инде сказуеть намъ пространнѣе, сице глаголя: <metamark function="end-page" rend="//"/><pb type="folio" n="л. 121 об." rend="label-margin-left"/><cit><quote xml:id="biblical-3">«Озлобихъ себе и слякохся до конца, сирѣчь всячьскым постничьскым образомъ<anchor xml:id="c1" n="а" rend="super"/> себе озлобихъ, и весь день, сирѣчь<anchor xml:id="v16" n="16" rend="super"/> по всему житию своему<anchor xml:id="v17" n="17" rend="super"/>, сѣтуя хождах»</quote></cit>, сирѣчь всегда поминая грѣх мои, николи же престахъ тужя и скръбя, и плачя<anchor xml:id="v18" n="18" rend="super"/> о моемъ съгрѣшении. И се чесо ради? <cit><quote xml:id="biblical-4">Зане, рече, лядвия моя наплънишася поругании, сирѣчь блужении, и нѣсть исцѣления<anchor xml:id="v19" n="19" rend="super"/> въ плоти моеи»</quote></cit>.</p>
+         <p>Но о сихъ убо доволно речеся.</p>
+         <p>А понеже реклъ еси: «Аз же малодушенъ есмь», - утѣшаи себе тѣм же праведнымъ, глаголющемъ: <cit><quote xml:id="biblical-5">«Се удалихся бѣгая и въдворихся въ пустыни»</quote></cit>, и тамо како себѣ помогаше<anchor xml:id="v20" n="20" rend="super"/>, стужаемому от малодушия и бури. Слыши внятно: <cit><quote xml:id="biblical-6">Ждахъ, рече, Бога, спасающаго мя от малодушия и бури»</quote></cit>, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 122" rend="label-margin-left"/> всяческых тревлънении помысленых, от бѣсовъ движимых. Того же праведнаго подражаи, и ты по силѣ своеи съ вѣрою и надежею непостыдною яже на человѣколюбие Спасово и всяко получиши помощь от Него, <cit><quote xml:id="biblical-7">Близ, бо рече, Господь всѣмъ призывающим Его истиною. Волю боящихся Его сътворит и молитву ихъ услышить, и спасеть ихъ»</quote></cit>. А онем же глаголеши: «копати не могу» и прочая, — оно ти глаголю: ниже престаи копати<anchor xml:id="v21" n="21" rend="super"/> не землю, былия прозябающу, но сердце и съвѣсть свою, искореняя убо прозябшая в нихъ длъгым дурнымъ <anchor xml:id="v22a1" n="22" rend="super"/>обычаемъ мирскымъ<anchor xml:id="v22a2" n="22" rend="super"/> помыслы злыя, и норовы неподобныя<anchor xml:id="v23" n="23" rend="super"/>, и мысли, и обычая. Такожде не стыдися просити у Спаса съ безстудьством похвалнымъ про<metamark function="end-page" rend="//"/><pb type="folio" n="л. 122 об." rend="label-margin-left"/>щение прежде бывшихъ грѣховъ да исправление выпред<anchor xml:id="v24" n="24" rend="super"/> доброму и богоугодному житию, любить бо Спасъ такыхъ безстужных просителехъ и докучникох, ибо Самъ рече: <cit><quote xml:id="biblical-8">ищите, и обрящете; тлъцѣте, и отвръзется вамъ»</quote></cit>. А благоденьствие<anchor xml:id="v25" n="25" rend="super"/> иноку то есть, егда всею душею и желаниемъ сердечнымъ ходить всегда въ путь заповѣдеи Спасовыхъ и уставохъ отечьскыхъ<anchor xml:id="v26" n="26" rend="super"/>.</p>
+      </body>
+                 
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1-1</head> <!-- numero in apice -->
+               <app from="#v1a1" to="#v1a2"> <!-- FROM variante1 ancora1 -  TO variante1 ancora2-->
+                  <rdg wit="#Р">Господину и другу, паче же брату възлюблену моему о Господѣ имя-рек Максимъ, чернец многогрѣшныи, длъжное о Христѣ Иисусѣ <hi rend="distinct">(начальное И стерто)</hi> цѣлование</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2">
+                  <rdg wit="#Р">Спаси тебе Богъ, господине, что мене страннаго жалуеш и прохлажаеш всякым образом. Богъ да исплънит и да утѣшает всегда душу твою, облегчая ея от всякыя скръби, и тугы, и от бѣсовскых кознеи. Склад твои предобрыи прочет, удивихся разуму твоему, плъну сущу смиреномудриа и любви духовныа, такожде и понеже</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <rdg wit="#Р">такова</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5"> <!-- variante2 -->
+                  <witDetail wit="#Р">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6"> <!-- variante2 -->
+                  <witDetail wit="#Р">Доб. <hi rend="distinct">и сланиа глубокаго</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <rdg wit="#Р">пришедшиа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8-8</head>
+               <app from="#v8a1" to="#v8a2">
+                  <rdg wit="#Р">еже</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9">
+                  <rdg wit="#Р">осужающих</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11-11</head> 
+               <app from="#v11a1" to="#v11a2">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <witDetail wit="#Р">Доб. <hi rend="distinct">убо</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14">
+                  <rdg wit="#Р">въ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15">
+                  <rdg wit="#Р">всякыми</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17">
+                  <rdg wit="#Р">моему</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#v18">
+                  <rdg wit="#Р">плачющи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">19</head> 
+               <app from="#v19">
+                  <rdg wit="#Р">исцѣлеа <witDetail wit="#Р">(так! / sic!)</witDetail></rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">21</head> 
+               <app from="#v21">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">22-22</head> 
+               <app from="#v22a1" to="#v22a2">
+                  <rdg wit="#Р">мирскым обычаемъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">23</head> 
+               <app from="#v23">
+                  <rdg wit="#Р">неподобны, всаждаи же праведные и богоугодныа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">24</head> 
+               <app from="#v24"> 
+                  <rdg wit="#Р">въперед</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">25</head> 
+               <app from="#v25"> 
+                  <rdg wit="#Р">благодарьствие</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">26</head> 
+               <app from="#v26">
+                  <witDetail wit="#Р">Доб. <hi rend="distinct">Здравствуи о Господѣ</hi></witDetail>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> 
+               <p>буквы <hi rend="distinct">обра</hi> не читаются из-за дефекта листа, стерто, 2 св., испр. по Р</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Пс 34, 13 / Sal 34,13)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Cit"><ref>(Пс 31, 4 / Sal 31,4)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Cit"><ref>(Пс 37, 7 / Sal 37,7)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Cit"><ref>(Пс 37, 8 / Sal 37,8)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Cit"><ref>(Пс 54, 8 / Sal 54,8)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Cit"><ref>(Пс 54, 9 / Sal 54,9)</ref></bibl>
+            <bibl corresp="#biblical-7" type="Cit"><ref>(Пс 144, 18—19 / Sal 144,18-19)</ref></bibl>
+            <bibl corresp="#biblical-8" type="Cit"><ref>(Мф 7, 7 / Mt 7,7)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

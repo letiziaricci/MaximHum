@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Словцо к хотящим переити в иноческое житие [Slovo k chotjaščim pereiti v inočeskoe žitie]</title> 
+            <title type="alt" xml:lang="cu-Cyrl">Инока Максима Грека, слово къ хотящимъ оставляти жены своя безъ вины законныя и ити во иноческое житие [Inoka Maksima Greka, slovo k'' chotjaščim'' ostavljati ženy svoja bez'' viny zakonnyja i iti vo inočeskoe žitie] <ref  target="lista-bibliografia.xml#MG-1860 #Iva-1969 #Sin-1977 #MG-2014">(Maksim Grek 1860: 231-241; Ivanov 1969: 136-137; Sinicyna 1977: 232, 244; Maksim Grek 2014: 286-289)</ref></title> 
+            <title type="alt" xml:lang="cu-Cyrl">Поучение ако мощно и легко есть спастися и мирском жителстве [Poučenie ako moščno i legko est' spastisja i mirskom žitelstve] <ref target="lista-bibliografia.xml#Sin-1977">(Sinicyna 1977: 256)</ref></title>  
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">183</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 68</bibl>                  
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 32</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 37</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">  
+               <ref target="lista-bibliografia.xml#Zur-2011"><name>Žurova</name>, <date>2011</date></ref>: <biblScope unit="page" from="85" to="92">85-92</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="231" to="241">231-241</biblScope>, <biblScope unit="chapter">nr. 14</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="286" to="289">286-289</biblScope>, <biblScope unit="chapter">nr. 32</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Bolš-285">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, собр. Большакова 285</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 37 / cap. 37</locus>   <!-- 02. Inventario testimone base COLONNA h -->
+                     <locus type="foliation" target="#44r #51r">лл. 44-51 / ff. 44r-51r</locus>   
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима. Словцо къ хотящимъ оставляти жены своя без вины законныя и ити въ иноческое житие</title> 
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Понеже изволилъ еси дружитися по Бозѣ съ мною и часть нѣкую открыти ми твоего, его же имаши по Бозѣ, помысла, праведно судих и самъ, любезне ми брате и друже, малыми писмены исцѣлити помысла твоего, елико призиратель дружбы яже по Бозѣ Христос Богъ и Спасъ наш благоизволит просвѣтити и вразумити неразумнаго ума моего въ славу Свою и ползу твою и спасение.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Тогда бо въ истинну праведнѣ наречется и женитва честна и ложе нескверно, егда кто мѣрою и съ въздръжаниемъ потребуеть их, мѣры уставляа себѣ и съвокуплениа и въздръжаниа, блюдуще себе временем, чистых съвокупльшему ихъ единому премудрому Съдѣтелю и преблагому Богу и Владыцѣ всѣх Христу Иисусу, Ему же слава и честь съ Отцемъ Его и Святым Духом въ вѣкы вѣком. Аминь.</explicit> 
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni, tanti <witness></witness> quanti sono i testimoni di controllo in 03. Inventario testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="Х"/> 
+               
+               <witness xml:id="И">  
+                  <ref target="lista-manoscritti.xml#MDA-42">РГБ, собр. МДА/I 42</ref>, <locus type="chapter">гл. 32 / cap. 32</locus>, <locus type="foliation" target="#308v #314r">лл. 308об.-314 / ff. 308v-314r</locus>    
+               </witness>
+               <witness xml:id="И1">
+                  <ref target="lista-manoscritti.xml#MDA-III-138">РГБ, ф. 173, МДА/III 138</ref>, <locus type="chapter">гл. 32 / cap. 32</locus>, <locus type="foliation" target="#197v #202v">лл. 197об.-202об. / ff. 197v-202v</locus>
+               </witness>
+               <witness xml:id="Р">
+                  <ref target="lista-manoscritti.xml#Rum-264">РГБ, собр. Румянцева 264</ref>, <locus type="article">ст. 68 / art. 68</locus>, <locus type="foliation" target="#122r #126r">лл. 122-126 / ff. 122r-126r</locus>
+               </witness> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Словцо</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Istruzione</term> 
+               <term>Correzione (sacralità del matrimonio e della vita coniugale)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><pb type="folio" n="л. 44" rend="label-margin-left"/>ТОГО ЖЕ ИНОКА МАКСИМА<anchor xml:id="v1" n="1" rend="super"/>. СЛОВЦО<anchor xml:id="v2" n="2" rend="super"/> КО ХОТЯЩИМЪ ОСТАВЛЯТИ ЖЕНЫ СВОЯ БЕЗ ВИНЫ ЗАКОННЫЯ И ИТИ ВЪ ИНОЧЕСКОЕ ЖИТИЕ</p>
+         <p><anchor xml:id="v3a1" n="3" rend="super"/>ПОУЧЕНИЕ‚ ЯКО МОЩНО Н ЛѢГКО ЕСТЬ СПАСТИСЯ И МИРСКОМ ЖИТЕЛЬСТВѢ<anchor xml:id="v3a2" n="3" rend="super"/></p>
+      </front>
+      
+      <body>
+         <p>Понеже изволилъ еси дружитися по<anchor xml:id="v4" n="4" rend="super"/> Бозѣ<anchor xml:id="v5" n="5" rend="super"/> съ мною и часть нѣкую открыти ми твоего, <anchor xml:id="v6a1" n="6" rend="super"/>eго же имаши по Бозѣ, помысла<anchor xml:id="v6a2" n="6" rend="super"/>, праведно судих и самъ, любезне ми брате и друже, малыми писмены исцѣлити помысла твоего, елико призиратель дружбы яже по Бозѣ Христос, Богъ и Спасъ нашь благоизволить просвѣтити и въразумити <metamark function="end-page" rend="//"/><pb type="folio" n="л. 44 об." rend="label-margin-left"/> неразумнаго ума моего въ славу Свою, и ползу твою, и спасение. Ни о едином бо ином<anchor xml:id="v7" n="7" rend="super"/> толь веселится и прославляется<anchor xml:id="v8" n="8" rend="super"/>, елико о спасении вѣрующихъ в Него, о них же волею и съ зѣлнымъ желаниемъ горчаишу ону смерть изволилъ иже единъ Преблагыи. Ни отець чадолюбивъ о<anchor xml:id="v9" n="9" rend="super"/> своих от родъ толико печется и млъвитъ, елико Сътворивыи нас выну промышляеть<anchor xml:id="v10" n="10" rend="super"/> о нас всякымъ образомъ, строяя наше еже къ Нему обращение, да отставивъ ны всякыя злобы, льсти же, и лъжы, и плотьскыя нечистоты, и студодѣания<anchor xml:id="v11" n="11" rend="super"/>, сыны Божия явить и наслѣдникы бесконечному<anchor xml:id="v12" n="12" rend="super"/> Царьствию<anchor xml:id="v13" n="13" rend="super"/> и благыхъ неизглаголаных, <cit><quote xml:id="biblical-1">«их же око не видѣ, якоже есть писано, ни ухо слыша, ни на сердце человѣче не взыдошя<anchor xml:id="v14" n="14" rend="super"/>»</quote></cit> <metamark function="end-page" rend="//"/><pb type="folio" n="л. 45" rend="label-margin-left"/> николи же. Их же никто же инако получити не<anchor xml:id="v15" n="15" rend="super"/> можеть, но токмо прилѣжнымъ съблюдениемъ<anchor xml:id="v16" n="16" rend="super"/> спасителных Христовыхъ заповѣдеи. Многым же сущимъ и различнымъ заповѣдемъ Его, аще кто прилѣжнѣ до конца съблюдeть триехъ сихъ заповѣдеи, сирѣчь вѣру, суд и милость, ихь же не съблюдше фарисее и книжници, осужаются от Спаса Христа, глаголющаго: <cit><quote xml:id="biblical-2">«Горе вамъ, книжници и фарисее, лицемѣри, яко одесятствуете<anchor xml:id="v17" n="17" rend="super"/> копръ и киминъ, тяжчаишя же законная остависте, сирѣчь вѣру, и<anchor xml:id="v18" n="18" rend="super"/> судъ, и милость»</quote></cit>. Аще убо съблюдеть прилѣжно кто триехъ сих, все вкупѣ божественое Еуаггелие исплънивъ, обрящется. Иже бо аще всею душею вѣры будеть имѣти Спасовым словесемъ, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 45 об." rend="label-margin-left"/> еликыхъ глаголеть къ намъ по вся дни пророкы своими, и апостолы, и вселенскыми учители о будущих благъ, сирѣчь о вѣчиѣи жизни и безконечномъ Царствии, ихже сподобляются котории въ житии семъ благовѣрно и святолѣпно пожишя. Такожде и елика глагола намъ о страшном Своемъ пришествии, и испытании, и неумытномъ судѣ, и вѣчныхъ мукъ, в нихже бесконечно мучатся святыя, Его заповѣди поправшеи. Иже убо истиною и без сумнѣния всѣмъ симъ вѣруетъ и бсезпрестани имать сия въкоренена въ съкровеннѣи клѣти сердца своего, съи всегда съблюдаеть себе внѣ всякыя злобы, неправды, лихоимьства, нечистоты, лъжы, льсти, зависти, лихарадьства, хы<metamark function="end-page" rend="//"/><pb type="folio" n="л. 46" rend="label-margin-left"/>щения чюжих имѣнии, всѣх же милуeть, всех любить, всѣх мнитъ лучших Себе, обидимымъ помогаетъ, а<anchor xml:id="v19" n="19" rend="super"/> о обидящих скръбитъ, и по силѣ Своеи исправляеть ихъ и словомъ, и дѣлом, и молитвою яже къ Богу о нихъ. И въкратцѣ рещи, вся елика угодна Богу, <cit><quote xml:id="biblical-3">«<anchor xml:id="v20a1" n="20" rend="super"/>елика честна<anchor xml:id="v20a2" n="20" rend="super"/>, елика праведна, аще кая добродѣтель и похвала»</quote></cit>, по святому апостолу, и мыслить сие<anchor xml:id="v21" n="21" rend="super"/>, и мудръствуеть, и дѣеть, и взыскуеть всегда, и в сихъ въдворяется, и веселится о cихъ, и<anchor xml:id="v22" n="22" rend="super"/> ненавидить<anchor xml:id="v23" n="23" rend="super"/> от всея души всяку неправду и лукавьство. Иже, и хваляся по Бозѣ, глаголеть съ праведным ономъ: <cit><quote xml:id="biblical-4">«Неправду възненавидѣхъ и мръзѣ ми; законъ же Твои възлюбихъ<anchor xml:id="v24" n="24" rend="super"/>»</quote></cit>; его же ради и инде глаголетъ тъи же: <cit><quote xml:id="biblical-5">«Благъ мнѣ законъ устъ Твоихъ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 46 об." rend="label-margin-left"/> паче тысящя<anchor xml:id="v25" n="25" rend="super"/> злата и сребра»</quote></cit>. Иже<anchor xml:id="v26" n="26" rend="super"/> без лицемѣрия послушаеть праведнаго сего, акы страненъ и пришлець живетъ въ мирѣ семъ. Всегда же желаеть и мыслить будущее житие безконечное, по глаголющему пророку: <cit><quote xml:id="biblical-6">«Коль възлюблена села Твоя, Господи силъ! Прежелаеть и оскудѣеть<anchor xml:id="v27" n="27" rend="super"/> душа моя въ дворѣхъ<anchor xml:id="v28" n="28" rend="super"/> Господнихъ<anchor xml:id="v29" n="29" rend="super"/>»</quote></cit>; и инде: <cit><quote xml:id="biblical-7">«Едино просихъ <anchor xml:id="v30a1" n="30" rend="super"/>от Господа<anchor xml:id="v30a2" n="30" rend="super"/>, то взыщу, еже жити ми въ дому Господни вся дни живота моего, яко зрѣти ми красоту Господню и посѣщати церковь святую Его»</quote></cit>, ибо царь бѣ преславенъ, глаголяи сия, златом, и сребромъ, и славою, и честию преизлиха обливаемъ, но ни едино от тлѣющихся онѣхъ благыхъ толико услажаше Его, елико желание съблюдаемыхъ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 47" rend="label-margin-left"/> благыхъ на небесѣхъ разжигаше<anchor xml:id="v31" n="31" rend="super"/> присно <anchor xml:id="v32a1" n="32" rend="super"/>сердце Его<anchor xml:id="v32a2" n="32" rend="super"/>. Сего ради и съ многым желаниемъ глаголаше<anchor xml:id="v33" n="33" rend="super"/>: <cit><quote xml:id="biblical-8">«Им же образом желает елень на источникы водныя, сице желаеть душа моя к Тебе, Боже! Възжада душа моя къ<anchor xml:id="v34" n="34" rend="super"/> Богу Крѣпкому, Живому; таже, акы тужа o Нем же, много время здѣшнею жизнию живя, лишенъ есть зрѣния славы Божия, приводит, глаголя: когда прииду и явлюся лицу Божию<anchor xml:id="v35" n="35" rend="super"/>!»</quote></cit>. Толь теплѣиши рачители божественыя славы и будущих<anchor xml:id="v36" n="36" rend="super"/> благъ бѣшя боголюбивии мужие они, аще и съ женами живяху, и бесчислеными <anchor xml:id="v37a1" n="37" rend="super"/>попечении житеискыми<anchor xml:id="v37a2" n="37" rend="super"/> обливаeми бѣаху. И еже паче достоино есть многаго чюдеси, яко и прежде пришествия Спаса Христа бышя<anchor xml:id="v38" n="38" rend="super"/> наставляеми Моисеискымъ за<metamark function="end-page" rend="//"/><pb type="folio" n="л. 47 об." rend="label-margin-left"/>кономъ, <cit><quote xml:id="biblical-9">«съвръшившимъ ничто же»</quote></cit>, по божественому апостолу Павлу.</p>
+         <p><anchor xml:id="v39a1" n="39" rend="super"/>Таковыхъ убо неложных образѣхъ<anchor xml:id="v39a2" n="39" rend="super"/> боголюбиваго жительства имуще, можемъ и мы, аще по истинѣ желаемъ<anchor xml:id="v40" n="40" rend="super"/> получити убо вѣчнаго Царствиа и Жития некончаемаго, избыти же вѣчных мукъ, благоугодити Небесному Владыцѣ въ миръскомъ чину, якоже и треблажении<anchor xml:id="v41" n="41" rend="super"/> они всякою добродѣтелию огребающеся убо от выше предъизочтеныхъ злобъ и от самыя души ненавидяще ихъ равнѣ всякому нечестию, дръжаще же ся съ желаниемъ спасителныхъ и богоугодных дѣянии и добродѣтелеи, имуще всегда въ память глаголющее богодухновенное<anchor xml:id="v42" n="42" rend="super"/> слово: <cit><quote xml:id="biblical-10">Неправду възненавидѣх и мръзе ми; а закон Твои възлюбих»</quote></cit>. И еже: <cit><quote xml:id="biblical-11">«Предзрѣхъ Господа<anchor xml:id="c1a1" n="а" rend="super"/> <metamark function="end-page" rend="//"/><pb type="folio" n="л. 310" rend="label-margin-left"/>: предо мною выну, яко одесную Мене есть; да ся<anchor xml:id="v43" n="43" rend="super"/> не подвижу»</quote></cit>. Аще <anchor xml:id="v44a1" n="44" rend="super"/>кто убо<anchor xml:id="v44a2" n="44" rend="super"/> беспрестани имат сиа въ память и всею душею вѣруя <anchor xml:id="v45a1" n="45" rend="super"/>с Ним<anchor xml:id="v45a2" n="45" rend="super"/>, любит вкупѣ и боится Спаса Христа, яко преблага и человѣколюбива Владыку и яко Судии страшнаго и мучаща без милости преступникы<anchor xml:id="v46" n="46" rend="super"/> святых Его заповедеи, таковыи блаженъ въистину своимъ<anchor xml:id="v47" n="47" rend="super"/> еже по Бозѣ <anchor xml:id="v48a1" n="48" rend="super"/>дѣлании<anchor xml:id="v49" n="49" rend="super"/> и<anchor xml:id="v48a2" n="48" rend="super"/> в нынѣшнем вѣцѣ и въ будущем; занѣ добрѣ и богоугоднѣ жительствовавъ въ привременном житии семъ, услышит в будущем божественнаго гласа, вѣщающаго: <cit><quote xml:id="biblical-12">«Благодать ти, рабе благыи и вѣрныи, вниди въ радость господа твоего<anchor xml:id="v50" n="50" rend="super"/>»</quote></cit>. Не отчаите убо свое спасение иже съ женами <metamark function="end-page" rend="//"/><pb type="folio" n="л. 310 об." rend="label-margin-left"/> законно живущеи чяда питающеи, ниже ищите разрѣшение от них, паче заповѣдь божественаго Павла, глаголющую: <cit><quote xml:id="biblical-13">«Привязалъ ли<anchor xml:id="v51" n="51" rend="super"/> ся еси женѣ? не ищи разрѣшение»</quote></cit>; <cit><quote xml:id="biblical-14">«Честна бо женитва и ложе нескверно»</quote></cit>. Но аще <anchor xml:id="v52a1" n="52" rend="super"/>по истиннѣ<anchor xml:id="v52a2" n="52" rend="super"/> желаете большему спасению, разрѣшите себе самѣхъ от всякыя злобы, неправды, лукавьства, лихоиманиа, хыщениа чюжих имѣнии, лъжы, клеветы, зависти, лихарадьства и всякого безчеловѣчиа, възлюбите же всякыя правды, и человѣколюбие, и милость, и милосердие<anchor xml:id="v53" n="53" rend="super"/>, и<anchor xml:id="v54" n="54" rend="super"/> благость, и святыню, сирѣчь доволни бываите своими супружницами<anchor xml:id="v55" n="55" rend="super"/>, а чюжиа не желаите, зане же блудникы<anchor xml:id="v56" n="56" rend="super"/>, и прегнусодѣя, и чюжоженци, и мужеложници в муку вѣчную осужаются съ<anchor xml:id="v57" n="57" rend="super"/> Содомы и Гоморы, их же червь не усыпая, и огнь не угасая, и плачь, и скрежет зубныи грознѣишыи и безконечен. Аще же кто от вас, легкость — [Нет в Х]<anchor xml:id="c1a2" n="а" rend="super"/> <metamark function="end-page" rend="//"/><pb type="folio" n="л. 48" rend="label-margin-left"/> ума своего послушая<anchor xml:id="v58" n="58" rend="super"/>, не послушаетъ учениа сего и иноческому житию вдати себе мыслить, разпрягся<anchor xml:id="v59" n="59" rend="super"/> своея супружници чрез заповѣдь святаго апостола Павла, понеже прежде реченых<anchor xml:id="v60" n="60" rend="super"/> не послушаеть, и онъ бы сих послушалъ: и да искусить себе прежде<anchor xml:id="v61" n="61" rend="super"/> въ мирьскомъ житии, аще может исправити прежде рѣченыхъ добродѣтелеи и праведных дѣлъ съ страхомъ Божиимъ и истинною<anchor xml:id="c2" n="б" rend="super"/>. Да аще, Богу споспѣшествующу, исправить ихъ, якоже есть Богу угодно, ниже сице да разлучается своея супружници, но, благодаря Бога, да пребываеть въ исправлении добрых дѣлъ, моляся всегда прилѣжно Богу, да яже о себѣ поустроить, якоже есть благоугодно пред Нимъ. <anchor xml:id="v62a1" n="62" rend="super"/>К симъ<anchor xml:id="v62a2" n="62" rend="super"/>, оно<anchor xml:id="v63" n="63" rend="super"/> да вѣсть таковыи, что иноческое житие, ему же <metamark function="end-page" rend="//"/><pb type="folio" n="л. 48 об." rend="label-margin-left"/> желаеть, ничто же ино есть, точию прилѣжно исплънение спасителных заповѣдеи божественаго и поклоняемаго Христова Еуаггелиа, сирѣчь всяка правда, всяка милость, и милосердие, любы нелицемѣрна, смирение сердечное, кротость, цѣломудрие, презрѣние богатства гыблющаго, славы мирскыа, и чести, и тщеславиа, и всякого лихоимания отложение.</p>
+         <p>Аще убо кто сихъ добродѣтелех довръшить, якоже есть Богу любезно, въ мирьскомъ житии, нѣсть далече иноческаго жительства<anchor xml:id="v64" n="64" rend="super"/> и блаженства. Якоже пакы обложеныи иноческыми платми, аще заповѣдеи Спасовых и отечьскых предании преобидя, бесчинно и недостоинѣ ихъ ходить и жительствуеть, напиваяся всегда и объядаяся несытнѣ, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 49" rend="label-margin-left"/> и сребролюбьствуя лихоимателнѣ и лихарадьствуя съ лукавьством, таковыи ризами точию разликуеть от безчиннаго бѣлца, по глаголющему апостольскому гласу: <cit><quote xml:id="biblical-15">Обрѣзание ничто же есть, и необрѣзание ничто же есть, но съблюдение заповѣдеи Божиихъ»</quote></cit>. Иже убо заповѣди Спаса Христа съ прилежаниемъ исплъняетъ и вѣрою несумненою, и желаниемъ теплѣишимъ къ угодию Богу, а не человѣкомъ, тъи от Него и у Него въмѣненъ будеть и наречется инокъ, хоти<anchor xml:id="v65" n="65" rend="super"/> и въ бѣльском чину от жития сего изыдетъ. Не ризным бо премѣнениемъ и брашненымъ<anchor xml:id="v66" n="66" rend="super"/> въздръжаниемъ благовѣрие христианское състоится и хвалимо есть, но премѣнениемъ от злыхъ поганьскых обычаехъ и въздръжаниемъ от всякыя злобы <metamark function="end-page" rend="//"/><pb type="folio" n="л. 49 об." rend="label-margin-left"/> и душетлителных<anchor xml:id="v67" n="67" rend="super"/> страстеи<anchor xml:id="v68" n="68" rend="super"/> плоти и духа. <cit><quote xml:id="biblical-16">«Имѣяи, бо рече, заповѣди Моя и творя<anchor xml:id="v69" n="69" rend="super"/> ихъ, сирѣчь дѣлом съвръшаеть, тъи есть любяи Мя»</quote></cit>, сирѣчь другъ Мои есть любовенъ; И пакы: <cit><quote xml:id="biblical-17">«Не всякъ глаголяи Мнѣ<anchor xml:id="v70" n="70" rend="super"/>: «Господи! Господи!» внидетъ Въ Царство Небесное, но творяи волю Отца Моего Небеснаго»</quote></cit>. Что же есть воля Его, Павелъ апостолъ малыми сие научилъ есть насъ, къ<anchor xml:id="v71" n="71" rend="super"/> солуняном<anchor xml:id="v72" n="72" rend="super"/> глаголя: <cit><quote xml:id="biblical-18">«Сия же есть воля Божия святьба<anchor xml:id="v73" n="73" rend="super"/> вашя, огребатися от блуда; вѣдѣти коемуждо вас свои съсудъ стяжати въ святыни и чести, а не въ страсти похотнѣи, якоже языци, не знающии Бога; и еже не обидѣти, ниже лихоимьствовати брата своего въ вещи»</quote></cit>, сирѣчь не токмо не взыскати чюжих подружии, и блудници, и мужеложьство богомръзское, но <metamark function="end-page" rend="//"/><pb type="folio" n="л. 50" rend="label-margin-left"/> и съ своими подружии временем съвокуплятися и временемъ пакы въздръжатися от них, <cit><quote xml:id="biblical-19">«да можете, рече, прилежати о молитве и постѣ, и пакы вкупѣ сходитися», сирѣчь съвокуплятися, якоже тъи<anchor xml:id="v74" n="74" rend="super"/> же апостолъ коринфяном завѣщаваеть, глаголя: «да не искушаетъ васъ сатана за невъздръжание ваше»</quote></cit>, еже страсть похотную<anchor xml:id="v75" n="75" rend="super"/> <anchor xml:id="v76a1" n="76" rend="super"/>наричеть тъи же апостолъ и<anchor xml:id="v77" n="77" rend="super"/> страсть похотную<anchor xml:id="v76a2" n="76" rend="super"/> языческую, сирѣчь невѣрных человѣковъ, не боящихся Бога, ниже вѣдящих Его. Их же все житие, и желание, и тщание, и подвигъ блудъ есть несытенъ и всяка нечистота съ всякымъ студодѣаниемъ, неправдою же и лихоимьствомъ. Вы же, рече, христиани суще, сирѣчь освѣщени просвѣщениемъ неблазненого богоразумиа и очищени святымъ крещением, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 50 об." rend="label-margin-left"/> и Судъ страшенъ и неумытенъ ждуще, не подобляитеся<anchor xml:id="v78" n="78" rend="super"/> имъ, но въ страсѣ Божии и честнымъ жительствомъ время жития вашего съвръшаите. Сие бо сказа, рекъ: <cit><quote xml:id="biblical-20">«вѣдяще единъ кождо <anchor xml:id="v79a1" n="79" rend="super"/>свои съсудъ стяжати<anchor xml:id="v79a2" n="79" rend="super"/>»</quote></cit>, сирѣчь своего подружиа въ святыни и чести требовати, еже есть съ вьздръжаниемъ сходитися, одолѣюще безсловеснои похоти и мѣры уставляюще еи, а не отъ нея одолѣваемым<anchor xml:id="v80" n="80" rend="super"/> бывати<anchor xml:id="v81" n="81" rend="super"/> всегда и водимымъ<anchor xml:id="v82" n="82" rend="super"/>, акы скоти безсловесни. Тогда бо въистину праведнѣ наречется и «женитва честна и ложе несквръно». Егда кто мѣрою и съ въздръжаниемъ потребуеть ихъ, мѣры уставляя себѣ и съвокупления и въздръжания, блюдуще себе временемъ чистых съвокупльшему ихъ едино<metamark function="end-page" rend="//"/><pb type="folio" n="л. 51" rend="label-margin-left"/>му Премудрому Съдѣтелю и Преблагому Богу и Владыцѣ всѣхъ, <anchor xml:id="v83a1" n="83" rend="super"/>Христу Иисусу<anchor xml:id="c3" n="г" rend="super"/><anchor xml:id="v84" n="84" rend="super"/> <anchor xml:id="v83a2" n="83" rend="super"/>, Ему же слава и честь съ Отцемъ Его и Святымъ Духомъ въ вѣкы вѣком. Аминь<anchor xml:id="v85" n="85" rend="super"/>.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1">
+                  <witDetail wit="#И #И1">Доб. <hi rend="distinct">Грека</hi>.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2">
+                  <rdg wit="#И">Слово</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3-3</head>
+               <app from="#v3a1" to="#v3a2">
+                  <witDetail wit="#Р">Заголовок вписан на верхнем поле почерком Максима Грека.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <witDetail wit="#Р">Вписано по стертому.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <witDetail wit="#Р">Вписано по стертому.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6-6</head>
+               <app from="#v6a1" to="#v6a2">
+                  <witDetail wit="#Р">Над словами стоят буквенные цифры, восстанавливающие такой же порядок слов, как в основном тексте.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <rdg wit="#Р">иным</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <witDetail wit="#И">Доб. <hi rend="distinct">Богъ</hi>, вписано со знаком вставки почерком Максима Грека, л. 308 об.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9">
+                  <rdg wit="#И">от</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10">
+                  <witDetail wit="#И1">Буква <hi rend="distinct">ь</hi> вписана поверх текста.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11">
+                  <rdg wit="#И">студодѣяние</rdg>
+                  <rdg wit="#Р">студодѣянии</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <rdg wit="#И1">бесконечнаго</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <witDetail wit="#И1"><hi rend="distinct">Царствия</hi>, буква <hi rend="distinct">я</hi> ислравлена из буквы <hi rend="distinct">ю</hi> почерком неосновного писца (Максима Грека?).</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14">
+                  <witDetail wit="#И1">Буквы <hi rend="distinct">шя</hi> вписаны над строкой почерком Максима Грека, л. 198, 12 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16">
+                  <rdg wit="#И #И1">хранениемъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17">
+                  <rdg wit="#Р">отдесятствуете</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#v18">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">19</head> 
+               <app from="#v19">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">20-20</head>
+               <app from="#v20a1" to="#v20a2">
+                  <witDetail wit="#И1">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">21</head> 
+               <app from="#v21">
+                  <rdg wit="#И">сеи</rdg>
+                  <rdg wit="#Р">съи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">22</head> 
+               <app from="#v22">
+                  <witDetail wit="#Р">Стерто</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">23</head> 
+               <app from="#v23">
+                  <witDetail wit="#Р"><hi rend="distinct">ненавидя</hi>, буквы на вписаны над строкой</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">24</head> 
+               <app from="#v24">
+                  <witDetail wit="#И1">Буквы <hi rend="distinct">бих</hi>вписаны в конец строки почерком Максима Грка, л. 199, 6 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">25</head> 
+               <app from="#v25">
+                  <witDetail wit="#И"><hi rend="distinct">тысяща</hi>, буква <hi rend="distinct">а</hi> испр. из буквы <hi rend="distinct">ь</hi>.</witDetail>
+                  <rdg wit="#Р #И1">тысящь</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">26</head> 
+               <app from="#v26">
+                  <rdg wit="#И">и</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">27</head> 
+               <app from="#v27">
+                  <witDetail wit="#И1"><hi rend="distinct">оскудѣвает</hi>, буквы ва вписаны над строкой почерком Максима Грека, л. 199, 12 сн.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">28</head> 
+               <app from="#v28">
+                  <rdg wit="#И #И1">дворы</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">29</head> 
+               <app from="#v29">
+                  <rdg wit="#И #И1">Господня</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">30-30</head>
+               <app from="#v30a1" to="#v30a2">
+                  <witDetail wit="#И1">Вписано на поле со знаком вставки почерком Максима Грека, л. 199.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">31</head> 
+               <app from="#v31">
+                  <rdg wit="#И #И1 #Р">разжигааше</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">32-32</head>
+               <app from="#v32a1" to="#v32a2">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">33</head>
+               <app from="#v33">
+                  <witDetail wit="#Р">Вписано на правом поле.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">34</head>
+               <app from="#v34">
+                  <witDetail wit="#Р">Далее зачеркнуто <hi rend="distinct">тебѣ Боже</hi>.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+            <head rend="super">35</head>
+            <app from="#v35">
+               <witDetail wit="#И1">Буква <hi rend="distinct">ю</hi> вписана в строку почерком Максима Грека, л. 199 об., 6 св.</witDetail>
+            </app>
+         </listApp>
+            <listApp>
+               <head rend="super">36</head>
+               <app from="#v36">
+                  <witDetail wit="#И1">Буквы <hi rend="distinct">щих</hi> вписаны над строкой почерком Максима Грека, л. 199 об., 7 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">37-37</head>
+               <app from="#v37a1" to="#v37a2">
+                  <rdg wit="#И #И1 #Р">житескыми попечении</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">38</head>
+               <app from="#v38">
+                  <witDetail wit="#И">Слово правлено.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">39-39</head>
+               <app from="#v39a1" to="#v39a2">
+                  <rdg wit="#Р">таковы убо неложни образи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">40</head>
+               <app from="#v40">
+                  <witDetail wit="#И1">Испр. из <hi rend="distinct">желает</hi>: буквы <hi rend="distinct">мь</hi> вписаны в конец строки почерком Максима Грека, буква <hi rend="distinct">т</hi>-надстрочное зачеркнута, л. 199 об., 10 сн.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">41</head> 
+               <app from="#v41">
+                  <rdg wit="#И1">преблажении</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">42</head> 
+               <app from="#v42">
+                  <rdg wit="#И #И1">божественое</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">43</head>
+               <app from="#v43">
+                  <witDetail wit="#И1">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">44-44</head>
+               <app from="#v44a1" to="#v44a2">
+                  <rdg wit="#Р">убо кто</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">45-45</head>
+               <app from="#v45a1" to="#v45a2">
+                  <rdg wit="#Р">симъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">46</head>
+               <app from="#v46">
+                  <witDetail wit="#И1">Буквы <hi rend="distinct">ес</hi> вписаны по стертому почерком Максима Грека, л. 200, 9 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">47</head>
+               <app from="#v47">
+                  <rdg wit="#И1">своемъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">48-48</head>
+               <app from="#v48a1" to="#v48a2">
+                  <rdg wit="#Р">джланиемъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">49</head>
+               <app from="#v49">
+                  <witDetail wit="#И1">Испр. из <hi rend="distinct">дѣланиемъ</hi>: последняя буква <hi rend="distinct">и</hi> вписана почерком Максима Грека по стертому <hi rend="distinct">емъ</hi>, л. 200, 12 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">50</head>
+               <app from="#v50">
+                  <rdg wit="#И1">своего</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">51</head>
+               <app from="#v51">
+                  <witDetail wit="#Р">Вписано над строкой почерком Максима Грека, л. 124, 11 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">52-52</head>
+               <app from="#v52a1" to="#v52a2">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">53</head>
+               <app from="#v53">
+                  <witDetail wit="#И1">Конечная буква <hi rend="distinct">е</hi> вписана по стертому почерком Максима Грека, л. 200 об., 4 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">54</head>
+               <app from="#v54">
+                  <witDetail wit="#И1">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">55</head>
+               <app from="#v55">
+                  <witDetail wit="#И1">Буква <hi rend="distinct">ж</hi> вписана поверх почерком Максима Грека, л. 200 об., 6 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">56</head>
+               <app from="#v56">
+                  <witDetail wit="#И1"><hi rend="distinct">блудники</hi>, последняя буква <hi rend="distinct">и</hi> вписана по стертому почерком Максима Грека, л. 200 об., 57 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">57</head>
+               <app from="#v57">
+                  <witDetail wit="#И1">Вписано под строкой со знаком вставки почерком Максима Грека, л. 200 об., 9 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">58</head>
+               <app from="#v58">
+                  <rdg wit="#И #Р">слушая</rdg>
+                  <witDetail wit="#И #И1">доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">59</head>
+               <app from="#v59">
+                  <rdg wit="#И">разспрягся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">60</head>
+               <app from="#v60">
+                  <witDetail wit="#Р">Доб. <hi rend="distinct">учении</hi>, вписано на левом поле со знаком вставки почерком Максима Грека, л. 124 об.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">61</head>
+               <app from="#v61">
+                  <witDetail wit="#И1">Вписано на левом поле со знаком вставки почерком Максима Грека, л. 200 об.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">62-62</head>
+               <app from="#v62a1" to="#v62a2">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">63</head>
+               <app from="#v63">
+                  <witDetail wit="#Р">Доб. <hi rend="distinct">же</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">64</head>
+               <app from="#v64">
+                  <witDetail wit="#И1">Буквы <hi rend="distinct">ст</hi> вписаны поверх текста почерком Максима Грека, л. 201, 11 сн.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">65</head>
+               <app from="#v65">
+                  <rdg wit="#И #И1">аще</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">66</head>
+               <app from="#v66">
+                  <witDetail wit="#И1">Буква <hi rend="distinct">ы</hi> вписана поверх текста почерком неосновного писца (Максима Грека?), л. 201 об.‚ 7 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">67</head>
+               <app from="#v67">
+                  <witDetail wit="#И1">Испр. из <hi rend="distinct">душетлительныя</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">68</head>
+               <app from="#v68">
+                  <witDetail wit="#И1">Буква <hi rend="distinct">с</hi> вписана над строкой</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">69</head>
+               <app from="#v69">
+                  <rdg wit="#И1">творить</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">70</head>
+               <app from="#v70">
+                  <rdg wit="#Р">Ми</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">71</head>
+               <app from="#v71">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">72</head>
+               <app from="#v72">
+                  <rdg wit="#И #И1">селуняном</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">73</head>
+               <app from="#v73">
+                  <rdg wit="#И1">святость ба</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">74</head>
+               <app from="#v74">
+                  <witDetail wit="#И1"><hi rend="distinct">тои</hi>, буква <hi rend="distinct">о</hi> вписана поверх буквы <hi rend="distinct">ъ</hi> почерком неосновного писца, л. 202, 6 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">75</head>
+               <app from="#v75">
+                  <rdg wit="#И1">похотну</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">76-76</head>
+               <app from="#v76a1" to="#v76a2">
+                  <witDetail wit="#И1">Вписано на правом поле со знаком вставки почерком Максима Грека: <hi rend="distinct">нарицет тьи же апостолъ... страсть похоту язь...</hi>, буквы <hi rend="distinct">язь</hi> (видимо, <hi rend="distinct">язы</hi>, не видно из-за обреза листа) зачеркнуты, л. 202.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">77</head>
+               <app from="#v77">
+                  <witDetail wit="#И1">Не видно из-за обреза листа.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">78</head>
+               <app from="#v78">
+                  <rdg wit="#И #И1">уподобляитеся</rdg>
+                  <witDetail wit="#И1">буква <hi rend="distinct">у</hi> вписана над строкой почерком Максима Грека, л. 202, 7 сн.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">79-79</head>
+               <app from="#v79a1" to="#v79a2">
+                  <rdg wit="#Р">стяжати свои съсуд</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">80</head>
+               <app from="#v80">
+                  <witDetail wit="#Р"><hi rend="distinct">одолѣваемим</hi>, последняя буква <hi rend="distinct">м</hi>-надстрочное вписана почерком Максима Грека, л. 125 об., 1 сн.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">81</head>
+               <app from="#v81">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">82</head>
+               <app from="#v82">
+                  <witDetail wit="#Р"><hi rend="distinct">водимим</hi>, последняя буква <hi rend="distinct">м</hi>-надстрочное вписана почерком Максима Грека, доб. <hi rend="distinct">бывати</hi>, вписано на нижнем поле со знаком вставки почерком Максима Грека, л. 125 об.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">83-83</head>
+               <app from="#v83a1" to="#v83a2">
+                  <rdg wit="#И">Иисусу Христу</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">84</head>
+               <app from="#v84">
+                  <witDetail wit="#И1"><hi rend="distinct">Исусу</hi>, буква <hi rend="distinct">И</hi>-восьмеричное вписана другими чернилами по стертому, л. 202 об, 11 св.</witDetail>
+                  <witDetail wit="#Р">стерто начальное <hi rend="distinct">И</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">85</head>
+               <app from="#v85">
+                  <witDetail wit="#Р">Далее приписка: <hi rend="distinct">Ты убо, о предобрыи друже, мыло послалъ еси мнѣ на очищение руды ручныя. Азъ же противу поминка твоего слово сие вземъ его от Святаго Писаниа, посылаю могущее, аще послушаешь его, очистити от всякыя руды и душу, и тѣла твоего. Здравьствуи всегда о Господѣ!</hi></witDetail>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1a1" targetEnd="#c1a2"> 
+               <label rend="super">а-а</label>
+               <p>Далее текст приводится по списку И, так как в Х лист утрачен.</p>
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label>
+               <p>Буква <hi rend="distinct">ю</hi> вписана над строкой почерком неосновного писца.</p>
+            </note>
+            <note target="#c3">
+               <label rend="super">г</label>
+               <p>Стерто начальное <hi rend="distinct">И</hi>.</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="1Cor"><ref>(1 Кор 2, 9 / 1Cor 2,9)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Mt"><ref>(Мф 23, 23 / Mt 23,23)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Fil"><ref>(Флп 4, 8 / Fil 4,8)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Sal"><ref>(Пс 118, 163 / Sal 118,163)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Sal"><ref>(Пс 118, 72 / Sal 118,72)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Sal"><ref>(Пс 83, 2-3 / Sal 83,2-3)</ref></bibl>
+            <bibl corresp="#biblical-7" type="Sal"><ref>Пс 26, 4 / Sal 26,4)</ref></bibl>
+            <bibl corresp="#biblical-8" type="Sal"><ref>(Пс 41, 2-3 / Sal 41,2-3)</ref></bibl>
+            <bibl corresp="#biblical-9" type="Eb"><ref>(Евр 7, 19 / Eb 7,19)</ref></bibl>
+            <bibl corresp="#biblical-10" type="Sal"><ref>(Пс 118, 163 / Sal 118,163)</ref></bibl>
+            <bibl corresp="#biblical-11" type="Sal"><ref>(Пс 15, 8 / Sal 15,8)</ref></bibl>
+            <bibl corresp="#biblical-12" type="Mt"><ref>(Мф 25, 21 / Mt 25,21)</ref></bibl>
+            <bibl corresp="#biblical-13" type="1Cor"><ref>(1 Кор 7, 27 / 1Cor 7,27)</ref></bibl>
+            <bibl corresp="#biblical-14" type="Eb"><ref>(Евр 13, 4 / Eb 13,4)</ref></bibl>
+            <bibl corresp="#biblical-15" type="1Cor"><ref>(1 Кор 7, 19 / 1Cor 7,19)</ref></bibl>
+            <bibl corresp="#biblical-16" type="Gv"><ref>(Ин 14, 21 / Gv 14,21)</ref></bibl>
+            <bibl corresp="#biblical-17" type="Mt"><ref>(Мф 7, 21 / Mt 7,21)</ref></bibl>
+            <bibl corresp="#biblical-18" type="1Ts"><ref>(1 Фес 4, 3-6 / 1Ts 4,3-6)</ref></bibl>
+            <bibl corresp="#biblical-19" type="1Cor"><ref>(1 Кор 7, 5 / 1Cor 7,5)</ref></bibl>
+            <bibl corresp="#biblical-20" type="1Ts"><ref>(1 Фес 4, 4 / 1Ts 4,4)</ref></bibl>
+         </listBibl>         
+         
+      </back>
+   </text>
+</TEI>

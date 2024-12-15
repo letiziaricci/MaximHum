@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Переводы в других сборниках сочинений Максима Грека - Статья о Пафнутии - Повесть о соборе, хотевшем уставити, дабы попы, и диаконы, и иподиаконы без жен были [Perevody v drugich sbornikach sočinenij Maksima Greka - Stat'ja o Pafnutii - Povest' o sobore, chotevšem ustaviti, daby popy, i diakony, i ipodiakony bez žen byli]</title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1897 #Iva-1969">Повѣсть о соборѣ, хотѣвшемъ уставити, дабы попы и диаконы и подиаконы безъ женъ были [Pověst' o soborě, chotěvšem'' ustaviti, daby popy i diakony i podiakony bez'' žen'' byli] <note type="editorial"><ref><bibl>Maksim Grek 1897 <citedRange unit="page" from="210" to="211">210-211</citedRange></bibl></ref> <ref><bibl>Ivanov 1969 <citedRange unit="page" from="77" to="77">77</citedRange></bibl></ref></note></title>   
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Troic-200 #Troic-201 #Sol-495/514 #Pers-14">Повесть о соборе, хотевшем уставити, дабы попы, и диаконы, иподиаконы без жен были <note type="editorial"><ref><locus type="witness">ms. RGB, f. 304, sobr. Troice-Sergievoj lavry 200, ff. 408r-408v</locus></ref> <ref><locus type="witness">ms. RGB, f. 304, sobr. Troice-Sergievoj lavry 201, f. 103r</locus></ref> <ref><locus type="witness">ms. RNB, sobr. Soloveckogo mon. 495/514, ff. 319v-320r</locus></ref> <ref><locus type="witness">ms. IRLI, koll. Peršina 14, ff. 475r-475v</locus></ref></note></title>
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+        
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">93</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984</date></ref>: <biblScope unit="page" from="171" to="172">171–172</biblScope>, <biblScope unit="chapter">nr. I.6.II.В</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="210" to="211">210–211</biblScope>
+               </bibl>
+               </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#QI-219">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Q.I.219</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#464v #465r">лл. 464об.-465об.</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">Повесть о соборе, хотевшем уставити, дабы попы, и диаконы, и иподиаконы без жен были</title>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Пафнутеи, единого града горних Фиваид епископ, мужь благочестив и чюдотворец; его же в время гонениих око вывертели гонителие.</incipit>   
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">И послушаша весь събор епископов словес Пафнутиевых, и еже о сем взыскание замолчали, произволению хотящих жен ошаятися оставивше.</explicit>   <!-- 01. Inventario COLONNA K -->
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="lettera" /> 
+               <witness xml:id="И">   
+                  <ref target="lista-manoscritti.xml#Pers-14">ИРЛИ, колл. Першина 14</ref>, <locus type="foliation" target="#475r #475v">лл. 475-475об.</locus>   
+               </witness>
+               <witness xml:id="C">   
+                  <ref target="lista-manoscritti.xml#Sol-495/514">РНБ, собр. Соловецкого мон. 495/514</ref>, <locus type="foliation" target="#233v #234r">лл. 233об.-234</locus>    
+               </witness>
+               <witness xml:id="T2">   
+                  <ref target="lista-manoscritti.xml#Troic-201">РГБ, ф. 304, собр. Троице-Сергиевой лавры 201</ref>, <locus type="foliation" target="#103r">л. 103</locus>    
+               </witness> 
+               <witness xml:id="T1">   
+                  <ref target="lista-manoscritti.xml#Troic-200">РГБ, ф. 304, собр. Троице-Сергиевой лавры 200</ref>, <locus type="foliation" target="#408r #408v">лл. 408-408об.</locus>    
+               </witness>
+               <witness xml:id="B">   
+                  <ref target="lista-manoscritti.xml#Sin-491">ГИМ, Синодальное собр. 491</ref>, <locus type="foliation" target="#163r #163v">лл. 163-163об.</locus>    
+               </witness> 
+            </listWit> 
+            
+            
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="Π828">Suda Π828 [= Adler 1928-1938, IV: 72]</ref> 
+               </bibl> 
+            </listBibl>
+           
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">intra 1525 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="68" to="69">68-69</citedRange></bibl></ref></note></date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Повесть</term> 
+               </keywords>
+            <keywords scheme="#scope">   
+               <term>Suda (celibato ecclesiastico)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution">
+               <term target="#translation" source="#Π828">Traduzione</term> 
+            </keywords>
+         </textClass>
+         
+        
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>Повесть о соборе, хотевшем уставити, дабы попы, и диаконы, и<anchor xml:id="v1" n="1" rend="super"/> иподиаконы без жен были<anchor xml:id="v2" n="2" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p><metamark corresp="#Π828" function="locus-Suda" rend="label-margin-right" />Пафнутеи, единого града<anchor xml:id="v3" n="3" rend="super"/> горних Фиваид епископ<anchor xml:id="v4" n="4" rend="super"/>, мужь<anchor xml:id="v5" n="5" rend="super"/> благочестив<anchor xml:id="v6" n="6" rend="super"/> и<anchor xml:id="v7" n="7" rend="super"/> чюдотворец; его же в время гонениих<anchor xml:id="v8" n="8" rend="super"/> око вывертели гонителие. Сего царь Константин к себе часте призываше и ока его с любовию облобызааше.<anchor xml:id="v9" n="9" rend="super"/> Хотящимь же епископом съборне нов закон в церковь внести, яко священником, глаголю же, епископом,<anchor xml:id="v10" n="10" rend="super"/> презвитером, и диаконом, и<anchor xml:id="v11" n="11" rend="super"/> иподиаконом не съжительствовати женами, яже еще людины суще пояша. И<anchor xml:id="v12" n="12" rend="super"/> елма о сем хотяху<anchor xml:id="v13" n="13" rend="super"/> разсужати, въстав посреди събора епископов, Пафнутеи вопиаше силно не наложити тяжко иго освященным мужем, честне быти<anchor xml:id="v14" n="14" rend="super"/> <metamark function="end-page" rend="//"/><pb type="folio" n="л.465" rend="label-margin-left"/> женитве, да не превеликым прилежанием болши вред внесем в церкви. Не всем бо мощи тръпети подвиг бестрастиа, ниже равне блюсти целомудрию коеяждо подружиа; и целомудрие нарицаше законныа супружницы съвокупление; довлети же ся<anchor xml:id="v15" n="15" rend="super"/> сподобльшуся причта получити к тому женитву не искати, по церковному преданию древнему; ниже пакы распрязатися, eя же еще людин сыи поят. И сих глаголаше Пафнутeи<anchor xml:id="v16" n="16" rend="super"/> не искусен отнюдь быв брака и<anchor xml:id="v17" n="17" rend="super"/> нe причастен жены; от детьства бо в пустынницех въспитан бысть и в целомудрии зело пресловут бе. И послушаша весь събор епископов словес Пафнутиевых, и еже о сем взыскание замо<metamark function="end-page" rend="//"/><pb type="folio" n="л.465 об." rend="label-margin-left"/>лчали, произволению<anchor xml:id="v18" n="18" rend="super"/> хотящих жен ошаятися оставивше.</p>
+         </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> 
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1"> 
+                  <witDetail wit="#T1 #T2 #C #И">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> 
+                  <witDetail wit="#В">Доб. <hi rend="distinct">42</hi>; на поле: <hi rend="distinct">11</hi></witDetail>
+                  <witDetail wit="#Т1">на поле: <hi rend="distinct">17</hi></witDetail>
+                  <witDetail wit="#Т2">на поле: <hi rend="distinct">17</hi></witDetail>
+                  <witDetail wit="#С">на поле: <hi rend="distinct">глава 39</hi></witDetail>
+                  <witDetail wit="#И">на поле: <hi rend="distinct">глава 94</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <rdg wit="#С">от град</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <rdg wit="#И">есть</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <rdg wit="#В">но иже</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <rdg wit="#Т1 #И">богочестив</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7"> 
+                  <witDetail wit="#В #T1 #T2 #C #И">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <rdg wit="#С">гонениа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9">
+                  <rdg wit="#С">лобызаше</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10"> 
+                  <witDetail wit="#В">Зачеркнуто</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11"> 
+                  <witDetail wit="#T1 #T2 #C #И">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12"> 
+                  <witDetail wit="#В #T1 #T2 #C #И">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <rdg wit="#T1 #T2 #И">хощу</rdg>
+                  <witDetail wit="#Т1">испр. на <hi rend="distinct">хотяху</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14"> 
+                  <witDetail wit="#В #T1 #T2 #C #И">Доб. <hi rend="distinct">глаголя</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15"> 
+                  <witDetail wit="#В">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16"> 
+                  <witDetail wit="#T1 #T2 #И">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17"> 
+                  <witDetail wit="#T1 #T2 #C #И">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#v18">
+                  <rdg wit="#Т1">произволение</rdg>
+               </app>
+            </listApp>
+         </listApp>
+         
+         
+      </back>
+   </text>
+</TEI>

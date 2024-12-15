@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl"><idno type="id">[Ivanov 260]</idno> Инока Максима Грека сказание отчасти недоумѣнныхъ нѣкихъ рѣчений въ словѣ Григория Богослова [Inoka Maksima Greka skazanie otčasti nedouměnnych'' někich'' rěčenij v'' slově Grigorija Bogoslova]</title>   <!-- 01. Inventario COLONNA F -->
+            <title type="alt" xml:lang="cu-Cyrl"><idno type="id">[Ivanov 260]</idno> Сказание отчасти недоумѣнныхъ нѣкихъ рѣчений въ словѣ Григория Богослова [Skazanie otčasti nedouměnnych'' někich'' rěčenij v'' slově Grigorija Bogoslova] <ref target="lista-bibliografia.xml#PVK-1881 #Iva-1969">(Porfir'ev, Vadkosvkij, Krasnosel'cev 1881: 490; Ivanov 1969: 173-174)</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl"><idno type="id">[Ivanov 260]</idno> Мифологический комментарий Максима Грека к двум словам Григориа Богослова - Сказание отчасти недоуменных неких речении в слове Григория Богослова [Mifologičeskij kommentarij Maksima Greka k dvum slovam Grigorija Bogoslova - Skazanie otčasti nedoumennych nekich rečenii v slove Grigorija Bogoslova] <ref target="lista-bibliografia.xml#Sin-1977">(Sinicyna 1977: 254)</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl"><idno type="id">[Ivanov 260]</idno> [Сказание о толковании имен в слове Григории Богослова (Skazanie o tolkovanii imen v slove Grigorii Bogoslova) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title>   
+            <title type="alt" xml:lang="cu-Cyrl"><idno type="id">[Ivanov 102]</idno> Повесть о римском юноше [Povest' o rimskom junoše] <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 82-83)</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl"><idno type="id">[Ivanov 102]</idno> Повесть первая [Povest' pervaja] <ref target="lista-manoscritti.xml#RGIA-1622">(Ivanov 1969: 82-83, n. 180, ms. RGIA, f. 834 4 1622, ff. 76r-76v)</ref></title>
+            <title type="alt" xml:lang="cu-Cyrl"><idno type="id">[Ivanov 102]</idno> О римских повестях, повесть первая [O rimskich povestjach, povest' pervaja] <ref target="lista-bibliografia.xml#Und-338">(Ivanov 1969: 82-83, n. 180, RGB, Und. 338, ff. 177r-181v)</ref></title>
+            <title type="alt" xml:lang="cu-Cyrl"><idno type="id">[Ivanov 102]</idno> [Повесть о римском юноше (Povest' o rimskom junoše) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title>
+
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">A Ivanov 260 segue senza stacco Ivanov 102, testo autonomo nella tradizione. Ivanov 260 contiene la continuazione del commento all'Oratio 39. In sancta lumina di Gregorio di Nazianzo avviato in Ivanov 344, resa possibile dal ricevimento del libro greco reclamato in Ivanov 247</note>   
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">260+102</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie"><idno type="id">[Ivanov 260]</idno> Румянцевское собрание 47</bibl>                    
+            </listBibl>
+                 
+            <bibl type="reference-edition" xml:id="KI">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="35" to="40">35-40</biblScope>, <biblScope unit="chapter">nr. 6</biblScope>
+               <incipit type="info-ms"><idno type="id">[Ivanov 260]</idno> Сущее: не фракиистии уставы сия. Толкование. Коя ли сия? сирѣчь таинства воплощения божия слова, яже суть рождество его и крещение и прочая.</incipit>
+               <explicit type="info-ms"><idno type="id">[Ivanov 260]</idno> Отъ Адриана царя римскаго и обновленъ и преименованъ, за Константинь градъ четыре дни.</explicit>
+
+               <incipit type="info-ms"><idno type="id">[Ivanov 102]</idno> Въ повѣстѣхъ римскихъ повѣствуется таково нѣкое: Риму и Картагенѣ, на многа лѣта воюющимся вражебнѣише межи себе, юноша нѣкии, великаго вельможи римскаго сынъ [...]</incipit>
+               <explicit type="info-ms"><idno type="id">[Ivanov 102]</idno> Разумѣвъ же сия сынъ его, яко хотя отедъ его утаити таину отъ слуги сына своего, не грамотою ни отвѣтомъ приказываетъ, что велитъ, чинити въ Картагенѣ сыну своему, но якоже при слузѣ ходя во огородѣ всѣмъ высокимъ маковицамъ батогомъ главы поотбилъ и ни остави ни единыя съ головою, такоже велитъ и сыну своему всѣмъ воеводамъ картагенскимъ главы посѣщи.</explicit>
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Rum. nr. 6]</biblScope>
+                  <note>Edizione in corso di stampa</note>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>
+               </msIdentifier>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni, tanti <witness></witness> quanti sono i testimoni di controllo in 03. Inventario testimoni di controllo--> 
+               <witness corresp="#b-wit-1" ana="#reference-ms"/>
+               <witness corresp="#b-wit-2" ana="#reference-ms"/>
+               <witness corresp="#b-wit-3" ana="#reference-ms"/>
+               <witness corresp="#b-wit-4" ana="#reference-ms"/> 
+            </listWit>
+            
+            <!-- OPZIONALE: fonte per opere tradotte -->
+            <listBibl type="fontes">  <!-- fonte per la traduzione -->
+               <bibl xml:id="id">
+                  <ref corresp="lista-bibliografia.xml#Iva-1969"><name>Ivanov</name>, <date>1969</date></ref>: <biblScope unit="page" from="82" to="83">82-83 (n. 180)</biblScope> 
+               </bibl> <!-- id preso più giù in "source" di <textclass>/<keywords scheme="#attribution">/<term target="#dubium" source="#"> -->
+            </listBibl>
+            <!-- ESEMPIO PER ISIDORO DI SIVIGLIA, ETIMOLOGIE -->
+            <listBibl type="fontes">  <!-- fonte per la traduzione -->
+               <bibl  xml:id="Isidoro">
+                  <author>[Omelie di Gregorio di Nazianzo per Ivanov 260; gesta Romanorum per Ivanov 102]</author>, <title>Etymologiae</title> 
+               </bibl> <!-- id preso più giù in "source" di <textclass>/<keywords scheme="#attribution">/<term target="#dubium" source="#"> -->
+            </listBibl>
+            
+            <!-- OPZIONALE: bibliografia secondaria per opere dubium -->
+            <listBibl type="secondary-bibliography">
+               <bibl xml:id="MG-2025">
+                  <ref corresp="lista-bibliografia.xml#"><name>Maksim Grek</name>, <date>2025</date></ref>
+               </bibl>  <!-- id preso più giù in "source" di <textclass>/<keywords scheme="#attribution">/<term target="#dubium" source="#"> -->
+            </listBibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date><idno type="id">[Ivanov 260]</idno> Inizio anni 40 del XVI secolo <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 174)</ref></date> 
+            <date><idno type="id">[Ivanov 260]</idno> post 1548 <ref target="lista-bibliografia.xml#Bul-1984a">(Bulanin 1984a: 47)</ref></date>
+            <date><idno type="id">[Ivanov 102]</idno> 1555ca (?) <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 82-83, n. 180)</ref></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   <!-- 01. Inventario COLONNA L -->
+               <term><idno type="id">[Ivanov 260]</idno> Сказание</term> 
+            </keywords>
+            <keywords scheme="#label">
+               <term><idno type="id">[Ivanov 102]</idno> [Повѣсть]</term> 
+            </keywords>
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Esegesi di omelie patristiche (Gregorio di Nazianzo, Oratio 39, Oratio 43)</term> 
+               <term>Notizia della scoperta dell'America</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original"><idno type="id">[Ivanov 260]</idno> Testo originale</term>   
+               <term target="#translation"><idno type="id">[Ivanov 260]</idno> possibile excerptum dai Gesta Romanorum (1555) <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 82-83, n. 180)</ref></term>
+               <term target="#dubium"><idno type="id">[Ivanov 102]</idno> Dubium <ref target="lista-bibliografia#MG-2025">(Maksim Grek 2025)</ref></term>
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName xml:id="MG">
+                  <persName>Максим Грек / Maksim Grek</persName>
+               </persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:id="Ak">
+                  <persName>Акакий / Akakij (vescovo di Tver') (?) <ref target="lista-bibliografia#Bul-1977">(Bulanin 1977: 287)</ref></persName>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>
+            </interpretation>
+         </editorialDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОКА МАКСИМА ГРЕКА СКАЗАНИЕ ОТЧАСТИ НЕДОУМѢННЫХЪ НѢКИХЪ РѢЧЕНИЙ ВЪ СЛОВѢ ГРИГОРИЯ БОГОСЛОВА</p>  
+      </front>
+      
+      <body>
+         <p>Сущее: не фракиистии уставы сия. Толкование. Коя ли сия? сирѣчь таинства воплощения Божия Слова, яже суть рождество его и крещение и прочая. Сущее: таже приводитъ: ихъ же вѣрование якоже слово есть: африския<anchor xml:id="c1" n="а" rend="super"/> пословица есть древняя еллинска, а толкуется служба идольская, а не вѣрование, кое бо вѣрование въ невѣрныхъ идолопоклонницѣхъ? А еже глаголетъ: и козли мендисискихъ честнѣишии, таково что есть? Менди градъ есть преславенъ египетскъ, въ немъ же граждане прельстишася бѣсы, яко выбираху лучшаго козла и храняще его въ хлѣвинѣ честнѣ, и кормяще обильнѣ служаху и покланяхуся ему, аки Богу. Поругаяся убо безумию ихъ презѣлному, богослововъ глаголетъ: ни козли честнѣиши самѣхъ живущихъ въ Менди. Сущее: таже приводитъ, глаголя: ни апидовы ясли юнца наслаждающася обильно мемфитовъ буиствомъ. Толкование: есть же повѣсть сицева: Менфи градъ есть преславенъ египетскъ, а граждане того же града мемфитяне до конца прельстишася бѣсы, юнца оградивше во яслѣхъ честно дѣланѣхъ, кормяху его обильно и моляхуся ему, поклоняющеся аки Богу, егоже и нарицаху своимъ языкомъ алпинъ<anchor xml:id="c2" n="б" rend="super"/>. Таже глаголетъ<anchor xml:id="c3" n="в" rend="super"/>: ни елика Нила почитающе ругаются плододателя нарицающе его и доброкласна и мѣряща гобзование локотми; разумъ же сихъ сицевъ есть: египтяне, къ прочимъ премногимъ ихъ безумнымъ прельщениемъ, и Нила рѣку, обливающую весь Египетъ и плодовитъ творящу и, почитаху ю и плододателя и доброкласна нарицаху ю, и мѣрящу лактми хотящее быти или гобзование или меженину, есть же разумъ сицевъ: египтяне многолѣтнымъ искусомъ разумѣвше, колицемъ пребываниемъ воды Ниловы гобзование бываетъ, содѣлаша по брегу его степени каменныя, иже и лакти нарицаху; понеже лакотно разстояние бѣяше промежъ степенемъ, и, егда разливашеся вода до верхняго степени, то угадаху, яко гобзование будетъ тѣмъ плодомъ земнымъ. Еже бо чрезъ Гадиръ непрепловно Гадира еллини мудрецы наричютъ конецъ земли весненаго запада, идѣже море узко якоже рѣки быстрѣише, егоже со обоихъ странъ береги пришли высочаиши аки горы, ихъ же и столпы ираклеиски именуютъ, зане Ираклеи крѣпкии и преславныи во храбрыхъ еллинѣхъ до того мѣста прииде, очищая всюду всю вселенную отъ всякаго звѣря лютаго и разбоиника и злодѣя человѣка. И древнии убо людие чрезъ Гадиръ плыти не умѣяху, паче же не дерзаху; нынѣшнии же люди португальстии, испанстии, со всякимъ опанствомъ выплываютъ корабли великими, не давно почали, лѣтъ тоту 40, или 50, по совершении седмыя тысящи, и нашли острововъ много, иныхъ убо обитаемыхъ людьми, а иныхъ пустыхъ, и землю величаишу глаголемую Куба, еяже конца не вѣдаютъ тамо живущеи. Нашли же еще, обшедше около всю южскую страну даже до востока солнца зимнаго ко Индии острови семь Молукиди нарицаемыхъ, въ нихъ же родится и корица и гвоздики и ины благовонны ароматы, которыя дотолѣ не были вѣдомы ни единому человѣческому роду, нынѣ же всѣми вѣдомы королемъ испанскимъ и португальскимъ, иже и тамошнихъ людехъ не знающихъ дотолѣ Бога истинна, кланяхужеся твари паче Творца, нынѣ же наставили ихъ въ вѣру свою, рекше латынскую, отпустивше къ нимъ епископи, и учители, и священники, и всякое ремество, и всяка сѣмена здѣшняя; и нынѣ тамо новыи миръ и ново составление человѣческо. Фиве же ептапилы, еже есть седмовратнии, во гречестѣи земли суть градъ преславенъ и древнии и прекрасенъ, а другии Фиве екатонтапилы, еже есть стовратнии, во египетстѣи земли были, о нихъ же повѣствуютъ еллины, яко толь многолюдни были, яко съ коиждихъ вратъ градскихъ 500 мужеи вооружени готови на брань исхожаху, стѣны же вавилонстии превысоки и превелики были, и сеи есть Вавилонъ старъ, въ немъ же царствовалъ Навуходоносоръ, о нем же и превознесеся гордостию превеликою, преложися на звѣрскии образъ, Божиимъ праведнымъ судомъ. Мавзоловъ же мраморныи гробъ, и тотъ въ седмыхъ предивныхъ видѣнии всего свѣта спричитается, многоцѣннаго ради украшения его. Мавзолъ бо царь бысть кариискии преславенъ и богатъ, и преже смерти своея потщался всею силою своею такова гроба предивна себѣ доспѣти, яковъ же не бысть преже ниже потомъ мощи кому чинити. А о колоссѣ мѣдяномъ сицева нѣкая есть повѣсть: въ бѣлое море островъ есть, Родосъ именуемъ, а жители еллини быша, сирѣчь греки, якоже и нынѣ тотъ островъ въ старая времена еще до римския державы обладалъ есть многими островы и ближними и далними, и многа одолѣния воздвиже на недруги своя, и по многихъ побѣдахъ поставиша въ честь солнцу превелии образъ человѣчь мѣдянъ, на высокихъ брезѣхъ, ихъ же содѣлали надъ моремъ, сущимъ предъ враты града ихъ, едину ногу на единомъ брезѣ, а другую на другомъ имѣющъ водружену; толь же велико бысть разстояние ихъ и высота стегновъ его, яко мощи кораблю проити подъ него съ вѣтриломъ. А пирамиды во Египтѣ и нынѣ суть, три ихъ. Создашажеся первая и большая иныхъ Сезогхозомъ (?), древнѣишимъ царемъ египетскимъ, на удивление вѣчное, а другия двѣ меньши ины царие, ихъ же имена запамеговалъ, созданы же суть четвероугольны, низу широки, а верху узки; тѣмъ образомъ ширина нижняя большия пирамиды 400 саженъ, но 100 саженъ на коеиждо странѣ, а степенеи число премного вельми, а сказати не умѣю, забыхъ бо, не всякъ же смѣетъ ити вверхъ, лишше кто велми силенъ тѣломъ всѣмъ, а егда хощетъ опять на низъ обратився лицемъ къ степенемъ и руками опираяся хрептомъ верхъ слезеть, по малу и со страхомъ, высота бо безмѣрна и частость степенеи омрачаетъ ума и очи. Агамемному царю еллинскому, воюющу на многа лѣта на Трою, царица Клитемнистра, жена его, отчаявши возвращения его, живяше прочее съ строитемъ дому Агамемнонова, ему же имя Егистъ. Таже по 10-тихъ лѣтѣхъ и раззорении Трои, пришедшу Агамемному во царство свое, и влѣзша въ баню мытися царица Клитемнистра принесла къ нему сорочку безъ ворота; уже бо совѣтовала съ своимъ гнусодѣемъ Егистомъ убити Агамемнона; царю же Агамемному, хотящу облещися въ сорочку, не могущу, Егистъ сѣкирою убилъ его, и тако взятъ царство его. Осталъ-же-ся Орестъ сынъ Агамемноновъ младъ зѣло, сестра же его Илектра, дѣвица сущи, отпустила его ко иному царю, да не убиенъ будетъ Егистомъ; Орестъ же, возмужавъ ужь гораздо, воспомянувъ горкия смерти отца своего Агамемнона, и восхотѣ сотворити отмщение отцу своему, вземъ же съ собою приснѣишаго друга своего Пилада, сына суща вельможи нѣкоего, прииде во градъ свои, емуже имя Микинъ, и таи показа себѣ сестрѣ своеи Илектрѣ и бѣсѣдовавъ съ нею о еже како отмстити смерти отца своего, (въ) нощи влезѣ во дворъ Егистовъ, помогающи ему сестрѣ его Илектрѣ, убилъ и матерь свою и Егиста, спящихъ. По убиении же ихъ, лукавымъ духомъ объятъ бывъ и бѣсяся, скиташеся по землямъ лѣта нѣколика, таже исцѣлѣвъ, прииде во Одрисы, еже есть Фракия, идѣже и градъ поставилъ, егоже и именовалъ есть Орестиадъ, се же есть, иже нынѣ именуется Андриануполь, отъ Андриана царя римскаго и обновленъ и преименованъ, за Константинь градъ четыре дни. Въ повѣстѣхъ римскихъ повѣствуется таково нѣкое: Риму и Картагенѣ, на многа лѣта воюющимся вражебнѣише межи себе, юноша нѣкии, великаго вельможи римскаго сынъ, утаився родителехъ своихъ и всего Рима, достиже Картагену и самому властелю картагенскому сказався и солгавъ ему, что изгнанъ бысть отъ римлянъ, о немъ же быть то думаше имъ миръ взяти съ картагенскимъ, приятъ бысть отъ властеля картагенскаго честно, и вѣровавъ ему еще и видя его юношу добра суща и тѣломъ и возрастомъ воеводу яви его большаго противу римлянъ. Времени же минувшу не многу, посла втаи въ Римъ ко отцу своему единого вѣрнаго слугу своего сказа ему славу и честь, юже получилъ у картагенскаго властеля, вкупѣ же и вопрошая отца своего, что подобаетъ ему чинити; слузѣ же пришедшу въ Римъ, и грамоту давшу отцу его, и мало дни пожившу у него, введе его въ огородъ свои вельможа тотъ, и, ходя по огороду, вослѣдующу слузѣ сына его, батогомъ обиваше главы большимъ маковицамъ, и ни остави ни единыя съ головою, и тако отпусти слугу къ сыну своему безъ всякаго отвѣта; пришедша же слугу вопрошаше, аще есть грамота къ нему, или слово которое отца его? и слузѣ отвѣщавшу: нѣсть ничтоже, что же, рече, отецъ мои дѣяше? сказа ему, какъ его въ огородъ взялъ съ собою, и како батогомъ обиваше главы всѣхъ высокихъ маковицъ, и не остави ни единыя съ головою. Разумѣвъ же сия сынъ его, яко хотя отецъ его утаити таину отъ слуги сына своего, не грамотою ни отвѣтомъ приказываетъ, что велитъ, чинити въ Картагенѣ сыну своему, но якоже при слузѣ ходя во огородѣ всѣмъ высокимъ маковицамъ батогомъ главы поотбилъ и ни остави ни единыя съ головою, такоже велитъ и сыну своему всѣмъ воеводамъ картагенскимъ главы посѣщи.</p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>ἀθρησκεία</p>
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label> 
+               <p>Аписъ?</p>
+            </note>
+            <note target="#c3"> 
+               <label rend="super">в</label>
+               <p>т.е. Григорий Богослов.</p>
+            </note>
+         </noteGrp>
+         
+      </back>
+   </text>
+</TEI>

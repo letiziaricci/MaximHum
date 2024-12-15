@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Письмо Иоанну Григоропулосу [2] [Pis'mo Ioannu Grigoropulosu]</title> 
+            <title type="alt" xml:lang="fr">Lettre à Jean Grégoropoulos, du 26 ... 1499 <ref target="lista-bibliografia.xml#Den-1943">(Denissoff 1943: 400, 402)</ref></title>
+            <title type="alt" xml:lang="cu-Cyrl">Письмо Иоанну Григоропулу от 26 ... 1499 г. [Pis'mo Ioannu Grigoropulu ot 26 ... 1499 g.] <ref  target="lista-bibliografia.xml#Kli-1958">(Klibanov 1958: 165)</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl">Письмо к Иоанну Григоропуло от 26 ... 1499 г. [Pis'mo k Ioannu Grigoropulo ot 26 ... 1499 g.] <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 162)</ref></title>         
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">237</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="92">92</biblScope>, <biblScope unit="chapter">nr. I.4</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Leg-1885"><name>Legrand</name>, <date>1885</date></ref>: <biblScope unit="page" from="302">302</biblScope> [greco]
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografica.xml#Den-1943"><name>Denissoff</name>, <date>1943</date></ref>: <biblScope unit="page" from="400" to="402">400, 402</biblScope> [greco]
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Fir-Did"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>Collezione privata Firmin-Didot</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation">[non rilevabile]</locus>  
+                     <rubric type="epistolary-formula" xml:lang="lat">Carissimo uti fratri Joanni Cretensi Grigoropylo, in domo domini Aldi Venetiis.</rubric> 
+                     <incipit type="info-ms" xml:lang="grc">Άδελφέ μου γλυκύτατε, εἴης ὑγιαίνων ὑγιαίνοντι καὶ αὐτῷ.</incipit>  
+                     <explicit type="info-ms" xml:lang="grc">Πλείονα οὐ γράφω σοι διὰ τὸ καιροῦ μὴ εὐροπεῖν, ὁ γὰρ γραμματοφόρος ἐπὶ νώτοις μου ἐπίκειται ἐκδεχόμενος καὶ ταῦτα τὰ ὀλίγα. Μιραντύληθεν. Ό σὸς Μιχαὴλ ὁ Τριβώλης. Κϛʹ τοῦ ἐνεστῶτος.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" />
+            </listWit> 
+             
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>1499 <ref target="lista-bibliografia.xml#MG-2008">(Maksim Grek 2008: 92)</ref></date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="lat">Latino</language>
+            <language ident="grc">Greco</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">  
+               <term>Corrispondenza privata</term>  
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>  
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="lista-destinatari.xml#MG">Μιχαὴλ Τριβώλης / Michele Trivolis / Михаил Триволис</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="lista-destinatari.xml#IG">Ἰωάννης Γρηγορόπουλος / Giovanni Gregoropulo / Иоанн Григоропулос</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text>     
+      <body>
+         <p xml:lang="lat">Carissimo uti fratri Joanni Cretensi Grigoropylo, in domo domini Aldi Venetiis.</p>
+         <p xml:lang="grc">Αδελφέ µου γλυκύτατε, εἴης ὑγιαίνων ὑγιαίνοντι χαὶ αὐτῷ. Μὴ θαύμαζε εἰ οὐ συνεχέστερόν σοι ἐπιστέλλω· γιγνώσκω γὰρ ὥς ὁ θεσμὸς τῆς φιλίας οὐκ ἐν τῷ συνεχῶς ἐπιστέλλειν συνίσταται· κἀν τούτῳ μέντοι τρόπῳ τινὶ τὸ πλεῖστον συνίτασται ἐν τῷ παρέχειν σφᾶς αὐτοὺς προθύμους ὅταν του δέῃ, ἄλλως τε οὐκ εὐποροῦμεν τῶν γραμματοφόρων, καὶ τρίτον ὅτι οὐδὲν τῶν ἀναγκαίων νῦν πιέζει. Μὴ δυσανασχέτει τὸ λοιπὸν εἰς τὸ ἑξῆς εἰ οὐ συνεχῶς κομίσαιο παρ᾽ ἐμοῦ γε γράμματα διὰ τὰς προῤῥηθείσας αἰτίας· σοῦ δὲ δέομαι, εἴ µε φιλεῖς, ἀντεπίστειλόν μοι διὰ τούτου τοῦ διακομιστοῦ καὶ μὴ ὀλιγωρίᾳ παραδῴης τὸ πρᾶγμα· προσμένω γὰρ κεχηνὼς δίκην τῶν νεοσσῶν ἐκδεχομένων τὴν ἑαυτῶν μητέρα εἴ τι ἥκοι φέρουσα αὐτοῖς ἐδώδιμον. Ὧν δὲ δέομαί σου δηλῶσαί μοι, ἄκουε· δηλοῦ μοι ὡς ἐν βραχεῖ εἰ τοῦτο τὸ θέρος ὁ τῆς ἀσεβείας προστάτης βούλεται ἐκπέμπειν στόλον διὰ θαλάσσης ἢ οὔ, καὶ εἰ ὁ ᾿Αδρί ας ἐστὶν ὀχυρὸς ἐς καταπλοῦν ἢ οὔ· ἔστι γάρ τις τῶν ἐνταῦθα φίλων, ὃς βουλόμενος ἕως ἐς Κέρκυραν καταπλεῦσαι, βούλοιτο εἰδέναι εἰ ὀχυρὰ εἴη αὐτῷ τὰ τῆς ὁδοῦ ἢ οὔ· ταῦτά ἐστιν ἃ θέλω σε δηλώσειν μοι· μὴ ἀμελήσῃς, δέομαί σου, φίλτατε. Δὸς χάριν ἀντομένῳ, αἴδεσο δ᾽ ἱκέτην. Ἔρρωσο. Πάντας τοὺς φίλους ἀσπάζομαι καὶ μάλιστα τὸν κύριον Γεώργιον τὸν Μόσχον, χαὶ πολλὰ τὰ ἔτη σου. Πλείονα οὐ γράφω σοι διὰ τὸ καιροῦ μὴ εὐπορεῖν, ὁ γὰρ γραμματοφόρος ἐπὶ νώτοις μου ἐπίκειται ἐκδεχόμενος καὶ ταῦτα τὰ ὀλίγα. Μιραντύληθεν. Ὁ σὸς Μιχαὴλ ὁ Τριβώλης. Κϛʹ τοῦ ἐνεστῶτος.
+         </p>
+      </body>
+   </text>
+</TEI>

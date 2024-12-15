@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание князю Петру Шуйскому [Poslanie knjazju Petru Šujskomu]</title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1860 #Iva-1969">Послание къ князю Петру Шуискому [Poslanie k'' knjazju Petru Šuiskomu] <note type="editorial"><ref><bibl>Maksim Grek 1860 <citedRange unit="page" from="415" to="420">415-420</citedRange></bibl> <bibl>Ivanov 1969 <citedRange unit="page" from="169" to="170">169-170</citedRange></bibl></ref></note></title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Послание князю Петру Ивановичу Шуйскому (Poslanie knjazju Petru Ivanoviču Šujskomu)  <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title> 
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Troic-201">Максима инока святогорца с чиолом послание к князю Петру Ивановичю Шуискому <note type="editorial"><ref><locus>ms. RGB, f. 304, Troic. 201, ff. 355r-356v</locus></ref></note></title> 
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Versione slava di [Ivanov 248-G]</note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Ivanov">248</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#Olm-1989"><name>Olmsted</name>, <date>1989</date></ref>: <biblScope unit="page" from="273" to="278">273–278</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="415" to="420">415-420</biblScope>, <biblScope unit="chapter">nr. 37</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Posl. nr. 19]</biblScope> <note>Edizione in corso di stampa</note>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Troic-200"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 304, Троиц. 200</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 100 / cap. 100</locus>   <!-- 02. Inventario testimone base COLONNA h -->
+                     <locus type="foliation" target="#357r #358r">лл. 357-358 / ff. 357r-358r</locus>   
+                     <rubric type="epistolary-formula" xml:lang="Cyrl">Благородному и благоразумному го(с)ударю моему князю Петру Ивановичю Шуискому Максим инок радоватися о Господѣ</rubric> 
+                     <incipit xml:lang="cu-Cyrl">Да не дивится велелѣпное твое благородие пресловутыи кня(з)ь, и мнѣ по всему многолюбимыи го(с)ударь кня(з)ь, о нем же достигшее мене множества ради грѣхов моих объстояние [...]</incipit>  
+                     <explicit xml:lang="cu-Cyrl">[...] прему(д)ры бо есте въ боже(с)твены(х) писании и зѣло искусны паче многих ины(х), и воспоминаниа излишняго не требуете. здравы(х) и въ всякои тишини и твердости и радости да соблюдает всегда Го(с)подь Иису(с) Христос всѣх вас, аминь.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl">
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="TSL200" /> 
+               
+               <witness xml:id="TSL201">  
+                  <ref target="lista-manoscritti.xml#Troic-201">РГБ, ф. 304, Троицк. 201</ref>, <locus type="chapter">гл. 148 (158) / cap. 148 (158)</locus>, <locus type="foliation" target="#591v #593v">лл. 591об.-593об. / ff. 591v-593v </locus>   
+               </witness> 
+            </listWit>
+            
+            <!-- OPZIONALE: fonte per opere tradotte -->
+            <listBibl type="fontes">  <!-- fonte per la traduzione -->
+               <bibl xml:id="id">
+                  <ref corresp="lista-bibliografia.xml#Olm-1989"><name>Olmsted</name>, <date>1989</date></ref>: <biblScope unit="page"></biblScope> 
+               </bibl> 
+            </listBibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Gol-1900-1917">1541-1542 <note type="editorial"><ref><bibl>Golubinskij 1900-1917, II/2: <citedRange unit="page" from="235" to="235">235</citedRange></bibl></ref></note></date>   
+            <date resp="lista-bibliografia.xml#Lop-1917 #Iva-1969">1548 <note type="editorial"><ref><bibl>Loparev 1917: ???</bibl> <bibl>Ivanov 1969 <citedRange unit="page" from="169" to="170">169-170</citedRange></bibl></ref></note></date>
+            <date resp="lista-bibliografia.xml#Olm-1989">post 1542 <note type="editorial"><ref><bibl>Olmsted 1989 <citedRange unit="page" from="268" to="268">268</citedRange></bibl></ref></note></date>
+            <date resp="lista-bibliografia.xml#MG-2014">1542 <note type="editorial"><ref><bibl>Maksim Grek 2014 <citedRange unit="page" from="15" to="15">15</citedRange></bibl></ref></note></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>[Послание]</term> 
+            </keywords>
+            <keywords scheme="#scope">    
+               <term>Autodifesa</term> 
+               <term>Supplica</term> 
+               <term>Richiesta di riammissione all'eucaristia</term>
+               <term>Richiesta di restituzione dei libri greci portati dall'Athos</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution">
+               <term target="#translation" source="lista-bibliografia.xml#Olm-1989">Autotraduzione dal greco</term>   
+            </keywords>
+         </textClass>
+             
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="list.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#PIS">Петр Иванович Шуйский / Petr Ivanovič Šujskij</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <body>
+         <p>Благородному<anchor xml:id="v1" n="1" rend="super"/> и благоразумному го(с)ударю моему князю Петру Ивановичю Шуискому Максим инок радоватися о Господѣ</p>
+         <p>Да не дивится<anchor xml:id="c1" n="а" rend="super"/> велелѣпное твое благородие пресловутыи<anchor xml:id="v2" n="2" rend="super"/> кня(з)ь, и мнѣ по всему многолюбимыи го(с)ударь кня(з)ь, о нем же достигшее мене множества ради грѣхов моих объстояние рекше скорбь смѣю прикладовати неправеднеишии<anchor xml:id="c2" n="б" rend="super"/> праведнаго оного скорби еюже пострада<anchor xml:id="v3" n="3" rend="super"/> первее убо о(т) своих братии продан быв аки нѣкое худое рабище<anchor xml:id="c3" n="в" rend="super"/>, а опосле по клеветѣ злыя блудници во темници затворен быв связан иже раискиа пищи и самѣх небе(с)ны(х) селении предостоин паче многых иных праведных сие же дерзнух сице писати не зане аз мню себе подобна по нѣчесому оному праведному. далѣче мене да будет таково бѣшение и конечное бе(з)умие. А(з) бо есмь оно древнее<anchor xml:id="c4" n="г" rend="super"/><anchor xml:id="v4" n="4" rend="super"/> злое, и мръзость запустениа иже нѣсмь достоин именоватися инок но оно всяко тщася пре(д)ставити твоему благородию, зане якоже о оном непови(н)нѣм по боже(с)твеному всяко посѣщению устроися по(д) гнѣвом своего их царя и в тои же темници затвореным быти славным онѣм двѣм мужем. иже<anchor xml:id="v5" n="5" rend="super"/> правѣ и яснѣ ра(з)суди сониа явльшаяся им треблаженныи юношя он, и поминати неправеднаго своего затворениа помоли оного емуже пре(д)рекл есть<anchor xml:id="v6" n="6" rend="super"/> пръвыи у царя сан и честь его, имже и възвѣщен быв фараону царю, о(т) уз и теминци разрѣшен бысть праведныи он и пръвыя чти у царя сподобися по глаголющему боже(с)твенному словеси: <cit><quote xml:id="biblical-1">«посла царь и разрѣши и, князя людии и пусти его и постави его го(с)подина дому своему и княза всего стяжаниа своего»</quote></cit> тѣм же убо образом негли възмних и аз устроися всяко по премногому божию еже о мнѣ окаа(н)ном человѣколюбию и благости, еже и твоему благородию по многу твоему смиреномудрию и благоумию и искати мене и приити ко мнѣ непотребном(у) и видѣниа твоего и бесѣды сла(д)кыя сподобити мене. и чюдитися о сем не подобает. иже бо изначала щедр и мило(с)тив и человѣклолюбец Бог, всегда есть и щедр и мило(с)тив и человѣколюбец. и аще на время попущает въ различных напасте(х) впасти нѣкоему, но <cit><quote xml:id="biblical-2">«не до конца прогнѣвается», глаголет священное слово «ни(ж)е въ вѣк враждует»</quote></cit>. и ино писание: <cit><quote xml:id="biblical-3">«поражу и паки исцелю»</quote></cit>. тъи Съдѣтель всѣм нам. то(и) и Спас и Промысленик <metamark function="end-page" rend="//"/><pb type="folio" n="л. 357 об."/> и Исцѣлитель душевны(х) страстех наших тои един и(з)вѣстно вѣсть что есть коемуждо на ползу. <cit><quote xml:id="biblical-4">«тои смиряет и высит мрътвит и живит, воставляет о(т) земли нища и о(т) гноища въздвизает убога»</quote></cit> не колесом счастиа и зодиами и планиты, яко(ж)е ложное учительство бе(з)божных Халдѣов и Египьтан и Еллин блядит и уставляет, но имиже вѣсть сам един бе(з)вѣстными и неи(з)глаголанными судбами его. <cit><quote xml:id="biblical-5">«кто бо» рече «позна ум господенъ, или кто ему совѣтник бысть»</quote></cit>. на<anchor xml:id="c5" n="д" rend="super"/> толико убо человѣколюбие его и благость яже о мнѣ и аз уповав, такожде познав и твоего благородиа многое еже еси показал къ мнѣ бѣдному благоумие же и кротость, дерзну(х) малыми писмены воспоминати тебѣ го(с)ударю моему яже о моих нужных. и не оно прошу, да о(т)пущен буду в ону че(с)тную и многожелаемую всѣм православным святую гору, вѣм бо и сам яко таковое мое прошение нѣсть вам любезно ниже благоприатно, но оно прошу у<anchor xml:id="c6" n="е" rend="super"/><anchor xml:id="v7" n="7" rend="super"/> вашея велелѣпныя свѣтлости да мя сподобите причястиа пречистых и животворящи(х) Хри(с)товых таи(н) ихже непричястен пребываю лѣт ужь 17, и лиш(е)нием их многолѣтным всячески(и) неподобен помысл, и всяко напаствование невидимых враг бе(з)престани ратует и скве(р)нит внутреняго человѣка създаннаго рукою божиею по образу и подобию божию а растлѣвающему таковаго каково страшно прещение належит, и сами вѣдаете лучши мене. дадите мнѣ сию благо(д)ать молю вы щедротами единаго праведнаго и страшнаго судиа иже хощет воздати коемуждо<anchor xml:id="v8" n="8" rend="super"/> по дѣлом его. спасите душю погыбающую да и на(д) вами будет писаное слово и благословение глаголющее, <cit><quote xml:id="biblical-6">«изводяи достоина о(т) недостоинаго, якоже уста моя будет чист»</quote></cit>. Бога ради стяжите себѣ такову<anchor xml:id="c7" n="ж" rend="super"/><anchor xml:id="v9" n="9" rend="super"/> благодать и возмездие и благословение о(т) Бога, оставите суд судящему всѣм праведно, «зане и Отец не судит никому» рече священное слово, <cit><quote xml:id="biblical-7">«но весь суд Сыну дасть»</quote></cit>. другую благо(д)ать прошу у вашего велелѣпиа: о(т)дадите ми яже с мною оттуде прише(д)шыа здѣ книгы греческиа на просвѣщение вкупѣ и утешение духовное окаяннѣи души моеи. покажите и ко мнѣ християньскую мило(с)ть якоже показасте и к иным многым <metamark function="end-page" rend="//"/><pb type="folio" n="л. 358"/> по благоумию вашему блъшую славу снискающе блаженѣи души приснопамятнаго царя и го(с)ударя вашего, а мнѣ го(с)ударя и благодѣтеля великого князя Василиа Ивановичя всея Русии, благоизволите якоже благоразумныи и вѣрни и ему съначалники и споспѣшникы скипетро(м) царскым благовѣрныя дръжавы рускыа приложити блаженнѣи души его, свѣтлѣишю славу и яже ко мнѣ мило(с)тию вашею, сие бо есть явьственѣише показание благоразумиа вѣрнѣиших и благоумны(х) князеи и бояре(х) еже тщатися и по еже о(т)селе о(т)шествии своего царя и го(с)ударя снискати ему и(з)лишную тамо славу всяческим здѣ человѣколюбием и ра(з)личными милостынями къ всѣм вкупѣ убогым и по теминцам злѣ стражущим. и слово сие не мое, но всѣх вкупѣ богодохновенных о(т)ец, ихже свѣ(д)ѣтельства пре(д)ложити вам по части вѣдущим их и(з)вѣстно, не зѣло искусно ра(з)судих. прему(д)ры бо есте въ боже(с)твены(х) писании и зѣло искусны паче многих ины(х), и воспоминаниа излишняго не требуете. здравы(х) и въ всякои тишини и твердости и радости да соблюдает всегда Го(с)подь Иису(с) Христос всѣх вас, аминь.                  
+         </p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1">
+                  <rdg wit="#TSL201">+ Максима инока святогорца с чиолом послание к князю Петру Ивановичю Шуискому</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2">
+                  <rdg wit="#TSL201">пресловнутыи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <rdg wit="#TSL201">пострадал</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <rdg wit="#TSL201">древное</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <rdg wit="#TSL201">имже</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <rdg wit="#TSL201">еси</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <rdg wit="#TSL201">у</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <rdg wit="#TSL201">комуждо</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9">
+                  <rdg wit="#TSL201">такову</rdg>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p><hi rend="distinct">о се(м)</hi>—added in margin in different ink and hand</p>
+            </note>
+            <note target="#c2"> 
+               <label rend="super">б</label>
+               <p><hi rend="distinct">аз</hi>added in margin, different ink and hand.</p>
+            </note>
+            <note target="#c3"> 
+               <label rend="super">в</label>
+               <p>written <hi rend="distinct">рабище</hi>, then <hi rend="distinct">-чи-</hi> added in margin, in different ink and hand, revising the form to <hi rend="distinct">рабичище</hi>.</p>
+            </note>
+            <note target="#c4"> 
+               <label rend="super">г</label>
+               <p>originally written <hi rend="distinct">древное</hi>; revised in margin to <hi rend="distinct">древнее</hi>, in different hand and ink</p>
+            </note>
+            <note target="#c5"> 
+               <label rend="super">д</label>
+               <p><hi rend="distinct">на</hi> revised in different hand and ink to read <hi rend="distinct">но</hi></p>
+            </note>
+            <note target="#c6"> 
+               <label rend="super">е</label>
+               <p>revised: <hi rend="distinct">о(т)</hi> written over scratched-out letter; evidently <hi rend="distinct">у</hi></p>
+            </note>
+            <note target="#c7"> 
+               <label rend="super">ж</label>
+               <p>revised from original <hi rend="distinct">такову</hi></p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Gen"><ref>(Быт 41, 40-41 / Gen 41,40-41)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Sal"><ref>(Пс 102, 9 / Sal 102,9)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Dt"><ref>(Втор 32, 39 / Dt 32,39)</ref></bibl>
+            <bibl corresp="#biblical-4" type="1Sam"><ref>(1 Цар 2, 6-8 / 1Sam 2,6-8)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Is"><ref>(Ис 40, 13 / Is 40,13)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Ger"><ref>(Иер 15, 19 / Ger 15,19)</ref></bibl>
+            <bibl corresp="#biblical-7" type="Gv"><ref>(Ин 5, 22 / Gv 5,22)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

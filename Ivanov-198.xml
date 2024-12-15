@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послания княгине [1] [Poslanija knjagine (1)]</title>   
+            <title type="alt" xml:lang="cu-Cyrl">Благороднѣ государинѣ нашеи княини имярек Максимъ Святогорець нищии богомолец вашъ много челомъ [Blagorodně gosudarině našei knjaini imjarek Maksim'' Svjatogorec' niščii bogomolec vaš'' mnogo čelom''] <ref target="lista-bibliografia.xml#Rzi-1935-1936">(Ržiga 1935-1936: 93)</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">Послание утешительное к некоеи княгине, скорбящеи о смерти сына [Poslanie utešitel'noe k nekoei knjagine, skorbjaščei o smerti syna] <ref target="lista-bibliografia.xml#Iva-1969">(Ivanov 1969: 141-142)</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">Послание Максима Грека неизвестной княгине [Poslanie Maksima Greka neizvestnoj knjagine] <ref target="lista-bibliografia.xml#Sin-1977">(Sinicyna 1977: 257)</ref></title>
+            <title type="alt" xml:lang="cu-Cyrl">[Послание утешительное княгине (Poslanie utešitel'noe knjagine) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">198</idno>
+            </bibl>  
+            
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 81</bibl>                   
+            </listBibl>
+            
+            <bibl type="reference-edition">
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="204" to="205">204-205</biblScope>, <biblScope unit="chapter">nr. III.6</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Posl. nr. 15</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, собр. Румянцева 264</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#298r #199r">лл. 298-299 / ff. 298r-299r</locus> 
+                     <title  type="info-ms" xml:lang="cu-Cyrl">Благороднеи княини имя рек многогрешныи чернец имя рек много челом</title> 
+                     <rubric type="epistolary-formula">Благороднеи княини имя рек многогрешныи чернец имя рек много челом.</rubric>
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Даи Бог, государыня, здорова всегда да живешь и утешение да приемлешь свыше от божиа благости и неисчетныя милости, и да отиметь от души твоея всякыя скорби и печали, и да наплънит тебя веры, любви и надежи, ими же возможеши отгонити всегда от себе всяко сумнение и двоедушие.</incipit>   
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Се тебе госпоже, княиня имя рек, два образци пречюдныи. Избери себе, которыи полюбишь, и скръбети безлепа престани. И мои те труды знаи и нищеты мои не забываите, зан же и сам вас не забываю в моих худых молитвах. Здравьствуите всегда. ы благоверна и благопослушлива к словесем спасовым, ему слава в векы, аминь. А я тебе, государыня, много челом бью, по твоему прошению писал, елико спас вразумил меня.</explicit>
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms"  /> 
+            </listWit>
+        
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>   
+         <creation> <!-- datazione -->
+            <date>Incerta <ref target="lista-bibliografia.xml#Bul-1984a">(Bulanin 1984a: 194)</ref></date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>[Послание]</term>
+               <term>[Утѣшение]</term>
+            </keywords>
+            <keywords scheme="#scope">
+               <term>Istruzione</term> 
+               <term>Consolazione (morte di un figlio)</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) --> 
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName xml:id="FIK">
+                  <persName>Максим Грек / Maksim Grek</persName>
+               </persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:id="pa">
+                  <persName>una principessa</persName>
+                  <roleName>государыня / княгиня / госпожа</roleName>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>6—7. ПОСЛАННЯ КНЯГИНЕ</p>  
+      </front>
+      
+      <body>
+         <p>
+            Благородне государыне нашей княини имя рек Максим святогорець, нищий богомолец ваш, много челом.
+         </p>
+         <p>Дай бог, государыня, за все в здравии и веселии да пребываеши, помогаема и утешаема благодатию и посещением господа и бога нашего Исуса Христа. Тъй же и говорит тебе так: «Чего для, чадо имя рек, скорбиш безмерно о преставлении своего възлюбленаго сына? Не слышала ли, что я Евангелием моим к Марфе говори, скорбящой о Лазаре, брате своем: <cit><quote xml:id="biblical-1">„Аз есмь живот и воскресение; веруяй в мя, аще и умрет, жив будет“</quote></cit>. И аще всяк умираяй обычною смертию своею жив у меня и по смерти есть, множае паче того у меня не токмо жив есть, но и в славе<anchor xml:id="c1" n="а" rend="super"/> велицей есть, хто не по правде нужною смертию от маловременнаго житиа сего преставился к житию вечному еже у меня. Ино, чадо имя рек, не скръби отнюдь! Сын твой възлюбленый у меня царя всем в честьи, славе вечней, не блюдеться уже никого, ни завистлива<anchor xml:id="c2" n="б" rend="super"/> и лихорадна, ни клеветника, ни наветника, ни иныа какыа беды ни нужныа напасти, всех сих избыл и живет у меня в всяком беспечалии и тихости, радуяся и веселяся со всеми стоящими около престола божественыя славы моeя. <metamark function="end-page" rend="//"/><pb type="folio" n="л.170" rend="label-margin-right"/> Я его для пролил на кресте кровь свою, да приведу его в наслажение благых моих вечных, аз ему и създатель, и отец, и вдовам судиа, и промысленик; его есмь взял к себе и упокоил. А тебя и твоя нужы не забываю, отец я сирых, и судиа вдовицам, и промысленик. И аще с благодарением и добрым изволением тръпишь случьшыяся тебе скръби, и длъговечна еще будеши в житии земском, и по своем преставлении блъшу славу получиши у меня, и радости непрестанныя исплънь будеши. Аще же не слушаеши, а за все томиш себе безлепичною скръбию, и аз по велицей милости моей, зан жө милосерд есмь, възму и тебя скорее от житиа сего и сподоблю тебя желаниа своего, видящи дети своя в славе у меня. А толику славу не получиши, праведен я судиа и всякому въздаваю по делом его и подвигом добродетелным».
+         </p>
+         <p>
+            Ино, государыня княгиня имя рек, бога ради слушай речи спасовы, который сподобил слышати тебя худым моим сим писанием, он меня научил всеми своими святыми писании такое утешение писати к тебе. И тръпи крепце с благодарением и добрым изволением, да и зде длъговечна <metamark function="end-page" rend="//"/><pb type="folio" n="л.170 об." rend="label-margin-right"/> будеши, и тамо великую славу и радость вечну получиши акы благоверна и благопослушлива к словесем спасовым, ему слава в векы, аминь.
+         </p>
+         <p>
+            А я тебе, государыня, много челом бью, по твоему прошению писал, елико спас вразумил меня.
+         </p>
+
+      </body>
+      
+      <back>          
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>В ркп. дважды, затем зачеркнуто</p> 
+            </note>
+            <note target="#c2"> 
+               <label rend="super">б</label> 
+               <p>Испр., в ркп, <hi rend="distinct">вавистливаы</hi></p> 
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit">
+            <bibl corresp="#biblical-1" type="Gv"><ref>(Ин 11,25 / Gv 11,25)</ref></bibl>
+         </listBibl>
+         
+
+      </back>
+   </text>
+</TEI>

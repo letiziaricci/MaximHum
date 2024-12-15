@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Предисловие житию чюдотворцевъ соловецкихъ [Predislovie žitiju čjudotvorcev'' soloveckich'']</title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881 #Iva-1969"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="490" to="490">490</citedRange></bibl> <bibl>Ivanov 1969 <citedRange unit="page" from="200" to="200">200</citedRange></bibl></ref></note></title>  
+            </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Incipit condiviso con Ivanov 332</note>  
+         </notesStmt>
+         
+         <sourceDesc> 
+            
+            <bibl type="external-catalogue">
+               <idno type="Ivanov">342</idno>
+            </bibl>
+            
+            <bibl type="reference-edition" xml:id="KI">   
+               <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="213" to="218">213–218</biblScope>, <biblScope unit="chapter">nr. 38</biblScope> 
+               <incipit type="info-ms">Обновления почитати древнии законъ есть и добрѣ уставленъ, глаголетъ преизобилныи въ богословии Григориe.</incipit>
+               <explicit type="info-ms">Небеси убо высота неиспытаема, земли же широта и догота не осяжаема, морю же глубина неизмѣрима, святыхъ же чюдеса неисчетна и недоумѣваема. Сихъ же святыхъ пречюдному житию начало сице, якоже и древле речеся.</explicit>
+            </bibl> 
+            
+            <msDesc type="reference-ms" xml:id="basic-witness-1" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <listWit xml:lang="cu-Cyrl">
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+            </listWit>
+           </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Предисловие</term> 
+               </keywords>
+            <keywords scheme="#scope">   
+               <term>Istruzione (dell'utilità delle vite dei santi)</term> 
+               <term>I santi Zosima, Savatij i Dosifej Soloveckie</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2 #b-wit-3 #b-wit-4">       
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>    
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ПРЕДИСЛОВИЕ ЖИТИЮ ЧЮДОТВОРЦЕВЪ СОЛОВЕЦКИХЪ</p>  
+      </front>
+      
+      <body>
+         <p>Обновления почитати древнии законъ есть и добрѣ уставленъ, глаголетъ преизобильныи въ богословии Григорие. И како убо не добрѣ уставленъ, идѣже имъ два великая сотворяются, ибо и промыслъ и еже о насъ прилежание всѣхъ Содѣтеля и Владыки явлена бываютъ выну всѣмъ человѣкомъ, имиже едиными и вся яже о насъ исправляются и къ нашеи пользѣ устрояются, Такоже и дѣяния и достохвальная житиа преподобныхъ и богоносныхъ отецъ посничества реку и зѣлная томления и еже съ самѣмъ тымъ диаволомъ повсядневная борения и еже отъ добрыхъ, сирѣчь, елика во славу и честь Владыки всѣхъ тщание же и попечение ихъ цѣваемо бываетъ и незабытно присно отъ рода къ роду всегда препосылаема и на подражание добрыхъ иже исправлении воставляюща послѣднеродныхъ. Симъ убо сице ся имущимъ, праведно и мнѣ неключимому, понужениа ради твоего, показася не предати забвению, но краткимъ писаниемъ явлено сотворити послѣднимъ родомъ содѣянное неизслѣдованными судьбами Владыки всѣхъ и Бога; азъ же убо, аще и недостоинъ сыи таковаго начинания, но надѣюся на великиа щедроты Господа моего и воспоминаю реченная святыми его неложными усты: Азъ есмь, рече сыи при купинѣ и нынѣ тои же, тои же и во вѣки, не усумнюся глаголати, яко гугнивъ еси, лѣпо бо ми есть дати тебѣ языкъ многорѣчивъ, да проповѣси великую мою благодать и похвалиши угождьшихъ ми и потрудившихся добрѣ; азъ же окаянныи, надѣяся тому словеси, понудихся тому прострѣти грубую мою десницу, молюжеся и милъ ся дѣю, да не зазоръ ми будетъ отъ васъ, о боголюбивии: прямо бо простертъ кипарисъ на высоту востече, но очесемъ единемъ дарова наслажение свое, смоковница же нижними и стропотными вѣтвьми оградися, но медоточными плоды наслаждаетъ гортань. Сице убо и философскихъ словесъ суетное поучение, не божественная бо глаголютъ ниже мудръствуютъ, но о иныхъ упражняются, ихъ же намъ нелѣпо есть и глаголати, наполняютъ бо воздухъ словесы, и ни едино же отъ нихъ Богу угодно, ниже святымъ похвально, ни человѣкомъ на пользу и спасение, но вся суетна и развращенна, наши же христианскиа похвалы Богу приносимыя и святымъ его, аще и проста бываютъ неухищренными глаголы, но благодарна и нескрыта и явствена всѣмъ на пользу слышащимъ, якоже бо и сии творцы житиа блаженыхъ онѣхъ отецъ Зосима и Саватиа, Досифеи глаголю ученикъ преподобнаго Зосима написа убо потонку и неухищренно и якоже бы возможно тамо живущимъ человѣкомъ глаголати же и прочитати, понеже убо тамо пребывающии человѣцы близь моря и кругъ острова того мало свѣдяху россиискаго языка близь живущии ижера, чюдь, лоць, вдалѣе же каяне и мурмане и инии мнози языцы, мнозии бо отъ тѣхъ прихожаху во обитель преподобныхъ отецъ Зосимы и Саватиа и остригаху главы своя, бывающе мниси. Того ради Досифеи неухищренно ниже добрословиемъ писаше, но яко воспоминаниа ради трудолюбнаго житиа преподобныхъ онѣхъ отецъ, да слышащии ревнуютъ по нихъ добродѣтелемъ ихъ. По сихъ случися быти Спиридону митрополиту во обители Пречистыя Богородицы завомо Ферапонтовъ, якоже напреди слово скажетъ въ житии блаженныхъ отецъ, умолену и ему бывшу еже подробну преписати и удобрити достохвальное пребывание; онъ же отчасти убо исправи и добрословиемъ украси, но не все, понеже убо, якоже выше рекохъ, тамо ради живущихъ человѣкъ, еще бо въ то время отъ иныхъ градовъ немнози прихождаху во еже постригати главы своя, но близь живущии человѣцы, якоже выше назнаменахъ, мало свѣдуще россиискаго языка. Нынѣ же, по божественному апостолу, явися благодать спасительная всѣмъ человѣкомъ, не токмо бо округъ острова того истиннии богочетцы и Христови поклонницы, но благодатию его мнози языцы иновѣрнии превратишася въ православную и благочестивую христианскую нашю вѣру и крестишася во имя Отца и Сына и Святаго Духа съ отрицаниемъ первыя ихъ вѣры и проклятиемъ своея имъ ереси, первѣе бо быша яко звѣри дивии живуще въ пустыняхъ непроходныхъ и въ пещерахъ и въ разсѣлинахъ земныхъ, не имуще ни храма ни инаго потребнаго къ жительству человѣку, токмо животными пищу приимаху звѣрми и птицами и морскими рыбами, и елико кто нахожаше, тѣмъ куплю творяху, языцы же иновѣрнии, глаголю, якоже и выше, каяне, и мурмане, нынѣ же быша православнии христиане и толико благодатию Христовою вдалѣ распространишася болѣ трею тысящу отъ Соловецкаго острова даже и до варяжскаго нѣкоего града зовомаго Варгавъ, идѣже живяше капитонъ, сирѣчь князь, идѣже нынѣ благоволениемъ Отца, изволениемъ Сына и съ дѣиством Святаго Духа устроися монастырь честенъ и совокупися многа чета иноческаго пребывания отъ града оного варяжскаго тако шестьдесятъ поприщъ отстоящъ, на рѣцѣ, глаголемои Печенга, близь моря. Все же устроися, Богу поспѣшествующу, молитвами святыхъ онѣхъ и богоносныхъ отецъ Зосимы и Саватиа, къ нему восходящими, донелиже они нынѣ вселишася въ пустыи онъ отокъ, дотолѣ тамо потонку слышашеся имя Христово; егда же благоволи Богъ прославитися святому своему имени угодники своими, тогда въ пустыни яко градъ сотворися. Аще бо они не въ едино время, но единодушни быша, колико отъ бѣсовъ пострадаша пакости два мужа неискусна, мужеубииства, брани, худости, и нищетѣ, и помощи подлежавша, въ божественную же силу, свыше сшедшую, вооружившеся зѣльною ревностию, съ самѣмъ диаволомъ сплетшеся и того удавивше, подъ ногама попраша, вмѣсто всякаго инаго оружиа вземше непобѣдимое оружие православнаго креста, имъ же защищаеми, изгнаста отъ вселениа своего всяку злокозненную прелесть бѣсовскихъ ловлении и человѣкъ злыхъ нахожениа, прежде бо прихожаху къ великому оному первовсельнику и прещениемъ претяху изыти изъ мѣста того, да не зло что постражетъ, иже убо жена нѣкоего отъ живущихъ ту отъ ангела богоранную язву приимши и своимъ повѣдавши вскорѣ оттуду изыдоша; оттолѣ даже и донынѣ никоеяже пакости сотворити смѣяху. Оле чудо! преже бывыи отокъ пустъ и никнмъ же вѣдомъ, нынѣ же превооруженъ оружствомъ Святаго Духа, крѣпкими возбранными воины небеснаго Царя, иже не къ крови и плоти ополчахуся, но къ началомъ и властемъ и къ миродержителемъ тмы вѣка сего, къ духовомъ злобѣ небеснымъ, по божественному и велегласному Павлу. И сеи хвалится великии онъ островъ веледушевными всельники, паче же реку, гражаны, иже безчислеными побѣдами и одолѣнии свѣтлѣишими на высоту аерскую зѣло превознесены и бѣсовскиа прегордыя лаяниа подъ нозѣ повергоша и ни во чтоже сотвориша, Христа же вышняго Царя великаго Бога на земли прославиша и отъ Него велию славу на небесѣхъ прияша и нынѣ предстоятъ Святѣи Троицѣ со всѣми святыми о насъ молящеся. Азъ же окаянныи и грубыи, понужениа ради твоего, честныи отче, надежду возложихъ на всемилостиваго Бога, дающаго и безсловеснымъ ясно провѣшавати, якоже при Валаамѣ древле, призывая же святыхъ онѣхъ отецъ на помощь, яко да поспѣшествуютъ ми еже къ похвалѣ добродѣтелемъ ихъ и чюдному исправлению, начахъ еже ко древнему и новая прикладавати къ иже древле водруженному твердо каменному столпу и оныя новыя плинфотворныя, яко да и новая о твердѣмъ ономъ крѣпко утвердятся. Небеси убо высота неиспытаема, земли же широта и догота не осяжаема, морю же глубина неизмѣрима, святыхъ же чюдеса неисчетна и недоумѣваема. Сихъ же святыхъ пречюдному житию начало сице, якоже и древле речеся.
+            
+         </p>
+      </body>
+      
+   </text>
+</TEI>

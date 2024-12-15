@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Об Александре Македонском [Ob Aleksandre Makedonskom]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969 #MG-2015"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Ivanov 1969 <citedRange unit="page" from="152" to="153">152-153</citedRange></bibl></ref> <ref><bibl>Maksim Grek 2025</bibl></ref></note></title>  
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">224</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 4</bibl>                
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Rzi-1934"><name>Ržiga</name>, <date>1934</date></ref>: <biblScope unit="page" from="119" to="120">119-120</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Sbor.smeš.sost. nr. 7]</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, Рум. 264</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#18r #18v">лл. 18-18об. / ff. 18r-18v</locus> 
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Александръ Македонскыи, царь велик и преславенъ, егда вси государи греческыа земли зговором и единомыслиемъ избрали его царя и государя над собою, гречьскою земл(е)ю, и его отпустили противу персиидскую дръжаву [...]</incipit>   
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Таковому подобаеть быти всякому преславному государю и воеводѣ пресловутому: воинолюбцу, а не самолюбцу, подвиголюбцу и трудолюбцу, а не лѣниву и пищелюбцу, на полех за все съ вои своими въдворяющуся въ шатрѣхъ, в не в теплых и прекрасных храминах и частых мылнях, аще въ истину желает свою убо державу крѣпити отвсюду, а своя недругы смирити.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date> 
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Nota biografica</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution">
+               <term target="#translation" source="lista-bibliografia.xml#Bul-1984a">Traduzione <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="19" to="19">19</citedRange></bibl></ref></note></term>
+               <term target="#dubium" source="lista-bibliografia.xml#Sin-1977">Dubium <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="57" to="57">57</citedRange> <citedRange unit="page" from="249" to="249">249</citedRange></bibl></ref></note></term>   
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <tagsDecl>
+            <rendition xml:id="roundBefore" scheme="css" scope="before">content: "(";</rendition>
+            <rendition xml:id="roundAfter" scheme="css" scope="after">content:")";</rendition>
+         </tagsDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ОБ АЛЕКСАНДРЕ МАКЕДОНСКОМ</p>  
+      </front>
+      
+      <body>
+         <p><metamark function="end-page" rend="//"/><pb type="folio" n="л. 18"/> Александръ Македонъскии, царь велик и преславенъ, егда вси государи греческыа земли зговором и единомыслиемъ избрали его царя и государя над собою, гречьскою земл<hi rendition="#roundBefore #roundAfter">е</hi>ю, и его отпустили противу персиидскую дръжаву, и събралися о немъ число премного благородных государех и княз и властелех, и видѣвъ Александръ усердие и рѣзвость ихъ, что готови вси головы своя положити за отечество свое, сирѣч, да избавят греческую землю от частых нахождении и плѣнениихъ персидскых, и похваливъ мысль ихъ, все царство свое Македоньское, рекше грады, волосте и села, имѣниа вся роздавалъ имъ нещадно. Удивилися вси и говорили ему: «Царю Александре, государю, вся твля намъ роздавалъ, а себѣ что еси оставилъ?». И онъ отвѣчал: «Себѣ есмь оставилъ надѣжы, рекше, что въперед добуду вашими труды и подвигы, то себѣ оставилъ». Таковому подобаеть быти всякому преславному государю и воеводѣ пресловутому: воинолюбцу, а не самолюбцу, подвиголюбцу и трудолюбцу, а не лѣниву и пищелюбцу, на полех за все съ вои своими въдворяющуся <metamark function="end-page" rend="//"/><pb type="folio" n="л. 18 об."/> въ шатрѣхъ, а не въ теплых и прекрасных храминах и частых мылнях, аще въ истину желает свою убо державу крѣпити отвсюду, а своя недругы смирити.</p>
+      </body>
+
+   </text>
+</TEI>

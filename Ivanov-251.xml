@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Господину и брату Георгию [Gospodinu i bratu Georgiju]</title>  
+             
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Ivanov 1969: <citedRange unit="page" from="171" to="171">171</citedRange></bibl></ref></note></title>
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Послание некоему Георгию о тетрадках (Poslanie nekoemu Georgiju o tetradkach) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>  
+           
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <notesStmt>
+            <note type="textual-relationships">Missiva di accompagnamento a Ivanov 130 e ad altri testi da identificare; nel testo si fa menzione del diacono del vescovo Akakij di Tver, Georgij, a cui sono rivolte le epistole Ivanov 187, Ivanov 262 e Ivanov 309</note>   
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">251</idno>
+            </bibl>                                 
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="424" to="425">424–425</biblScope>, <biblScope unit="chapter">nr. 40</biblScope>
+            </bibl>
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+    
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Posl. nr. 7</biblScope><note>Edizione in corso di stampa</note>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Troic-200"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 304, Троиц. 200</msName> 
+               </msIdentifier>
+               <msContents>
+                  <msItem>                 
+                     <locus type="foliation" target="#360r">л. 360</locus>  
+                     <title xml:lang="cu-Cyrl">[Господину и брату моему возлюбленному Георгию, онсица инокъ, радоватися о Господѣ, ms. RGB, f. 304, Troic. 200, f. 360r]</title>  
+                     <rubric type="epistolary-formula" xml:lang="Cyrl">Господину, моемужъ Государю и владыцѣ честнѣишему, еже долица земли поклонение творю и цѣлование священныхъ ногъ его, не смѣю бо глаголати, и преподобныхъ рукъ его, дондеже еще не чисты устны обношу безпричастиемъ Божественныхъ таинъ, и помощи получити не достоинъ вменяемъ есмь.</rubric> 
+                     <incipit xml:lang="cu-Cyrl">Сие бо разумѣти мнѣ дастъ краткая она склады выше мене хвала отъ твоего Преподобства [...]</incipit>  
+                     <explicit xml:lang="cu-Cyrl">Спасъ тебя да соблюдаеть отъ всякиа напасти и зависти видвмыхъ врагъ и невидимыхъ, и да наставитъ тя, во еже совершати всегда волю его благоугодну и благу и совершену. Аминь. Да отниши мнѣ о твоемъ здравии и пребывании.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl">
+               <witness corresp="#basic-witness" ana="#reference-ms"/>
+            </listWit> 
+                               
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Zur-2022a">1546-1548 <note type="editorial"><ref><bibl>Žurova 2022a <citedRange unit="page" from="1367" to="1367">1367</citedRange></bibl></ref></note></date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>[Послание]</term>           
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Produzione scrittoria di Massimo il Greco (polemica antislamica e antigiudaica)</term> 
+               <term>Precario stato di salute di Massimo il Greco</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="list.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#Geo">Георгий / Georgij <note type="editorial">identità da identificare, cfr. Ivanov 1969: 171</note></persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ГОСПОДИНУ И БРАТУ ГЕОРГИЮ</p>  
+      </front>
+      
+      <body>
+         <p>Господину и брату моему возлюбленному Георгию онсица инокъ радоватися о Господѣ. — Молю тя, Бога ради, не мни оно о мнѣ, яко за лѣность или презорство  которое или негодование, на долго нѣсмь къ тебѣ писалъ что отъ потребныхъ,   ниже послалъ. Радъ есмь всегда съ тобою бесѣдовати, не точию черниломъ и  бумагою, но и усты къ устомъ и лицемъ къ лицу. Но грѣховъ моихъ бремя противящеся желанию моему и не хотя молчание любити  мнимъ есмь. Множае бо житиа моего въ болѣзнехъ и недузѣхъ различныхъ прохожу. Сего ради, молю тя, любимиче, прости мя въ томъ отъ неволи надолго замолчавша. Приими же съ  любовию малъ поминокъ словесенъ отъ мене, се же есть останокъ 1-го слова, еже  на агарянскыя прелести, и второе слово о томже къ благовѣрнымъ, внемже и  сказание отчасти о кончинѣ вѣка сего. Тетрадка едина рука моя, другие тетрадки  6 да четыре листие рука Григориева главы Самуила Еврѣина и къ нимъ главы   супротивны мое замышление всякиа истины исполнены, и ину тетрадку рукою моею и умомъ писану зѣло потребну. Приими же такоже и ты еяже еси послалъ къ мнѣ пренисовати изнова, и не преписалъ того ради, зане неразумно откуду почати, да до кого довести, да еще нѣсть у мене чернило отрадно ни киноварь. Самъ себѣ препиши, какъ пригоже, а мнѣ о томъ не позазрить, молю тя.</p>
+         <p>Спасъ тебя да соблюдаеть отъ всякиа напасти и зависти видимыхъ врагъ и невидимыхъ, и да наставитъ тя, во еже совершати всегда волю его благоугодну  и благу и совершену. Аминь. Да отпиши мнѣ о твоемъ здравии и пребывании.</p>
+      </body>
+      
+   </text>
+</TEI>

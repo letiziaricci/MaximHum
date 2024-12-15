@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Сказание о том, что под крестом на церкви ставят [Skazanie o tom, čto pod krestom na cerkvi stavjat]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881 #MG-1897 #Iva-1969 #Sin-1977">Инока Максима Грека сказание о том, что подъ крестомъ на церкви окруженъ аки мѣсяцъ младъ [Inoka Maksima Greka skazanie o tom'', čto pod'' krestom'' na cerkvi okružen'' aki měsjacъ mlad''] <note type="editorial"><ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="491" to="491">491</citedRange></bibl></ref> <ref><bibl>Maksim Grek 1897 <citedRange unit="page" from="101" to="102">101-102</citedRange></bibl></ref> <ref><bibl>Ivanov 1969 <citedRange unit="page" from="179" to="179">179</citedRange></bibl></ref> <ref><bibl>Sinicyna 1977 <citedRange unit="page" from="247" to="247">247</citedRange></bibl></ref></note></title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Titolo concorde con il titolo editoriale in <ref><bibl>Maksim Grek 2025</bibl></ref>]</title>   
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Troic-200">Того же кир Максима философа. Сказание о том, что под крестомъ на церквѣ, в немже водружен, аки млад месяць. Слово <note type="editorial"><ref><locus>ms. RGB, Troickoe sobr. 200, ff. 37r-37v</locus></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Gato-138">Сказание о том, что под крестомъ на церкви ставят, в немже въдруженъ, акы месяц млад <note type="editorial"><ref><locus>ms. GATO, f. 1409, op. 1, d. 138, ff. 640r-641r</locus></ref></note></title>
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">Ivanov-283</idno>
+            </bibl>
+            
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 97</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 63</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Zur-2011"><name>Žurova 2011</name>, <date>2011</date></ref>: <biblScope unit="page" from="162" to="163">162-163</biblScope>
+            </bibl>
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="101" to="102">101-102</biblScope>, <biblScope unit="chapter">nr. 19</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Chlud. nr. 18</biblScope>. <note>Edizione in corso di stampa</note>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Bolš-285">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, собр. Большакова 285</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 63 / cap. 63</locus>   
+                     <locus type="foliation" target="#181r #181v">лл. 181-181об. / ff. 181r-181v</locus>  
+                     <title xml:lang="cu-Cyrl">Сказание о том, что под крестомъ на церкви, в немже въдружень, акы месяць млад [Skazanie o tom, čto pod krestomъ na cerkvi, v nemže vъdruženь, aky mesjacь mlad] </title>  
+                     <rubric type="epistolary-formula" xml:lang="Cyrl"></rubric> 
+                     <incipit xml:lang="cu-Cyrl">О семъ υ, въ немже кресты въдружени суть на церквах, вѣждь, яко сие υ писмя есть греческо, а имя ему ипсилон, а по-русски υ? Сего уставишя святии отци ваши здѣ поддѣлатися под крестом двою ради вину, поелико мощно мнѣ угадати.</incipit>   
+                     <explicit xml:lang="cu-Cyrl">Толико достизаеть худыи умъ мои. А могыи болши того да просвѣтит нас!</explicit> 
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" /> 
+               
+               <witness xml:id="Т"> 
+                  <ref target="lista-manoscritti.xml#Troic-200">РГБ, Троицкое собр. 200</ref>, <locus type="chapter">гл. 10 / cap. 10</locus>, <locus type="foliation" target="#37r #37v">лл. 37-37об. / ff. 37r-37v</locus>  
+               </witness>
+               <witness xml:id="Р"> 
+                  <ref target="lista-manoscritti.xml#Rum-264">РГБ, собр. Румянцева 264</ref>, <locus type="chapter">ст. 97 / art. 97</locus>, <locus type="foliation" target="#205r #205v">лл. 205 / ff. 205r</locus>   
+               </witness>
+               <witness xml:id="Тв">  
+                  <ref target="lista-manoscritti.xml#GATO-138">ГАТО, ф. 1409, оп. 1, д. 138</ref>, <locus type="foliation" target="#640r #641r">лл. 640-641 / ff. 640r-641r</locus>   
+               </witness> 
+            </listWit> 
+            
+          </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Сказание</term> 
+            </keywords>
+            <keywords scheme="#scope">  
+               <term>Simboli sacri</term> 
+               <term>Esegesi (la mezzaluna sotto la croce orotodossa)</term> 
+            </keywords>
+         </textClass>       
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#" source="#">Testo originale</term>   
+      
+            </keywords>
+         </textClass>
+
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><pb type="folio" n="л. 181" rend="label-margin-left"/> <anchor xml:id="v1a1" n="1" rend="super"/>Сказание о том, что под крестомъ на церкви, в немже въдруженъ, акы месяць млад<anchor xml:id="v1a2" n="1" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>О семъ υ<anchor xml:id="v2" n="2" rend="super"/>, въ немже кресты въдружени суть <anchor xml:id="v3a1" n="3" rend="super"/>на церквах<anchor xml:id="v3a2" n="3" rend="super"/>, <anchor xml:id="v4a1" n="4" rend="super"/>вѣждь, яко сие υ<anchor xml:id="v5" n="5" rend="super"/> писмя есть греческо<anchor xml:id="v6" n="6" rend="super"/> <anchor xml:id="v4a2" n="4" rend="super"/>, а имя ему ипсилон<anchor xml:id="v7" n="7" rend="super"/>, а по-рускы ϋ?<anchor xml:id="v8" n="8" rend="super"/>. Сего<anchor xml:id="v9" n="9" rend="super"/> уставишя святии отци ваши<anchor xml:id="v10" n="10" rend="super"/> здѣ поддѣлатися<anchor xml:id="v11" n="11" rend="super"/> под крестом двою ради вину, поелико<anchor xml:id="v12" n="12" rend="super"/> мощно мнѣ угадати.</p>
+         <p>Елма<anchor xml:id="v13" n="13" rend="super"/> Господь въ Еуаггелиих<anchor xml:id="v14" n="14" rend="super"/> часто глаголеть къ иудѣомъ<anchor xml:id="v15" n="15" rend="super"/>: <cit><quote xml:id="biblical-1">«Егда възвысите<anchor xml:id="v16" n="16" rend="super"/> Сына Человѣча»</quote></cit>; и пакы: <cit><quote xml:id="biblical-2">«и<anchor xml:id="v17" n="17" rend="super"/> якоже възвысилъ<anchor xml:id="v18" n="18" rend="super"/> Моисеи змию въ пустыни, такожде подобаеть възвыситися<anchor xml:id="v19" n="19" rend="super"/> и<anchor xml:id="v20" n="20" rend="super"/> Сыну Человѣческому»</quote></cit>; и пакы: <cit><quote xml:id="biblical-3">«егда возвышенъ буду, тогда всѣх привлеку къ Себѣ»</quote></cit>. А по-греческы «высота»2 «ϋψось»<anchor xml:id="v21" n="21" rend="super"/> глаголется, начално<anchor xml:id="v22" n="22" rend="super"/> же<anchor xml:id="v23" n="23" rend="super"/> слово пословици греческыя сея «ϋψось<anchor xml:id="v24" n="24" rend="super"/> - υ<anchor xml:id="v25" n="25" rend="super"/> есть». Тѣм святии отци учять нас<anchor xml:id="v26" n="26" rend="super"/> гадателнѣ, что кресть «ϋψось», рекше, вы<metamark function="end-page" rend="//"/><pb type="folio" n="л. 181 об." rend="label-margin-left"/>сота есть и слава Христу.</p>
+         <p>Другыи тлъкъ есть таковъ. Понеже сие писмя υ по-греческы числом четыреста<anchor xml:id="v27" n="27" rend="super"/> дръжить, Спасъ же Крестом Своимъ 4 страны мира сего просвѣтилъ, по реченому, просвѣтивыи земнаа<anchor xml:id="v28" n="28" rend="super"/> Крестом и разсѣяна<anchor xml:id="v29" n="29" rend="super"/> по тѣх странахъ<anchor xml:id="c1" n="а" rend="super"/> <anchor xml:id="v30" n="30" rend="super"/> языкы събралъ къ Себѣ крещениемъ святымъ. Четвертым убо числом 4<anchor xml:id="v31" n="31" rend="super"/> части мира сего являють нам святии отци, а числом сотным, съврышенымъ сущимъ, сказують нам таинѣ съкровеныи<anchor xml:id="v32" n="32" rend="super"/> разумъ: 100 овець, от нихже заблуждьшу едину, изыде <anchor xml:id="v33a1" n="33" rend="super"/>пастырь добрыи<anchor xml:id="v33a2" n="33" rend="super"/> взыскати ея, и<anchor xml:id="v34" n="34" rend="super"/>, взыскавъ, приобрѣте ея<anchor xml:id="v35" n="35" rend="super"/> Крестом, сирѣчь распятиемъ Своим, и животворною^36 смертию.</p>
+         <p>Толико<anchor xml:id="v37" n="37" rend="super"/> достизаеть<anchor xml:id="v38" n="38" rend="super"/> худыи умъ мои.А могыи болши того<anchor xml:id="v39" n="39" rend="super"/> да просвѣтит нас!<anchor xml:id="v40" n="40" rend="super"/></p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1-1</head> <!-- numero in apice -->
+               <app from="#v1a1" to="#v1a2"> <!-- FROM variante1 ancora1 -  TO variante1 ancora2-->
+                  <witDetail wit="#Р">Нет</witDetail>
+                  <rdg wit="#Т">Того же кир Максима Грека философа. Сказание о том, что под крестомъ на церквѣ, в немже водруженъ, аки млад месяць. Слово</rdg>
+                  <rdg wit="#Тв">Сказание о том, что под крестомъ на церкви ставят, в немже въдруженъ, аки месяц млад</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> <!-- variante2 -->
+                  <rdg wit="#Р">и υ</rdg>
+                  <rdg wit="#Тв">ω</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <witDetail wit="#Р">Нет </witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4-4</head> 
+               <app from="#v4a1" to="#v4a2">
+                  <witDetail wit="#Тв">Нет </witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <rdg wit="#Р">и υ </rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <rdg wit="#Т">греческое<witDetail wit="#Т">, над последней буквой <hi rend="distinct">е</hi> поставлен киноварный знак</witDetail></rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <witDetail wit="#Т">Первая буква <hi rend="distinct">и</hi> вписана киноварью</witDetail>
+                  <witDetail wit="#Тв">доб. <hi rend="distinct">писма есть греческо</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <rdg wit="#Р">и </rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9">
+                  <witDetail wit="#Т">Доб. <hi rend="distinct">и</hi> </witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10">
+                  <rdg wit="#Р #Тв">наши </rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11">
+                  <rdg wit="#Р">подделати </rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <rdg wit="#Т">поелику </rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <rdg wit="#Тв">Понеже</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14">
+                  <rdg wit="#Тв">Евангелиях </rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15">
+                  <rdg wit="#Р">иудѣем</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16">
+                  <rdg wit="#Р">възвысити</rdg>
+                  <rdg wit="#Тв">вознесете</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17">
+                  <witDetail wit="#Р #Т">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#v18">
+                  <rdg wit="#Тв">вознесет </rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">19</head> 
+               <app from="#v19">
+                  <rdg wit="#Тв">вознестися</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">20</head> 
+               <app from="#v20">
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">21</head> 
+               <app from="#v21">
+                  <rdg wit="#Р">и υ ν νψось</rdg>
+                  <witDetail wit="#Т">первая буква правлена киноварью</witDetail>
+                  <rdg wit="#Тв">υψось ν</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">22</head> 
+               <app from="#v22">
+                  <rdg wit="#Р">начало</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">23</head> 
+               <app from="#v23">
+                  <rdg wit="#Т">еже</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">24</head> 
+               <app from="#v24">
+                  <witDetail wit="#Т">Написание <hi rend="distinct">ϋ ψось</hi> испр. киноварью на <hi rend="distinct">ϋψось</hi></witDetail>
+               </app>
+            </listApp>
+         
+         <listApp>
+            <head rend="super">25</head> 
+            <app from="#v25">
+               <rdg wit="#Р">и υ</rdg>
+               <rdg wit="#Тв">νψось ν</rdg>
+            </app>
+         </listApp>
+
+         <listApp>
+            <head rend="super">26</head> 
+            <app from="#v26">
+               <witDetail wit="#Р">Нет</witDetail>
+            </app>
+         </listApp>
+
+         <listApp>
+            <head rend="super">27</head> 
+            <app from="#v27">
+               <rdg wit="#Р">400</rdg>
+            </app>
+         </listApp>
+
+         <listApp>
+            <head rend="super">28</head> 
+            <app from="#v28">
+               <rdg wit="#Тв">земныя</rdg>
+            </app>
+         </listApp>
+
+         <listApp>
+            <head rend="super">29</head> 
+            <app from="#v29">
+               <rdg wit="#Т">разсѣанная<witDetail wit="#Т">, над буквами <hi rend="distinct">н</hi> и <hi rend="distinct">я</hi> поставлены киноварные знаки глоссы</witDetail></rdg>
+               <rdg wit="#Тв">разсѣянныя</rdg>
+            </app>
+         </listApp>
+         
+         <listApp>
+            <head rend="super">30</head> 
+            <app from="#v30">
+               <witDetail wit="#Р #Тв">Нет</witDetail>
+            </app>
+         </listApp>
+
+         <listApp>
+            <head rend="super">31</head> 
+            <app from="#v31">
+               <rdg wit="#Т">четыре </rdg>
+            </app>
+         </listApp>
+         
+         <listApp>
+            <head rend="super">32</head> 
+            <app from="#v32">
+               <rdg wit="#Р">съкровены </rdg>
+            </app>
+         </listApp>
+         
+         <listApp>
+            <head rend="super">33-33</head> 
+            <app from="#v33a1" to="#v33a2">
+               <rdg wit="#Тв">добрыи пастырь</rdg>
+            </app>
+         </listApp>
+         <listApp>
+            <head rend="super">34</head> 
+            <app from="#v34">
+               <witDetail wit="#Р">Нет</witDetail>
+            </app>
+         </listApp>
+         
+         <listApp>
+            <head rend="super">35</head> 
+            <app from="#v35">
+               <rdg wit="#Тв">ю</rdg>
+            </app>
+         </listApp>
+
+         <listApp>
+            <head rend="super">36</head> 
+            <app from="#v36">
+               <rdg wit="#Тв">животворную</rdg>
+            </app>
+         </listApp>
+         
+         <listApp>
+            <head rend="super">37</head> 
+            <app from="#v37">
+               <rdg wit="#Т">толика<witDetail wit="#Т">, над буквой <hi rend="distinct">а</hi> киноварью вписана буква <hi rend="distinct">о</hi></witDetail></rdg>
+            </app>
+         </listApp>
+         
+         <listApp>
+            <head rend="super">38</head> 
+            <app from="#v38">
+               <rdg wit="#Р">достизаем</rdg>
+            </app>
+         </listApp>
+         
+         <listApp>
+            <head rend="super">39</head> 
+            <app from="#v39">
+               <rdg wit="#Т">тои<witDetail wit="#Т">, над словом киноварные знаки глоссы, на поле под теми же знаками вписано киноварью <hi rend="distinct">того</hi></witDetail></rdg>
+            </app>
+         </listApp>
+         
+         <listApp>
+            <head rend="super">40</head> 
+            <app from="#v40">
+               <witDetail wit="#Тв">Далее приписка. <hi rend="distinct">Господь нашь Исус Христос своими рукама крестил святаго апостола Петра, а святыи апостол Петръ Андрѣя апостола, и Андръ</hi> (?) <hi rend="distinct">Иоанна Богослова и Якова, и Яков и Иоанъ Богословецъ крести вся апостолы. Петръ же и Иоанъ Богословец крести святую Богородицу</hi></witDetail>
+            </app>
+         </listApp>
+         </listApp> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" > <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Вписано в начало строки почерком Максима Грека, 7 св.</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Gv"><ref>(Ин 8,28 / Gv 8,28)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Gv"><ref>(Ин 3,14 / Gv 8,28)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Gv"><ref>(Ин 12,32 / Gv 12,32)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

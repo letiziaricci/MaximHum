@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">(Вторая) статья подобнаго рода [(Vtoraja) stat'ja podobnago roda]</title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Ars-1878">О буквах греческого алфавита [O bukvach grečeskogo alfavita] <note type="editorial"><ref><bibl>Arsenij 1878 <citedRange unit="page" from="214" to="214">214</citedRange></bibl></ref></note></title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881">О гласныхъ и согласныхъ буквахъ въ русскомъ алфавитѣ и о просодияхъ [O glasnych'' i soglasnych'' bukvach'' v'' russkom'' alfavitě i o prosodijach'']  <note type="editorial"><ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="496" to="496">496</citedRange></bibl></ref></note></title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">О греческих гласных и согласных, о слогах, о наделовных греческих и славянских знаках [O grečeskich glasnych i soglasnych, o slogach, o nadelovnych grečeskich i slavjanskich znakach] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="92" to="92">92</citedRange></bibl></ref></note></title>  
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">115</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Jag-1895"><name>Jagić</name>, <date>1895</date></ref>: <biblScope unit="page" from="598" to="599">598-599</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Troic-201"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, Троиц. 201</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 115 / cap. 115</locus>   <!-- 02. Inventario testimone base COLONNA h -->
+                     <locus type="foliation" target="#525r #526r">лл. 525-526 / ff. 525r-526r</locus>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Алфавит же нашъ раздѣляется на гласовная и на съгласныя. и гласовна суть: Α. Ε. Η. Ο. Υ. Ѡ. согласовна суть: Β. Γ. Δ. Ζ. Κ. Λ. Μ. Ν. Ξ. Π. Ρ. Σ. Τ. Φ. Χ. Ψ.</incipit> 
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">вариа же полагается над ними на концѣ имени или рѣчи, якоже се· блаженъ. егда. пришедъ, и симъ подобная.</explicit>
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/>
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date> 
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+            <language ident="grc">Greco</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">    
+               <term>Alfabeto e fonetica della lingua greca</term>  
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>  
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <editorialDecl>
+            <p>Il testo, dedicato all’ortografia della lingua greca, accoglie una serie di segni grafici che sono stati riprodotti a partire dall’edizione.</p>
+         </editorialDecl>
+         
+         <tagsDecl>
+            <rendition xml:id="roundBefore" scheme="css" scope="before">content: "(";</rendition>
+            <rendition xml:id="roundAfter" scheme="css" scope="after">content:")";</rendition>
+         </tagsDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      
+      <body>
+         <p>Алфавит же нашъ раздѣляется на гласовная и на съгласныя. и гласовна суть: Α. Ε. Η. Ο. Υ. Ѡ. согласовна суть: Β. Γ. Δ. Ζ. Κ. Λ. Μ. Ν. Ξ. Π. Ρ. Σ. Τ. Φ. Χ. Ψ.</p>
+         <p>Αα. Ββ. Εε. S Z З. Ηη. ϑ Θ ʘ. I. K К ϰ. Λλ. Μμ. Νν. Ο. Ππ. Ρρ. Σσ. Ττ. Υυ. Φφ. Χ. Ψ. Ω Ѡ Ω.</p>
+         <p>Отъ сихъ всѣхъ, 20 да 4 сущихъ, гласовна суть 7: α ε η ι υ ο ω. прочая же, 17 суща, согласовна именуются, яже суть сиа· Β. Γ. Δ. Ζ. Θ. Κ. Λ. Μ. Ν. Ξ. Π. Ρ. Σ. Τ. Φ. Χ. Ψ. сия вся совокупляема со гласовными, склады творять. склады же наименше два чинять речение, якоже се· Βα. σις. два склады. βα да σις. совокупляемѣ к себѣ васисъ <hi rendition="#roundBefore #roundAfter">βάσις</hi> будетъ, еже есть основание любо твердость. Аще же к симъ приложишь еще одинъ складъ левсъ, будетъ василевсъ <hi rendition="#roundBefore #roundAfter">βασιλεύς</hi>, еже есть царь. еще вѣждь, яко и та гласовная совокупляема, другъ ко другу, творять склады. 7. иже и дифтогти именуются. суть же сии· 11 <gap rend="..."/><anchor xml:id="c1" n="а" rend="super"/></p>
+         <p>Тѣже умыслиша мудрецы еллинстии къ изъявлению разликующаго толка речении. яковоже что глаголю; зрихъ прилѣжно тому толкъ. <hi rendition="#roundBefore #roundAfter">εἷς</hi><anchor xml:id="c2" n="б" rend="super"/> толкъ единъ. <hi rendition="#roundBefore #roundAfter">εἶς</hi><anchor xml:id="c3" n="в" rend="super"/> тому толкъ еси<anchor xml:id="c4" n="г" rend="super"/>. и паки εἶς толкъ тому будеши. <hi rendition="#roundBefore #roundAfter">ἧς</hi><anchor xml:id="c5" n="д" rend="super"/> толкъ тому еяже. <hi rendition="#roundBefore #roundAfter">ὗς</hi><anchor xml:id="c6" n="е" rend="super"/> толкъ тому свиниа. οἶς толкъ тому овча. οἷς толкъ тому имже. υἱός сынъ. οἷος каковъ. οἶος единъ. ἠώς дьнь. οἴως каковѣ.</p>
+         <p>Есть имя нѣкое трескладно. согласовна в немъ 4, а гласовная три. число же ему 154. такожде и другое есть имя трескладно же, имѣюще в себѣ согласовна 4, а гласовна 3, число же 421.</p>
+         <p>/ оксиа, \ вариа, ˘ периспомени, ʾ псили. тѣхъ единехъ точию требуетъ рускии языкъ, мѣста же оксии трия суть. а варии точию едино<anchor xml:id="c7" n="ж" rend="super"/> есть мѣсто, сирѣчь послѣднии складъ имени котораго. якоже се· мученикъ, и симъ подобная. а периспомени сирѣчь комарѣ два мѣста есть точию, си рѣчь послѣднии складъ, аще есть дологъ. аще ли же тонокъ, то вариа, а не комора положится верху его, яко же се· блаженъ мужъ. се мужъ складъ есть дологъ по граматекеискихъ уставохъ и верху его комора положится сице· муж. а надъ тѣмъ блаженъ не комара, но вариа \· блаженъ. есть же тоиже каморѣ и другое мѣсто, еже есть напередъ послѣдняго, якоже се· будетъ. третие мѣсто каморѣ нѣсть.</p>
+         <p>Еще же вѣдомо ти да есть· складовъ овы суть и глаголются долги, овы же тонки. и долги суть, елицы пишутся· и ѡ ѣ ю ы ѫ ȣ. якоже· продъ. оба суть долги. мѣсто· первыи дологъ, а вторыи тонокъ· выспрь, выну· оба долги. и сего ради оксиа полагается верху, по глаголющему уставу грамотикыи· дологъ складъ предъ другимъ складомъ долги комару не приимаетъ, но оксию всегда.</p>
+         <p>Еще вѣж яко комара напередъ двоимъ складомъ не полагается николи же, ни вариа, но оксиа всегда, сице· праведенъ, седалище, оружие, и симъ подобная. тонкихъ склады суть, елицы пишутся тѣми писмены· е о и а у. якоже се· Феофилъ, Филофеи. Вси тии склады тонкы суть свене конечнаго. и верху ихъ не полагается камора николи же, но оксиа всегда. вариа же полагается над ними на концѣ имени или рѣчи, якоже се· блаженъ. егда. пришедъ, и симъ подобная.</p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Здѣсь повидимому пропускъ, ожидали бы перечень всѣхъ дифтонгическихъ «складовъ».</p>
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label> <!-- lettera in apice -->
+               <p>Прибавлено по смыслу.</p>
+            </note>
+            <note target="#c3">
+               <label rend="super">в</label> <!-- lettera in apice -->
+               <p>Прибавлено по смыслу.</p>
+            </note>
+            <note target="#c4">
+               <label rend="super">г</label> <!-- lettera in apice -->
+               <p>Въ подлинникѣ <hi rend="distinct">сеи</hi>, но поправку рекомендуетъ предлагаемое 2-е лицо εἶς отъ глагола εἰμί. Далѣе въ подлинникѣ: <hi rend="distinct">и паки исъ</hi>, въ чемъ заключается должно быть εἶς отъ глагола εἶμι (буду, т.е. приду).</p>
+            </note>
+            <note target="#c5">
+               <label rend="super">д</label> <!-- lettera in apice -->
+               <p>И этой прибавки требуетъ смыслъ.</p>
+            </note>
+            <note target="#c6">
+               <label rend="super">е</label> <!-- lettera in apice -->
+               <p>И этой прибавки требуетъ смыслъ.</p>
+            </note>
+            <note target="#c7">
+               <label rend="super">ж</label> <!-- lettera in apice -->
+               <p>В подл. <hi rend="distinct">единъ</hi>.</p>
+            </note>
+         </noteGrp>
+
+      </back>
+   </text>
+</TEI>

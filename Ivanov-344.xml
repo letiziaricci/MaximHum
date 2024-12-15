@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание о сказаниях античной мифологии [Poslanie o skazanijach antičnoj mifologii]</title>   
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Послание об античных мифах [Poslanie ob antičnych mifach] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="201" to="201">201</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Об античных мифах (Ob antičnych mifach) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>  
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Il testo contiene la prima parte del commento all'Oratio 39. In sancta lumina di Gregorio di Nazianzo, la cui continuazione, resa possibile dal ricevimento del libro greco reclamato in Ivanov 247, è offerta in Ivanov 260 di Ivanov 260+102</note> 
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">344</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#Rzi-1935"><name>Ržiga</name>, <date>1935-1936</date></ref>: <biblScope unit="page" from="101" to="105">101–105</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Sbor.smeš.sost. nr. 8]</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Q-I-219"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Q.I.219</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#559r #564v">лл. 559-564об. / ff. 559r-564v</locus> 
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">[...] 40 лѣт безмала прошли ужь, отнели отрекохся гнилых баснеи и учении моих прародителех еллинех, послушавъ глаголющаго таиноучителя, и не въспомяну именъ ихъ устны моими и инде: «повѣдаша ми законопреступници суесловия, а не яко же законъ твои, Господи».</incipit>   
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Толика убо и о томъ, а о прочих, яже по сих, не могу сказати вамъ безъ греческыя книгы.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/> 
+            </listWit>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date source="lista-bibliografia.xml#Bul-1984a">Intra 1548 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="47" to="47">47</citedRange></bibl></ref></note></date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>[Послание]</term> 
+            </keywords>
+            <keywords scheme="#scope">  
+               <term>Esegesi di omelie patristiche (Gregorio di Nazianzo, Oratio 39)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#x">un amico</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ПОСЛАНИЕ О СКАЗАНИЯХ АНТИЧНОЙ МИФОЛОГИИ</p>  
+      </front>
+      
+      <body>
+         <p><metamark function="end-page" rend="//"/><pb type="folio" n="л. 559"/><gap rend="..."/>40 лѣт безмала прошли ужь, отнели отрекохся гнилых баснеи и учении моих прародителех еллинех, послушавъ глаголющаго таиноучителя, и не въспомяну именъ ихъ устны моими и инде: <cit><quote xml:id="biblical-1">«повѣдаша ми законопреступници суесловиа, а не яко же законъ твои, Господи»</quote></cit>. Сего ради и нынѣ не въспомянулъ бых ихъ, аще бы не понудил мене любы твоя духовная, просивши у мене сказание нѣкоторых ихъ, о них же великыи таиноучитель Григореи поминаеть въ словѣ его о крещении обличая вкупѣ и поригаяся ихъ безумию. Скажу же о них малая и елика еще обносятся въ памяти моеи, множаиших бо ихъ многолѣтным непрочитанемь еллиньскых книгъ запамятовалъ ужь ода<gap rend="..."/> бы и всѣхъ ихъ. Начну же сице. Еллини древнии, аще и премудри быша человѣчьскою премудростию, но за еже непричастни бы<hi rendition="#roundBefore #roundAfter">ша</hi> премирныя благости Святаго Духа, премного блудшия помыслы своими и бѣсовьскы<hi rendition="#roundBefore #roundAfter">ми</hi> <metamark function="end-page" rend="//"/><pb type="folio" n="л. 559 об."/> козньми прелщаеми многообразнѣ и сего ради не токмо бѣсом дашя честь длъжную единому истинному Богу творцу видимым всѣм и невидимым, но и тѣмъ страстем плотскым обоготворивше их и нѣкыя басни примыслывше къ ним сладостни и радостотвории слышащим и прочитающим ихъ, ярость убо Арисомъ именующе, а блуд Афродитию<anchor xml:id="c1" n="а" rend="super"/> а пианьство Вакхомъ или Дионисомъ, а таиныи удъ мужсьскыи Приапомь и фаломъ и Ифифалом, их же образы истуканы кеменыя и древеныя поставивше кланяхуся имъ и жертвы приношаху, акы богомъ, и праздникы преславны съчиниваху имъ съ всякым безобразиемъ и пианьством и смѣхотворениемъ и всякыми игрании. Треблаженныи же Григореи, горя божественною любовию и ревностию, обличаеть таковаа на посрамление съвршено <hi rendition="#roundBefore #roundAfter">д</hi>ръжащимся еще ихъ и почитающих безу<hi rendition="#roundBefore #roundAfter">м</hi>но, и глаголеть сице: <cit><quote xml:id="other-1">«Не зевсовасия коя сия» <metamark function="end-page" rend="//"/><pb type="folio" n="л. 560"/>, сирѣчь таиньства Христова въплощениа не зевсовосия «рожение бывшаго судии и властеля критяном»</quote></cit> и прочаа. Повѣсть же яже о рожении Зевсовѣ такова нѣкаа ест по еллинѣхъ. Иапетос, старѣи ихъ богъ, роди сына Крона, иже и въста на отца своего Иапетоса и одолѣ ему, серпом отрѣзавъ таиныя его уды, и тако держалъ царство олимпное, рекше небесное по ихъ языку и буесловию. Кронос же блюдяся, да не таяжде и самъ постражет от ражаемых ему дѣтеи, егда ражааше ему жена его Реа сына, приходя и поглотяше его. Жена же его Реа тужащи о том, егда родился у нея Зевсъ, Зевса убо дитяте скоро приказала его коривантом отвести въ Критѣ островѣ и скрыти его и беречи твердо, въ мѣсто же дитяте камен' новивши пеленами положила въ колыбѣли. Кроносъ же пришед и взыскавъ роженое, поглотилъ повитыи камень. Кориванти, стрегуще и питающе младенець въ пещ<hi rendition="#roundBefore #roundAfter">ерѣ</hi><gap rend="..."/> <metamark function="end-page" rend="//"/><pb type="folio" n="л. 560 об."/> критьсѣѣи, егда плакаше младенець, они въоружени обьстояще его, шумъ творяху, биюще мечи въ щиты и сами кричаще, дабы отець его Кроносъ не слышалъ плачь младенечь. И се ест, еже глаголеть Богословъ: <cit><quote xml:id="other-2">«ни коривантьстии гласи и плищи и плясаниа съ оружьми Бога плачющася»</quote></cit>, сирѣч Зевса младенца гласа покрывающе, яко да плач его утаится отца чадоненавидца, сирѣчь Кроноса. Но о семъ убо толика, а о нем же глаголеть Богословъ по сих: <cit><quote xml:id="other-3">«ни фригиискых рѣзании и пискании»</quote></cit> прочая, такова ест повѣсть еллиньска, въ странѣ фригиисѣѣи, сия же ест земля в неи же Троя, преславныи град и царство быст Приамово, въ тои земли сицева была прелесть. Реа, яже и Кивели именуется и мати всѣмъ ихъ богом наричется от еллинъ, егда настаняше праздникъ ея, люди събравшеся около кумирници ея, напивахуся и пискаху и плясаху, бѣсящеся <metamark function="end-page" rend="//"/><pb type="folio" n="л. 561"/>, и нѣции от них рѣзаху своя яица срамных удъ въ честь богиги ихъ Реи. А еже по сихъ приводит глаголя ниже, отроковица нѣкаа въсхыщена бывает намъ, такова ест повѣсть. Димитирь богиня у них почитаема быст, толкует же ся земля-мати по их языку, у тоя дщи была дѣва прекрасна. Сию полюбил нѣкыи преисподнии Богъ, его же наричют Плутонъ и Аидоневсъ, и немогыи получити желаниа своего, зане мати ея стрежаше ю крѣпко и не хотяше дати ея ему, онъ пришед в’ нощи глубоцѣ съ волхвовании страшными, являя нѣкыя мужьскыя образы, змия въмѣсто волосовъ имущая их же икелеи именують и триитолеми, и сидцевыми привидѣнии и страшными мечтании ухытилъ отроковицу, Ферсефону именем, яже и Ферсефата глаголется, мати же ея Димитирь плачющи и рыдающи поиде искати ея. И се ест еже глаголеть Богослов: <cit><quote xml:id="other-4">«И Димитирь заблужаеть»</quote></cit>, таже глаголеть: <metamark function="end-page" rend="//"/><pb type="folio" n="л. 561 об."/> <cit><quote xml:id="other-5">«стыжуся убо дневи предати нощныя требы»</quote></cit>, сирѣчь темныя жрьтвы и дѣаниа гнусная, бываема вь Елевсиди, «дни предати» день глаголя святыи и пресвѣтлыи празник Богоявлении, а Елевсись, яко ми ся помнит, градъ ест недалече от Афинъ, в нем же таины нѣкыя и бѣсовьскыя службы бываху не всѣми сказуемы точию великым нѣкыим и саном и разумом: А яже о Дионисѣ и стегнѣ болящем и яже по сих, сицева суть. Зевсъ Богъ ихъ, полюбивь жену нѣкоего велможа Фивѣанина, а имя женѣ Семелиа, часто свыше схожаше на ню в нощи, таже жена нужаше и глагодющи: «сниди на мене съ своею божественою славою, да увижую и азъ», он же глаголаше еи: «нестерпѣти тебѣ ея, но умреши» и еи нудящи его, сниде на ню съ молониами и громы и тако опалена быст и съ всѣмъ двором ея. Тогда Зевсъ, распоровь утробу ея, скоро вынялъ мла <metamark function="end-page" rend="//"/><pb type="folio" n="л. 562"/>денець неусъвръшень и разрѣзавъ стегно свое зашилъ в немъ младенець. И егда наплънися девятыи мѣсяцдь, тогда болѣло стегно его женьскым обычаемъ, и також<hi rendition="#roundBefore #roundAfter">е</hi> родися младенець и преданъ быст нимфамь на въспитание и именовань быст Дионисом. Сеи же ест по ихъ баснех богѣ назиратель винопитию. А, еже глаголеть, якоже другоици <cit><quote xml:id="other-6">«глава прежде и богъ мужоженъ»</quote></cit>, сицево ест: Зевсъ зачат собою вь главѣ своеи отроковицу, еи же имя Паллада и Афина, егда же наста врем родитися еи поболѣла глава Зевсова и велѣлъ Ифѣсту, сеи же ест богъ кузнець и назиратель кузнецом, и велѣлъ ему Зевсъ ударити секирою его по главѣ и по ударении выскочила отроковица красна, летящи по въздуху и копие зыблющи. Мужожена же бога глаголеть Диониса зане истражаше и дѣаше блуднаа и студнаа. Ликъ же упивающихся и плъкъ ослабленъ глаголеть съборъ вслѣдующих тому Дионису мужеи <metamark function="end-page" rend="//"/><pb type="folio" n="л. 562 об."/> бѣсящихся и безчиньствующих с ним различна. Афродити же блудныя таины и рожение ея срамно и почитание и елико о неи баснословят еллини, ни мнѣ подобает сказати вамъ чистоты рачителем, ниже вамъ такова прескверна пытати ни слышати. Фали же и ифифали такоже прегнусни образы и слышаниа, обаче сказати малыми яже о них, елма же святое писание глаголеть: <cit><quote xml:id="biblical-2">«се удаляющеися от тебе погыбнут»</quote></cit> и пакы: <cit><quote xml:id="biblical-3">«рече безуменъ нѣст Бога», таже приводит: «растлѣшя и омръзѣша въ начинаниих»</quote></cit>. Сие случися и еллином и прочим языком заблужшимъ от истиннаго Бога, побѣждени бо бывше плотскыми студодѣании къ прочим множаишим ихъ безумиемъ умыслиша себѣ сицево нѣчто на болшее разжьжение блужении ихъ, блъванъ сътворяху, имѣющь срамныи удъ превелии и простертъ, и поставляху его на распутиах и кланяхуся ему срамному уду и цѣловаху, его же именова <metamark function="end-page" rend="//"/><pb type="folio" n="л. 563"/>ху фалом и ифифалом, сирѣч удъ срамныи прямо простертъ, а болвана именоваху Приапом. А яже о въ Тавроскифах страноубииствѣ и Лакедѣмон'скых юношах, ранящихся до крови пугами пред болваном богыны Артемиды, недоплъно помню сказати за многолѣтно непрочитание еллинскых книгъ. Толико же помню, что Ифигениа дѣвица дъщи Агамемнона царя, не помню, кого бѣжащи, или чим гонима, донде въ землю людии Тавроскифъ велми лютых и безчеловѣчных. Сии же сут, иже нынѣ татарове крымстии нарицаеми по рускы, иже Ифигению дѣвицу красоты дѣля ея поставили служити богыни своеи и на праздникы ея закалати пред нея единого чюжоземца. А Лакедѣмон'стии юноши, не помню коея ради вины, обнаживше себе бияхуся сами пугами до крови пред истуканом Артемиды богины. А о убиении Пелоповѣ, елико ми ся помнит, скажу малыми; къ отцу его, имя его не помню, пришли бози вси алчюще и не имѣя, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 563 об."/> что предложити имъ, да ядят, вземъ сына своего Пелопа, утаився их и на кусы разсѣкъ и варивъ, постави пред ними на трапезу и насытишася, непознавше, что человѣчя мяса сут, послѣ же познавше раскаяшяся и пакы поставили отцу его жива почюдившеся страннолюбию его. А Екати богына же ихь быст темна и преисподня и мечтаниа страшна нощнаа являющи им юже и почитаху съ страхом зѣлнымъ. А Трофониева пропасть и съкровенное нырище, в нем же онъ живяще въ земли и влъхвоваше людем, и котории оттуду же исхожаху опят на свѣт сеи, к тому радости и смѣха не знаху, но всегда сѣтующе и сморъщившеся хожаху толь страшна бѣсовьская мечтаниа являхуся тамо имъ. Додони же въ Елладѣ лѣсъ быст красенъ на высоцѣ мѣстѣ и бѣси живуще на лѣсѣ том влъхвоваху еллином отвѣщающе имъ сверхудубовъ. Такожде и водою Касталискаго источника влъхвоваху бѣси прелыщеным людем, пиема бо вода въ гръ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 564"/>тани ихъ кыпящи вѣщаше имъ странна нѣкая. А Триподъ Дельфискыи, на нем же стояще истуканъ Аполлонъ златокован былъ и многоцѣненъ, образом тѣмъ дѣланъ<anchor xml:id="c2" n="б" rend="super"/>.</p>
+         <p>На сицевым стулѣ стоя идолъ Аполлоновъ преукрашенъ, правою рукою др<hi rendition="#roundBefore #roundAfter">ъ</hi>жаше древо Дафни глаголемо насажено подлѣ его и, егда хотяше отвѣщати жерцем его, о чемь ни вьпроглаху его, качаше первѣе Дафни садъ и тако отвѣщаше. Еще едино сказавъ тебѣ, конецъ писанию сътворю<gap rend="..."/> Фракиа земля ест въ гречест<hi rendition="#roundBefore #roundAfter">ѣи</hi> странѣ, сия же ест начинаема от горы глаголемыя по еллиньскы Емосъ, а по нынѣшнему Феувини, еже ест гора божиа и конч<hi rendition="#roundBefore #roundAfter">а</hi>вается вь Византии, еже ест Констан<hi rendition="#roundBefore #roundAfter">тин</hi>-градъ, простирает же ся земля сия дово<hi rendition="#roundBefore #roundAfter">лно</hi> и на сѣверъ и на югъ, земля родима изд<gap rend="..."/> ва добрѣ и всѣми озобилующи, въ т<hi rendition="#roundBefore #roundAfter">ои</hi> земли Орфеи мудрець древнии и пресл<hi rendition="#roundBefore #roundAfter">а</hi>венъ быст, его же и до нынѣ обрѣтаются писа<hi rendition="#roundBefore #roundAfter">ниа</hi> <metamark function="end-page" rend="//"/><pb type="folio" n="л. 564 об."/> у грековъ добраа аще и не по всему, обаче богомудреныи чтець может многу ползу вычерпьсти от них. Сеи Орфеи первыи законъ положил ест Фракианом, какъ подобаеть Бога почитати, написавъ имь и уставѣ и образы жрьтвеныя и таиньственыя службы, его же премудрости дивящеся, еллини глаголют, яко толь сладокъ былъ, егда пояше, ударяя въ цевницу, яко и бездушнаа камениа и вся къ себѣ привлачати сладостию пѣниа. Тотъ ест Орфеи, его же мертвеца нашли в рацѣ желѣзнѣи въ Фракии при Константинѣ и Ирини православных цареи, у него же и обрѣтоша писание таково: <cit><quote xml:id="other-7">«Христосъ хощет родитися от Дѣвы и вѣрую в него, при Константинѣ же и Ирини пакы солнце узриши мя»</quote></cit>. Толика убо и о томъ, а о прочих, яже по сих, не могу сказати вамъ безъ греческыя книгы.</p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>Исправлено, в ркп.: <hi rend="distinct">Афродитио</hi>.</p> 
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label> 
+               <p>Здесь нарисованы два концентрические кружка, соединенные в нескольких местах.</p> 
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="1Tm"><ref>(1 Тим 1, 6-7 / 1Tm 1,6-7)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Sal"><ref>(Пс 72, 27 / Sal 72,27)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Sal"><ref>(Пс 13, 1 / Sal 13,1)</ref></bibl>
+         </listBibl>
+         
+         <listBibl type="other-cit">
+            <bibl corresp="#other-1" type="Cit">[Oratio 39 "Sul giorno delle luci" di Gregorio di Nazianzo]</bibl>
+            <bibl corresp="#other-2" type="Cit">[Oratio 39 "Sul giorno delle luci" di Gregorio di Nazianzo]</bibl>
+            <bibl corresp="#other-3" type="Cit">[Oratio 39 "Sul giorno delle luci" di Gregorio di Nazianzo]</bibl>
+            <bibl corresp="#other-4" type="Cit">[Oratio 39 "Sul giorno delle luci" di Gregorio di Nazianzo]</bibl>
+            <bibl corresp="#other-5" type="Cit">[Oratio 39 "Sul giorno delle luci" di Gregorio di Nazianzo]</bibl>
+            <bibl corresp="#other-6" type="Cit">[Oratio 39 "Sul giorno delle luci" di Gregorio di Nazianzo]</bibl>
+            <bibl corresp="#other-7" type="Cit">[Oratio 39 "Sul giorno delle luci" di Gregorio di Nazianzo]</bibl>
+         </listBibl>
+         
+         
+      </back>
+   </text>
+</TEI>

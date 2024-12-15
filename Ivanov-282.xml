@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Сказание об образе, называемом «Уныне» [Skazanie ob obraze, nazyvaemom "Unyne"] </title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1897 #Iva-1969 #Sin-1977">Инока Максима Грека сказание о священномъ образѣ Спаса Христа, егоже называютъ уныние [Inoka Maksima Greka skazanie o svjaščennom'' obrazě Spasa Christa, egože nazyvajut'' unynie] <note type="editorial"><ref><bibl>Maksim Grek 1897 <citedRange unit="page" from="100" to="101">100-101</citedRange></bibl></ref> <ref><bibl>Ivanov 1969 <citedRange unit="page" from="179" to="179">179</citedRange></bibl></ref> <ref><bibl>Sinicyna 1977: <citedRange unit="page" from="246" to="246">246</citedRange></bibl></ref></note></title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Сказание о священном образе Спаса Христа [Skazanie o svjaščennom obraze Spasa Christa] <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="254" to="254">254</citedRange></bibl></ref></note></title>    
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Сказание об иконе, называемой «Уныние» (Skazanie ob ikone, nazyvaemoj "Unyne") <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title> 
+       
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Rum-264">Сказание о священном Образѣ Спаса Христа <note type="editorial"><ref><locus>ms. RGB, sobr. Rumjanceva 264, ff. 98r-98v</locus></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Troic-200">Того же кир Максима философа. Сказание о священнемъ Образѣ Спаса Христа, егоже невѣдующие называют «Уныние». Слово <note type="editorial"><ref><locus>ms. RGB, Troickoe sobr. 200, f. 37r</locus></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#GATO-138">Того же Максима инока Грека. Сказание о священном образѣ Спаса Христа, егоже называют «Уныние» <note type="editorial"><ref><locus>ms. GATO, f. 1409, op. 1, d. 138, ff. 511v-512v</locus></ref></note></title>            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">Ivanov-282</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 53</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 59</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#Zur-2011"><name>Žurova</name>, <date>2011</date></ref>: <biblScope unit="page" from="146" to="147">146-147</biblScope>
+            </bibl> 
+            <listBibl type="other-editions">
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="100" to="101">100-101</biblScope>, <biblScope unit="chapter">nr. 18</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Chlud. nr. 13</biblScope>. <note>Edizione in corso di stampa</note>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Bolš-285">
+               <msIdentifier> 
+                  <msName>РГБ, собр. Большакова 285</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 59 / cap. 59</locus>  
+                     <locus type="foliation" target="#158v #159r">лл. 158об.-159 / ff. 158v-159r</locus>  
+                     <title xml:lang="cu-Cyrl">Того же инока Максима Грека. Сказание о священном Образѣ Спаса Христа, егоже называють «Уныне»</title>
+                     
+                     <incipit xml:lang="cu-Cyrl">Священное образование священныя и покланяемыя иконы Господа и Бога и Спаса нашего Иисуса Христа, глаголемое по-римскы «пиетас», еже есть по-рускы «милосердие» или «благочестие», а не «уныне».</incipit>   
+                     
+                     <explicit xml:lang="cu-Cyrl">Сице азъ такову повѣсть приях от достовѣрных мужеи италианѣх, у них живыи время доволно, юнъ еще сыи и мирскаго жития дръжася. Якоже убо аз приях, сице и повѣствую твоему святительству. Его же святыми молитвами да мя способит Господь каятися искренѣ моих многых прегрѣшении. Амин.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               
+               <witness xml:id="Т">  
+                  <ref target="lista-manoscritti.xml#Troic-200">РГБ, Троицкое собр. 200</ref>, <locus type="chapter">гл. 9 / cap. 9</locus>, <locus type="foliation" target="#37r">л. 37 / f. 37r</locus>
+               </witness>
+               <witness xml:id="Р">  
+                  <ref target="lista-manoscritti.xml#Rum-264">РГБ, собр. Румянцева 264</ref>, <locus type="chapter">ст. 53 / art. 53</locus>, <locus type="foliation" target="#98r #98v">лл. 98-98об. / ff. 98r-98v</locus>
+               </witness>
+               <witness xml:id="Н">  
+                  <ref target="lista-manoscritti.xml#Q-I-219">РНБ, Q.I.219</ref>, <locus type="chapter">гл. 49 / cap. 49</locus>, <locus type="foliation" target="#158v">л. 158об. / f. 158v</locus>
+               </witness>
+               <witness xml:id="Тв"> 
+                  <ref target="lista-manoscritti.xml#GATO-138">ГАТО, ф. 1409, оп. 1, д. 138</ref>, <locus type="foliation" target="#511v #512v">лл. 511об.-512об. / ff. 511v-512v</locus>
+               </witness>
+               </listWit> 
+        
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Сказание</term> 
+            </keywords>
+            <keywords scheme="#scope">  
+               <term>Iconografia</term> 
+               <term>Esegesi</term> 
+               <term>Riflessione linguistica (genesi e nome dell'Imago pietatis)</term> 
+            </keywords>
+         </textClass>       
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><anchor xml:id="v1a1" n="1" rend="super"/>Того же инока Максима Грека. Сказание о священном Образѣ Спаса Христа, егоже называють «Уныне»<anchor xml:id="v1a2" n="1" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Священное образование священныя и покланяемыя иконы Господа и<anchor xml:id="v2" n="2" rend="super"/> Бога и Спаса нашего Иисуса<anchor xml:id="c1" n="а" rend="super"/> <anchor xml:id="v3" n="3" rend="super"/> Христа, глаголемое по-римскы «пиетас», еже есть по-рускы «милосердие» или «благочестие», а не «уныние». Нѣсть се<anchor xml:id="v4" n="4" rend="super"/> <anchor xml:id="v5a1" n="5" rend="super"/>человѣчьскыя премудрости<anchor xml:id="v5a2" n="5" rend="super"/> замышление<anchor xml:id="v6" n="6" rend="super"/>, но Самъ Спасъ такова Себе показа святителю Своему, святѣишему папѣ римскому Григорию, списателю душеполезных бесѣдъ яже къ Петру, своему диакону. Показа<anchor xml:id="v7" n="7" rend="super"/> себе въ время священыя литургии<anchor xml:id="v8" n="8" rend="super"/> священодѣиствующу страшну<anchor xml:id="v9" n="9" rend="super"/> и бескровную жрътву святѣишему Григорию, внегда влагаше въ потирѣ<anchor xml:id="v10" n="10" rend="super"/> четврътую<anchor xml:id="v11" n="11" rend="super"/> часть святого и покланяемаго агньца. Сицево // [л. 159] нерукотвореное божественое образование видѣвъ священныи Григореи, стояще<anchor xml:id="v12" n="12" rend="super"/> противу священнаго потиря, умилился, якоже лѣпо бѣ, и въ слезы духовныя снесенъ бывъ, преудивився ^1З^Спасову неизреченному<anchor xml:id="v13" n="13" rend="super"/> схожению. И якоже видѣ<anchor xml:id="v14" n="14" rend="super"/> очима въ Дусѣ Святѣ, тако и сказа иконописцемъ<anchor xml:id="v15" n="15" rend="super"/> писати прочее таковое Спасово священое образование, <anchor xml:id="v16a1" n="16" rend="super"/>и оттолѣ начят сицево священое образование Спасово<anchor xml:id="v16a2" n="16" rend="super"/> въ святых Божиих<anchor xml:id="v17" n="17" rend="super"/> храмѣх писатися.</p>
+         <p>Сице азъ такову повѣсть приях от достовѣрных мужеи италианѣх<anchor xml:id="v18" n="18" rend="super"/>, у них живыи<anchor xml:id="v19" n="19" rend="super"/> время доволно<anchor xml:id="v20" n="20" rend="super"/>, юнъ еще сыи и<anchor xml:id="v21" n="21" rend="super"/> мирскаго жития<anchor xml:id="v22" n="22" rend="super"/> дръжася. Якоже убо аз приях<anchor xml:id="v23" n="23" rend="super"/>, сице и<anchor xml:id="v24" n="24" rend="super"/> повѣствую твоему святительству. Его же святыми молитвами да мя сподобит Господь каятися искренѣ моих<anchor xml:id="v25" n="25" rend="super"/> многых<anchor xml:id="v26" n="26" rend="super"/> прегрѣшении. Амин.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1-1</head> <!-- numero in apice -->
+               <app from="#v1a1" to="#v1a2">
+                  <rdg wit="#Р">Сказание о священном Образѣ Спаса Христа</rdg>
+                  <rdg wit="#Т">Того же кир Максима философа. Сказание о священнемъ Образѣ Спаса Христа, Егоже невѣдующие называют «Уныние». Слово</rdg>
+                  <rdg wit="#Тв">Того же Максима инока Грека. Сказание о священном образѣ Спаса Христа, Егоже называют «Уныние»</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> <!-- numero in apice -->
+               <app from="#v2"> 
+                  <witDetail wit="#Т">Вписано в строку киноварью</witDetail>
+                  <witDetail wit="#Тв">нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">3</head> <!-- numero in apice -->
+               <app from="#v3">
+                  <rdg wit="#Р #Т">Исуса</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">4</head> <!-- numero in apice -->
+               <app from="#v4">
+                  <rdg wit="#Р">Нет</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5-5</head> <!-- numero in apice -->
+               <app from="#v5a1" to="#v5a2">
+                  <rdg wit="#Н">премудрости человѣческия</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">6</head> <!-- numero in apice -->
+               <app from="#v6">
+                  <rdg wit="#Т">замышлениа</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">7</head> <!-- numero in apice -->
+               <app from="#v7">
+                  <witDetail wit="#Р">Доб. <hi rend="distinct">же</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">8</head> <!-- numero in apice -->
+               <app from="#v8">
+                  <rdg wit="#Р #Т">литоргии</rdg>
+                  <rdg wit="#Тв">литолиторгии</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">9</head> <!-- numero in apice -->
+               <app from="#v9"> 
+                  <rdg wit="#Т">страшную</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">10</head> <!-- numero in apice -->
+               <app from="#v10"> 
+                  <rdg wit="#Р">потыре</rdg>
+                  <rdg wit="#Т">потирь</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">11</head> <!-- numero in apice -->
+               <app from="#v11"> 
+                  <rdg wit="#Р #Т">четвертую</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> <!-- numero in apice -->
+               <app from="#v12"> 
+                  <rdg wit="#Т">и стояше</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13-13</head> <!-- numero in apice -->
+               <app from="#v13a1" to="#v13a2">
+                  <rdg wit="#Р">неизреченному Спасову</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">14</head> <!-- numero in apice -->
+               <app from="#v14"> 
+                  <rdg wit="#Т">видя</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">15</head> <!-- numero in apice -->
+               <app from="#v15"> 
+                  <rdg wit="#Т">иконописцом</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">16</head> <!-- numero in apice -->
+               <app from="#v16"> 
+                  <witDetail wit="#Тв #Н">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">17</head> <!-- numero in apice -->
+               <app from="#v17"> 
+                  <witDetail wit="#Тв">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">18</head> <!-- numero in apice -->
+               <app from="#v18"> 
+                  <witDetail wit="#Т">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">19</head> <!-- numero in apice -->
+               <app from="#v19"> 
+                  <rdg wit="#Р">живя</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">20</head> <!-- numero in apice -->
+               <app from="#v20"> 
+                  <rdg wit="#Н">немало</rdg>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">21</head> <!-- numero in apice -->
+               <app from="#v21"> 
+                  <witDetail wit="#Т #Тв">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">22</head> <!-- numero in apice -->
+               <app from="#v22"> 
+                  <witDetail wit="#Тв">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">23</head> <!-- numero in apice -->
+               <app from="#v23"> 
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">24</head> <!-- numero in apice -->
+               <app from="#v24"> 
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">25</head> <!-- numero in apice -->
+               <app from="#v25"> 
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            
+            <listApp>
+               <head rend="super">26</head> <!-- numero in apice -->
+               <app from="#v26">
+                  <witDetail wit="#Тв">Нет</witDetail>
+               </app>
+            </listApp>
+
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" > 
+               <label rend="super">а</label> 
+               <p>Стерто начальное <hi rend="distinct">И</hi></p>
+            </note>
+         </noteGrp>         
+         
+      </back>
+   </text>
+</TEI>

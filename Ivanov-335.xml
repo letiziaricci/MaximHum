@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Слова, подвигающие к покаянию [2] [Slova, podvigajuščie k pokajaniju (2)]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1860 #Iva-1969 #Sin-1977">Инока Максима Грека похвальная словеса о преподобнѣмъ Иоаннѣ, нареченномъ Тревеликомъ [Inoka Maksima Greka pochval'naja slovesa o prepodobněm'' Ioanně, narečennom'' Trevelikom''] <note type="editorial"><ref><bibl>Maksim Grek 1860 <citedRange unit="page" from="447" to="448">447-448</citedRange></bibl></ref> <ref><bibl>Ivanov 1969 <citedRange unit="page" from="199" to="199">199</citedRange></bibl></ref> <ref><bibl>Sinicyna 1977: 245</bibl></ref></note></title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Того же похвалная епи о преподобном Иоанне нареченном тревеликом [Togo že pochvalnaja epi o prepodobnom Ioanne narečennom trevelikom] <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="234" to="234">234</citedRange>, <citedRange unit="page" from="121" to="121">255</citedRange></bibl></ref></note></title>   
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#MDA-I-42">Того же. Похвалнаа епи о преподобномъ Иоаннѣ, нареченном Тревеликомъ. 48 <note type="editorial"><ref><locus>ms. RGB, sobr. MDA/I 42, ff. 377r-380r</locus></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#MDA-III-138">Того же. Похвалнаа епистолия о преподобномъ Иоаннѣ, нареченном Тревеликомъ <note type="editorial"><ref><locus>ms. RGB, f. 173, MDA/III 138, ff. 234r-236r</locus></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Rum-264">Того же. Похвалнаа епи о преподобномъ Иоаннѣ, нареченном Тревеликомъ <note type="editorial"><ref><locus>ms. RGB, sobr. Rumjanceva 264, ff. 109v-111v</locus></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#RGIA-1622">Того же инока Максима Грека. Похвалнаа словеса о преподобномъ Иване, нареченном Тревеликомъ 48 <note type="editorial"><ref><locus>ms. RGIA 1622, f. 834, op. 4, 1622, ff. 128v-129r, 115r-117v</locus></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Troic-200">Того же. Похвална словеса о преподобномъ Иоаннѣ, нареченном Тревеликомъ <note type="editorial"><ref><locus>ms. RGB, Troickoe sobr. 200, ff. 352r-353r</locus></ref></note></title>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <notesStmt>
+            <note type="textual-relationships">Nelle raccolte intra vitam compone un capitolo unico insieme a Ivanov 176, 336-338 </note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Ivanov">Ivanov 335</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie"> Румянцевское собрание 65</bibl> 
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 47</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 44</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Zur-2011"><name>Žurova</name>, <date>2011</date></ref>: <biblScope unit="page" from="71" to="72">71–72</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="447" to="448">447-448</biblScope>, <biblScope unit="chapter">nr. 45</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="342">342</biblScope>, <biblScope unit="chapter">nr. 48 [47-a]</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Bols-285"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, Больш. 285</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="chapter">гл. 44</locus>  
+                     <locus type="foliation" target="#59r #59v">лл. 59-59об. / ff. 59r-59v</locus>  
+                     <title xml:lang="cu-Cyrl">Того же. Похвалнаа словеса о преподобномъ Иоаннѣ, нареченном Тревеликомъ</title>   
+                     <incipit xml:lang="cu-Cyrl">Се борба страшна, и подвигъ необыченъ и превъсходящь ума же, и разума, и слуха, и слова!</incipit> 
+                     <explicit xml:lang="cu-Cyrl">Горящими бо непрестанною божественною любовию и прилѣжно трезвящимся умом же и сердцемъ, акы худыи воробеи, поругаемъ бываеть, дръзостенъ сеи и уязвенъ лежит под ногама благочестивых.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/> 
+               
+               <witness xml:id="T">  
+                  <ref target="lista-manoscritti.xml#Troic-200">РГБ, Троицкое собр. 200</ref>, <locus type="chapter">гл. 89-92 / capp. 89-92</locus>, <locus type="foliation" target="#352r #353r">лл. 352-353 / ff. 352r-353r </locus><note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>   
+               </witness>
+               
+               <witness xml:id="P">   
+                  <ref target="lista-manoscritti.xml#Rum-264">РГБ, собр. Румянцева 264</ref>, <locus type="chapter">ст. 65 / art. 65</locus>, <locus type="foliation" target="#109v #111v">лл. 109об.-111об. / ff. 109v-111v</locus><note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>    
+               </witness>
+               
+               <witness xml:id="A">   
+                  <ref target="lista-manoscritti.xml#RGIA-1622">РГИА, ф. 834, оп. 4, 1622</ref>, <locus type="foliation" target="#128v #129r">лл. 128об.-129 / ff. 128v-129r</locus>, <locus type="foliation" target="#115r #117v">лл. 115-117об. / 115r-117v</locus>    <note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>
+               </witness> 
+               
+               <witness xml:id="И1">   
+                  <ref target="lista-manoscritti.xml#МДА-III-138">РГБ, ф. 173, МДА/III 138</ref>, <locus type="chapter">гл. 47 / cap. 47</locus>, <locus type="foliation" target="#234r #236r">лл. 234-236 / ff. 234r-236r</locus>    <note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>
+               </witness>
+               
+               <witness xml:id="И">   
+                  <ref target="lista-manoscritti.xml#МДА-I-42">РГБ, собр. МДА/I 42</ref>, <locus type="chapter">гл. 47 / cap. 47</locus>, <locus type="foliation" target="#377r #380r">лл. 377-380 / ff. 377r-380r</locus>    <note>[foliazione cumulativa per Ivanov 176, Ivanov 335, Ivanov 336, Ivanov 337, Ivanov 338]</note>
+               </witness>
+            </listWit>          
+           
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date ana="#incerta">[incerta]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Похвалнаа словеса</term> 
+            </keywords>
+            <keywords scheme="#scope"> 
+               <term>Pentimento</term> 
+               <term>Istruzione</term>
+               <term>Correzione</term> 
+               <term>Exemplum</term>
+               <term>Encomio</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#dubium" source="lista-bibliografia.xml#Iva-1969">Dubium <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="200" to="200">200</citedRange></bibl></ref></note></term>   
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+    
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>Того ж<anchor xml:id="v1" n="1" rend="super"/>. Похвалнаа<anchor xml:id="v2" n="2" rend="super"/> словеса<anchor xml:id="v3" n="3" rend="super"/> о преподобномъ Иоаннѣ<anchor xml:id="v4" n="4" rend="super"/>, нареченном Тревеликомъ<anchor xml:id="v5" n="5" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Се борба<anchor xml:id="v6" n="6" rend="super"/> страшна, и подвигъ необыченъ и превъсходящь ума же, и разума, и слуха, и слова! Самъ тъи, самъ губителныи и<anchor xml:id="v7" n="7" rend="super"/> злѣишыи бѣс облъкся въ образ змиинъ, звѣрь лютыи, завидѣвъ мужу, приносящему богодухновеныя молитвы Христу отъ самыя души<anchor xml:id="v8" n="8" rend="super"/> и среды сердечьныя, обвить собою его всего от ногъ даже и до честных сѣдинъ и усть святых. Но ниже сице<anchor xml:id="v9" n="9" rend="super"/> възможе священнаго его ума уклонити или преложити от священнаго молитвенаго поучениа,но безбоязненъ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 59 об." rend="label-margin-left"/> пребысть въ невлъинуемѣ тишинѣ, наслаждаяся умнѣ, имже съвокупися свѣтом. Оле, души крѣпкыя! О, разума богоприемна! Сущее неложенъ явися тобою<anchor xml:id="v10" n="10" rend="super"/>, глаголъ вѣщая: никогда же преодолѣеть<anchor xml:id="v11" n="11" rend="super"/> злоба премудрости богодухновенѣи. <anchor xml:id="v12a1" n="12" rend="super"/>Еи же<anchor xml:id="v12a2" n="12" rend="super"/> ты, отче, показался теплѣишыи<anchor xml:id="v13" n="13" rend="super"/> друг и явьственѣ обличилъ<anchor xml:id="v14" n="14" rend="super"/> еси, еже древле пострада губително падение всѣмъ человѣкомъ праотець, его къ Съдѣтелю<anchor xml:id="v15" n="15" rend="super"/> неблагоразумиемъ съвръшившеся<anchor xml:id="v16" n="16" rend="super"/>, а не губителною силою стропотныя змии<anchor xml:id="v17" n="17" rend="super"/>. Горящими<anchor xml:id="v18" n="18" rend="super"/> бо непрестанною боественною любовию<anchor xml:id="v19" n="19" rend="super"/> и прилѣжно трезвящимся умом же и сердцемъ, акы <anchor xml:id="v20a1" n="20" rend="super"/>худыи воробeи<anchor xml:id="v20a2" n="20" rend="super"/>, поругаемъ бываеть, дръзостенъ сеи и уязвенъ лежит под ногама благочестивых.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1"> 
+                  <witDetail wit="#А">Доб. <hi rend="distinct">инока Максима Грека</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2"> 
+                  <rdg wit="#Т">похвална</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3"> 
+                  <rdg wit="#И #И1 #P">епи</rdg>
+                  <rdg wit="#И1">епистолия</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4"> 
+                  <rdg wit="#А">Иване</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5"> 
+                  <witDetail wit="#И">Доб. <hi rend="distinct">48</hi> (номер главы)</witDetail>
+                  <witDetail wit="#И1">нет номера главы</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6"> 
+                  <witDetail wit="#И1">Буквы <hi rend="distinct">рб</hi> вписаны по стертому почерком неосновного писца (Максима Грека?), л. 234 об., 5 св.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7"> 
+                  <witDetail wit="#Р">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+            <head rend="super">8</head> 
+            <app from="#v8"> 
+               <rdg wit="#А">душа</rdg>
+            </app>
+         </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9"> 
+                  <witDetail wit="#А">Вписано на поле (край листа обрезан)</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10"> 
+                  <witDetail wit="#А">Доб. <hi rend="distinct">бо</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11"> 
+                  <rdg wit="#Р">препреодолѣеть</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12"> 
+                  <rdg wit="#Р">еже</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13"> 
+                  <rdg wit="#А #T">теплѣиши</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14"> 
+                  <rdg wit="#Р">облилъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15"> 
+                  <witDetail wit="#И1">Буквы <hi rend="distinct">те</hi> вписаны над строкой почерком Максима Грека, л. 234 об., 1 сн.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16"> 
+                  <rdg wit="#И">съвръшися <witDetail wit="#И">испр. из <hi rend="distinct">съвръшившеся</hi>: зачеркнуты буквы вше теми же чернилами, какими сделана правка Максима Гека, л. 378, 10 св.</witDetail></rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17"> 
+                  <witDetail wit="#Т">Испр. из <hi rend="distinct">змиа</hi>: киноварью зачеркнута буква <hi rend="distinct">а</hi>, вписана буква <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+               <listApp>
+                  <head rend="super">18</head> 
+                  <app from="#v18"> 
+                     <rdg wit="#И">горящимъ<witDetail wit="#И">испр. из <hi rend="distinct">горящими</hi>: буква <hi rend="distinct">ъ</hi></witDetail> вписана поверх буквы <hi rend="distinct">и</hi> почерком Максима Грека, л. 378, 12 св.</rdg>
+                  </app>
+               </listApp>
+               <listApp>
+                  <head rend="super">19</head> 
+                  <app from="#v19"> 
+                     <rdg wit="#Р">любию</rdg>
+                  </app>
+               </listApp>
+               <listApp>
+                  <head rend="super">20-20</head> 
+                  <app from="#v20a1" to="#v20a2"> 
+                     <rdg wit="#А">худая во гробѣ и</rdg>
+                  </app>
+               </listApp>
+            
+         </listApp>
+         
+        
+      </back>
+   </text>
+</TEI>

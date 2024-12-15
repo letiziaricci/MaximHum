@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Переводы из Свиды, не образующие циклов - Переводы в сборнике сочинений Максима Грека ГБЛ, ф. 256, собр. Румянцева, № 264 - Сиа повесть преведеся от греческыа книгы, глаголемыа Суида [Perevody iz Svidy, ne obrazujuščie ciklov - Perevody v sbornike sočinenij Maksima Greka GBL, f. 256, sobr. Rumjanceva, № 264 - Sia povest' prevedesja ot grečeskya knigy, glagolemya Suida]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Rzi-1935-1936">Сиа повѣсть преведеся от греческыа книгы, глаголемыа Суида [Sia pověst' prevedesja ot grečeskya knigy, glagolemya Suida] <note type="editorial"><ref><bibl>Ržiga 1935-1936 <citedRange unit="page" from="95" to="95">95</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Повесть о приведении пред Нерона царя осудивших Христа Анны, Каиафы и Пилата и о допросе их вместе с Петром апостолом и с Симоном волхвом [Povest' o privedenii pred Nerona carja osudivšich Christa Anny, Kaiafy i Pilata i o doprose ich vmeste s Petrom apostolom i s Simonom volchvom] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="71" to="71">71</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Перевод Максима Грека из лексикона «Суда» - Сиа повесть преведеся от греческыа книгы глаголемыа Суида [Perevod Maksima Greka iz leksikona "Suda" - Sia povest' prevedesja ot grečeskya knigy glagolemya Suida] <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="249" to="249">249</citedRange></bibl></ref></note></title>  
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+        
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">78</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 8</bibl>                 
+               </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="163" to="164">163–164</biblScope>, <biblScope unit="chapter">nr. I.6.I</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, собр. Румянцева 264</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#30v #31v">лл. 30об.-31об.</locus>  
+                     <title xml:lang="cu-Cyrl">Сиа повесть преведеся от греческыа книгы, глаголемыа Суида</title> 
+                     <incipit xml:lang="cu-Cyrl">Нерон, царь римьскыи, еще юн сыи, упразнящеся в филосовьфьскых учении и яже о Христе прилежно възыскааше; еще бо непщеваше с человекы въдворятися ему.</incipit>   
+                     <explicit xml:lang="cu-Cyrl">И к прочим своим неправдованием и гнусь богопротивную приложил, пръвыи гонитель быв божию слову. По сих же и матерь свою, и себе самого убил.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+           
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="Ν254">Suda Ν254 [= Adler 1928-1938, III: 455-456]</ref> 
+               </bibl> 
+            </listBibl>
+            </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">1519ca <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="62" to="72">72</citedRange> <citedRange unit="chapter">n. 69</citedRange></bibl></ref></note></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Повесть</term> 
+               </keywords>
+            <keywords scheme="#scope">   
+               <term>Suda (il processo di Anna, Caifa e Pilato)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#translation" source="#Ν254">Traduzione</term> 
+            </keywords>
+         </textClass>
+        </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>СИА ПОВЕСТЬ ПРЕВЕДЕСЯ ОТ ГРЕЧЕСКЫА КНИГЫ, ГЛАГОЛЕМЫА СУИДА</p>  
+      </front>
+      
+      <body>
+         <p><metamark corresp="#Ν254" function="locus-Suda" rend="label-margin-right" />Нерон, царь римьскыи, еще юн сыи, упразняшеся в филосовьфьскых учении и яже о Христе прилежно възыскааше; еще бо непщеваше с человекы въдворятися ему. И уведев, яко от иудеех распят бысть, негодова зело и повеле привести в Рим веригами связаных священникы Анну и Каиафу и самого Пилата, властеля тогда бывша в Иудеи. И приведе<metamark function="end-page" rend="//"/><pb type="folio" n="л. 31" rend="label-margin-left"/>ным бывшим, седе на судищи и яже о Христе съдеана испытааше. Сущии убо о Анне и Каиафе<anchor xml:id="c1" n="а" rend="super"/> отвещающе, глаголаху царю: «Мы убо законом eго предахом и на царьскы заповедех не съгрешихом; Пилать же, властель быв и власть имыи, елика въсхоте, съдеа». Негодовав убо Нерон, Пилата убо в узилищи затворил, сущих же о Анне и Каиафе отпусти. Живяше же тогда в Риме и Симон влъхв. И стязающимься Петру апостолу и Симону пред Нероном, приведен бысть Пилат от юзилища; и трием предстоящим Нерону, въпроси царь Симона: «Ты ли еси Христос?» Он же рече: «Еи, аз есмь». Потом въпроси Петра: «Ты ли еси Христос?» Отвеща, рече: «Ни; мне бо предстоящу, възнесеся на небо». Въпроси же и Пилата: «Которыи от сеу есть глаголемыи Христос?» И рече Пилат: «Ни един; Петр убо ученик его бысть, и приведеся ко мне акы ученик его, и отметался его, глаголя: «не вем человека»; и отпусти его. Съи же Симон никако же ведом мне есть и ни едино имать отнудь подобие к Христу; есть бо съи египтянин, и тлъст, и черн, и отнудь чюж Христова образа». Негодовав убо царь на Симона убо, яко сългавша и себе именовавша Христа, на Петра же, акы отметавшагося учителя, и отгна их от судища. Пилатову же главу отсече, акы толь чюдна человека убити дръзнувша без царьскаго велениа.</p>
+         <p><metamark function="end-page" rend="//"/><pb type="folio" n="л.31 об." rend="label-margin-left"/> Съи же Нерон, утвръжаемому<anchor xml:id="c2" n="б" rend="super"/> царству своему, в непреподобных деании взыде и чюжи отнудь царствию вещи начинааше, гудя, и поя, и пляса на позорищих. И к прочим своим неправдованием и гнусь богопротивную приложил, пръвыи гонитель быв божию слову. По сих же и матерь свою, и себе самого убил.</p>
+         </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" >
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p xml:lang="grc">οἱ οὖν περί τόν ʾˊΑνναν χαί Καїάφαν.</p> 
+            </note>
+            <note target="#c2" > <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <label rend="super">б</label> <!-- lettera in apice -->
+               <p>Испр., в ркп. <hi rend="distinct">утвръжамому</hi></p> 
+            </note>
+         </noteGrp>
+         
+      </back>
+   </text>
+</TEI>

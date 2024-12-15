@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же инока Максима Грека сказание, како знаменоватися крестным знамениемъ [Togo že inoka Maksima Greka skazanie, kako znamenovatisja krestnym znameniem'']</title>  
+            <title type="alt" xml:lang="cu-Cyrl">Titoli concordi con il titolo editoriale in <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 186-187</ref>; <ref target="lista-bibliografia.xml#Sin-1977">Sinicyna 1977: 232, 244</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">Сказание о крестном знамении [Skazanie o krestnom znamenii] <ref target="lista-bibliografia.xml#MG-1585 #Zur-2007">([Maksim Grek (1585)]; Žurova 2007: 28-33)</ref></title>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">315</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl">
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 33</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 40</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="290" to="292">290–292</biblScope>, <biblScope unit="chapter">nr. 33</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions"> 
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1585"><name>Maksim Grek</name>, <date>[1585]</date></ref>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Lop-1899"><name>Loparev</name>, <date>1899</date></ref>: <biblScope unit="page" from="191" to="193">191-193</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Zur-2007"><name>Žurova</name>, <date>2007</date></ref>: <biblScope unit="page" from="28" to="33">28-33</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#MDA-42"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 173, МДА 42</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#314r #317r">лл. 314-317 / ff. 314r-317r</locus>
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима Грека сказание, како знаменоватися крестным знамениемъ</title>   
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">О нем же предваривъ, въпросилъ мя еси раскрыти тебѣ силу таинаго апостольскаго преданиа, сирѣчь образа крестнаго, им же знаменаемъ себе вѣрнии на всяком началѣ молитвъ наших яже къ Богу, о нем же глаголеть божественое слово: «Далъ еси боящимся Тебе знамение, чесо ради яко бѣжати», рече, «от лица луку, яко да избавятся възлюблении Твои» тѣмъ сирѣчь страшным крестным знамениемъ супротивнымъ силам.</incipit>   
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Симъ непобѣдимым оружием отгонимъ присно гонящаго нас беспрестани мысленаго фараона, и яже въ Христа крѣпкою и дѣиственою вѣрою потопимъ его въ чермныи и неугасаемыи огнь геоньскыи, от него же да избавит ны Господь нашь Иисус Христос силою честнаго и животворящаго креста Своего. Аминь.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="И" /> 
+               
+               <witness xml:id="Л">  
+                  <ref target="lista-manoscritti.xml#Slave-123">BNF, Man. Slave 123</ref>, <locus type="foliation">foliazione mancante</locus>  
+               </witness> 
+            </listWit>
+            
+            <!-- OPZIONALE: bibliografia secondaria per opere dubium -->
+            <listBibl type="secondary-bibliography">
+               <bibl xml:id="Evg-1813">
+                  <ref corresp="lista-bibliografia.xml#Evg-1813"><name>Evgenij</name>, <date>1813</date></ref>: <biblScope unit="page" from="34">34</biblScope>
+               </bibl>  
+               <bibl xml:id="Evg-1827">
+                  <ref corresp="lista-bibliografia.xml#Evg-1827"><name>Evgenij</name>, <date>1827</date></ref>: <biblScope unit="page" from="41">41</biblScope>
+               </bibl>
+               <bibl xml:id="MG-1897">
+                  <ref corresp="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="234">234</biblScope>
+               </bibl>
+            </listBibl>
+            <listBibl type="bibliography">
+               <bibl xml:id="Gol-1905">
+                  <ref corresp="lista-bibliografia.xml#Gol-1905"><name>Golubinskij</name>, <date>1905</date></ref>: <biblScope unit="page" from="170" to="171">170-171</biblScope>
+               </bibl>  
+               <bibl xml:id="Sas-1977">
+                  <ref corresp="lista-bibliografia.xml#Sas-1977"><name>Šaškov</name>, <date>1977</date></ref>: <biblScope unit="page" from="113" to="114">113-114</biblScope>
+               </bibl>
+               <bibl xml:id="Iva-1969">
+                  <ref corresp="lista-bibliografia.xml#Iva-1969"><name>Ivanov</name>, <date>1969</date></ref>: <biblScope unit="page" from="186" to="187">186-187</biblScope>
+               </bibl>
+               <bibl xml:id="MG-2014">
+                  <ref corresp="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="397" to="398">397-398</biblScope>
+               </bibl>
+            </listBibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[Ante 1551]</date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Сказание</term> 
+            </keywords>
+            <keywords scheme="#scope">    
+               <term>Esegesi</term> 
+               <term>Catechesi</term>
+               <term>Dibattito teologico</term>
+               <term>Prassi liturgica ortodossa (segno della croce)</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#dubium" source="#Evg-1813 #Evg-1827 #MG-1897">Dubium (Evgenij 1813: 34; 1827, II: 41; Maksim Grek 1897: 234)</term>   
+               <term target="#original" source="#Gol-1905 #Iva-1969 #Sas-1977 #MG-2014">Testo originale (Golubinskij 1905: 170-171; Ivanov 1969: 186-187; Šaškov 1977: 113-114; Maksim Grek 2014: 397-398)</term>
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ТОГО ЖЕ ИНОКА МАКСИМА ГРЕКА СКАЗАНИЕ, КАКО ЗНАМЕНОВАТИСЯ КРЕСТНЫМ ЗНАМЕНИЕМЪ. 33<anchor xml:id="c1" n="а" rend="super"/><anchor xml:id="c2" n="б" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>О нем же предваривъ, въпросилъ мя еси раскрыти тебѣ силу таинаго апостольскаго преданиа, сирѣчь образа крестнаго, им же знаменаемъ себе вѣрнии на всяком началѣ молитвъ наших яже къ Богу, о нем же глаголеть божественое слово: «Далъ еси боящимся Тебе знамение, чесо ради яко бѣжати», рече, <cit><quote xml:id="biblical-1">«от лица луку, яко да избавятся възлюблении Твои» тѣмъ сирѣчь страшным <anchor xml:id="v1a1" n="1" rend="super"/>крестным знамениемъ супротивнымъ силам<anchor xml:id="v1a2" n="1" rend="super"/>. «Сие, рече, далъ еси възлюбленым Твоимъ»</quote></cit>, сирѣчь вѣрующим в Тя и любящим Тя и святыа заповѣди Твоя исплъняющим словомъ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 314 об." rend="label-margin-left"/> и дѣлом, <cit><quote xml:id="biblical-2">«да тѣмъ, рече, избавляются от всякыя стрѣлы летящыя в день»</quote></cit>, сирѣчь от всякого навѣта и бѣсовскыя козни, ими же язвляютъ<anchor xml:id="v2" n="2" rend="super"/> безпрестани сердца вѣрных лукавии<anchor xml:id="c3" n="в" rend="super"/> духове, завидующе<anchor xml:id="c4" n="г" rend="super"/> желающим чисто и богоугодно жити. О семъ малыми побесѣдую тебѣ.</p>
+         <p>Вѣдомо убо да есть тебѣ, что яко же въ божественом крещении треми въ воду погружении тридневное Спаса Христа погребение и въскресение гадаетъ церковное предание, по божественому гласу глаголющу, «елици бо въ Христа крѣстихомся, въ смерть Его крестихомся, съпогребохомся Ему крещениемъ в смерть», <anchor xml:id="v3a1" n="3" rend="super"/>таже акы сказуя что есть еже в смерть<anchor xml:id="v3a2" n="3" rend="super"/>, приводит глаголя: <cit><quote xml:id="biblical-3">«Да яко же Христос въста от мрътвых, такожде и мы въ обновлении животу поживемъ»</quote></cit>, <anchor xml:id="v4a1" n="4" rend="super"/>живот новъ<anchor xml:id="v4a2" n="4" rend="super"/>, исплънь<anchor xml:id="v5" n="5" rend="super"/> всякыя правды и преподобьства и святыни, <cit><quote xml:id="biblical-4">«съвлекшеся ветхаго человѣка»</quote></cit>, сирѣчь лукавыхъ и богомръзкых похотеи и дѣании плоти и духа, яко же убо крещениемъ таиньственѣ предаеть сиа намъ апостольское предание, сице и знаменование честнаго креста, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 315" rend="label-margin-left"/> все вкупѣ благовѣриа таиньство учит ны исповѣдовати<anchor xml:id="c5" n="д" rend="super"/> таиньственѣ, глаголю же, самую святую и поклоняему Троицу, и еже съ небесе Единороднаго на земли<anchor xml:id="v6" n="6" rend="super"/> снитие и распятие Его, и еже съ небесъ Второе Его Пришествие, егда хощет судити живым и мертвым, сирѣчь праведным и грѣшником. Съвокупление бо триехъ прьстеи, сирѣчь палца и еже от средняго и малаго таину исповедуемъ богоначалных триехъ ипостасех Отца и Сына и Святаго Духа, единого Бога трое, протяжением же длъгаго и средняго съшедшеся два естества въ Христѣ, сирѣчь Самого Спаса Христа исповѣдуемъ съврьшена Бога и съврьшена человѣка въ двою существу и естеству вѣруемаго и познаваемаго<anchor xml:id="c6" n="е" rend="super"/>.</p>
+         <p>Положением же пръстеи на челѣ исповѣдуемъ два нѣкая сиа, яко от Бога и Отца родися, яко же и наше слово от ума происходит, и яко съвыше сниде по божественому слову глаголющему: «И преклони небеса и сниде», а положениемъ пръстеи еже на пупѣ, снитие Его еже на земли и еже въ Пречистѣи утробѣ Богоматере безсѣменное зачатие Его, и девятомесячное<anchor xml:id="v7" n="7" rend="super"/> вселение <metamark function="end-page" rend="//"/><pb type="folio" n="л. 315 об." rend="label-margin-right"/> явьственѣ възвѣщаемъ. А обвожением еже оттуду всея рукы на десную и лѣвую страну яснѣ образуем хотящии изнестися горкыи отвѣт<anchor xml:id="v8" n="8" rend="super"/> онъ от праведных стоящих одесную Судии настоящихъ, ошую Судии на нечестивых и грѣшныхъ, по Спасову божественому гласу глаголющу къ противящимся и непокоряющимся иудеомъ. Сего ради рече: «Сии будуть вамъ судиа», сирѣчь иже от роду ихъ ведомии божествении Его учиници и апостоли дванадесят суще числом, двою на десят колѣном иизраилевом судять, еже божественыи апостолъ яснѣе нас учит, укаряа коринфянех тяжущихся другъ на друга пред судиами неправедными, рекше невѣрными. Смѣет ли кто от вас глаголя къ иному вещь имыи судитися от неправедных, а не от святых, не вѣсте ли, яко святии миру хотят судити, не вѣсте ли, яко и аггелом судити хощемъ, а не точию житеиская, сирѣчь не человѣком токмо<anchor xml:id="v9" n="9" rend="super"/> судити имут праведнии нечествовавшим на Бога, но и аггелом не съхранившимъ чинъ свои, но помыслиша противитися всѣх Съдѣтелю и Владыцѣ. Сии же <metamark function="end-page" rend="//"/><pb type="folio" n="л. 316" rend="label-margin-right"/> суть купно съ Ессофором, сирѣчь деньницею разгръдѣвшеися аггели иже ныне именуемии лукавии бѣси. Такова убо сила есть <anchor xml:id="v10a1" n="10" rend="super"/>яко же мнѣ мощно есть<anchor xml:id="v10a2" n="10" rend="super"/> вѣдѣти знамениа честнаго креста, им же вѣрнии знаменуемся, егда молимся исповѣдующе таиственѣ все Спасово еже съ плотию смотрение, сирѣчь еже от Бога и Отца преже всея твари рожение, еже свыше Его на земли снитие и распятие и Второе Пришествие еже есть запечатлѣние всему еже о нас Его человѣколюбному смотрению. Сие божественое и страшное знамение предобрази патриархъ Иаков, премѣнивъ старческыя рукы своя, егда благословяше сыны Иосифля, внучата своя, Ефрема и Манасиа; и Моисии такожде, егда повелѣ сыновом Израилевым еще въ Египтѣ удръжаным кровию агньца знаменати четверочастнѣ двери домовъ ихъ, сирѣчь верхьниа и нижниа порогы, и яже от обою страну колоды, да не възможет внити к нимъ погубляа и прьвородныя египетскыя. Сие знамение такожде тъи же предобрази<anchor xml:id="v11" n="11" rend="super"/>, егда жезлом своим <metamark function="end-page" rend="//"/><pb type="folio" n="л. 316 об." rend="label-margin-right"/> прямо порази<anchor xml:id="v12" n="12" rend="super"/> Чръмное море, и раздѣлися вода сюду и сюду, и бывшу пути суху посредѣ моря, пѣшии не мокреною ногою преидошя на онъ полъ бесчисленаа множества сынов Израилевъ, та же по ихъ прехожении, тѣм же жезломъ обратно въпрѣкы поразив Чермное море, потопи<anchor xml:id="v13" n="13" rend="super"/> в немъ гонителя мучителя посредѣ его бывша. Сие и святое явьственѣише тои же предобрази<anchor xml:id="v14" n="14" rend="super"/>, егда мѣдяную змию в пустыни на шестѣ привязалъ поперегъ, на нь же възирающе иже от змиевъ грызаемии, исцѣлеваху абие. Сие прежелаемое и спасителное знамение праведныи онъ издалеча предувѣдевъ духомъ, молящеся безпрестани сътворитися ему, сирѣчь в дѣло приити, глаголя «сътвори съ мною знамение въ благо, и да видят ненавидящеи мя и постыдятся». Внимаимъ убо и мы силѣ непобѣдимаго знамениа сего и запечатлѣимъ о немъ и сами двери наша, сиречь чювьствиа ими же входитъ мысленыи губитель и первородныя наша убиваеть, сирѣчь благовѣрныя помыслы нашя искореняа, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 317" rend="label-margin-left"/> вмѣсто же сих сажаетъ отроды многообразныя злобы своея, глаголю же богомръзкыя и душетлителныя помыслы. Симъ непобѣдимым оружием отгонимъ присно гонящаго нас беспрестани мысленаго фараона, и яже въ Христа крѣпкою и дѣиственою вѣрою потопимъ его въ чермныи и неугасаемыи огнь геоньскыи, от него же да избавит ны Господь нашь Иисус Христос силою честнаго и животворящаго креста Своего. Аминь.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1-1</head> <!-- numero in apice -->
+               <app from="#v1a1" to="#v1a2"> 
+                  <rdg wit="#Л">супротивным силам крестнымъ знамение</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2">
+                  <rdg wit="#Л">уязвляютъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3-3</head> 
+               <app from="#v3a1" to="#v3a2">
+                  <witDetail wit="#Л">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+                  <head rend="super">4-4</head>
+                  <app from="#v4a1" to="#v4a2">
+                     <rdg wit="#Л">животно</rdg>
+                  </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <rdg wit="#Л">исполню</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <rdg wit="#Л">землю</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <witDetail wit="#Л">Доб. <hi rend="distinct">обитание</hi>.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <witDetail wit="#Л">Доб. <hi rend="distinct">суд</hi>.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9">
+                  <rdg wit="#Л">точию</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10-10</head> 
+               <app from="#v10a1" to="#v10a2">
+                  <witDetail wit="#Л">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11">
+                  <witDetail wit="#Л">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <rdg wit="#Л">поразил</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <rdg wit="#Л">потопил</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14">
+                  <rdg wit="#Л">преобразил</rdg>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>На поле почерком XVIII в. <hi rend="distinct">сие слово не Максимово, ложно кто инъ написалъ.</hi></p>
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label>
+               <p>Буквенное обозначение номера главы кин. на поле.</p>
+            </note>
+            <note target="#c3">
+               <label rend="super">в</label>
+               <p>В ркп. испр. из <hi rend="distinct">лукави</hi>.</p>
+            </note>
+            <note target="#c4">
+               <label rend="super">г</label>
+               <p>В ркп. испр. из <hi rend="distinct">завидующемъ</hi>.</p>
+            </note>
+            <note target="#c5">
+               <label rend="super">д</label>
+               <p>В ркп. испр. из <hi rend="distinct">исповедати</hi> почерком <choice><abbr>Р</abbr> <expan>почерк редактора/редакторов / mano del revisore/dei revisori</expan></choice>.</p>
+            </note>
+            <note target="#c6">
+               <label rend="super">е</label>
+               <p><hi rend="distinct">зри</hi> помета на правом поле поздним почерком.</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Пс 59, 6 / Sal 59,6)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Sal"><ref>(Пс 90, 5 / Sal 90,5)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Rm"><ref>(Рим 3, 4 / Rm 3,4)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Col"><ref>(Кол 3, 9 / Col 3,9)</ref></bibl>
+         </listBibl>
+           
+      </back>
+   </text>
+</TEI>

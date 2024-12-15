@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Переводы, присоединяющиеся к 1-му и 2-му комплексам переводов из Свиды - III. Переводы в сборнике сочинений Максима Грека ГПБ, Q.I.219 - Промифеи [Perevody, prisoedinjajuščiesja k 1-mu i 2-mu kompleksam perevodov iz Svidy - III. Perevody v sbornike sočinenij GPB, Q.I.219 - Promifei]</title>  
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Сказание о Промифее [Skazanie o Promifee] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="71" to="71">71</citedRange></bibl></ref></note></title>   
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">79</idno>
+            </bibl>
+
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="151" to="152">151–152</biblScope>, <biblScope unit="chapter">nr. I.3.III</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#QI-219"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Q.I.219</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#552r #552v">лл. 552-552об.</locus>  
+                     <title xml:lang="cu-Cyrl">Промифеи</title> 
+                     <incipit xml:lang="cu-Cyrl">Яко при Судиах иудеискых у еллинех познавашеся Промифеи, иже первыи обрете грамматическую философию.</incipit>  
+                     <explicit xml:lang="cu-Cyrl">И от того же времени оцеломудришася живущеи в стране Еллиньстеи. Царствова же Кекропс лета 50.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="Π2506" >Suda Π2506 [= Adler 1928-1938, IV: 214]</ref> 
+               </bibl> 
+            </listBibl>
+   
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">intra 1525 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="77" to="77">77</citedRange></bibl></ref></note></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">  
+               <term>Suda (Prometeo)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation" source="#Π2506">Traduzione</term> 
+            </keywords>
+         </textClass>
+
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ПРОМИФЕИ</p>  
+      </front>
+      
+      <body>
+         <p><metamark corresp="#П2506" function="locus-Suda" rend="label-margin-left" />Яко при Судиах иудеискых у еллинех познавашеся Промифеи, иже первыи обрете грамматическую философию. О нем же глаголють, яко человек съзидаше, по нему же некыя невежя сущя научил знати премудрость. И Епимифеи, иже изобрете мусикию; и Атлас, иже астрологию показа; его ради и глаголаху, яко небо деркит. И многоочитыи Аргус, поне же преизящен мудрець бысть, тъи бо первыи художественую философию умыслил. Бе же тогда и пророчица Сивилла. Царствующу в Египте фараону, иже и Парахо нарицашеся, у елиинех же в Афинех бе Кекропс, иже наречеся Двоестествен величества ради телеснаго, или зане закон положил, яко женам, девам сущем, единому мужу съчетатися, и именова их невестах; преже бо того оноя страны жены скотыcкым съвокуплением съвокупляхуся; ни единому бо жены бяху, но даяху себе в блуд всякому. И ни<metamark function="end-page" rend="//"/><pb type="folio" n="л.552 об." rend="label-margin-left"/>кто же ведаше, чии есть сын или дщи<anchor xml:id="c1" n="a" rend="super"/> роженное, но яко же изволяшеся матери, глаголаше и дааше роженное ему же аще хотяше мужу. Исправление же того сътворил Кекропс, иже от Египта пришедыи в Елладу, по законоположению Ифестову, царя египетьскаго. Иже и глаголаше, яко сего ради обычаа скотскаго блуда потоплена бысть страна Афинеискаа. И от того же времени оцеломудришася живущеи в стране Еллиньстеи. Царствова же Кекропс лета 50.</p>
+         </body>
+      
+      <back> 
+         
+         
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> 
+            <note corresp="#c1" > 
+               <term rend="super">а</term> 
+               <p>Испр., в ркп. <hi rend="distinct">дши</hi></p> 
+            </note>
+            </noteGrp>
+        
+         
+      </back>
+   </text>
+</TEI>

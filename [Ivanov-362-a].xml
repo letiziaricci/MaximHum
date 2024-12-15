@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание В. М. Тучкову о типографском знаке Альда Мануция II вариант (вид) [Poslanie V. M. Tučkovu o tipografskom znake Al'da Manucija II variant (vid)]</title>  
+
+            <title type="alt" xml:lang="cu-Cyrl">II редакция [II redakcija] <ref target="lista-bibliografia.xml#Bul-1984a">(Bulanin 1984a: 199)</ref></title> 
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Variante (redazione in Bulanin 1984a: 199) di Ivanov 362</note>   <!-- 01. Inventario COLONNA C -->
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">[Ivanov-362-a]</idno>
+            </bibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="21">347</biblScope>, <biblScope unit="chapter">nr. II.15-a</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="238" to="238">199</biblScope>, <biblScope unit="chapter">nr. III.1-a</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#F-XVII-13"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, F.XVII.13</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#86r #86v">лл. 86-86об. / ff. 86r-86v</locus>  
+                     <incipit xml:lang="cu-Cyrl">Велѣлъ еси мнѣ, князь государь, сказати тебѣ, что есть тлъкъ знамению, его же видел еси в книзѣ печатнѣи.</incipit>  
+                     <explicit xml:lang="cu-Cyrl">[...] тѣм же чином и душа человѣческаа, отринувши страха божиа, еже есть дѣлание всякоа правды и истинны, удобь обладаема бываеть невидимыми врагы и погыбаеть прочее, отлучена бывши божиа помощи.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/> 
+            </listWit> 
+           
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>Intra 1525 <ref target="lista-bibliografia.xml#Bul-1984a">(Bulanin 1984a: 192)</ref> <ref target="lista-bibliografia.xml#MG-2008">(Maksim Grek 2008: 35)</ref></date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Esegesi</term> 
+               <term>Catechesi</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="received">
+               <persName xml:id="VMT">
+                  <persName></persName>Василий Михайлович Тучков / Vasilij Michajlovič Tučkov</persName>
+               <persName></persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>II ВАРИАНТ (ВИД)</p>  
+      </front>
+      
+      <body>
+         <p><pb type="folio" n="Л. 86" rend="label-margin-left"/> Велѣлъ еси мнѣ, князь государь, сказати тебѣ, что есть тлъкъ знамению, его же видел еси в книзѣ печатнѣи. Слыши же внятно. Въ Вениции был нѣкии философъ<anchor xml:id="c1" n="а" rend="super"/> добрѣ хитръ, имя ему Алдус, а прозвище Манициусь, родом фрязин, отечеством римлянинъ, Ветхаго Рима отрасль, грамоте римьскои и по нашеи греческои добрѣ гораздъ. Я его познал и видѣл въ Веницеи и к нему чясто ходил книжным дѣлом, а я тогды еще молод, в мирскых платех. Тътъ Алдус Мануциусъ римлянин по свои мудрости замыслилъ себе таково премудрее замышление, въспоминая всякому вкупѣ правосла <metamark function="end-page" rend="//"/><pb type="folio" n="Л. 86 ОБ." rend="label-margin-right"/> вному властѣлю и учя их притчею сею, како мощно доступити вѣчную жизнь, аще и весма желают еи. И якоремъ убо утвержение и крѣпость вѣры знаменуеть нам, рыбою же душя человѣческыа, и учит нас притчею сею своею и говоритъ. Как де и якорь желѣзенъ крепит и твердит корабль в море и избавляетъ его от всякыа бѣды морьскых волнении и обуревании, такъ, деи, и страх Божии въдружен<anchor xml:id="c2" n="б" rend="super"/> въ душах человѣческых съблюдает ихъ въ всякои правдѣ заповедеи Божиихъ и избавляеть их от всякыа напасти и кознеи видимых и невидимых врагъ. И яко же пакы корабль без якора не умѣеть избыти морьскых обуревании, но разбить погружаеться в бездну и пропадаеть, тѣм же чином и душа человѣческаа, отринувши страха Божиа, еже есть дѣлание всякоа правды и истинны, удобь обладаема бываеть невидимыми врагы и погыбаеть прочее, отлучена бывши Божиа помощи.</p>
+      </body>
+      
+      <back> 
+         
+
+         
+         <noteGrp type="editorial-note"> <!-- note alfabetiche = commenti al testo-->
+            <note corresp="#c1" >
+               <term rend="super">а</term> <!-- lettera in apice -->
+               <p>Первая буква <hi rend="distinct">ф</hi> испр. из <hi rend="distinct">ж</hi>.</p>
+            </note>
+            
+            <note corresp="#c2" > 
+               <term rend="super">б</term>
+               <p>В ркп. <hi rend="distinct">ъдружен</hi>, доб. по I варианту.</p>
+            </note>
+         </noteGrp>
+      </back>
+   </text>
+</TEI>

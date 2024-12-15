@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека сказание, яко достоитъ намъ дѣломъ исполнити наши обѣты [Inoka Maksima Greka skazanie, jako dostoit'' nam'' dělom'' ispolniti naši oběty]</title> 
+            <title type="alt" xml:lang="cu-Cyrl">Titolo concorde con il titolo editoriale in <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 135</ref>; <ref target="lista-bibliografia.xml#Sin-1977">Sinicyna 1977: 258</ref></title> 
+            <title type="alt" xml:lang="cu-Cyrl">[Сказание об исполнении обетов (Skazanie ob ispolnenii obetov) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title>  
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">180</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 98</bibl>               
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografica.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="214" to="219">214–219</biblScope>, <biblScope unit="chapter">nr. 11</biblScope>
+               <incipit type="info-ms">Иже по нужи велицѣи и желанию получения чего отъ зѣло полезныхъ обрѣщися Богу добрымъ изволениемъ вездѣ во святыхъ писаниихъ обрѣтаю хвалимо дѣломъ исполняемо преступлено же, еже есть не исполнено дѣломъ, повинно Богу.</incipit>
+               <explicit type="info-ms">Егоже ради боюся да не речется и о васъ реченное святымъ апостоломъ Павломъ о июдеехъ: Божие бо имя нами хулимо бываеть во языцѣхъ, подобнѣ бо имъ преступаемъ и мы святыя заповѣди Бога нашего; Тому слава во вся вѣки, аминь.</explicit>
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografica.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Rum. nr. 9]</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 494/513 [307/494] (così in Maksim Grek 1894: 16)</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 495/514 [308/495] (così in Maksim Grek 1894: 16)</msName>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 496/515 [309/496] (così in Maksim Grek 1894: 16)</msName>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 497/516 [310/497] (così in Maksim Grek 1894: 16)</msName>
+               </msIdentifier>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#b-wit-1" ana="#reference-ms"/>
+               <witness corresp="#b-wit-2" ana="#reference-ms"/>
+               <witness corresp="#b-wit-3" ana="#reference-ms"/>
+               <witness corresp="#b-wit-4" ana="#reference-ms"/> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>Сказание</term> 
+            </keywords>
+            <keywords scheme="#scope">  
+               <term>Vita monastica</term> 
+               <term>Denuncia</term>
+               <term>Decadimento morale</term>
+               <term>Istruzione</term>
+               <term>Correzione</term>
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution">
+               <term target="#original">Testo originale</term>  
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="lista-destinatari.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="lista-destinatari.xml#mi">monaci</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">
+               <p></p>
+            </interpretation>
+         </editorialDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front>
+         <p>ИНОКА МАКСИМА ГРЕКА СКАЗАНИЕ, ЯКО ДОСТОИТЬ НАМЪ ДѢЛОМЪ ИСПОЛНИТИ НАШИ ОБѢТЫ</p>  
+      </front>
+      
+      <body>
+         <p>Иже по нужи велицѣи и желанию получения чего отъ зѣло полезныхъ обрѣщися<anchor xml:id="c1" n="а" rend="super"/> Богу добрымъ изволениемъ вездѣ во святыхъ писаниихъ обрѣтаю хвалимо дѣломъ исполняемо преступлено же, еже есть не исполнено дѣломъ, повинно Богу. Рече бо святое писание: помолитеся и отдадите Господу Богу нашему; и блаженныи Иона, во чревѣ китовѣ моляся, глаголаше: азъ же со гласомъ хваления и исповѣдания пожру тебѣ. Елика помолихся, воздамъ тебѣ во спасение мое Господеви; и богоотецъ Давидъ въ 115 псалмѣ: <cit><quote xml:id="biblical-1">«тебѣ пожру жертву хваления, и имя Господне призову; молитвы моя Господеви воздамъ предъ всѣми людьми его»</quote></cit>: и премудрость Соломоня: <cit><quote xml:id="biblical-2">«лутчи есть не обѣщатися и отдати, нежели обѣщатися и не отдати»</quote></cit>. А яко нудимся дѣломъ довершити оброки наши, елико обрѣкохомся волею Господеви, Иаковъ патриархъ научилъ насъ, егда бояся брата своего Исава, обрекся Господеви десятину дати от всѣхъ имѣнии своихъ, аще избавитъ его отъ гнѣва Исавова и, избавленъ бывъ, исполнилъ дѣломъ свои оброкъ. Егда и Леввиа сына своего, десята суща числомъ, обрекъ Богу, освятилъ и облекъ въ ризу священническу, жертвы принесе Господеви въ Вефилѣ, изъ негоже прошелъ<anchor xml:id="c2" n="б" rend="super"/> священническии причетъ въ людехъ. Такожде и Иефта<anchor xml:id="c3" n="в" rend="super"/> судиа и воевода Иизраилевъ, напряжаяся на иноплеменники, помолился Богу: аще пособитъ ему поразити иноплеменники, принести въ жертву, внегда возвратится, еже аще первое явится, срѣтя его, и понеже видѣ первую дщерь свою единородну ему, празднующу о побѣдѣ отца своего, хотя не хотя со скорбию заклалъ ея, а еже преступати, елика обрѣкохомся Господеви Богу нашему волею, нѣсть намъ на пользу; явлено есть, имже глаголетъ псалмопѣвецъ моляся Господу: погубиши вся, глаголящая лжу. И сея пророческия клятвы причастникъ бысть и со Сапфирою женою своею Ананиа, утаивъ отъ цѣны села, рекшу къ нему верховному: <cit><quote xml:id="biblical-3">«Анание, всякую исполнилъ сатана сердце твое, не солгалъ еси человѣкомъ, но Богу, и по сихъ словѣсехъ падъ умре»</quote></cit>. Во истину страшно есть, еже впасти въ руцѣ Бога живаго. Такожде и святыи Павелъ не полезно намъ являетъ, въ нихже пишетъ въ первомъ, еже къ Тимофею, послании глаголя: <cit><quote xml:id="biblical-4">«юныхъ же вдовицъ отрицаися, егда бо разсвирѣпѣютъ посягати хотятъ, имуще осужение, яко первую вѣру отринули»</quote></cit>, сирѣчь обѣщание, имже обрекошася Богу в чистотѣ пребывати. Тои же къ Коринфианомъ, въ нихже о дѣвственницѣхъ разсужаетъ и узаконяетъ, сице глаголя: <cit><quote xml:id="biblical-5">«привязался ли женѣ, не ищи разрѣшения, отрѣшился ли жены, не ищи жену; аще и приведеши ю, не согрѣшилъ еси; такожде и дѣва; аше посягнетъ, не согрѣшила, обаче скорбь приимутъ сицевии плотию»</quote></cit>, сирѣчь въ немощехъ впаднутъ судьбами Божиими, зане не пребыли въ своихъ обѣтехъ до конца.</p>
+         <p>Толика убо учатъ насъ святая писания о нихже сами волею обрекохомся Господу, по нужи велицѣи, или желаниемъ большаго спасения и чистоты лучшия, и по сихъ должни есме яже о себѣ строити по рѣченному: <cit><quote xml:id="biblical-6">«кляхся и поставихъ, яко сохранити судьбы правды твоея»</quote></cit>; и паки: <cit><quote xml:id="biblical-7">«вольная устомъ моимъ благоволи Господи, и оправданиемъ твоимъ научи мя»</quote></cit>. Аще же случится въ тыя дни Господскии праздникъ и великого святаго, имущаго величание въ тыя дни разрѣшити повѣлеваеми есме на уставленная святыми отцы брашна и пития со воздержаниемъ, не обьядеющеся, ни упивающеся, якоже не вѣдящии Бога языци, скотски живущии, брегуще крѣпко заповѣдь, глаголющую: блюдите, да некогда отягчаютъ сердца ваша обьядениемъ и пианствомъ и печальми житеискими. Оно же паки не достоино ли слезамъ, еже нѣцыи безъ разсужения дѣютъ, которыи обрекаются не ясти мясъ в понедѣльникъ, бытто спасения ради большаго, а на винопития сѣдятъ весь день, въ тыя дни ищутъ гдѣ братчина, гдѣ мирование, и упиваются до пианства и безчинствуютъ всякимъ безчиниемъ, есть же, коли и безъ брани не отъидутъ оттудѣ, имже бы азъ думалъ отгрѣбатися всякаго пития наипаче въ тыя дни; за неже винопитие лишнее всякому злу виновно есть: и брани и свары и убииство и всяко богомерзко блужение отъ него же происходитъ, яже вся сквернятъ насъ; а въ мясоядении ничтоже таково случается, всяко создание Божие добро и ни едино отметно, со благодарениемъ приемлемо; освящаетбося словомъ Божиимъ и молитвою, глаголетъ таиноучитель. Аще убо по истинѣ христианстѣи, а не по лицемѣрию июдеискому, отгребаемся отъ мясоядении въ тыя дни, да отгребаемся и отъ вина и отъ сикеры всякия, повинующеся глаголющему учителю: <cit><quote xml:id="biblical-8">«не упиваитеся виномъ, въ немъ же есть блудъ»</quote></cit>; и другии великъ таиноучитель (глаголетъ): днесь винопиица, заутра водопиица. <cit><quote xml:id="biblical-9">«Котории же по вся дни невоздержно упиваются, якоже пианицы, царствие Божие не наслѣдствуютъ»</quote></cit>, глаголетъ святыи апостолъ Павелъ. Да есть ли видѣти ино что окаяннѣе зрѣние, паче человѣка христианина инока, священника, животъ вѣчныи имуща и страшнаго испытания ждуща, а частѣ пианъ ходитъ, весь червленъ и безчинно сланяяся и прегордна вѣщаваетъ? и что сего срамнѣе и зазорнѣе христианския вѣры непорочныя? увы, увы по истинѣ! Зане должны суще бывати свѣтъ, да яко и иныхъ просвѣщаемъ во тмѣ невѣрия ходящихъ и живущихъ, мы сами, по малоумию нашему, тма бываемъ и соблазнъ, не точию вѣрнымъ братиямъ нашимъ, но и безвѣрнымъ языкомъ, благовѣрнымъ убо образъ всякаго преступления и безчиния, а невѣрнымъ смѣхъ и поругание, зане, благовѣриемъ хвалящеся, не по заповѣдемъ благовѣрия, ни по уставомъ, жительствуемъ. Егоже ради боюся да не речется и о насъ реченное святымъ апостоломъ Павломъ о июдеехъ: Божие бо имя нами хулимо бываетъ во языцѣхъ, подобнѣ бо имъ преступаемъ и мы святыя заповѣди Бога нашего; Тому слава во вся вѣки, аминь.</p>
+      </body>
+      
+      <back> 
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1"> 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p>обѣщатися (?)</p>
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label> 
+               <p>произшелъ (?)</p>
+            </note>
+            <note target="#c3"> 
+               <label rend="super">в</label> 
+               <p>Иеффай</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Sal"><ref>(Пс 115, 8-9 / Sal 115,8-9)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Qo"><ref>(Еккл 5, 4 / Qo 5,4)</ref></bibl>
+            <bibl corresp="#biblical-3" type="At"><ref>(Деян 5, 3-5 / At 5,3-5)</ref></bibl>
+            <bibl corresp="#biblical-4" type="1Tm"><ref>(1 Тим 5, 11-12 / 1Tm 5,11-12)</ref></bibl>
+            <bibl corresp="#biblical-5" type="1Cor"><ref>(1 Кор 7, 27-28 / 1Cor 7,27-28)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Sal"><ref>(Пс 118, 106 / Sal 118,106)</ref></bibl>
+            <bibl corresp="#biblical-7" type="Sal"><ref>(Пс 118, 108 / Sal 118,108)</ref></bibl>
+            <bibl corresp="#biblical-8" type="Ef"><ref>(Еф 5, 18 / Ef 5,18)</ref></bibl>
+            <bibl corresp="#biblical-9" type="1Cor"><ref>(1 Кор 6, 10 / 1Cor 6,10)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

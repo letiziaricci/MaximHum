@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание неизвестному, сопровождающее одно из сочинений Максима Грека против астрологии [Poslanie neizvestnomu, soprovoždajuščee odno iz sočinenij Maksima Greka protiv astrologii]</title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Начало слову сему, еже о звездах и колесо счастие. Сицево послание к имярек на звездочетцы Максим [Načalo slovu semu, eže o svezdach i koleso sčastie. Sicevo poslanie k imjarek na zvezdočetcy Maksim] (Ivanov 1969: 124-125)</title>   <!-- 01. Inventario COLONNA G -->
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Приписка Максима Грека к его посланию против астрологии [Pripiska Maksima Greka k ego poslaniju protiv astrologii] (Sinicyna 1977: 254)</title>   <!-- 01. Inventario COLONNA G -->
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Послание неизвестному против астрологии (Poslanie neizvestnomu protiv astrologii) (Maksim Grek 2025)]</title>   <!-- 01. Inventario COLONNA G -->
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#RGIA-1622">Начало слово сему еже о звездах и колесо счастие. Сицево послание к имя рек на звездочетцы Максим (ms. RGIA, f. 834, op. 4, 1622, ff. 63v-64v)</title>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Missiva di accompagnamento a Ivanov 158</note>   <!-- 01. Inventario COLONNA C -->
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">159</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 49</bibl>              
+            </listBibl>
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="204">204</biblScope>, <biblScope unit="chapter">nr. III.5</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Posl. nr. 25]</biblScope> <note>Edizione in corso di stampa</note>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, собр. Румянцева 264</msName> 
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#87v">л. 87об. / f. 87v</locus>  
+                     <incipit xml:lang="cu-Cyrl">Известився аз от многых яже о твоем благоверии, вкупе и благородии, и о высоте, смиреномудрии, и кротости, и яко с радостию и желанием предивным възыскуеши всегда могущаа веселие духовно [...]</incipit>  
+                     <explicit xml:lang="cu-Cyrl">Приими убо сие с обычною твоею кротостию, мал убо поминок чернилом и бумагою, а не убо и силою разума, и наслаждаися в нем о господе и иных такожде плъзуи, да и сам мзду приимеши из рукы спасовы о плъзе иных.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="Р" />
+               <witness xml:id="А">  
+                  <ref target="lista-manoscritti.xml#RGIA-1622">РГИА, ф. 834, оп. 4, 1622</ref>, <locus type="foliation" target="#63v #64v">лл. 63об.-64об. / ff. 63v-64v</locus>  
+               </witness> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">Incerta <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="194" to="194">194</citedRange></bibl></ref></note></date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">  
+               <term>Corrispondenza privata</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#x">ignoto</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ПОСЛАНИЕ НЕИЗВЕСТНОМУ, СОПРОВОЖДАЮЩЕЕ ОДНО ИЗ СОЧИНЕНИЙ МАКСИМА ГРЕКА ПРОТИВ АСТРОЛОГИИ<anchor xml:id="v1" n="1" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Известився аз от многых яже о твоем благоверии, вкупе и благородии,<anchor xml:id="v2" n="2" rend="super"/> и<anchor xml:id="v3" n="3" rend="super"/> о высоте, смиреномудрии,<anchor xml:id="v4" n="4" rend="super"/> и кротости, и яко с радостию и желанием предивным възыскуеши всегда могущаа веселие духовно, вкупе и плъзу вложити в боголюбивую душю твоу, праведно судих послати к твоему благородию словцо, которое сложенное мною худоумным,<anchor xml:id="c1" n="а" rend="super"/><anchor xml:id="v5" n="5" rend="super"/> низлагающим убо прелесть звездочетскую и всякое влъшебное неистовьство бесы изобретенно, изъясняющим же приличное сущим въистинну православным христианом неложное Отцем преданное учительство же и мудрование, eго же крепце дръжатися до конца длъжни eсмe, спасение получити жeлающе. Приими убо сие с обычною твоею кротостию, мал убо поминок чернилом и бумагою, а не убо и силою разума, и наслаждаися в нем<anchor xml:id="v6" n="6" rend="super"/> о Господе и иных такожде плъзуй, да и сам мзду приимеши из рукы спасовы о плъзе иных.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1"> <!-- variante2 -->
+                  <witDetail wit="#А">В А заглавие: <hi rend="distinct">Начало слову сему еже о звездах и колесо счастие. Сицево послание к имя рек на звездочетцы Максим </hi>.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">вкупе и благоверии</hi>.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <witDetail wit="#А">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <rdg wit="#А">смиренномудрия</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <witDetail wit="#А">Глосса Р внесена в текст А.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <witDetail wit="#А">Доб. <hi rend="distinct">сам</hi>.</witDetail>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note corresp="#c1">
+               <term rend="super">а</term> <!-- lettera in apice -->
+               <p>Глосса на поле: <gloss>могущее насладити тебе истинным христоподобным учительством</gloss>.</p>
+            </note>
+         </noteGrp>
+         
+      </back>
+   </text>
+</TEI>

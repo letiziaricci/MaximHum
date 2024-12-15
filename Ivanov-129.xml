@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же инока Максима Грека съвѣт къ Събору православному на Исака жидовина, влхъва и чародѣя и прелестника [Togo že inoka Maksima Greka s''vět k'' S''boru pravoslavnomu na Isaka židovina, vlch''va i čaroděja i prelestnika]</title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-1894 #Iva-1969 #Sin-1977"><note type="editorial">Titoli concordi con il titolo editoriale in <ref><bibl>Maksim Grek 1894 <citedRange unit="page" from="42" to="45">42-45</citedRange></bibl> <bibl>Ivanov 1969 <citedRange unit="page" from="106" to="107">106-107</citedRange></bibl> <bibl>Sinicyna 1977  <citedRange unit="page" from="233" to="233">233</citedRange> <citedRange unit="page" from="242" to="242">242</citedRange></bibl></ref></note></title>   
+            
+           
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Ivanov">129</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 45</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 19</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">  
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="338" to="339">338–339</biblScope>, <biblScope unit="chapter">nr. 45</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1894"><name>Maksim Grek</name>, <date>1894</date></ref>: <biblScope unit="page" from="42" to="45">42–45</biblScope>, <biblScope unit="chapter">nr. 3</biblScope>
+               </bibl>
+               </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#MDA-42">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 173, МДА 42</msName> 
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#373r #374r">лл. 373-374 / ff. 373r-374r</locus> 
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима Грека съвѣт къ Събору православному на Исака жидовина, влхъва и чародѣя и прелестника</title> 
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Кроткое и тихое и еже къ злобамъ человѣчьскымъ терпѣливое зѣло потребно есть всѣм вкупѣ вѣрным, наипаче же священником Вышняго, по глаголющему божественому гласу: «Възмѣте иго мое на себе и учитеся от Мене, яко кротокъ есмь и смиренъ сердцемъ [...]</incipit> 
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Будите съпричастници древнимъ ревнителемъ, да и вы тѣхъ же имъ вѣнець и хвалениих получите въ грядущии вѣкъ о Христѣ Иисусѣ Господѣ нашемъ, Ему же слава въ безконечныя вѣкы съ безначялным Отцомъ и Святым Духом. Аминь.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms" /> 
+               
+               <witness xml:id="Х-Больш">  
+                  <ref target="lista-manoscritti.xml#Bols-285">(РГБ, ф. 37, Больш. 285)</ref>, <locus type="chapter">гл. 19 / cap. 19</locus>
+               </witness>
+           </listWit> 
+  
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#MG-1894 #Iko-1915">Intra 1525 <note type="editorial"><ref><bibl>Maksim Grek 1894 <citedRange unit="page" from="32" to="32">32</citedRange> <citedRange unit="chapter">n. 4</citedRange></bibl> <bibl>Ikonnikov 1915: <citedRange unit="page" from="204" to="204">204</citedRange></bibl></ref></note></date>
+            <date resp="lista-bibliografia.xml#Iva-1969">intra 1521 <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="107" to="107">107</citedRange></bibl></ref></note></date>
+            <date resp="lista-bibliografia.xml#MG-2014">intra 1548-1549 <note type="editorial"><ref><bibl>Maksim Grek 2014 <citedRange unit="page" from="410" to="410">410</citedRange></bibl></ref></note></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Съвѣт</term> 
+               </keywords>
+            <keywords scheme="#scope">   
+               <term>Polemica antigiudaica</term> 
+             </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#dubium" source="lista-bibliografia.xml#Zur-2022a">Dubium <note type="editorial"><ref><bibl>Žurova 2022a</bibl></ref></note></term>   
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+        
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><pb type="folio" n="л. 374 об." rend="label-margin-left"/> ТОГО ЖЕ ИНОКА МАКСИМА ГРЕКА СЪВѢТ КЪ СЪБОРУ ПРАВОСЛАВНОМУ НА ИСАКА ЖИДОВИНА, ВЛХЪВА И ЧАРОДѢЯ И ПРЕЛЕСТНИКА.<metamark function="texts-sequence" rend="45"/><anchor xml:id="c1" n="а" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Кроткое и тихое и еже къ злобамъ человѣчьскымъ терпѣливое зѣло потребно есть всѣм вкупѣ вѣрным, наипаче же священником Вышняго, по глаголющему божественому гласу: <cit><quote xml:id="biblical-1">«Възмѣте иго мое на себе и учитеся от Мене, яко кротокъ есмь и смиренъ сердцемъ»</quote></cit>; противу же пререкущих и противящихся благовѣрию и развратити ея словом же и дѣлом тщащихся и питомыя его въ свою ихъ прелесть прелагающих праведно есть и зѣло потребно нам въсприяти, юже по благовѣрию, похвалную божественую ревность всею душею, по глаголющему праведну: <cit><quote xml:id="biblical-2">«Не ненавидящаа ли Тя, Господи, възненавидѣхъ и о вразѣх Твоих истаах, съвершеною ненавистию възненавидѣх ихъ: въ врагы бышя ми»</quote></cit>. Кто кротчаишыи боговидца Моисеа, но егда видѣ люди беззаконовавших и Вышняго прогнѣвавших своим ихъ безу<metamark function="end-page" rend="//"/><pb type="folio" n="Л. 375" rend="label-margin-right"/>миемъ, кротость свою сложивъ по смотрению, не пощадѣ старця и юношу, старицу и юну, но без милости повелѣ ревнителем закону, левитяном, убивати оружиемъ вся по ряду, аще и сродникы суть, аще стары, аще млады, понеже забывше<anchor xml:id="c2" n="б" rend="super"/> многых и великых Божиихъ благотворении и чюдесъ, къ идолослужению уклонилися. Такожде да възлюбим ревность, яже по Бозѣ Финеесову похвальную, ею же копиемъ проболь Замвриа, князя израилтянина и мадианитянину на самомъ гнусодѣании, яко же есть писано: «И ста Финеесъ и угоди, и преста сѣчь, сирѣчь еже по Божию гнѣву истребление людеи иудеискых, егда въ единъ день падоша 23 тысяща единого<anchor xml:id="c3" n="в" rend="super"/> ради грѣха блуднаго. Коль чюдна убо ревность та оного чюднаго мужа; не точию бо Божию ярость велию и праведну преставила от языка израилтянина, но еще <cit><quote xml:id="biblical-3">«и вмѣнися ему, рече, въ правду въ родѣ и род»</quote></cit>. Оставляю глаголати яже о пречюдномъ Илии и Елисѣи, ели<metamark function="end-page" rend="//"/><pb type="folio" n="л. 375 об." rend="label-margin-right"/>ка они, по ревности Божие, съдѣашя о славѣ Божии и спасении языка иудеискаго.</p>
+         <p>Исправление же блаженѣишаго архиереа Лва Катанскаго кто не вѣсть, паче же кто, слышавъ, не ужаснется иже о сквръном Илиодорѣ влъхвѣ? На время немало длъготерпѣвъ всякым дѣлом, смущающим священную паству Спаса Христа и поругающемся еи, конець уразумѣвъ его неисцѣлными недугующа, ктому не стерпѣ его. Илиодору бо, въ время вечерних пѣснеи и влъхвовании сатанинскыми пресмутившу божественыя пѣсни, божественою ревностию разжегся святитель Божии Левъ пречюдныи, изъ олтаря текъ съ тщаниемъ, и омофором своимъ съ дръзновениемъ шею Илиодорову обьемъ, привлекъ его даже до тръгу и ту огню велику възгнѣщшуся по его велѣнию, привлече его, влѣзлъ с нимъ во огнь, и пребысть тамо божественыи архиереи, предръжа его омофором, дондеже сгорѣлъ весь скверныи онъ бесовом ученикъ и служитель. <metamark function="end-page" rend="//"/><pb type="folio" n="л. 376" rend="label-margin-right"/> Святитель же Вышняго и велемудреныи поборникъ благовѣрию, Левъ изыде невредимъ, ниже власу единому его огнем опалѣвшу.</p>
+         <p>Тѣх и вы, якоже ихъ сътаинникы и тѣхъ же имъ таинъствъ строителе, подражающе, тую же имъ ревность и подвигъ за благочестие въсприимите вседушно и смущающая е, иже аще ни будуть, не посрамляитеся, ниже обинуитеся, но апостольскы противитеся, единомудрено и единодушно, съ приличным дръзновениемъ святителемъ Божиимъ православным, и смутившаго убо паству Спасову предадите внѣшнѣи власти в казнь, да и ины накажутся не приложити имъ смущати овця Спасова, ни приежжати в землю нашу православную. Кое бо съобщение вѣрному съ безвѣрником? Они распяли, Ему же нынѣ мы покланяемся, въ Него же и вѣровахом и спасаемся. Они же беспрестани кленуть, Его же мы день и нощь благословляем и славимъ съ Отцемъ и Святым Духомъ. Съблюдите землю нашу чисту и невредну от та<metamark function="end-page" rend="//"/><pb type="folio" n="л. 376 об." rend="label-margin-right"/>ковых бѣшеных псовъ. Будите съпричастници древнимъ ревнителемъ, да и вы тѣхъ же имъ вѣнець и хвалениих получите въ грядущии вѣкъ о Христѣ Иисусѣ<anchor xml:id="c4" n="г" rend="super"/> Господѣ нашемъ, Ему же слава въ безконечныя вѣкы съ безначялным Отцомъ и Святым Духом. Аминь.</p>
+         </body>
+      
+      <back> 
+         
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            
+            <note target="#c1"> 
+               <label rend="super">а</label> 
+               <p>Буквенное обозначение кин. номера главы на поле.</p>
+            </note>
+            <note target="#c2"> 
+               <label rend="super">б</label> 
+               <p>В ркп. испр. из <hi rend="distinct">забывши</hi> почерком Р.</p>
+            </note>
+            <note target="#c3"> 
+               <label rend="super">в</label> 
+               <p>В ркп. <hi rend="distinct">г</hi> вписана над строкой почерком Р.</p>
+            </note>
+            <note target="#c4"> 
+               <label rend="super">г</label> 
+               <p>В ркп. написание <hi rend="distinct">iисѣ</hi> без правки.</p>
+            </note>
+            
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Mt"><ref>(Мф 11,29 / Mt 11,29)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Sal"><ref>(Пс 138,21 / Sal 138,21)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Sal"><ref>(Пс 105,30 / Sal 105,30)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

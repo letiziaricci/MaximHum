@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Статья Максима Гр. о грамматике по рукописи Москов. Румянц. М. № 264 (Опис. Восток.) [Stat'ja Maksima Gr. o grammatike po rukopisi Moskov. Rumjanc. M. nr. 264 (Opis. Vostok.)]</title>  
+            <title type="alt" xml:lang="cu-Cyrl" >О грамматике [O grammatike] <ref target="lista-bibliografia.xml#Ter-1834 #Iva-1969">(Tereščenko 1834: 247-248; Ivanov 1969: 91-92)</ref></title>   
+            <title type="alt" xml:lang="cu-Cyrl">Что такое грамматика [Čto takoe grammatika] <ref target="lista-bibliografia.xml#Jag-1895">(Jagić 1895: 594-595 [Jagić 1896: 306-307])</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl" >Сочинение Максима Грека о грамматике [Sočinenie Maksima Greka o grammatike] <ref target="lista-bibliografia.xml#Sin-1977">(Sinicyna 1977: 256)</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl">[Послание неизвестному о грамматике (Poslanie neizvestnomu o grammatike) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title>   
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">114</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 72</bibl>              
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bed-1913"><name>Bedržickij</name>, <date>1913</date></ref>: <biblScope unit="page" from="485" to="487">485-487</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Ter-1834"><name>Tereščenko</name>, <date>1834</date></ref>: <biblScope unit="page" from="247" to="248">247-248</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Jag-1895"><name>Jagić</name>, <date>1895</date></ref>: <biblScope unit="page" from="594" to="595">594-595</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">[Posl. nr. 26]</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, Рум. 264</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#132r #133v">лл. 132-133об. / ff. 132r-133v</locus>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Граматикиа есть господине имярек учение зѣло хытро у еллинех то бо есть начяло входа ихъ къ философии и сего ради немочно есть малыми речми и на мало время разумѣти силу ея [...]</incipit> 
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">[...] а живете единомыслиемъ въ любви и смирении и послушании меж себе, и Христосъ с вами живет и благословляет вся дѣла и замышлениа вашя.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <!-- OPZIONALE: bibliografia secondaria per opere dubium -->
+            <listBibl type="secondary-bibliography">
+               <bibl xml:id="Bed-1913">
+                  <ref corresp="lista-bibliografia.xml#Bed-1913"><name>Bedržickij</name>, <date>1913</date></ref>: <biblScope unit="page" from="482" to="485">482-485</biblScope>
+               </bibl>  
+            </listBibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Riflessione linguistica</term> 
+               <term>Disciplina della grammatica</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>
+               <term target="#dubium" source="#Bed-1913">Dubium (Bedržickij 1913: 482-485)</term>  
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="list.xml#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#x">Un amico</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      
+      <body>
+         <p>Граматикиа есть господине имярек, учение зѣло хытро у еллинехъ то бо есть начяло входа ихъ къ философии и сего ради немочно есть малыми речми и на мало время разумѣти силу ея. но надобѣть седѣти у учителя добраго годъ равенъ упразнившемуся отъ всѣхъ житеискихъ плищъ и печалехъ любити трезвение всегда и въдержати отъ всякого покоя и угожения грътаннаго и сна и випитиа и учение то у нас у грековъ хытро зѣло а не и у вас. занеж у нас философи были изначяла велики и премудри и составили себѣ вѣщание зѣло преухыщрено и преукрашено пословицами неудобь разумѣ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 132 об."/>ваемыми намъ грекомъ. сего ради требуемъ мы грекы длъго сѣдѣти у учителя добраго и учитися со многымъ трудомъ и биениемъ доколѣ внидетъ въ умъ нашъ: но понеже жаловая просилъ еси у мене сказати тебѣ писмены то есть сила грамматикииска, реку тебѣ въкратцѣ не силу ея всю. сие бо не мощно мнѣ сказати тебѣ ни тебѣ во имѣ въмѣстити но скажю тебѣ ни отъ чясти что есть граматикиа. граматикиа есть сказание и явление преиспещреныхъ пословицъ философъскаго вѣщаниа и бесѣды многоразличныа. и сказуетъ ученику чинъ и образъ осмыхъ частеи слова. сирѣчь како оповед то разумѣти и расужати и правити всякого слова. слово есть яко се: Богъ по благодати своеи сотвори небо и вся видима и невидима сего слова части сутъ. и радѣляеся на 8 частеи. перваа часть его есть имя. втораа рѣчь. третиа причастие. четврътаа члѣнь пятаа вмѣсто имень. шестаа предлогъ. седмаа прирѣчие. осмаа съузъ. имя есть яко се Богъ аггелъ, человѣкъ Петръ. Павелъ. Мариа. Феодоръ. сълньце. небо море. земля. гора. и симъ подобнаа раздѣляетъ же имя. на мужеско. и женьско. и среднее. и му <metamark function="end-page" rend="//"/><pb type="folio" n="л. 133"/>жеско есть Петръ. Павелъ. Матфеи. женскоже есть Мариа. Стефаниаа. Феодора. земля. гора срѣднее есть сълньце. небо. море. древо симъ подобнаа. рѣчь. есть. вижу. слышу. обоняю. глаголю хожу и ина елика есть дѣаниа тѣлеснаа. причастие есть, якоже се. видя. слыша. глаголя и ходя творя и симъ подобнаа. члѣнь есть, якоже се. иже егоже. емуже ихже. имже, яже, ея же, еиже юже. еже. вмѣсто имени. якоже се. сел. сего. сему. сии. сихъ симъ. тъ. тою. тому тии. тѣхъ тѣмъ. предлогъ якоже се. по. къ. съ. про. низъ. прирѣчие якоже. се. добрѣ. премудрѣ. сианѣ. прекраснѣ. вкупѣ. верхъ. низъ. внутрь. внѣ. вонъ. и симъ подобнаа. съуж есть. бо. убо. но. поне: понеже. и. занеже, но убо, и симъ подобнаа: Сихъ. 8. частеи слова чинъ и образъ и како ме собою съвокупляются и съчиняться учить граматикиа ученика грека, и ты убо господине имярек аще истинною желаешъ доити конца премудраго сего учениа философъскаго, поиди сиди у мене годъ другои покинувси вся <metamark function="end-page" rend="//"/><pb type="folio" n="л. 133 об."/> градскыя суеты и житеиска попечениа. и будеши пребогаты купець, а учтая послушанъ и рожьшую тя не оскоръбляи. и раздѣлениа не мыслите. боящеся глаголющаго божественаго неложнаго гласа. и всякъ градъ и храмина раздѣливы ся на ся, нестанетъ. еже есть разсыпается и запустѣетъ. а живете единомыслиемъ въ любви и смирении и послушании меж себе, и Христосъ с вами живетъ и благословляетъ вся дѣла и замыления вашя: –</p>
+      </body>
+      
+   </text>
+</TEI>

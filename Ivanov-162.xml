@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ivanov-162">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Приписка в конце сочинения в Румянцевской редакции [Pripiska v konce sočinenija v Rumjancevskoj redakcii]</title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Сопроводительное письмо к предшествующему посланию <idno type="id">(Ivanov 161)</idno> [Soprovoditel'noe pis'mo k predšestvujuščemu poslaniju] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="125" to="126">125-126</citedRange></bibl></ref></note></title>   
+          
+                     
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Postilla di accompagnamento a Ivanov 157 (inedito) (diversa redazione di Ivanov 161)</note>
+         </notesStmt>
+         
+         <sourceDesc>
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Ivanov">162</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 7</bibl>                  
+             </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek </name>, <date>2014</date></ref>: <biblScope unit="page" from="307">307</biblScope>, <biblScope unit="chapter">nr. 37-b</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Rzi-1935-1936"><name>Ržiga </name>, <date>1935-1936</date></ref>: <biblScope unit="page" from="91" to="92">91-92</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Iva-1969"><name>Ivanov</name>, <date>1969</date></ref>: <biblScope unit="page" from="125" to="126">125-126</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264">
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, Рум. 264</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#30v">л. 30об. / f. 30v</locus>  
+                    <incipit xml:lang="cu-Cyrl">Азъ убо от съвершеныа любви духовныа движимъ писахъ сия и послахъ к тебѣ без боязни: въ любви бо нѣсть страха, глаголеть бо Анергес.</incipit>  
+                     <explicit xml:lang="cu-Cyrl">Аще ли же ни, то убо мнѣ скорбѣти зѣло и Богу молитися не престану, да устроитъ полезна.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/> 
+            </listWit> 
+                 
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>Intra 1525</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+                  
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+         
+        </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+            
+      <body>
+         <p>
+            Азъ убо от съвершеныа любви духовныа движимъ писахъ сия и послахъ к тебѣ без боязни: въ любви бо нѣсть страха, глаголеть бо Анергес. Ты же, о любезна ми главо, аще убо послушаешъ добраго съвѣта друга своего и отступишь таковаго неподобиа и Спаса прославиши, и друга своего възвеселиши духовнѣ. Аще ли же ни, то убо мнѣ скорбѣти зѣло и Богу молитися не престану, да устроитъ полезна.
+         </p>
+          </body>
+
+   </text>
+</TEI>

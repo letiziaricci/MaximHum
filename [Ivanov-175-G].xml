@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="grc">Ἔπη ἡρωελεγιακὰ προτρεπτικὰ εἰς μετάνοιαν</title>   <!-- 01. Inventario COLONNA F -->
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Originale greco in versi di Ivanov 175</note>   
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">[175-G]</idno>
+            </bibl> 
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografica.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="201" to="203">201–203</biblScope>, <biblScope unit="chapter">nr. 16-a</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografica.xml#Bus-1993"><name>Buškovič</name>, <date>1993</date></ref>: <biblScope unit="page" from="218" to="220">218-220</biblScope> [greco]
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografica.xml#Sev-1997"><name>Ševčenko</name>, <date>1997</date></ref>: <biblScope unit="page" from="10" to="16">10-16</biblScope> [greco]
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Vind-202"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>ÖN, Vind. Ph. Gr. 202</msName>  
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#8r #9v">лл. 8-9об. / ff. 8r-9v</locus>  
+                     <title xml:lang="grc">Ἔπη ἡρωελεγιακὰ προτρεπτικὰ εἰς μετάνοιαν</title>  
+                     <incipit xml:lang="grc">Μὴ ἀμελῶς, ψυχή, διακείμεθα μηδ’ ἀμερίμνως / μηδ’ ἅτ ‘ ἄπειρα φρενῶν νήπια παιζώμεθα, / ἀρκοῦντ’ ἐς φυλακὴν τελέθειν δοκέοντες ἑαυτῶν / τόνδ’ ἄβατον χῶρον ποσσὶν ἐρασσιγάμων.</incipit> 
+                     <explicit xml:lang="grc">πίστις τάρβος ἔτικτε, τὸ δ’ ἐργασίην αὖ ἐφετμῶν, / ἧς δι’ ἑνοῦται νοῦς τῇ θεϊκῇ ἀγάπῃ˙ / ἧς ἐπιβᾶσα ταπεινὰ φρόνει, κόνιν ἴσθι σεαυτήν, / ὥς κεν ἀεὶ τέρπῃ τοῖς θεϊκοῖς ὀάροις.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> 
+               <witness corresp="#basic-witness" ana="#reference-ms"/> 
+            </listWit> 
+    
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta, sicuramente antecedente a Ivanov 175]</date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="grc">Greco</language>
+         </langUsage>
+     
+         <textClass>
+            <keywords scheme="#attribution">
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+
+   <text xml:lang="grc">
+      <front>
+         <p>Ἔπη ἡρωελεγιακὰ προτρεπτικὰ εἰς μετάνοιαν</p>  
+      </front>
+      
+      <body>
+         <lg type="free">
+            <l>Μὴ ἀμελῶς, ψυχή, διακείμεθα μηδ’ ἀμερίμνως</l>
+            <l>μηδ’ ἅτ ‘ ἄπειρα φρενῶν νήπια παιζώμεθα,</l>
+            <l>ἀρκοῦντ’ ἐς φυλακὴν τελέθειν δοκέοντες ἑαυτῶν</l>
+            <l>τόνδ’ ἄβατον χῶρον ποσσὶν ἐρασσιγάμων.</l>
+            <l>οὐδὲ γὰρ Αἴγυπτον Φαραώ τε φυγοῦσι τὸ πριν</l>
+            <l>δήνεσιν ὑψίστου Μωσέϊ θ’ ἡγεμόνι</l>
+            <l>ἤρκεσ’ ἐς εὐσεβίην τὸ ἀοικήτῳ ἐνὶ χώρῳ</l>
+            <l>οἰκῆσαι δεκάδας τέτταρας εἰς ἐτέων,</l>
+            <l>πίστιν ἐπεὶ θεῷ οὐκ εὐγνώμονα τῷ ἀνιηρῶν</l>
+            <l>τήρησαν κείνους ῥυσαμένῳ μυρίων.</l>
+            <l>οὐχὶ τόπων, ψυχή, ὁ ἄναξ θεραπεύετ’ ἀμοιβαῖς</l>
+            <l>οὔτε μεταμφιάσει εὐτελέων ῥακίων˙</l>
+            <l>ὧν τὸ μὲν ἡσυχίης μαστεύεται εἵνεκα πολλῆς,</l>
+            <l>εὐτελίης δὲ τὸ δ’ αὖ οὕνεκεν ἐκλέγεται.</l>
+            <l>εἰ δέ τις ἐν τοῖσδ’ ὢν περιπείρεται αὖθι θορύβοις,</l>
+            <l>αὐτοκύων ὤφθη, οὗ ἐμέτοιο ἐρῶν˙</l>
+            <l>πένθους γὰρ, ψυχή, νεκροῦ τε βίου ὑπόδειγμα</l>
+            <l>τοὔξωθεν τελέθει τοῦτο ῥάκος τὸ μέλαν,</l>
+            <l>εἰδέναι ὄντας ἀεὶ νεκροὺς ἀναπεῖθον ἑαυτοὺς</l>
+            <l>τῷδ’ ἐν ἑκόντι βίῳ τοῦτ’ ἐπιλεξαμένους,</l>
+            <l>ἤτοι ὁλοψύχως στυγέειν ἀεὶ ἡδυπάθειαν</l>
+            <l>παντοῖαν σαρκὸς καὶ βιότου θορύβους,</l>
+            <l>ἀκτεάνως δ’ ὁσίως τε βιοῦν σφετέροις καμάτοισι,</l>
+            <l>ἄσπετον οἰομένους τὴν πενίην ἄφενον.</l>
+            <l>εἰ δὲ πάλιν κτεάνοις δόξῃ τε μέθῃ τε γέλωσιν,</l>
+            <l>οἷσι συνέζευκται πᾶς ἀθέμιτος ἔρως,</l>
+            <l>σφᾶς αὐτοὺς ἀφρόνως περιπείρομεν, οὔτοι ἀπεικὸς</l>
+            <l>εἰπέμεν, ὡς διπλῶν τευξόμεθα βασάνων,</l>
+            <l>ὡς ἐθελοντὶ καὶ ἐν γνώσει ξυνθήκας ἑαυτῶν</l>
+            <l>ψευσάμενοι Χριστῷ, οὗ τί χερειότερον;</l>
+            <l>κρεῖσσον γάρ, φησί, μὴ εὐξάμενον ἀποτίσαι</l>
+            <l>ἤπερ ψεύσασθαι τῷ θεῷ εὐξάμενον˙</l>
+            <l>“τοὺς τὸ ψεῦδος ἅπαντας ὁλοθρεύσεις λαλέοντας,”</l>
+            <l>ὡσαύτως κράζει θεῖος ὁ τοῦδε πατήρ.</l>
+            <l>οὐχὶ τόπων τοίνυν οὔθ’ ἱματίων μεταμείψει,</l>
+            <l>ὡς προέφην, χαίρει Χριστὸς ὁ παμμεδέων,</l>
+            <l>ἀλλὰ βίου σεμνοῦ ἀρετῆς θ’ ἁπάσης ἀναλήψει,</l>
+            <l>πίστει ἐπ’ εἰλικρινεῖ ἔμπεδ’ ἐνιδρυμένων.</l>
+            <l>θεί’ ἐπεὶ οὖν χάριτι ξυνεργηθεῖσα πέφευγας</l>
+            <l>τὰς τῆς αἰσθητῆς ἄρκυας Ἠμαθίης,</l>
+            <l>σπεῦσον ὅλῃ δυνάμει καὶ τὸν ταύτης κρατέοντα</l>
+            <l>καί σοι ἀεὶ μανικῶς σφόδρ’ ἐπιτιθέμενον</l>
+            <l>ἐκφυγέμεν, πίστει εὐγνώμονι τῇ πρὸς ἄνακτα</l>
+            <l>τῷ θείῳ τε φόβῳ εὖ καταφραττομένη.</l>
+            <l>μηδ’ ἀπόκαμνε διδράσκουσ’ αὐτόν, μέχρι κραταιᾷ</l>
+            <l>τῇ τοῦ ὑψίστου δεξιᾷ ἐν βαράθρῳ</l>
+            <l>αὐτὸν ἴδοις φλογερῷ ποντούμενον οἷς ἅμα πᾶσι</l>
+            <l>ἅρμασι καὶ κρατεροῖς ἀγχεμάχοις θ᾽ ὁπλίταις,</l>
+            <l>σαυτὴν γνῷς νεφέλη δὲ καλυπτομένην Παρακλήτου,</l> 
+            <l>τὸν κατὰ σοῦ σφοδρῶς πάντοτ’ ἐγειρόμενον</l>
+            <l>καύσων’ ἀϊστώσῃ σφετέρων ἐχθρῶν ὑπ᾽ ἀσάρκων</l>
+            <l>ἐννοίαις φλογεραῖς αἰσχροτάτων ἱμέρων,</l>
+            <l>καὶ στύλῳ οὐ πυρός, ἀϊδίως ἀλλ’ αὐγάζοντος</l>
+            <l>φωτὸς ἰθυνομένην γῆν πρὸς ἐπαγγελίης.</l>
+            <l>οὐχ’ ἣν Ἀβραμίδαισιν ὁ Ναυῆ δάσσατ’ Ἰησοῦς</l>
+            <l>ἀλλ’ ἣν ὁ κτίσιος πρωτότοκος ἁπάσης</l>
+            <l>κάλλει ὁ ὡραῖος μερόπων υἷας παρὰ πάντας</l>
+            <l>ἐκτεχθεὶς ὁ κόρης παρθενικῆς ἁγίας</l>
+            <l>ἀψευδὴς θεὸς ἄμμιν ὑπέσχετο Χριστὸς Ἰησοῦς,</l>
+            <l>ἣν εἰσῆλθ’ αὐτὸς πρῶτος ἑλὼν θάνατον.</l> 
+            <l>νῆφ’ ἄρ’ ἀεὶ ψυχή, ὁ διώκων γάρ σε νοητὸς</l>
+            <l>οὐ λήγει κακά σοι βυσσοδομῶν Φαραώ˙</l>
+            <l>μηδ’ ἔλπιζε, φίλη, ἀνακωχὴν τῶν παρ’ ἐκείνου</l>
+            <l>σοῦ κάτα τευχομένων παντοδαπῶν ἐνέδρων˙</l>
+            <l>βάσκανος ἔστι φύσει γὰρ ἠδ’ ἰταμός, οὐδὲ κότοιο</l>
+            <l>λήγει, πρὶν ῥίψῃ σ’ εἰς φλογαρὰς βασάνους˙</l>
+            <l>μηδ’ ἀναδυομένῳ πίστευε, τὸ τηνίκα γάρ σοι</l> 
+            <l>μᾶλλον ἐνεδρεύει σφόδρα κακεντρεχέως˙</l>
+            <l>τῇ τοιῇδ’ ἐνεδρείᾳ σφόδρα πείσαι σ’ ὁ ἀλάστωρ</l>
+            <l>ἐνδοῦναι πολλῆς σῆς ἱερᾶς φυλακῆς,</l>
+            <l>τόφρα σ’ ἀνωΐστως πλήξῃ, ῥαθυμοῦσαν ἐφευρών,</l>
+            <l>ὧν πολλῶν ἑνί τῳ ψυχολέθρων βελέων,</l>
+            <l>ἢ τῷ τῆς ὀλοῆς οἰήσιος ἅμματι εἴρξῃ</l>
+            <l>τῆς ἐπὶ τὰς κρείττους τῶν ἀρετῶν προκοπῆς.</l>
+            <l>νοῦς γὰρ ἐὼν σφόδρ’ εὐφυὴς κακὰ ἐς τὸ τυρεύειν,</l>
+            <l>οἶδεν ὄνειαρ ὅσον, νήφομεν εὖτ’ ἀκριβῶς,</l>
+            <l>ὧν ἡμῖν ἐπάγει ἐκ πειρασμῶν δρεπόμεσθα</l>
+            <l>τῇ θεί’ ἐξ ὕψους ῥωννύμενοι χάριτι.</l>
+            <l>εἰ γὰρ νήφομεν, ἡ τῶν πειρασμῶν ἐπαγωγὴ</l>
+            <l>πρόξενος ἔσθ’ ἡμῖν λαμπροτάτων στεφάνων˙</l>
+            <l>ὡς καὶ ἀεθλεύοντι καλῶς τὸ πρὸς ἀντιπαλαιστὰς</l>
+            <l>ἀντικαθίστασθαι εἰδότας εὖ ἀθλέειν.</l>
+            <l>εἰ οὖν ξυμμαχίῃ τοῦ σοῦ, ψυχή, σαοτῆρος</l>
+            <l>τὼ χεῖρ’ ἐκφύγῃς τοῦ ὀλοοῦ Φαραὼ</l>
+            <l>τοῦτ’ ἐρυθρὸν βυθὸν φλογερῶν οἴστρων διαβᾶσα</l>
+            <l>ξηρᾶς, οὐ δι’ ὑγρᾶς, ὡς τὸ θεοπρόπιον</l>
+            <l>μυεῖ ξυμβολικῶς ἄμμ’, εὐτελέος τε διαίτης,</l>
+            <l>πεζῇ τ’, οὐχὶ θρασεῖ πώλῳ ἐφεζομένη,</l>
+            <l>ἤτοι ἀεὶ φαύλην καὶ μηδενὸς οὖσαν ἑαυτὴν</l>
+            <l>ἀξίαν οἰνομένη ἐν φρεσὶν οὐ στόματι,</l>
+            <l>σκηνώσεις παρὰ πρῶνα ὄρους Σιναὶν ἐν ἐρήμῳ,</l> 
+            <l>ἤτοι ἐνορμισθῇς τῷ ἱερῷ λιμένι</l>
+            <l>τῆς πολυυμνήτου καὶ μυριπνόου ἀπαθείης</l>
+            <l>ἧς τὰ μάλιστα ἐρᾷ Πνεῦμα τὸ πανάγιον.</l>
+            <l>φράζεο μὴ ἐπίσης λαῷ τῷ ἀγνώμονι κείνῳ</l>
+            <l>καὶ σὺ τάλαινα κόρῳ καὶ μέθῃ οὐλομένῃ</l>
+            <l>ὀρχηθμοῖς ἐκδῷς ἐκβακχευθεῖσα σεαυτήν˙</l>
+            <l>μὴ σὺ τὰ τιμαλφῆ σεμνά τε πάντα τὰ σὰ</l>
+            <l>γαστρὶ σῇ ἐγχωνεύσῃς, ἶσα θεῷ τε λατρεύσῃς</l>
+            <l>τῇδε, καὶ ὡς κεῖνοι μοσχαρίῳ τὸ πάλαι˙</l>
+            <l>μὴ σύ γε τῶν μετέπειτ’ ἀγαθῶν θείων ἀποτύχῃς,</l>
+            <l>ὡς κἀκεῖνοι γῆς τῆς ἐπαγγελίαις,</l>
+            <l>ἐς βασάνους τε ῥιφῇς αἰκιζούσας ἀπεράντως</l>
+            <l>τῶν πρὸ νόμου πάντων χείρονα δυσσεβέων˙</l>
+            <l>ἀλλ᾽ εἰ ἀληθείῃ Χριστὸν φιλέεις σὸν ἄνακτα,</l> 
+            <l>τὸν διὰ σ’ ἐν σταυρῷ γευσάμενον θανάτου,</l>
+            <l>σπεῦσον ὅλῃ δυνάμει τὸν ἐκείνου θεῖον ἔρωτα</l>
+            <l>ἐγκρύψαι τῇ σῇ ἐνδυκέως κραδίῃ˙</l>
+            <l>τοῦ δ’ ἑτέρως σε τυχεῖν γε ἀμήχανον, ἢν μὴ ἁπάσας</l>
+            <l>στυγήσῃς τέλεον σαρκὸς ἑῆς ἐφέσεις˙</l>
+            <l>τὰς δ’ αὖτε μισῆσαι ἀμήχανον, ἢν μὴ ἐρείσῃς</l>
+            <l>τὸν θεῖον ταῖς σαῖς ἐν πραπίδεσσι φόβον˙</l>
+            <l>τόνδε δ’ αὖ οὐ κτίσῃ, ἢν μὴ ξύμπαντ’ ἀφ’ ἑαυτῆς</l>
+            <l>ῥίψῃς δισταγμὸν καὶ τὸ δοκεῖν φρονέειν,</l>
+            <l>ὡς ἁπλοῦν δὲ βρέφος τοῦ σοῦ κατόπιν βασιλῆος</l>
+            <l>βαίνῃς, τοῖς αὐτοῦ νεύμασι πειθομένη.</l>
+            <l>ὡς ἀγάπη πλήρωμα νόμου πέφυκε ξύμπαντος,</l>
+            <l>τὼς πίστις κρηπὶς τῶν ἀρετῶν ἁπασῶν˙</l>
+            <l>πίστις τάρβος ἔτικτε, τὸ δ’ ἐργασίην αὖ ἐφετμῶν,</l>
+            <l>ἧς δι’ ἑνοῦται νοῦς τῇ θεϊκῇ ἀγάπῃ˙</l>
+            <l>ἧς ἐπιβᾶσα ταπεινὰ φρόνει, κόνιν ἴσθι σεαυτήν,</l>
+            <l>ὥς κεν ἀεὶ τέρπῃ τοῖς θεϊκοῖς ὀάροις.</l>
+         </lg>
+      </body>
+
+   </text>
+</TEI>

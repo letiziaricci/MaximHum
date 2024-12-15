@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание къ юношѣ Михаилу Васильевичу, сына князя Петра Шуискаго, о Христофорѣ [Poslanie k'' junošě Michailu Vasil'eviču, syna knjazja Petra Šuiskago, o Christoforě]</title>
+            
+            <title type="alt" xml:lang="cu-Cyrl">Titolo concorde con il titolo editoriale in <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 183</ref></title>
+            <title type="alt" xml:lang="cu-Cyrl"> [Послание Михаилу Васильевичу Шуйскому о Христофоре (Poslanie Michailu Vasil'eviču Šujskomu o Christofore) <ref target="lista-bibliografia.xml#MG-2025">(Maksim Grek 2025)</ref>]</title>  
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">310</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografica.xml#MG-1860"><name>Maksim Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="420" to="421">420-421</biblScope>, <biblScope unit="chapter">nr. 38</biblScope>
+            </bibl> 
+            
+            <listBibl type="other-editions"> 
+                   <bibl>
+                      <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Posl. nr. 18</biblScope>
+                  </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Troic-200"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 304, Троиц. 200</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#358r">л. 358 / f. 358r</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">[О Христофорѣ, ms. RGB, f. 304, Troic. 200, ff. ff. 357r-358r]</title>   
+                     <rubric type="epistolary-formula">Благородному юноши Михаилу Васильевичю Петровичя нищии богомолець вашь Максимъ Святыя горы много, много челомъ до земли,</rubric>
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">даи бо вы государи здоровы были на многия лѣта, милостию божиею, и самъ живъ, и во всякихъ немощехъ, грѣхомъ моимъ, по реченному, многи раны грѣшному.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">[...] да божиимъ непостижнымъ судомъ просвѣтився и позналъ таиньство благовѣриа, мученъ бысть и преимоновася Христофоръ, еже толкуется христоносець, или Христомъ носимъ. Репревъ бо бѣ имя ему дотолѣ.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>         
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>1542 <ref target="lista-bibliografia.xml#Sin-1977">(Sinicyna 1977: 155)</ref></date>   
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   
+               <term>[Послание]</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>San Cristoforo Cinocefalo: vita ed esegesi del nome</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->        
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ПОСЛАНИЕ КЪ ЮНОШѢ МИХАИЛУ ВАСИЛЬЕВИЧУ, СЫНУ КНЯЗЯ ПЕТРА ШУИСКАГО, О ХРИСТОФОРѢ</p>  
+      </front>
+      
+      <body>
+         <p>Благородному юноши Михаилу Васильевичю Петровичя нищии богомолець вашь Максимъ Святыя горы много, много челомъ до земли, даи бо вы государи здоровы были на многия лѣта, милостию Божиею, и самъ живъ, а во всякихъ немощехъ, грѣхомъ моимъ, по реченному, многи раны грѣшному. А что спрашиваешь о Христофорѣ мученицѣ, вѣдомо да ти есть, что въ дивиихъ есть таковъ языкъ, кинокефали зовомъ, рекше песиа главы, по еллиньски, еже есть по гречески; да Божиимъ непостижнымъ судомъ просвѣтився и позналъ таиньство благовѣриа, мученъ бысть и преименовася Христофоръ, еже толкуется христоносець, или Христомъ носимъ. Репревъ бо бѣ имя ему дотолѣ.</p>
+      </body>
+
+   </text>
+</TEI>

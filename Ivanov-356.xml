@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Слово о хранении ума [Slovo o chranenii uma]</title>   <!-- 01. Inventario COLONNA F -->
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881: <citedRange unit="page" from="495" to="495">495</citedRange></bibl></ref></note></title>   
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969 lista-manoscritti.xml#Rog-341">Сказание о струфокамиле и о хранении ума [Skazanie o strufokamile i o chranenii uma] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="204">204</citedRange> <citedRange unit="chapter">n. 15</citedRange></bibl></ref> <ref><locus type="witness">ms. RGB, Rog. 341, f. 379r</locus></ref></note></title>
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969 lista-manoscritti.xml#Sin-491">Сказание о струфокамиле и яйце его [Skazanie o strufokamile i jajce ego] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="204">204</citedRange> <citedRange unit="chapter">n. 15</citedRange></bibl></ref> <ref><locus type="witness">ms. GIM, Sin. 491, cap. 49, ff. 173r-173v</locus></ref></note></title>
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969 lista-manoscritti.xml#RGIA-834">Сказание о птице струфокамиле и о яйце ее [Skazanie o ptice strufokamile i o jajce ee] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="121">121</citedRange> <citedRange unit="chapter">n. 2</citedRange></bibl></ref> <ref><locus type="witness">ms. RGIA, f. 834, op. 2, vyp. 1, d. 1376, ff, 151r-154r</locus></ref></note></title>
+               
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Diversa redazione di Ivanov 357</note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">356</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 85</bibl>                 
+            </listBibl>
+            
+            
+            <bibl type="reference-edition" xml:id="KI">  
+               <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="220" to="220">220</biblScope>, <biblScope unit="chapter">nr. 40</biblScope> 
+               <incipit type="info-ms">Струфокамилъ животно есть, обрѣтаемо во странахъ ливиискихъ, ведикъ съ собаку, крылѣ о немъ кожаные, тѣло голо, перья нѣсть, ходитъ не лѣтаетъ, яицо его велико, бѣло зѣло и гладко [...]</incipit>
+               <explicit type="info-ms">[...] аще же по случаю которому отведетъ око свое отъ него, гниетъ и ципляти въ немъ не зачинается.</explicit>
+            </bibl> 
+            
+            
+            
+            
+            <msDesc type="reference-ms" xml:id="basic-witness-1" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>   
+               </msIdentifier>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl">
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+            </listWit>
+
+           </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date> 
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            
+            <keywords scheme="#scope">  
+               <term>Fisiologo (uovo di struzzo)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#dubium" source="lista-bibliografia.xml#Sin-1977">Dubium <note type="editorial"><ref><bibl>Sinicyna 1977 <citedRange unit="page" from="257" to="257">257</citedRange></bibl></ref></note></term>    
+               <term target="#translation" source="lista-bibliografia.xml#Iva-1969 #Iva-1976">Traduzione dal Fisiologo  <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="206" to="206">206</citedRange></bibl></ref> <ref><bibl>Ivanov 1976 <citedRange unit="page" from="167" to="167">167</citedRange></bibl></ref></note></term> 
+            </keywords>
+         </textClass>
+          
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>      
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front>
+         <p>СЛОВО О ХРАНЕНИИ УМА</p>  
+      </front>
+      
+      <body>
+         <p>Струфокамилъ животно есть, обрѣтаемо во странахъ ливиискихъ, великъ съ собаку, крылѣ о немъ кожаные, тѣло голо, перья нѣсть, ходитъ не лѣтаетъ, яицо его велико, бѣло зѣло и гладко, егоже обычаи есть церковникомъ вѣшати его въ церкви подъ паникандиломъ поучения ради, а не красоты; учатъ бо насъ тѣмъ, да всегда мысленныя очи наши, еже есть умъ нашъ, имѣимъ простерта съ прилѣжнимъ вниманиемъ къ самому сотворшему насъ преблагому Богу, аще воистину желаемъ плодовиты сотворити душа наша, а не безплодныхъ якоже птица сия положивши яицо свое противу себе неуклонно утвержаетъ къ нему око свое и зрѣниемъ своимъ непрестаннымъ плодовито творитъ е; аще же по случаю которому отведетъ око свое отъ него, гниетъ и ципляти въ немъ не зачинается.</p>
+      </body>
+      
+      
+   </text>
+</TEI>

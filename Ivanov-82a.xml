@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Переводы в других сборниках сочинений Максима Грека - Статья о Велисарии - О воеводе Велисарии [Perevody v drugich sbornikach sočinenij Maksima Greka - Stat'ja o Velisarii - O voevode Velisarii]</title>  
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Troic-200 #Troic-201">Того же Максима Грека святогорца о архистрате, еже по-руски воевода, какову ему быти во исправлении земском <note type="editorial"><ref><locus type="witness">ms. RGB, f. 304, sobr. Troice-Sergievoj lavry 200, f. 346v</locus></ref> <ref><locus type="witness">ms. RGB, f. 304, sobr. Troice-Sergievoj lavry 201, ff. 594v-595r</locus></ref></note></title>
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Diversa redazione di Ivanov 82</note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">82-a</idno>
+            </bibl>
+            
+            
+            <bibl type="reference-edition">    
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984</date></ref>: <biblScope unit="page" from="172">172</biblScope>, <biblScope unit="chapter">nr. I.6.II.Г</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#QI-219"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Q.I.219</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#385r #385v">лл. 385-385об.</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">О воеводе Велисарии</title>   <!-- 01. Inventario COLONNA i -->
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Велисареи, архистратиг, еже есть по-рускы болшыи воевода, бе убо телом прекрасен, и велик, и зело благоприступен.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Бе же и целомудрен, и всякыми добродетелми украшен.</explicit>   
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" /> 
+               <witness xml:id="T1"> 
+                  <ref target="lista-manoscritti.xml#Troic-200">РГБ, ф. 304, собр. Троице-Сергиевой лавры 200</ref>, <locus type="foliation" target="#346v">лл. 346об.</locus> 
+               </witness>
+               <witness xml:id="T2">  
+                  <ref target="lista-manoscritti.xml#Troic-201">РГБ, ф. 304, собр. Троице-Сергиевой лавры 201</ref>, <locus type="foliation" target="#594v #595r">лл. 594об.-595</locus>    
+               </witness>
+               
+            </listWit> 
+            
+            
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="B233" >Suda Β233 [= Adler 1928-1938, I: 467]</ref> 
+               </bibl> 
+            </listBibl>
+            </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">intra 1525 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="68" to="69">68-69</citedRange></bibl></ref></note></date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#scope">   
+               <term>Suda (Belisario)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#translation" source="#B233">Traduzione</term> 
+            </keywords>
+         </textClass>
+         
+        
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><anchor xml:id="v1" n="1" rend="super"/>О ВОЕВОДЕ ВЕЛИСАРИИ<anchor xml:id="c1" n="а" rend="super"/><anchor xml:id="v2" n="2" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p><metamark corresp="#B233" function="locus-Suda" rend="label-margin-left" />Велисареи, архистратиг, eжe eсть по-рускы болшыи воевода, бе убо телом прекрасен, и велик, и<anchor xml:id="v3" n="3" rend="super"/> зело благоприступен. Толико же кротка и благоприступна даяше себе приходящим<anchor xml:id="v4" n="4" rend="super"/> с жалобою, яко нищему и зело неславному мужу подобен быти мнeтися. Желание жe и любовь воеводства eго и от воин, и от селян превелиа бывааше, зане к<anchor xml:id="v5" n="5" rend="super"/> воином убо презелне дарователен бе паче всех; и бывших бо<anchor xml:id="v6" n="6" rend="super"/> в сразении уязвленых, великыми имении утешаше язвы их, храбръствовавшим же стрепты же и пселлиа<anchor xml:id="v7" n="7" rend="super"/> златая даяше; воину же погубившу<anchor xml:id="c2" n="б" rend="super"/> в бою конь, или лук, или ино что так(ово), ина въместо их от Велисариа абие ему даахуся; к селяном же толь велие пощадение и брежение являше, яко никогда же насилованым бывшим от воин, воеводствующу Велисарию. Продаваху бо вся по правде и цене; и егда цветяху сеаниа, прилежнеише съблюдаше, яко да<anchor xml:id="v8" n="8" rend="super"/> не где мимоходящь конь повредить я; овощом же <metamark function="end-page" rend="//"/><pb type="folio" n="л.385 об." rend="label-margin-left"/> на древесех сущим, коснутися им никто же отнюдь смеяше<anchor xml:id="v9" n="9" rend="super"/>. Бе же и целомудрен, и всякыми добродетелми украшен.</p>
+         </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> 
+            <listApp>
+               <head rend="super">1-2</head> 
+               <app from="#v1" to="#v2"> 
+                  <rdg wit="#Т1 #T2">Того же Максима Грека святогорца о архистратиге, еже по-руски воевода, какову ему быти во исправлении земском </rdg>
+                  <witDetail wit="#Т1">на поле почерком ХVIІІ в.: <hi rend="distinct">О Велисарии повесть</hi></witDetail>
+                  <rdg wit="#Т2">Слово 151</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <witDetail wit="#Т1 #T2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4"> 
+                  <witDetail wit="#Т1 #T2">Доб. <hi rend="distinct">к нему</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <witDetail wit="#Т1 #T2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <rdg wit="#Т1 #T2">во</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <witDetail wit="#Т1 #T2">Доб. <hi rend="distinct">протолкуется гривны да чепи</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8"> 
+                  <witDetail wit="#Т1 #T2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9"> 
+                  <rdg wit="#Т1 #T2">смеющим</rdg>
+                  <witDetail wit="#Т1 #T2">и</witDetail>
+               </app>
+            </listApp>           
+         </listApp>
+         
+         <noteGrp type="editorial-note">
+            <note target="#c1" > 
+               <label rend="super">а</label> <!-- lettera in apice -->
+               <p> На поле почерком ХVІІ в.: гла(ва) 58</p>
+            </note>
+            <note target="#c2" > 
+               <label rend="super">б</label> 
+               <p>На поле</p>
+            </note>
+         </noteGrp>
+         
+      </back>
+   </text>
+</TEI>

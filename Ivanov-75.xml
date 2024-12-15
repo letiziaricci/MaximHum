@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ivanov-75">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">1-й комплекс переводов из Свиды - О Оригене сказание [1-j kompleks perevodov iz Svidy - O Origene skazanie]</title> 
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881">Сказание о Оригенѣ. Максимо Грекъ [Skazanie o Origeně. Maksimo Grek''] <note type="editorial"><ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="495" to="495">495</citedRange></bibl></ref></note></title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Iva-1969">Повесть о Оригене [Povest' o Origene] <note type="editorial"><ref><bibl>Ivanov 1969 <citedRange unit="page" from="70" to="70">70</citedRange></bibl></ref></note></title>
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Sin-1977">Перевод Максима Грека из лексикона «Суда» - О Оригене сказание [Perevod Maksima Greka iz leksikona "Suda" - O Origene skazanie] <note type="editorial"><ref><bibl>Sinicyna 1977  <citedRange unit="page" from="254" to="254">254</citedRange></bibl></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#QI-219">Сказание о Оригене <note type="editorial"><ref><locus>ms. RNB, Q.I.219, ff. 542r-546r</locus></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Sol-495/514">Сказание о Оригене. Максимос Грек <note type="editorial"><ref><locus>ms. RNB, sobr. Soloveckogo mon. 495/514, ff. 688r-693v</locus></ref></note></title>
+            
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Ovc-131">Того же инока Максима Грека сказание о Оригене еретице <note type="editorial"><ref><locus>ms. RGB, f. 209, sobr. Ovčinnikova 131, ff. 753r-760r</locus></ref></note></title>
+            
+            <!-- OPZIONALE: quando opere che MG ha tradotto e non scritto-->
+            <respStmt>  
+               <resp>Translated by</resp> 
+               <name>Maksim Grek</name> 
+            </respStmt>
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Testo accompagnato, insieme a Ivanov 74, 76-77, dalla missiva a V.M. Tučkov Maksim Grek 2008: 349 (nr. II.16)</note>   
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> 
+               <idno type="Ivanov">75</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl"> 
+               <bibl type="rumjancevskoe-sobranie">Румянцевское собрание 56</bibl>                 
+               </listBibl>
+            
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984a</date></ref>: <biblScope unit="page" from="136" to="139">21–24</biblScope>, <biblScope unit="chapter">nr. I.1</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Rum-264"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 256, собр. Румянцева 264</msName>   </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#100r #102v">лл. 100-102об.</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">О Оригене сказание</title>  
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Ориген, иже Адамантеи наречеся, муж пресловеснеиши и во всяком философьском учении до конца научен; слышатель быв Амьмониу философу, нареченному Сакасу, иже име множаише преспеание в философии.</incipit>   
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">[...] И не бываи праведен много; есть бо праведник погыбаем в оправдании своем. И не бываи налишен мудрець, да не нечествуеши». Сих всез презрев, Ориген погрешил лепотнаго.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms"  /> 
+               
+               <witness xml:id="П2">   
+                  <ref target="lista-manoscritti.xml#QI-219">РНБ, Q.I.219</ref>, <locus type="foliation" target="#542r #546r">лл. 542-546</locus> 
+               </witness>
+               <witness xml:id="O"> 
+                  <ref target="lista-manoscritti.xml#Ovc-131">РГБ, ф. 209, собр. Овчинникова 131</ref>, <locus type="foliation" target="#753r #760r">лл. 753-760</locus>   
+               </witness>
+               <witness xml:id="C">  
+                  <ref target="lista-manoscritti.xml#Sol-495/514">РНБ, собр. Соловецкого мон. 495/514</ref>, <locus type="foliation" target="#688r #693v">лл. 688-693об.</locus>   
+               </witness> 
+               
+            </listWit> 
+            
+            <listBibl type="fontes">  
+               <bibl>
+                  <ref xml:id="Ω182-183">Suda Ω182-183 [= Adler 1928-1938, III: 616-622]</ref> 
+               </bibl> 
+            </listBibl>
+            </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">intra 1525 <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="55" to="56">55-56</citedRange> <citedRange unit="page" from="66" to="66">66</citedRange></bibl></ref></note></date>
+            <date resp="lista-bibliografia.xml#Bul-1984a">1519ca <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="72" to="72">72</citedRange> <citedRange unit="chapter">n. 69</citedRange></bibl></ref></note></date>
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Сказание</term> 
+               </keywords>
+            <keywords scheme="#scope">   
+               <term>Suda (Origene)</term> 
+               </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution">
+               <term target="#translation" source="#Ω182-183">Traduzione</term> 
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><anchor xml:id="v1" n="1" rend="super"/>О ОРИГЕНЕ СКАЗАНИЕ<anchor xml:id="c1" n="а" rend="super"/><anchor xml:id="v2" n="2" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p><metamark corresp="#Ω182" function="locus-Suda" rend="label-margin-left" />Ориген, иже<anchor xml:id="v3" n="3" rend="super"/> Адамантеи наречеся, муж пресловеснеиши и во всяком философьском учении до конца научен; слышатель быв Амьмониу философу, нареченному Сакасу, иже име множаише преспеание в философии. Тем же и в искуство словес множаишу от учителя приобрете плъзу; събеседоваше<anchor xml:id="v4" n="4" rend="super"/> выну Платону предреченыи<anchor xml:id="c2" n="б" rend="super"/> муж и прочиташе всегда<anchor xml:id="v5" n="5" rend="super"/> списаниа Нуминиева и Хрониева, Аполлофанова же и Логгинова, Модератова<anchor xml:id="v6" n="6" rend="super"/> же, и Никомаха и прочих пифагорьскых ученеиших мужь; держаше же и книгы Херимона философа стоика. И совокуплене рещи премного имеаше искуство философъскых догмат не точию еллиньскых, но и божественых наших христианскых<anchor xml:id="v7" n="7" rend="super"/>. Что убо рещи кто может о его безмала <anchor xml:id="v8" n="8" rend="super"/>безсмертном и<anchor xml:id="v9" n="9" rend="super"/> преблаженом естестве? Яко диалектикиу, и геометрию, и арифмитикиу<anchor xml:id="c3" n="в" rend="super"/>, и мусикиу, и грамматикиу, и риторикиу, и фсех философов догматы толь силне изучил, яко и рачителех<anchor xml:id="c4" n="г" rend="super"/> мирскых властеи имети слышателех и учитися всегда у него, и стечениом многым к нему бывати. О Оригене же и величестве естества<anchor xml:id="v10" n="10" rend="super"/> его память творит и Порфиреи, иже на христианех бешене неистовьствова, и глаголеть: «Образ же лепоты<anchor xml:id="v11" n="11" rend="super"/> <metamark function="end-page" rend="//"/><pb type="folio" n="л.100 об." rend="label-margin-left"/> от мужа бе, с ним же и аз велми юн сыи беседовах, иже презелне прославися, и еще прославляем бываеть ими же оставил есть списании, глаголю же Оригена, его же похвала превелиа от учителех промчася». И сия убо сведетельства о мужи от внөшных, и наипаче врагов. Сия речена суть Порфирием о Оригене в третеи книзе, списанеи ему на нас христианех; и о предивном убо учении<anchor xml:id="v12" n="12" rend="super"/> истиньствова, слъга же явъствене в прочих. В то же убо время и Александра мати, царя римьскаго, Мамеа в словесех в Антиохии<anchor xml:id="c5" n="д" rend="super"/> прииде к Оригену, и от него научена бысть словом благочестиа.</p>
+         <p><metamark corresp="#Ω183" function="locus-Suda" rend="label-margin-right" />Съи Ориген отца име Леониду, епископа бывша и мученика. Иже Ориген в Александрии пребывая, велие тщание показа в слово божие. Ему же ревнителие и ини мнози, и наипаче Амвросеи бе, иже в познание ему приити потщався, отступи прочее ереси Уалентиновы и Маркионовы. Мнози же и от внешних философов к нему приходяще, велиу плъзу приемляху; велик бо и у них мним бяше, предая им геометриу, и арифмитикиу, и прочаа философьскаа учениа. Ибо остроумен быв зело еще от детищ и<anchor xml:id="v13" n="13" rend="super"/> възыскателен велми; иже в младым еще възрасте божественых писанеи силу испытуя глубнее взыскааше, ему же престааше<anchor xml:id="v14" n="14" rend="super"/> отец, <metamark function="end-page" rend="//"/><pb type="folio" n="л.101" rend="label-margin-left"/> ничто же чрез възраста взысковати далее. В нощи же представ отець его и видев пръси<anchor xml:id="v15" n="15" rend="super"/> его, акы божественому Духу внутрь их живущу, облобызааше и о доброчадии ублажааше себе. Въздержание же и чистоту толику възлюбил от юности, яко четырми оволы точию, еже есть полуполушкы, на прокормление по вся дни удовлетися. И сие творяше на многа лета, и спяше на земли на рогозине, и мало время в нощи пребывая<anchor xml:id="v16" n="16" rend="super"/>, множае в поучение<anchor xml:id="v17" n="17" rend="super"/> священных словесех провожаше, и от сего простираяся о неспании, и неядении, и наготе себе томя, толико умертви ядръство<anchor xml:id="v18" n="18" rend="super"/>; плотьское, яко являтися конечне исъсушену<anchor xml:id="v19" n="19" rend="super"/> вина бо, и масла, и прочих снедных ошаяяся, порчу желудную велиу подъят. От сих пресловут быв, акы сияя делом и словом, и многыя еллины гнушатися идолослужение убедив, мученическым венцем венчатися сътвори.</p>
+         <p>Мнозе убо <anchor xml:id="v20" n="20" rend="super"/>славе о нем обтекающи,<anchor xml:id="v21" n="21" rend="super"/> и многым издалеча к нему стекущимся, не точию еллинех и философех и еретикох<anchor xml:id="c6" n="e" rend="super"/> словеснеиших к благоверию привлече, но самыя сущая христнаны наипаче научив, утвердил есть. Сего Оригена предреченыи Амвросеи много умолив и принудив в Кесарии, и скоропиисцов приставив ему 7 и множаиших добропиисцов, истлъковати божественаа <metamark function="end-page" rend="//"/><pb type="folio" n="л.101 об." rend="label-margin-left"/> писаниа сътворил. И Амвросеи убо нужнуу потребу житеискуу даяше обилно, он же упразнився, сказааше скорописцом, и книгописци писаху с женами ученными красно писати. Всяко же святое писание истлъкова <anchor xml:id="v22" n="22" rend="super"/>на лета 18<anchor xml:id="v23" n="23" rend="super"/>. Глаголеть же ся яко <anchor xml:id="v24" n="24" rend="super"/>300 книгы съучинил<anchor xml:id="v25" n="25" rend="super"/>; толь велиу ревность <anchor xml:id="v26" n="26" rend="super"/>к толкованию<anchor xml:id="v27" n="27" rend="super"/> божественых словес Амвросеи показа, яко<anchor xml:id="v28" n="28" rend="super"/> премногому тщанию его свидетельствуя, Ориген пишет к некоему, глаголя: «Священныи Богу и сущее угодник Амвросеи многыми умолил мя, иже непщуя друга мене быти и зело жадати божественых, изобличил есть трудолюбием своим рачение еже к учениом<anchor xml:id="v29" n="29" rend="super"/>. <anchor xml:id="v30" n="30" rend="super"/>Отнюду же толико<anchor xml:id="v31" n="31" rend="super"/> преиде мене, яко бедне недоуметися противу предложениих его; ниже бо обедати леть есть без противовъпроса, ниже бо<anchor xml:id="v32" n="32" rend="super"/> по обеде леть есть походити и покоити тело, но и в та времена нудими есме люботрудне расматривати пръвообразныя книгы. Ниже убо всю нощ леть есть нам спати на покои телеси, на много любовию словес простираяся. Оставляю глаголати и яже от утра даже до 9-го и 10 часа». Все убо божественое писание истлъкова. Но не до конца непогасна пребысть слава и похвала его; <anchor xml:id="v33" n="33" rend="super"/>случися бо<anchor xml:id="v34" n="34" rend="super"/> ему многаго искуства<anchor xml:id="v35" n="35" rend="super"/> делом падение превелие; такожде и съблазн<anchor xml:id="v36" n="36" rend="super"/> многым и погыбели виновно<anchor xml:id="v37" n="37" rend="super"/> бысть. Въсхотев бо ни едино божественое писание оставити без тлъкованиа, в беду греховнуу въвръже <metamark function="end-page" rend="//"/><pb type="folio" n="л.102" rend="label-margin-left"/> себе и смертоноснаа глаголы отрыгнул. От него бо и Ареи начяла ереси своея<anchor xml:id="v38" n="38" rend="super"/> прият и прочии богомерзкии<anchor xml:id="c7" n="ж" rend="super"/> еретики. Глаголеть бо съи дръзостно в начале, яко единородныи Сын зрети Отца не может, ниже Дух Святыи Сына, ниже аггели Духа Святого, ни человеци аггелов. И от существа отчаа не хощет быти Сыну, но твари быти и по благодати Сыну нарицатися, и ина хулениа его,<anchor xml:id="v39" n="39" rend="super"/> елика же о вере мудръствовал, всех злеиша обретаються. Умертви же и плотскаа разжежениа,<anchor xml:id="v40" n="40" rend="super"/> овы убо<anchor xml:id="v41" n="41" rend="super"/> глаголють, яко жилу отсече, да не стужает си сладостию блудною, ини җе глаголаша, яко зелие приложил есть детородным удесем и иссушил. Съи много, глаголються, пострадав за Христа, словесен сыи зело и в церкви въспитан быв, по зависти же оклеветан быв к властелем злокознением <anchor xml:id="c8" n="з" rend="super"/> диавольскаго замышлениа, <anchor xml:id="v42" n="42" rend="super"/>на студодеание мужа, глаголю,<anchor xml:id="v43" n="43" rend="super"/> замышлена<anchor xml:id="v44" n="44" rend="super"/> бывша от делателеи злобы; мурина приготовиша ему на посрамление тела его. Он же не стерпев толь гнусное замышление, испусти глас, двум предложеным <anchor xml:id="v45" n="45" rend="super"/>бывшем ему<anchor xml:id="v46" n="46" rend="super"/> вещем, и исповедал жрети пред идолом. И положивше на руку его ливан, въверже в огнь иже пред блъваном. И сице мученическыа славы погреши и церкви отгнася. Александрию же оставль за поношение, в Иудею поиде. Възшед же в Иерусалим тлъковник словеснеиши, моляху его презвитръство в съборе <metamark function="end-page" rend="//"/><pb type="folio" n="л.102 об." rend="label-margin-left"/> глаголати слово. И много понужен от иереех, въстав и сиу едину речь глаголав: «Грешнику же рече Бог: „Въскуу ты поведаеши оправданиа моя и въсприемлеши завет мои усты своими?“». И съгнув книгу, седе с плачем и слезами, всем вкупе сплачющимся ему.<anchor xml:id="v47" n="47" rend="super"/> Суть же и ина многа глаголема о нем множества ради разума его<anchor xml:id="v48" n="48" rend="super"/> и съчинениа книжняго. Его же ради и Синтактикос, еже есть списатель, наречеся, за еже премногыа книгы съучинил, не послушав, яко жө подобаше, Соломона, глаголюща: «Сыне, блюди не творити книгы многы; и не скори усты своими, и сердце да не скорит произнести слово от лица божиа, Бог бо <anchor xml:id="v49" n="49" rend="super"/>на небе<anchor xml:id="v50" n="50" rend="super"/> горе, а ты на земли долу. Сего ради да будут словеса твоя мала; суть бо словеса многа множящася<anchor xml:id="v51" n="51" rend="super"/> суетьство. И не бываи праведен много; есть бо праведник погыбаем в оправдании своем. И не бываи излишен мудрець, да не нечествуеши». Сих всех презрев, Ориген погрешил лепотнаго.<metamark function="end-page" rend="//"/><pb type="folio" n="л.103" rend="label-margin-left"/></p>
+         
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1-2</head> <!-- numero in apice -->
+               <app from="#v1" to="#v2"> 
+                  <rdg wit="#П2">Сказание о Оригене <witDetail wit="#П2">позднейшим почерком <hi rend="distinct">глава 80</hi></witDetail></rdg>
+                  <rdg wit="#С">Сказание о Оригене. Максимос Грек <witDetail wit="#С">на поле: <hi rend="distinct">глава 144</hi></witDetail></rdg>
+                  <rdg wit="#О">Того же инока Максима Грека сказание о Оригене еретице <witDetail wit="#О">на поле: <hi rend="distinct">глава 2</hi></witDetail></rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3</head> 
+               <app from="#v3">
+                  <witDetail wit="#П2 #С #О">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4</head> 
+               <app from="#v4">
+                  <witDetail wit="#П2 #С #О">Доб. <hi rend="distinct">бо</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">I</head>
+               <app from="#c2">                                   
+                  <lem wit="#П2 #C #O">предреченыи</lem>
+                  <rdg wit="#basic-witness">предреченых</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <witDetail wit="#П2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <rdg wit="#О">Домератова</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <witDetail wit="#П2 #С #О">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+                  <head rend="super">8-9</head> 
+                  <app from="#v8" to="#v9"> 
+                     <rdg wit="#О">и безсмертном</rdg>
+                     </app>
+               </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">II</head>
+               <app from="#c3">                                   
+                  <lem wit="#П2 #C #O">арифмитикиу</lem>
+                  <rdg wit="#basic-witness">арифитикиу</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">III</head>
+               <app from="#c4">                                   
+                  <lem wit="#П2 #C #O">рачителех</lem>
+                  <rdg wit="#basic-witness">рачитех</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10">
+                  <witDetail wit="#П2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11"> 
+                  <rdg wit="#П2 #C #О">без лепоты</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <witDetail wit="#П2 #С #О">Доб. <hi rend="distinct">мужа</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">IV</head>
+               <app from="#c5">                                   
+                  <lem wit="#П2 #C #O">Антиохии</lem>
+                  <rdg wit="#basic-witness">Антихии</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <witDetail wit="#О">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14"> 
+                  <rdg wit="#П2 #C #О">претяаше</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15</head> 
+               <app from="#v15"> 
+                  <rdg wit="#C">вопроси</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16"> 
+                  <rdg wit="#П2 #C #О">почивая</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17"> 
+                  <rdg wit="#О">поучениих</rdg>
+               </app>
+              </listApp>
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#v18"> 
+                  <rdg wit="#П2">дебелство</rdg>
+                  <witDetail wit="#П2"><gloss>ядрьство</gloss></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">19</head> 
+               <app from="#v19"> 
+                  <rdg wit="#О">искушену</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">20-21</head> 
+               <app from="#v20" to="#v21"> 
+                  <rdg wit="#О">убо о нем обьтекающи славе</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">V</head>
+               <app from="#c6">                                   
+                  <lem wit="#П2 #C #O">еретикох</lem>
+                  <rdg wit="#basic-witness">еретикых</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">22-23</head> 
+               <app from="#v22" to="#v23"> 
+                  <witDetail wit="#О">Испр. на <hi rend="distinct">за лета 18</hi></witDetail>
+                  <witDetail wit="#П2"><gloss>в летех 18-х</gloss></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">24-25</head> 
+               <app from="#v24" to="#v25"> 
+                  <rdg wit="#С">соучинил 300 кныгы</rdg>
+                  <rdg wit="#О">сеи учинил 300 книги</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">26-27</head> 
+               <app from="#v26" to="#v27"> 
+                  <rdg wit="#О">истолкованию</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">28</head> 
+               <app from="#v28">
+                  <witDetail wit="#П2">Доб. <hi rend="distinct">по</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">29</head> 
+               <app from="#v29"> 
+                  <rdg wit="#П2 #C">учеником</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">30-31</head> 
+               <app from="#v30" to="#v31"> 
+                  <rdg wit="#О">Толико отнюду же</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">32</head> 
+               <app from="#v32">
+                  <witDetail wit="#П2 #O">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">33-34</head> 
+               <app from="#v33" to="#v34"> 
+                  <rdg wit="#О">Случи бо ся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">35</head> 
+               <app from="#v35"> 
+                  <rdg wit="#C #О">искустна</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">36</head> 
+               <app from="#v36"> 
+                  <rdg wit="#О">соблазну</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">37</head> 
+               <app from="#v37"> 
+                  <rdg wit="#О">виновен</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">38</head> 
+               <app from="#v38"> 
+                  <witDetail wit="#O">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">VI</head>
+               <app from="#c7">                                   
+                  <lem wit="#П2 #C #O">богомерзкии</lem>
+                  <rdg wit="#basic-witness">богомезкии</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">39</head> 
+               <app from="#v39"> 
+                  <witDetail wit="#O">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">40-41</head> 
+               <app from="#v40" to="v41"> 
+                  <rdg wit="#О">убо овы <witDetail wit="#O">(испр. на <hi rend="distinct">овии</hi>) </witDetail></rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super" type="reverse-entry">VII</head>
+               <app from="#c8">                                   
+                  <lem wit="#П2 #C #O">злокознением</lem>
+                  <rdg wit="#basic-witness">Злокознени</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">42-44</head> 
+               <app from="#v42" to="#v44"> 
+                  <witDetail wit="#П2">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">43</head> 
+               <app from="#v43"> 
+                  <rdg wit="#C #О">глаголют</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">45-46</head> 
+               <app from="#v45" to="#v46"> 
+                  <rdg wit="#П2">ему бывшем</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">47</head> 
+               <app from="#v47"> 
+                  <witDetail wit="#О">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">48</head> 
+               <app from="#v48"> 
+                  <witDetail wit="#С">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">49-50</head> 
+               <app from="#v49" to="#v50"> 
+                  <rdg wit="#С #O">на небеси</rdg>
+                  <witDetail wit="#С"><gloss>на небо</gloss></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">51</head> 
+               <app from="#v51"> 
+                  <witDetail wit="#O">Испр. на <hi rend="distinct">множащая</hi></witDetail>
+               </app>
+            </listApp>
+         </listApp>
+
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1" > 
+               <label rend="super">а</label> 
+               <p>Заголовок написан рукой Максима Грека (Синицына Н. В. Максим Грек в России, с. 248).</p> 
+            </note>
+            <note target="#c2" > 
+               <label rend="super">б</label> 
+               <p>Испр. по П2 С О, в ркп. <hi rend="distinct">предреченых</hi></p> 
+            </note>
+            <note target="#c3" > 
+               <label rend="super">в</label> 
+               <p>Испр., в ркп. <hi rend="distinct">арифитикиу</hi></p> 
+            </note>
+            <note target="#c4" > 
+               <label rend="super">г</label> 
+               <p>Испр. по П2 С 0, в ркп. <hi rend="distinct">рачитех</hi></p> 
+            </note>
+            <note target="#c5" > 
+               <label rend="super">д</label> 
+               <p>Испр. по П2 С О, в ркп. <hi rend="distinct">Антихии</hi></p> 
+            </note>
+            <note target="#c6" > 
+               <label rend="super">е</label> 
+               <p>Испр. по П2 С О, в ркп. <hi rend="distinct">еретикых</hi></p> 
+            </note>
+            <note target="#c7" > 
+               <label rend="super">ж</label> 
+               <p>Испр. по П2 С О, в ркп. <hi rend="distinct">богомезкии</hi></p> 
+            </note>
+            <note target="#c8" > 
+               <label rend="super">з</label> 
+               <p>Испр. по П2 С О, в ркп. <hi rend="distinct">Злокознени</hi></p> 
+            </note>
+            </noteGrp>
+         
+         
+      </back>
+   </text>
+</TEI>

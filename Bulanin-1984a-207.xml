@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Послание неизвестному [1] [Poslanie neizvestnomu]</title>  
+            
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+
+         <notesStmt>
+            <note type="textual-relationships">Testo non catalogato in Ivanov 1969</note>  
+         </notesStmt>
+         
+         <sourceDesc>
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Bulanin-1984a">Bulanin 1984a: 207 (nr. III.8)</idno>
+            </bibl>
+            
+            
+            
+            
+            <bibl type="reference-edition">    
+               <ref target="lista-bibliografia.xml#Bul-1984a"><name>Bulanin</name>, <date>1984</date></ref>: <biblScope unit="page" from="207">207</biblScope>, <biblScope unit="chapter">nr. III.8</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+           
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Burc-25"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>БАН, ф. 1.5.97, собр. Бурц. 25</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#235v">л. 235об.</locus>   
+                     <incipit xml:lang="cu-Cyrl">Буду аз от иных которых ненавидим есмь - нечто по некоему моему невежьству се стражу.</incipit>   <!-- 01. Inventario COLONNA J -->
+                     <explicit xml:lang="cu-Cyrl">Толико молю тя, скажи мне: дошол ли тебе мои многоболезненыи труд или напрасно потекох и направих? Здравьствуи.</explicit>   <!-- 01. Inventario COLONNA K -->
+                  </msItem> 
+               </msContents>
+            </msDesc>
+           
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia.xml#Bul-1984a">Incerta <note type="editorial"><ref><bibl>Bulanin 1984a <citedRange unit="page" from="195" to="195">195</citedRange></bibl></ref></note></date>    
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>[Послание]</term> 
+               </keywords>
+         </textClass>
+         <textClass>
+            <keywords scheme="#scope">  
+               <term>Corrispondenza privata</term> 
+               </keywords>
+         </textClass>     
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#x">неизвестный / ignoto</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+
+   <text xml:lang="cu-Cyrl">
+     
+      <body>
+         <p>Буду аз от иных которых ненавидим есмь — нечто по некоему моему невежьству се стражу. Тебе же в чемь есмь коли погрубил, да толь зело недугуеши на мя? Толико молю тя, скажи мне: дошол ли тебе мои многоболезненыи труд или напрасно потекох и направих? Здравьствуи.</p>
+      </body>
+      
+      
+   </text>
+</TEI>

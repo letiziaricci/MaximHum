@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека послание къ Силивестру попу [Inoka Maksima Greka poslanie k'' Silivestru popu]</title>   
+            
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#Gol-1877 #PVK-1881 #Iva-1969 #MG-2025"><note type="editorial">Titoli concordi con il titolo editoriale in <ref><bibl>Golochvastov 1877 <citedRange unit="page" from="31" to="33">31-33</citedRange></bibl> <bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="495" to="495">495</citedRange></bibl> <bibl>Ivanov 1969 <citedRange unit="page" from="168" to="168">168</citedRange></bibl> <bibl>Maksim Grek 2025</bibl></ref></note></title>   
+
+          </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">246</idno>
+            </bibl>
+
+            
+            <bibl type="reference-edition" xml:id="KI">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografia.xml#MG-1860"><name>Maksin Grek</name>, <date>1860</date></ref>: <biblScope unit="page" from="379" to="381">379-381</biblScope>, <biblScope unit="chapter">nr. 32</biblScope>
+               <title type="info-ms" xml:lang="cu-Cyrl">Titolo presumibilmente concorde con il titolo editoriale</title>  
+               <title type="epistolary-formula" xml:lang="cu-Cyrl">Честнѣишему во иересехъ Вышняго, и всякими цвѣты добродѣтельными преукрашенному, и во искуствѣ и разумѣ богодохновенныхъ писании изящному разсудителю, господину Силвестру и благодѣтелю моему, неключимыи чернецъ онъсица, смѣя и не смѣя, много челомъ бью до земли.</title>
+               <incipit type="info-ms">Велико осуждение мню себѣ, аще утаю отъ тебе словеса нѣкая, вдохновенна мнѣ отъ Всесвятаго Духа [...]</incipit>
+               <explicit type="info-ms">[...] вѣра бо чиста и непорочна предъ Богомъ и Отцемъ, еже посѣщати сирыхъ и вдовицъ въ скорбѣхъ ихъ и прочая. Господь Богъ нашъ Иисусъ Христосъ да сохраняетъ тя всегда въ благодати своеи!</explicit>
+               </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Dubia nr. 4</biblScope>. <note>Edizione in corso di stampa</note>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Gol-1877"><name>Golochvastov</name>, <date>1877</date></ref>: <biblScope unit="page" from="31" to="33">31–33</biblScope>
+               </bibl>
+               </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness-1" corresp="lista-manoscritti.xml#Sol-494-513"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="basic-witness-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <listWit xml:lang="cu-Cyrl">
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+            </listWit>
+         </sourceDesc> 
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   <!-- 01. Inventario COLONNA L -->
+               <term>[Послание]</term> 
+               </keywords>
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Richiesta di intercessione presso lo zar per i figli di tale Nikita Borisovič</term> 
+              </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#dubium" source="#Zur-???? #MG-2025">Dubium (Artemij?) (Žurova ???; Maksim Grek 2025)</term>    <!-- 01. Inventario COLONNA N -->
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Silv">Сильвестр / Sil'vestr</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>     
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>ИНОКА МАКСИМА ГРЕКА ПОСЛАНИЕ КЪ СИЛИВЕСТРУ ПОПУ</p>  
+      </front>
+      
+      <body>
+         <p>Честнѣишему во иереехъ Вышняго, и всякими цвѣты добродѣтельными преукрашенному, и во искуствѣ и разумѣ богодохновенныхъ писании изящному разсудителю, господину Силивестру и благодѣтелю моему, неключимыи чернецъ онъсица, смѣя и не смѣя, много челомъ бью до земли. Велико осуждение мню себѣ, аще утаю отъ тебе словеса нѣкая, вдохновенна мнѣ Всесвятаго Духа, на утвержение истины сирѣчь православныя вѣры нашея христианския, и сие дерзаю, послушая стиха, глаголющаго: скрывшаго талантъ осуждение уразумѣвши, душе моя, не скрыи слово Божие, возвѣщаи чудесная его и прочая, такоже послушая восхищеннаго до третияго небесе, глаголющаго таино глагольника: <cit><quote xml:id="biblical-1">«ты убо, чадо, возмогаи о благодати, яже о Христѣ Иисусѣ, и яже слышалъ еси отъ мене многими свидѣтели, сихъ положи у вѣрныхъ человѣцехъ, иже довольни будутъ и иныхъ научити»</quote></cit>. Приими убо словеса сицева отъ мене, с любовию и, прочетъ сихъ, аще убо достохвальна явятся твоему велеумию, воздаждь хвалу просвѣтившему мя; аще же нѣгдѣ храмлютъ, исправи, молю твое велеумие, и ты мене. Аще бо Павелъ, сосудъ избранныи, возложи Петру и Иакову благовѣствование, еже проповѣдаше во языцѣхъ, хотя извѣститися, аще прямѣ проповѣдуетъ, да не како, рече, всуе теку или текохъ, множае паче азъ, ненаученныи и худоумныи, долженъ семь сицево искати разсуждение у тебе, толь многоученаго суща и къ милосердию удобь преклоняема требующимъ помощи, якоже слышу отъ всѣхъ. Сего ради и азъ, съ добрымъ упованиемъ смѣю и бью челомъ твоему благоутробию, дабы еси пожаловалъ поминалъ благовѣрному царю и самодержцу всеа Русии, о дѣтехъ покоиника Никиты Борисовича, чтобы государь умилосердился и показалъ милость къ нимъ, въ велицеи скудости и нужи живущимъ: се долгъ многъ, се три сестры, да нѣчимъ отдати ихъ. Умилосердися, Бога ради, простри руку помощи, по твоему обычному богоугодному милосердию; еи, молю тя, честнѣишии иерею, помози много скорбнѣи вдовѣ и сиротамъ ея, угаси росою благоутробия твоего горькия слезы, безпрестани изливаемы, буди вдовамъ предстатель и сиротамъ отецъ, по оному праведному многострадальцу, да не забываемъ глаголющаго таино глагольника: <cit><quote xml:id="biblical-2">вѣра бо чиста и непорочна предъ Богомъ и Отцемъ, еже поспѣщати сирыхъ и вдовицъ въ скорбѣхъ ихъ</quote></cit> и прочая. Господь Богъ нашъ Иисусъ Христосъ да сохраняетъ тя всегда въ благодати своеи!</p>
+      </body>
+      
+      <back> 
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="2Tm"><ref>(2 Тим 2, 1-2 / 2Tm 2,1-2)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Gc"><ref>(Иак 1, 27 / Gc 1,27)</ref></bibl>
+         </listBibl>
+         
+         </back>
+   </text>
+</TEI>

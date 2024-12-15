@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Того же инока Максима от Еуагелиа еже от Иоанна [Togo že inoka Maksima ot Euagelia eže ot Ioanna]</title>
+            <title type="alt" xml:lang="cu-Cyrl">Titolo concorde con il titolo editoriale in <ref target="lista-bibliografia.xml#Sin-1977">Sinicyna 1977: 232</ref></title>
+            <title type="alt" xml:lang="cu-Cyrl">Инока Максима Грека строка толкованна отъ Евангелия, еже отъ Иоанна: ни самому мню всему миру вмѣстити писуемыя книги [Inoka Maksima Greka stroka tolkovanna ot'' Evangelija, eže ot'' Ioanna: ni samomu mnju vsemu miru vměstiti pisuemyja knigi] <ref target="lista-bibliografia.xml#MG-1897 #Iva-1969">(Maksim Grek 1897: 32-35; Ivanov 1969: 173)</ref></title>  
+            <title type="alt" xml:lang="cu-Cyrl">Сказание о божественном учении, в нем же на богоборца антихристова пришествия [Skazanie o božestvennom učenii, v nem že na bogoborca antichristova prišestvija] <ref target="lista-bibliografia.xml#Sin-919">(Ivanov 1969: 173, n. 8, ms. GIM Sin. 919, cap. 16, ff. 189r-191v)</ref></title> 
+            <title type="alt" xml:lang="cu-Cyrl">Того же инока сказание от Евангелиа еже от Иоанна [Togo že inoka skazanie ot Evangelia eže ot Ioanna] <ref target="lista-bibliografia.xml#Sin-1977">(Sinicyna 1977: 243)</ref></title>    
+            <title type="alt" xml:lang="cu-Cyrl">Того же инока Максима сказание речи Иоанновы, яже «аще по единому писаны были» и проча [Togo že inoka Maksima skazanie reči Ioannovy, jaže "ašče po edinomu pisany byli" i proča] <ref target="lista-bibliografia.xml#MDA-III-138">(Maksim Grek 2014: 395, ms. RGB f. 173, MDA/III 138, ff. 188r-189v)</ref></title>
+              
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">259</idno>
+            </bibl>
+            
+            <!-- OPZIONALE: POSIZIONE NELLE RACCOLTE IOASAFSKOE, CHLUDOVSKOE E RUMJANCEVSKOE-->
+            <listBibl type="manuscript-collections" xml:lang="cu-Cyrl">
+               <bibl type="ioasafskoe-sobranie">Иоасафское собрание 28</bibl>
+               <bibl type="chludovskoe-sobranie">Хлудовское собрание 28</bibl>
+            </listBibl>
+            
+            
+            <bibl type="reference-edition">   
+               <ref target="lista-bibliografia.xml#MG-2014"><name>Maksim Grek</name>, <date>2014</date></ref>: <biblScope unit="page" from="276" to="277">276–277</biblScope>, <biblScope unit="chapter">nr. 28</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="32" to="35">32-35</biblScope>, <biblScope unit="chapter">nr. 5</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#MDA-42"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГБ, ф. 173, МДА 42</msName>   
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#292v #297v">лл. 292об.-297об. / ff. 292v-297v</locus>  
+                     <title type="info-ms" xml:lang="cu-Cyrl">Того же инока Максима от Еуагелиа еже от Иоанна</title>   
+                     <incipit type="info-ms" xml:lang="cu-Cyrl">Недоумѣются мнози, суть же иже и невѣрно мнят реченое божественымъ еуагелистом Иоанном о множьствѣ многых чюдес Въплощьшагося Бога Слова, яко «ни самому всему миру могущу вмѣстити писуемыя книгы», аще по единому писана будут Спасова чюдеса.</incipit>  
+                     <explicit type="info-ms" xml:lang="cu-Cyrl">Силу же божественыя сея рѣчи уразумѣвше, благочестивѣ прочее и благоговѣинѣ недоумѣннаа божественаго писаниа да разумѣимъ, ово убо от себе и собою взыскующе глубину священных словесъ, елико възможно есть нашеи силѣ, а еже паче ея от иных мудрѣиших учитися да не стыдимся, глаголющему божественому писанию повинующеся: «Въпроси отца твоего, и възвѣстит ти старѣиших тебе, и рекут ти». Нѣсть бо студ еже въпрошающу учитися от инѣх, но срамъ есть, еже невѣдущу мнѣти вѣдѣти.</explicit>  
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="И" /> 
+               
+               <witness xml:id="Х-Больш.">  
+                  <ref target="lista-manoscritti.xml#Bolš-285">РГБ, ф. 37, Больш. 285</ref>, <locus type="foliation" target="#24r #26v">лл. 24-26об. / ff. 24r-26v</locus>  
+               </witness>
+               <witness xml:id="А">   
+                  <ref target="lista-manoscritti.xml#MDA-III-138">РГБ, ф. 173, МДА/III 138</ref>, <locus type="foliation" target="#188r 189v">лл. 188-189об. / ff. 188r-189v</locus>  
+               </witness>
+               <witness xml:id="Л">   
+                  <ref target="lista-manoscritti.xml#Slave-123">BNF, Man. Slave 123</ref>, <locus type="foliation" target="#581r 582v">лл. 581-582об. / ff. 581r-582v</locus>  
+               </witness>
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label"> 
+               <term>[Сказание]</term> 
+            </keywords>
+            <keywords scheme="#scope">  
+               <term>Esegesi biblica</term> 
+               <term>Istruzione</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term>   
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> 
+         <p>ТОГО ЖЕ ИНОКА МКАСИМА ОТ ЕУАГЕЛИА ЕЖЕ ОТ ИОАННА<anchor xml:id="v1" n="1" rend="super"/>. 28<anchor xml:id="c1" n="а" rend="super"/></p>  
+      </front>
+      
+      <body>
+         <p>Недоумѣются мнози, суть же иже и невѣрно мнят реченое божественымъ еуагелистом Иоанном о множьствѣ многых чюдес Въплощьшагося Бога Слова, яко <cit><quote xml:id="biblical-1">«ни самому всему миру могущу вмѣстити писуемыя книгы»</quote></cit>, аще по единому писана будут Спасова чюдеса. Вѣдомо же да есть, яко къ прочим писанию обычаемъ обычаи естъ божественому писанию и съи, яко превъсходным образомъ глаголаниа показати не точию превосходя<metamark function="end-page" rend="//"/><pb type="folio" n="л. 298" rend="label-margin-left"/>щее множество божественых благотворении и богочестивых мужеи, но еще и малость их и рѣдкость. И сие явлено есть, от них же Самъ иже всѣх Съдѣтель обѣщаваеть блаженому Аврааму, глаголя: <cit><quote xml:id="biblical-2">«И будетъ сѣмя твое, яко же звѣзды небесныа, и яко же песокъ иже въскраи моря»</quote></cit>. Не яко толико всяко будеть бесчисленым числом, сие бо близ есть невѣриа, но яко премного зѣло и преизлишно и паче всякого числа человѣковъ. Тому же подобно есть и глаголемое въ 138 псалмѣ: <cit><quote xml:id="biblical-3">«Мнѣ же зѣло честни бышя друзи Твои, Боже, зѣло утвердишася владычьствиа ихъ, изъчту ихъ и паче песка умножатся»</quote></cit>, не яко излишнии сущаго по всеи вселеннѣи песка будут, но яко премнози и зѣло преизлишни будут друзи Божии, сирѣчь иже от вѣка и даже до скончаниа его угодившеи Ему. Тѣмъ же превъсходным образомъ и рѣдкость их представляетъ божественое слово, а не съврьшеное оскудѣние, в них же глаголеть: <cit><quote xml:id="biblical-4">«Вси уклонишяся, вкупѣ непотребни быша, нѣсть творяи благостыню, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 298 об." rend="label-margin-left"/> нѣсть до единого»</quote></cit>. А яко то по превъсходному образу глаголаниа речено бысть, явлено есть, зане и при семъ благовѣрном цари Давидѣ премнози были благочестивнѣ угожающии Богу въ языцѣ иудеистѣм; и свѣдѣтелие тому иже о божественом Самуилѣ ликъ пророчьскыи, такожде и по Давидѣ Илиа и Елисеи, и иже о них пророчьскыи ликъ немалъ. И о них же глаголеть Самъ Богъ къ Илии: «Оставих себѣ 7 тысущь мужеи, иже не преклонишя колѣна Ваалу», Исаиа же и Иеремиа, Амосъ же и Авдиа и Малахиа и Аввакумъ и въ преселении вавилонском Даниилъ и трие отроци, и Иезекииль и ини мнози, и въкратцѣ рещи, ни въ едином родѣ обрящеши, ища оскудѣвших до конца благочестивых, ниже в томъ богоборца антихриста губителном пришествии оскудѣють. И тогда обрѣтаются немали, иже мученичьскы оплъчатся противу богоборца твердыми оружии вѣры и любви яже въ Спаса Христа и посрамят нечестиваго в силѣ Христовѣ и мученическыми вѣнци вѣнчани будут, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 299" rend="label-margin-left"/> свѣтлѣишими древних святых мученикъ, поелико звѣривѣишему гонителю всѣхъ, иже прежде его мучителеи, противуплъчащеся горчяиших мучении потръпят. Рѣдкость убо, а не конечное оскудѣние исправляющих добродѣтель представити хотя, превъсходящимъ образом глаголаниа предреклъ есть: нѣсть творяи благостыню, нѣсть до единого, еже есть зѣло мали. Тѣм же образом божественыи еуагелистъ Иоаннъ не еже отнудь безчисленое, но премногое чюдодѣание Спаса Христа въсхотѣвъ представити намъ сицевым предивным словом списалъ есть.</p>
+         <p>Да не удивляимся убо о семъ ниже лъжуща и чрез естество словуща божественаго еуагелиста да мнимъ, чюже бо отнюдь и вражебно благочестию есть, еже лъгати и чрез естество словити. Силу же божественыя сея рѣчи уразумѣвше, благочестивѣ прочее и благоговѣинѣ недоумѣннаа божественаго писаниа да разумѣимъ, ово убо от себе и собою взыскующе глубину священных словесъ, елико възможно есть нашеи силѣ, а еже <metamark function="end-page" rend="//"/><pb type="folio" n="л. 299 об." rend="label-margin-right"/> паче ея от иных мудрѣиших учитися да не стыдимся, глаголющему божественому писанию повинующеся: <cit><quote xml:id="biblical-5">«Въпроси отца твоего, и възвѣстит ти старѣиших тебе, и рекут ти»</quote></cit>. Нѣсть бо студ еже въпрошающу учитися от инѣх, но срамъ есть, еже невѣдущу мнѣти вѣдѣти.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrl"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">1</head> 
+               <app from="#v1">
+                  <witDetail wit="#Х-Больш.">Варианты заглавия. В Х (л. 24): <hi rend="distinct">Того же инока Максима Сказание от Еуагелиа еже от Иоанна</hi>.</witDetail>
+                  <witDetail wit="#А">В ркп. А вместо зачеркнутого <hi rend="distinct">от Еуагелия еже от Иоанна</hi> вписано почерком автора: <hi rend="distinct">Сказание рѣчи еуагельскыа Иоанновы яже «аще по единому писана были», и прочаа</hi> (л. 188).</witDetail>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrl"> <!-- note alfabetiche = commenti al testo-->
+            <note target="#c1">
+               <label rend="super">а</label>
+               <p>Буквенное обозначение кин. номера главы на левом поле.</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Gv"><ref>(Ин 21, 25 / Gv 21,25)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Gen"><ref>(Быт 22, 17 / Gen 22,17)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Sal"><ref>(Пс 138, 17 / Sal 138,17)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Sal"><ref>(Пс 52, 4 / Sal 52,4)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Dt"><ref>(Втор 32, 7 / Dt 32,7)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

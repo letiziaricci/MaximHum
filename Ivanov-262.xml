@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Сказание о присносвященствѣ и о преславнѣмъ рожении единороднаго сына и слова Божия Господа нашего Иисуса Христа [Skazanie o prisnosvjaščenstvě i o preslavněm'' roženii edinorodnago syna i slova Božija Gospoda našego Iisusa Christa]</title> 
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#PVK-1881 #Iva-1969"><note type="editorial">Titolo concorde con il titolo editoriale in <ref><bibl>Porfir'ev, Vadkovskij, Krasnosel'cev 1881 <citedRange unit="page" from="495" to="495">495</citedRange></bibl> <bibl>Ivanov 1969 <citedRange unit="page" from="175" to="175">175</citedRange></bibl></ref></note></title>  
+            <title type="alt" xml:lang="cu-Cyrl" source="lista-bibliografia.xml#MG-2025">[Послание дьякону Григорию о вопросе Епифания Юродивого (Блаженного) (Poslanie d'jakonu Grigoriju o voprose Epifanija Jurodivogo [Blažennogo]) <note type="editorial"><ref><bibl>Maksim Grek 2025</bibl></ref></note>]</title>  
+            
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Francesca Romoli</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Il destinatario dell'epistola è menzionato in Ivanov 251 e condiviso con Ivanov 187 e Ivanov 309</note>  
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue">
+               <idno type="Ivanov">262</idno>
+            </bibl>
+   
+            <bibl type="reference-edition">  
+               <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="211" to="213">211-213</biblScope>, <biblScope unit="chapter">nr. 37</biblScope>
+               <incipit type="info-ms">Просиши у мене изъяснение глупаго вопроса Епифаниева и глупѣишаго отвѣта юродиваго. Негли, о Григорие! тотъ Епифанеи не слышалъ николиже Моисея Боговидда глаголющаго [...]</incipit>
+               <explicit type="info-ms">[...] да надписаниемъ именъ святыхъ учителехъ прельщаютъ простыхъ, и приемлютъ такова писаниа съ вѣрою великою; ты же трезвися и не всякому духу вѣры имѣи, но искушаи духи, аще отъ Бога суть.</explicit>
+            </bibl> 
+
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>: <biblScope unit="chapter">Posl. nr. 9</biblScope><note>Edizione in corso di stampa</note>
+               </bibl>
+            </listBibl>
+            
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-495-514"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>  
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-494-513">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>  
+               </msIdentifier>
+            </msDesc>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName>
+               </msIdentifier>
+            </msDesc>
+
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier>
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName>  
+               </msIdentifier>
+            </msDesc>
+            
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni, tanti <witness></witness> quanti sono i testimoni di controllo in 03. Inventario testimoni di controllo--> 
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               
+               <witness corresp="#b-wit-4" ana="#reference-ms" />
+            </listWit> 
+            
+             
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[incerta]</date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">  
+               <term>Сказание</term> 
+               <term>[Послание]</term> 
+            </keywords>
+            <keywords scheme="#scope">   
+               <term>Polemica religiosa</term> 
+               <term>Confutazione (arianesimo, la nascita di Cristo)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>    
+            </keywords>
+         </textClass>
+         
+         
+         <!-- OPZIONALE: se è EPISTOLA indicare il destinatario -->
+         <correspDesc> 
+            <correspAction type="sent">
+               <persName ref="#MG">Максим Грек / Maksim Grek</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Gri">Григорий / Grigorij (diacono del vescovo Akakij di Tver', cfr. Žurova 2022a: 1367)</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">
+               <p>Nell’edizione Maksim Grek 1894-18972 (1859-18621) i manoscritti sulla cui base sono stati preparati i testi sono dichiarati in una nota generica che rimanda complessivamente a quattro testimoni, ovvero i mss. RNB Sol. 494/513, 495/514, 496/515, 497/516 (cfr. Maksim Grek 1894: 16). Nell’impossibilità di ricostruire le scelte concrete a suo tempo operate dagli editori (scelta del manoscritto base, dei materiali di controllo e di eventuali lezioni varianti, inserimento di correzioni, ecc.), per i testi la cui versione digitale è stata elaborata sulla base di questa edizione, i metadati sono riferiti all’edizione. Fanno eccezione a questa regola un gruppo ristretto di testi per i quali il testimone base è dichiarato nell’edizione in maniera univoca: si tratta di Ivanov 169, 251, 294, 309 e 310, che sono tratti dal ms. RGB f. 304.I Troic. 200. In questi casi, secondo i criteri qui adottati, si offrono anche i metadati riferiti alla tradizione manoscritta.</p>    
+            </interpretation>
+         </editorialDecl>
+         
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p>СКАЗАНИЕ О ПРИСНОСВЯЩЕНСТВѢ И О ПРЕСЛАВНѢМЪ РОЖЕНИИ ЕДИНОРОДНАГО СЫНА И СЛОВА БОЖИЯ ГОСПОДА НАШЕГО ИИСУСА ХРИСТА</p>  
+      </front>
+      
+      <body>
+         <p>Просиши у мене изъяснение глупаго вопроса Епифаниева и глупѣишаго отвѣта юродиваго. Негли, о Григорие! тотъ Епифанеи не слышалъ николиже Моисея Боговидца глаголющаго: <cit><quote xml:id="biblical-1">«въ началѣ сотвори Богъ небо и землю»</quote></cit>, ни Давида глаголющаго: <cit><quote xml:id="biblical-2">«въ началѣ Ты, Господи, землю основалъ, и дѣла рукъ твоихъ суть небеса»</quote></cit>, ни Павла слышалъ глаголющаго: <cit><quote xml:id="biblical-3">«многочастнѣ и многообразнѣ»</quote></cit> и прочая, даже пониже глаголетъ о Сынѣ и Словѣ Божии: имъ же и вѣки сотвори, иже есть сияние славы отчая и начертание ипостаси его и прочая вѣдома. Такожде и отвѣтъ юродиваго неискусенъ отнюдъ, да не глаголю хульникъ, стыжюбося святости его. Аще бо вѣрилъ бы твердѣ глаголющаго богословца Иоанна: <cit><quote xml:id="biblical-4">«въ началѣ бѣ Слово и Слово бѣ къ Богу и Богъ бѣ Слово»</quote></cit>, се бѣ въ началѣ къ Богу сирѣчь у Бога, не бы убо дерзнулъ рещи, яко преже пѣвцы невеществении абие предсташа; таже слово, еже первѣе реклъ и изведе отъ мысленыхъ своихъ огненныхъ устъ, мы же учимся всѣми святыми писании, что безначаленъ Отецъ, безначаленъ Сынъ, безначаленъ Духъ Святыи, и не три безначалнии Бози, но единъ Богъ безначаленъ и иже есть святая Троица раздѣляема треми ипостасми, или лицы, соединяема же существомъ, таже сущи единои трое, никогда же бѣ Отецъ безъ Слова и Духа Свята, ни Слово безъ Отца, ни Духъ Святыи безъ искущателя: выну Отецъ, выну и Сынъ его, выну и Святыи Духъ, выну Святая Троица; Троица бѣ и есть и будетъ. А кто говоритъ, что опослѣ родился Сынъ отъ Отца преже всѣхъ вѣкъ на сотворение бесплотныхъ силъ небесныхъ, то со Ариемъ сотворена Сына мудрствуетъ и тварь, а не творца, и Троицу на два естества чюжа раздѣляетъ на несотворено и сотворено существо. И аще не собезначаленъ Отцу и Святому Духу Сынъ и Слово Божие, да престанемъ прочее пѣти въ соборнѣи церкви: собезначальное слово Отцу и Духови, еже отъ Дѣвы рождьшееся, ни да глаголемъ: Господи, еже отъ Отца твое рожество безлѣтно есть и присносущно. Не внимаи убо такимъ хульнымъ учениемъ, не восхищаися самномъ списавшаго и учившаго такова хульна, но разсужаи я прямо, аще согласна суть православнымъ апостольскимъ и отеческимъ догматомъ, мнози бо развратнии списатели пишутъ словеса лестьна прекраснымъ глаголаниемъ земскиа премудрости, и наричютъ я великому Василию, или Афанасию, или Златоусту, да надписаниемъ именъ святыхъ учителехъ прельщаютъ простыхъ, и приемлютъ такова писаниа съ вѣрою великою; ты же трезвися и не всякому духу вѣры имѣи, но искушаи духи, аще отъ Бога суть.   
+      </p>   
+      </body>
+      
+      <back> 
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Gen"><ref>(Быт 1, 1 / Gen 1,1)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Sal"><ref>(Пс 101, 26 / Sal 101,26)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Eb"><ref>(Евр 1, 1 / Eb 1,1)</ref></bibl>
+            <bibl corresp="#biblical-4" type="Gv"><ref>(Ин 1, 1 / Gv 1,1)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>

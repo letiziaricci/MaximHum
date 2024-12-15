@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrl">Инока Максима Грека о пришельцахъ философѣхъ [Inoka Maksima Greka o prišel'cach'' filosofěch'']</title>  
+            <title type="alt" xml:lang="cu-Cyrl">Titolo concorde con il titolo editoriale in <ref target="lista-bibliografia.xml#Iva-1969">Ivanov 1969: 103</ref>; <ref target="lista-bibliografia.xml#MG-2025">[Maksim Grek 2025]</ref></title>  
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- OPZIONALE: "relazioni testuali" colonna C inventario, quando presente il campo -->
+         <notesStmt>
+            <note type="textual-relationships">Testo di accompagnamento a Ivanov 126 e Ivanov 127</note>   <!-- 01. Inventario COLONNA C -->
+         </notesStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">125</idno>
+            </bibl>        
+            
+            <bibl type="reference-edition" xml:id="KI">   
+               <ref target="lista-bibliografia.xml#MG-1897"><name>Maksim Grek</name>, <date>1897</date></ref>: <biblScope unit="page" from="231" to="232">231–232</biblScope>, <biblScope unit="chapter">nr. 51</biblScope>   
+               <incipit type="info-ms" xml:lang="cu-Cyrl">Понеже мнози обходятъ грады и земли овы убо куплею, овы же художествомъ всякимъ и ремествомъ, ини же и книжнымъ искуствомъ, или греческимъ или латынскимъ [...]</incipit>  
+               <explicit type="info-ms" xml:lang="cu-Cyrl">[...] нѣсть бо похвально ниже праведно, но ни полезно земли вашеи, якоже и Омиръ глаголетъ премудрыи законополагая страннолюбию: лѣпо есть, рече, любити гостя у насъ живуща, а хотяща отъити пустити.</explicit> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Vos-1842"><name>Vostokov</name>, <date>1842</date></ref>: <biblScope unit="page" from="377" to="378">377-378</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Vos-1860"><name>Vostokov</name>, <date>1860</date></ref>: <biblScope unit="page" from="225" to="226">225-226</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#Jag-1895"><name>Jagić</name>, <date>1895</date></ref>: <biblScope unit="page" from="591" to="592">591-592</biblScope>
+               </bibl>
+               <bibl>
+                  <ref target="lista-bibliografia.xml#MG-2025"><name>Maksim Grek</name>, <date>2025</date></ref>:<biblScope unit="chapter">Chlud. nr. 7</biblScope>
+               </bibl>
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="b-wit-1" corresp="lista-manoscritti.xml#Sol-494-513">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 494/513 [307/494]</msName>  
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-2" corresp="lista-manoscritti.xml#Sol-495-514">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 495/514 [308/495]</msName>   
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-3" corresp="lista-manoscritti.xml#Sol-496-515">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 496/515 [309/496]</msName> 
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="reference-ms" xml:id="b-wit-4" corresp="lista-manoscritti.xml#Sol-497-516">
+               <msIdentifier> 
+                  <msName>РНБ, Сол. 497/516 [310/497]</msName> 
+               </msIdentifier>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrl"> <!-- lista dei testimoni--> 
+               <witness corresp="#b-wit-1" ana="#reference-ms" />
+               <witness corresp="#b-wit-2" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />
+               <witness corresp="#b-wit-3" ana="#reference-ms" />      
+            </listWit>
+           
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date>[Post 1531]</date>  
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass>
+            <keywords scheme="#scope">   
+               <term>Istruzione</term> 
+               <term>Correzione (il rispetto della libertà dell'ospite)</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> 
+               <term target="#original">Testo originale</term> 
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+         <editorialDecl>
+            <interpretation corresp="#b-wit-1 #b-wit-2  #b-wit-3 #b-wit-4">       
+               <p> all’interno del p inseriremo un contenuto testuale predefinito</p>         
+            </interpretation>
+         </editorialDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <text xml:lang="cu-Cyrl">
+      <front> 
+         <p>ИНОКА МАКСИМА ГРЕКА О ПРИШЕЛЬЦАХЪ ФИЛОСОФѢХЪ</p>  
+      </front>
+      
+      <body>
+         <p>Понеже мнози обходятъ грады и земли овы убо куплею, овы же художествомъ  всякимъ и ремествомъ, ини же и книжнымъ искуствомъ, или греческимъ или латынскимъ, еже есть римскимъ, и овы убо совершени суть, овы же исполу, ини   же и отнюдъ не вкусивше художнаго вѣдѣния книжнаго, рекше грамотиискаго и риторскаго и прочихъ чюдныхъ учительствъ еллинскихъ, обаче хвалятся вѣдѣти вся, корыстовати желающе и кормыхатися, праведно разсудихъ оставити вамъ господамъ моимъ мало срокъ, списанныхъ мною еллинскимъ образомъ мудрымъ на  искушение всякого, хвалящагося. Аще нѣкто по моемъ умертвии будетъ нѣкто пришедъ къ вамъ, иже аще возможетъ превести вамъ срокъ тѣхъ, по моему преводу, имите вѣры ему, добръ есть и искусенъ, аще ли не умѣетъ совершенно превести,  по моему преводу, не имите вѣры ему, хоти и  тмами хвалится, и первѣе вопросите его, коею мѣрою сложени суть сроки тии, и аще речетъ: ироискою и елегиискои мѣрою, истиненъ есть; аще рцыте ему: коликими ногами обоя мѣра совершается? и  аще отвѣщаетъ, глаголя: яко ироиска убо шестию, а елегииска пятию, ничтоже прочее сомнитеся о немъ, предобръ есть, приимите его съ любовию и честию и, елико время у васъ жити произволяетъ, жалуите его нещадно, и егда же хощетъ возвратитися во свояси, отпустите его съ миромъ, а силою не держите у себе таковыхъ; нѣсть бо похвально ниже праведно, но ни полезно земли вашеи, якоже и Омиръ глаголетъ премудрыи законополагая страннолюбию: лѣпо есть, рече, любити гостя у насъ живуща, а хотяща отъити пустити.</p>
+      </body>
+      
+      <back>   
+         
+         <noteGrp type="general-note">
+            <note n="1">
+               <p>Статья эта есть предисловие къ греческимъ стихамъ, переводы которыхъ составляютъ обѣ слѣдующия за нею статьи: «о томъ, како подобаетъ входити во святыя божия храмы».</p>
+            </note>
+         </noteGrp>
+         
+      </back>
+   </text>
+</TEI>
